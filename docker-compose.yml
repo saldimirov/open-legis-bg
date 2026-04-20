@@ -19,5 +19,17 @@ services:
       timeout: 3s
       retries: 5
 
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://openlegis:openlegis@postgres:5432/openlegis
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - default
+
 volumes:
   postgres_data:
