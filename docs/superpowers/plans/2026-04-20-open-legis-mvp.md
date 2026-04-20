@@ -2530,9 +2530,9 @@ git commit -m "feat: new-fixture scaffolder"
 ### Task 19: Author fixture — Конституция 1991 (KRB)
 
 **Files:**
-- Create: `fixtures/akn/konstitutsiya/1991/krb/expressions/1991-07-13.bul.xml`
+- Create: `fixtures/akn/konstitutsiya/1991/krb/expressions/<cutoff>.bul.xml`
 
-Scope note: the Constitution has 169 articles. Authoring all of them in plain text is a human task of several hours. This task sets up the **skeleton** that loads, validates, and exposes a stable ELI; a small number of articles are authored so the API can be demoed. The remaining articles are marked `<heading>TODO</heading>` and `<p>TODO</p>` so they're obviously placeholders, and a follow-up ticket tracks completing them. Every article still has a unique `eId` so references work.
+Source policy — **ship one expression per act, current consolidated text from primary state sources only.** Source for the Constitution: parliament.bg (the National Assembly site publishes the full text of the Constitution plus its amending ЗИДКРБ references). Fallback: `https://justice.government.bg/home/normdoc/521957377` (ldoc ID per research). Use the `<expression_date>` in the filename to match the most-recent ДВ amendment listed in the source preamble.
 
 - [ ] **Step 1: Scaffold**
 
@@ -2548,28 +2548,15 @@ uv run open-legis new-fixture \
 
 Expected: `fixtures/akn/konstitutsiya/1991/krb/expressions/1991-07-13.bul.xml` created.
 
-- [ ] **Step 2: Fill in the body**
+- [ ] **Step 2: Fill in the body — fetch real text from the state source**
 
-Edit the file. The `<body>` should contain: Preamble (as a preface block), 10 главы, 169 articles. For this fixture, author:
+Use WebFetch to pull the Constitution text, in pages if needed. Author the full AKN `<body>` with every article present:
+- Preamble in `<preface>`
+- 10 chapters (`<chapter eId="chapter_I">` … `chapter_X`) with headings per Constitution structure
+- All 169 articles, each with its real text, real `<num>`, real `<heading>`, proper `<paragraph>` subdivisions where the source text has алинеи
+- Transitional / final provisions (ПЗР) under `<hcontainer name="transitional">` if present in the source
 
-- The preamble text verbatim (from ДВ бр. 56/1991, publicly available).
-- Articles 1–10 fully (complete text, proper `<paragraph>` subdivisions).
-- Remaining articles as empty skeletons with real `eId`s (`art_11` … `art_169`) and `<heading>TODO — author article</heading>`; each article with a single `<paragraph eId="art_N__para_1"><content><p>TODO</p></content></paragraph>`.
-
-Chapter grouping (use `<chapter eId="chapter_I">` etc.) per Constitution structure:
-
-- I. Основни начала — art_1–art_24
-- II. Основни права и задължения — art_25–art_61
-- III. Народно събрание — art_62–art_86
-- IV. Президент — art_92–art_104
-- V. Министерски съвет — art_105–art_116
-- VI. Съдебна власт — art_117–art_134
-- VII. Местно самоуправление — art_135–art_146
-- VIII. Конституционен съд — art_147–art_152
-- IX. Изменение на Конституцията — art_153–art_163
-- X. Герб, печат, знаме, химн, столица — art_164–art_169
-
-Source for text: DV бр. 56/1991 PDF on `dv.parliament.bg`. Cross-check wording only — do not copy from lex.bg.
+**No TODO placeholders.** If WebFetch truncates on long responses, fetch per chapter or per article range.
 
 - [ ] **Step 3: Validate**
 
@@ -2601,30 +2588,31 @@ git commit -m "fixtures: Конституция 1991 (skeleton; arts 1-10 fully 
 ### Task 20: Author fixture — Наказателен кодекс 1968 (NK), current consolidated
 
 **Files:**
-- Create: `fixtures/akn/kodeks/1968/nk/expressions/2024-01-01.bul.xml`
+- Create: `fixtures/akn/kodeks/1968/nk/expressions/<cutoff>.bul.xml`
+
+**Source: `https://justice.government.bg/home/normdoc/1589654529` (state-hosted, current through ДВ бр. 32/2026 as of plan date).**
 
 - [ ] **Step 1: Scaffold**
 
-Run:
+Determine the exact most-recent ДВ issue/date from the source's preamble (use WebFetch once to read it). Use that date as `<cutoff>` in ISO form. Example:
 
 ```
 uv run open-legis new-fixture \
   --type kodeks --slug nk --year 1968 \
-  --date 2024-01-01 --lang bul \
+  --date 2026-04-01 --lang bul \
   --title "Наказателен кодекс" \
   --dv-broy 26
 ```
 
-- [ ] **Step 2: Fill in body**
+- [ ] **Step 2: Fetch full text and author complete AKN body**
 
-НК has two parts (Обща и Особена част), each with дялове → глави → раздели → членове. Author:
+НК has two parts (Обща и Особена част), each structured as дялове → глави → раздели → членове. WebFetch the source page in segments (it's long — paginate by chapter range if needed). Author the full body:
 
-- Structure: full hierarchy (`<part>`, `<title>`, `<chapter>`, `<section>`, `<article>`) with proper `eId`s. Use AKN `<hcontainer name="dyal">` for "дял" since AKN lacks a direct map.
-- Articles 1–10 fully (general principles — short, important).
-- Every other article as TODO-skeleton (`<heading>TODO</heading>`, single TODO paragraph, real `eId`).
-- Transitional provisions (ПЗР) as `<hcontainer name="transitional">`.
+- Structure: full real hierarchy with proper `eId`s. Use `<part eId="part_1">` + `<part eId="part_2">` for Обща/Особена. Use AKN `<hcontainer name="dyal">` for "дял" (AKN lacks a direct mapping). `<chapter>`, `<section>`, `<article>` as normal.
+- All articles, not a skeleton — every article with real text, real `<num>`, real `<heading>`, `<paragraph>` subdivisions matching the source.
+- ПЗР as `<hcontainer name="transitional">`.
 
-Commit message must cite the consolidation baseline: "НК as in force 2024-01-01, consolidating through ДВ бр. 84/2023".
+Cite the consolidation baseline in the commit message.
 
 - [ ] **Step 3: Validate (as in Task 19 Step 3 with the NK path)**
 
@@ -2632,90 +2620,114 @@ Commit message must cite the consolidation baseline: "НК as in force 2024-01-0
 
 ```
 git add fixtures/akn/kodeks/1968/nk/
-git commit -m "fixtures: НК 2024-01-01 (skeleton consolidated; arts 1-10 authored)
+git commit -m "fixtures: Наказателен кодекс, current consolidated
 
-Consolidated through ДВ бр. 84/2023."
+Source: justice.government.bg/home/normdoc/1589654529
+Consolidated through ДВ бр. <broy>/<year> (per source preamble)."
 ```
 
 ---
 
-### Task 21: Author fixture — ЗЗД two expressions (1950 adoption, 2021-06-01 and 2024-01-01 consolidated)
+### Task 21: Author fixture — ЗЗД (single expression, stale but honest)
 
 **Files:**
-- Create: `fixtures/akn/zakon/1950/zzd/expressions/2021-06-01.bul.xml`
-- Create: `fixtures/akn/zakon/1950/zzd/expressions/2024-01-01.bul.xml`
+- Create: `fixtures/akn/zakon/1950/zzd/expressions/2021-04-27.bul.xml`
 
-- [ ] **Step 1: Scaffold both expressions**
+**Source: `https://justice.government.bg/home/normdoc/2121934337` (state-hosted). KNOWN LIMITATION: this state source is stale — it ends at ДВ 35/2021 (April 2021). Six ЗИДs from 2022–2024 are NOT incorporated. Ship as-is; label honestly; track post-2021 amendments as a future ticket.**
+
+- [ ] **Step 1: Scaffold**
 
 ```
 uv run open-legis new-fixture \
   --type zakon --slug zzd --year 1950 \
-  --date 2021-06-01 --lang bul \
-  --title "Закон за задълженията и договорите" \
-  --dv-broy 275
-
-uv run open-legis new-fixture \
-  --type zakon --slug zzd --year 1950 \
-  --date 2024-01-01 --lang bul \
+  --date 2021-04-27 --lang bul \
   --title "Закон за задълженията и договорите" \
   --dv-broy 275
 ```
 
-- [ ] **Step 2: Fill in both bodies, with deliberate textual divergence**
+- [ ] **Step 2: Fetch full text and author complete AKN body**
 
-ЗЗД has ~442 articles grouped into глави → раздели.
+ЗЗД has ~291 articles (some earlier ones are marked *(Отм.)* — repealed — with no text) grouped into глави → раздели. WebFetch from the source URL (paginate as needed). Author the full real body:
+- Real hierarchy (`<chapter>`, `<section>`, `<article>`, `<paragraph>`)
+- All articles with real text, including the **repealed** markers like `(Отм. - ДВ, бр. 12 от 1993 г.)` in `<heading>` or as leading content
+- ПЗР as `<hcontainer name="transitional">` if present
 
-- Full structure with real `eId`s in both files.
-- **Author at least three articles with actually different wording between 2021-06-01 and 2024-01-01** so point-in-time queries can prove they return different text. Good candidates: any article amended by ЗИД ДВ бр. 8/2024 (check the ДВ PDF). Document the difference in the commit message.
-- All other articles TODO-skeleton.
-
-- [ ] **Step 3: Validate both files**
+- [ ] **Step 3: Validate**
 
 - [ ] **Step 4: Commit**
 
 ```
 git add fixtures/akn/zakon/1950/zzd/
-git commit -m "fixtures: ЗЗД expressions 2021-06-01 and 2024-01-01
+git commit -m "fixtures: ЗЗД consolidated through ДВ 35/2021
 
-Three articles differ between the two expressions to exercise
-point-in-time queries."
+Source: justice.government.bg/home/normdoc/2121934337
+Known limitation: the state source is stale. Amendments 2022-2024
+(ДВ 62/2022, 84/2023, 86/2023, 88/2023, 105/2023, 108/2023, 11/2024)
+are NOT incorporated. Tracked in issue #1.
+"
 ```
+
+- [ ] **Step 5: Add a placeholder `CORRECTIONS.md` noting the ЗЗД limitation**
+
+Create `CORRECTIONS.md` at repo root:
+
+```
+# Corrections log
+
+## Known limitations
+
+### ЗЗД consolidation is stale (through ДВ 35/2021 only)
+
+The state source justice.government.bg serves ЗЗД consolidated only through
+ДВ бр. 35/2021. Six subsequent ЗИДs (2022-2024) are not incorporated:
+
+- ДВ бр. 62/2022
+- ДВ бр. 84/2023
+- ДВ бр. 86/2023
+- ДВ бр. 88/2023
+- ДВ бр. 105/2023
+- ДВ бр. 108/2023
+- ДВ бр. 11/2024
+
+Applying these amendments to the baseline is tracked as an open task and
+will be done manually, citing each amending ЗИД from dv.parliament.bg.
+```
+
+Then: `git add CORRECTIONS.md && git commit -m "docs: note ЗЗД consolidation lag in CORRECTIONS.md"`
 
 ---
 
 ### Task 22: Author fixture — ЗИД енергетика 2025 and Наредба 15/2019
 
 **Files:**
-- Create: `fixtures/akn/zakon/2025/dv-67-25/expressions/2025-08-15.bul.xml`
-- Create: `fixtures/akn/naredba/2019/dv-61-19/expressions/2025-08-15.bul.xml`
+- Create: `fixtures/akn/zakon/2025/dv-67-25/expressions/<cutoff>.bul.xml`
+- Create: `fixtures/akn/naredba/2019/dv-61-19/expressions/<cutoff>.bul.xml`
 
-- [ ] **Step 1: Scaffold and author ЗИД**
+- [ ] **Step 1: Scaffold and author ЗИД — real text from parliament.bg**
+
+Primary source: `https://www.parliament.bg/bg/bills/ID/166488` (bill page for the ЗИД on Закона за енергетиката, per research). The ЗИД body is published as a sequence of numbered modification sections (§ 1, § 2 …). Use `<hcontainer name="modification">` for each §. WebFetch the bill page; the attached PDF may be at `parliament.bg/bills/{NS}/{doc-no}.pdf`. Author all modification sections from the real text, including the target-act references.
 
 ```
 uv run open-legis new-fixture \
   --type zakon --slug dv-67-25 --year 2025 \
-  --date 2025-08-15 --lang bul \
+  --date <cutoff> --lang bul \
   --title "Закон за изменение и допълнение на Закона за енергетиката" \
   --dv-broy 67
 ```
 
-The ЗИД body is a sequence of numbered modification sections. Use `<hcontainer name="modification">` for each §. Each modification should identify: the target act (ELI reference), the affected eId, and the new wording. This is the fixture that exercises the amendment-edge model, so make at least 3 modification sections.
+- [ ] **Step 2: Scaffold and author Наредба — real text from dv.parliament.bg**
 
-- [ ] **Step 2: Scaffold and author Наредба**
+Primary source: `https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=236729` (per research; Наредба № 15/2019, latest amendment ДВ бр. 67/2025). The DV per-item page links to a PDF at `https://dv.parliament.bg/DVPics/{YYYY}/{issue}_{yy}/{seq}.pdf`. WebFetch either the per-item page or the linked PDF. Author the full structure (глави → раздели → членове) with real article text.
 
 ```
 uv run open-legis new-fixture \
   --type naredba --slug dv-61-19 --year 2019 \
-  --date 2025-08-15 --lang bul \
+  --date <cutoff> --lang bul \
   --title "Наредба № 15 от 2019 г. за статута и професионалното развитие на педагогическите специалисти" \
   --dv-broy 61
 ```
 
-Naredba issued by МОН. Author:
-- Structure (глави → раздели → членове)
-- Articles 1–5 fully
-- Rest TODO
-- Issuer: use `<TLCOrganization eId="mon" showAs="Министерство на образованието и науката"/>` and update `#parliament` references accordingly
+Issuer is МОН, not Народно събрание. Use `<TLCOrganization eId="mon" showAs="Министерство на образованието и науката"/>` in the `<references>` block and update the `<FRBRauthor href="#mon"/>` references accordingly.
 
 - [ ] **Step 3: Validate both**
 
@@ -2723,7 +2735,11 @@ Naredba issued by МОН. Author:
 
 ```
 git add fixtures/akn/zakon/2025/ fixtures/akn/naredba/2019/
-git commit -m "fixtures: ЗИД енергетика 2025 + Наредба 15/2019 (skeletons)"
+git commit -m "fixtures: ЗИД енергетика 2025 + Наредба 15/2019, full real text
+
+Sources:
+- parliament.bg/bg/bills/ID/166488 (ЗИД)
+- dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=236729 (Наредба)"
 ```
 
 ---
@@ -5173,42 +5189,99 @@ git commit -m "test: per-format golden snapshots for ЗЗД art_1"
 
 ---
 
-### Task 40: Point-in-time proof test
+### Task 40: Point-in-time proof test (synthetic fixtures)
 
 **Files:**
 - Create: `tests/test_point_in_time.py`
 
-- [ ] **Step 1: Write the proof test**
+The MVP ships one expression per real fixture (see Tasks 19–22), so point-in-time
+is verified using a *synthetic* in-test setup — load two expressions of the same
+test work at different dates and assert resolution picks the right one.
+
+- [ ] **Step 1: Write the test**
 
 ```python
-def test_zzd_art_differs_between_2021_and_2024(real_client):
-    # Requires that at least one article was authored with different
-    # wording in the two expressions (Task 21 Step 2 commits to this).
-    r21 = real_client.get("/eli/bg/zakon/1950/zzd/2021-06-01/bul/art_45")
-    r24 = real_client.get("/eli/bg/zakon/1950/zzd/2024-01-01/bul/art_45")
-    assert r21.status_code == 200
-    assert r24.status_code == 200
-    t21 = r21.json()["element"]["text"] or ""
-    t24 = r24.json()["element"]["text"] or ""
-    assert t21 != t24, (
-        "Point-in-time test failed: ЗЗД art_45 text is identical between "
-        "2021-06-01 and 2024-01-01 expressions. Update Task 21 fixtures to "
-        "introduce a real divergence."
-    )
-```
+from pathlib import Path
 
-The test depends on the `real_client` fixture from Task 39.
+import pytest
+from fastapi.testclient import TestClient
+
+from open_legis.api.app import create_app
+from open_legis.loader.cli import load_directory
+from open_legis.model import schema as m
+from open_legis.model.db import make_engine
+
+
+@pytest.fixture
+def pit_client(pg_url, tmp_path, monkeypatch):
+    """Load two expressions of the same act at different dates."""
+    monkeypatch.setenv("DATABASE_URL", pg_url)
+    eng = make_engine(pg_url)
+    m.Base.metadata.drop_all(eng)
+    m.Base.metadata.create_all(eng)
+    with eng.begin() as c:
+        c.exec_driver_sql("CREATE EXTENSION IF NOT EXISTS ltree")
+        c.exec_driver_sql("ALTER TABLE element ADD COLUMN IF NOT EXISTS path ltree")
+        c.exec_driver_sql(
+            "ALTER TABLE element ADD COLUMN IF NOT EXISTS tsv tsvector "
+            "GENERATED ALWAYS AS (to_tsvector('simple', coalesce(text,''))) STORED"
+        )
+
+    base_xml = Path("tests/data/minimal_act.xml").read_text()
+    expr_dir = tmp_path / "fixtures" / "akn" / "zakon" / "2000" / "test" / "expressions"
+    expr_dir.mkdir(parents=True)
+
+    # v1: "wording ONE"
+    v1 = base_xml.replace("Това е първа алинея.", "Wording ONE (as of 2000-01-01).")
+    v1 = v1.replace("bul@2000-01-01", "bul@2000-01-01")
+    (expr_dir / "2000-01-01.bul.xml").write_text(v1)
+
+    # v2: "wording TWO" at a later expression date
+    v2 = base_xml.replace("Това е първа алинея.", "Wording TWO (as of 2005-01-01).")
+    v2 = v2.replace("date=\"2000-01-01\"", "date=\"2005-01-01\"")
+    v2 = v2.replace("bul@2000-01-01", "bul@2005-01-01")
+    (expr_dir / "2005-01-01.bul.xml").write_text(v2)
+
+    load_directory(tmp_path / "fixtures" / "akn", engine=eng)
+    yield TestClient(create_app())
+    eng.dispose()
+
+
+def test_point_in_time_returns_different_text(pit_client):
+    r1 = pit_client.get("/eli/bg/zakon/2000/test/2000-01-01/bul/art_1/para_1")
+    r2 = pit_client.get("/eli/bg/zakon/2000/test/2005-01-01/bul/art_1/para_1")
+    assert r1.status_code == 200
+    assert r2.status_code == 200
+    t1 = r1.json()["element"]["text"] or ""
+    t2 = r2.json()["element"]["text"] or ""
+    assert "ONE" in t1
+    assert "TWO" in t2
+    assert t1 != t2
+
+
+def test_latest_resolves_to_most_recent(pit_client):
+    r = pit_client.get("/eli/bg/zakon/2000/test/latest/bul/art_1/para_1")
+    assert r.status_code == 200
+    assert "TWO" in (r.json()["element"]["text"] or "")
+
+
+def test_midpoint_date_resolves_to_earlier_expression(pit_client):
+    # Date between the two expressions resolves to the greatest ≤ request date.
+    r = pit_client.get("/eli/bg/zakon/2000/test/2002-06-15/bul/art_1/para_1")
+    assert r.status_code == 200
+    assert "ONE" in (r.json()["element"]["text"] or "")
+```
 
 - [ ] **Step 2: Run test**
 
 Run: `uv run pytest tests/test_point_in_time.py -v`
-Expected: PASS (if ЗЗД was authored with a real divergence at `art_45`). If not, update the fixture and re-run.
+Expected: all three tests PASS.
 
 - [ ] **Step 3: Commit**
 
 ```
 git add tests/test_point_in_time.py
-git commit -m "test: point-in-time divergence proof on ЗЗД art_45"
+git commit -m "test: point-in-time resolution with synthetic two-expression fixture"
 ```
 
 ---
