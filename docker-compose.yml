@@ -5,7 +5,10 @@ services:
       POSTGRES_USER: openlegis
       POSTGRES_PASSWORD: openlegis
       POSTGRES_DB: openlegis
-      POSTGRES_INITDB_ARGS: "--locale=bg_BG.UTF-8 --encoding=UTF8"
+      # Server locale is C/POSIX; Bulgarian text is handled at the
+      # application layer via the `bulgarian` snowball tsvector config.
+      # postgres:16-alpine doesn't ship full locale data, so we do not
+      # request a specific locale at initdb time.
     ports:
       - "5432:5432"
     volumes:
