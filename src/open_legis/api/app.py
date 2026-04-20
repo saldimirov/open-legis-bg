@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+from open_legis.api.routes_eli import router as eli_router
 from open_legis.api.routes_meta import router as meta_router
 
 
@@ -14,4 +15,5 @@ def create_app() -> FastAPI:
         version="0.1.0",
     )
     app.include_router(meta_router)
+    app.include_router(eli_router)
     return app
