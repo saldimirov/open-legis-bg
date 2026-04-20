@@ -6,7 +6,16 @@ app = typer.Typer(help="open-legis — tools for the Bulgarian legislation datab
 @app.command()
 def load(path: str = typer.Argument("fixtures/akn", help="Path to fixtures directory")) -> None:
     """Load fixtures into the database."""
-    typer.echo(f"stub: would load {path}")
+    from pathlib import Path
+
+    from open_legis.loader.cli import load_directory
+    from open_legis.model.db import make_engine
+    from open_legis.settings import Settings
+
+    settings = Settings()
+    engine = make_engine(settings.database_url)
+    load_directory(Path(path), engine=engine)
+    typer.echo(f"loaded {path}")
 
 
 @app.command()
