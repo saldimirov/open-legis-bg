@@ -21,6 +21,11 @@ def load_directory(root: Path, engine: Engine) -> None:
         _populate_paths(session)
         session.commit()
 
+    relations_dir = Path(root) / "relations"
+    if relations_dir.exists():
+        from open_legis.loader.relations import load_relations
+        load_relations(relations_dir, engine=engine)
+
 
 def _upsert(session: Session, p: ParsedAkn) -> None:
     work = session.scalars(
