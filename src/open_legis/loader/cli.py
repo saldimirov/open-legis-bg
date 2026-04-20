@@ -18,6 +18,7 @@ def load_directory(root: Path, engine: Engine) -> None:
         for f, p in parsed_by_file:
             _upsert(session, p)
         _recompute_is_latest(session)
+        _populate_paths(session)
         session.commit()
 
 
@@ -116,3 +117,37 @@ def _recompute_is_latest(session: Session) -> None:
             .where(m.Expression.id.in_(latest_ids))
             .values(is_latest=True)
         )
+
+
+def _populate_paths(session: Session) -> None:
+    from sqlalchemy import text
+
+    session.execute(m.Element.__table__.update().values(path=None))
+    session.flush()
+
+    session.execute(
+        text(
+            "UPDATE element SET path = text2ltree(regexp_replace(e_id, '[^A-Za-z0-9_]', '_', 'g')) "
+            "WHERE parent_e_id IS NULL"
+        )
+    )
+    session.flush()
+
+    while True:
+        res = session.execute(
+            text(
+                """
+                UPDATE element child
+                SET path = parent.path
+                  || text2ltree(regexp_replace(child.e_id, '[^A-Za-z0-9_]', '_', 'g'))
+                FROM element parent
+                WHERE child.parent_e_id = parent.e_id
+                  AND child.expression_id = parent.expression_id
+                  AND child.path IS NULL
+                  AND parent.path IS NOT NULL
+                """
+            )
+        )
+        if res.rowcount == 0:
+            break
+    session.flush()

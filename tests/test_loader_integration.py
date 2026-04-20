@@ -65,3 +65,22 @@ def test_load_is_idempotent(fresh_db, tmp_path):
         assert len(works) == 1
         elems = s.scalars(select(m.Element)).all()
         assert len(elems) == 5
+
+
+def test_loader_populates_ltree_path(fresh_db, tmp_path):
+    dest = tmp_path / "fixtures" / "akn" / "zakon" / "2000" / "test" / "expressions"
+    dest.mkdir(parents=True)
+    (dest / "2000-01-01.bul.xml").write_text(
+        Path("tests/data/minimal_act.xml").read_text()
+    )
+
+    load_directory(tmp_path / "fixtures" / "akn", engine=fresh_db)
+
+    with fresh_db.connect() as c:
+        rows = c.exec_driver_sql(
+            "SELECT e_id, path::text FROM element ORDER BY sequence"
+        ).fetchall()
+        paths = dict(rows)
+        assert paths["art_1"] == "art_1"
+        assert paths["art_1__para_1"] == "art_1.art_1__para_1"
+        assert paths["art_2__para_1"] == "art_2.art_2__para_1"
