@@ -134,6 +134,8 @@ class Element(Base):
     heading: Mapped[Optional[str]] = mapped_column(Text)
     text: Mapped[Optional[str]] = mapped_column(Text)
     sequence: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    # set by DB migration via ltree; not managed by ORM
+    path: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
 
     expression: Mapped[Expression] = relationship(back_populates="elements")
 
