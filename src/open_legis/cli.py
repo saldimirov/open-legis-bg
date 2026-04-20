@@ -30,9 +30,29 @@ def new_fixture(
     slug: str = typer.Option(..., "--slug"),
     year: int = typer.Option(...),
     date: str = typer.Option(..., "--date"),
+    language: str = typer.Option("bul", "--lang"),
+    title: str = typer.Option(..., "--title"),
+    dv_broy: int = typer.Option(..., "--dv-broy"),
+    root: str = typer.Option("fixtures/akn", "--root"),
 ) -> None:
     """Scaffold a new AKN fixture skeleton."""
-    typer.echo(f"stub: would scaffold {type_}/{year}/{slug} @ {date}")
+    import datetime as _dt
+    from pathlib import Path
+
+    from open_legis.loader.scaffold import scaffold_fixture
+
+    out = scaffold_fixture(
+        root=Path(root),
+        act_type=type_,
+        slug=slug,
+        year=year,
+        expression_date=_dt.date.fromisoformat(date),
+        language=language,
+        title=title,
+        dv_broy=dv_broy,
+        dv_year=_dt.date.fromisoformat(date).year,
+    )
+    typer.echo(f"created {out}")
 
 
 if __name__ == "__main__":
