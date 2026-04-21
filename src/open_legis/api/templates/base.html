@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}open-legis{% endblock %} — Българско законодателство</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+  <style>
+    [x-cloak] { display: none; }
+    .prose-law p { margin-bottom: 0.5rem; }
+    .prose-law .article-num { font-weight: 600; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+
+  <header class="bg-white border-b border-gray-200 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center gap-6">
+      <a href="/" class="flex items-center gap-2 shrink-0">
+        <span class="text-xl font-bold text-blue-700 tracking-tight">open-legis</span>
+        <span class="text-xs text-gray-400 font-normal hidden sm:inline">Българско законодателство</span>
+      </a>
+      <form class="flex-1 max-w-xl" action="/search" method="get">
+        <div class="relative">
+          <input
+            type="search"
+            name="q"
+            value="{{ q if q is defined else '' }}"
+            placeholder="Търсене в законодателството..."
+            class="w-full rounded-lg border border-gray-300 px-4 py-2 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-blue-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <nav class="hidden md:flex items-center gap-4 text-sm text-gray-500">
+        <a href="/docs" class="hover:text-blue-600">API</a>
+        <a href="https://github.com/open-legis/open-legis" class="hover:text-blue-600">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="border-t border-gray-200 mt-16 py-8 text-center text-xs text-gray-400">
+    <p>open-legis — свободен достъп до българското законодателство</p>
+    <p class="mt-1">Данните са от <a href="https://dv.parliament.bg" class="underline hover:text-gray-600">Държавен вестник</a>.
+    Проектът е с отворен код.</p>
+  </footer>
+
+</body>
+</html>

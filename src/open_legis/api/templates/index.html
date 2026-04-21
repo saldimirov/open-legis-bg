@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Начало{% endblock %}
+
+{% block content %}
+<div class="mb-6">
+  <h1 class="text-2xl font-bold text-gray-800 mb-1">Законодателна база данни</h1>
+  <p class="text-gray-500 text-sm">{{ total }} акта в базата данни</p>
+</div>
+
+<!-- Type filter tabs -->
+<div class="flex flex-wrap gap-2 mb-6">
+  {% set types = [
+    ('', 'Всички'),
+    ('zakon', 'Закони'),
+    ('kodeks', 'Кодекси'),
+    ('naredba', 'Наредби'),
+    ('postanovlenie', 'Постановления'),
+    ('pravilnik', 'Правилници'),
+    ('reshenie_ns', 'Решения на НС'),
+  ] %}
+  {% for type_val, type_label in types %}
+  <a href="/?type={{ type_val }}{% if q %}&q={{ q }}{% endif %}"
+     class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors
+       {% if current_type == type_val %}
+         bg-blue-600 text-white border-blue-600
+       {% else %}
+         bg-white text-gray-600 border-gray-300 hover:border-blue-400 hover:text-blue-600
+       {% endif %}">
+    {{ type_label }}
+  </a>
+  {% endfor %}
+</div>
+
+<!-- Results -->
+{% if works %}
+<div class="space-y-3">
+  {% for w in works %}
+  <a href="/ui{{ w.uri }}" class="block bg-white rounded-lg border border-gray-200 px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all" title="{{ w.title }}">
+    <div class="flex items-start justify-between gap-4">
+      <div class="min-w-0">
+        <p class="text-sm font-medium text-gray-900 leading-snug">{{ w.title }}</p>
+        <div class="flex items-center gap-3 mt-1.5">
+          <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
+            {% if w.type == 'zakon' %}bg-blue-50 text-blue-700
+            {% elif w.type == 'kodeks' %}bg-purple-50 text-purple-700
+            {% elif w.type == 'naredba' %}bg-green-50 text-green-700
+            {% elif w.type == 'postanovlenie' %}bg-yellow-50 text-yellow-700
+            {% elif w.type == 'pravilnik' %}bg-orange-50 text-orange-700
+            {% elif w.type == 'reshenie_ns' %}bg-teal-50 text-teal-700
+            {% else %}bg-gray-100 text-gray-600{% endif %}">
+            {{ type_labels[w.type] }}
+          </span>
+          <span class="text-xs text-gray-400">ДВ бр. {{ w.dv_ref.broy }}/{{ w.dv_ref.year }}</span>
+        </div>
+      </div>
+      <svg class="w-4 h-4 text-gray-300 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<!-- Pagination -->
+{% if total_pages > 1 %}
+<div class="flex items-center justify-center gap-2 mt-8">
+  {% if page > 1 %}
+  <a href="?page={{ page - 1 }}{% if current_type %}&type={{ current_type }}{% endif %}{% if q %}&q={{ q }}{% endif %}"
+     class="px-3 py-1.5 text-sm rounded border border-gray-300 hover:border-blue-400 text-gray-600 hover:text-blue-600">
+    ← Предишна
+  </a>
+  {% endif %}
+  <span class="text-sm text-gray-500">{{ page }} / {{ total_pages }}</span>
+  {% if page < total_pages %}
+  <a href="?page={{ page + 1 }}{% if current_type %}&type={{ current_type }}{% endif %}{% if q %}&q={{ q }}{% endif %}"
+     class="px-3 py-1.5 text-sm rounded border border-gray-300 hover:border-blue-400 text-gray-600 hover:text-blue-600">
+    Следваща →
+  </a>
+  {% endif %}
+</div>
+{% endif %}
+
+{% else %}
+<div class="text-center py-16 text-gray-400">
+  <p class="text-lg">Няма намерени резултати</p>
+  {% if q %}<p class="text-sm mt-1">за „{{ q }}"</p>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

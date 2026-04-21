@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Търсене: {{ q }}{% endblock %}
+
+{% block content %}
+<div class="mb-6">
+  <h1 class="text-xl font-bold text-gray-800">
+    Резултати за „<span class="text-blue-700">{{ q }}</span>"
+  </h1>
+  <p class="text-gray-500 text-sm mt-1">{{ total }} намерени</p>
+</div>
+
+{% if items %}
+<div class="space-y-4">
+  {% for item in items %}
+  <a href="/ui{{ item.work_uri }}" class="block bg-white rounded-lg border border-gray-200 px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all">
+    <div class="flex items-start justify-between gap-4">
+      <div class="min-w-0">
+        <p class="text-sm font-semibold text-gray-900">{{ item.work_title }}</p>
+        <div class="flex items-center gap-3 mt-1">
+          <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
+            {% if item.type == 'zakon' %}bg-blue-50 text-blue-700
+            {% elif item.type == 'kodeks' %}bg-purple-50 text-purple-700
+            {% elif item.type == 'naredba' %}bg-green-50 text-green-700
+            {% else %}bg-gray-100 text-gray-600{% endif %}">
+            {{ type_labels.get(item.type, item.type) }}
+          </span>
+          {% if item.num %}
+          <span class="text-xs text-gray-400">{{ item.num }}</span>
+          {% endif %}
+        </div>
+        {% if item.snippet %}
+        <p class="text-sm text-gray-600 mt-2 line-clamp-2">…{{ item.snippet }}…</p>
+        {% endif %}
+      </div>
+      <svg class="w-4 h-4 text-gray-300 shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+      </svg>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+{% if total_pages > 1 %}
+<div class="flex items-center justify-center gap-2 mt-8">
+  {% if page > 1 %}
+  <a href="/search?q={{ q }}&page={{ page - 1 }}" class="px-3 py-1.5 text-sm rounded border border-gray-300 hover:border-blue-400 text-gray-600 hover:text-blue-600">← Предишна</a>
+  {% endif %}
+  <span class="text-sm text-gray-500">{{ page }} / {{ total_pages }}</span>
+  {% if page < total_pages %}
+  <a href="/search?q={{ q }}&page={{ page + 1 }}" class="px-3 py-1.5 text-sm rounded border border-gray-300 hover:border-blue-400 text-gray-600 hover:text-blue-600">Следваща →</a>
+  {% endif %}
+</div>
+{% endif %}
+
+{% else %}
+<div class="text-center py-16 text-gray-400">
+  <p class="text-lg">Няма намерени резултати за „{{ q }}"</p>
+  <a href="/" class="text-sm text-blue-500 hover:underline mt-2 block">← Обратно към всички актове</a>
+</div>
+{% endif %}
+{% endblock %}

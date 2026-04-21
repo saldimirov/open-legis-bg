@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+
+{% block title %}{{ work.title }}{% endblock %}
+
+{% block content %}
+<!-- Breadcrumb -->
+<nav class="text-sm text-gray-400 mb-4">
+  <a href="/" class="hover:text-blue-600">Начало</a>
+  <span class="mx-2">/</span>
+  <a href="/?type={{ work.type }}" class="hover:text-blue-600">{{ type_labels[work.type] }}</a>
+  <span class="mx-2">/</span>
+  <span class="text-gray-600">{{ work.title[:60] }}{% if work.title|length > 60 %}…{% endif %}</span>
+</nav>
+
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+
+  <!-- Main content -->
+  <div class="lg:col-span-3">
+    <div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+      <div class="flex items-start gap-3 mb-4">
+        <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-medium shrink-0
+          {% if work.type == 'zakon' %}bg-blue-50 text-blue-700
+          {% elif work.type == 'kodeks' %}bg-purple-50 text-purple-700
+          {% elif work.type == 'naredba' %}bg-green-50 text-green-700
+          {% elif work.type == 'postanovlenie' %}bg-yellow-50 text-yellow-700
+          {% elif work.type == 'pravilnik' %}bg-orange-50 text-orange-700
+          {% elif work.type == 'reshenie_ns' %}bg-teal-50 text-teal-700
+          {% else %}bg-gray-100 text-gray-600{% endif %}">
+          {{ type_labels[work.type] }}
+        </span>
+      </div>
+      <h1 class="text-xl font-bold text-gray-900 leading-snug mb-4">{{ work.title }}</h1>
+      <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
+        <div>
+          <dt class="text-gray-400">Обнародван в ДВ</dt>
+          <dd class="text-gray-800 font-medium">бр. {{ work.dv_ref.broy }}/{{ work.dv_ref.year }}</dd>
+        </div>
+        {% if expression_date %}
+        <div>
+          <dt class="text-gray-400">Версия от</dt>
+          <dd class="text-gray-800 font-medium">{{ expression_date }}</dd>
+        </div>
+        {% endif %}
+        {% if work.issuing_body %}
+        <div>
+          <dt class="text-gray-400">Издател</dt>
+          <dd class="text-gray-800">{{ work.issuing_body }}</dd>
+        </div>
+        {% endif %}
+        {% if adoption_date %}
+        <div>
+          <dt class="text-gray-400">Дата на приемане</dt>
+          <dd class="text-gray-800">{{ adoption_date }}</dd>
+        </div>
+        {% endif %}
+      </dl>
+    </div>
+
+    <!-- Law body -->
+    <div class="bg-white rounded-lg border border-gray-200 p-6">
+      {% if preface %}
+      <div class="mb-6 pb-6 border-b border-gray-100 text-sm text-gray-500 italic">
+        {% for line in preface %}
+        <p>{{ line }}</p>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="prose-law space-y-1 text-sm leading-relaxed">
+        {% for el in elements %}
+          {% if el.type in ('article', 'hcontainer') %}
+          <div class="py-2 {% if not loop.first %}border-t border-gray-50{% endif %}">
+            {% if el.num %}
+            <span class="article-num text-gray-800">{{ el.num }}</span>
+            {% endif %}
+            {% if el.heading %}
+            <span class="font-medium text-gray-700 ml-1">{{ el.heading }}</span>
+            {% endif %}
+            {% if el.text %}
+            <span class="text-gray-700">{{ ' ' if el.num else '' }}{{ el.text }}</span>
+            {% endif %}
+            {% for child in el.children %}
+              {% if child.type == 'paragraph' %}
+              <p class="mt-1 ml-4 text-gray-600">
+                {% if child.num %}<span class="text-gray-500">({{ child.num }})</span> {% endif %}
+                {{ child.text }}
+              </p>
+              {% endif %}
+              {% for sub in child.children %}
+              <p class="mt-0.5 ml-8 text-gray-600">
+                {% if sub.num %}<span class="text-gray-400 text-xs">{{ sub.num }}</span> {% endif %}
+                {{ sub.text }}
+              </p>
+              {% endfor %}
+            {% endfor %}
+          </div>
+          {% elif el.type == 'paragraph' %}
+          <p class="py-1 text-gray-700">
+            {% if el.num %}<span class="text-gray-500">({{ el.num }})</span> {% endif %}
+            {{ el.text }}
+          </p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="lg:col-span-1 space-y-4">
+    <div class="bg-white rounded-lg border border-gray-200 p-4">
+      <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Достъп</h3>
+      <div class="space-y-2 text-sm">
+        <a href="{{ work.uri }}?format=json" target="_blank"
+           class="flex items-center gap-2 text-gray-600 hover:text-blue-600">
+          <span class="w-8 h-6 flex items-center justify-center bg-gray-100 rounded text-xs font-mono">JSON</span>
+          JSON API
+        </a>
+        <a href="{{ work.uri }}?format=akn" target="_blank"
+           class="flex items-center gap-2 text-gray-600 hover:text-blue-600">
+          <span class="w-8 h-6 flex items-center justify-center bg-gray-100 rounded text-xs font-mono">AKN</span>
+          Akoma Ntoso XML
+        </a>
+        <a href="{{ work.uri }}?format=ttl" target="_blank"
+           class="flex items-center gap-2 text-gray-600 hover:text-blue-600">
+          <span class="w-8 h-6 flex items-center justify-center bg-gray-100 rounded text-xs font-mono">RDF</span>
+          RDF/Turtle
+        </a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg border border-gray-200 p-4">
+      <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">ELI идентификатор</h3>
+      <code class="text-xs text-gray-600 break-all">{{ work.uri }}</code>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
