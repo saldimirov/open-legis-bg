@@ -22,3 +22,11 @@ Akoma Ntoso XML fixtures, Bulgarian full-text search.
 ## Design
 
 See `docs/superpowers/specs/2026-04-20-open-legis-data-model-design.md`.
+
+## Documentation
+
+- [URI scheme](docs/uri-scheme.md) — ELI URI structure, slug minting rules
+- [Data model](docs/data-model.md) — DB schema summary
+- [API reference](docs/api.md) — endpoint listing
+- [Adding an act](docs/adding-an-act.md) — contributor guide for new fixtures
+- [Takedown policy](docs/takedown.md) — corrections and removal process
