@@ -127,7 +127,7 @@ def _recompute_is_latest(session: Session) -> None:
 def _populate_paths(session: Session) -> None:
     from sqlalchemy import text
 
-    session.execute(m.Element.__table__.update().values(path=None))
+    session.execute(text("UPDATE element SET path = NULL"))
     session.flush()
 
     session.execute(
