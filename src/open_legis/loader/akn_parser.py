@@ -183,7 +183,7 @@ def _walk(
 
 def _collect_leaf_text(el: etree._Element) -> Optional[str]:
     parts: list[str] = []
-    for content in el.xpath("./akn:content", namespaces=NS):
+    for content in el.xpath("./akn:content | ./akn:intro", namespaces=NS):
         parts.append("".join(content.itertext()).strip())
     text = "\n".join(p for p in parts if p)
     return text or None

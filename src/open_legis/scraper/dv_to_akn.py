@@ -85,6 +85,11 @@ _SPECIAL_RE = re.compile(
 _ARTICLE_RE = re.compile(r"^(Чл\.\s*\d+[а-я]?)\.")
 _PAR_RE = re.compile(r"^(§\s*\d+[а-я]?)\.")
 
+# Sub-article structure patterns
+_NUMBERED_PARA_RE = re.compile(r"^\((\d+[а-я]?)\)\s*(.*)")   # (1), (2а) …
+_POINT_RE = re.compile(r"^(\d+)\.\s+(.*)")                    # 1. …  (only when ≥ 1 space after dot)
+_LETTER_RE = re.compile(r"^([а-я])\)\s+(.*)")                 # а) …
+
 _SPECIAL_NAME = {
     "ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ": "final-provisions",
     "ПРЕХОДНИ РАЗПОРЕДБИ": "transitional-provisions",
@@ -162,6 +167,176 @@ def _parse_zid(text: str) -> list[ParsedSection]:
             paragraphs=paras,
         ))
     return sections
+
+
+def _parse_article_body(
+    lines: list[str], base_e_id: str
+) -> tuple[list[str], list[ParsedSection]]:
+    """Split article lines into intro text + structured paragraph/point children.
+
+    Returns (intro_lines, children).  If no (N) paragraphs found, returns
+    (lines, []) so the caller falls back to a plain content block.
+    """
+    if not lines:
+        return [], []
+
+    # Quick check: does this article have any (N) numbered paragraphs?
+    has_numbered = any(_NUMBERED_PARA_RE.match(l) for l in lines)
+    if not has_numbered:
+        # Check if it has numbered points only (no paragraphs)
+        has_points = any(_POINT_RE.match(l) for l in lines)
+        if not has_points:
+            return lines, []
+        # Points without paragraphs — treat intro + points as flat
+        # intro = lines up to first point, then points as `point` children
+        intro: list[str] = []
+        children: list[ParsedSection] = []
+        p_seq = 0
+        i = 0
+        while i < len(lines):
+            m = _POINT_RE.match(lines[i])
+            if m:
+                p_seq += 1
+                p_num = m.group(1) + "."
+                p_text = m.group(2)
+                # Accumulate continuation lines (letters)
+                j = i + 1
+                sub_children: list[ParsedSection] = []
+                l_seq = 0
+                while j < len(lines) and not _POINT_RE.match(lines[j]) and not _NUMBERED_PARA_RE.match(lines[j]):
+                    lm = _LETTER_RE.match(lines[j])
+                    if lm:
+                        l_seq += 1
+                        sub_children.append(ParsedSection(
+                            e_id=f"{base_e_id}__pt_{p_seq}__l_{l_seq}",
+                            tag="point",
+                            num=lm.group(1) + ")",
+                            name=None,
+                            heading=None,
+                            paragraphs=[lm.group(2)],
+                        ))
+                    else:
+                        if sub_children:
+                            sub_children[-1].paragraphs.append(lines[j])
+                        else:
+                            p_text = (p_text + " " + lines[j]).strip() if p_text else lines[j]
+                    j += 1
+                point = ParsedSection(
+                    e_id=f"{base_e_id}__pt_{p_seq}",
+                    tag="point",
+                    num=p_num,
+                    name=None,
+                    heading=None,
+                    paragraphs=[p_text] if p_text else [],
+                    children=sub_children,
+                )
+                children.append(point)
+                i = j
+            else:
+                intro.append(lines[i])
+                i += 1
+        return intro, children
+
+    # --- Articles with (N) numbered paragraphs ---
+    intro = []
+    children = []
+    par_seq = 0
+    i = 0
+    # Collect intro (lines before first numbered paragraph)
+    while i < len(lines) and not _NUMBERED_PARA_RE.match(lines[i]):
+        intro.append(lines[i])
+        i += 1
+
+    while i < len(lines):
+        m = _NUMBERED_PARA_RE.match(lines[i])
+        if not m:
+            i += 1
+            continue
+        par_seq += 1
+        par_num = f"({m.group(1)})"
+        par_text = m.group(2)  # rest of the line after (N)
+        i += 1
+
+        # Collect lines belonging to this paragraph
+        par_lines: list[str] = [par_text] if par_text else []
+        while i < len(lines) and not _NUMBERED_PARA_RE.match(lines[i]):
+            par_lines.append(lines[i])
+            i += 1
+
+        par_e_id = f"{base_e_id}__al_{par_seq}"
+
+        # Check if paragraph has numbered points
+        has_par_points = any(_POINT_RE.match(l) for l in par_lines)
+        if not has_par_points:
+            children.append(ParsedSection(
+                e_id=par_e_id,
+                tag="paragraph",
+                num=par_num,
+                name=None,
+                heading=None,
+                paragraphs=[l for l in par_lines if l],
+            ))
+            continue
+
+        # Paragraph with points
+        par_intro: list[str] = []
+        point_children: list[ParsedSection] = []
+        p_seq = 0
+        j = 0
+        while j < len(par_lines) and not _POINT_RE.match(par_lines[j]):
+            par_intro.append(par_lines[j])
+            j += 1
+        while j < len(par_lines):
+            pm = _POINT_RE.match(par_lines[j])
+            if pm:
+                p_seq += 1
+                pt_num = pm.group(1) + "."
+                pt_text = pm.group(2)
+                k = j + 1
+                sub_children: list[ParsedSection] = []
+                l_seq = 0
+                while k < len(par_lines) and not _POINT_RE.match(par_lines[k]):
+                    lm = _LETTER_RE.match(par_lines[k])
+                    if lm:
+                        l_seq += 1
+                        sub_children.append(ParsedSection(
+                            e_id=f"{par_e_id}__pt_{p_seq}__l_{l_seq}",
+                            tag="point",
+                            num=lm.group(1) + ")",
+                            name=None,
+                            heading=None,
+                            paragraphs=[lm.group(2)],
+                        ))
+                    else:
+                        if sub_children:
+                            sub_children[-1].paragraphs.append(par_lines[k])
+                        else:
+                            pt_text = (pt_text + " " + par_lines[k]).strip() if pt_text else par_lines[k]
+                    k += 1
+                point_children.append(ParsedSection(
+                    e_id=f"{par_e_id}__pt_{p_seq}",
+                    tag="point",
+                    num=pt_num,
+                    name=None,
+                    heading=None,
+                    paragraphs=[pt_text] if pt_text else [],
+                    children=sub_children,
+                ))
+                j = k
+            else:
+                j += 1
+
+        children.append(ParsedSection(
+            e_id=par_e_id,
+            tag="paragraph",
+            num=par_num,
+            name=None,
+            heading=None,
+            paragraphs=[l for l in par_intro if l],
+            children=point_children,
+        ))
+
+    return intro, children
 
 
 def _parse_structured(text: str) -> list[ParsedSection]:
@@ -282,13 +457,16 @@ def _parse_structured(text: str) -> list[ParsedSection]:
                 j += 1
             container = _current_container()
             prefix = f"{container.e_id}__" if container else ""
+            art_e_id = f"{prefix}art_{art_seq}"
+            intro, sub_children = _parse_article_body([p for p in paras if p], art_e_id)
             art = ParsedSection(
-                e_id=f"{prefix}art_{art_seq}",
+                e_id=art_e_id,
                 tag="article",
                 num=num,
                 name=None,
                 heading=None,
-                paragraphs=[p for p in paras if p],
+                paragraphs=intro,
+                children=sub_children,
             )
             _add(art)
             i = j
@@ -349,6 +527,11 @@ def _render_section(sec: ParsedSection, depth: int = 3) -> list[str]:
     if sec.heading:
         lines.append(f"{pad}  <heading>{_x(sec.heading)}</heading>")
     if sec.children:
+        if sec.paragraphs:
+            lines.append(f"{pad}  <intro>")
+            for para in sec.paragraphs:
+                lines.append(f"{pad}    <p>{_x(para)}</p>")
+            lines.append(f"{pad}  </intro>")
         for child in sec.children:
             lines.extend(_render_section(child, depth + 1))
     else:

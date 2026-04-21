@@ -110,10 +110,20 @@
             </div>
 
             {% elif el.type == 'paragraph' %}
-            <p class="mt-1 ml-4 text-gray-600">
-              {% if el.num %}<span class="text-gray-400">({{ el.num }})</span> {% endif %}
-              {{ el.text }}
-            </p>
+            <div class="mt-1 ml-4">
+              <span class="text-gray-400 text-xs">{{ el.num }}</span>
+              {% if el.text %}<span class="text-gray-700 ml-1 text-sm">{{ el.text }}</span>{% endif %}
+              {{ render_elements(el.children, depth + 1) }}
+            </div>
+
+            {% elif el.type == 'point' %}
+            <div class="mt-0.5 ml-{% if depth > 2 %}8{% else %}6{% endif %} flex gap-1.5">
+              <span class="text-gray-400 text-xs shrink-0 w-6">{{ el.num }}</span>
+              <span class="text-gray-600 text-sm">
+                {% if el.text %}{{ el.text }}{% endif %}
+                {{ render_elements(el.children, depth + 1) }}
+              </span>
+            </div>
             {% endif %}
           {% endfor %}
         {% endmacro %}

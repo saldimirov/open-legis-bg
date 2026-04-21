@@ -185,7 +185,7 @@ def work_page(
 def _build_element_tree(
     elements: list[m.Element], parent_e_id: str | None, depth: int = 0
 ) -> list[dict]:
-    if depth > 5:
+    if depth > 8:
         return []
     direct = [e for e in elements if e.parent_e_id == parent_e_id]
     result = []
