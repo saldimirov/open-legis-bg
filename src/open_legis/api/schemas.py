@@ -52,3 +52,17 @@ class ResourceOut(BaseModel):
     expression: Optional[ExpressionOut] = None
     element: Optional[ElementOut] = None
     links: Links = Field(alias="_links")
+
+
+class WorkListItem(BaseModel):
+    uri: str
+    title: str
+    type: str
+    dv_ref: DvRef
+
+
+class WorkList(BaseModel):
+    items: list[WorkListItem]
+    total: int
+    page: int
+    page_size: int
