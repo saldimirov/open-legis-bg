@@ -138,7 +138,7 @@ def _parse_material_html(html: str) -> tuple[str, str]:
 
     # Extract title from tdHead1 span
     title_m = re.search(r'tdHead1[^>]*>([^<]+)', html)
-    title = title_m.group(1).strip() if title_m else ""
+    title = title_m.group(1).strip().replace("\xa0", " ") if title_m else ""
 
     # Convert HTML to plain text
     text = re.sub(r"<br\s*/?>", "\n", html, flags=re.IGNORECASE)

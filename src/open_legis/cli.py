@@ -268,5 +268,36 @@ def scrape_dv_batch(
         typer.echo("Loaded into DB")
 
 
+@app.command("match-amendments")
+def match_amendments(
+    dry_run: bool = typer.Option(False, "--dry-run", help="Print matches without writing to DB"),
+    min_score: float = typer.Option(0.45, "--min-score", help="Minimum Jaccard score to accept a match"),
+    verbose: bool = typer.Option(False, "--verbose", "-v", help="Print all matches"),
+) -> None:
+    """Match ZIDs to their target base laws and populate the amendment table."""
+    from open_legis.loader.amendment_matcher import match_all, populate_amendments
+    from open_legis.model.db import make_engine
+    from open_legis.settings import Settings
+    from sqlalchemy.orm import Session
+
+    engine = make_engine(Settings().database_url)
+    with Session(engine) as session:
+        matches = match_all(session, min_score=min_score)
+        typer.echo(f"Found {len(matches)} matches (min_score={min_score})")
+
+        if verbose or dry_run:
+            for r in matches:
+                mark = f"[{r.score:.2f}]"
+                typer.echo(f"  {mark} {r.zid.title[:60]}")
+                typer.echo(f"        → {r.target.title[:60]}")
+
+        if dry_run:
+            typer.echo("Dry run — nothing written.")
+            return
+
+        count = populate_amendments(session, matches)
+        typer.echo(f"Inserted {count} amendment links.")
+
+
 if __name__ == "__main__":
     app()

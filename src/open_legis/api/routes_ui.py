@@ -282,6 +282,46 @@ def work_page(
         if expr else work.eli_uri
     )
 
+    # Amendment relationships
+    amended_by = s.scalars(
+        select(m.Amendment)
+        .where(m.Amendment.target_work_id == work.id)
+        .order_by(m.Amendment.effective_date)
+    ).all()
+    amends = s.scalars(
+        select(m.Amendment)
+        .where(m.Amendment.amending_work_id == work.id)
+    ).all()
+
+    amending_works = {
+        a.amending_work_id: s.get(m.Work, a.amending_work_id)
+        for a in amended_by
+    }
+    target_works = {
+        a.target_work_id: s.get(m.Work, a.target_work_id)
+        for a in amends
+    }
+
+    amended_by_list = [
+        {
+            "uri": amending_works[a.amending_work_id].eli_uri,
+            "title": amending_works[a.amending_work_id].title,
+            "dv_broy": amending_works[a.amending_work_id].dv_broy,
+            "dv_year": amending_works[a.amending_work_id].dv_year,
+            "date": a.effective_date.isoformat(),
+        }
+        for a in amended_by
+        if amending_works.get(a.amending_work_id)
+    ]
+    amends_list = [
+        {
+            "uri": target_works[a.target_work_id].eli_uri,
+            "title": target_works[a.target_work_id].title,
+        }
+        for a in amends
+        if target_works.get(a.target_work_id)
+    ]
+
     work_data = {
         "uri": work.eli_uri,
         "expr_uri": expr_uri,
@@ -300,6 +340,8 @@ def work_page(
             preface=preface,
             expression_date=expression_date,
             adoption_date=adoption_date,
+            amended_by=amended_by_list,
+            amends=amends_list,
         ),
     )
 
