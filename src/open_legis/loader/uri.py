@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from typing import Literal, Optional, Union
 
 _VALID_TYPES = {
-    "konstitutsiya", "kodeks", "zakon", "naredba", "pravilnik",
+    "konstitutsiya", "kodeks", "zakon", "zid", "naredba", "pravilnik",
     "postanovlenie", "ukaz", "reshenie-ks", "reshenie-ns",
 }
 

@@ -22,6 +22,7 @@ templates = Jinja2Templates(directory=str(_TEMPLATES_DIR))
 
 TYPE_LABELS: dict[str, str] = {
     "zakon": "Закон",
+    "zid": "ЗИД",
     "kodeks": "Кодекс",
     "naredba": "Наредба",
     "postanovlenie": "Постановление",

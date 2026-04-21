@@ -13,6 +13,7 @@
   {% set types = [
     ('', 'Всички'),
     ('zakon', 'Закони'),
+    ('zid', 'ЗИД'),
     ('kodeks', 'Кодекси'),
     ('naredba', 'Наредби'),
     ('postanovlenie', 'Постановления'),
@@ -43,6 +44,7 @@
         <div class="flex items-center gap-3 mt-1.5">
           <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
             {% if w.type == 'zakon' %}bg-blue-50 text-blue-700
+            {% elif w.type == 'zid' %}bg-rose-50 text-rose-700
             {% elif w.type == 'kodeks' %}bg-purple-50 text-purple-700
             {% elif w.type == 'naredba' %}bg-green-50 text-green-700
             {% elif w.type == 'postanovlenie' %}bg-yellow-50 text-yellow-700

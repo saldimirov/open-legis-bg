@@ -87,7 +87,7 @@ def scrape_dv(
     idobj: int = typer.Option(..., "--idobj", help="DV issue idObj to scrape"),
     out: str = typer.Option("fixtures/akn", "--out", help="Output fixtures root"),
     load_after: bool = typer.Option(True, "--load/--no-load", help="Load into DB after scrape"),
-    types: str = typer.Option("zakon,kodeks", "--types", help="Comma-separated act types to include"),
+    types: str = typer.Option("zakon,zid,kodeks", "--types", help="Comma-separated act types to include"),
 ) -> None:
     """Scrape laws from a single DV issue and optionally load them."""
     import datetime as _dt

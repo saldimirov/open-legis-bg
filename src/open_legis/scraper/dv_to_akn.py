@@ -11,10 +11,10 @@ from typing import Optional
 _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("КОДЕКС", "kodeks"),
     ("Кодекс", "kodeks"),
-    ("Закон за ратифициране", "zakon"),
-    ("Закон за изменение и допълнение", "zakon"),
-    ("Закон за допълнение", "zakon"),
-    ("Закон за изменение", "zakon"),
+    ("Закон за ратифициране", "zid"),
+    ("Закон за изменение и допълнение", "zid"),
+    ("Закон за допълнение", "zid"),
+    ("Закон за изменение", "zid"),
     ("ЗАКОН", "zakon"),
     ("Закон", "zakon"),
     ("НАРЕДБА", "naredba"),
@@ -37,10 +37,11 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
 ]
 
 # Act types we care about for legislative data
-LEGISLATIVE_TYPES = {"zakon", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
+LEGISLATIVE_TYPES = {"zakon", "zid", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
 
 _ISSUING_BODY: dict[str, str] = {
     "zakon": "Народно събрание",
+    "zid": "Народно събрание",
     "kodeks": "Народно събрание",
     "naredba": "Министерски съвет",
     "postanovlenie": "Министерски съвет",
