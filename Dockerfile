@@ -17,6 +17,7 @@ RUN uv sync --frozen --no-dev
 COPY src/ ./src/
 COPY alembic.ini ./
 COPY entrypoint.sh ./
+COPY fixtures/ ./fixtures/
 
 EXPOSE 8000
 
