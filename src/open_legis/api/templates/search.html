@@ -16,7 +16,7 @@
   <a href="/ui{{ item.work_uri }}{% if item.e_id %}#{{ item.e_id }}{% endif %}" class="block bg-white rounded-lg border border-gray-200 px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all">
     <div class="flex items-start justify-between gap-4">
       <div class="min-w-0">
-        <p class="text-sm font-semibold text-gray-900">{{ item.work_title }}</p>
+        <p class="text-sm font-semibold text-gray-900">{{ item.work_title | fix_title }}</p>
         <div class="flex items-center gap-3 mt-1">
           <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
             {% if item.type == 'zakon' %}bg-blue-50 text-blue-700

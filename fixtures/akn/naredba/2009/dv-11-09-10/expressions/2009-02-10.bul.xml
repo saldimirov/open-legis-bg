@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-11-09-10/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-11-09-10"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="eli" other="/eli/bg/naredba/2009/dv-11-09-10"/>
+          <FRBRdate date="2009-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-11-09-10/bul@2009-02-10/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-11-09-10/bul@2009-02-10"/>
+          <FRBRdate date="2009-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-11-09-10/bul@2009-02-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-11-09-10/bul@2009-02-10.xml"/>
+          <FRBRdate date="2009-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-02-10" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения</p>
+      <p>(обн., ДВ, бр. 54 от 2005 г.; изм., бр. 67 от 2006 г., бр. 77 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1, т. 1 и 3 думите “не по-рано от 12 месеца и не по-късно от 18 месеца” се заменят с “не по-рано от 6 месеца и не по-късно от 12 месеца”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В преходните и заключителните разпоредби се създава § 8:</p>
+            <p>“§ 8. (1) Разпоредбата по чл. 4, ал. 1, т. 1 и 3 се прилага за лечебни заведения, създадени след 1 януари 2009 г.</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(2)</num>
+            <intro>
+              <p>Управителят, съответно директорът, на лечебно заведение, създадено до 31 декември 2008 г., подава писмено заявление до министъра на здравеопазването за откриване на процедура по акредитация, както следва:</p>
+            </intro>
+            <point eId="sec_final__par_2__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>най-късно до 6 месеца след издаване на разрешение за осъществяване на лечебна дейност - за лечебните заведения за болнична помощ, диспансерите, диализните центрове и домовете за медико-социални грижи, след получаване на разрешение от директора на Изпълнителната агенция по трансплантация - за тъканните банки, съответно след издаване на удостоверение за регистрация - за лечебните заведения за извънболнична помощ, или след влизане в сила на акта за създаване - за лечебните заведения по чл. 5 от Закона за лечебните заведения;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_2__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>най-късно до 3 месеца след съществена промяна в предмета на дейност на лечебното заведение или разкриване на нови медицински структури в него.” Министър:  Евг. Желев 2360</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

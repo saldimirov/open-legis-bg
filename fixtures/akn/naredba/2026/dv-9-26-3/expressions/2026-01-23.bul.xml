@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-9-26-3/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-9-26-3"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 8121з-1243 от 2020 г. за условията и реда за възлагане и отчитане на изпълнението и/или управлението на проекти или програми и за формиране и изплащане на допълнителното възнаграждение по чл. 178, ал. 1, т. 6 от Закона за Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 8121з-1243 от 2020 г. за условията и реда за възлагане и отчитане на изпълнението и/или управлението на проекти или програми и за формиране и изплащане на допълнителното възнаграждение по чл. 178, ал. 1, т. 6 от Закона за Министерството на вътрешните работи" name="eli" other="/eli/bg/naredba/2026/dv-9-26-3"/>
+          <FRBRdate date="2026-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-9-26-3/bul@2026-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-9-26-3/bul@2026-01-23"/>
+          <FRBRdate date="2026-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-9-26-3/bul@2026-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-9-26-3/bul@2026-01-23.xml"/>
+          <FRBRdate date="2026-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-01-23" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 8121з-1243 от 2020 г. за условията и реда за възлагане и отчитане на изпълнението и/или управлението на проекти или програми и за формиране и изплащане на допълнителното възнаграждение по чл. 178, ал. 1, т. 6 от Закона за Министерството на вътрешните работи</p>
+      <p>(обн., ДВ, бр. 98 от 2020 г.; изм. и доп., бр. 6 от 2023 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Навсякъде в приложение № 2 към чл. 4, ал. 8 съкращението „лв.“ се заменя с „евро“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от датата на въвеждане на еврото в Република България.</p>
+            <p>Министър:  Даниел Митов</p>
+            <p>213</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-29-03-5/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-29-03-5"/>
+          <FRBRalias value="Закон за допълнение на Закона за професионалното образование и обучение" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за професионалното образование и обучение" name="eli" other="/eli/bg/zid/2003/dv-29-03-5"/>
+          <FRBRdate date="2003-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-29-03-5/bul@2003-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-29-03-5/bul@2003-03-31"/>
+          <FRBRdate date="2003-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-29-03-5/bul@2003-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-29-03-5/bul@2003-03-31.xml"/>
+          <FRBRdate date="2003-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-31" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за професионалното образование и обучение</p>
+      <p>(обн., ДВ, бр. 68 от 1999 г.; изм., бр. 1 и 108 от 2000 г., бр. 111 от 2001 г., бр. 103 и 120 от 2002 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

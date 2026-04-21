@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-25"/>
+          <FRBRalias value="Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея" name="short"/>
+          <FRBRalias value="Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея" name="eli" other="/eli/bg/naredba/2006/dv-1-06-25"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-25/bul@2006-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-25/bul@2006-01-03"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-25/bul@2006-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-25/bul@2006-01-03.xml"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея</p>
+      <p>(обн., ДВ, бр. 43 от 1987 г.; изм., бр. 89 от 1987 г.; изм. и доп., бр. 58 от 1993 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С тази наредба се определят условията и редът за осигуряване на безплатна храна и/или добавки към нея на работниците и служителите, които работят в предприятия със специфичен характер и организация на труда.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>За специфичен характер на труда се осигурява безплатна храна и/или добавки към нея на работниците и служителите, които работят:</p>
+          </intro>
+          <point eId="art_2__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>под земята в мини, геологопроучвателни обекти, тунелно и минно строителство, подземни ВЕЦ и ПАВЕЦ;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>като водолази и работещи в кесони;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>при среднодневни температури под +10 °С и над +30 °С през повече от половината от максимално установеното с Кодекса на труда работно време;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_4">
+            <num>4.</num>
+            <content>
+              <p>в състава на екипажите на кораби от морския и речния флот;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_5">
+            <num>5.</num>
+            <content>
+              <p>в среда на йонизиращи лъчения;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_6">
+            <num>6.</num>
+            <content>
+              <p>под въздействие на експозиция над установените норми на: канцерогени или мутагени, силикозоопасен прах, тежки метали, органични разтворители и биологични агенти, химически агенти, прах, шум и вибрации;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_7">
+            <num>7.</num>
+            <content>
+              <p>в лечебни заведения като: лекари, които оперират, анестезиолози, акушерки, операционни и анестезиологични сестри - в дните, когато извършват операции, както и санитарите в операционни зали;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_8">
+            <num>8.</num>
+            <content>
+              <p>в контакт с биологични агенти в клинични лаборатории; лаборатории по микробиология, вирусология, паразитология; центрове за трансфузионна хематология и диализни центрове; лечебни и здравни заведения, в които се обслужват болни от заразни и паразитни болести, включително туберкулоза, както и с животни, експериментално заразени с биологични агенти;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_9">
+            <num>9.</num>
+            <content>
+              <p>в производството и преноса на електрическа и топлинна енергия, включително ремонтно обслужване и технологичния транспорт;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_10">
+            <num>10.</num>
+            <intro>
+              <p>непосредствено във:</p>
+            </intro>
+            <point eId="art_2__al_1__pt_10__l_1">
+              <num>а)</num>
+              <content>
+                <p>добива и горещата обработка на чугун, включително чугунени отливки, стомана, феросплави, цветни метали и техните сплави, в пластична обработка на черни и цветни метали;</p>
+              </content>
+            </point>
+            <point eId="art_2__al_1__pt_10__l_2">
+              <num>б)</num>
+              <content>
+                <p>производството на кокс и металургични огнеупори;</p>
+              </content>
+            </point>
+            <point eId="art_2__al_1__pt_10__l_3">
+              <num>в)</num>
+              <content>
+                <p>преработката на концентрати и агломерати от руда;</p>
+              </content>
+            </point>
+            <point eId="art_2__al_1__pt_10__l_4">
+              <num>г)</num>
+              <content>
+                <p>преработка и обогатяване на въглища;</p>
+              </content>
+            </point>
+            <point eId="art_2__al_1__pt_10__l_5">
+              <num>д)</num>
+              <content>
+                <p>производството на оловни акумулатори;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="art_2__al_1__pt_11">
+            <num>11.</num>
+            <content>
+              <p>в производството и изпитването на взривни материали и боеприпаси - само за пряко заетите;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_12">
+            <num>12.</num>
+            <content>
+              <p>в добива, преработката и обогатяването на полезни изкопаеми;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_13">
+            <num>13.</num>
+            <content>
+              <p>в производства по горещо и електролизно поцинковане и галванотехника;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_14">
+            <num>14.</num>
+            <content>
+              <p>в специални (затворени) помещения с клас на чистота - А, В и С.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <intro>
+            <p>За работи при специфична организация на труда се осигурява безплатна храна и/или добавки към нея на работниците и служителите, които:</p>
+          </intro>
+          <point eId="art_2__al_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>са ангажирани в предприятието преди/след установеното работно време с продължителност не по-малка от два часа;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>работят на 12-часов работен ден при сумирано изчисляване на работното време;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>работят в производства с непрекъсваем процес на работа;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>работят в отдалечени обекти без възможности за ползване на заведения за хранене.</p>
+            </content>
+          </point>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>По време на нощни смени или при полагане на нощен труд на работниците и служителите се осигуряват тонизиращи или ободряващи напитки.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <paragraph eId="art_4__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Право на безплатна храна и/или добавки към нея по тази наредба имат работниците и служителите, работещи при условията на чл. 2.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_4__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Безплатна храна и/или добавки към нея получават работници и служители само за дните, когато работят при условията на чл. 2.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <paragraph eId="art_5__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Стойността на безплатна храна и/или добавки към нея по тази наредба не може да бъде по-малко от два лева на ден за работник или служител.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_5__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Стойността на тонизиращите и ободряващите напитки е не повече от един лев на смяна.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_6">
+        <num>Чл. 6.</num>
+        <content>
+          <p>Разходите за осигуряване безплатна храна и/или добавки към нея по тази наредба са за сметка на издръжката на предприятието.</p>
+        </content>
+      </article>
+      <article eId="art_7">
+        <num>Чл. 7.</num>
+        <paragraph eId="art_7__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>На основа на оценката на риска работодателят след предварителни консултации с представителите на работниците и служителите и комитета/групата по условия на труд, и писмено съгласуване със службата по трудова медицина с писмена заповед определя работниците и служителите, които имат право на:</p>
+          </intro>
+          <point eId="art_7__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>безплатна храна;</p>
+            </content>
+          </point>
+          <point eId="art_7__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>добавки към храната;</p>
+            </content>
+          </point>
+          <point eId="art_7__al_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>безплатна храна и добавки към храната.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_7__al_2">
+          <num>(2)</num>
+          <content>
+            <p>В заповедта по ал. 1 се определят видът и стойността на храната и/или добавките към нея.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_8">
+        <num>Чл. 8.</num>
+        <content>
+          <p>По-големи размери на стойността на храната и/или добавките към нея могат да бъдат договаряни в колективен трудов договор, както и между страните по трудовото правоотношение.</p>
+        </content>
+      </article>
+      <article eId="art_9">
+        <num>Чл. 9.</num>
+        <content>
+          <p>В случаите, когато работници и служители ползват безплатна храна и/или добавки към нея на друго основание, получават храна само на едно от основанията.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 285, ал. 2 от Кодекса на труда.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Указания по прилагането на наредбата дават министърът на труда и социалната политика и министърът на здравеопазването.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредба № 8 от 1987 г. за безплатната предпазна храна на работниците, заети в производства, свързани с вредни за здравето последици (обн., ДВ, бр. 43 от 1987 г.; изм., бр. 89 от 1987 г.; изм. и доп., бр. 58 от 1993 г.) се отменя.</p>
+            <p>Министър на труда и социалната политика:  Ем. Масларова</p>
+            <p>Министър на здравеопазването:  Р. Гайдарски</p>
+            <p>127258</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

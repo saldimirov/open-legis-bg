@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-113-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-113-07-5"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за собствеността" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за собствеността" name="eli" other="/eli/bg/zid/2007/dv-113-07-5"/>
+          <FRBRdate date="2007-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-113-07-5/bul@2007-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-113-07-5/bul@2007-12-28"/>
+          <FRBRdate date="2007-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-113-07-5/bul@2007-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-113-07-5/bul@2007-12-28.xml"/>
+          <FRBRdate date="2007-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-28" name="Държавен вестник" number="113" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за собствеността</p>
+      <p>(обн., ДВ, бр. 46 от 2006 г.; изм., бр. 105 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В § 1 от Закона за допълнение на Закона за собствеността (обн., ДВ, бр. 46 от 2006 г.; изм., бр. 105 от 2006 г.) думите “31 декември 2007 г.” се заменят с “31 декември 2008 г.”.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 31 декември 2007 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

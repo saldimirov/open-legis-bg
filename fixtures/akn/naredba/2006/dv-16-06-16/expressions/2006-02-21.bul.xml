@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-16"/>
+          <FRBRalias value="Наредба № 3 от 6 февруари 2006 г. за годишните отчети на частните съдебни изпълнители" name="short"/>
+          <FRBRalias value="Наредба № 3 от 6 февруари 2006 г. за годишните отчети на частните съдебни изпълнители" name="eli" other="/eli/bg/naredba/2006/dv-16-06-16"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-16/bul@2006-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-16/bul@2006-02-21"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-16/bul@2006-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-16/bul@2006-02-21.xml"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-21" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 3 от 6 февруари 2006 г. за годишните отчети на частните съдебни изпълнители</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С тази наредба се определят изискванията, на които трябва да отговаря годишният отчет на частните съдебни изпълнители.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Годишният отчет се изготвя във форма по образец съгласно приложението към наредбата.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Отчетният период е една календарна година.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Годишният отчет се изготвя и представя на министъра на правосъдието в електронна форма. Когато годишният отчет в електронна форма не е подписан от частния съдебен изпълнител с универсален електронен подпис, той се придружава от заверено копие на хартиен носител.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(3)</num>
+          <content>
+            <p>Годишният отчет в електронна форма се представя във форма и формат, одобрени от министъра на правосъдието.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Годишният отчет се изготвя и представя на министъра на правосъдието в срока, определен в чл. 77 от Закона за частните съдебни изпълнители.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

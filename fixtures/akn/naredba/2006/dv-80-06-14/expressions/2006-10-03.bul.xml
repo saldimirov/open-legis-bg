@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-14"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 7 от 1999 г. за регистрация на гражданските въздухоплавателни средства в Република България" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 7 от 1999 г. за регистрация на гражданските въздухоплавателни средства в Република България" name="eli" other="/eli/bg/naredba/2006/dv-80-06-14"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-14/bul@2006-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-14/bul@2006-10-03"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-14/bul@2006-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-14/bul@2006-10-03.xml"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-03" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 7 от 1999 г. за регистрация на гражданските въздухоплавателни средства в Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 30 се добавя нова т. 3:</p>
+            <p>“3. въздухоплавателното средство е без летателна годност повече от 6 месеца и върху него не са учредени вещни тежести.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>Член 34 се изменя така:</p>
+            <p>“Чл. 34. (1) В случаите по т. 2 и 3 на чл. 30 отписването на ВС се извършва на базата на:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>заявление от досегашния собственик, владелец или държател на ВС, придружено (когато това е възможно) от удостоверението за регистрация; заявлението трябва да бъде подадено в Гражданска въздухоплавателна администрация не по-късно от един месец от възникване на основанието за отписване;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>протокол на комисията по разследване на катастрофата, аварията, безследното изчезване или протокол на комисията по бракуването (поради природно бедствие, навършване на общия ресурс или морално остаряване) или протокол, изготвен от най-малко двама инспектори от Гражданска въздухоплавателна администрация, удостоверяващ, че въздухоплавателното средство е без летателна годност повече от 6 месеца и върху него не са учредени вещни тежести.” Министър:  П. Мутафчиев 61935</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

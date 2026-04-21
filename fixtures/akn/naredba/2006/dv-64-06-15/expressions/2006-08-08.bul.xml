@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-15"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 2005 г. за минималните изисквания за защита и хуманно отношение при отглеждане на свине" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 2005 г. за минималните изисквания за защита и хуманно отношение при отглеждане на свине" name="eli" other="/eli/bg/naredba/2006/dv-64-06-15"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-15/bul@2006-08-08/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-15/bul@2006-08-08"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-15/bul@2006-08-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-15/bul@2006-08-08.xml"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-08" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 21 от 2005 г. за минималните изисквания за защита и хуманно отношение при отглеждане на свине</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 6, ал. 1, т. 2 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В буква “а” накрая се добавя “при групово отглеждане се хранят по начин, който дава възможност всяко животно да получи достатъчно количество храна независимо от наличието на съревнование за храна в групата;”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Буква “д” се изменя така: “д) сухостойните бременни свине и женските свине след първо заплождане, с цел премахване чувството на глад и удовлетворяване на желанието да дъвчат, се хранят по начин, който дава възможност всяко животно да получи достатъчно количество обемисти, влакнести и високоенергийни храни;”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В допълнителната разпоредба се правят следните изменения и допълнения:</p>
+            <p>1 .Точка 3 се изменя така:</p>
+            <p>“3. “Свиня майка” е женска свиня след първото опрасване.”</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>2.</num>
+            <content>
+              <p>Точка 5 се изменя така: “5. “Подрастващо прасе” е прасе от отбиването до навършване на 10 седмици.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>3.</num>
+            <content>
+              <p>Точка 8 се изменя така: “8. “Женска свиня след първо заплождане” е свиня в полова зрялост, преди първото опрасване.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>4.</num>
+            <content>
+              <p>Създават се т. 10 и 11: “10. “Сухостойна бременна свиня” е свиня в периода между отбиването на прасенцата и перинаталния период на следващата бременност.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_4">
+            <num>11.</num>
+            <content>
+              <p>“Перинатален период при свинята” е периодът от 100-тния ден от началото на бременността до 5-ия ден след раждането.” За министър:  Ст. Юруков 53667</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

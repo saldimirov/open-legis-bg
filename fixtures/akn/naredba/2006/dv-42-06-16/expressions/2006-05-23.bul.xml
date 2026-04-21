@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-42-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-42-06-16"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 3 от 2003 г. за Националната схема за екомаркировка" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 3 от 2003 г. за Националната схема за екомаркировка" name="eli" other="/eli/bg/naredba/2006/dv-42-06-16"/>
+          <FRBRdate date="2006-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-42-06-16/bul@2006-05-23/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-42-06-16/bul@2006-05-23"/>
+          <FRBRdate date="2006-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-42-06-16/bul@2006-05-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-42-06-16/bul@2006-05-23.xml"/>
+          <FRBRdate date="2006-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-05-23" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 3 от 2003 г. за Националната схема за екомаркировка</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

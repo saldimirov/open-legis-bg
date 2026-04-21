@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-4"/>
+          <FRBRalias value="Закон за ратифициране на Конвенцията, съставена на основание член К.3 от Договора за Европейския съюз, за лишаването от право да се управлява моторно превозно средство" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Конвенцията, съставена на основание член К.3 от Договора за Европейския съюз, за лишаването от право да се управлява моторно превозно средство" name="eli" other="/eli/bg/ratifikatsiya/2007/dv-40-07-4"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-4/bul@2007-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-4/bul@2007-05-18"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-4/bul@2007-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-4/bul@2007-05-18.xml"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-05-18" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Конвенцията, съставена на основание член К.3 от Договора за Европейския съюз, за лишаването от право да се управлява моторно превозно средство</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

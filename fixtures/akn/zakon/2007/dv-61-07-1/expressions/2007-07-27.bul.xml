@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-61-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-61-07-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за местното самоуправление и местната администрация" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за местното самоуправление и местната администрация" name="eli" other="/eli/bg/zakon/2007/dv-61-07-1"/>
+          <FRBRdate date="2007-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-61-07-1/bul@2007-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-61-07-1/bul@2007-07-27"/>
+          <FRBRdate date="2007-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-61-07-1/bul@2007-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-61-07-1/bul@2007-07-27.xml"/>
+          <FRBRdate date="2007-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-27" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за местното самоуправление и местната администрация</p>
+      <p>(обн., ДВ, бр. 77 от 1991 г.; изм., бр. 24, 49 и 65 от 1995 г., бр. 90 от 1996 г., бр. 122 от 1997 г., бр. 33, 130 и 154 от 1998 г., бр. 67 и 69 от 1999 г., бр. 26 и 85 от 2000 г., бр. 1 от 2001 г., бр. 28, 45 и 119 от 2002 г., бр. 69 от 2003 г., бр. 19 и 34 от  2005 г  ., бр. 30 и 69 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 21, ал. 1, т. 12 накрая се добавя “които отразяват и европейските политики за развитие на местните общности”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 41 ал. 2 се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

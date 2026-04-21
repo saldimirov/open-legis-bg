@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-38-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-38-05-5"/>
+          <FRBRalias value="Закон за ратифициране на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния относно по-нататъшно намаляване на серните емисии и на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния за намаляване на подкиселяването, еутрофикацията и тропосферния озон" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния относно по-нататъшно намаляване на серните емисии и на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния за намаляване на подкиселяването, еутрофикацията и тропосферния озон" name="eli" other="/eli/bg/zakon/2005/dv-38-05-5"/>
+          <FRBRdate date="2005-05-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-38-05-5/bul@2005-05-03/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-38-05-5/bul@2005-05-03"/>
+          <FRBRdate date="2005-05-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-38-05-5/bul@2005-05-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-38-05-5/bul@2005-05-03.xml"/>
+          <FRBRdate date="2005-05-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-03" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния относно по-нататъшно намаляване на серните емисии и на Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния за намаляване на подкиселяването, еутрофикацията и тропосферния озон</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния относно по-нататъшно намаляване на серните емисии, подписан на 14 юни 1994 г. в Осло, Норвегия, със следната декларация по чл. 2, ал. 5, буква “в”:</p>
+          <p>“Република България декларира, че продължава срока за прилагане на нормите за сяра в дизеловите горива с 6 години, а в газьола - с 9 години след датата на влизане в сила на протокола.”</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Протокола към Конвенцията от 1979 г. за трансграничното замърсяване на въздуха на далечни разстояния за намаляване на подкиселяването, еутрофикацията и тропосферния озон, подписан на 30 ноември 1999 г. в Гьотеборг, Швеция, със следната декларация:</p>
+          <p>“Република България декларира, че за постигане целите на протокола по отношение на прилагането на разпоредбите на т. 1 и 2 от Приложение VII и т. 6 и 9 от Приложение IX желае да бъде третирана като държава с икономика в преход.”</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

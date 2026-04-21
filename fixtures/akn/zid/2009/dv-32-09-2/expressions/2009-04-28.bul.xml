@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-32-09-2/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-32-09-2"/>
+          <FRBRalias value="Закон за допълнение на Данъчно-осигурителния процесуален кодекс" name="short"/>
+          <FRBRalias value="Закон за допълнение на Данъчно-осигурителния процесуален кодекс" name="eli" other="/eli/bg/zid/2009/dv-32-09-2"/>
+          <FRBRdate date="2009-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-32-09-2/bul@2009-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-32-09-2/bul@2009-04-28"/>
+          <FRBRdate date="2009-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-32-09-2/bul@2009-04-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-32-09-2/bul@2009-04-28.xml"/>
+          <FRBRdate date="2009-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-04-28" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Данъчно-осигурителния процесуален кодекс</p>
+      <p>(обн., ДВ, бр. 105 от 2005 г.; изм., бр. 30, 33, 34, 59, 63, 73, 80, 82, 86, 95 и 105 от 2006 г., бр. 46, 52, 53, 57, 59, 108 и 109 от 2007 г., бр. 36, 69 и 98 от 2008 г. и бр. 12 от 2009 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

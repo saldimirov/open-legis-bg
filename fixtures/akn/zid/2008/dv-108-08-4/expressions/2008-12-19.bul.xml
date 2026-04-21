@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-4/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-4"/>
+          <FRBRalias value="Закон за допълнение на Търговския закон" name="short"/>
+          <FRBRalias value="Закон за допълнение на Търговския закон" name="eli" other="/eli/bg/zid/2008/dv-108-08-4"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-4/bul@2008-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-4/bul@2008-12-19"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-4/bul@2008-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-4/bul@2008-12-19.xml"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-19" name="Държавен вестник" number="108" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Търговския закон</p>
+      <p>(обн., ДВ, бр. 48 от 1991 г.; изм., бр. 25 от 1992 г., бр. 61 и 103 от 1993 г., бр. 63 от 1994 г., бр. 63 от 1995 г., бр. 42, 59, 83, 86 и 104 от 1996 г., бр. 58, 100 и 124 от 1997 г., бр. 21, 39, 52 и 70 от 1998 г., бр. 33, 42, 64, 81, 90, 103 и 114 от 1999 г., бр. 84 от 2000 г., бр. 28, 61 и 96 от 2002 г., бр. 19, 31 и 58 от 2003 г., бр. 31, 39, 42, 43, 66, 103 и 105 от 2005 г., бр. 38, 59, 80 и 105 от 2006 г., бр. 59, 92 и 104 от 2007 г., бр. 50, 67, 70 и 100 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 262и се създава ал. 3:</p>
+          <p>“(3) В случаите по чл. 262л, ал. 5 към доклада се прилага съгласието на съдружниците или акционерите.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 262л се създава ал. 5:</p>
+          <p>“(5) Проверка на преобразуването не се извършва, ако всички съдружници или акционери в преобразуващите се и в приемащите дружества са изразили писмено съгласие за това.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 262ф, ал. 1 се създава изречение второ: “Общият доклад се изготвя и в случаите по чл. 262л, ал. 5.”</p>
+          <p>Допълнителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Този закон въвежда разпоредбите на Директива 2007/63/ЕО на Европейския парламент и на Съвета от 13 ноември 2007 г. за изменение на директиви 78/855/ЕИО и 82/891/ЕИО на Съвета във връзка с изискването за доклад от независим експерт при сливане или разделяне на акционерни дружества (ОВ, L 300/47 от 17 ноември 2007 г.).</p>
+          <p>Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>Разпоредбата на чл. 262л, ал. 5 не се прилага, когато при влизането в сила на този закон докладът на управителния орган за преобразуването е обявен в търговския регистър.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

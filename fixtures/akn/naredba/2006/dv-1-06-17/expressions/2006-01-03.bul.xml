@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-17"/>
+          <FRBRalias value="Наредба за изменение на Наредба № I-45 от 2000 г. за регистрацията, отчета, пускането в движение и спирането от движение на моторни превозни средства и на ремаркета, теглени от тях" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № I-45 от 2000 г. за регистрацията, отчета, пускането в движение и спирането от движение на моторни превозни средства и на ремаркета, теглени от тях" name="eli" other="/eli/bg/naredba/2006/dv-1-06-17"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-17/bul@2006-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-17/bul@2006-01-03"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-17/bul@2006-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-17/bul@2006-01-03.xml"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № I-45 от 2000 г. за регистрацията, отчета, пускането в движение и спирането от движение на моторни превозни средства и на ремаркета, теглени от тях</p>
+      <p>(обн., ДВ, бр. 31 от 2000 г.; изм., бр. 48 и 105 от 2002 г., бр. 68 и 105 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В § 3 от преходните и заключителните разпоредби се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 думите “31.ХII.2006 г.” се заменят с “31.III.2006 г.”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 2, т. 5 думите “края на 2006 г.” се заменят с “31.III.2006 г.”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В ал. 3 думите “1.I.2007 г.” се заменят с “1.IV.2006 г.”.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Петков</p>
+            <p>127723</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

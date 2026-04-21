@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-16"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 7 от 1997 г. за продажба на движими вещи - частна държавна собственост" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 7 от 1997 г. за продажба на движими вещи - частна държавна собственост" name="eli" other="/eli/bg/naredba/2005/dv-102-05-16"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-16/bul@2005-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-16/bul@2005-12-20"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-16/bul@2005-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-16/bul@2005-12-20.xml"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-20" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 7 от 1997 г. за продажба на движими вещи - частна държавна собственост</p>
+      <p>(обн., ДВ, бр. 109 от 1997 г.; доп., бр. 37 от 1998 г.; изм., бр. 15 и 55 от 1999 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5 ал. 1 се изменя така:</p>
+            <p>“Чл. 5. (1) В случаите, когато балансовата стойност на една вещ или общата стойност на вещите не надвишава 10 000 лв., продажбата се извършва след провеждане на търг с тайно наддаване.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 17, ал. 1 числото “3000” се заменя с “10 000”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 18 числото “3000” се заменя с “10 000”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 януари 2006 г.</p>
+            <p>Министър:  Пл. Орешарски</p>
+            <p>123589</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

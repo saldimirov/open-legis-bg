@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-10"/>
+          <FRBRalias value="Наредба № 42 от 8 декември 2004 г. за въвеждане на Международната статистическа класификация на болестите и проблемите, свързани със здравето - десета ревизия" name="short"/>
+          <FRBRalias value="Наредба № 42 от 8 декември 2004 г. за въвеждане на Международната статистическа класификация на болестите и проблемите, свързани със здравето - десета ревизия" name="eli" other="/eli/bg/naredba/2004/dv-111-04-10"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-10/bul@2004-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-10/bul@2004-12-21"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-10/bul@2004-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-10/bul@2004-12-21.xml"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-12-21" name="Държавен вестник" number="111" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 42 от 8 декември 2004 г. за въвеждане на Международната статистическа класификация на болестите и проблемите, свързани със здравето - десета ревизия</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Лечебните и здравните заведения, регионалните центрове по здравеопазване, районните инспекции по опазване и контрол на общественото здраве, лекарите, стоматолозите, фармацевтите и другите медицински и немедицинските специалисти, които обработват здравна и медико-статистическа информация, прилагат в медицинската и медико-статистическата документация, която съставят, Международната статистическа класификация на болестите и проблемите, свързани със здравето - десета ревизия (МКБ 10), съгласно приложение № 1.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Международната статистическа класификация на болестите и проблемите, свързани със здравето - десета ревизия, се прилага и в документацията, съставяна от другите държавни, общински и обществени органи и институции, когато се използват кодове, номенклатури и други означения, посочени в приложение № 1.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Определят се форми на “съобщение за смърт” и “свидетелство за перинатална смърт” съгласно приложение № 2 и приложение № 3.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Наредбата е съгласувана с Националния статистически институт.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се приема на основание чл. 27, ал. 3 от Закона за здравето.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложение № 1 към чл. 1, ал. 1 да се обнародва като притурка на “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1.I.2005 г.</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>Приложение №   2   към чл. 2</p>
+            <p>Приложение № 3       към чл. 2</p>
+            <p>Забележка на редакцията:    виж приложенията в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

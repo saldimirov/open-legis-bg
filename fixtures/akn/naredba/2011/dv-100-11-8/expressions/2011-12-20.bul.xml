@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-8"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 40 от 2004 г. за условията и реда за извършване на автомобилен превоз на опасни товари" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 40 от 2004 г. за условията и реда за извършване на автомобилен превоз на опасни товари" name="eli" other="/eli/bg/naredba/2011/dv-100-11-8"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-8/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-8/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-8/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-8/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 40 от 2004 г. за условията и реда за извършване на автомобилен превоз на опасни товари</p>
+      <p>(обн., ДВ, бр. 15 от 2004 г.; изм., бр. 12 и 67 от 2007 г.; бр. 16 от 2010 г.; попр., бр. 18 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Параграф 5 от преходните и заключителните разпоредби се изменя така:</p>
+            <p>„§ 5. Терминът „договаряща страна“ в приложения А и Б на ADR трябва да се разбира като „държава – член на Европейския съюз“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата въвежда изискванията относно превозите на товари по шосе на Директива 2010/61/ЕС на Комисията от 2 септември 2010 г. за първоначално изменение с цел привеждане в съответствие с научно-техническия прогрес на приложенията към Директива 2008/68/ЕО на Европейския парламент и на Съвета относно вътрешния превоз на опасни товари (ОВ, L 233 от 3 септември 2010 г.).</p>
+            <p>Министър на транспорта, информационните технологии и съобщенията:  Ивайло Московски</p>
+            <p>Министър на вътрешните работи:  Цветан Цветанов</p>
+            <p>Министър на околната среда и водите:  Нона Караджова</p>
+            <p>13101</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

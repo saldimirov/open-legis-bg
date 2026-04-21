@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-15"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции" name="eli" other="/eli/bg/naredba/2007/dv-62-07-15"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-15/bul@2007-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-15/bul@2007-07-31"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-15/bul@2007-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-15/bul@2007-07-31.xml"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-31" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В приложение № 3, Списък № 1 “Международни банки за развитие” след т. 15 “Международна агенция за застраховане на инвестициите” се създават нови т. 16 и 17 със следното съдържание:</p>
+            <p>“16. Международен финансов фонд за имунизации (International Finance Facility for Immunisation);</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>17.</num>
+            <content>
+              <p>Ислямска банка за развитие.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тази наредба въвежда разпоредбите на Директива 2007/18/ЕО от 27 март 2007 г. за изменение на Директива 2006/48/ЕО на Европейския парламент и Съвета по отношение на изключването или включването на определени институции от/в нейното приложно поле и относно третирането на експозициите към международни банки за развитие.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 40 от Закона за кредитните институции и е приета с Решение № 94 от 19 юли 2007 г. на УС на  БНБ.</p>
+            <p>За управител:  Д. Костов</p>
+            <p>37652</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

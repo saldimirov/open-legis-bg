@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-80-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-80-07-5"/>
+          <FRBRalias value="Закон за ратифициране на Договора за екстрадиция между Република България и Кралство Мароко" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Договора за екстрадиция между Република България и Кралство Мароко" name="eli" other="/eli/bg/ratifikatsiya/2007/dv-80-07-5"/>
+          <FRBRdate date="2007-10-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-80-07-5/bul@2007-10-05/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-80-07-5/bul@2007-10-05"/>
+          <FRBRdate date="2007-10-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-80-07-5/bul@2007-10-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-80-07-5/bul@2007-10-05.xml"/>
+          <FRBRdate date="2007-10-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-05" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Договора за екстрадиция между Република България и Кралство Мароко</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

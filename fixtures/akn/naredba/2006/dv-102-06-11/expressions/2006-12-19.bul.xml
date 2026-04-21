@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-11"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2006 г. за профилактика, ограничаване и ликвидиране на салмонелозите, предаващи се чрез храни" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2006 г. за профилактика, ограничаване и ликвидиране на салмонелозите, предаващи се чрез храни" name="eli" other="/eli/bg/naredba/2006/dv-102-06-11"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-11/bul@2006-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-11/bul@2006-12-19"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-11/bul@2006-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-11/bul@2006-12-19.xml"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-19" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 38 от 2006 г. за профилактика, ограничаване и ликвидиране на салмонелозите, предаващи се чрез храни</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>Създава се чл. 2а:</p>
+            <p>“Чл. 2а. Тази наредба се прилага, без да нарушава изискванията на други нормативни актове, свързани със:</p>
+            <p>а) здравеопазване на животните;</p>
+            <p>б) хранене на животните;</p>
+            <p>в) хигиена на храните;</p>
+            <p>г) заразни болести по хората;</p>
+            <p>д) безопасност на работното място;</p>
+            <p>е) генни технологии;</p>
+            <p>ж) трансмисивни спонгиформни енцефалопатии.”</p>
+            <p>§ 3   . В чл. 7 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 1 думата “допълнителни” се заличава.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 3 думите“допълнителните програми” се заменят с “програмите”. § 4   . В чл. 8 се правят следните изменения:</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>1.</num>
+            <content>
+              <p>В т. 1 думите “допълнителните програми” се заменят с “програмите”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_4">
+            <num>2.</num>
+            <content>
+              <p>В т. 2 думите “допълнителните програми” се заменя с “програмите по т. 1”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 15 думата “Европа” се заменя с “Европейския съюз”.</p>
+            <p>За министър:  Б. Абазов</p>
+            <p>76348</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

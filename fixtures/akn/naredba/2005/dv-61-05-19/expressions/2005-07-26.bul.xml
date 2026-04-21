@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-19"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 40 от 2004 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 40 от 2004 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="eli" other="/eli/bg/naredba/2005/dv-61-05-19"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-19/bul@2005-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-19/bul@2005-07-26"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-19/bul@2005-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-19/bul@2005-07-26.xml"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-26" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 40 от 2004 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

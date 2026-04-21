@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-12-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-12-07-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Конституцията на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Конституцията на Република България" name="eli" other="/eli/bg/zid/2007/dv-12-07-1"/>
+          <FRBRdate date="2007-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-12-07-1/bul@2007-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-12-07-1/bul@2007-02-06"/>
+          <FRBRdate date="2007-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-12-07-1/bul@2007-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-12-07-1/bul@2007-02-06.xml"/>
+          <FRBRdate date="2007-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-02-06" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 56 от 1991 г.; изм., бр. 85 от 2003 г., бр. 18 от 2005 г., бр. 27 от 2006 г. и бр. 78 от 2006 г. - Решение № 7   на Конституционния съд от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 9 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>Досегашният текст става ал. 1.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се ал. 2: “(2) Дейността на въоръжените сили се урежда със закон.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 59 ал. 2 се изменя така:</p>
+          <p>“(2) Подготовката на гражданите за защита на отечеството се урежда със закон.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <intro>
+          <p>В чл. 62 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_3__pt_1">
+          <num>1.</num>
+          <content>
+            <p>Досегашният текст става ал. 1.</p>
+          </content>
+        </point>
+        <point eId="par_3__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се ал. 2: “(2) Народното събрание има самостоятелен бюджет.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 81, ал. 1 думите “може да заседава” се заменят с “открива заседанията си”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <intro>
+          <p>В чл. 84 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_5__pt_1">
+          <num>1.</num>
+          <content>
+            <p>Точка 3 се изменя така: “3. установява данъците и определя размера на държавните данъци;”.</p>
+          </content>
+        </point>
+        <point eId="par_5__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Точка 16 се изменя така: “16. изслушва и приема годишните доклади на Върховния касационен съд, на Върховния административен съд и на главния прокурор, внесени от Висшия съдебен съвет, за прилагането на закона и за дейността на съдилищата, прокуратурата и разследващите органи;”.</p>
+          </content>
+        </point>
+        <point eId="par_5__pt_3">
+          <num>3.</num>
+          <content>
+            <p>Създава се т. 17: “17. изслушва и приема доклади за дейността на органи, които изцяло или частично се избират от Народното събрание, когато това е предвидено в закон.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_6" name="modification">
+        <num>§ 6.</num>
+        <intro>
+          <p>В чл. 130 се създават ал. 6, 7, 8 и 9:</p>
+          <p>“(6) Висшият съдебен съвет:</p>
+          <p>1. назначава, повишава, премества и освобождава от длъжност съдиите, прокурорите и следователите;</p>
+          <p>2. налага дисциплинарните наказания понижаване и освобождаване от длъжност на съдиите, прокурорите и следователите;</p>
+          <p>3. организира квалификацията на съдиите, прокурорите и следователите;</p>
+          <p>4. приема проекта на бюджет на съдебната власт;</p>
+          <p>5. определя обхвата и структурата на годишните доклади по чл. 84, т. 16.</p>
+        </intro>
+        <paragraph eId="par_6__al_1">
+          <num>(7)</num>
+          <content>
+            <p>Висшият съдебен съвет изслушва и приема годишните доклади на Върховния касационен съд, на Върховния административен съд и на главния прокурор за прилагането на закона и за дейността на съдилищата, прокуратурата и разследващите органи и ги внася в Народното събрание.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_6__al_2">
+          <num>(8)</num>
+          <intro>
+            <p>Мандатът на изборен член на Висшия съдебен съвет се прекратява при:</p>
+          </intro>
+          <point eId="par_6__al_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>подаване на оставка;</p>
+            </content>
+          </point>
+          <point eId="par_6__al_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>влязъл в сила съдебен акт за извършено престъпление;</p>
+            </content>
+          </point>
+          <point eId="par_6__al_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>трайна фактическа невъзможност да изпълнява задълженията си за повече от една година;</p>
+            </content>
+          </point>
+          <point eId="par_6__al_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>дисциплинарно освобождаване от длъжност или лишаване от право да упражнява юридическа професия или дейност.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="par_6__al_3">
+          <num>(9)</num>
+          <content>
+            <p>При прекратяване на мандата на изборен член на Висшия съдебен съвет на негово място се избира друг от съответната квота, който довършва мандата.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_7" name="modification">
+        <num>§ 7.</num>
+        <content>
+          <p>В чл. 130а т. 5 се отменя.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_8" name="modification">
+        <num>§ 8.</num>
+        <content>
+          <p>В чл. 131 думите “за даване разрешение по чл. 132, ал. 2 и 3” се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_9" name="modification">
+        <num>§ 9.</num>
+        <content>
+          <p>В чл. 132 ал. 2, 3 и 4 се отменят.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_10" name="modification">
+        <num>§ 10.</num>
+        <intro>
+          <p>Създава се чл. 132а:</p>
+          <p>“Чл. 132а. (1) Към Висшия съдебен съвет се създава Инспекторат, който се състои от главен инспектор и десет инспектори.</p>
+        </intro>
+        <paragraph eId="par_10__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Главният инспектор се избира от Народното събрание с мнозинство две трети от народните представители за срок от пет години.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_2">
+          <num>(3)</num>
+          <content>
+            <p>Инспекторите се избират от Народното събрание за срок от четири години по реда на ал. 2.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_3">
+          <num>(4)</num>
+          <content>
+            <p>Главният инспектор и инспекторите могат да бъдат избирани повторно, но не за два последователни мандата.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_4">
+          <num>(5)</num>
+          <content>
+            <p>Бюджетът на Инспектората се приема от Народното събрание в рамките на бюджета на съдебната власт.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_5">
+          <num>(6)</num>
+          <content>
+            <p>Инспекторатът проверява дейността на органите на съдебната власт, без да засяга независимостта на съдиите, съдебните заседатели, прокурорите и следователите при осъществяването на техните функции. Главният инспектор и инспекторите при осъществяване на функциите си са независими и се подчиняват само на закона.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_6">
+          <num>(7)</num>
+          <content>
+            <p>Инспекторатът действа служебно, по инициатива на граждани, юридически лица или държавни органи, включително на съдии, прокурори и следователи.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_7">
+          <num>(8)</num>
+          <content>
+            <p>Инспекторатът представя годишен доклад за дейността си на Висшия съдебен съвет.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_8">
+          <num>(9)</num>
+          <content>
+            <p>Инспекторатът отправя сигнали, предложения и доклади до други държавни органи, включително и до компетентните органи на съдебната власт. Инспекторатът предоставя публично информация за дейността си.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_10__al_9">
+          <num>(10)</num>
+          <content>
+            <p>Условията и редът за избиране и освобождаване на главния инспектор и на инспекторите, както и организацията и дейността на Инспектората се уреждат със закон.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_11" name="modification">
+        <num>§ 11.</num>
+        <intro>
+          <p>В чл. 141 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_11__pt_1">
+          <num>1.</num>
+          <content>
+            <p>Създава се нова ал. 3: “(3) Общинският съвет определя размера на местните данъци при условия, по ред и в границите, установени със закон.”</p>
+          </content>
+        </point>
+        <point eId="par_11__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се ал. 4: “(4) Общинският съвет определя размера на местните такси по ред, установен със закон.”</p>
+          </content>
+        </point>
+        <point eId="par_11__pt_3">
+          <num>3.</num>
+          <content>
+            <p>Досегашната ал. 3 става ал. 5. Заключителни разпоредби</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_12" name="modification">
+        <num>§ 12.</num>
+        <content>
+          <p>Народното събрание в срок до една година от влизането в сила на Закона за изменение и допълнение на Конституцията на Република България приема законите, които се отнасят до прилагането на тези изменения и допълнения.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_13" name="modification">
+        <num>§ 13.</num>
+        <content>
+          <p>Параграфи 1 и 2 влизат в сила от 1 януари 2008 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

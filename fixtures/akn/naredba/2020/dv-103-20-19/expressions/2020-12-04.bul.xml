@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-19/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-19"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № Н-2 от 2020 г. за утвърждаване на образци на заповед за изпълнение, заявление за издаване на заповед за изпълнение и други книжа във връзка със заповедното производство" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № Н-2 от 2020 г. за утвърждаване на образци на заповед за изпълнение, заявление за издаване на заповед за изпълнение и други книжа във връзка със заповедното производство" name="eli" other="/eli/bg/naredba/2020/dv-103-20-19"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-19/bul@2020-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-19/bul@2020-12-04"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-19/bul@2020-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-19/bul@2020-12-04.xml"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-04" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № Н-2 от 2020 г. за утвърждаване на образци на заповед за изпълнение, заявление за издаване на заповед за изпълнение и други книжа във връзка със заповедното производство</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 3 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Досегашният текст става ал. 1.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Създава се ал. 2: „(2) Когато заявление за издаване на заповед за изпълнение по реда на чл. 410 ГПК се подава в електронна форма, се използва специализиран електронен формуляр по чл. 25, ал. 1 от Наредба № 5 от 2017 г. за организацията и реда за водене, съхраняване и достъп до електронните дела и начина на съхраняване на доказателствата и доказателствените средства по делата, както и вътрешния оборот и съхраняването на друга информация, обработвана от съдебната администрация (ДВ, бр. 47 от 2017 г.).“</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 януари 2021 г.</p>
+            <p>Министър:  Десислава Ахладова</p>
+            <p>9170</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-14"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 1 от 2006 г. за атестиране на съдии, прокурори, следователи" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 1 от 2006 г. за атестиране на съдии, прокурори, следователи" name="eli" other="/eli/bg/naredba/2006/dv-101-06-14"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-14/bul@2006-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-14/bul@2006-12-15"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-14/bul@2006-12-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-14/bul@2006-12-15.xml"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-15" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 1 от 2006 г. за атестиране на съдии, прокурори, следователи</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 55, ал. 3 след думата “съдии” се добавя “прокурори и следователи” и след думите “по ал. 2” се добавя “чрез жребий и издаване на съответната заповед”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от датата на обнародването й в “Държавен вестник”.</p>
+            <p>Председателстващ Висшия съдебен съвет:  Г. Петканов</p>
+            <p>75804</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

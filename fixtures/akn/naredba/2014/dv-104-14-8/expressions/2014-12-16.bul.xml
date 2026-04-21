@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-104-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-104-14-8"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 8121з-310 от 2014 г. за преназначаване на държавните служители в Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 8121з-310 от 2014 г. за преназначаване на държавните служители в Министерството на вътрешните работи" name="eli" other="/eli/bg/naredba/2014/dv-104-14-8"/>
+          <FRBRdate date="2014-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-104-14-8/bul@2014-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-104-14-8/bul@2014-12-16"/>
+          <FRBRdate date="2014-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-104-14-8/bul@2014-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-104-14-8/bul@2014-12-16.xml"/>
+          <FRBRdate date="2014-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-16" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 8121з-310 от 2014 г. за преназначаване на държавните служители в Министерството на вътрешните работи</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 12 ал. 2 се изменя така:</p>
+            <p>„(2) Държавният служител може да бъде временно преназначен на по-висока длъжност, когато отговаря на изискванията за образование, квалификация и достъп до съответното ниво на класифицирана информация за съответната длъжност.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>Министър:  Веселин Вучков</p>
+            <p>8840</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

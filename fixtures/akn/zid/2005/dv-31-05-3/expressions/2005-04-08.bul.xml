@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-31-05-3/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-31-05-3"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантиране на влоговете в банките" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантиране на влоговете в банките" name="eli" other="/eli/bg/zid/2005/dv-31-05-3"/>
+          <FRBRdate date="2005-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-31-05-3/bul@2005-04-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-31-05-3/bul@2005-04-08"/>
+          <FRBRdate date="2005-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-31-05-3/bul@2005-04-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-31-05-3/bul@2005-04-08.xml"/>
+          <FRBRdate date="2005-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-08" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за гарантиране на влоговете в банките</p>
+      <p>(обн., ДВ, бр. 49 от 1998 г.; изм., бр. 73, 153 и 155 от 1998 г., бр. 54 от 1999 г., бр. 109 от 2001 г., бр. 92 и 118 от 2002 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

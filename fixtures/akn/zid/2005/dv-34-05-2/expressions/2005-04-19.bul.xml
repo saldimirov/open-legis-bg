@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-2/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-2"/>
+          <FRBRalias value="Закон за изменение на Закона за общинските бюджети" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за общинските бюджети" name="eli" other="/eli/bg/zid/2005/dv-34-05-2"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-2/bul@2005-04-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-2/bul@2005-04-19"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-2/bul@2005-04-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-2/bul@2005-04-19.xml"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-19" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за общинските бюджети</p>
+      <p>(обн., ДВ, бр. 33 от 1998 г.; изм., бр. 69 от 1999 г., бр. 9 от 2001 г. - Решение № 2 на Конституционния съд от 2001 г.; изм., бр. 56 и 93 от 2002 г., бр. 107 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Наименованието на глава осма се изменя така: “Общински дълг”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Член 40 се изменя така:</p>
+          <p>“Чл. 40. Общинският съвет може да приема решения за поемане на общински дълг при условия и по ред, определени със закон.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Член 41 се отменя.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила от 1 юни 2005 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

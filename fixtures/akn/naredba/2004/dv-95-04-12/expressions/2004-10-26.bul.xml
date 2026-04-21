@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-12/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-12"/>
+          <FRBRalias value="Наредба № 16 от 13 октомври 2004 г. за правилата за разпределение и процедурите по предоставяне за ползване, резервиране и отнемане на номера, адреси и имена" name="short"/>
+          <FRBRalias value="Наредба № 16 от 13 октомври 2004 г. за правилата за разпределение и процедурите по предоставяне за ползване, резервиране и отнемане на номера, адреси и имена" name="eli" other="/eli/bg/naredba/2004/dv-95-04-12"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-12/bul@2004-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-12/bul@2004-10-26"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-12/bul@2004-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-12/bul@2004-10-26.xml"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-26" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 16 от 13 октомври 2004 г. за правилата за разпределение и процедурите по предоставяне за ползване, резервиране и отнемане на номера, адреси и имена</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С тази наредба се определят правилата за разпределение и процедурите по предоставяне за ползване, резервиране и отнемане на номера, адреси и имена.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Комисията за регулиране на съобщенията (комисията) предоставя за ползване номера и адреси на далекосъобщителни оператори съобразно правилата и процедурите в тази наредба.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Комисията съхранява информация за предоставените номера и адреси.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>НАЦИОНАЛЕН НОМЕРАЦИОНЕН ПЛАН</heading>
+        <article eId="chap_2__art_4">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Националният номерационен план (ННП) представлява разпределението на номерата, използвани в обществените мрежи за идентификация, маршрутизация и таксуване.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_2__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Комисията изготвя ННП, като го съобразява с актовете на международни организации и/или техни компетентни органи.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При разработване на ННП се цели осигуряване на ефективно използване на номерата.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <intro>
+            <p>Националният номерационен план включва информация за:</p>
+          </intro>
+          <point eId="chap_2__art_6__pt_1">
+            <num>1.</num>
+            <content>
+              <p>националните кодове за направление (географските кодове, кодове за достъп до мрежи и кодовете за достъп до национални негеографски услуги);</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_2">
+            <num>2.</num>
+            <content>
+              <p>предназначение на кодовете по т. 1;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_3">
+            <num>3.</num>
+            <content>
+              <p>дължина на кодовете и дължина на национално значимите номера.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_2__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="chap_2__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Националният номерационен план се изготвя или изменя от комисията в съответствие с регулаторната политика по чл. 27, т. 10 от Закона за далекосъобщенията (ЗД) при спазване принципите на обективност, пропорционалност, равнопоставеност, прозрачност и на&amp;shy;временност, както и при отчитане на интересите на националната сигурност и отбраната на страната и на обществените интереси.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При изготвяне или изменение на ННП комисията провежда обществено обсъждане по реда на чл. 36 ЗД.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Националният номерационен план и изменението му се обнародват в “Държавен вестник”.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>ПРАВИЛА ЗА РАЗПРЕДЕЛЕНИЕ НА НОМЕРА И АДРЕСИ</heading>
+        <section eId="chap_3__sec_1">
+          <num>Раздел I</num>
+          <heading>Структура и формат на номерата от ННП</heading>
+          <article eId="chap_3__sec_1__art_8">
+            <num>Чл. 8.</num>
+            <intro>
+              <p>Международният номер за Република България е с не повече от:</p>
+            </intro>
+            <point eId="chap_3__sec_1__art_8__pt_1">
+              <num>1.</num>
+              <content>
+                <p>дванадесет цифри за цифрови мобилни далекосъобщителни клетъчни мрежи;</p>
+              </content>
+            </point>
+            <point eId="chap_3__sec_1__art_8__pt_2">
+              <num>2.</num>
+              <content>
+                <p>единадесет цифри за всички останали далекосъобщителни мрежи и услуги.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_3__sec_1__art_9">
+            <num>Чл. 9.</num>
+            <paragraph eId="chap_3__sec_1__art_9__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Международният номер има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_1__art_9__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>международен код на страната (СС), съставен от три цифри - 359;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_9__al_1__pt_2">
+                <num>2.</num>
+                <intro>
+                  <p>национално значим номер (NSN) с не повече от:</p>
+                </intro>
+                <point eId="chap_3__sec_1__art_9__al_1__pt_2__l_1">
+                  <num>а)</num>
+                  <content>
+                    <p>9 цифри за цифровите мобилни далекосъобщителни клетъчни мрежи;</p>
+                  </content>
+                </point>
+                <point eId="chap_3__sec_1__art_9__al_1__pt_2__l_2">
+                  <num>б)</num>
+                  <content>
+                    <p>8 цифри за всички други далекосъобщителни мрежи и услуги.</p>
+                  </content>
+                </point>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_9__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Структурата по ал. 1 е показана в приложение № 1.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_1__art_10">
+            <num>Чл. 10.</num>
+            <intro>
+              <p>Национално значимият номер има следната структура:</p>
+            </intro>
+            <point eId="chap_3__sec_1__art_10__pt_1">
+              <num>1.</num>
+              <content>
+                <p>национален код за направление (NDC), състоящ се от не повече от пет цифри;</p>
+              </content>
+            </point>
+            <point eId="chap_3__sec_1__art_10__pt_2">
+              <num>2.</num>
+              <content>
+                <p>абонатен номер, състоящ се от не повече от седем цифри в зависимост от дължината на кода по т. 1.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_3__sec_1__art_11">
+            <num>Чл. 11.</num>
+            <intro>
+              <p>Националните кодове за направление (NDC) биват:</p>
+            </intro>
+            <point eId="chap_3__sec_1__art_11__pt_1">
+              <num>1.</num>
+              <content>
+                <p>географски кодове;</p>
+              </content>
+            </point>
+            <point eId="chap_3__sec_1__art_11__pt_2">
+              <num>2.</num>
+              <content>
+                <p>негеографски кодове.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_3__sec_1__art_12">
+            <num>Чл. 12.</num>
+            <paragraph eId="chap_3__sec_1__art_12__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Географските кодове са уникални, като първата цифра на географския код идентифицира 8 географски зони съгласно приложение № 2.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_12__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Комисията определя с решение географските кодовете на номерационните области в Република България и ги публикува на страницата си в Интернет.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_1__art_13">
+            <num>Чл. 13.</num>
+            <intro>
+              <p>Негеографските кодове са:</p>
+            </intro>
+            <point eId="chap_3__sec_1__art_13__pt_1">
+              <num>1.</num>
+              <content>
+                <p>кодове за достъп до мрежи;</p>
+              </content>
+            </point>
+            <point eId="chap_3__sec_1__art_13__pt_2">
+              <num>2.</num>
+              <content>
+                <p>кодове за достъп до национални услуги.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_3__sec_1__art_14">
+            <num>Чл. 14.</num>
+            <paragraph eId="chap_3__sec_1__art_14__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Кодовете за достъп до мрежи са:</p>
+              </intro>
+              <point eId="chap_3__sec_1__art_14__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>двуцифрени национални кодове за достъп до цифрови мобилни клетъчни мрежи (GSM, UMTS и др.) с формат 8А или 9А;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_14__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>двуцифрени или трицифрени национални кодове за достъп до други мобилни мрежи с формат 4А (Х);</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_14__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>трицифрени или четирицифрени национални кодове за достъп до други мрежи с негеографска номерация и национално покритие с формат 1АХ (У).</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_14__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Възможните стойности на А се определят в ННП, като Х и У могат да заемат стойности от 0 до 9.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_1__art_15">
+            <num>Чл. 15.</num>
+            <paragraph eId="chap_3__sec_1__art_15__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Кодове за достъп до национални негеографски услуги са:</p>
+              </intro>
+              <point eId="chap_3__sec_1__art_15__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>700  - за достъп до услугата “персонален номер” с формат на номерата 700ХУZZZ, където ХУ определят оператора, организиращ достъпа до тази услуга, а ZZZ е предоставената на оператора група от номера; Х, У и Z могат да заемат стойности от 0 до 9;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>800  - за достъп до услуги с безплатен достъп с формат на номерата 800ХУZZZ, където ХУ определят оператора, организиращ достъпа до тези услуги, а ZZZ е предоставената на оператора група от номера; Х, У и Z могат да заемат стойности от 0 до 9;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>90  - за достъп до услуги с добавена стойност (УДС) с формат на номерата 90ХYТZZZ, където XY определят оператора, организиращ достъпа до УДС; Т е индикатор за цената или ценовите зони на таксуване на УДС, които се определят от операторите, които предоставят УДС или имат сключени договори с доставчици на УДС; Х, У и Z могат да заемат стойности от 0 до 9;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>13А  - за достъп до услугата “комутируем достъп до Интернет” с формат на номерата 13АХ или 13АХУ , където Х и У могат да заемат стойности от 0 до 9; допуска се и формат 13АХУZ, където Х, У и Z могат да заемат стойности от 0 до 9.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_15__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Кодове за достъп по смисъла на ал. 1 са кратките национални кодове, както следва:</p>
+              </intro>
+              <point eId="chap_3__sec_1__art_15__al_2__pt_1">
+                <num>1.</num>
+                <intro>
+                  <p>кодове за достъп до услуги за осъществяване на спешни повиквания:</p>
+                </intro>
+                <point eId="chap_3__sec_1__art_15__al_2__pt_1__l_1">
+                  <num>а)</num>
+                  <content>
+                    <p>европейски хармонизиран номер за достъп до спешни повиквания - 112;</p>
+                  </content>
+                </point>
+                <point eId="chap_3__sec_1__art_15__al_2__pt_1__l_2">
+                  <num>б)</num>
+                  <content>
+                    <p>спешна медицинска помощ - 150;</p>
+                  </content>
+                </point>
+                <point eId="chap_3__sec_1__art_15__al_2__pt_1__l_3">
+                  <num>в)</num>
+                  <content>
+                    <p>пожарна и аварийна безопасност - 160;</p>
+                  </content>
+                </point>
+                <point eId="chap_3__sec_1__art_15__al_2__pt_1__l_4">
+                  <num>г)</num>
+                  <content>
+                    <p>полиция - 166;</p>
+                  </content>
+                </point>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>кодове за достъп до телефонни справочни услуги (телефонен указател) - 118 ХУ;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>европейски хармонизирани кодове - 11Х, 19Х;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>кодове за достъп до услуги с обществена значимост без допълнително таксуване - 1A XY;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_15__al_2__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>кодове за достъп до мрежите, чрез които се предоставя услугата “достъп до гласова телефонна услуга чрез услугата избор на оператор” - 10ХУ.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_15__al_3">
+              <num>(3)</num>
+              <content>
+                <p>За предоставянето на УДС не се допуска използването на национално значими номера, различни от определените в ал. 1, т. 3.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_15__al_4">
+              <num>(4)</num>
+              <content>
+                <p>В случаите по ал. 2, т. 2, 4 и 5 X и У са цифри, които служат за идентификация на оператора, който организира достъпа до услугата, и могат да заемат стойности от 0 до 9.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_15__al_5">
+              <num>(5)</num>
+              <content>
+                <p>Възможните стойности на А се определят в ННП.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_1__art_16">
+            <num>Чл. 16.</num>
+            <paragraph eId="chap_3__sec_1__art_16__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Абонатните номера започват с цифрите от “1” до “9” след географски код. Абонатните номера могат да съдържат идентификатор на мрежата.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_16__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Абонатните номера започват с цифрите от “0” до “9” след негеографски код.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_16__al_3">
+              <num>(3)</num>
+              <content>
+                <p>За услугата “гласова поща” в цифрова мобилна клетъчна мрежа преди първата цифра на абонатния номер се прибавя цифрата “0”.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_1__art_17">
+            <num>Чл. 17.</num>
+            <intro>
+              <p>За идентификация на типа на връзката се използват следните префикси:</p>
+            </intro>
+            <point eId="chap_3__sec_1__art_17__pt_1">
+              <num>1.</num>
+              <content>
+                <p>национален префикс “0”;</p>
+              </content>
+            </point>
+            <point eId="chap_3__sec_1__art_17__pt_2">
+              <num>2.</num>
+              <content>
+                <p>международен префикс “00”.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_3__sec_2">
+          <num>Раздел II</num>
+          <heading>Структура и формат на номера, които не са част от ННП, адреси и имена</heading>
+          <article eId="chap_3__sec_2__art_18">
+            <num>Чл. 18.</num>
+            <paragraph eId="chap_3__sec_2__art_18__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Международният идентификатор на мобилен абонат (IMSI) е с 15 цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_18__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Международният идентификатор на мобилен абонат (IMSI) за Република България има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_18__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>трицифрен международен код на страната (МСС), в която се намира мобилната мрежа, предоставен на Република България от ITU-T;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_18__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>двуцифрен код на мобилна мрежа (MNC), определящ мобилната мрежа на абоната в страната;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_18__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>десетцифрен номер (MSIN) за идентификация на мобилния абонат в неговата мобилна мрежа.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_18__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 3.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_19">
+            <num>Чл. 19.</num>
+            <paragraph eId="chap_3__sec_2__art_19__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Международният идентификатор на абонат на мрежа TETRA (IТSI) е с 15 цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_19__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Международният идентификатор на абонат на мрежа TETRA (IТSI) за Република България има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_19__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>трицифрен международен код на страната (МСС), в която се намира мрежата TETRA, предоставен на Република България от ITU-T;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_19__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>четирицифрен код на мрежата TETRA ((Т)MNC), определящ мрежата TETRA на абоната в страната;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_19__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>осемцифрен номер (SSI) за идентификация на абонат в неговата мрежа TETRA.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_19__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 4.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_20">
+            <num>Чл. 20.</num>
+            <paragraph eId="chap_3__sec_2__art_20__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Международният номер на абонат в мрежа за предаване на данни е с 14 цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_20__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Международният номер на абонат в мрежите за предаване на данни за Република България има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_20__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>трицифрен международен код на страната (DCC), в която се намира мрежата за предаване на данни;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_20__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>едноцифрен код, определящ мрежата за предаване на данни на национално ниво;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_20__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>десетцифрен номер (NTN) за идентификация на абоната в мрежата за предаване на данни.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_20__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 5.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_21">
+            <num>Чл. 21.</num>
+            <paragraph eId="chap_3__sec_2__art_21__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Международният код на точка за сигнализация (ISPC) е с 14 бита.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_21__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Международният код на точка за сигнализация (ISPC) има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_21__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>единадесетбитов код на мрежата за сигнализация (SANC);</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_21__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>трибитов идентификатор на точка за сигнализация (SPI).</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_21__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 6.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_22">
+            <num>Чл. 22.</num>
+            <paragraph eId="chap_3__sec_2__art_22__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Националният код на точка за сигнализация (NSPC) е с 14 бита.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_22__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Националният код на точка за сигнализация (NSPC) за Република България в двоично-десетичен вид е със структура 6-4-4. Възможните значения при десетично представяне на полета са: ZZ(01-63), YY(01-15), XX(01-15).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_22__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 7.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_23">
+            <num>Чл. 23.</num>
+            <paragraph eId="chap_3__sec_2__art_23__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Номерът за идентификация на издателя (IIN) е със 7 цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_23__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Номерът за идентификация на издателя (IIN) за Република България има следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_23__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>двуцифрен код (MII) за идентификация на сектора, който за сектор далекосъобщения е “89”;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_23__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>трицифрен международен код на страната (СС) - 359;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_23__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>двуцифрен идентификатор на издателя (IIN).</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_24">
+            <num>Чл. 24.</num>
+            <paragraph eId="chap_3__sec_2__art_24__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Кодовете за идентификация на базовите станции (BSIC) - цветни кодове, в цифровите клетъчни мобилни мрежи са с 6 бита.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_24__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Цветните кодове в цифровите клетъчни мобилни мрежи имат следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_24__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>трибитов цветен код на цифровата мобилна клетъчна мрежа (NCC);</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_24__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>трибитов цветен код на базова станция от цифровата мобилна клетъчна мрежа (ВСС).</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_24__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Структурата по ал. 2 е показана в приложение № 8.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_25">
+            <num>Чл. 25.</num>
+            <paragraph eId="chap_3__sec_2__art_25__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Националните телексни номера са с неограничен брой цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_25__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Телексните номера за Република България имат следната структура:</p>
+              </intro>
+              <point eId="chap_3__sec_2__art_25__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>двуцифрен телексен код за направление (TDC) за Република България - 67;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_2__art_25__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>национален телексен номер.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_26">
+            <num>Чл. 26.</num>
+            <content>
+              <p>Имената X.400, използвани в мрежите за данни, поддържащи система за обработка на съобщения (MHS), задължително съдържат компонента с информация за “из&amp;shy;пращач/получател”.</p>
+            </content>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава четвърта</num>
+        <heading>ПРОЦЕДУРИ ПО ПРЕДОСТАВЯНЕ ЗА ПОЛЗВАНЕ, РЕЗЕРВИРАНЕ И ОТНЕМАНЕ НА НОМЕРА И АДРЕСИ</heading>
+        <section eId="chap_4__sec_1">
+          <num>Раздел I</num>
+          <heading>Предоставяне на номера и адреси</heading>
+          <article eId="chap_4__sec_1__art_27">
+            <num>Чл. 27.</num>
+            <content>
+              <p>Комисията предоставя първично за ползване номера и адреси на оператори, лицензирани с индивидуална лицензия за далекосъобщителна дейност, за извършването на която е необходимо ползването на номера и адреси.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_1__art_28">
+            <num>Чл. 28.</num>
+            <paragraph eId="chap_4__sec_1__art_28__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Комисията предоставя за ползване номера от ННП на операторите по чл. 27, както следва:</p>
+              </intro>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>за фиксираните мрежи - минималната група е от 1000 абонатни номера след съответния географски код за направление;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>за цифровите мобилни клетъчни мрежи - блок от 10 000 000 национално значими номера с определен от комисията национален код за достъп до цифровата мобилна клетъчна мрежа;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>за други мобилни мрежи - блокове от 1 000 000 (100 000) национално значими номера с определен от комисията национален код за достъп до мобилната мрежа;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>за други мрежи с негеографска номерация и национално покритие - блокове от 100 000 (10 000) национално значими номера с определен от комисията национален код за достъп до мрежата;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>за негеографски услуги след кодове 700 и 800 - минималната група е от 1000 абонатни номера с формат съгласно чл. 15, т. 1 и 2;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>за УДС след код 90 - минималната група е от 1000 абонатни номера зa всяка цена или ценова зона, която ще предлага операторът, с формат съгласно чл. 15, т. 3;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_7">
+                <num>7.</num>
+                <content>
+                  <p>за достъп до услугата “комутируем достъп до Интернет” - един национално значим номер с формат съгласно чл. 15, т. 4;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_8">
+                <num>8.</num>
+                <content>
+                  <p>за телефонни справочни услуги (телефонен указател) - един кратък национален код 118ХУ;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_9">
+                <num>9.</num>
+                <content>
+                  <p>за достъп до услуги с обществена значимост без допълнително таксуване - един кратък национален код 1АХУ;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_28__al_1__pt_10">
+                <num>10.</num>
+                <content>
+                  <p>за услугата “достъп до гласова телефонна услуга чрез услугата избор на оператор” - един код за избор на оператор.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_28__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Номера по ал. 1, т. 6 се предоставят на лицензирани оператори, на които са предоставени за ползване не по-малко от 20 000 абонатни номера.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_28__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Комисията поддържа публичен регистър на операторите и предоставените им номера за УДС.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_29">
+            <num>Чл. 29.</num>
+            <intro>
+              <p>Комисията предоставя за ползване номера, които не са част от ННП, на операторите по чл. 27, както следва:</p>
+            </intro>
+            <point eId="chap_4__sec_1__art_29__pt_1">
+              <num>1.</num>
+              <content>
+                <p>за цифрови мобилни клетъчни мрежи - един код на мобилна мрежа (МNС);</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_29__pt_2">
+              <num>2.</num>
+              <content>
+                <p>за мрежа TETRA - един код на мобилна мрежа TETRA ((Т)МNС);</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_29__pt_3">
+              <num>3.</num>
+              <content>
+                <p>за мрежи за предаване на данни - един код за идентификация на мрежата за предаване на данни (DNIC);</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_29__pt_4">
+              <num>4.</num>
+              <content>
+                <p>за телексни мрежи - един национален телексен номер.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_4__sec_1__art_30">
+            <num>Чл. 30.</num>
+            <intro>
+              <p>Комисията предоставя за ползване адреси, както следва:</p>
+            </intro>
+            <point eId="chap_4__sec_1__art_30__pt_1">
+              <num>1.</num>
+              <content>
+                <p>за лицензирани оператори с международна свързаност - международни кодове на точка за сигнализация (ISPC);</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_30__pt_2">
+              <num>2.</num>
+              <content>
+                <p>за лицензирани оператори със свързаност на национално ниво - национални кодове на точка за сигнализация (NSPC).</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_4__sec_1__art_31">
+            <num>Чл. 31.</num>
+            <intro>
+              <p>Обществените оператори, на които се предоставят първично за ползване номера от ННП по чл. 28, ал. 1, т. 1, 2, 3, 4, 5 и 6, имат право да ги предоставят вторично за ползване на:</p>
+            </intro>
+            <point eId="chap_4__sec_1__art_31__pt_1">
+              <num>1.</num>
+              <content>
+                <p>далекосъобщителни оператори, които нямат право на първично предоставени номера;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_31__pt_2">
+              <num>2.</num>
+              <content>
+                <p>лица, които извършват далекосъобщителни дейности без индивидуална лицензия или регистрация по обща лицензия;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_31__pt_3">
+              <num>3.</num>
+              <content>
+                <p>лица, предоставящи услуги с безплатен достъп или УДС;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_31__pt_4">
+              <num>4.</num>
+              <content>
+                <p>крайни потребители.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_4__sec_1__art_32">
+            <num>Чл. 32.</num>
+            <paragraph eId="chap_4__sec_1__art_32__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Лицата, които желаят да им бъдат предоставени за ползване номера и/или адреси, подават в комисията заявление по образец - приложение към искането за издаване на индивидуална лицензия за далекосъобщителна дейност, за извършването на която е необходимо ползването на номера и адреси.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_32__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Заявлението съдържа:</p>
+              </intro>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>наименование на заявителя, седалище, адрес на управление, номер по НДР и идентификационен код по БУЛСТАТ;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>вид на далекосъобщителната дейност, за която ще бъдат използвани номерата и/или адресите;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>желани номера и/или адреси;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>срок за ползване на номерата и/или адресите;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>териториален обхват на предоставяната услуга;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_2__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>начална дата за ползване на предоставените номера и адреси.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_32__al_3">
+              <num>(3)</num>
+              <intro>
+                <p>Към заявлението се прилагат следните документи:</p>
+              </intro>
+              <point eId="chap_4__sec_1__art_32__al_3__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>вид и технически данни на далекосъобщителната мрежа;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_3__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>описание на техническите начини на реализация на достъпа и/или взаимното свързване с други мрежи (фиксирани и мобилни) на национално и международно ниво, включително осигуряване на възможност за маршрутизация на повикванията към други мрежи и услуги по първите пет цифри от национално значимия номер;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_3__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>план за бъдещото заемане на номерата и адресите;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_32__al_3__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>цените, които се прилагат, в случай че се предоставят УДС.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_32__al_4">
+              <num>(4)</num>
+              <content>
+                <p>При подаване на документите заявителят следва да посочи коя информация представлява търговска тайна.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_32__al_5">
+              <num>(5)</num>
+              <content>
+                <p>Всички документи се подават на български език в два екземпляра.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_33">
+            <num>Чл. 33.</num>
+            <content>
+              <p>Непълноти и/или нередовности в документите се отстраняват при условията и по реда на чл. 56, ал. 3 и 4 ЗД.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_1__art_34">
+            <num>Чл. 34.</num>
+            <content>
+              <p>При провеждане на конкурс или търг за издаване на лицензия за осъществяване на далекосъобщения с предоставен индивидуално определен ограничен ресурс - радиочестотен спектър, които изискват ползването на номера и адреси, не се подава отделно заявление за предоставяне на номера и адреси. Номерата и адресите се определят в конкурсните или тръжните документи.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_1__art_35">
+            <num>Чл. 35.</num>
+            <paragraph eId="chap_4__sec_1__art_35__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Заявленията се разглеждат в 30-дневен срок от постъпването им по реда на подаването им в комисията. Комисията се произнася в 6-седмичен срок от постъпването на заявлението.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_35__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Заявления от лицензирани далекосъобщителни оператори се разглеждат с предимство пред заявления от кандидати за издаване на индивидуална лицензия, когато те са подадени не по-късно от 14 дни след подаденото от кандидата заявление.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_36">
+            <num>Чл. 36.</num>
+            <intro>
+              <p>При разглеждане на постъпилите заявления по чл. 32 комисията взема решение въз основа на:</p>
+            </intro>
+            <point eId="chap_4__sec_1__art_36__pt_1">
+              <num>1.</num>
+              <content>
+                <p>регулаторната политика по чл. 27, т. 10 ЗД;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_36__pt_2">
+              <num>2.</num>
+              <content>
+                <p>съобразяване с актовете на международни организации и/или техни компетентни органи;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_36__pt_3">
+              <num>3.</num>
+              <content>
+                <p>структурата на ННП и наличните свободни номера и адреси;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_36__pt_4">
+              <num>4.</num>
+              <content>
+                <p>отчитане интересите на националната сигурност и отбраната на страната;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_36__pt_5">
+              <num>5.</num>
+              <content>
+                <p>изискванията за равнопоставеност и поддържане на условията за лоялна конкуренция;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_1__art_36__pt_6">
+              <num>6.</num>
+              <content>
+                <p>желанието на заявителя.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_4__sec_1__art_37">
+            <num>Чл. 37.</num>
+            <paragraph eId="chap_4__sec_1__art_37__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Лицензираните оператори могат да отправят мотивирано искане до комисията за изменение или допълнение на индивидуалната лицензия в случаите, в които желаят да им бъдат предоставени допълнително номера и/или адреси или да бъдат изменени предоставените им номера и/или адреси. В искането се обосновава необходимостта от нови номера и/или адреси и се прилага подробна справка за заемане на предоставените им номера и адреси.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_37__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Заедно с искането за изменение или допълнение на лицензията операторите по ал. 1 подават заявление по чл. 32, ал. 2, към което прилагат план за бъдещото заемане на номерата и/или адресите.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_38">
+            <num>Чл. 38.</num>
+            <paragraph eId="chap_4__sec_1__art_38__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Комисията разглежда искането по чл. 37 и го удовлетворява, когато е обоснована необходимостта от нови номера и/или адреси за разширяване, модернизиране и развитие на мрежата и ефективно се използват вече предоставените номера и/или адреси, което означава:</p>
+              </intro>
+              <point eId="chap_4__sec_1__art_38__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>за фиксирани мрежи - използване на 70 % от предоставените абонатни номера за съответния град или географска област;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_38__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>за мобилни мрежи - използване на 60 % от предоставения блок от номера.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_38__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Комисията при удовлетворяване на искането взема предвид посоченото в чл. 36.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_39">
+            <num>Чл. 39.</num>
+            <content>
+              <p>Лицензираните оператори не придобиват право на собственост върху предоставените им за ползване номера и/или адреси.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_1__art_40">
+            <num>Чл. 40.</num>
+            <paragraph eId="chap_4__sec_1__art_40__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Лицензираните оператори, получили право да ползват първично предоставени номера и/или адреси:</p>
+              </intro>
+              <point eId="chap_4__sec_1__art_40__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>изготвят и представят в комисията всяка година до края на месец март подробна справка, по определен от комисията формат, за заемането на първично предоставените им номера и/или адреси;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_40__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>осигуряват възможност за маршрутизация на повикванията към други мрежи и услуги поне по първите пет цифри от национално значимия номер;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_1__art_40__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>публикуват в подробна информация за цените на УДС, които се предлагат чрез неговата мрежа в национален всекидневник и на страницата си в Интернет.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_40__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Лицензираните оператори започват усвояването на допълнително предоставените им за ползване номера и/или адреси не по-късно от 6 месеца след предоставянето им.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_41">
+            <num>Чл. 41.</num>
+            <paragraph eId="chap_4__sec_1__art_41__al_1">
+              <num>(1)</num>
+              <content>
+                <p>При отказ от предоставени за ползване номера и/или адреси лицензираните оператори са длъжни да уведомят комисията един месец предварително и да поискат изменение на индивидуалната си лицензия по реда на чл. 76, ал. 1 ЗД.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_1__art_41__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Освободените номера не могат да бъдат предоставяни или резервирани по-рано от шест месеца след тяхното освобождаване, считано от датата на изменение на индивидуалната лицензия на оператора.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_1__art_42">
+            <num>Чл. 42.</num>
+            <content>
+              <p>Лицензираните оператори, осъществяващи далекосъобщения чрез цифрови мобилни клетъчни мрежи, са длъжни да съгласуват с комисията използваните цветни кодове от мрежите им в граничните зони на страната.</p>
+            </content>
+          </article>
+        </section>
+        <section eId="chap_4__sec_2">
+          <num>Раздел II</num>
+          <heading>Резервиране на номера</heading>
+          <article eId="chap_4__sec_2__art_43">
+            <num>Чл. 43.</num>
+            <paragraph eId="chap_4__sec_2__art_43__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Комисията има право да резервира номера от ННП съгласно регулаторната политика, с оглед спазване на международните изисквания и препоръки и когато това е свързано с националната сигурност и отбраната на страната.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_43__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Комисията резервира номера и по искане на оператори, лицензирани с индивидуална лицензия за далекосъобщителна дейност, за извършването на която е необходимо ползването на номера и адреси.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_43__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Операторите по ал. 2 отправят мотивирано искане до комисията за изменение или допълнение на индивидуалната лицензия.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_2__art_44">
+            <num>Чл. 44.</num>
+            <paragraph eId="chap_4__sec_2__art_44__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Минималният срок за резервиране на номера е шест месеца.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_44__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Срокът по ал. 1 може да бъде продължен, като максималният срок за резервиране е 18 месеца.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_2__art_45">
+            <num>Чл. 45.</num>
+            <paragraph eId="chap_4__sec_2__art_45__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Операторите, които желаят да резервират номера, подават в комисията заявление по образец.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_45__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Заявлението съдържа:</p>
+              </intro>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>наименование на заявителя, седалище, адрес на управление, номер по НДР и идентификационен код по БУЛСТАТ;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>номер на действащата лицензия;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>вид на далекосъобщителната(ите) дей&amp;shy;ност(и), за която (които) операторът е лицензиран с индивидуална лицензия;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>желани номера;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>вид на далекосъобщителната дейност, за която ще бъдат резервирани номерата;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>начална дата за резервиране на номера;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_45__al_2__pt_7">
+                <num>7.</num>
+                <content>
+                  <p>срок за резервиране на номерата.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_2__art_46">
+            <num>Чл. 46.</num>
+            <content>
+              <p>Към заявлението се прилагат доказателства за необходимостта от резервиране на номера, които включват и подробна справка за заемането на предоставените на заявителя номера.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_2__art_47">
+            <num>Чл. 47.</num>
+            <content>
+              <p>Заявлението се подава не по-късно от един месец преди началната дата за резервиране на номера.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_2__art_48">
+            <num>Чл. 48.</num>
+            <content>
+              <p>Непълноти и/или нередовности в документите се отстраняват по реда на чл. 56, ал. 3 и 4 ЗД.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_2__art_49">
+            <num>Чл. 49.</num>
+            <paragraph eId="chap_4__sec_2__art_49__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>При разглеждане на постъпилите заявления комисията взема решение въз основа на:</p>
+              </intro>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>регулаторната политика по чл. 27, т. 10 ЗД;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>съобразяване с актовете на международни организации и/или техни компетентни органи;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>структурата на ННП и наличните свободни номера;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>отчитане на интересите на националната сигурност и отбраната на страната;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>изискванията за равнопоставеност и поддържане на условията за лоялна конкуренция;</p>
+                </content>
+              </point>
+              <point eId="chap_4__sec_2__art_49__al_1__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>желанието на заявителя.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_49__al_2">
+              <num>(2)</num>
+              <content>
+                <p>В случаите на заявено желание за удължаване срока на резервиране операторите подават заявление до комисията не по-късно от един месец преди изтичане на първоначално заявения срок, придружено с доказателства за необходимостта от удължаване на срока.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_49__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Операторите по ал. 2 имат предимство пред другите кандидати за резервиране на същите номера.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_2__art_50">
+            <num>Чл. 50.</num>
+            <content>
+              <p>За времето на резервиране на номерата операторите нямат право да ги ползват.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_2__art_51">
+            <num>Чл. 51.</num>
+            <paragraph eId="chap_4__sec_2__art_51__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Операторите, резервирали номера, имат право да поискат тези номера да им бъдат предоставени, като ползват предимство пред други кандидати, подали заявление за предоставяне на същите номера.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_2__art_51__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Предоставянето на резервираните номера се осъществява по реда на глава четвърта, раздел I.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_2__art_52">
+            <num>Чл. 52.</num>
+            <content>
+              <p>При отказ от резервирани номера лицензираните оператори са длъжни да уведомят комисията един месец предварително.</p>
+            </content>
+          </article>
+          <article eId="chap_4__sec_2__art_53">
+            <num>Чл. 53.</num>
+            <content>
+              <p>Процедурите по раздел първи и раздел втори на тази глава не се прилагат при предоставяне и резервиране на номера и адреси за нуждите на националната сигурност и отбраната на страната.</p>
+            </content>
+          </article>
+        </section>
+        <section eId="chap_4__sec_3">
+          <num>Раздел III</num>
+          <heading>Отказ за предоставяне или резервиране на номера и адреси</heading>
+          <article eId="chap_4__sec_3__art_54">
+            <num>Чл. 54.</num>
+            <intro>
+              <p>Комисията може да откаже на заявителя предоставяне или резервиране на номера и/или адреси в следните случаи:</p>
+            </intro>
+            <point eId="chap_4__sec_3__art_54__pt_1">
+              <num>1.</num>
+              <content>
+                <p>заявителят няма издадена или не кандидатства за издаване на индивидуална лицензия за далекосъобщителна дейност, за чието извършване е необходимо ползването на номера и адреси;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_3__art_54__pt_2">
+              <num>2.</num>
+              <content>
+                <p>предназначението на заявените номера и/или адреси, определено от комисията в регулаторната политика по чл. 27, т. 10 ЗД и ННП, е различно от това, за което заявителят иска да ги използва;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_3__art_54__pt_3">
+              <num>3.</num>
+              <content>
+                <p>желаният блок или група от номера не са свободни;</p>
+              </content>
+            </point>
+            <point eId="chap_4__sec_3__art_54__pt_4">
+              <num>4.</num>
+              <content>
+                <p>заявителят не може да докаже нуждата от предоставяне/резервиране на номера и/или адреси предвид техническата реализация на далекосъобщителната му мрежа.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_4__sec_4">
+          <num>Раздел IV</num>
+          <heading>Изменение на първично предоставени и/или резервирани номера и адреси. Отнемане на номера и адреси</heading>
+          <article eId="chap_4__sec_4__art_55">
+            <num>Чл. 55.</num>
+            <paragraph eId="chap_4__sec_4__art_55__al_1">
+              <num>(1)</num>
+              <content>
+                <p>При изменение на ННП, както и в случаите на чл. 75, ал. 1, т. 4 ЗД комисията има право да измени индивидуалната лицензия за далекосъобщителна дейност, като измени първично предоставените и/или резервирани номера и/или адреси.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_4__art_55__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Измененията и допълненията по ал. 1 се извършват от комисията след писмено уведомяване на лицензираните оператори за причините, налагащи изменението и графика за извършването му. Лицензираните оператори могат да изразят становище в срок не по-кратък от 7 дни от получаване на уведомлението.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_4__sec_4__art_56">
+            <num>Чл. 56.</num>
+            <paragraph eId="chap_4__sec_4__art_56__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Комисията може да измени индивидуалната лицензия за далекосъобщителна дейност след отправяне на писмено предупреждение със срок не по-малък от три месеца, като отнеме първично предоставените номера и/или адреси или част от тях, когато ползването и вторичното предоставяне на номера и/или адреси се извършва в несъответсвие с нормативно установените изисквания - при неспазване на посочения в лицензията срок, в който предоставените номера и/или адреси трябва да започнат да се усвояват, както и при несъответствие с предварително заявения план за усвояването на предоставените номера и/или адреси, за което комисията не е информирана предварително.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_4__sec_4__art_56__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Комисията с мотивирано решение изменя индивидуалната лицензия, като отнема първично предоставените номера и/или адреси или част от тях след поискване на писмено становище от оператора и ако в срока на писменото предупреждение по ал. 1 не е отстранил констатираното несъответствие.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+      </chapter>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>ДОПЪЛНИТЕЛНА РАЗПОРЕДБА</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>“Номерационна област” е населено място/населени места и/или селищно образувание/селищни образувания, определени от един географски код.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>“Блок от номера” са национално значимите номера с еднакъв национален код за на&amp;shy;правление.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>“Група от номера” са абонатните номера с еднаква първа (първи) цифра (цифри), съставени от кратни на десет брой номера - 1000, 10 000, 100 000 или 1 000 000.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_4">
+            <num>4.</num>
+            <content>
+              <p>“Префикс” е индикатор, съставен от една или повече цифри, който позволява достъп до различни номерационни формати, мрежи и/или услуги.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_5">
+            <num>5.</num>
+            <content>
+              <p>“Международен префикс” е цифра или комбинация от цифри, показващи, че номерът, който следва, е обществен международен номер.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_6">
+            <num>6.</num>
+            <content>
+              <p>“Национален префикс” е цифра или комбинация от цифри, използвана от викащия абонат при осъществяване на повикване до абонат в рамките на страната, но извън собствената номерационна област или при осъществяване на повикване към мрежа/услуга, определена от даден негеографски код за направление.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_7">
+            <num>7.</num>
+            <content>
+              <p>“Международен код на страната” (Соuntry Сode - CC) е комбинация от една, две или три цифри, определящи еднозначно отделна страна, група от страни или специфична географ&amp;shy;ска област.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_8">
+            <num>8.</num>
+            <content>
+              <p>“Национален значим номер” (National Significant Number - NSN) е част от международния номер, която следва след международния код на дадена страна и се състои от национален код за направление, последван от абонатен номер. Националният значим номер съдържа информацията, необходима за маршрутизиране и/или таксуване на едно повикване до крайна точка от дадена мрежа. Функцията и форматът му се определят на национално ниво. Структурата на националния значим номер (NSN) е определена съгласно Препоръка Е.164 на ITU-T.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_9">
+            <num>9.</num>
+            <content>
+              <p>“Национален код за направление” (National Destination Code - NDC) е цифра или комбинация от цифри (невключващи префикс), определяща еднозначно номерационна област в дадена страна и/или мрежа/услуга, която в съчетание с абонатния номер образува националния (значим) номер. Национален код за на&amp;shy;правление се определя на национално ниво съгласно Препоръка Е.164 на ITU-T. Използва се при избор на мрежа/услуга и/или като географски код.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_10">
+            <num>10.</num>
+            <content>
+              <p>“Кратък национален код” е номер от ННП, съставен от 3, 4 или 5 цифри (невключващи префикс), с първа цифра “1” за достъп до национална негеографска услуга.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_11">
+            <num>11.</num>
+            <content>
+              <p>“Абонатен номер” (Subscriber Number - SN) е номер, идентифициращ крайна точка на дадена мрежа.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_12">
+            <num>12.</num>
+            <content>
+              <p>“Географски код” (Trunk Code - ТС) е цифра или комбинация от цифри, която не включва националния префикс и определя еднозначно номерационна област в дадена страна. Използва се пред абонатния номер, когато викащият и виканият абонат са в различни номерационни области. Географският код е едно от приложенията на националния код за направление.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_13">
+            <num>13.</num>
+            <content>
+              <p>“Индентификатор на мрежа” е цифра или комбинация от цифри, част от абонатния номер, след географския код, която еднозначно определя дадена мрежа в съответната номерационна област. Използва се за маршрутизация и таксуване.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_14">
+            <num>14.</num>
+            <content>
+              <p>“Международен идентификатор на мобилен абонат” (International Mobile Subscriber Identity - IMSI) е уникален международен идентификатор, чрез който се осъществява обслужването на мобилния абонат във всички обществени цифрови мобилни мрежи по света, с които мобилната мрежа, на която е абонат, има подписано роуминг споразумение и в частност сигнализацията, свързана с него. Записва се в личната (SIM) карта на абоната. Структурата на международния идентификатор на мобилния абонат (IMSI) е определена съгласно Препоръка Е.212 на ITU-T.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_15">
+            <num>15.</num>
+            <content>
+              <p>“Международен идентификатор на абонат на мрежа TETRA” (International TETRA Subscriber Identity - IТSI) е уникален международен идентификатор, чрез който се осъществява обслужването на абонат на мрежа TETRA. Структурата на международния идентификатор на абонат на мрежа TETRA (ITSI) е определена съгласно ETSI EG 202 118 V1.1.1 (2003-05).</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_16">
+            <num>16.</num>
+            <content>
+              <p>“Международен номер на абонат в мрежа за предаване на данни” е уникален номер, който определя еднозначно абонат в мрежа за предаване на данни. Структурата на международния номер на абонат в мрежа за предаване на данни е определена съгласно Препоръка Х.121 на ITU-T.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_17">
+            <num>17.</num>
+            <content>
+              <p>“Международен код на точка за сигнализация” (International Signalling Point Code - ISPC) е адрес, чрез който се идентифицира дадена точка за сигнализация в международната мрежа за сигнализация. Състои се от код на мрежата за сигнализация (Signalling Area/Network Code - SANC) и идентификатор на сигналната точка (Signalling Point Identification - SPI). Структурата на международния код на точка за сигнализация (ISPC) е определена съгласно Препоръка Q.708 на ITU-T.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_18">
+            <num>18.</num>
+            <content>
+              <p>“Национален код на точка за сигнализация” (National Signalling Point Code - NSPC) е адрес, чрез който се идентифицира дадена точка за сигнализация в националната мрежа за сигнализация.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_19">
+            <num>19.</num>
+            <content>
+              <p>“Номер за идентификация на издателя” (Issuer Identifier Number - IIN) е номер, чрез който се идентифицират операторите, които издават международни далекосъобщителни карти и предоставят услуги чрез тях, като разходите за използваните услуги се таксуват в страната, в която е издадена картата. Структурата на номера за идентификация на издателя (IIN) е определена съгласно Препоръка Е.118 на ITU-T.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_20">
+            <num>20.</num>
+            <content>
+              <p>“Кодове за идентификация на базовите станции” (Base Station Identity Code - BSIC) са цветни кодове, с помощта на които мобилна станция, намираща се в зона, обслужвана от няколко базови станции от различни мрежи, работещи на една честота, може да различи базовата станция от собствената си мрежа. Структурата на кода за идентификация на базовите станции (BSIC) е определена съгласно ETSI EN 300 523 V4.11.1 (2000-12).</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_21">
+            <num>21.</num>
+            <content>
+              <p>“Изменение в Националния номерационен план” е едно или повече изменения в Националния номерационен план, представляващо промяна на формата, структурата или предназначението на национално значимите номера, преминаване към друг тип номерационна схема (открита/закрита), въвеждане на нова организация на националните кодове за на&amp;shy;правление и др.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_22">
+            <num>22.</num>
+            <content>
+              <p>“Първично предоставяне за ползване на номера и адреси” е дейност, чрез която комисията предоставя номера и/или адреси на лицензирани с индивидуална лицензия далекосъобщителни оператори, като им дава право да ги ползват за собствени нужди и за нуждите на своите потребители.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_23">
+            <num>23.</num>
+            <content>
+              <p>“Вторично предоставяне за ползване на номера” е дейност, при която лицензираният с индивидуална лицензия далекосъобщителен оператор определя и предоставя индивидуално на своите потребители номера от предоставените му номера, съгласно условията и изискванията на комисията и собствената си номерационна политика.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_24">
+            <num>24.</num>
+            <content>
+              <p>“Резервиране на номера” е запазването на номера от ННП за бъдещото развитие на мрежи и услуги.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_25">
+            <num>25.</num>
+            <content>
+              <p>“Услуга “Персонален номер” е далекосъобщителна услуга, която дава възможност на абонат на обществена далекосъобщителна мрежа чрез един номер от обхват “700” да бъде достъпен, независимо от местоположението му, използваното крайно устройство, вида на преноса и технологията. Услугата е без допълнително таксуване за викащия.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_26">
+            <num>26.</num>
+            <content>
+              <p>“Услуга с безплатен достъп” е безплатна за викащия далекосъобщителна услуга, предоставяна чрез мрежите на лицензирани далекосъобщителни оператори при използването на номера от обхват “800”.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_27">
+            <num>27.</num>
+            <content>
+              <p>“Услуга с добавена стойност” е услуга, за която викащата страна заплаща допълнителна цена към цената за ползване на далекосъобщителната услуга (изходящото повикване), като двете цени се събират от далекосъобщителния оператор, от чиято лицензирана далекосъобщителна мрежа е осъществено повикването.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_28">
+            <num>28.</num>
+            <content>
+              <p>“Услуга с обществена значимост” е услуга, която се предоставя във връзка със запазване на здравето, осигуряване на безопасността и сигурността на хората и защита на частната и публичната собственост. ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Операторите, които използват номера, различни или с различен формат от посочените в чл. 15, ал. 1, т. 3, за предоставяне на УДС, са длъжни до 1 януари 2007 г. да преминат към използване на номера с национален код за достъп до услуги с добавена стойност и с формат в съответствие с изискванията на същата разпоредба.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>“Българска телекомуникационна компания” - АД, може до 1 януари 2007 г. да използва във фиксираната си аналогова мрежа следните префикси:</p>
+          </intro>
+          <point eId="sec_add__par_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>за международно избиране през възлова централа - “900”;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>за междуселищно избиране през възлова централа - “90”;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_3__pt_3">
+            <num>3.</num>
+            <content>
+              <p>за избиране в рамките на възлова мрежа - “9”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 155, ал. 1 от Закона за далекосъобщенията и влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Н. Василев</p>
+            <p>Приложение № 1към чл. 9</p>
+            <p>Приложение № 2  към чл. 12</p>
+            <p>Приложение № 3     към чл. 18, ал. 3</p>
+            <p>Приложение № 4     към чл. 19, ал. 3</p>
+            <p>Приложение № 5     към чл. 20, ал. 3</p>
+            <p>Приложение № 6     към чл. 21, ал. 3</p>
+            <p>Приложение № 7     към чл. 22, ал. 3</p>
+            <p>Приложение № 8     към чл. 24, ал. 3</p>
+            <p>Забележка на редакцията:    виж приложенията в   PDF  -а на броя</p>
+            <p>49558</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

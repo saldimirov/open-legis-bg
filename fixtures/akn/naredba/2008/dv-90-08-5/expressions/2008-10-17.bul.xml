@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-90-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-90-08-5"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 1 от 1994 г. за противопожарната охрана в обектите на банките и небанковите финансови институции" name="short"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 1 от 1994 г. за противопожарната охрана в обектите на банките и небанковите финансови институции" name="eli" other="/eli/bg/naredba/2008/dv-90-08-5"/>
+          <FRBRdate date="2008-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-90-08-5/bul@2008-10-17/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-90-08-5/bul@2008-10-17"/>
+          <FRBRdate date="2008-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-90-08-5/bul@2008-10-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-90-08-5/bul@2008-10-17.xml"/>
+          <FRBRdate date="2008-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-10-17" name="Държавен вестник" number="90" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за отменяне на Наредба № 1 от 1994 г. за противопожарната охрана в обектите на банките и небанковите финансови институции</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

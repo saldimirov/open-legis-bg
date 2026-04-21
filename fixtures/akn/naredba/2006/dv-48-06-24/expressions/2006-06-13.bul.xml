@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-24"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 22 от 1998 г. за централен кредитен регистър на банките" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 22 от 1998 г. за централен кредитен регистър на банките" name="eli" other="/eli/bg/naredba/2006/dv-48-06-24"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-24/bul@2006-06-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-24/bul@2006-06-13"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-24/bul@2006-06-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-24/bul@2006-06-13.xml"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-13" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 22 от 1998 г. за централен кредитен регистър на банките</p>
+      <p>(обн., ДВ, бр. 92 от 1998 г.; изм.,  бр. 29 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5, ал. 1 накрая точката става запетая и се добавят думите “включително и за кредитите, дължими към трети лица, които банките обслужват и администратират”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 6 се добавя следното изречение: “Дължимите кредити към трети лица, които банките обслужват и администрират, се отчитат условно класифицирани по Наредба № 9 от 2002 г. за оценка и класификация на рисковите експозиции на банките и за формиране на провизии за загуби от обезценка (обн., ДВ, бр. 2 от 2003 г.; изм., бр. 71 от 2003 г., бр. 11 от 2004 г., бр. 37, 62 и 93 от 2005 г. и бр. 19 от 2006 г.).”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 36 от Закона за банките, приета е с Решение № 81 от 1 юни 2006 г. на Управителния съвет на Българската народна банка и влиза в сила от 1 август 2006 г.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>40004</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

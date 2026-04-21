@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-8"/>
+          <FRBRalias value="Наредба № 54 от 28 април 2006 г. за водене на регистрите по чл. 16 от Закона за рибарството и аквакултурите" name="short"/>
+          <FRBRalias value="Наредба № 54 от 28 април 2006 г. за водене на регистрите по чл. 16 от Закона за рибарството и аквакултурите" name="eli" other="/eli/bg/naredba/2006/dv-45-06-8"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-8/bul@2006-06-02/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-8/bul@2006-06-02"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-8/bul@2006-06-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-8/bul@2006-06-02.xml"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-02" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 54 от 28 април 2006 г. за водене на регистрите по чл. 16 от Закона за рибарството и аквакултурите</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <paragraph eId="chap_1__art_1__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>С наредбата се определят съдържанието и редът за водене на регистрите на:</p>
+            </intro>
+            <point eId="chap_1__art_1__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>издадените разрешителни за стопански риболов;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>издадените билети за любителски риболов;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>лицата, които развъждат и отглеждат риба и други водни организми;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>риболовните кораби;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>центровете за първа продажба на продукти от риболов;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>регистрираните по реда на чл. 46д, ал. 1 от Закона за рибарството и аквакултурите (ЗРА) купувачи;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_7">
+              <num>7.</num>
+              <content>
+                <p>признатите по реда на чл. 10 и 10в ЗРА организации на производители на риба и други водни организми и браншови организации;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_8">
+              <num>8.</num>
+              <content>
+                <p>разрешителните за улов на риба и други водни организми за научноизследователски цели по чл. 40, ал. 1 ЗРА.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_1__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Регистрите по ал. 1 се съставят и поддържат от Изпълнителната агенция по рибарство и аквакултури (ИАРА).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_1__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Данните от регистрите се използват за осъществяване на държавната политика в сектор “Рибарство” с цел опазване и възстановяване на рибните ресурси и предприемане на мерки за увеличаване на потреблението на риба и други водни организми.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Изпълнителната агенция по рибарство и аквакултури създава и поддържа информационна система за водене на регистрите (ИСВР).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Информационната система за водене на регистрите е електронна база данни, състояща се от информационни полета, организирани в масиви, която позволява създаване на съобщения.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Масивите се поддържат по начин, който гарантира защита на информацията в системата срещу разрушение, неправомерно изменение или ползване.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>СЪДЪРЖАНИЕ НА РЕГИСТРИТЕ</heading>
+        <section eId="chap_2__sec_1">
+          <num>Раздел I</num>
+          <heading>Съдържание на регистъра на издадените разрешителни за стопански риболов</heading>
+          <article eId="chap_2__sec_1__art_3">
+            <num>Чл. 3.</num>
+            <paragraph eId="chap_2__sec_1__art_3__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>В регистъра на издадените разрешителни за стопански риболов се вписват следните данни:</p>
+              </intro>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>уникален идентификационен код на регистрацията;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>име, ЕГН и постоянен адрес на физическото лице или наименование, седалище, адрес на управление и код по БУЛСТАТ за юридическото лице, на което е издадено разрешителното;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>име, ЕГН и постоянен адрес на капитана или на друго физическо лице, което фигурира в разрешителното за стопански риболов, в случаите, когато извършва риболова от името и за сметка на собственика на риболовния кораб или рибностопанския обект;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>номер и дата на издаване на свидетелството за правоспособност за извършване на стопански риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>номер и дата на издаване на разрешителното за стопански риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>номер, дата на издаване и срока на действие на удостоверението за получаване на право за извършване на стопански риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_7">
+                <num>7.</num>
+                <content>
+                  <p>дата на издаване на удостоверението за актуално състояние на регистрацията на юридическото лице;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_8">
+                <num>8.</num>
+                <content>
+                  <p>регистрационен номер на кораба и дата на издаване на позволителното за плаване или акта за националност (корабно удостоверение);</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_9">
+                <num>9.</num>
+                <content>
+                  <p>дата на сключване и срок на действие на договора, удостоверяващ право на ползване, или данни за документа за собственост на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_10">
+                <num>10.</num>
+                <content>
+                  <p>данни за риболовните уреди, вписани в разрешителното;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_11">
+                <num>11.</num>
+                <content>
+                  <p>воден обект (име, обща водна площ, местонахождение);</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_12">
+                <num>12.</num>
+                <content>
+                  <p>зона за извършване на стопански риболов (площ и описание);</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_13">
+                <num>13.</num>
+                <content>
+                  <p>срок за лишаване от право за извършване на стопански риболов, ако на лицето е наложена такава санкция;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_14">
+                <num>14.</num>
+                <content>
+                  <p>данни за членство в организации по чл. 10 и 10в ЗРА;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_15">
+                <num>15.</num>
+                <content>
+                  <p>данни за нарушения, извършени с риболовния кораб;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_16">
+                <num>16.</num>
+                <content>
+                  <p>видове водни организми, за които е издадено разрешителното;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_1__pt_17">
+                <num>17.</num>
+                <content>
+                  <p>актуално състояние на издаденото разрешително чрез отбелязване от съответните длъжностни лица “валидно/невалидно и дата”.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_1__art_3__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>В ИСВР се подават и вписват и данни за:</p>
+              </intro>
+              <point eId="chap_2__sec_1__art_3__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>броя наети лица (по област на дейност, вид заетост, пол, възрастови групи, образование и гражданство);</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>общия улов по видове риба или други водни организми;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>преработката на продуктите от риболов.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_1__art_3__al_3">
+              <num>(3)</num>
+              <intro>
+                <p>В случаите, когато е издадено разрешително за стопански риболов в рибностопански обект по чл. 3, ал. 1, т. 2 и 3 ЗРА, освен данните по ал. 1 се вписват и:</p>
+              </intro>
+              <point eId="chap_2__sec_1__art_3__al_3__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>датата на издаване и срокът на действие на документа, удостоверяващ правото на ползване на обекта, или данни за документа за собственост;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_3__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>данни за издаденото разрешително за ползване на воден обект по Закона за водите;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_3__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>определените норми за задължително минимално зарибяване на обекта, вписани в разрешителното (в случаите, когато се изисква минимално зарибяване);</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_3__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>данни за извършеното през годината зарибяване;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_3__al_3__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>данни от мониторинговата дейност на мобилните лаборатории в рибностопанския обект.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_2__sec_2">
+          <num>Раздел II</num>
+          <heading>Съдържание на регистъра на издадените билети за любителски риболов</heading>
+          <article eId="chap_2__sec_2__art_4">
+            <num>Чл. 4.</num>
+            <paragraph eId="chap_2__sec_2__art_4__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>В регистъра на издадените билети за любителски риболов се вписват следните данни:</p>
+              </intro>
+              <point eId="chap_2__sec_2__art_4__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>уникален идентификационен код на регистрацията;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_2__art_4__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>име, ЕГН, номер на документ за самоличност (лична карта, паспорт), постоянен адрес и електронна поща на лицето, на което е издаден билетът за любителски риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_2__art_4__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>номер и дата на издаване на билета за любителски риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_2__art_4__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>органът, който е издал билета за любителски риболов.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_4__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>В случаите, когато е издаден безплатен билет за любителски риболов на лице под 14-годишна възраст, в регистъра се вписват и:</p>
+              </intro>
+              <point eId="chap_2__sec_2__art_4__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>името, ЕГН, адресът и електронната поща на законния представител на лицето;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_2__art_4__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>номерът и датата на издаване на документа, удостоверяващ данните по т. 1.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_4__al_3">
+              <num>(3)</num>
+              <content>
+                <p>В случаите, когато е издаден билет за любителски риболов на лице, член на сдружение по чл. 11 ЗРА, се вписва и наименованието на сдружението.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_2__sec_3">
+          <num>Раздел III</num>
+          <heading>Съдържание на регистъра на лицата, които развъждат и отглеждат риба и други водни организми</heading>
+          <article eId="chap_2__sec_3__art_5">
+            <num>Чл. 5.</num>
+            <intro>
+              <p>В регистъра на лицата, които развъждат и отглеждат риба и други водни организми, се вписват:</p>
+            </intro>
+            <point eId="chap_2__sec_3__art_5__pt_1">
+              <num>1.</num>
+              <content>
+                <p>уникалният идентификационен код на регистрацията;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_2">
+              <num>2.</num>
+              <content>
+                <p>името, ЕГН и постоянният адрес на физическото лице или наименованието, седалището, адресът на управление и кодът по БУЛСТАТ за юридическото лице, което ползва обекта за развъждане и отглеждане на риба и/или други водни организми;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_3">
+              <num>3.</num>
+              <content>
+                <p>номерът, датата на издаване и срокът на действие на документа, удостоверяващ правото на ползване на обекта, или данни за документа за собственост;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_4">
+              <num>4.</num>
+              <content>
+                <p>номерът и датата на издаване на удостоверението за актуално състояние на регистрацията на юридическото лице;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_5">
+              <num>5.</num>
+              <content>
+                <p>данните за обекта (наименование, местонахождение, GPS-координати, номер по кадастралния план);</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_6">
+              <num>6.</num>
+              <content>
+                <p>данните за видовете риба или други водни организми, предмет на развъждане и отглеждане в обекта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_7">
+              <num>7.</num>
+              <content>
+                <p>техническото описание на обекта - система на обекта (пълносистемен/непълносистемен), вид, тип и параметри на съоръженията, видове и категории басейни и обща водна площ;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_8">
+              <num>8.</num>
+              <content>
+                <p>видът и дебитът на захранващия водоизточник;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_9">
+              <num>9.</num>
+              <content>
+                <p>данните за произведената и продадена от тях през предходната година риба или други водни организми по възраст, видове и количества;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_10">
+              <num>10.</num>
+              <content>
+                <p>броят наети лица (по област на дейност, вид заетост, пол, възрастови групи, образование и гражданство);</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_11">
+              <num>11.</num>
+              <content>
+                <p>данните за членство в организации по чл. 10 и 10в ЗРА;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_12">
+              <num>12.</num>
+              <content>
+                <p>датата на промяна на собствеността или на правното основание за ползване на обекта, на въвеждане в действие на нови мощности, на промяна типа на производството, на прекратяване на дейността;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_13">
+              <num>13.</num>
+              <content>
+                <p>видът на промяната по т. 12;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_14">
+              <num>14.</num>
+              <content>
+                <p>данните за решението по оценка за въздействие върху околната среда (ОВОС) - номер, дата на издаване и издаващ орган;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_15">
+              <num>15.</num>
+              <content>
+                <p>данните за съответните разрешителни по Закона за водите (номер, дата на издаване и срок на действие);</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_3__art_5__pt_16">
+              <num>16.</num>
+              <content>
+                <p>датата на заличаване и основанието за заличаване от регистъра.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_2__sec_4">
+          <num>Раздел IV</num>
+          <heading>Съдържание на регистъра на риболовните кораби</heading>
+          <article eId="chap_2__sec_4__art_6">
+            <num>Чл. 6.</num>
+            <paragraph eId="chap_2__sec_4__art_6__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>В регистъра на риболовните кораби се вписват следните данни:</p>
+              </intro>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>уникален идентификационен код на регистрацията;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>страна на регистрация;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>единен идентификационен номер за Европейския съюз (ЕС) - CFR;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>код на събитието съгласно приложение № 1;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>дата на събитието;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>индекс за издадено разрешително за стопански риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_7">
+                <num>7.</num>
+                <content>
+                  <p>номер на издаденото разрешително за стопански риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_8">
+                <num>8.</num>
+                <content>
+                  <p>регистрационен номер на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_9">
+                <num>9.</num>
+                <content>
+                  <p>външна маркировка на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_10">
+                <num>10.</num>
+                <content>
+                  <p>име на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_11">
+                <num>11.</num>
+                <content>
+                  <p>пристанище на регистрация на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_12">
+                <num>12.</num>
+                <content>
+                  <p>индекс, указващ разполага ли корабът с международна радиокомуникационна система - IRCS;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_13">
+                <num>13.</num>
+                <content>
+                  <p>международна позивна - IRCS;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_14">
+                <num>14.</num>
+                <content>
+                  <p>индекс, указващ разполага ли корабът с устройство за наблюдение със сателит - VMS;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_15">
+                <num>15.</num>
+                <content>
+                  <p>основно риболовно съоръжение съгласно приложение № 2;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_16">
+                <num>16.</num>
+                <content>
+                  <p>допълнително риболовно съоръжение съгласно приложение № 2;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_17">
+                <num>17.</num>
+                <content>
+                  <p>обща дължина - LOA;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_18">
+                <num>18.</num>
+                <content>
+                  <p>дължина между перпендикулярите - LBP;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_19">
+                <num>19.</num>
+                <content>
+                  <p>бруто тонаж;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_20">
+                <num>20.</num>
+                <content>
+                  <p>друг тонаж;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_21">
+                <num>21.</num>
+                <content>
+                  <p>разрешено увеличение на тонажа по съображения за сигурност - GT&amp;rsquo;s;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_22">
+                <num>22.</num>
+                <content>
+                  <p>основни мощности;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_23">
+                <num>23.</num>
+                <content>
+                  <p>допълнителни мощности;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_24">
+                <num>24.</num>
+                <content>
+                  <p>материал на корпуса съгласно приложение № 3;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_25">
+                <num>25.</num>
+                <content>
+                  <p>влизане в експлоатация: година;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_26">
+                <num>26.</num>
+                <content>
+                  <p>влизане в експлоатация: месец;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_27">
+                <num>27.</num>
+                <content>
+                  <p>влизане в експлоатация: ден;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_28">
+                <num>28.</num>
+                <content>
+                  <p>сегмент съгласно приложение № 4;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_29">
+                <num>29.</num>
+                <content>
+                  <p>страна вносител/износител;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_30">
+                <num>30.</num>
+                <content>
+                  <p>тип износ съгласно приложение № 5;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_31">
+                <num>31.</num>
+                <content>
+                  <p>код на държавната помощ съгласно приложение № 6;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_32">
+                <num>32.</num>
+                <content>
+                  <p>дата на административното решение;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_33">
+                <num>33.</num>
+                <content>
+                  <p>сегмент, визиран в административното решение съгласно приложението по т. 28;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_34">
+                <num>34.</num>
+                <content>
+                  <p>година на построяване;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_35">
+                <num>35.</num>
+                <content>
+                  <p>място на построяване;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_36">
+                <num>36.</num>
+                <content>
+                  <p>име на ползвателя;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_37">
+                <num>37.</num>
+                <content>
+                  <p>адрес на ползвателя;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_38">
+                <num>38.</num>
+                <content>
+                  <p>отбелязване дали ползвателят е собственик на кораба;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_39">
+                <num>39.</num>
+                <content>
+                  <p>име на собственика;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_1__pt_40">
+                <num>40.</num>
+                <content>
+                  <p>адрес на собственика.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_4__art_6__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>В ИСВР се подават и вписват и:</p>
+              </intro>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>датата на излизане от пристанище и името на пристанището;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>датата на влизане в пристанище и името на пристанището;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>датата и часът на влизане в зона за риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>датата и часът на излизане от зона за риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>данни за риболовната операция;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>претоварването от кораб на кораб;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_7">
+                <num>7.</num>
+                <content>
+                  <p>данни за съвместните риболовни дейности;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_8">
+                <num>8.</num>
+                <content>
+                  <p>данни за преработката на продуктите от риболов;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_9">
+                <num>9.</num>
+                <content>
+                  <p>общият улов по дати и по видове риба или други водни организми;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_10">
+                <num>10.</num>
+                <content>
+                  <p>данни за разтоварването на продуктите от риболов на пристанище;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_4__art_6__al_2__pt_11">
+                <num>11.</num>
+                <content>
+                  <p>датата, часът и мястото на съобщението.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_2__sec_5">
+          <num>Раздел V</num>
+          <heading>Съдържание на регистъра на центровете за първа продажба на продукти от риболов</heading>
+          <article eId="chap_2__sec_5__art_7">
+            <num>Чл. 7.</num>
+            <intro>
+              <p>В регистъра на центровете за първа продажба на продукти от риболов се вписват следните данни:</p>
+            </intro>
+            <point eId="chap_2__sec_5__art_7__pt_1">
+              <num>1.</num>
+              <content>
+                <p>уникален идентификационен код на регистрацията;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_2">
+              <num>2.</num>
+              <content>
+                <p>име, ЕГН и постоянен адрес на физическото лице или наименование, седалище, адрес на управление и код по БУЛСТАТ за юридическото лице;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_3">
+              <num>3.</num>
+              <content>
+                <p>номер и дата на удостоверение за актуалното състояние на съдебната регистрация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_4">
+              <num>4.</num>
+              <content>
+                <p>номер на документа за платена такса;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_5">
+              <num>5.</num>
+              <content>
+                <p>номер и дата на издаване на документа за собственост или на документа, удостоверяващ основанието за ползване на обекта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_6">
+              <num>6.</num>
+              <content>
+                <p>номер и дата на удостоверението за регистрация по реда на Закона за храните;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_5__art_7__pt_7">
+              <num>7.</num>
+              <content>
+                <p>информация от документите, съставяни по реда на чл. 46ж ЗРА.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_2__sec_6">
+          <num>Раздел VI</num>
+          <heading>Съдържание на регистъра на регистрираните купувачи по чл. 46д, ал. 1 ЗРА</heading>
+          <article eId="chap_2__sec_6__art_8">
+            <num>Чл. 8.</num>
+            <intro>
+              <p>В регистъра на регистрираните купувачи по чл. 46д, ал. 1 ЗРА се вписват следните данни:</p>
+            </intro>
+            <point eId="chap_2__sec_6__art_8__pt_1">
+              <num>1.</num>
+              <content>
+                <p>уникален идентификационен код на регистрацията;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_6__art_8__pt_2">
+              <num>2.</num>
+              <content>
+                <p>име, ЕГН и постоянен адрес на физическото лице или наименование, седалище, адрес на управление и код по БУЛСТАТ за юридическото лице;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_6__art_8__pt_3">
+              <num>3.</num>
+              <content>
+                <p>номер и дата на удостоверение за актуалното състояние на съдебната регистрация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_6__art_8__pt_4">
+              <num>4.</num>
+              <content>
+                <p>номер на документа за платена такса;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_6__art_8__pt_5">
+              <num>5.</num>
+              <content>
+                <p>информация от документите, съставяни по реда на чл. 46ж ЗРА.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_2__sec_7">
+          <num>Раздел VII</num>
+          <heading>Съдържание на регистъра на признатите по чл. 10 и 10в ЗРА организации на производители на риба и други водни организми и браншови организации</heading>
+          <article eId="chap_2__sec_7__art_9">
+            <num>Чл. 9.</num>
+            <intro>
+              <p>В регистъра на признатите по чл. 10 и 10в ЗРА организации на производители на риба и други водни организми и браншови организации се вписват следните данни:</p>
+            </intro>
+            <point eId="chap_2__sec_7__art_9__pt_1">
+              <num>1.</num>
+              <content>
+                <p>уникален идентификационен код на регистрацията;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_2">
+              <num>2.</num>
+              <content>
+                <p>наименование, седалище, адрес на управление и код по БУЛСТАТ на юридическото лице;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_3">
+              <num>3.</num>
+              <content>
+                <p>номер и дата на удостоверение за актуалното състояние на съдебната регистрация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_4">
+              <num>4.</num>
+              <content>
+                <p>дата на декларацията за отсъствие на данни за господстващо положение на пазара по смисъла на чл. 17 ЗЗК;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_5">
+              <num>5.</num>
+              <content>
+                <p>доказателства за икономическа активност на организацията на производители;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_6">
+              <num>6.</num>
+              <content>
+                <p>доказателства за представителност на браншовата организация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_7">
+              <num>7.</num>
+              <content>
+                <p>показатели за ефективност на организацията от оперативната й програма за предходната година и обем на дейността за текущата;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_8">
+              <num>8.</num>
+              <content>
+                <p>район, за който е призната организацията на производители или браншовата организация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_9">
+              <num>9.</num>
+              <content>
+                <p>брой на членовете на организацията на производители;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_10">
+              <num>10.</num>
+              <content>
+                <p>район, за който е призната за представителна организацията (ако е призната за такава);</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_11">
+              <num>11.</num>
+              <content>
+                <p>данни за получаване на специално признаване на организация на производители и срок, за който то е получено;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_12">
+              <num>12.</num>
+              <content>
+                <p>дата на признаване на организацията на производители или браншовата организация;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_7__art_9__pt_13">
+              <num>13.</num>
+              <content>
+                <p>дата на отмяна на признаването на организацията на производители или браншовата организация.</p>
+              </content>
+            </point>
+          </article>
+        </section>
+        <section eId="chap_2__sec_8">
+          <num>Раздел VIII</num>
+          <heading>Съдържание на регистъра на разрешителните за улов на риба и други водни организми за научноизследователски цели по чл. 40, ал. 1 ЗРА</heading>
+          <article eId="chap_2__sec_8__art_10">
+            <num>Чл. 10.</num>
+            <intro>
+              <p>В регистъра на разрешителните за улов на риба и други водни организми за научноизследователски цели по чл. 40, ал. 1 ЗРА се вписват следните данни:</p>
+            </intro>
+            <point eId="chap_2__sec_8__art_10__pt_1">
+              <num>1.</num>
+              <content>
+                <p>уникален идентификационен код на регистрацията;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_2">
+              <num>2.</num>
+              <content>
+                <p>трите имена, месторабота и длъжност на лицето, което извършва експеримента;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_3">
+              <num>3.</num>
+              <content>
+                <p>видове разрешени за улов риба и други водни организми - по семейства и размер;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_4">
+              <num>4.</num>
+              <content>
+                <p>информация за целта на експеримента;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_5">
+              <num>5.</num>
+              <content>
+                <p>период на валидност на разрешителното;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_6">
+              <num>6.</num>
+              <content>
+                <p>период, за който може да се извършва улов;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_7">
+              <num>7.</num>
+              <content>
+                <p>водни обекти, в които се извършва улов на риба и други водни организми за научноизследователски цели;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_8">
+              <num>8.</num>
+              <content>
+                <p>риболовни уреди и средства;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_8__art_10__pt_9">
+              <num>9.</num>
+              <content>
+                <p>уловена риба и други водни организми (вид, количество, размер и други).</p>
+              </content>
+            </point>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>РЕД ЗА ВОДЕНЕ НА РЕГИСТРИТЕ</heading>
+        <article eId="chap_3__art_11">
+          <num>Чл. 11.</num>
+          <content>
+            <p>Вписванията в регистрите се извършват от длъжностни лица, определени със заповед на изпълнителния директор на ИАРА за водене на регистрите.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="chap_3__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните по чл. 3, ал. 2 се подават от регистрираните лица, извършващи стопански риболов по реда на Закона за електронния документ и електронния подпис (ЗЕДЕП) или в териториалните звена (ТЗ) на ИАРА, на хартиен или магнитен носител. Данните се вписват от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на издадените разрешителни за стопански риболов, с изключение на тези по чл. 3, ал. 2 и ал. 3, т. 5, се вписват от ТЗ на ИАРА след издаване на разрешителното.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на издадените разрешителни за стопански риболов по чл. 3, ал. 1, т. 3, 4, 6, 8, 10, 14, 16, 17 и по ал. 3, т. 2, се вписват от лицата по чл. 11 ежегодно за издадените разрешителни за стопански риболов за съответната година.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="chap_3__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на издадените билети за любителски риболов, се подават от държавните лесничейства, държавните дивечовъдни станции и организациите по чл. 11 ЗРА по реда на ЗЕДЕП или в ТЗ на ИАРА на хартиен или магнитен носител до края на текущия месец.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Териториалните звена на ИАРА вписват данните за издадените от тях билети за любителски риболов до края на текущия месец.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_14">
+          <num>Чл. 14.</num>
+          <content>
+            <p>Данните, подлежащи на вписване в регистъра на лицата, които развъждат и отглеждат риба и други водни организми, се вписват от лицата по чл. 11.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="chap_3__art_15__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на риболовните кораби по чл. 6, ал. 1, т. 2 - 5, 8 - 13 и 17 - 40, се подават от Изпълнителна агенция “Морска администрация” (ИА “МА”) до централното управление (ЦУ) на ИАРА в края на всяко тримесечие по реда на ЗЕДЕП или на хартиен и магнитен носител. Данните се вписват от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на риболовните кораби по чл. 6, ал. 1, т. 1, 6, 7 и 14 - 16, се вписват от ТЗ на ИАРА след издаване на разрешителното за стопански риболов.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на риболовните кораби по чл. 6, ал. 2, се подават от капитана на кораба чрез бордовото оборудване. Данните се вписват от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Данните за определяне и описване на събитие по чл. 6, ал. 1, т. 3 - 40 се подават и вписват от лицата по чл. 11 съгласно приложение № 7.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_5">
+            <num>(5)</num>
+            <content>
+              <p>В данните се включват всички събития, свързани с въпросните кораби, от момента на включването им във флота до датата на предаване на данните.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Изпълнителната агенция по рибарство и аквакултури изпраща данни от регистъра на риболовните кораби на Европейската комисия в първия работен ден на март, юни, септември и декември.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_7">
+            <num>(7)</num>
+            <content>
+              <p>При грешка в подадените данни ИАРА ги коригира в срок до 10 дни от получаването на съобщението от Европейската комисия за констатиране на несъответствието или грешката.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_16">
+          <num>Чл. 16.</num>
+          <paragraph eId="chap_3__art_16__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на центровете за първа продажба на продукти от риболов по чл. 7, т. 1 - 6, се вписват от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_16__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на центровете за първа продажба на продукти от риболов по чл. 7, т. 7, се подават от организаторите на центровете за първа продажба по реда на ЗЕДЕП или на хартиен и магнитен носител в ТЗ на ИАРА. Вписването се извършва от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_17">
+          <num>Чл. 17.</num>
+          <paragraph eId="chap_3__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на регистрираните купувачи по чл. 46д, ал. 1 ЗРА и по чл. 8, т. 1 - 4, се вписват от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Данните, подлежащи на вписване в регистъра на регистрираните купувачи по чл. 8, т. 5, се подават от регистрираните купувачи по реда на ЗЕДЕП или на хартиен и магнитен носител в ТЗ на ИАРА. Вписването се извършва от лицата по чл. 11.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_18">
+          <num>Чл. 18.</num>
+          <content>
+            <p>Данните, подлежащи на вписване в регистъра на признатите организации на производители на риба и други водни организми и браншови организации, се вписват от лицата по чл. 11.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_19">
+          <num>Чл. 19.</num>
+          <content>
+            <p>Данните, подлежащи на вписване в регистъра на разрешителните за улов на риба и други водни организми за научноизследователски цели по чл. 40, ал. 1 ЗРА, се вписват от лицата по чл. 11.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_20">
+          <num>Чл. 20.</num>
+          <content>
+            <p>Промени и във вписаните обстоятелства се извършват от лицата по чл. 11, без да се засяга информацията, съдържаща се в предходните вписвания.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_21">
+          <num>Чл. 21.</num>
+          <paragraph eId="chap_3__art_21__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните от регистрите са за служебно ползване и се съхраняват в ИСВР.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_21__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Достъпът до данните по ал. 1 се разрешава със заповед на изпълнителния директор на ИАРА. В заповедта се уреждат условията и редът за ползване на данните.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_22">
+          <num>Чл. 22.</num>
+          <paragraph eId="chap_3__art_22__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За получаване на извадка от регистрите се подава писмено заявление до изпълнителния директор на ИАРА. Заявлението съдържа описание на исканите данни и целта, за която те ще се използват.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_22__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Изпълнителният директор на ИАРА дава разрешение или прави мотивиран отказ за получаване на извадката в 14-дневен срок от подаване на заявлението.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_22__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Отказът подлежи на обжалване по реда на Закона за административното производство.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>ДОПЪЛНИТЕЛНА РАЗПОРЕДБА</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>“Уникален идентификационен код на регистрацията” е буквено-цифрова комбинация, чрез която еднозначно се достига до информационните полета на запис в масив.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>“Масив” е набор от информационни полета, които са организирани по определен начин, като всяко поле от него се индексира с пореден номер или със символен низ.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>“Единен идентификационен номер за Европейския съюз - CFR” е номерът CFR, вписан в регистъра на риболовните кораби. Той фигурира във всички данни за характеристиките и събитията, свързани с риболовните кораби, предавани между държавите членки и комисията. Номерът се дава окончателно при първото вписване на риболовния кораб в националния регистър. Той не може да се променя, нито да се преотстъпва на друг кораб.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 16, ал. 2 от Закона за рибарството и аквакултурите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба отменя Наредба № 37 от 2001 г. за водене на регистрите на разрешителните за стопански риболов, билетите за любителски риболов и на лицата, които развъждат и отглеждат риба и други водни организми (ДВ, бр. 98 от 2001 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на наредбата се възлага на изпълнителния директор на Изпълнителната агенция по рибарство и аквакултури.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 юли 2006 г.</p>
+            <p>Министър:  Н. Кабил</p>
+            <p>(Забележка на редакцията:    виж приложенията в PDF-а на броя)</p>
+            <p>31187</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-3/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-3"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението на НАТО за взаимно опазване секретността на изобретенията, свързани с отбраната, за които са подадени заявки за патенти, и на Споразумението на НАТО относно предаване на техническа информация за целите на отбраната" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението на НАТО за взаимно опазване секретността на изобретенията, свързани с отбраната, за които са подадени заявки за патенти, и на Споразумението на НАТО относно предаване на техническа информация за целите на отбраната" name="eli" other="/eli/bg/ratifikatsiya/2004/dv-83-04-3"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-3/bul@2004-09-24/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-3/bul@2004-09-24"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-3/bul@2004-09-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-3/bul@2004-09-24.xml"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-24" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението на НАТО за взаимно опазване секретността на изобретенията, свързани с отбраната, за които са подадени заявки за патенти, и на Споразумението на НАТО относно предаване на техническа информация за целите на отбраната</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Споразумението на НАТО за взаимно опазване секретността на изобретенията, свързани с отбраната, за които са подадени заявки за патенти, подписано на 21 септември 1960 г. в Париж.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Споразумението на НАТО относно предаване на техническа информация за целите на отбраната, подписано на 19 октомври 1970 г. в Брюксел.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

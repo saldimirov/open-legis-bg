@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-1"/>
+          <FRBRalias value="Закон за изменение на Закона за отбраната и въоръжените сили на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за отбраната и въоръжените сили на Република България" name="eli" other="/eli/bg/zakon/2007/dv-89-07-1"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-1/bul@2007-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-1/bul@2007-11-06"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-1/bul@2007-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-1/bul@2007-11-06.xml"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-11-06" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за отбраната и въоръжените сили на Република България</p>
+      <p>(обн., ДВ, бр. 112 от 1995 г.; изм., бр. 67 от 1996 г., бр. 122 от 1997 г., бр. 70, 93, 152 и 153 от 1998 г., бр. 12, 67 и 69 от 1999 г., бр. 49 и 64 от 2000 г., бр. 25 от 2001 г., бр. 1, 40, 45 и 119 от 2002 г., бр. 50, 86, 95 и 112 от 2003 г., бр. 93 и 111 от 2004 г., бр. 27, 38, 76, 88, 102 и 105 от 2005 г., бр. 30, 36, 56, 82, 91 и 102 от 2006 г., бр. 11, 41, 46 и 59 от 2007 г., бр. 68 от 2007 г. – Решение   № 9 на Конституционния съд от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В преходните и заключителните разпоредби на Закона за изменение и допълнение на Закона за отбраната и въоръжените сили на Република България (ДВ, бр. 56 от 2006 г.) се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В § 10 думите “1 януари 2008 г.” се заменят с “1 декември 2007 г.”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В § 13 думите “§ 3, 4, 6, 10 и 11, които влизат в сила от 1 януари 2008 г.” се заменят с “§ 10, който влиза в сила от 1 декември 2007 г., и § 3, 4, 6 и 11, които влизат в сила от 1 януари 2008 г.”.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Закона за изменение и допълнение на Наказателния кодекс (ДВ, бр. 38 от 2007 г.) в § 23 от заключителните разпоредби думите “1 януари 2008 г.” се заменят с “1 декември 2007 г.”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

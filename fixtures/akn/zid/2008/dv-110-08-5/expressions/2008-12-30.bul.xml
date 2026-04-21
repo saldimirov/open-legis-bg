@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-5"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за военноинвалидите и военнопострадалите" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за военноинвалидите и военнопострадалите" name="eli" other="/eli/bg/zid/2008/dv-110-08-5"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-5/bul@2008-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-5/bul@2008-12-30"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-5/bul@2008-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-5/bul@2008-12-30.xml"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-30" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за военноинвалидите и военнопострадалите</p>
+      <p>(обн., ДВ, бр. 27 от 2005 г.; изм., бр. 88 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 17 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 1 в текста преди т. 1 след думата “Военноинвалидите” се добавя “и военнопострадалите по чл. 4, т. 1 и 4”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Алинея 2 се отменя.</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 19, ал. 2 след думата “Военноинвалидите” се добавя “и военнопострадалите по чл. 4, т. 1 и 4”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 22, ал. 1 след думата “военноинвалид” се добавя “или военнопострадал по чл. 4, т. 1 и 4”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

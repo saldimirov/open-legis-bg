@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-68-08-8/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-68-08-8"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 12 от 2004 г. за условията и реда за сортоизпитване, признаване, вписване и отписване на сортовете растения във и от Официалната сортова листа на Република България" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 12 от 2004 г. за условията и реда за сортоизпитване, признаване, вписване и отписване на сортовете растения във и от Официалната сортова листа на Република България" name="eli" other="/eli/bg/naredba/2008/dv-68-08-8"/>
+          <FRBRdate date="2008-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-68-08-8/bul@2008-08-01/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-68-08-8/bul@2008-08-01"/>
+          <FRBRdate date="2008-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-68-08-8/bul@2008-08-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-68-08-8/bul@2008-08-01.xml"/>
+          <FRBRdate date="2008-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-01" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 12 от 2004 г. за условията и реда за сортоизпитване, признаване, вписване и отписване на сортовете растения във и от Официалната сортова листа на Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 25 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 след думата “подадена” се добавя “заявка”, а думата “молба” се поставя в скоби.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 2 думата “молба” се заменя със “заявка (молба)”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 4 към чл. 25, ал. 1 се изменя така:</p>
+            <p>“Приложение № 4 към чл. 25, ал. 1</p>
+            <p>( Забележка на редакцията : виж приложението в PDF-а на броя)</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде думите “министъра на земеделието и продоволствието”, “министърът на земеделието и продоволствието” и “Министерство на земеделието и продоволствието” се заменят съответно с “министъра на земеделието и храните ”, “министърът на земеделието и храните ” и “Министерство на земеделието и храните”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  В. Цветанов</p>
+            <p>1381</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

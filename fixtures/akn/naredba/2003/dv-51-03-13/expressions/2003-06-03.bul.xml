@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-13"/>
+          <FRBRalias value="Наредба за отмяна на Наредба № Т02 от 2000 г. за условията и реда за издаване на документ за произход при износ на дребен рогат добитък и месо от него за Европейската общност" name="short"/>
+          <FRBRalias value="Наредба за отмяна на Наредба № Т02 от 2000 г. за условията и реда за издаване на документ за произход при износ на дребен рогат добитък и месо от него за Европейската общност" name="eli" other="/eli/bg/naredba/2003/dv-51-03-13"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-13/bul@2003-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-13/bul@2003-06-03"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-13/bul@2003-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-13/bul@2003-06-03.xml"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-06-03" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за отмяна на Наредба № Т02 от 2000 г. за условията и реда за издаване на документ за произход при износ на дребен рогат добитък и месо от него за Европейската общност</p>
+      <p>(обн., ДВ, бр. 1 от 2001 г.; попр., бр. 78 от 2001 г.; изм.,   бр. 1 от 2002 г. и бр. 1 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Наредба № Т02 от 2000 г. за условията и реда за издаване на документ за произход при износ на дребен рогат добитък и месо от него за Европейската общност се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Освобождават се всички депозити по чл. 2, ал. 1, т. 4 от Наредба № Т02 от 2000 г., с изключение на тези, които на основание чл. 10, ал. 3 и чл. 11, ал. 2 от наредбата подлежат на внасяне в приход на републиканския бюджет към 1 юни 2003 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 юни 2003 г.</p>
+            <p>Министър:    Н. Василев</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

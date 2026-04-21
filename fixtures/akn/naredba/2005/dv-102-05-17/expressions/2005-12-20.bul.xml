@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-17/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-17"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично" name="eli" other="/eli/bg/naredba/2005/dv-102-05-17"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-17/bul@2005-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-17/bul@2005-12-20"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-17/bul@2005-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-17/bul@2005-12-20.xml"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-20" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично</p>
+      <p>(обн., ДВ, бр. 106 от 2004 г.; доп., бр. 111 от 2004 г.; изм. и доп., бр. 6 и 63 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Заглавието на наредбата се изменя така:</p>
+            <p>“Наредба № 38 за определяне на списъка на заболяванията, за чието домашно лечение Националната здравноосигурителна каса заплаща лекарства, медицински изделия и диетични храни за специални медицински цели напълно или частично”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В член единствен думата “лекарствата” се заменя с “лекарства, медицински изделия и диетични храни за специални медицински цели”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Заглавието на приложението към член единствен се изменя така:</p>
+            <p>“Приложение към член единствен</p>
+            <p>Списък на заболяванията, за чието домашно лечение Националната здравноосигурителна каса заплаща лекарства, медицински изделия и диетични храни за специални медицински цели напълно или частично”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 януари 2006 г.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>123062</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

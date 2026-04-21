@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-29-08-22/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-29-08-22"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за условията и реда за вписване в регистъра и изискванията към дейността на обменните бюра" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за условията и реда за вписване в регистъра и изискванията към дейността на обменните бюра" name="eli" other="/eli/bg/naredba/2008/dv-29-08-22"/>
+          <FRBRdate date="2008-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-29-08-22/bul@2008-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-29-08-22/bul@2008-03-18"/>
+          <FRBRdate date="2008-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-29-08-22/bul@2008-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-29-08-22/bul@2008-03-18.xml"/>
+          <FRBRdate date="2008-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-18" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за условията и реда за вписване в регистъра и изискванията към дейността на обменните бюра</p>
+      <p>(обн., ДВ, бр. 74 от 2003 г.; попр., бр. 86 от 2003 г.; изм. и доп., бр. 115 от 2004 г.; доп., бр. 57 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1 думите “Агенцията за финансово разузнаване” се заменят с “Националната агенция за приходите”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 15, ал. 1 т. 1 се изменя така:</p>
+            <p>“1. трибуквените кодове на търгуваните валути, в съответствие с международния класификатор ISO 4217;”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде в наредбата думите “директор на Агенцията за финансово разузнаване”, “териториална данъчна дирекция” и “териториалната данъчна дирекция” се заменят съответно с “изпълнителен директор на Националната агенция за приходите”, “териториална дирекция на Националната агенция за приходите” и “териториалната дирекция на Националната агенция за приходите”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Дирекция “Финансово разузнаване” на Държавна агенция “Национална сигурност” предава на Националната агенция за приходите софтуера и всички документи, отнасящи се до вписването в публичния регистър на обменните бюра.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Тази наредба влиза в сила от 1 ап- рил 2008 г.</p>
+            <p>Министър:  Пл. Орешарски</p>
+            <p>11611</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

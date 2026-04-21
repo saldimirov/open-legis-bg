@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-11"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № І-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № І-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина" name="eli" other="/eli/bg/naredba/2009/dv-94-09-11"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-11/bul@2009-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-11/bul@2009-11-27"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-11/bul@2009-11-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-11/bul@2009-11-27.xml"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-27" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № І-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина</p>
+      <p>(обн., ДВ, бр. 97 от 2002 г.; изм. и доп., бр. 66 от 2003 г., бр. 93 от 2006 г., бр. 46 и 90 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 25 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 3 думите „за твърдяното обстоятелство” се заменят с „по чл. 160 ЗДвП“.</p>
+            <p>2. Създават се нови алинеи 4, 5 и 6:</p>
+            <p>„(4) Заявление за издаване на дубликат на контролен талон може да бъде подавано по електронен път чрез автоматизираната информационна система за електронни услуги на МВР с притежавания от гражданина валиден универсален електронен подпис. При подадено заявление по електронен път органът, който издава контролния талон, изпраща потвърждение или отказ до гражданина по електронен път.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(5)</num>
+            <content>
+              <p>При изпратено потвърждение по ал. 4 гражданинът се уведомява, че документът ще бъде издаден след заплащане на държавна такса.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_1__al_2">
+            <num>(6)</num>
+            <intro>
+              <p>Дубликат на контролен талон не се издава на водач, на когото са отнети всички контролни точки.“</p>
+            </intro>
+            <point eId="sec_final__par_1__al_2__pt_1">
+              <num>3.</num>
+              <content>
+                <p>Досегашните ал. 4 и 5 стават съответно ал. 7 и 8.</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В случаите, предвидени в тази наредба, електронната обработка и подаването на заявления по електронен път се извършва след създаване на технически и организационни условия и програмните средства.</p>
+            <p>Министър:  Цв. Цветанов</p>
+            <p>12805</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

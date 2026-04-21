@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Кодекса за застраховането" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Кодекса за застраховането" name="eli" other="/eli/bg/zid/2007/dv-48-07-1"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-1/bul@2007-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-1/bul@2007-06-15"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-1/bul@2007-06-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-1/bul@2007-06-15.xml"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-15" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Кодекса за застраховането</p>
+      <p>(обн., ДВ, бр. 103 от 2005 г.; изм., бр. 105 от 2005 г., бр. 30, 33, 34, 54, 59, 82, 105 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 75 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 2, т. 1 думите “осемдесет на сто от” се заличават, а след думата “стойност” се добавя “без ограничение”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В ал. 3, изречение второ думите “по-ниски размери” се заменят с “размери, различни”, а думите “поставят под съмнение” се заменят с “позволяват да се направи различна обективна преценка за”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_3">
+          <num>3.</num>
+          <content>
+            <p>Алинея 5 се изменя така: “(5) Вземания към застраховани, произтичащи от застрахователни договори, се признават за покритие на техническите резерви до разликата между брутния размер на образуваните пренос-премиен резерв, математически резерв или капитализирана стойност на пенсиите и дела на презастрахователя в тях, преобразуван по реда на ал. 1 и 2. Вземания към застрахователни посредници, произтичащи от застрахователни договори, се признават за покритие на техническите резерви на стойност до 20 на сто от разликата между брутния размер на образуваните пренос-премиен резерв, математически резерв или капитализирана стойност на пенсиите и дела на презастрахователя в тях, преобразувани по реда на ал. 1 и 2.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 82, ал. 1 се правят следните допълнения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В т. 1 след думите “четири млн.” се добавя “и четиристотин хиляди”.</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В т. 2 след думите “шест млн.” се добавя “и четиристотин хиляди”.</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <intro>
+          <p>В допълнителните разпоредби се създава § 4а:</p>
+          <p>“§ 4а. (1) Съгласно Директива 91/371/ЕИО на Съвета, за откриване на клон и за извършване на дейност по застраховане по видове застраховки по раздел II от приложение № 1 от застраховател със седалище в Република България в Конфедерация Швейцария, съответно от застраховател със седалище в Конфедерация Швейцария в Република България, както и за надзора върху тази дейност се прилага Споразумението между Европейската икономическа общност и Конфедерация Швейцария относно прякото застраховане, различно от животозастраховането.</p>
+        </intro>
+        <paragraph eId="par_3__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Комисията за финансов надзор оповестява практиката по прилагане на споразумението по реда на чл. 9, ал. 1 от Закона за Комисията за финансов надзор.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В преходните и заключителните разпоредби се създава § 6а:</p>
+          <p>“§ 6а. Заварените застрахователи и презастрахователи привеждат капитала си в съответствие с чл. 82, ал. 1 и 3 в срок до 31 август 2007 г.”</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

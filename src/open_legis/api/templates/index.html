@@ -10,20 +10,7 @@
 
 <!-- Type filter tabs -->
 <div class="flex flex-wrap gap-2 mb-6">
-  {% set types = [
-    ('', 'Всички'),
-    ('zakon', 'Закони'),
-    ('zid', 'ЗИД'),
-    ('byudjet', 'Бюджетни закони'),
-    ('kodeks', 'Кодекси'),
-    ('konstitutsiya', 'Конституция'),
-    ('naredba', 'Наредби'),
-    ('postanovlenie', 'Постановления'),
-    ('pravilnik', 'Правилници'),
-    ('reshenie_ns', 'Решения на НС'),
-    ('ratifikatsiya', 'Ратификации'),
-  ] %}
-  {% for type_val, type_label in types %}
+  {% for type_val, type_label in type_filter_order %}
   <a href="/?type={{ type_val }}{% if q %}&q={{ q }}{% endif %}"
      class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors
        {% if current_type == type_val %}
@@ -43,7 +30,7 @@
   <a href="/ui{{ w.uri }}" class="block bg-white rounded-lg border border-gray-200 px-5 py-4 hover:border-blue-400 hover:shadow-sm transition-all" title="{{ w.title }}">
     <div class="flex items-start justify-between gap-4">
       <div class="min-w-0">
-        <p class="text-sm font-medium text-gray-900 leading-snug">{{ w.title }}</p>
+        <p class="text-sm font-medium text-gray-900 leading-snug">{{ w.title | fix_title }}</p>
         <div class="flex items-center gap-3 mt-1.5">
           <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium
             {% if w.type == 'zakon' %}bg-blue-50 text-blue-700

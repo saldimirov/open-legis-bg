@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-9/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-9"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 39 от 2009 г. за условията и реда за издаване на свидетелства за правоспособност на пилоти, свидетелства за авиационни учебни центрове, обучаващи пилоти, и свидетелства за медицинска годност на авиационен персонал – пилоти, в съответствие с изискванията на JAR-FCL 1, JAR-FCL 2 и JAR-FCL 3 и контрола върху тях, и за националните правила за пилотите на въздухоплавателни средства, извън уредените в JAR-FCL" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 39 от 2009 г. за условията и реда за издаване на свидетелства за правоспособност на пилоти, свидетелства за авиационни учебни центрове, обучаващи пилоти, и свидетелства за медицинска годност на авиационен персонал – пилоти, в съответствие с изискванията на JAR-FCL 1, JAR-FCL 2 и JAR-FCL 3 и контрола върху тях, и за националните правила за пилотите на въздухоплавателни средства, извън уредените в JAR-FCL" name="eli" other="/eli/bg/naredba/2011/dv-100-11-9"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-9/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-9/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-9/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-9/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 39 от 2009 г. за условията и реда за издаване на свидетелства за правоспособност на пилоти, свидетелства за авиационни учебни центрове, обучаващи пилоти, и свидетелства за медицинска годност на авиационен персонал – пилоти, в съответствие с изискванията на JAR-FCL 1, JAR-FCL 2 и JAR-FCL 3 и контрола върху тях, и за националните правила за пилотите на въздухоплавателни средства, извън уредените в JAR-FCL</p>
+      <p>(обн., ДВ, бр. 14 от 2009 г.; попр., бр. 15 от 2009 г.; изм. и доп., бр. 86 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 25, ал. 1 думите „JAR-STD“ се заменят с „изискванията на Обединените авиационни власти за полетни симулатори – JAR-FSTD“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 10 към чл. 25, ал. 1 се заменя с ново, което ще бъде обнародвано като притурка към „Държавен вестник“.</p>
+            <p>Министър:  Ивайло Московски</p>
+            <p>13159</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

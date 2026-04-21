@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-50-06-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-50-06-11"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве" name="eli" other="/eli/bg/naredba/2006/dv-50-06-11"/>
+          <FRBRdate date="2006-06-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-50-06-11/bul@2006-06-20/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-50-06-11/bul@2006-06-20"/>
+          <FRBRdate date="2006-06-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-50-06-11/bul@2006-06-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-50-06-11/bul@2006-06-20.xml"/>
+          <FRBRdate date="2006-06-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-20" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 т. 2 се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 2 към чл. 2, ал. 1 т. 2 текстът “2. Разрешение за ползване на обекта или друг документ, необходим за въвеждане в експлоатация № ............. / ................... (не се изисква за обектите от шеста категория съгласно разпоредбите на Закона за устройството на територията)” се заличава.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>41964</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

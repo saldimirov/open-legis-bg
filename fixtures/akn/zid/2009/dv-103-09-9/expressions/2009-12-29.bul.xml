@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-9"/>
+          <FRBRalias value="Закон за изменение на Закона за политическа и гражданска реабилитация на репресирани лица" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за политическа и гражданска реабилитация на репресирани лица" name="eli" other="/eli/bg/zid/2009/dv-103-09-9"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-9/bul@2009-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-9/bul@2009-12-29"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-9/bul@2009-12-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-9/bul@2009-12-29.xml"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-29" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за политическа и гражданска реабилитация на репресирани лица</p>
+      <p>(обн., ДВ, бр. 50 от 1991 г.; изм., бр. 52 от 1994 г., бр. 12 от 2004 г., бр. 29 от 2005 г., бр. 30 и 81 от 2006 г., бр. 60 от 2007 г. и   бр. 26 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В § 6 от преходните и заключителните разпоредби на Закона за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица (ДВ, бр. 12 от 2004 г.) думите „тригодишен срок от влизането му в сила“ се заменят със „срок до 31 декември 2011 г.“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В § 10 от преходните и заключителните разпоредби на Закона за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица (обн., ДВ, бр. 29 от 2005 г.; изм., бр. 81 от 2006 г. и бр. 26 от 2008 г.) думите „тригодишен срок от влизането му в сила“ се заменят със „срок до 31 декември 2011 г.“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В § 11 от преходните и заключителните разпоредби на Закона за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица (обн., ДВ, бр. 29 от 2005 г.; изм., бр. 81 от 2006 г. и бр. 26 от 2008 г.) думите „2009 г.“ се заменят с „2011 г.“.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <intro>
+          <p>Законът влиза в сила от 1 януари 2010 г., с изключение на:</p>
+        </intro>
+        <point eId="par_4__pt_1">
+          <num>1.</num>
+          <content>
+            <p>параграф 1, който влиза в сила от 17 февруари 2007 г.;</p>
+          </content>
+        </point>
+        <point eId="par_4__pt_2">
+          <num>2.</num>
+          <content>
+            <p>параграф 2, който влиза в сила от 9 април 2008 г.</p>
+          </content>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

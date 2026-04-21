@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-19"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за ветеринарно-санитарните изисквания в млекодобивните стопанства" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за ветеринарно-санитарните изисквания в млекодобивните стопанства" name="eli" other="/eli/bg/naredba/2006/dv-1-06-19"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-19/bul@2006-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-19/bul@2006-01-03"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-1-06-19/bul@2006-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-1-06-19/bul@2006-01-03.xml"/>
+          <FRBRdate date="2006-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за ветеринарно-санитарните изисквания в млекодобивните стопанства</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 14 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Алинея 1 се изменя: “(1) След издояване на млякото то се съхранява в отделно помещение, защитено от вредители, отделено от помещенията, в които са настанени животните, и разполагащо със съоръжения за охлаждане на млякото или охладителна вана.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Създава се ал.3: “(3) В помещенията по ал. 1 се съхранява само добитото в стопанството сурово мляко.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В допълнителните разпоредби в § 1 т. 1 се отменя.</p>
+            <p>Министър:  Н. Кабил</p>
+            <p>127719</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-3"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за вътрешния одит в публичния сектор" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за вътрешния одит в публичния сектор" name="eli" other="/eli/bg/zid/2008/dv-71-08-3"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-3/bul@2008-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-3/bul@2008-08-12"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-3/bul@2008-08-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-3/bul@2008-08-12.xml"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-12" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за вътрешния одит в публичния сектор</p>
+      <p>(обн., ДВ, бр. 27 от 2006 г.; изм., бр. 64 и 102 от 2006 г. и   бр. 43 от 2008 г. )</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 12, ал. 1, т. 5 думите “по републиканския бюджет” се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В приложението към чл. 12, ал. 1, т. 5 се създава т. 15:</p>
+          <p>“15. Прокуратурата на Република България.”</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

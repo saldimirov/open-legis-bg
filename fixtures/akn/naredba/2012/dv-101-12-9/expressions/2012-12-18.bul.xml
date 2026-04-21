@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-9/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-9"/>
+          <FRBRalias value="Наредба за изменение на Наредба № Н-00-0001 от 2011 г. за извършване на теренни археологически проучвания" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № Н-00-0001 от 2011 г. за извършване на теренни археологически проучвания" name="eli" other="/eli/bg/naredba/2012/dv-101-12-9"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-9/bul@2012-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-9/bul@2012-12-18"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-9/bul@2012-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-9/bul@2012-12-18.xml"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-18" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № Н-00-0001 от 2011 г. за извършване на теренни археологически проучвания</p>
+      <p>(обн., ДВ, бр. 18 от 2011 г.; изм. и доп., бр. 30 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 17б ал. 1 се изменя така:</p>
+            <p>„(1) Заявленията по чл. 17а, ал. 1 заедно с приложените към тях документи се разглеждат от Съвета за теренни проучвания в едномесечен срок.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тази наредба влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>За министър:  Митко Тодоров</p>
+            <p>11176</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

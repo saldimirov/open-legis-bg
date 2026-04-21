@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-15-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-15-04-10"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="eli" other="/eli/bg/naredba/2004/dv-15-04-10"/>
+          <FRBRdate date="2004-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-15-04-10/bul@2004-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-15-04-10/bul@2004-02-24"/>
+          <FRBRdate date="2004-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-15-04-10/bul@2004-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-15-04-10/bul@2004-02-24.xml"/>
+          <FRBRdate date="2004-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-24" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК</p>
+      <p>(обн., ДВ, бр. 112 от 2003 г.; изм. и доп., бр. 2 от 2004 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

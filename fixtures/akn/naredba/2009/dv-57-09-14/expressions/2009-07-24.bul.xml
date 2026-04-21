@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-57-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-57-09-14"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба" name="eli" other="/eli/bg/naredba/2009/dv-57-09-14"/>
+          <FRBRdate date="2009-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-57-09-14/bul@2009-07-24/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-57-09-14/bul@2009-07-24"/>
+          <FRBRdate date="2009-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-57-09-14/bul@2009-07-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-57-09-14/bul@2009-07-24.xml"/>
+          <FRBRdate date="2009-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-07-24" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба</p>
+      <p>(обн., ДВ, бр. 23 от 2000 г.; изм. и доп., бр. 24 от 2004 г., бр. 77 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В т. 5 от приложение № 2 към чл. 2, ал. 4 след думата “съпруг(а),” се добавя изразът “с лице, с което съм във фактическо съжителство,”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Точка 6 от приложение № 2 към чл. 2, ал. 4 се изменя така:</p>
+            <p>“6. Не съм едноличен търговец, неограничено отговорен съдружник в търговско дружество, управител, търговски пълномощник, търговски представител, прокурист, търговски посредник, ликвидатор или синдик, член на орган на управление или контрол на търговско дружество или кооперация.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се т. 12 в приложение № 2 към чл. 2, ал. 4:</p>
+            <p>“12. Не получавам възнаграждение от участие като представител на държавата или общината в органи на управление или контрол на търговски дружества с държавно или общинско участие в капитала или на юридически лица, създадени със закон.”</p>
+            <p>Министър:  Николай Василев</p>
+            <p>9528</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

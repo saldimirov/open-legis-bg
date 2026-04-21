@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-4"/>
+          <FRBRalias value="Закон за допълнение на Закона за лекарствените продукти в хуманната медицина" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за лекарствените продукти в хуманната медицина" name="eli" other="/eli/bg/zid/2009/dv-88-09-4"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-4/bul@2009-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-4/bul@2009-11-06"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-4/bul@2009-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-4/bul@2009-11-06.xml"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-06" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за лекарствените продукти в хуманната медицина</p>
+      <p>(обн., ДВ, бр. 31 от 2007 г.; изм., бр. 19 от 2008 г.; бр. 65 от 2008 г. – Решение № 5 на Конституционния съд от 2008 г.; изм., бр. 71 от 2008 г., бр. 10, 23 и 41 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 262 се създава ал. 8:</p>
+          <p>„(8) Със средства от републиканския бюджет извън обхвата на задължителното здравно осигуряване могат да се заплащат лекарствени продукти, отпускани по лекарско предписание, които не са включени в списъка по ал. 1, необходими за профилактика или лечение при епидемични взривове, епидемии, пандемии, както и при наличието на предполагаемо или потвърдено разпространение на химически или биологични агенти или ядрена радиация.“</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

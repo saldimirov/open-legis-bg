@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-98-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-98-06-15"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 7 от 2000 г. за използване на физическа сила, помощни средства и оръжие от органите на Военна полиция" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 7 от 2000 г. за използване на физическа сила, помощни средства и оръжие от органите на Военна полиция" name="eli" other="/eli/bg/naredba/2006/dv-98-06-15"/>
+          <FRBRdate date="2006-12-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-98-06-15/bul@2006-12-05/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-98-06-15/bul@2006-12-05"/>
+          <FRBRdate date="2006-12-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-98-06-15/bul@2006-12-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-98-06-15/bul@2006-12-05.xml"/>
+          <FRBRdate date="2006-12-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-05" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 7 от 2000 г. за използване на физическа сила, помощни средства и оръжие от органите на Военна полиция</p>
+      <p>(обн., ДВ, бр. 102 от 2000 г.; изм. и доп., бр. 28 от 2001 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

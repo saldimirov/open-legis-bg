@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите" name="eli" other="/eli/bg/zid/2009/dv-88-09-1"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-1/bul@2009-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-1/bul@2009-11-06"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-88-09-1/bul@2009-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-88-09-1/bul@2009-11-06.xml"/>
+          <FRBRdate date="2009-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-06" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите</p>
+      <p>(обн., ДВ, бр. 133 от 1998 г.; изм., бр. 85 от 2000 г., бр. 99 от 2002 г., бр. 71 от 2003 г., бр. 102 и 105 от 2005 г., бр. 17, 30 и 38 от 2006 г., бр. 11 и 95 от 2007 г. и бр. 69 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 1, ал. 2 след думите „Министерствотона вътрешните работи“ се поставя запетая и се добавя „за Главна дирекция „Охрана“ и Главна дирекция „Изпълнение на наказанията“ към Министерството на правосъдието, за Държавна агенция „Национална сигурност“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В преходните и заключителните разпоредби се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В  §  6 след думите „Министерството на вътрешните работи“ се поставя запетая и се добавя „в Главна дирекция „Охрана“ и Главна дирекция „Изпълнение на наказанията“ към Министерството на правосъдието, в Държавна агенция „Национална сигурност“.</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <intro>
+            <p>В § 7:</p>
+          </intro>
+          <point eId="par_2__pt_2__l_1">
+            <num>а)</num>
+            <content>
+              <p>досегашният текст става ал. 1 и в нея след думите „Министерството на вътрешните работи“ се поставя запетая и се добавя „на държавните служители от Държавна агенция „Национална сигурност“, на държавните служители от Главна дирекция „Охрана“ и от Главна дирекция „Изпълнениe на наказанията“ към Министерството на правосъдието“;</p>
+            </content>
+          </point>
+          <point eId="par_2__pt_2__l_2">
+            <num>б)</num>
+            <content>
+              <p>създава се ал. 2:</p>
+              <p>„(2) Стажът, придобит по Закона за Министерството на вътрешните работи, Закона за отбраната и въоръжените сили на Република България и Закона за държавния служител от служителите, преминали в Държавна агенция „Национална сигурност“, в Главна дирекция „Охрана“ и Главна дирекция „Изпълнениe на наказанията“ към Министерството на правосъдието, се зачита за прослужено време по ал. 1.“</p>
+            </content>
+          </point>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

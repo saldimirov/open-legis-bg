@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-35-25-7/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-35-25-7"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 17 от 23 юли 2001 г. за регулиране на движението по пътищата със светлинни сигнали" name="short"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 17 от 23 юли 2001 г. за регулиране на движението по пътищата със светлинни сигнали" name="eli" other="/eli/bg/naredba/2025/dv-35-25-7"/>
+          <FRBRdate date="2025-04-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-35-25-7/bul@2025-04-25/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-35-25-7/bul@2025-04-25"/>
+          <FRBRdate date="2025-04-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-35-25-7/bul@2025-04-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-35-25-7/bul@2025-04-25.xml"/>
+          <FRBRdate date="2025-04-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-04-25" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за отменяне на Наредба № 17 от 23 юли 2001 г. за регулиране на движението по пътищата със светлинни сигнали</p>
+      <p>(обн., ДВ, бр. 72 от 2001 г.; изм. и доп., бр. 18 от 2004 г. и бр. 35 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Наредба № 17 от 23 юли 2001 г. за регулиране на движението по пътищата със светлинни сигнали (обн., ДВ, бр. 72 от 2001 г.; изм. и доп., бр. 18 от 2004 г. и бр. 35 от 2015 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 14 май 2025 г.</p>
+            <p>Министър:  Иван Иванов</p>
+            <p>2053</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

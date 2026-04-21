@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-42-25-25/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-42-25-25"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № Е-РД-04-1 от 2020 г. за топлоснабдяването" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № Е-РД-04-1 от 2020 г. за топлоснабдяването" name="eli" other="/eli/bg/naredba/2025/dv-42-25-25"/>
+          <FRBRdate date="2025-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-42-25-25/bul@2025-05-23/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-42-25-25/bul@2025-05-23"/>
+          <FRBRdate date="2025-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-42-25-25/bul@2025-05-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-42-25-25/bul@2025-05-23.xml"/>
+          <FRBRdate date="2025-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-05-23" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № Е-РД-04-1 от 2020 г. за топлоснабдяването</p>
+      <p>(обн., ДВ, бр. 25 от 2020 г.; изм. с Решение № 7276 от 2023 г. на ВАС на Република България – бр. 16 от 2025 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 63, ал. 7 след думата „съгласно“ се добавя „зависимостта за сградната инсталация по“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 61, ал. 1 се създава т. 6.1.1:</p>
+            <p>„6.1.1. „Зависимостта за сградната инсталация“ е метод за определяне на количеството топлинна енергия, отдадена от сградната инсталация при въведена система за дялово разпределение чрез индивидуални разпределители, когато потребителите на топлинна енергия в сграда – етажна собственост, не изберат метод, и се определя от лицето по чл. 139б, ал. 1 ЗЕ по формулата:</p>
+            <p>&amp;beta;   си     *  Q им   *  D нп   *  24</p>
+            <p>Q u  =</p>
+            <p>––––––––––––––––––––––––––––––––    ,</p>
+            <p>(t ср.сгр.  – t изч. )</p>
+            <p>където:</p>
+            <p>Q u , kWh, е количеството топлинна енергия, отдадена от сградната инсталация,</p>
+            <p>&amp;beta;   си    – коефициентът, отчитащ вида на изпълнението на вътрешната отоплителна инсталация в сградата, като:</p>
+            <p>&amp;beta;   си    = 0,15 – при отоплителни инсталации с открито изпълнение по проект,</p>
+            <p>&amp;beta;   си    = 0,10 – при отоплителни инсталации със скрито изпълнение по проект,</p>
+            <p>Q им  – общата инсталирана мощност на всички физически присъединени отоплителни тела към вътрешната отоплителна инсталация на сградата през отчетния период, определена при проектни условия, kW,</p>
+            <p>D нп  са денградусите за отчетния период, които се определят по формулата:</p>
+            <p>D нп  = z  *  (t ср.сгр.  – t ср.период ),</p>
+            <p>където:</p>
+            <p>z е продължителността на отчетния период, в дни,</p>
+            <p>t ср.сгр.  – средната температура на сградата; за сгради – етажна собственост, се приема 19 °С,</p>
+            <p>t ср.период  – средната външна температура за отчетния период, °С,</p>
+            <p>t изч.  – външната изчислителна температура за населеното място, °С.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от 25 февруари 2025 г.</p>
+            <p>Министър:  Жечо Станков</p>
+            <p>2926</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

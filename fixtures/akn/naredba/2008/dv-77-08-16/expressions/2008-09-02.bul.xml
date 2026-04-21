@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-77-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-77-08-16"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба" name="eli" other="/eli/bg/naredba/2008/dv-77-08-16"/>
+          <FRBRdate date="2008-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-77-08-16/bul@2008-09-02/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-77-08-16/bul@2008-09-02"/>
+          <FRBRdate date="2008-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-77-08-16/bul@2008-09-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-77-08-16/bul@2008-09-02.xml"/>
+          <FRBRdate date="2008-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-09-02" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 1 от 2000 г. за документите за заемане на държавна служба</p>
+      <p>(обн., ДВ, бр. 23 от 2000 г.; изм. и   доп., бр. 24 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В т. 2 от приложение № 1 към чл. 2, ал. 1 думата “българска” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Точка 1 от приложение № 2 към чл. 2, ал. 4 се изменя така:</p>
+            <p>“1. Съм навършил пълнолетие и съм:</p>
+            <p>а) български гражданин;</p>
+            <p>б) гражданин на друга държава - членка на Европейския съюз;</p>
+            <p>в) гражданин на държава - страна по Споразумението за Европейското икономическо пространство;</p>
+            <p>г) гражданин на Конфедерация Швейцария,</p>
+            <p>(ненужното се зачертава).”</p>
+            <p>Министър:  Н. Василев</p>
+            <p>2909</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-74-07-7/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-74-07-7"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за документите в системата на народната просвета" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за документите в системата на народната просвета" name="eli" other="/eli/bg/naredba/2007/dv-74-07-7"/>
+          <FRBRdate date="2007-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-74-07-7/bul@2007-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-74-07-7/bul@2007-09-14"/>
+          <FRBRdate date="2007-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-74-07-7/bul@2007-09-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-74-07-7/bul@2007-09-14.xml"/>
+          <FRBRdate date="2007-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-09-14" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 4 от 2003 г. за документите в системата на народната просвета</p>
+      <p>(обн., ДВ, бр. 41 от 2003 г.; попр., бр. 48 от 2003 г.; изм. и доп., бр. 65 от 2003 г., бр. 47 от 2004 г., бр. 55 от 2005 г., бр. 47 от 2006 г. и бр. 51 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 57 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова алинея 3 със следното съдържание: “(3) Общият успех се изчислява като средноаритметична оценка (с точност до 0,01) от следните три оценки: средноаритметичната оценка (с точност до 0,01) от оценките в графата за държавни зрелостни изпити, средноаритметичната оценка (с точност до 0,01) от оценките по учебните предмети, изучавани в задължителната подготовка, и средноаритметичната оценка (с точност до 0,01) от оценките по учебните предмети, изучавани в задължителноизбираемата подготовка.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашните ал. 3, 4 и 5 стават съответно ал. 4, 5 и 6.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Д. Вълчев</p>
+            <p>49991</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

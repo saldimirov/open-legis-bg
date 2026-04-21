@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-16-24-4/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-16-24-4"/>
+          <FRBRalias value="Закон за ратифициране на измененията на чл. 1 и чл. 12, параграф 1 от Споразумението за създаване на Европейска банка за възстановяване и развитие" name="short"/>
+          <FRBRalias value="Закон за ратифициране на измененията на чл. 1 и чл. 12, параграф 1 от Споразумението за създаване на Европейска банка за възстановяване и развитие" name="eli" other="/eli/bg/ratifikatsiya/2024/dv-16-24-4"/>
+          <FRBRdate date="2024-02-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-16-24-4/bul@2024-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-16-24-4/bul@2024-02-23"/>
+          <FRBRdate date="2024-02-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-16-24-4/bul@2024-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-16-24-4/bul@2024-02-23.xml"/>
+          <FRBRdate date="2024-02-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-02-23" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на измененията на чл. 1 и чл. 12, параграф 1 от Споразумението за създаване на Европейска банка за възстановяване и развитие</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира изменението на чл. 1 от Споразумението за създаване на Европейска   банка за възстановяване и развитие, прието с Решение № 259 на Съвета на управителите на банката от 18 май 2023 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира изменението на чл. 12, параграф 1 от Споразумението за създаване на Европейска банка за възстановяване и развитие, прието с Решение № 260 на Съвета на управителите на банката от 18 май 2023 г.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

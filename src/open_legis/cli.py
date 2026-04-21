@@ -6,9 +6,14 @@ app = typer.Typer(help="open-legis — tools for the Bulgarian legislation datab
 
 
 @app.command()
-def load(path: str = typer.Argument("fixtures/akn", help="Path to fixtures directory")) -> None:
+def load(
+    path: str = typer.Argument("fixtures/akn", help="Path to fixtures directory"),
+    if_empty: bool = typer.Option(False, "--if-empty", help="Skip loading if the database already has works."),
+) -> None:
     """Load fixtures into the database."""
     from pathlib import Path
+
+    from sqlalchemy import text
 
     from open_legis.loader.cli import load_directory
     from open_legis.model.db import make_engine
@@ -16,6 +21,14 @@ def load(path: str = typer.Argument("fixtures/akn", help="Path to fixtures direc
 
     settings = Settings()
     engine = make_engine(settings.database_url)
+
+    if if_empty:
+        with engine.connect() as conn:
+            count = conn.execute(text("SELECT COUNT(*) FROM work")).scalar()
+        if count:
+            typer.echo(f"skipping load — {count} works already in DB")
+            return
+
     load_directory(Path(path), engine=engine)
     typer.echo(f"loaded {path}")
 

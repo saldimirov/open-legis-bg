@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-5/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-5"/>
+          <FRBRalias value="Закон  за допълнение на Закона за водите" name="short"/>
+          <FRBRalias value="Закон  за допълнение на Закона за водите" name="eli" other="/eli/bg/zakon/2004/dv-6-04-5"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-5/bul@2004-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-5/bul@2004-01-23"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-5/bul@2004-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-5/bul@2004-01-23.xml"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-01-23" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон  за допълнение на Закона за водите</p>
+      <p>(обн., ДВ, бр. 67 от 1999 г.; изм., бр. 81 от 2000 г., бр. 34, 41 и 108 от 2001 г., бр. 47, 74 и 91 от 2002 г., бр. 42, 69, 84 и 107 от 2003 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

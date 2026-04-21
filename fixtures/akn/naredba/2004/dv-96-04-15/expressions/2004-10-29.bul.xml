@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-96-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-96-04-15"/>
+          <FRBRalias value="Наредба № 8 от 19 октомври 2004 г. за допълнителните правила за тарифно класиране на стоки" name="short"/>
+          <FRBRalias value="Наредба № 8 от 19 октомври 2004 г. за допълнителните правила за тарифно класиране на стоки" name="eli" other="/eli/bg/naredba/2004/dv-96-04-15"/>
+          <FRBRdate date="2004-10-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-96-04-15/bul@2004-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-96-04-15/bul@2004-10-29"/>
+          <FRBRdate date="2004-10-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-96-04-15/bul@2004-10-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-96-04-15/bul@2004-10-29.xml"/>
+          <FRBRdate date="2004-10-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-29" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 8 от 19 октомври 2004 г. за допълнителните правила за тарифно класиране на стоки</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>С тази наредба се определят допълнителни правила за тарифно класиране на стоките в съответствие със:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>обяснителните бележки към Хармонизираната система за описание и кодиране на стоките съгласно приложение № 1;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>обяснителните бележки към Комбинираната номенклатура, прилагана в страните - членки на Европейския съюз, съгласно приложение № 2;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_3">
+          <num>3.</num>
+          <content>
+            <p>мненията за класиране на стоките, приети от Комитета по хармонизираната система на Световната митническа организация, съгласно приложение № 3;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_4">
+          <num>4.</num>
+          <content>
+            <p>решенията за класиране на стоките, прилагани в страните - членки на Европейския съюз, съгласно приложение № 4.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Допълнителните правила по чл. 1 се прилагат при тълкуването на позициите и подпозициите на Комбинираната номенклатура на Република България.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 27, ал. 2 от Закона за митниците.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложенията към наредбата се обнародват като притурка на “Държавен вестник”.</p>
+            <p>Министър:  М. Велчев</p>
+            <p>50393</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-6"/>
+          <FRBRalias value="Закон за оттегляне на декларации по Международната конвенция относно намесата в открито море в случаи на бедствия, водещи до замърсяване на морето с нефт, от 1969 г. и за ратифициране на Протокола относно намесата в открито море в случаи на замърсяване с вещества, различни от нефт, от 1973 г. с измененията от 2002 г." name="short"/>
+          <FRBRalias value="Закон за оттегляне на декларации по Международната конвенция относно намесата в открито море в случаи на бедствия, водещи до замърсяване на морето с нефт, от 1969 г. и за ратифициране на Протокола относно намесата в открито море в случаи на замърсяване с вещества, различни от нефт, от 1973 г. с измененията от 2002 г." name="eli" other="/eli/bg/zakon/2006/dv-81-06-6"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-6/bul@2006-10-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-6/bul@2006-10-06"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-6/bul@2006-10-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-6/bul@2006-10-06.xml"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-06" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за оттегляне на декларации по Международната конвенция относно намесата в открито море в случаи на бедствия, водещи до замърсяване на морето с нефт, от 1969 г. и за ратифициране на Протокола относно намесата в открито море в случаи на замърсяване с вещества, различни от нефт, от 1973 г. с измененията от 2002 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Република България оттегля декларациите, формулирани по следните разпоредби на Международната конвенция, относно намесата в открито море в случаи на бедствия, водещи до замърсяване на морето с нефт, от 1969 г.:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>по чл. IХ, параграф 2 относно ограничаването на възможността на някои държави да станат страна по конвенцията;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>по чл. ХIII относно несъответствие на разпоредбата с Декларацията на ООН за предоставяне на независимост на колониалните страни и народи (Резолюция 1514/ХV/ от 14 декември 1960 г.).</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Протокола относно намесата в открито море в случаи на замърсяване с вещества, различни от нефт, от 1973 г. с измененията от 2002 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

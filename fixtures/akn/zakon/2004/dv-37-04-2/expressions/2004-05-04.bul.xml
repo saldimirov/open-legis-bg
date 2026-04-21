@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-37-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-37-04-2"/>
+          <FRBRalias value="Закон  за ратифициране на Меморандума за разбирателство за използване на Националния фонд за целите на ИСПА между правителството на Република България и Европейската общност и на анекса за неговото изменение" name="short"/>
+          <FRBRalias value="Закон  за ратифициране на Меморандума за разбирателство за използване на Националния фонд за целите на ИСПА между правителството на Република България и Европейската общност и на анекса за неговото изменение" name="eli" other="/eli/bg/zakon/2004/dv-37-04-2"/>
+          <FRBRdate date="2004-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-37-04-2/bul@2004-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-37-04-2/bul@2004-05-04"/>
+          <FRBRdate date="2004-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-37-04-2/bul@2004-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-37-04-2/bul@2004-05-04.xml"/>
+          <FRBRdate date="2004-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-04" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон  за ратифициране на Меморандума за разбирателство за използване на Националния фонд за целите на ИСПА между правителството на Република България и Европейската общност и на анекса за неговото изменение</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

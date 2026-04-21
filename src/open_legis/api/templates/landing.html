@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block title %}Начало{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<div class="text-center py-10 mb-10">
+  <h1 class="text-3xl font-bold text-gray-900 mb-3">Свободен достъп до българското законодателство</h1>
+  <p class="text-gray-500 text-base max-w-xl mx-auto mb-6">Търсете, четете и цитирайте закони, кодекси и наредби — безплатно и без регистрация.</p>
+  <form class="max-w-lg mx-auto" action="/search" method="get">
+    <div class="relative">
+      <input type="search" name="q" placeholder="Търсене в {{ total }} акта..."
+             class="w-full rounded-xl border border-gray-300 px-5 py-3 pr-12 text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <button type="submit" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-blue-600">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+        </svg>
+      </button>
+    </div>
+  </form>
+  <p class="text-xs text-gray-400 mt-3">{{ total }} акта в базата данни</p>
+</div>
+
+<!-- Featured laws -->
+<div class="mb-10">
+  <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">Основни актове</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+    {% for w in featured %}
+    <a href="/ui{{ w.uri }}"
+       class="bg-white rounded-lg border border-gray-200 px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all group">
+      <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium mb-2
+        {% if w.type == 'zakon' %}bg-blue-50 text-blue-700
+        {% elif w.type == 'kodeks' %}bg-purple-50 text-purple-700
+        {% elif w.type == 'konstitutsiya' %}bg-slate-100 text-slate-800
+        {% else %}bg-gray-100 text-gray-600{% endif %}">
+        {{ type_labels.get(w.type, w.type) }}
+      </span>
+      <p class="text-sm font-medium text-gray-800 leading-snug group-hover:text-blue-700">{{ w.title | fix_title }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Category cards -->
+<div class="mb-10">
+  <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">Видове актове</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+    {% for cat in categories %}
+    <a href="/?type={{ cat.type }}"
+       class="bg-white rounded-lg border border-gray-200 px-4 py-4 hover:border-blue-400 hover:shadow-sm transition-all group">
+      <div class="flex items-start justify-between mb-1">
+        <p class="text-sm font-semibold text-gray-800 group-hover:text-blue-700">{{ cat.label }}</p>
+        <span class="text-xs text-gray-400 shrink-0 ml-2">{{ cat.count }}</span>
+      </div>
+      <p class="text-xs text-gray-400 leading-snug">{{ cat.desc }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Recent -->
+<div>
+  <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">Последно добавени</h2>
+  <div class="bg-white rounded-lg border border-gray-200 divide-y divide-gray-100">
+    {% for w in recent %}
+    <a href="/ui{{ w.uri }}" class="flex items-center gap-4 px-5 py-3 hover:bg-gray-50 transition-colors group">
+      <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium shrink-0
+        {% if w.type == 'zakon' %}bg-blue-50 text-blue-700
+        {% elif w.type == 'zid' %}bg-rose-50 text-rose-700
+        {% elif w.type == 'kodeks' %}bg-purple-50 text-purple-700
+        {% elif w.type == 'naredba' %}bg-green-50 text-green-700
+        {% elif w.type == 'byudjet' %}bg-amber-50 text-amber-700
+        {% elif w.type == 'ratifikatsiya' %}bg-sky-50 text-sky-700
+        {% elif w.type == 'postanovlenie' %}bg-yellow-50 text-yellow-700
+        {% elif w.type == 'konstitutsiya' %}bg-slate-100 text-slate-800
+        {% else %}bg-gray-100 text-gray-600{% endif %}">
+        {{ type_labels.get(w.type, w.type) }}
+      </span>
+      <p class="text-sm text-gray-700 group-hover:text-blue-700 truncate flex-1">{{ w.title | fix_title }}</p>
+      <span class="text-xs text-gray-400 shrink-0">ДВ {{ w.dv_ref.broy }}/{{ w.dv_ref.year }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Developer strip -->
+<div class="mt-12 border-t border-gray-100 pt-8">
+  <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">За разработчици</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <a href="/docs"
+       class="bg-white rounded-lg border border-gray-200 px-4 py-4 hover:border-blue-400 hover:shadow-sm transition-all group flex items-start gap-3">
+      <span class="text-lg mt-0.5">⚡</span>
+      <div>
+        <p class="text-sm font-semibold text-gray-800 group-hover:text-blue-700">REST API</p>
+        <p class="text-xs text-gray-400 mt-0.5">ELI JSON endpoints за търсене, метаданни и текст на актовете.</p>
+      </div>
+    </a>
+    <div class="bg-white rounded-lg border border-gray-200 px-4 py-4 flex items-start gap-3">
+      <span class="text-lg mt-0.5">🤖</span>
+      <div>
+        <p class="text-sm font-semibold text-gray-800">MCP сървър</p>
+        <p class="text-xs text-gray-400 mt-0.5">Достъп за AI асистенти (Claude, Cursor и др.) чрез Model Context Protocol на <code class="font-mono bg-gray-100 px-1 rounded">/mcp</code>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

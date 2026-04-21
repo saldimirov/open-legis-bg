@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-37-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-37-05-11"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 1997 г. за капиталовата адекватност на банките" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 1997 г. за капиталовата адекватност на банките" name="eli" other="/eli/bg/naredba/2005/dv-37-05-11"/>
+          <FRBRdate date="2005-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-37-05-11/bul@2005-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-37-05-11/bul@2005-04-29"/>
+          <FRBRdate date="2005-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-37-05-11/bul@2005-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-37-05-11/bul@2005-04-29.xml"/>
+          <FRBRdate date="2005-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-29" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 8 от 1997 г. за капиталовата адекватност на банките</p>
+      <p>(обн., ДВ, бр. 62 от 1997 г.; попр., бр. 92 от 1997 г.; изм. и доп., бр. 41 от 2000 г., бр. 11 от 2001 г., бр. 79 от 2002 г. и бр. 44 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 9, ал. 1 т. 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>Член 9а се изменя така:</p>
+            <p>“Чл. 9а. Печалбите, посочени в чл. 9, ал. 1, т. 4, могат да бъдат включени в първичния капитал на банка, ако са налице следните условия:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>общото събрание на акционерите на банката е определило максималния размер на очакваните плащания по дивиденти и други отчисления от неразпределената печалба от минали години;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>печалбите и дължимите данъци са потвърдени от външния одитор на банката след извършен финансов преглед;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>изпратено е уведомление до БНБ с приложени документи за обстоятелствата по т. 1 и 2 и централната банка не е възразила в 10-дневен срок от постъпването им или от представяне на допълнителните документи, ако такива са поискани.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 25 ал. 1 се изменя така:</p>
+            <p>“(1) Банките съставят и представят в Българската народна банка до 15-о число на следващия месец отчет за рисковия компонент и адекватността на капитала, съставен въз основа на баланса към последната дата на месеца.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 28 думите “или от текущата дейност” се заличават.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Отчетът по чл. 25, ал. 1 за април 2005 г. се представя в 15-дневен срок от влизане на тази наредба в сила.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 23 във връзка с § 19 от преходните и заключителните разпоредби на Закона за банките и е приета с Решение № 44 от 21 април 2005 г. на Управителния съвет на Българската народна банка.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>20172</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

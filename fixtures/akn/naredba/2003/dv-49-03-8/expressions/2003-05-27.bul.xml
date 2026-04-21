@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-49-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-49-03-8"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 27 от 2002 г. за определяне на основния пакет от здравни дейности, гарантирани от бюджета на НЗОК" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 27 от 2002 г. за определяне на основния пакет от здравни дейности, гарантирани от бюджета на НЗОК" name="eli" other="/eli/bg/naredba/2003/dv-49-03-8"/>
+          <FRBRdate date="2003-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-49-03-8/bul@2003-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-49-03-8/bul@2003-05-27"/>
+          <FRBRdate date="2003-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-49-03-8/bul@2003-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-49-03-8/bul@2003-05-27.xml"/>
+          <FRBRdate date="2003-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-05-27" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 27 от 2002 г. за определяне на основния пакет от здравни дейности, гарантирани от бюджета на НЗОК</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

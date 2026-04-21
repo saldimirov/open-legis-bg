@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-63-05-12/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-63-05-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно  лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно  лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично" name="eli" other="/eli/bg/naredba/2005/dv-63-05-12"/>
+          <FRBRdate date="2005-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-63-05-12/bul@2005-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-63-05-12/bul@2005-08-02"/>
+          <FRBRdate date="2005-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-63-05-12/bul@2005-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-63-05-12/bul@2005-08-02.xml"/>
+          <FRBRdate date="2005-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-08-02" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 38 от 2004 г. за определяне на списъка на заболяванията, за чието домашно  лечение Националната здравноосигурителна каса заплаща лекарствата напълно или частично</p>
+      <p>(обн., ДВ, бр. 106 от 2004 г.; доп., бр. 111 от 2004 г.; изм. и доп., бр. 6 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В приложението към член единствен се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <intro>
+              <p>На ред “Маниен епизод”:</p>
+            </intro>
+            <point eId="sec_final__par_1__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>в колона 2 означението “F30.2” се заличава;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_1__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>в колона 3 думите “Мания с психотични симптоми” се заличават.</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Заличава се ред: (Забележка на редакцията: виж този материал в PDF-а на броя) “ Депресивен епизод           F32.0       Лек депресивен епизод F32.1       Умерено тежък депре- сивен епизод F32.2       Тежък депресивен епи- зод без психотични симптоми ”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>След ред: “ Маниен епизод                  F30.0       Хипомания F30.1       Мания без психотични симптоми ” се създават нови два реда със следното съдържание: “ Биполярно афектив-           F31.0       Сегашен епизод: но разстройство                               хипоманиен F31.1       Сегашен епизод: маниен без психотични симптоми F31.2       Сегашен епизод: маниен с психотични симптоми F31.3       Сегашен епизод: умерена и лека депресия F31.4       Сегашен епизод: тежка депресия без пси- хотични симптоми F31.5       Сегашен епизод: тежка депресия с психо- тични симптоми F31.6       Сегашен епизод: смесен F31.7       Понастоящем в ремисия Рекурентно депре-             F33.0       Сегашен епизод: лек сивно разстройство           F33.1       Сегашен епизод: умерен F33.2       Сегашен епизод: тежък без психотични симптоми F33.3       Сегашен епизод: тежък с психотични симптоми F33.4       Понастоящем в ремисия ”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1.IX.2005 г.</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>51715</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-4/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-4"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 45 от 17 април 2025 г. относно установяване и регламентиране на правоотношенията на Българската народна банка с контрагенти по парична политика" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 45 от 17 април 2025 г. относно установяване и регламентиране на правоотношенията на Българската народна банка с контрагенти по парична политика" name="eli" other="/eli/bg/naredba/2026/dv-31-26-4"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-4/bul@2026-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-4/bul@2026-03-31"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-4/bul@2026-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-4/bul@2026-03-31.xml"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-03-31" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 45 от 17 април 2025 г. относно установяване и регламентиране на правоотношенията на Българската народна банка с контрагенти по парична политика</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7 преди думата „нетиране“ се добавя „приключващо“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В § 1 от допълнителната разпоредба се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>точка 14 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>в точка 30 се отменя буква „г“.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 37 от Закона за Българската народна банка, приета е с Решение № 109 от 26 март 2026 г. на Управителния съвет на Българската народна банка, и влиза в сила от 30 март 2026 г.</p>
+            <p>Управител:  Димитър Радев</p>
+            <p>1702</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

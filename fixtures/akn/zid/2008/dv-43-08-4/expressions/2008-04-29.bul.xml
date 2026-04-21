@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-43-08-4/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-43-08-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за генетично модифицирани организми" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за генетично модифицирани организми" name="eli" other="/eli/bg/zid/2008/dv-43-08-4"/>
+          <FRBRdate date="2008-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-43-08-4/bul@2008-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-43-08-4/bul@2008-04-29"/>
+          <FRBRdate date="2008-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-43-08-4/bul@2008-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-43-08-4/bul@2008-04-29.xml"/>
+          <FRBRdate date="2008-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-29" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за генетично модифицирани организми</p>
+      <p>(обн., ДВ, бр. 27 от 2005 г.; изм., бр. 88 и 99 от 2005 г., бр. 30 от 2006 г., бр. 31 от 2007 г. и бр. 36 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 79, ал. 1 думата “памук” се заличава.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 80 се създава изречение второ: “По отношение на генетично модифицирания памук прилежащата територия обхваща 400-метров пояс.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В § 4 от допълнителните разпоредби в ал. 1 накрая се добавя “с изключение на научните изследвания при условията и по реда на глава трета.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Параграф 9 от преходните и заключителните разпоредби се отменя.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>В приложение № 2 към чл. 51, ал. 4 и чл. 71, ал. 3 в т. III “Маслодайни и влакнодайни” след ред четвърти “Коноп еднодомен   6000” се добавя нов ред “Памук 150”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

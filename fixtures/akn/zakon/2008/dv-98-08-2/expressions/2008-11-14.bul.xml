@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-2/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-2"/>
+          <FRBRalias value="Закон за уреждане на някои трудови и осигурителни права на български граждани" name="short"/>
+          <FRBRalias value="Закон за уреждане на някои трудови и осигурителни права на български граждани" name="eli" other="/eli/bg/zakon/2008/dv-98-08-2"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-2/bul@2008-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-2/bul@2008-11-14"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-2/bul@2008-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-2/bul@2008-11-14.xml"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за уреждане на някои трудови и осигурителни права на български граждани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Този закон урежда някои права по Кодекса на труда, Кодекса за социално осигуряване и по Закона за здравното осигуряване на български граждани, задържани и осъдени от съда в Бенгази по наказателно дело № 607/2003 г. и от Апелативния съд в Бенгази по наказателно дело № 213/2002 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>Времето, през което лицата по чл. 1 са били задържани и са изтърпявали наложеното им наказание, се признава за:</p>
+          </intro>
+          <point eId="art_2__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>трудов стаж по смисъла на Кодекса на труда;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>осигурителен стаж по смисъла на Кодекса за социално осигуряване.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>За времето, признато за осигурителен стаж по ал. 1, т. 2, се внасят осигурителни вноски в размера за фонд “Пенсии” върху минималната работна заплата за 2007 г., които са за сметка на републиканския бюджет.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>При пенсиониране доходът, върху който са внесени вноските по ал. 2, не се взема предвид за изчисляване на пенсиите по реда на Кодекса за социално осигуряване.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>На лицата по чл. 1 се внасят здравноосигурителни вноски за времето от 25 юли 2007 г. до влизането в сила на този закон.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Здравноосигурителните вноски по ал. 1 се внасят само за месеците, през които такива се дължат и са в размер, изчислен върху минималния месечен размер на осигурителния доход за самоосигуряващите се лица, определен със Закона за бюджета на държавното обществено осигуряване в сила към момента на внасяне на вноските.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Здравноосигурителните вноски по ал. 1 са за сметка на републиканския бюджет.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>При пенсиониране към пенсиите за трудова дейност на лицата по чл. 1 се изплаща месечна добавка в размер на социалната пенсия за старост, която е за сметка на републиканския бюджет.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

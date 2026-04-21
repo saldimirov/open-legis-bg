@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-1/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-1"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантиране на влоговете в банките" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантиране на влоговете в банките" name="eli" other="/eli/bg/zid/2008/dv-98-08-1"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-1/bul@2008-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-1/bul@2008-11-14"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-98-08-1/bul@2008-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-98-08-1/bul@2008-11-14.xml"/>
+          <FRBRdate date="2008-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за гарантиране на влоговете в банките</p>
+      <p>(обн., ДВ, бр. 49 от 1998 г.; изм., бр. 73, 153 и 155 от 1998 г., бр. 54 от 1999 г., бр. 109 от 2001 г., бр. 92 и 118 от 2002 г., бр. 31 и 39 от 2005 г., бр. 59, 64 и 86 от 2006 г., бр. 67 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 4 ал. 1 се изменя така:</p>
+          <p>“(1) Фондът гарантира пълно изплащане на сумите по влоговете на едно лице в една банка независимо от броя и размера им до 100 000 лв.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 5, ал. 1 т. 9 се изменя така:</p>
+          <p>“9. пенсионните и осигурителните фондове, с изключение на фондовете за допълнително задължително пенсионно осигуряване;”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

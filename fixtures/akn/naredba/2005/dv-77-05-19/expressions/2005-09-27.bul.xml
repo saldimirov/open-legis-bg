@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-19"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 1999 г. за разследване на авиационни произшествия" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 1999 г. за разследване на авиационни произшествия" name="eli" other="/eli/bg/naredba/2005/dv-77-05-19"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-19/bul@2005-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-19/bul@2005-09-27"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-19/bul@2005-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-19/bul@2005-09-27.xml"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-27" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 13 от 1999 г. за разследване на авиационни произшествия</p>
+      <p>(обн., ДВ, бр. 12 от 1999 г.; изм. и доп., бр. 83 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 9, ал. 1 се добавя второ изречение: “След получаването на информацията за настъпило авиационно събитие специализираното звено за разследване на авиационни събития го квалифицира в съответствие с § 3, т. 1, 2 и 3.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 7 се изменя така:</p>
+            <p>“§ 7. Министърът на транспорта утвърждава методика за действие на специализираното звено за разследване на авиационни събития и определя с указание помещенията, екипировката, оборудването и материалите, необходими за дейностите по разследване на авиационни произшествия и предотвратяването им.”</p>
+            <p>Министър:  П. Мутафчиев</p>
+            <p>83061</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

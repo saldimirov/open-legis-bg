@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-80-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-80-09-14"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 36 от 2008 г. за условията и реда за предоставяне на безвъзмездна финансова помощ за изпълнение на дейностите по Приоритетна ос № 5 „Техническа помощ“ на Оперативната програма за развитие на сектор „Рибарство“ за периода 2007 – 2013 г." name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 36 от 2008 г. за условията и реда за предоставяне на безвъзмездна финансова помощ за изпълнение на дейностите по Приоритетна ос № 5 „Техническа помощ“ на Оперативната програма за развитие на сектор „Рибарство“ за периода 2007 – 2013 г." name="eli" other="/eli/bg/naredba/2009/dv-80-09-14"/>
+          <FRBRdate date="2009-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-80-09-14/bul@2009-10-09/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-80-09-14/bul@2009-10-09"/>
+          <FRBRdate date="2009-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-80-09-14/bul@2009-10-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-80-09-14/bul@2009-10-09.xml"/>
+          <FRBRdate date="2009-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-09" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 36 от 2008 г. за условията и реда за предоставяне на безвъзмездна финансова помощ за изпълнение на дейностите по Приоритетна ос № 5 „Техническа помощ“ на Оперативната програма за развитие на сектор „Рибарство“ за периода 2007 – 2013 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 22, ал. 2 думите „до 10-о число на всяко тримесечие“ се заменят с „ежемесечно, до 10-о число на месеца“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Заявките за плащане по проекти, които са били одобрени и изпълнението на дейностите по тях е приключило преди датата на влизане в сила на тази наредба, се подават в едномесечен срок от влизане в сила на наредбата.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>Министър:  М. Найденов</p>
+            <p>11343</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

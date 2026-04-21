@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-3/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-3"/>
+          <FRBRalias value="Закон за изменение на Закона за ограничаване на административното регулиране и административния контрол върху стопанската дейност" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за ограничаване на административното регулиране и административния контрол върху стопанската дейност" name="eli" other="/eli/bg/zid/2009/dv-44-09-3"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-3/bul@2009-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-3/bul@2009-06-12"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-3/bul@2009-06-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-3/bul@2009-06-12.xml"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-12" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за ограничаване на административното регулиране и административния контрол върху стопанската дейност</p>
+      <p>(обн., ДВ, бр. 55 от 2003 г.; попр., бр. 59 от 2003 г.; изм., бр. 107 от 2003 г., бр. 39 и 52 от 2004 г., бр. 31 и 87 от 2005 г., бр. 24, 38 и 59 от 2006 г., бр. 11 и 41 от 2007 г., бр. 16 от 2008 г., бр. 23 и 36 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 5 ал. 2 се изменя така:</p>
+          <p>“(2) Административният орган не може да изисква предоставяне на информация или документи, които са налични при него или при друг орган, а ги осигурява служебно за нуждите на съответното производство.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 30 се правят следните изменения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 3 думите “500 до 2000” се заменят с “1000 до 5000”.</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В ал. 4 думите “1500 до 5000” се заменят с “5000 до 10 000”. Заключителна разпоредба</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <paragraph eId="par_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Изпълнението на този закон се възлага на министъра на финансите и на министъра на правосъдието, които в срок до 6 месеца от влизането му в сила да приведат информационните системи и съответните структурни звена на министерствата в съответствие с изискванията му.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>В срок до 6 месеца от влизането в сила на този закон министърът на финансите и министърът на правосъдието издават наредби за условията, реда и организацията за изпълнението му.</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

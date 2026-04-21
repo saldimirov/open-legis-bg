@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-61-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-61-08-14"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве" name="eli" other="/eli/bg/naredba/2008/dv-61-08-14"/>
+          <FRBRdate date="2008-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-61-08-14/bul@2008-07-08/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-61-08-14/bul@2008-07-08"/>
+          <FRBRdate date="2008-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-61-08-14/bul@2008-07-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-61-08-14/bul@2008-07-08.xml"/>
+          <FRBRdate date="2008-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-07-08" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 9 от 2005 г. за условията и реда за създаване и поддържане на публичен регистър на обектите с обществено предназначение, контролирани от регионалните инспекции за опазване и контрол на общественото здраве</p>
+      <p>(обн., ДВ, бр. 28 от 2005 г.; изм., бр. 50 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, ал. 2 и чл. 9, ал. 2 “Обекти с обществено предназначение, контролирани от РИОКОЗ” редове с номера 34, 38 и 39 се заличават.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Регистрацията на предприятията за производство на химични вещества, препарати и продукти и обектите за съхраняване и търговия с химични вещества, препарати и продукти се заличава служебно в двумесечен срок от влизане в сила на тази наредба.</p>
+            <p>Министър:  Евг. Желев</p>
+            <p>476</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

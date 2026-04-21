@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-1"/>
+          <FRBRalias value="Закон за изменение на Закона за отбраната и въоръжените сили на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за отбраната и въоръжените сили на Република България" name="eli" other="/eli/bg/zid/2009/dv-82-09-1"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-1/bul@2009-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-1/bul@2009-10-16"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-1/bul@2009-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-1/bul@2009-10-16.xml"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за отбраната и въоръжените сили на Република България</p>
+      <p>(обн., ДВ, бр. 35 от 2009 г.; изм., бр. 74 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 27, т. 8 думите „министъра на икономиката и енергетиката“ се заменят с „министъра на икономиката, енергетиката и туризма“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 40 в текста преди т. 1 думите „Председателят на Държавната агенция за информационни технологии и съобщения“ се заменят с „Министърът на транспорта, информационните технологии и съобщенията“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 50, ал. 2 думите „Министерството на транспорта и на Държавната агенция за информационни технологии и съобщения“ се заменят с „Министерството на транспорта, информационните технологии и съобщенията“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 114, ал. 3 думите „министъра на транспорта, министъра на икономиката и енергетиката“ се заменят с „министъра на транспорта, информационните технологии и съобщенията, министъра на икономиката, енергетиката и туризма“, а думите „министъра на извънредните ситуации“ и „председателя на Държавната агенция за информационни технологии и съобщения“ се заличават.</p>
+          <p>Допълнителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>В останалите текстове на закона думите „Министърът на транспорта“, „министъра на транспорта“ и „Министерството на транспорта“ се заменят съответно с „Министърът на транспорта, информационните технологии и съобщенията“, „министъра на транспорта, информационните технологии и съобщенията“ и „Министерството на транспорта, информационните технологии и съобщенията“.</p>
+          <p>Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_6" name="modification">
+        <num>§ 6.</num>
+        <content>
+          <p>Издадените до влизането в сила на този закон подзаконови нормативни актове запазват действието си, доколкото не му противоречат.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_7" name="modification">
+        <num>§ 7.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

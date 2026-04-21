@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-18/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-18"/>
+          <FRBRalias value="Наредба № 6 от 30 май 2006 г. за начина на изчисляване и плащане на лихвата върху паричните средства по специалните сметки на частните съдебни изпълнители" name="short"/>
+          <FRBRalias value="Наредба № 6 от 30 май 2006 г. за начина на изчисляване и плащане на лихвата върху паричните средства по специалните сметки на частните съдебни изпълнители" name="eli" other="/eli/bg/naredba/2006/dv-47-06-18"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-18/bul@2006-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-18/bul@2006-06-09"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-18/bul@2006-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-18/bul@2006-06-09.xml"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-09" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 6 от 30 май 2006 г. за начина на изчисляване и плащане на лихвата върху паричните средства по специалните сметки на частните съдебни изпълнители</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С тази наредба се определя начинът на изчисляване и плащане на лихвата върху паричните средства по специалните сметки на частните съдебни изпълнители.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Лихвата върху паричните средства по специалните сметки на частните съдебни изпълнители се начислява от обслужващата банка и се отнася ежедневно по отделна сметка за лихви с титуляр частният съдебен изпълнител.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Размерът на лихвата се изчислява в процент, който е договорен между частния съдебен изпълнител и обслужващата специалната му сметка банка.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Частният съдебен изпълнител задължително изчислява размера на дължимите лихви по специалната сметка към деня на всяко нареждане за плащане или към деня на предявяване на разпределението.</p>
+        </content>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Частният съдебен изпълнител в съобщението до длъжника за прекратяване на изпълнителното дело го уведомява и за размера на лихвата по специалната сметка, която му се дължи.</p>
+        </content>
+      </article>
+      <article eId="art_6">
+        <num>Чл. 6.</num>
+        <paragraph eId="art_6__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>Частният съдебен изпълнител превежда лихвата на:</p>
+          </intro>
+          <point eId="art_6__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>взискателя, когато постъпилата сума заедно с лихвата е недостатъчна за погасяване на задължението;</p>
+            </content>
+          </point>
+          <point eId="art_6__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>длъжника, когато внесената сума заедно с лихвата превишава размера на задължението.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_6__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Частният съдебен изпълнител превежда лихвата на взискателя или на длъжника по посочена от тях сметка, а ако не е посочена такава - изплаща сумата при поискване в брой.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_7">
+        <num>Чл. 7.</num>
+        <content>
+          <p>Частният съдебен изпълнител е длъжен след отправено устно или писмено искане от страните по изпълнителното дело да им предостави точна сметка за погасения размер на задължението, включително и за припадащата се лихва, изчислена върху внесената от длъжника сума за погасяване на задължението от деня на внасяне на тази сума до деня на плащането й на взискателя.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

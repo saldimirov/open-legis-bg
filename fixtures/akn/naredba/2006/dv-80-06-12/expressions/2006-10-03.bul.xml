@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 46 от 2006 г. за общите ветеринарномедицински изисквания при внасяне на суровини и храни от животински произход" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 46 от 2006 г. за общите ветеринарномедицински изисквания при внасяне на суровини и храни от животински произход" name="eli" other="/eli/bg/naredba/2006/dv-80-06-12"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-12/bul@2006-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-12/bul@2006-10-03"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-12/bul@2006-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-12/bul@2006-10-03.xml"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-03" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 46 от 2006 г. за общите ветеринарномедицински изисквания при внасяне на суровини и храни от животински произход</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 се създава т. 7:</p>
+            <p>“7. отговарят на здравните изисквания, посочени в чл. 7 и 17 от Регламент 2076/2005 на Комисията, определящ преходни изисквания за прилагането на регламенти 853/2004, 854/2004 и 882/2004 на Европейския парламент и на Съвета и изменящ регламенти 853/2004 и 854/2004.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В заключителните разпоредби се правят следните изменения и допълнения:</p>
+            <p>1. Наименованието се изменя така: “Преходни и заключителни разпоредби”.</p>
+            <p>2. В § 3 накрая се поставя запетая и се добавят думите “с изключение на чл. 2, който влиза в сила от 1 януари 2007 г.”</p>
+            <p>3. Създава се § 3а:</p>
+            <p>“§ 3а. (1) До 1 януари 2007 г. продукти и суровини от животински произход, предназначени за внасяне, се придружават със сертификат по образец, утвърден от генералния директор на НВМС, а ако няма такъв - по образец на страната износител.</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(2)</num>
+            <intro>
+              <p>След 1 януари 2007 г. се допуска внасяне и на суровини и храни от животински произход, придружени със сертификат по ал. 1, при условие че същият е издаден не по-късно от 31 декември 2006 г., като в този случай изискването на чл. 2, ал. 1, т. 4 не се прилага.”</p>
+            </intro>
+            <point eId="sec_final__par_2__al_1__pt_1">
+              <num>4.</num>
+              <content>
+                <p>Създава се § 3б: “§ 3б. Наредбата въвежда изискванията на Директива 97/78 ЕО, чл. 6, т. 3 и 4 на Регламент 853/2004, Приложение V на Регламент 854/2004, чл. 7 и 17 от Регламент 2076/2005.” За министър:  Д. Пейчев 62238</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

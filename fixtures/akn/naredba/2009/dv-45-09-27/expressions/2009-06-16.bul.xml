@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-27"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 50 от 2003 г. за условията и реда за одобрение на типа на нови колесни трактори по отношение на спирачните системи" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 50 от 2003 г. за условията и реда за одобрение на типа на нови колесни трактори по отношение на спирачните системи" name="eli" other="/eli/bg/naredba/2009/dv-45-09-27"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-27/bul@2009-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-27/bul@2009-06-16"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-27/bul@2009-06-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-27/bul@2009-06-16.xml"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-16" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 50 от 2003 г. за условията и реда за одобрение на типа на нови колесни трактори по отношение на спирачните системи</p>
+      <p>(обн., ДВ, бр. 108 от 2003 г.; изм., бр. 72 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>Навсякъде в наредбата:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>думите “министъра/ът на земеделието и горите чрез” се заличават;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>думите “по предложение на изпълнителния директор на КТИ, министърът на земеделието и горите” се заменят с “изпълнителният директор на КТИ” и думите “Министърът/а на земеделието и горите” се заменят с “Изпълнителният/я директор на КТИ”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 1 т. 2 се изменя така:</p>
+            <p>“2. “Техническа служба” е юридическо лице, определено от министъра на земеделието и храните при спазване на разпоредбите на чл. 55, ал. 2 от Наредба № 30 от 2005 г. за одобрение на типа на нови колесни и верижни трактори, техните ремаркета и сменяема прикачна техника (ДВ, бр. 11 от 2006 г.), или техническа служба, определена официално от държава - членка на Европейския съюз, да извършва изпитвания и проверки по отношение на изискванията на тази наредба и съгласно Спогодбата за приемане на еднакви технически предписания за колесни превозни средства, оборудване и части, които могат да бъдат монтирани и/или използвани на колесни превозни средства, и на условия за взаимно признаване на одобрения, издавани на основата на тези предписания в обхвата на изискванията съгласно приложение № 2, раздел IV.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложение № 3 към чл. 5, ал. 2 думите “МИНИСТЕРСТВО НА ЗЕМЕДЕЛИЕТО И ГОРИТЕ” се заменят с “КОНТРОЛНО-ТЕХНИЧЕСКА ИНСПЕКЦИЯ” и думата “Министър” се заменя с “Изпълнителен директор на КТИ”.</p>
+            <p>Министър:  В. Цветанов</p>
+            <p>8323</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

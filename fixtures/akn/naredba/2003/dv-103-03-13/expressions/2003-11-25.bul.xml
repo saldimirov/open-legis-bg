@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-13"/>
+          <FRBRalias value="Наредба № 48 от 11 ноември 2003 г. за реда и начините за вземане на проби и използваните методи за анализ на пчелния мед" name="short"/>
+          <FRBRalias value="Наредба № 48 от 11 ноември 2003 г. за реда и начините за вземане на проби и използваните методи за анализ на пчелния мед" name="eli" other="/eli/bg/naredba/2003/dv-103-03-13"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-13/bul@2003-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-13/bul@2003-11-25"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-13/bul@2003-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-13/bul@2003-11-25.xml"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-25" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 48 от 11 ноември 2003 г. за реда и начините за вземане на проби и използваните методи за анализ на пчелния мед</p>
+      <p>(обн., ДВ, бр. 56 от 2001 г.; изм., бр. 13 от 2002 г.)</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава     първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С тази наредба се уреждат редът, начините за вземане на проби и методите за анализ на пчелния мед.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <intro>
+            <p>Анализът на пчелния мед се извършва за определяне на:</p>
+          </intro>
+          <point eId="chap_1__art_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>органолептичните показатели;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>съдържанието на захари;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>водното съдържание;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>неразтворимите примеси във вода;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_5">
+            <num>5.</num>
+            <content>
+              <p>електропроводимостта;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_6">
+            <num>6.</num>
+            <content>
+              <p>свободната киселинност;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_7">
+            <num>7.</num>
+            <content>
+              <p>диастазната активност;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_8">
+            <num>8.</num>
+            <content>
+              <p>количеството на хидроксиметилфурфурола;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_2__pt_9">
+            <num>9.</num>
+            <content>
+              <p>поленовата характеристика.</p>
+            </content>
+          </point>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава     втора</num>
+        <heading>ВЗЕМАНЕ, ОБРАЗУВАНЕ НА ПРОБИ И МЕТОДИ ЗА АНАЛИЗ</heading>
+        <article eId="chap_2__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_2__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>От всяка партида пчелен мед се вземат проби за лабораторен анализ в съдове, изработени от материали, отговарящи на изискванията на Наредба № 1 от 2002 г. за материалите и предметите от пластмаси, предназначени за контакт с храни (ДВ, бр. 13 от 2002 г.) и Наредба № 24 от 2001 г. за хигиенните изисквания към материалите и предметите, различни от пластмаси, предназначени за контакт с храни (обн., ДВ, бр. 56 от 2001 г.; изм., бр. 13 от 2002 г.).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Пробите за анализ по ал. 1 се вземат от органите на Държавния ветеринарно-санитарен контрол.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_4">
+          <num>Чл. 4.</num>
+          <intro>
+            <p>От всяка партида в зависимост от размера на партидата и обема на опаковките се вземат първични проби в еднакви количества, както следва:</p>
+          </intro>
+          <point eId="chap_2__art_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>от съдове с вместимост до 1   kg  -от  5% от опаковките;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>от съдове с вместимост над 1   kg  -от 15% от броя на опаковките; при монофлорните и мановите медове в опаковки над 25   kg   се вземат проби от 50 % от броя на опаковките при партиди над 500   kg   и от 100 % от броя на опаковките при партиди под 500   kg.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Първични проби от мед във восъчна пита се вземат от една пита на всеки 30, но не по-малко от 3 пити, по следния начин: срязва се горната част на питата и медът се отделя от питата чрез пресоване и прецеждане през марля или мрежа с отвори с големина до 0,5   mm.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <paragraph eId="chap_2__art_6__al_1">
+            <num>(1)</num>
+            <content>
+              <p>От първичните проби по чл. 4 и 5 се образува средна проба в количество не по-малко от 1   kg   чрез смесване и хомогенизиране.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Ако медът е кристализирал и не позволява добро размесване, средната проба се обработва в затворен съд, поставен на водна баня с температура до 40   °C   до 2 часа.</p>
+              <p>Чл. 7   .(1) От средната проба за лабораторен анализ се вземат 4 броя проби по 0,250   kg,   всяка от които се опакова, етикетира и пломбира по начин, гарантиращ нейната цялост, невъзможност за вторична контаминация и подмяна до доставянето й в лабораторията за изследване, както и гаранции за проследимост до производителя.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_3">
+            <num>(2)</num>
+            <intro>
+              <p>Пробите по ал. 1 се разпределят по следния начин:</p>
+            </intro>
+            <point eId="chap_2__art_6__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>първата проба се изпраща за анализ в лаборатория на органа, взел пробата по чл. 3, ал. 2;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>втората проба се предава на собственика на партидата;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>третата и четвъртата се оставят на отговорно пазене и съхранение при органа, взел пробата.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_4">
+            <num>(3)</num>
+            <content>
+              <p>При несъгласие на собственика на партидата с получените резултати той има право да изпрати пробата за анализ в независима акредитирана лаборатория.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_5">
+            <num>(4)</num>
+            <content>
+              <p>Третата и четвъртата проба се изпращат за анализ в референтна лаборатория в случай на несъгласие с получените резултати от лабораториите по ал. 2 и 3 или при съдебен арбитраж.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_7">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Пробите за лабораторен анализ се придружават от възлагателно писмо или акт за вземане на проби, които съдържат информация за произхода и собственика на партидата, описание на пробата, целта на изпращането, вида на изследването и органа, взел пробата.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_8">
+          <num>Чл. 9.</num>
+          <content>
+            <p>Методите за анализ на пчелния мед са описани в приложението.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_9">
+          <num>Чл. 10.</num>
+          <content>
+            <p>Резултатите от анализа на пробите пчелен мед се вписват в протокол от изпитване.</p>
+          </content>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>ДОПЪЛНИТЕЛНА РАЗПОРЕДБА</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>„партида&amp;quot; е количеството еднороден мед в еднакви опаковки, произведен и/или технологично преработен при едни и същи условия, предназначено за еднократно приемане и предаване;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>„проба&amp;quot; е количеството пчелен мед, предназначено за анализ;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>„първична проба&amp;quot; е количеството пчелен мед, взето от единична опаковка, предназначено за формиране на средна проба.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Контролът по изпълнение на наредбата се осъществява от органите на Държавния ветеринарно-санитарен контрол съгласно Закона за ветеринарномедицинската дейност.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание § 5 от заключителните разпоредби на Закона за ветеринарномедицинската дейност.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Методът за определяне на съдържанието на захари по т. 2 от приложението се прилага от   1.I.2006   г.</p>
+            <p>Министър:    М. Дикме</p>
+            <p>Виж приложенията в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

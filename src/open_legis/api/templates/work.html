@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ work.title }}{% endblock %}
+{% block title %}{{ work.title | fix_title }}{% endblock %}
 
 {% block content %}
 <!-- Breadcrumb -->
@@ -9,7 +9,7 @@
   <span class="mx-2">/</span>
   <a href="/?type={{ work.type }}" class="hover:text-blue-600">{{ type_labels[work.type] }}</a>
   <span class="mx-2">/</span>
-  <span class="text-gray-600">{{ work.title[:60] }}{% if work.title|length > 60 %}…{% endif %}</span>
+  <span class="text-gray-600">{{ (work.title | fix_title)[:60] }}{% if work.title|length > 60 %}…{% endif %}</span>
 </nav>
 
 <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
@@ -71,7 +71,7 @@
           {{ type_labels[work.type] }}
         </span>
       </div>
-      <h1 class="text-xl font-bold text-gray-900 leading-snug mb-4">{{ work.title }}</h1>
+      <h1 class="text-xl font-bold text-gray-900 leading-snug mb-4">{{ work.title | fix_title }}</h1>
       <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
         <div>
           <dt class="text-gray-400">Обнародван в ДВ</dt>

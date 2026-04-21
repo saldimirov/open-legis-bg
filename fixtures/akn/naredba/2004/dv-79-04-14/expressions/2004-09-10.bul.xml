@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-79-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-79-04-14"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 31 от 2001 г. за следдипломно обучение в системата на здравеопазването" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 31 от 2001 г. за следдипломно обучение в системата на здравеопазването" name="eli" other="/eli/bg/naredba/2004/dv-79-04-14"/>
+          <FRBRdate date="2004-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-79-04-14/bul@2004-09-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-79-04-14/bul@2004-09-10"/>
+          <FRBRdate date="2004-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-79-04-14/bul@2004-09-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-79-04-14/bul@2004-09-10.xml"/>
+          <FRBRdate date="2004-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-10" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 31 от 2001 г. за следдипломно обучение в системата на здравеопазването</p>
+      <p>(обн., ДВ, бр. 64  от 2001 г.; изм. доп., бр. 93 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 40, ал. 2 думите “Висшият медицински университет” се заменят с “Висшите медицински училища”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В приложение № 3 към § 47 се създават редове 8 и 9:</p>
+            <p>“8. Физикална терапия            Физикална и рехаби-</p>
+            <p>и рехабилитация                     литационна медицина</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>9.</num>
+            <content>
+              <p>Акушерство и                      Акушерство и гинекология                              гинекология и репро- дуктивна медицина”.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде в текста на наредбата думите “акушерство и гинекология” се заменят с “акушерство и гинекология и репродуктивна медицина”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от 25 октомври 2003 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Наредбата е съгласувана с министъра на образованието и науката и с министъра на финансите.</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>43429</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

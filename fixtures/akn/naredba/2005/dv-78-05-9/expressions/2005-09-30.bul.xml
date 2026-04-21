@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-9/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-9"/>
+          <FRBRalias value="Наредба № 29 от 16 септември 2005 г. за здравни норми и изисквания при работа в среда на йонизиращи лъчения" name="short"/>
+          <FRBRalias value="Наредба № 29 от 16 септември 2005 г. за здравни норми и изисквания при работа в среда на йонизиращи лъчения" name="eli" other="/eli/bg/naredba/2005/dv-78-05-9"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-9/bul@2005-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-9/bul@2005-09-30"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-9/bul@2005-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-9/bul@2005-09-30.xml"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-30" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 29 от 16 септември 2005 г. за здравни норми и изисквания при работа в среда на йонизиращи лъчения</p>
+      <p>(обн., ДВ, бр. 16 от 1987 г.; изм. и доп., бр. 65 от 1991 г.; изм.и доп., бр. 102 от 1994 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I</num>
+        <heading>Общи положения</heading>
+        <article eId="sec_1__art_1">
+          <num>Чл. 1.</num>
+          <paragraph eId="sec_1__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>С тази наредба се определят здравните норми и изисквания при работа в среда на йонизиращи лъчения.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Наредбата регламентира провеждането на задължително медицинско наблюдение на работещите в среда на йонизиращи лъчения за недопускане на развитието на детерминистични ефекти и намаляване вероятността от възникване на стохастични ефекти до ниво, което се определя като приемливо.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Наредбата се прилага за всички дейности, свързани с използване на източници на йонизиращи лъчения, с изключение на дейностите, освободени от регулиращ контрол по смисъла на чл. 8 от Наредбата за основни норми за радиационна защита (ДВ, бр. 73 от 2004 г.).</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="sec_1__art_3__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Задължителното медицинско наблюдение на работещи в среда на йонизиращи лъчения включва:</p>
+            </intro>
+            <point eId="sec_1__art_3__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>оценка на медицинската пригодност на лицето да изпълнява конкретните професионални задължения;</p>
+              </content>
+            </point>
+            <point eId="sec_1__art_3__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>преценка на здравословното състояние на лицето във връзка с получено разрешено повишено облъчване;</p>
+              </content>
+            </point>
+            <point eId="sec_1__art_3__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>преценка на здравословното състояние на лицето след аварийно облъчване.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_1__art_3__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Медицинското наблюдение по ал. 1, т. 1 се провежда:</p>
+            </intro>
+            <point eId="sec_1__art_3__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>предварително - преди постъпване на работа в среда на йонизиращи лъчения;</p>
+              </content>
+            </point>
+            <point eId="sec_1__art_3__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>периодично - по време на работа в среда на йонизиращи лъчения.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_1__art_3__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Медицинското наблюдение на работещи в среда на йонизиращи лъчения може да продължи и след приключване на трудовата дейност на лицата в среда на йонизиращи лъчения по преценка на лекар с призната специалност по радиобиология от заведенията по чл. 4, ал. 1.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_1__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="sec_1__art_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Медицинското наблюдение на работещите се извършва от лечебни и здравни заведения.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Медицинските специалистите от заведенията по ал. 1 задължително преминават курс за обучение по въпросите на радиационната защита.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел II</num>
+        <heading>Предварително медицинско наблюдение</heading>
+        <article eId="sec_2__art_5">
+          <num>Чл. 5.</num>
+          <intro>
+            <p>Медицинското наблюдение по чл. 3, ал. 2, т. 1 се провежда на:</p>
+          </intro>
+          <point eId="sec_2__art_5__pt_1">
+            <num>1.</num>
+            <content>
+              <p>всички лица, които кандидатстват за работа в среда на йонизиращи лъчения, за установяване на здравословното им състояние;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_5__pt_2">
+            <num>2.</num>
+            <content>
+              <p>лицата, които подновяват работа в среда на йонизиращи лъчения след прекъсване за повече от шест месеца.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_2__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Медицинското наблюдение по чл. 3, ал. 2, т. 1 включва прегледи и изследвания, посочени в приложение № 1.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="sec_2__art_7__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Медицинското наблюдение по чл. 3, ал. 2, т. 1 приключва с експертно заключение за медицинската пригодност на лицето за работа в среда на йонизиращи лъчения:</p>
+            </intro>
+            <point eId="sec_2__art_7__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>годен за работа в среда на йонизиращи лъчения;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_7__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>годен при определени условия;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_7__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>непригоден за работа в среда на йонизиращи лъчения.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Експертното заключение по ал. 1 се издава от Националния център по радиобиология и радиационна защита (НЦРРЗ).</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_8">
+          <num>Чл. 8.</num>
+          <paragraph eId="sec_2__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Експертното заключението се издава след писмено заявление от работодателя до директора на НЦРРЗ или директорите на регионалните инспекции за опазване и контрол на общественото здраве (РИОКОЗ), в които има отдели “Радиационен контрол”.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Заявлението съдържа:</p>
+            </intro>
+            <point eId="sec_2__art_8__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>лични данни за лицето;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>наименование и адрес на предприятието;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>длъжността, за която кандидатства лицето;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>вид на източника на йонизиращо лъчение;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_2__pt_5">
+              <num>5.</num>
+              <content>
+                <p>медицинско удостоверение от съответния диспансер за психични заболявания за отсъствие на психично заболяване.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="sec_2__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За работещите в атомните електрически централи (АЕЦ) провеждането на медицинското наблюдение по чл. 3, ал. 2, т. 1 се извършва съгласно приложение № 2.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>На кандидатите за оператори в АЕЦ се извършват и психо-физиологични и психологични изследвания.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_10">
+          <num>Чл. 10.</num>
+          <content>
+            <p>Медицинските противопоказания за работа в среда на йонизиращи лъчения са посочени в приложение № 3.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_11">
+          <num>Чл. 11.</num>
+          <content>
+            <p>Данните от предварителното медицинско наблюдение на работещия се вписват в здравно досие, посочено в приложение № 4.</p>
+          </content>
+        </article>
+      </section>
+      <section eId="sec_3">
+        <num>Раздел III</num>
+        <heading>Периодично медицинско наблюдение</heading>
+        <article eId="sec_3__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="sec_3__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Периодичното медицинското наблюдение се провежда през определени интервали от време в зависимост от характера на работата, която лицето изпълнява, професионалния риск от дейността с източника на йонизиращо лъчение и здравословното му състояние.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Периодичността на прегледите за различните категории работещи по ал. 1 е посочена в приложение № 5.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_13">
+          <num>Чл. 13.</num>
+          <intro>
+            <p>Периодичното медицинското наблюдение се провежда за:</p>
+          </intro>
+          <point eId="sec_3__art_13__pt_1">
+            <num>1.</num>
+            <content>
+              <p>откриване на предболестни състояния, ранни симптоми и/или начални стадии на професионални болести, противопоказни за работа в среда на йонизиращи лъчения;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_13__pt_2">
+            <num>2.</num>
+            <content>
+              <p>своевременно откриване на промени в здравословното състояние и начални стадии на заболявания от общ характер;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_13__pt_3">
+            <num>3.</num>
+            <content>
+              <p>оценка на пригодността на работещия за изпълнение на конкретна професионална дейност;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_13__pt_4">
+            <num>4.</num>
+            <content>
+              <p>оценка на предприетите мерки за защита здравето на работещите.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="sec_3__art_14__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Работодателят осигурява осъществяването на периодичното медицинско наблюдение на работещите в среда на йонизиращи лъчения, като:</p>
+            </intro>
+            <point eId="sec_3__art_14__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>изпраща писмено заявление съгласно чл. 8 до директора на НЦРРЗ или съответната РИОКОЗ, към което прилага списък на лицата, подлежащи на периодично медицинско наблюдение;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_14__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>предоставя данни от оценката на условията на труд за всяко работно място преди започване на прегледа за провеждане на съответни медицински изследвания.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_3__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Работодателят осигурява своевременното явяване на лицата, които подлежат на периодично медицинско наблюдение, по съгласуван график.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="sec_3__art_15__al_1">
+            <num>(1)</num>
+            <content>
+              <p>При явяване на преглед лицето, работещо в среда на йонизиращи лъчения, представя радиационен паспорт съгласно приложение № 6.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В радиационния паспорт отговорникът по радиационна защита, определен със заповед на директора на предприятието, нанася данните за индивидуалното лъчево натоварване на лицето.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_16">
+          <num>Чл. 16.</num>
+          <content>
+            <p>Обхватът на периодичното медицинско наблюдение, както и медицинските специалисти, които го извършват, са посочени в приложение № 7.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_17">
+          <num>Чл. 17.</num>
+          <paragraph eId="sec_3__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Работодателят може да поиска допълнителни специализирани медицински прегледи и/или изследвания, които не са включени в задължителния обхват.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Прегледите по ал. 1 се извършват по договор между работодателя и директора на НЦРРЗ.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_18">
+          <num>Чл. 18.</num>
+          <paragraph eId="sec_3__art_18__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато е необходимо да се извършат допълнителни консултации и/или изследвания за уточняване на диагнозата на лицата, работещи в среда на йонизиращи лъчения, лекарят-радиобиолог ги насочва към личния общопрактикуващ лекар.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_18__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Диагностичното уточняване на лицата по ал. 1 се извършва в рамките на два месеца.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_18__al_3">
+            <num>(3)</num>
+            <content>
+              <p>За срока по ал. 1 лицето се извежда от среда на йонизиращи лъчения.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_19">
+          <num>Чл. 19.</num>
+          <content>
+            <p>Периодичното медицинско наблюдение приключва със заключение в съответствие с изискванията на чл. 7.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_20">
+          <num>Чл. 20.</num>
+          <intro>
+            <p>Медицинските специалисти уведомяват лицата, които работят в среда на йонизиращи лъчения, за:</p>
+          </intro>
+          <point eId="sec_3__art_20__pt_1">
+            <num>1.</num>
+            <content>
+              <p>диагностицираните увреждания/болести, свързани с професията, и експозицията на производствени рискови фактори;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_20__pt_2">
+            <num>2.</num>
+            <content>
+              <p>медицинските противопоказания за изпълнение на тяхната професия.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_21">
+          <num>Чл. 21.</num>
+          <paragraph eId="sec_3__art_21__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните от периодичното медицинско наблюдение се съобщават лично на лицето.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_21__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Работодателят може да бъде информиран само за пригодността на лицето да работи в среда на йонизиращи лъчения.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_22">
+          <num>Чл. 22.</num>
+          <content>
+            <p>Медицински преглед на лицата в случаите по чл. 3, ал. 1, т. 2 се извършва от лекар-радиобиолог преди и след разрешеното повишено облъчване.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_23">
+          <num>Чл. 23.</num>
+          <content>
+            <p>Медицинското наблюдение на лицата, пострадали от радиационен инцидент или радиационна авария се извършва по реда на наредбата по чл. 65, ал. 1, т. 1 от Закона за здравето.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_24">
+          <num>Чл. 24.</num>
+          <content>
+            <p>Резултатите от предварителното и периодично медицинско наблюдение се нанасят в регистъра по чл. 71, ал. 1 от Закона за здравето.</p>
+          </content>
+        </article>
+      </section>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>“Детерминистични ефекти” са вредните за здравето ефекти от въздействието на йонизиращите лъчения, за които има минимална доза, предизвикваща даден ефект, над която тежестта на проява на ефекта се увеличава с нарастване на дозата.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>“Стохастични ефекти” са вредните за здравето ефекти от въздействието на йонизиращите лъчения, за които се приема, че няма прагова доза и вероятността за проявата им е правопропорционална на дозата, а тежестта им не зависи от дозата. Стохастични ефекти са злокачествените новообразувания и наследяваните (генетични) болести.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>“Повишено облъчване” е специално разрешено облъчване, при което са надхвърлени или могат да бъдат надхвърлени границите на дозите, определени за професионално облъчени лица.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 65, ал. 1, т. 4 от Закона за здравето.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В Наредба № 3 за задължителните предварителни и периодични медицински прегледи (обн., ДВ, бр. 16 от 1987 г.; изм. и доп., бр. 65 от 1991 г.; изм.и доп., бр. 102 от 1994 г.) се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>в чл. 3 ал. 4 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>в чл. 4 ал. 4 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>в чл. 6 ал. 2 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>в чл. 14 ал. 3 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_5">
+            <num>5.</num>
+            <content>
+              <p>в чл. 18 ал. 4 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_6">
+            <num>6.</num>
+            <intro>
+              <p>в чл. 23 се правят следните изменения:</p>
+            </intro>
+            <point eId="sec_final__par_2__pt_6__l_1">
+              <num>а)</num>
+              <content>
+                <p>в ал. 1 текстът “(1)” се заличава;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_2__pt_6__l_2">
+              <num>б)</num>
+              <content>
+                <p>алинея 2 се отменя;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_final__par_2__pt_7">
+            <num>7.</num>
+            <intro>
+              <p>в чл. 26 се правят следните изменения:</p>
+            </intro>
+            <point eId="sec_final__par_2__pt_7__l_1">
+              <num>а)</num>
+              <content>
+                <p>алинея 2 се отменя;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_2__pt_7__l_2">
+              <num>б)</num>
+              <content>
+                <p>алинея 3 става ал. 2;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_final__par_2__pt_8">
+            <num>8.</num>
+            <content>
+              <p>в чл. 29 ал. 5 се отменя;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_9">
+            <num>9.</num>
+            <intro>
+              <p>в чл. 32 се правят следните изменения:</p>
+            </intro>
+            <point eId="sec_final__par_2__pt_9__l_1">
+              <num>а)</num>
+              <content>
+                <p>алинея 2 се отменя;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_2__pt_9__l_2">
+              <num>б)</num>
+              <content>
+                <p>в ал. 3 пред думата “секцията” се добавя думата “и”, а думите “и НЦРРЗ” се заличават.</p>
+                <p>Министър:  Р. Гайдарски</p>
+                <p>Приложение № 1 към чл. 6</p>
+                <p>(Забележка на редакцията: виж приложенията в PDF-а на броя)</p>
+                <p>Приложение № 2 към чл. 9, ал. 1</p>
+                <p>Приложение № 3 към чл. 10</p>
+                <p>Приложение № 4   към чл. 11</p>
+                <p>Приложение № 5   към чл. 12, ал. 2</p>
+                <p>Приложение № 6   към чл. 15, ал. 1</p>
+                <p>Приложение № 7   към чл. 16</p>
+                <p>87605</p>
+              </content>
+            </point>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

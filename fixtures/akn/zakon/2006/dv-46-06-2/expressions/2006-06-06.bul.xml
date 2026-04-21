@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-46-06-2/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-46-06-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за собствеността" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за собствеността" name="eli" other="/eli/bg/zakon/2006/dv-46-06-2"/>
+          <FRBRdate date="2006-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-46-06-2/bul@2006-06-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-46-06-2/bul@2006-06-06"/>
+          <FRBRdate date="2006-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-46-06-2/bul@2006-06-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-46-06-2/bul@2006-06-06.xml"/>
+          <FRBRdate date="2006-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-06" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за собствеността</p>
+      <p>(обн., Изв., бр. 92 от 1951 г.; изм., бр. 12 от 1958 г., бр. 90 от 1960 г.; ДВ, бр. 99 от 1963 г., бр. 26 и 27 от 1973 г., бр. 54 и 87 от 1974 г., бр. 55 от 1978 г., бр. 36 от 1979 г., бр. 19 от 1985 г., бр. 14 и 91 от 1988 г., бр. 38 от 1989 г., бр. 31 от 1990 г., бр. 77 от 1991 г., бр. 33 от 1996 г., бр. 100 от 1997 г., бр. 90 от 1999 г., бр. 34 и 59 от 2000 г., бр. 32 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Спира за срок 7 месеца, считано от 31 май 2006 г., давността за придобиване на държавни и общински имоти.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Законът влиза в сила от 1 юни 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

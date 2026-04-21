@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-7/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-7"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 9 от 2003 г. за реда, начина и сроковете за предоставяне на информация за състоянието и движението на дълга на общините и социално-осигурителните фондове" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 9 от 2003 г. за реда, начина и сроковете за предоставяне на информация за състоянието и движението на дълга на общините и социално-осигурителните фондове" name="eli" other="/eli/bg/naredba/2008/dv-7-08-7"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-7/bul@2008-01-22/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-7/bul@2008-01-22"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-7/bul@2008-01-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-7/bul@2008-01-22.xml"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-01-22" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 9 от 2003 г. за реда, начина и сроковете за предоставяне на информация за състоянието и движението на дълга на общините и социално-осигурителните фондове</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В заключителната разпоредба се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Наименованието “Заключителна разпоредба” става “Заключителни разпоредби”, като “параграф единствен” се заменя с “§ 1”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Създава се § 2: “§ 2. Редът, начинът и сроковете за предоставяне на информация за състоянието и движението на дълга на общините се извършва по реда на Наредбата за определяне обхвата на информацията, която всички общини са длъжни да водят, съхраняват и предоставят на Министерството на финансите за поетия от тях дълг в съответствие с изискванията на Европейския съюз и на българското законодателство за отчетността, статистиката и бюджетирането на публичния сектор, както реда, начина и сроковете за отчитането и предоставянето й.”</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Навсякъде в наредбата думите “дирекция “Държавен дълг” се заменят с “дирекция “Държавен дълг и финансови пазари”.</p>
+            <p>Министър:  Пл. Орешарски</p>
+            <p>2105</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

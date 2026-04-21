@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-67-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-67-03-2"/>
+          <FRBRalias value="Закон за изменение на Закона за административно-териториалното устройство на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за административно-териториалното устройство на Република България" name="eli" other="/eli/bg/zid/2003/dv-67-03-2"/>
+          <FRBRdate date="2003-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-67-03-2/bul@2003-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-67-03-2/bul@2003-07-29"/>
+          <FRBRdate date="2003-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-67-03-2/bul@2003-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-67-03-2/bul@2003-07-29.xml"/>
+          <FRBRdate date="2003-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-07-29" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за административно-териториалното устройство на Република България</p>
+      <p>(обн., ДВ, бр. 63 от 1995 г.; бр. 51 от 1996 г. - Решение № 8 на Конституционния съд от 1996 г.; изм., бр. 27, 33 и 154 от 1998 г., бр. 10 и 69 от 1999 г., бр. 57 от 2000 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 16, т. 1 числото „500&amp;quot; се заменя с  „250&amp;quot;.</p>
+          <p>Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <paragraph eId="par_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Населените места, които преди датата на влизане в сила на този закон са загубили статут на кметство, но не са закрити с решение на общинския съвет и не са включени в състава на други кметства, възстановяват статута си на кметство, ако към датата на обнародване на указа на Президента на Република България за насрочване на местните избори отговарят на изискванията на чл. 16, т. 1 от закона, и в тях се произвеждат избори за кметове на кметства едновременно с произвеждането на местните избори.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Две или повече населени места, които преди датата на влизане в сила на този закон са били включени в състава на едно кметство, което е загубило статута си, но не е закрито с решение на общинския съвет, и населените места не са включени в състава на други кметства, възстановяват статута си на кметство, ако към датата на обнародване на указа на Президента на Република България за насрочване на  местните избори отговарят на изискванията на чл. 16, т. 1 от закона, и в тях се произвеждат избори за кмет на кметство едновременно с произвеждането на местните избори.</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

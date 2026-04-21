@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-2/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за семейни помощи за деца" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за семейни помощи за деца" name="eli" other="/eli/bg/zid/2008/dv-71-08-2"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-2/bul@2008-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-2/bul@2008-08-12"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-2/bul@2008-08-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-2/bul@2008-08-12.xml"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-12" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за семейни помощи за деца</p>
+      <p>(обн., ДВ, бр. 32 от 2002 г.; изм., бр. 120 от 2002 г., бр. 112 от 2003 г., бр. 69 от 2004 г., бр. 105 от 2005 г., бр. 21, 30, 33,   68 и 95 от 2006 г. и бр. 113 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 6, ал. 6 след думите “трайни увреждания” се добавя “50 и”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 10 се правят следните изменения и допълнения:</p>
+          <p>1. В ал. 2, т. 2 думата “паричната” се заменя със “семейната”.</p>
+          <p>2. В ал. 4 накрая се добавя “или упълномощено от него лице”.</p>
+          <p>3. Алинеи 5 и 6 се изменят така:</p>
+          <p>“(5) Отказът за отпускане на семейна помощ за деца се мотивира. Заповедта за отказ се съобщава писмено на лицето, подало молбата, в 7-дневен срок от издаването й.</p>
+        </intro>
+        <paragraph eId="par_2__al_1">
+          <num>(6)</num>
+          <intro>
+            <p>За неуредените с този закон въпроси, свързани с издаването, оспорването и изпълнението на административните актове, се прилагат разпоредбите на Административнопроцесуалния кодекс.”</p>
+          </intro>
+          <point eId="par_2__al_1__pt_1">
+            <num>4.</num>
+            <content>
+              <p>Алинея 7 се отменя.</p>
+            </content>
+          </point>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <intro>
+          <p>Член 14 се изменя така:</p>
+          <p>“Чл. 14. (1) При писмен сигнал за недобросъвестно получени семейни помощи или по преценка на директора на съответната дирекция “Социално подпомагане” се извършва проверка от длъжностно лице на дирекцията.</p>
+        </intro>
+        <paragraph eId="par_3__al_1">
+          <num>(2)</num>
+          <content>
+            <p>За резултатите от проверката длъжностното лице по ал. 1 съставя констативен протокол, който предоставя в тридневен срок на директора на дирекция “Социално подпомагане”.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_3__al_2">
+          <num>(3)</num>
+          <content>
+            <p>В случай на установена недобросъвестност директорът на дирекция “Социално подпомагане” издава мотивирана заповед за възстановяване на получената семейна помощ заедно със законната лихва.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <intro>
+          <p>В глава втора се създава чл. 14а:</p>
+          <p>“Чл. 14а. (1) Заповедта по чл. 14, ал. 3 подлежи на обжалване по реда на Административнопроцесуалния кодекс в 7-дневен срок от деня на получаването й. Обжалването спира изпълнението, като не се допуска предварително изпълнение.</p>
+        </intro>
+        <paragraph eId="par_4__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Принудителното изпълнение на заповедта по чл. 14, ал. 3 се допуска по искане на дирекция “Социално подпомагане” по реда на Гражданския процесуален кодекс.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

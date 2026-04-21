@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-56-04-24/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-56-04-24"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 2003 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 2003 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="eli" other="/eli/bg/naredba/2004/dv-56-04-24"/>
+          <FRBRdate date="2004-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-56-04-24/bul@2004-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-56-04-24/bul@2004-06-29"/>
+          <FRBRdate date="2004-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-56-04-24/bul@2004-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-56-04-24/bul@2004-06-29.xml"/>
+          <FRBRdate date="2004-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-06-29" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 13 от 2003 г. за критериите, показателите и методиката за акредитация на лечебните заведения</p>
+      <p>(обн., ДВ, бр. 80 от 2003 г.; изм. и доп., бр. 105 от 2003 г., бр. 28 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В преходните и заключителните разпоредби се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се § 10 със следното съдържание: “§ 10. Лечебните заведения по чл. 86 ЗЛЗ (с изключение на центровете за трансфузионна хематология и тъканните банки), които не са подавали заявления за откриване на процедура по акредитация и за които сроковете по чл. 3, ал. 1 са изтекли, подават заявления за акредитация най-късно до 1.IХ.2004 г.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Параграфи 4, 6 и 9 се отменят. Министър:  Сл. Богоев 35310</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

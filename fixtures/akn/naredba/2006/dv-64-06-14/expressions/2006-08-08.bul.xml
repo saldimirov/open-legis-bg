@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-14"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2001 г. за борба срещу листозавивачките по карамфила" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2001 г. за борба срещу листозавивачките по карамфила" name="eli" other="/eli/bg/naredba/2006/dv-64-06-14"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-14/bul@2006-08-08/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-14/bul@2006-08-08"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-14/bul@2006-08-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-14/bul@2006-08-08.xml"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-08" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 38 от 2001 г. за борба срещу листозавивачките по карамфила</p>
+      <p>(обн., ДВ, бр. 98 от   2001 г  .; изм., бр. 8 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал.1 след думата “вредителя” се добавя “в страната”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се допълнителна разпоредба:</p>
+            <p>“Допълнителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>С тази наредба се въвежда Директива на Съвета 74/647/ЕЕС от 9 декември 1974 г. за контрол на листозавивачките по карамфила.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграфи 1 и 2 стават съответно § 2 и 3.</p>
+            <p>За министър:  Ст. Юруков</p>
+            <p>53665</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

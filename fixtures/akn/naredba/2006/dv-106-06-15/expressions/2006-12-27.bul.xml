@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-15"/>
+          <FRBRalias value="Наредба № Н-19 от 15 декември 2006 г. за определяне обхвата на информацията, която всички общини са длъжни да водят, съхраняват и предоставят на Министерството на финансите за поетия от тях дълг в съответствие с изискванията на Европейския съюз и на българското законодателство за отчетността, статистиката и бюджетирането на публичния сектор, както и за реда, начина и сроковете за отчитането и предоставянето й" name="short"/>
+          <FRBRalias value="Наредба № Н-19 от 15 декември 2006 г. за определяне обхвата на информацията, която всички общини са длъжни да водят, съхраняват и предоставят на Министерството на финансите за поетия от тях дълг в съответствие с изискванията на Европейския съюз и на българското законодателство за отчетността, статистиката и бюджетирането на публичния сектор, както и за реда, начина и сроковете за отчитането и предоставянето й" name="eli" other="/eli/bg/naredba/2006/dv-106-06-15"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-15/bul@2006-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-15/bul@2006-12-27"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-15/bul@2006-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-15/bul@2006-12-27.xml"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-27" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № Н-19 от 15 декември 2006 г. за определяне обхвата на информацията, която всички общини са длъжни да водят, съхраняват и предоставят на Министерството на финансите за поетия от тях дълг в съответствие с изискванията на Европейския съюз и на българското законодателство за отчетността, статистиката и бюджетирането на публичния сектор, както и за реда, начина и сроковете за отчитането и предоставянето й</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I</num>
+        <heading>Общи положения</heading>
+        <article eId="sec_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С тази наредба се определя обхватът на информацията, която всички общини са длъжни да водят, съхраняват и предоставят на Министерството на финансите за поетия от тях дълг в съответствие с изискванията на Европейския съюз и на българското законодателство за отчетността, статистиката и бюджетирането на публичния сектор, както и се уреждат редът, начинът и сроковете за нейното отчитане и предоставяне.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Тази наредба не регламентира предоставянето на класифицирана информация по смисъла на Закона за защита на класифицираната информация.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_3">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Информацията по чл. 1 се предоставя и за нуждите на централния регистър на общинския дълг, който се създава и поддържа в Министерството на финансите на основание чл. 51 от Закона за общинския дълг (ЗОД).</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="sec_1__art_4__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Общините предоставят информацията по чл. 1 при спазване изискванията на чл. 54 ЗОД, като информацията се структурира по следните подрегистри:</p>
+            </intro>
+            <point eId="sec_1__art_4__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>подрегистър на емитираните общински ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_1__art_4__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>подрегистър на заемите, предоставени на общините;</p>
+              </content>
+            </point>
+            <point eId="sec_1__art_4__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>подрегистър на издадените общински гаранции.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_1__art_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Централният регистър на общинския дълг поддържа самостоятелен регистър за всяка община, като всяка община има достъп до собствения си регистър и въведената в него информация.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_1__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Обхватът на информацията, която се въвежда от общините в централния регистър на общинския дълг е посочен в раздели III, IV, V и VI.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Наредбата се прилага от общините в Република България, министъра на финансите и Министерството на финансите.</p>
+          </content>
+        </article>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел II</num>
+        <heading>Ред, начин и срокове за предоставяне на информация в централния регистър на общинския   дълг</heading>
+        <article eId="sec_2__art_7">
+          <num>Чл. 7.</num>
+          <content>
+            <p>Информацията по чл. 1 се предоставя в Интернет среда, он-лайн чрез уеб-базирано приложение “Централен регистър на общинския дълг”.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_8">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Информацията по чл. 1 се въвежда в структуриран вид чрез попълване на електронни форми, предоставени от централния регистър на общинския дълг, които форми обезпечават автоматизиране на дейностите по събиране, обработка и анализ на информацията за структурата и размера на общинския дълг.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="sec_2__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Информацията в централния регистър на общинския дълг се въвежда от определени от кмета на общината общински служители.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Министърът на финансите определя със заповед служителите от Министерството на финансите, които имат право на достъп до информацията по чл. 1.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_10">
+          <num>Чл. 10.</num>
+          <paragraph eId="sec_2__art_10__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Идентификацията на оторизиран потребител се осъществява чрез предварителната му регистрация в централния регистър на общинския дълг.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Кметът на общината предоставя на Министерството на финансите информация в писмен вид относно оторизираните лица по чл. 9, ал. 1, съдържаща:</p>
+            </intro>
+            <point eId="sec_2__art_10__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>наименование на общината;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_10__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>трите имена на оторизирания общински служител;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_10__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>длъжност и структура на общинската администрация, в която служителят работи;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_10__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>служебен телефон;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_10__al_2__pt_5">
+              <num>5.</num>
+              <content>
+                <p>служебен e-mail.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Оторизираните лица имат право на достъп до системата чрез потребителско име и парола.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="sec_2__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Общините предоставят информацията по чл. 1, като отразяват своевременно промените в обстоятелствата на поетия от тях дълг, но не по-късно от 5 работни дни след изтичане на отчетния месец.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В случаите, когато няма промяна на информацията по чл. 1, се въвежда “няма промяна”.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_3">
+        <num>Раздел III</num>
+        <heading>Подрегистър на емитираните общински ценни книжа</heading>
+        <article eId="sec_3__art_12">
+          <num>Чл. 12.</num>
+          <intro>
+            <p>В подрегистъра на емитираните общински ценни книжа се вписват следните данни за всяка емисия поотделно:</p>
+          </intro>
+          <point eId="sec_3__art_12__pt_1">
+            <num>1.</num>
+            <content>
+              <p>номер и дата на приемане на решение на общинския съвет по чл. 17, ал. 1 ЗОД за поемане на дълг чрез емисия на общински ценни книжа;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_12__pt_2">
+            <num>2.</num>
+            <intro>
+              <p>данни за емисията на общинските ценни книжа:</p>
+            </intro>
+            <point eId="sec_3__art_12__pt_2__l_1">
+              <num>а)</num>
+              <content>
+                <p>дата на емитиране на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_2">
+              <num>б)</num>
+              <content>
+                <p>дата на падеж на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_3">
+              <num>в)</num>
+              <content>
+                <p>максимален размер на общинските ценни книжа - номинална стойност;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_4">
+              <num>г)</num>
+              <content>
+                <p>валута на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_5">
+              <num>д)</num>
+              <content>
+                <p>начин на обезпечаване на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_6">
+              <num>е)</num>
+              <content>
+                <p>предназначение на общинските ценни книжа по смисъла на чл. 4 или чл. 5, ал. 1 ЗОД;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_7">
+              <num>ж)</num>
+              <content>
+                <p>данни за лихвения процент на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_8">
+              <num>з)</num>
+              <content>
+                <p>погасителен план на общинските ценни книжа;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_12__pt_2__l_9">
+              <num>и)</num>
+              <content>
+                <p>данни за обратно изкупуване на общинските ценни книжа;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_3__art_12__pt_3">
+            <num>3.</num>
+            <content>
+              <p>дата и размер на просрочие на обслужването на общинските ценни книжа.</p>
+            </content>
+          </point>
+        </article>
+      </section>
+      <section eId="sec_4">
+        <num>Раздел IV</num>
+        <heading>Подрегистър на заемите, предоставени на общината</heading>
+        <article eId="sec_4__art_13">
+          <num>Чл. 13.</num>
+          <intro>
+            <p>В подрегистъра на заемите, предоставени на общината, се вписват следните данни за всеки общински заем поотделно:</p>
+          </intro>
+          <point eId="sec_4__art_13__pt_1">
+            <num>1.</num>
+            <content>
+              <p>номер и дата на приемане на решение на общинския съвет по чл. 17, ал. 1 ЗОД за поемане на дълг чрез договор за общински заем;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_13__pt_2">
+            <num>2.</num>
+            <content>
+              <p>данни за кредитора;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_13__pt_3">
+            <num>3.</num>
+            <intro>
+              <p>данни за кредита:</p>
+            </intro>
+            <point eId="sec_4__art_13__pt_3__l_1">
+              <num>а)</num>
+              <content>
+                <p>дата на получаване/предоговаряне на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_2">
+              <num>б)</num>
+              <content>
+                <p>максимален размер на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_3">
+              <num>в)</num>
+              <content>
+                <p>валута на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_4">
+              <num>г)</num>
+              <content>
+                <p>вид на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_5">
+              <num>д)</num>
+              <content>
+                <p>начин на обезпечаване на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_6">
+              <num>е)</num>
+              <content>
+                <p>данни за усвоявания по кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_7">
+              <num>ж)</num>
+              <content>
+                <p>предназначение на кредита по смисъла на чл. 4 или чл. 5, ал. 1 ЗОД;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_8">
+              <num>з)</num>
+              <content>
+                <p>данни за лихвения процент на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_4__art_13__pt_3__l_9">
+              <num>и)</num>
+              <content>
+                <p>погасителен план на кредита;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_4__art_13__pt_4">
+            <num>4.</num>
+            <content>
+              <p>дата и размер на просрочие на обслужването на кредита.</p>
+            </content>
+          </point>
+        </article>
+      </section>
+      <section eId="sec_5">
+        <num>Раздел V</num>
+        <heading>Подрегистър на издадените общински гаранции</heading>
+        <article eId="sec_5__art_14">
+          <num>Чл. 14.</num>
+          <intro>
+            <p>В подрегистъра на издадените общински гаранции се вписват следните данни за всяка издадена общинска гаранция поотделно:</p>
+          </intro>
+          <point eId="sec_5__art_14__pt_1">
+            <num>1.</num>
+            <content>
+              <p>номер и дата на приемане на решения на общинския съвет по чл. 40, ал. 4 ЗОД за издаване на общинска гаранция или по чл. 42 ЗОД за промени в гарантирания от общината дълг;</p>
+            </content>
+          </point>
+          <point eId="sec_5__art_14__pt_2">
+            <num>2.</num>
+            <content>
+              <p>данни за бенефициента;</p>
+            </content>
+          </point>
+          <point eId="sec_5__art_14__pt_3">
+            <num>3.</num>
+            <intro>
+              <p>данни за издадената общинска гаранция:</p>
+            </intro>
+            <point eId="sec_5__art_14__pt_3__l_1">
+              <num>а)</num>
+              <content>
+                <p>дата на издаване на общинската гаранция;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_3__l_2">
+              <num>б)</num>
+              <content>
+                <p>максимален размер на издадената общинска гаранция;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_3__l_3">
+              <num>в)</num>
+              <content>
+                <p>валута на издадената общинска гаранция;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_3__l_4">
+              <num>г)</num>
+              <content>
+                <p>вид на издадената общинска гаранция;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_3__l_5">
+              <num>д)</num>
+              <content>
+                <p>краен срок на издадената общинска гаранция по договор;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_3__l_6">
+              <num>е)</num>
+              <content>
+                <p>начин на обезпечаване на издадената общинска гаранция;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_5__art_14__pt_4">
+            <num>4.</num>
+            <intro>
+              <p>данни за кредита, за който е издадена общинската гаранция:</p>
+            </intro>
+            <point eId="sec_5__art_14__pt_4__l_1">
+              <num>а)</num>
+              <content>
+                <p>данни за кредитора;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_4__l_2">
+              <num>б)</num>
+              <content>
+                <p>данни за лихвения процент на кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_4__l_3">
+              <num>в)</num>
+              <content>
+                <p>данни за усвоявания по кредита;</p>
+              </content>
+            </point>
+            <point eId="sec_5__art_14__pt_4__l_4">
+              <num>г)</num>
+              <content>
+                <p>погасителен план на кредита.</p>
+              </content>
+            </point>
+          </point>
+        </article>
+      </section>
+      <section eId="sec_6">
+        <num>Раздел VI</num>
+        <heading>Модул за активите, притежавани от общините</heading>
+        <article eId="sec_6__art_15">
+          <num>Чл. 15.</num>
+          <intro>
+            <p>Съгласно изискванията на Европейската комисия за регулярно предоставяне на данни за държавната финансова статистика общините въвеждат в модул, част от електронния регистър, информация за притежаваните от тях активи. В модула се вписват следните данни за всяка емисия поотделно:</p>
+          </intro>
+          <point eId="sec_6__art_15__pt_1">
+            <num>1.</num>
+            <intro>
+              <p>ценни книжа, емитирани от държавата:</p>
+            </intro>
+            <point eId="sec_6__art_15__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>идентификация на емисията: номер (ISIN), дата, валута, лихвен процент на емисията;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>сума на придобитата част от емисията (по номинал);</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_1__l_3">
+              <num>в)</num>
+              <content>
+                <p>чиста цена на придобиване на ценната книга за 100 единици номинал;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_1__l_4">
+              <num>г)</num>
+              <content>
+                <p>нетно изменение на наличността за периода;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_1__l_5">
+              <num>д)</num>
+              <content>
+                <p>начислени, но неполучени лихви след последното лихвено плащане;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_6__art_15__pt_2">
+            <num>2.</num>
+            <intro>
+              <p>ценни книжа, емитирани от други общини:</p>
+            </intro>
+            <point eId="sec_6__art_15__pt_2__l_1">
+              <num>а)</num>
+              <content>
+                <p>код по ЕБК на общината емитент;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_2__l_2">
+              <num>б)</num>
+              <content>
+                <p>идентификация на емисията: номер (ISIN), дата, валута, лихвен процент на емисията;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_2__l_3">
+              <num>в)</num>
+              <content>
+                <p>сума на придобитата част от емисията (по номинал);</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_2__l_4">
+              <num>г)</num>
+              <content>
+                <p>чиста цена на придобиване на ценната книга за 100 единици номинал;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_2__l_5">
+              <num>д)</num>
+              <content>
+                <p>нетно изменение на наличността за периода;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_2__l_6">
+              <num>е)</num>
+              <content>
+                <p>начислени, но неполучени лихви след последното лихвено плащане;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_6__art_15__pt_3">
+            <num>3.</num>
+            <intro>
+              <p>дългови ценни книжа, емитирани от други емитенти:</p>
+            </intro>
+            <point eId="sec_6__art_15__pt_3__l_1">
+              <num>а)</num>
+              <content>
+                <p>идентификация на емисията: номер (ISIN), дата, валута, лихвен процент на емисията;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_3__l_2">
+              <num>б)</num>
+              <content>
+                <p>сума на придобитата част от емисията (по номинал);</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_3__l_3">
+              <num>в)</num>
+              <content>
+                <p>чиста цена на придобиване на ценната книга за 100 единици номинал;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_3__l_4">
+              <num>г)</num>
+              <content>
+                <p>нетно изменение на наличността за периода;</p>
+              </content>
+            </point>
+            <point eId="sec_6__art_15__pt_3__l_5">
+              <num>д)</num>
+              <content>
+                <p>начислени, но неполучени лихви след последното лихвено плащане.</p>
+              </content>
+            </point>
+          </point>
+        </article>
+      </section>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>“ISIN” е уникален международен код, идентифициращ емисия на ценни книжа, който се присвоява и регистрира от “Централен депозитар” - АД, в качеството му на национална номерираща агенция за ценни книжа за Република България.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>“Нетно изменение на наличността за периода” е разликата в стойността на актива в края и началото на отчетния период.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>“Чиста цена на придобиване” е цената на ценната книга, която не включва натрупаната лихва.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Решенията на общинските съвети по чл. 17, ал. 1, чл. 31, ал. 2 (за периода, в който е действал), чл. 40, ал. 4 и чл. 42 ЗОД, договора за избор на финансова институция или финансов посредник по чл. 41 от Закона за обществените поръчки, решенията за поемане на дълг преди влизане в сила на ЗОД и удостоверението за регистрирана емисия на ценни книжа, издадено от “Централен депозитар” - АД, се добавят към електронния регистър като прикачен файл.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 55, ал. 2 ЗОД.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Министърът на финансите издава указания по прилагането на тази наредба, които са неразделна част от нея.</p>
+            <p>Министър:  Пл. Орешарски</p>
+            <p>77901</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

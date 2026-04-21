@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-33-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-33-05-16"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2004 г. за основните положения за проектиране на конструкциите на строежите и за въздействията върху тях" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2004 г. за основните положения за проектиране на конструкциите на строежите и за въздействията върху тях" name="eli" other="/eli/bg/naredba/2005/dv-33-05-16"/>
+          <FRBRdate date="2005-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-33-05-16/bul@2005-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-33-05-16/bul@2005-04-15"/>
+          <FRBRdate date="2005-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-33-05-16/bul@2005-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-33-05-16/bul@2005-04-15.xml"/>
+          <FRBRdate date="2005-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-15" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 3 от 2004 г. за основните положения за проектиране на конструкциите на строежите и за въздействията върху тях</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>Член 33 се изменя така:</p>
+            <p>“Чл. 33. (1) Степента на отговорност на конструкциите на сградите и съоръженията, както и значимостта на последиците от настъпване на крайни гранични състояния се вземат предвид чрез коефициента за сигурност по предназначение на конструкциите g n , с който се умножават ефектите от въздействията.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Допуска се при изчисляване за експлоатационни гранични състояния на конструкциите на строежи, за които има повишени функционални и/или други изисквания на специфични нормативни актове и/или на възложителя, коефициентът g n  да се приема и по-голям от 1,0.”</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 1 към чл. 34, ал. 4 се изменя така:</p>
+            <p>( Забележка на редакцията : виж този материал в PDF-а на броя)</p>
+            <p>“Приложение № 1 към чл. 34, ал. 4</p>
+            <p>Коефициенти на сигурност по предназначение на конструкцията на строежа</p>
+            <p>Категории               Възможни послед-              Коефициент</p>
+            <p>конструкции             ствия от загуба на             на сигурност</p>
+            <p>по степен на             носимоспособност           g n  по предназна-</p>
+            <p>отговорност              на конструкцията              чение на кон-</p>
+            <p>на сградата или                 струкцията</p>
+            <p>съоръжението</p>
+            <p>I                         Многобройни човеш-                         1,1</p>
+            <p>ки жертви и значителни икономически и социални загуби или поражения върху околната среда при авария на конструкцията на строеж от първа, втора или трета категория съгласно чл. 137, ал. 1 ЗУТ</p>
+            <p>II                        Немалобройни човеш-                      1,0</p>
+            <p>ки жертви и значителни икономически и социални загуби или поражения върху околната среда при авария на конструкцията на строеж от четвърта и пета категория съгласно чл. 137, ал. 1 ЗУТ</p>
+            <p>III                       Малобройни човешки                        0,9</p>
+            <p>жертви и малки или незначителни икономически и социални загуби или поражения върху околната среда при авария на конструкцията на строеж от шеста категория съгласно чл. 137, ал. 1 ЗУТ</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В таблица 6.1 от приложение № 6 към чл. 86, т. 1 и 2, чл. 87, ал. 1 и чл. 88, ал. 1 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Стойностите на s t  за градовете Силистра, Сливен и София се изменят, както следва: “ № по                      Град                          Стойности на s t  (kN/m 2 ) ред</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_2">
+            <num>21.</num>
+            <content>
+              <p>Силистра                                         1,58</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_3">
+            <num>22.</num>
+            <content>
+              <p>Сливен                                          1,50*</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_4">
+            <num>24.</num>
+            <content>
+              <p>София                                            1,00* ”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_5">
+            <num>2.</num>
+            <content>
+              <p>След таблицата се добавя следната забележка: “* Забележка. Стойността е експертно определена като осреднена за територията на населеното място.” Министър:  В. Церовски 15977</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

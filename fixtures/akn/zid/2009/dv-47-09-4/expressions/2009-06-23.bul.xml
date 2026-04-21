@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-4"/>
+          <FRBRalias value="Закон за изменение на Закона за избиране на членове на Европейския парламент от Република България" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за избиране на членове на Европейския парламент от Република България" name="eli" other="/eli/bg/zid/2009/dv-47-09-4"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-4/bul@2009-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-4/bul@2009-06-23"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-4/bul@2009-06-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-4/bul@2009-06-23.xml"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-23" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за избиране на членове на Европейския парламент от Република България</p>
+      <p>(обн., ДВ, бр. 20 от 2007 г.; изм., бр. 19  от 2008 г., бр. 25 и 31 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 58 ал. 6 се изменя така:</p>
+          <p>“(6) Мандатът на избраните кандидати, които заемат друга изборна длъжност, се прекратява 7 дни преди датата на откриване на първото заседание на Европейския парламент.”</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 6 юни 2009 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

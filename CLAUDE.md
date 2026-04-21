@@ -19,7 +19,7 @@ Free, open equivalent of APIS (apis.bg) — the commercial Bulgarian legal datab
 make dev        # start postgres
 uv run alembic upgrade head
 DATABASE_URL=postgresql+psycopg://openlegis:openlegis@localhost:5432/openlegis uv run open-legis load
-DATABASE_URL=... uv run uvicorn "open_legis.api.app:create_app" --factory --host 0.0.0.0 --port 8001
+DATABASE_URL=... uv run uvicorn "open_legis.api.app:create_app" --factory --host 0.0.0.0 --port 8000
 ```
 
 ## Architecture decisions

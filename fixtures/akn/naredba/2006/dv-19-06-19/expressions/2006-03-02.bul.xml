@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-19"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2004 г. за капиталовата адекватност на банките" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2004 г. за капиталовата адекватност на банките" name="eli" other="/eli/bg/naredba/2006/dv-19-06-19"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-19/bul@2006-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-19/bul@2006-03-02"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-19/bul@2006-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-19/bul@2006-03-02.xml"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 8 от 2004 г. за капиталовата адекватност на банките</p>
+      <p>(обн., ДВ, бр. 5 от 2005 г.; изм. и доп., бр. 55 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 15 се прави следното изменение:</p>
+            <p>Алинея 1 се изменя, както следва:</p>
+            <p>“(1) Активи с рисково тегло 50 на сто са вземанията по кредити, изцяло и напълно обезпечени с първа по ред ипотека върху напълно застрахован и оценен по справедлива цена недвижим имот в жилищна сграда, който е обитаван или ще бъде обитаван или отдаван под наем от кредитополучателя, като стойността на кредитите не превишава 50 % от стойността на ипотекирания имот.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тази наредба е приета с Решение № 25 на УС на БНБ от 24.II.2006 г. и влиза в сила от 1.IV.2006 г.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>15813</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

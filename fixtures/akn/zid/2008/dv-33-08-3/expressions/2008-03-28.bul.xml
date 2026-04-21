@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-33-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-33-08-3"/>
+          <FRBRalias value="Закон за изменение и допълнение на Кодекса за социално осигуряване" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Кодекса за социално осигуряване" name="eli" other="/eli/bg/zid/2008/dv-33-08-3"/>
+          <FRBRdate date="2008-03-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-33-08-3/bul@2008-03-28/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-33-08-3/bul@2008-03-28"/>
+          <FRBRdate date="2008-03-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-33-08-3/bul@2008-03-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-33-08-3/bul@2008-03-28.xml"/>
+          <FRBRdate date="2008-03-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-28" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Кодекса за социално осигуряване</p>
+      <p>(обн., ДВ, бр. 110 от 1999 г., Решение № 5 на Конституционния съд от 2000 г. - бр. 55 от 2000 г.; изм., бр. 64 от 2000 г., бр. 1, 35 и 41 от 2001 г., бр. 1, 10, 45, 74, 112, 119 и 120 от 2002 г., бр. 8, 42, 67, 95, 112 и 114 от 2003 г., бр. 12, 21, 38, 52, 53, 69, 70, 112 и 115 от 2004 г., бр. 38, 39, 76, 102, 103, 104 и 105 от 2005 г., бр. 17, 30, 34, 56, 57, 59, 68, 82, 95, 102 и 105 от 2006 г., бр. 41, 52, 64,  77, 97, 100, 109 и 113 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В § 4 от преходните и заключителните разпоредби се правят следните изменения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 1 думите “2009 г.” се заменят с “2010 г.”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В ал. 2 думите “2009 г.” се заменят с “2010 г.”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_3">
+          <num>3.</num>
+          <content>
+            <p>В ал. 3 думите “2006 г.” се заменят с “2014 г.”. Преходна разпоредба</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Лицата, които са придобили право на пенсия по § 4, ал. 3 от преходните и заключителните разпоредби в периода от 1 януари 2007 г. до влизането в сила на този закон, могат да се пенсионират от датата на придобиване на правото, ако заявлението е подадено в териториалното поделение на Националния осигурителен институт в 6-месечен срок от влизането в сила на този закон.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

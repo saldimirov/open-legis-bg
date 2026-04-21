@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-54-09-7/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-54-09-7"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 6 от 2003 г. за изграждане на достъпна среда в урбанизираните територии" name="short"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 6 от 2003 г. за изграждане на достъпна среда в урбанизираните територии" name="eli" other="/eli/bg/naredba/2009/dv-54-09-7"/>
+          <FRBRdate date="2009-07-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-54-09-7/bul@2009-07-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-54-09-7/bul@2009-07-14"/>
+          <FRBRdate date="2009-07-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-54-09-7/bul@2009-07-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-54-09-7/bul@2009-07-14.xml"/>
+          <FRBRdate date="2009-07-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-07-14" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за отменяне на Наредба № 6 от 2003 г. за изграждане на достъпна среда в урбанизираните територии</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

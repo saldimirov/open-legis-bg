@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-9/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-9"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 24 от 2005 г. за мерките за профилактика, ограничаване и ликвидиране на африканската чума по конете и за условията и реда за прилагането им" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 24 от 2005 г. за мерките за профилактика, ограничаване и ликвидиране на африканската чума по конете и за условията и реда за прилагането им" name="eli" other="/eli/bg/naredba/2006/dv-102-06-9"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-9/bul@2006-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-9/bul@2006-12-19"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-102-06-9/bul@2006-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-102-06-9/bul@2006-12-19.xml"/>
+          <FRBRdate date="2006-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-19" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 24 от 2005 г. за мерките за профилактика, ограничаване и ликвидиране на африканската чума по конете и за условията и реда за прилагането им</p>
+      <p>(обн., ДВ, бр. 6 от 2006 г.; изм. и доп., бр. 79 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 текстът “т. 7 - 9” се заменя с “т. 7 - 10”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 18 се изменя така:</p>
+            <p>“Чл. 18. При особено сериозна епизоотия от африканска чума по конете в отделен регион НВМС след съгласуване с Постоянния комитет по хранителната верига и здравеопазването на животните към ЕК изменя мерките за ограничаване и ликвидиране на АЧК.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В допълнителните разпоредби се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Точка 6 се изменя така: “6. “Официален ветеринарен лекар” е ветеринарен лекар, назначен по служебно правоотношение и определен със заповед на генералния директор на НВМС.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Точка 30 се изменя така: “30. “Потвърждение” е доказване наличието на болестта африканска чума по конете на определена територия на базата на лабораторни изследвания, а при епизоотия - на базата на клинични и/или епизоотологични данни.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Точка 31 се изменя така: “31. “НВМС” е специализиран орган за управление, осъществяване и контрол на ветеринарномедицинската дейност.”</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

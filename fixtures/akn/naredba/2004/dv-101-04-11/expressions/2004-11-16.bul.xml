@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-11"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 11 от 2004 г. за прегледите на корабите и корабопритежателите" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 11 от 2004 г. за прегледите на корабите и корабопритежателите" name="eli" other="/eli/bg/naredba/2004/dv-101-04-11"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-11/bul@2004-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-11/bul@2004-11-16"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-11/bul@2004-11-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-11/bul@2004-11-16.xml"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-11-16" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 11 от 2004 г. за прегледите на корабите и корабопритежателите</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 21 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 2 думите “като се определят сроковете за тяхното отстраняване” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 3 думите “При констатирани несъответствия с поставен срок за отстраняване “до отплаване” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Алинеи 4 и 5 се отменят.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 22 се отменя.</p>
+            <p>Министър:  Н. Василев</p>
+            <p>54209</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

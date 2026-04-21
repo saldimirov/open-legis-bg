@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-11"/>
+          <FRBRalias value="Наредба № 4 от 31 януари 2005 г. за определяне на заболяванията, за чието лечение Министерството на здравеопазването финансира дейностите по вземане и присаждане на тъкани и клетки" name="short"/>
+          <FRBRalias value="Наредба № 4 от 31 януари 2005 г. за определяне на заболяванията, за чието лечение Министерството на здравеопазването финансира дейностите по вземане и присаждане на тъкани и клетки" name="eli" other="/eli/bg/naredba/2005/dv-13-05-11"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-11/bul@2005-02-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-11/bul@2005-02-08"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-11/bul@2005-02-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-11/bul@2005-02-08.xml"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-08" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 4 от 31 януари 2005 г. за определяне на заболяванията, за чието лечение Министерството на здравеопазването финансира дейностите по вземане и присаждане на тъкани и клетки</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

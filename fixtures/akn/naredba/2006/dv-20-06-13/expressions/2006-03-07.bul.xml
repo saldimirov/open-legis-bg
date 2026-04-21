@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-20-06-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-20-06-13"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 15 от 2005 г. за технически правила и нормативи за проектиране, изграждане и експлоатация на обектите и съоръженията за производство, пренос и разпределение на топлинна енергия" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 15 от 2005 г. за технически правила и нормативи за проектиране, изграждане и експлоатация на обектите и съоръженията за производство, пренос и разпределение на топлинна енергия" name="eli" other="/eli/bg/naredba/2006/dv-20-06-13"/>
+          <FRBRdate date="2006-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-20-06-13/bul@2006-03-07/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-20-06-13/bul@2006-03-07"/>
+          <FRBRdate date="2006-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-20-06-13/bul@2006-03-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-20-06-13/bul@2006-03-07.xml"/>
+          <FRBRdate date="2006-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-03-07" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 15 от 2005 г. за технически правила и нормативи за проектиране, изграждане и експлоатация на обектите и съоръженията за производство, пренос и разпределение на топлинна енергия</p>
+      <p>(обн., ДВ, бр. 68 от 2005 г.; попр., бр. 78 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 3 от преходните и заключителните разпоредби думата “шест” се заменя с “девет”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Навсякъде думите “министъра на енергетиката и енергийните ресурси” се заменят с “министъра на икономиката и енергетиката”, а думите “министърът на енергетиката и енергийните ресурси” се заменят с “министърът на икономиката и енергетиката”.</p>
+            <p>Министър на регионалното развитие и благоустройството:  А. Гагаузов</p>
+            <p>Министър на икономиката и енергетиката:  Р. Овчаров</p>
+            <p>15303</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

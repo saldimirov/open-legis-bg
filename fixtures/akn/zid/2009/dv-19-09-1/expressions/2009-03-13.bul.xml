@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-1"/>
+          <FRBRalias value="Закон за допълнение на Закона за гражданската регистрация" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за гражданската регистрация" name="eli" other="/eli/bg/zid/2009/dv-19-09-1"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-1/bul@2009-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-1/bul@2009-03-13"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-1/bul@2009-03-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-1/bul@2009-03-13.xml"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-03-13" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за гражданската регистрация</p>
+      <p>(обн., ДВ, бр. 67 от 1999 г.; изм., бр. 28 и 37 от 2001 г., бр. 54 от 2002 г., бр. 63 от 2003 г., бр. 70 и 96 от 2004 г., бр. 30 от 2006 г., бр. 48 и 59 от 2007 г., бр. 105 от 2008 г. и бр. 6 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 38 се създава ал. 5:</p>
+          <p>“(5) При унищожен или изгубен регистър за гражданско състояние, без да има възможност да бъдe възстановен, кметът на общината може да поиска от районния съд да установи унищожаването или изгубването и да разпореди съставянето на съответния регистър.”</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В Гражданския процесуален кодекс (обн., ДВ, бр. 59 от 2007 г.; изм., бр. 50 от 2008 г., Решение № 3 на Конституционния съд от 2008 г. - бр. 63 от 2008 г.; изм., бр. 69 от 2008 г. и бр. 12 от 2009 г.) се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <intro>
+            <p>В чл. 542:</p>
+          </intro>
+          <point eId="par_2__pt_1__l_1">
+            <num>а)</num>
+            <content>
+              <p>досегашният текст става ал. 1;</p>
+            </content>
+          </point>
+          <point eId="par_2__pt_1__l_2">
+            <num>б)</num>
+            <content>
+              <p>създава се ал. 2:</p>
+              <p>“(2) При унищожен или изгубен регистър за гражданско състояние, без да има възможност да бъде възстановен, кметът на общината може да иска с молба до районния съд да установи факта и да разпореди съставянето на съответния регистър.”</p>
+            </content>
+          </point>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В чл. 544 се създава ал. 4: “(4) В случаите по чл. 542, ал. 2 съдът призовава Министерството на регионалното развитие и благоустройството и прокурора. Министерството на регионалното развитие и благоустройството представя данните от Единната система за гражданска регистрация и административно обслужване на населението, относими към съответния регистър.”</p>
+          </content>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

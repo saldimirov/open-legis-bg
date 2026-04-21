@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-13"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 12 от 2003 г. за начина и реда за определяне на минималната доходност при управление на активите на фондовете за допълнително задължително пенсионно осигуряване, за покриване на разликата до минималната доходност и за формиране и използване на резервите за гарантиране на минималната доходност" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 12 от 2003 г. за начина и реда за определяне на минималната доходност при управление на активите на фондовете за допълнително задължително пенсионно осигуряване, за покриване на разликата до минималната доходност и за формиране и използване на резервите за гарантиране на минималната доходност" name="eli" other="/eli/bg/naredba/2007/dv-57-07-13"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-13/bul@2007-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-13/bul@2007-07-13"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-13/bul@2007-07-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-13/bul@2007-07-13.xml"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-13" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 12 от 2003 г. за начина и реда за определяне на минималната доходност при управление на активите на фондовете за допълнително задължително пенсионно осигуряване, за покриване на разликата до минималната доходност и за формиране и използване на резервите за гарантиране на минималната доходност</p>
+      <p>(обн., ДВ, бр. 110 от 2003 г.; изм., бр. 17 от  2004 г  ., бр. 29 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 5 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 4 думите “съгласно чл. 193, ал. 7, изречение второ от Кодекса за социално осигуряване” се заменят с “към края на работния ден, предхождащ деня на заделяне на резерва”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 5, т. 2 след думите “броя на дяловете към” се добавя “края на работния ден, предхождащ”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В ал. 6 думата “датата” се заменя с “края на работния ден, предхождащ деня”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10, ал. 1, т. 1 след думите “дяловете във фонда към” се добавя “края на работния ден, предхождащ”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложение № 1, т. 3 в дефиницията на символа “ U b   ”  думите “намалена с промените, дължащи се на покриване на недостига до минималната доходност, и увеличена с промените, дължащи се на заделяне на резерв в рамките на 24-месечния период” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 2, т. 3 в дефиницията на символа “ s ” думите “за последния работен ден” се заменят с “към края на работния ден, предхождащ последния работен ден”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В приложение № 3, т. 2.3 в дефиницията на символа “ U k  ”думите “намалена с промените, дължащи се на покриване на минималната доходност, и увеличена с промените, дължащи се на заделяне на резерв в рамките на к-месечния период” се заличават.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 193, ал. 12 от Кодекса за социално осигуряване и е приета с Решение № 83-Н от 27.06.2007 г. на Комисията за финансов надзор.</p>
+            <p>Председател:  Ап. Апостолов</p>
+            <p>33535</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

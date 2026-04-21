@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-71-05-1/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-71-05-1"/>
+          <FRBRalias value="Закон за допълнение на Закона за българските документи за самоличност" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за българските документи за самоличност" name="eli" other="/eli/bg/zid/2005/dv-71-05-1"/>
+          <FRBRdate date="2005-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-71-05-1/bul@2005-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-71-05-1/bul@2005-08-30"/>
+          <FRBRdate date="2005-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-71-05-1/bul@2005-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-71-05-1/bul@2005-08-30.xml"/>
+          <FRBRdate date="2005-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-08-30" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за българските документи за самоличност</p>
+      <p>(обн., ДВ, бр. 93 от 1998 г.; изм., бр. 53, 67, 70 и 113 от 1999 г., бр. 108 от 2000 г., бр. 42 от 2001 г., бр. 45 и 54 от 2002 г., бр. 29 и 63 от 2003 г., бр. 96, 103 и 111 от 2004 г.,  бр. 43 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>Създава се чл. 76а:</p>
+          <p>“Чл. 76а. (1) Не се разрешава напускане на страната, не се издават паспорти и заместващи ги документи, а издадените се отнемат на ненавършили пълнолетие лица, за които са постъпили данни от български или чужд компетентен орган, че по време на пребиваването си в чужбина са били въвлечени или използвани за дейности по чл. 11 от Закона за закрила на детето.</p>
+        </intro>
+        <paragraph eId="par_1__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Мерките по ал. 1 са с цел закрила на детето и се прилагат за срок до две години от издаване на заповедта за прилагането им.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_1__al_2">
+          <num>(3)</num>
+          <content>
+            <p>По изключение, при доказани здравословни причини или други нетърпящи отлагане случаи, мерките по ал. 1 не се прилагат.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_1__al_3">
+          <num>(4)</num>
+          <content>
+            <p>Министърът на вътрешните работи, председателят на Държавната агенция за закрила на детето и министърът на външните работи издават съвместна инструкция за прилагането на мерките по ал. 1.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 78 се създава ал. 3:</p>
+          <p>“(3) Мярката по чл. 76а се прилага с мотивирана заповед на министъра на вътрешните работи или на упълномощени от него длъжностни лица по предложение или след представяне на становище от председателя на Държавната агенция за закрила на детето.”</p>
+          <p>Заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В срок два месеца от обнародването на този закон в “Държавен вестник” министърът на вътрешните работи, министърът на външните работи и председателят на Държавната агенция за закрила на детето издават инструкцията по чл. 76а, ал. 4.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила два месеца след обнародването му в “Държавен вестник”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

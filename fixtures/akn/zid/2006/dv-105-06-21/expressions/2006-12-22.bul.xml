@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-105-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-105-06-21"/>
+          <FRBRalias value="Закон за изменение на Закона за лекарствата и аптеките в хуманната медицина" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за лекарствата и аптеките в хуманната медицина" name="eli" other="/eli/bg/zid/2006/dv-105-06-21"/>
+          <FRBRdate date="2006-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-105-06-21/bul@2006-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-105-06-21/bul@2006-12-22"/>
+          <FRBRdate date="2006-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-105-06-21/bul@2006-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-105-06-21/bul@2006-12-22.xml"/>
+          <FRBRdate date="2006-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-22" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за лекарствата и аптеките в хуманната медицина</p>
+      <p>(обн., ДВ, бр. 36 от 1995 г., бр. 61 от 1996 г. - Решение № 10 на Конституционния съд от 1996 г., изм., бр. 38 от 1998 г., бр. 30 от 1999 г., бр. 10 от 2000 г., бр. 37 от 2000 г. - Решение № 3 на Конституционния съд от 2000 г., изм., бр. 59 от 2000 г., бр. 78 от 2000 г. - Решение № 7 на Конституционния съд от 2000 г., изм., бр. 41 от 2001 г., бр. 107 и 120 от 2002 г., попр., бр. 2 от 2003 г., изм., бр. 56, 71 и 112 от 2003 г., изм., бр. 70 и 111 от 2004 г., бр. 37, 76, 85, 87, 99 и 105 от 2005 г.,  бр. 30, 31, 34 и 75 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В § 10а, ал. 1 от преходните и заключителните разпоредби думите “31 декември 2006 г.” се заменят с “31 декември 2007 г.”.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

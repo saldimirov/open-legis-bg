@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-4-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-4-04-14"/>
+          <FRBRalias value="Наредба № 30 от 19 декември 2003 г. за утвърждаване на медико-технически стандарт по “Зъботехника”" name="short"/>
+          <FRBRalias value="Наредба № 30 от 19 декември 2003 г. за утвърждаване на медико-технически стандарт по “Зъботехника”" name="eli" other="/eli/bg/naredba/2004/dv-4-04-14"/>
+          <FRBRdate date="2004-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-4-04-14/bul@2004-01-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-4-04-14/bul@2004-01-16"/>
+          <FRBRdate date="2004-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-4-04-14/bul@2004-01-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-4-04-14/bul@2004-01-16.xml"/>
+          <FRBRdate date="2004-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-01-16" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 30 от 19 декември 2003 г. за утвърждаване на медико-технически стандарт по “Зъботехника”</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

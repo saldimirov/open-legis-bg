@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-81-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-81-09-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за железопътния транспорт" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за железопътния транспорт" name="eli" other="/eli/bg/zid/2009/dv-81-09-1"/>
+          <FRBRdate date="2009-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-81-09-1/bul@2009-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-81-09-1/bul@2009-10-13"/>
+          <FRBRdate date="2009-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-81-09-1/bul@2009-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-81-09-1/bul@2009-10-13.xml"/>
+          <FRBRdate date="2009-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-13" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за железопътния транспорт</p>
+      <p>(обн., ДВ, бр. 97 от 2000 г.; изм., бр. 47 и 96 от 2002 г., бр. 70 и 115 от 2004 г., бр. 77 и 88 от 2005 г., бр. 36, 37, 62, 92 и 108 от 2006 г., бр. 22, 35 и 74 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 13, ал. 1 думите „петима членове“ се заменят с „трима членове“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 14 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>Алинея 2 се изменя така: „(2) Управителният съвет може да приема решения, ако присъстват най-малко половината от членовете му лично или представлявани от друг член на съвета. Никой присъстващ член не може да представлява повече от един отсъстващ. За представляването е необходимо изрично пълномощно за всеки конкретен случай.“</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се ал. 4: „(4) Управителният съвет може да взема решения и неприсъствено, ако всички членове са заявили писмено съгласието си за решението.“ Допълнителна разпоредба</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Навсякъде в закона думите „министърът на транспорта“, „министъра на транспорта“ и „Министерството на транспорта“ се заменят съответно с „министърът на транспорта, информационните технологии и съобщенията“, „министъра на транспорта, информационните технологии и съобщенията“ и „Министерството на транспорта, информационните технологии и съобщенията“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

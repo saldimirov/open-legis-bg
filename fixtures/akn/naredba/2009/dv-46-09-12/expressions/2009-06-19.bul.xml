@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-46-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-46-09-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 52 от 2003 г. за условията и реда за одобрение на типа на нови трактори по отношение на работното пространство, достъпа до позицията за управление, вратите и прозорците" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 52 от 2003 г. за условията и реда за одобрение на типа на нови трактори по отношение на работното пространство, достъпа до позицията за управление, вратите и прозорците" name="eli" other="/eli/bg/naredba/2009/dv-46-09-12"/>
+          <FRBRdate date="2009-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-46-09-12/bul@2009-06-19/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-46-09-12/bul@2009-06-19"/>
+          <FRBRdate date="2009-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-46-09-12/bul@2009-06-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-46-09-12/bul@2009-06-19.xml"/>
+          <FRBRdate date="2009-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-19" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 52 от 2003 г. за условията и реда за одобрение на типа на нови трактори по отношение на работното пространство, достъпа до позицията за управление, вратите и прозорците</p>
+      <p>(обн., ДВ, бр. 108 от 2003 г.; изм., бр. 72 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>Навсякъде в наредбата:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Думите “министъра/ът на земеделието и горите чрез” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Думите “по предложение на изпълнителния директор на КТИ, министърът на земеделието и горите” се заменят с “изпълнителният директор на КТИ” и думите “Министърът/а на земеделието и горите” се заменят с “Изпълнителният/я директор на КТИ”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 1, т. 4 думите “министъра на земеделието и горите” се заменят с “министъра на земеделието и храните ”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 22 от Наредбата за изменение и допълнение на Наредба № 52 от 2003 г. за условията и реда за одобрение на типа на нови колесни трактори по отношение на работното пространство, достъпа до позицията за управление, вратите и прозорците (ДВ, бр. 72 от 2006 г.) се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 2 към чл. 5, ал. 2 думите “Министерство на земеделието и горите” се заменят с “Контролно-техническа инспекция” и думата “Министър” се заменя с “Изпълнителен директор на КТИ”.</p>
+            <p>Министър:  В. Цветанов</p>
+            <p>8519</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-15"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 6 от 2008 г. за реда за заплащане на сумите по чл. 37, ал. 5 от Закона за здравното осигуряване" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 6 от 2008 г. за реда за заплащане на сумите по чл. 37, ал. 5 от Закона за здравното осигуряване" name="eli" other="/eli/bg/naredba/2009/dv-34-09-15"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-15/bul@2009-05-08/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-15/bul@2009-05-08"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-15/bul@2009-05-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-15/bul@2009-05-08.xml"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-08" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 6 от 2008 г. за реда за заплащане на сумите по чл. 37, ал. 5 от Закона за здравното осигуряване</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава § 4:</p>
+            <p>“§ 4. Средствата по чл. 37, ал. 5 от Закона за здравното осигуряване за 2009 г. се предоставят на Националната здравноосигурителна каса чрез бюджета на Министерството на здравеопазването и се отчитат като трансфер.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 1 към чл. 2, ал. 1 се изменя така:</p>
+            <p>“Приложение № 1 към чл. 2, ал. 1</p>
+            <p>(Забележка на редакцията: виж приложението в PDF-а на броя)</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Тази наредба влиза в сила от 1 януари 2009 г.</p>
+            <p>Министър на финансите:   Пл. Орешарски</p>
+            <p>За министър на здравеопазването:  В. Цеков</p>
+            <p>6109</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

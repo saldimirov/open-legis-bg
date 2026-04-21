@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-9/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-9"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 5 от 1999 г. за установяване на владеенето на български език при придобиване на българско гражданство по натурализация" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 5 от 1999 г. за установяване на владеенето на български език при придобиване на българско гражданство по натурализация" name="eli" other="/eli/bg/naredba/2011/dv-98-11-9"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-9/bul@2011-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-9/bul@2011-12-13"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-9/bul@2011-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-9/bul@2011-12-13.xml"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-13" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 5 от 1999 г. за установяване на владеенето на български език при придобиване на българско гражданство по натурализация</p>
+      <p>(обн., ДВ, бр. 81 от 1999 г.; попр., бр. 82 от 1999 г.; изм., бр. 35 от 2000 г.; доп., бр. 105 от 2000 г.; изм., бр. 41 от 2001 г. и бр. 71 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 3 думите „Министерството на образованието, младежта и науката“ се заменят с „Центъра за контрол и оценка на качеството на училищното образование (ЦКОКУО)“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5, ал. 1 думите „Центъра за контрол и оценка на качеството на училищното образование (ЦКОКУО)“ се заменят с „ЦКОКУО“.</p>
+            <p>Министър:  Сергей Игнатов</p>
+            <p>12936</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

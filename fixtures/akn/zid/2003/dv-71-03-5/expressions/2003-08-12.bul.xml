@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-71-03-5/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-71-03-5"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за лекарствата и аптеките в хуманната медицина" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за лекарствата и аптеките в хуманната медицина" name="eli" other="/eli/bg/zid/2003/dv-71-03-5"/>
+          <FRBRdate date="2003-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-71-03-5/bul@2003-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-71-03-5/bul@2003-08-12"/>
+          <FRBRdate date="2003-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-71-03-5/bul@2003-08-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-71-03-5/bul@2003-08-12.xml"/>
+          <FRBRdate date="2003-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-08-12" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за лекарствата и аптеките в хуманната медицина</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 68, ал. 2 след думите „болнична помощ&amp;quot; се добавя „и диспансерите за онкологични или психични заболявания&amp;quot;.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 74 ал. 2 се изменя така: „(2) Аптеки на лечебните заведения по чл. 68, ал. 2 се откриват и закриват по искане на лицето, представляващо заведението.&amp;quot;</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

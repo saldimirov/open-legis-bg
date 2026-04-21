@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-14"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 18 от 2004 г. за регистрация на пристанищните оператори в Република България" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 18 от 2004 г. за регистрация на пристанищните оператори в Република България" name="eli" other="/eli/bg/naredba/2005/dv-62-05-14"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-14/bul@2005-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-14/bul@2005-07-29"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-14/bul@2005-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-14/bul@2005-07-29.xml"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-29" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 18 от 2004 г. за регистрация на пристанищните оператори в Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 8 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 2 думите “централното управление на Национална компания “Пристанища” се заменят с “Изпълнителна агенция “Пристанищна администрация - София”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 3 думите “териториално поделение” се заменят със “специализирано звено”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В ал. 4 думите “териториално поделение” се заменят със “специализирано звено”, а думите “централното управление на Национална компания “Пристанища” се заменят с “Изпълнителна агенция “Пристанищна администрация - София”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 10 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 3 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Навсякъде в наредбата думите “Национална компания “Пристанища” се заменят с “Изпълнителна агенция “Пристанищна администрация”, а думите “генералния/генералният директор” се заменят съответно с “изпълнителния/изпълнителният директор”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Пристанищните оператори, регистрирани в регистъра на пристанищните оператори преди влизането в сила на тази наредба, се пререгистрират от Изпълнителна агенция “Пристанищна администрация” служебно, при условие че няма промени в обстоятелствата по тяхната регистрация.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Н. Василев</p>
+            <p>50431</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

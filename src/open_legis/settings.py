@@ -21,3 +21,7 @@ class Settings(BaseSettings):
         default=Path("dumps"),
         alias="OPEN_LEGIS_DUMPS_DIR",
     )
+    public_url: str = Field(
+        default="",
+        alias="PUBLIC_URL",
+    )

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-63-06-5/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-63-06-5"/>
+          <FRBRalias value="Поправка в Закона за изменение и допълнение на Закона за професионалното образование и обучение (ДВ, бр. 62 от 2006 г.)" name="short"/>
+          <FRBRalias value="Поправка в Закона за изменение и допълнение на Закона за професионалното образование и обучение (ДВ, бр. 62 от 2006 г.)" name="eli" other="/eli/bg/zid/2006/dv-63-06-5"/>
+          <FRBRdate date="2006-08-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-63-06-5/bul@2006-08-04/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-63-06-5/bul@2006-08-04"/>
+          <FRBRdate date="2006-08-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-63-06-5/bul@2006-08-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-63-06-5/bul@2006-08-04.xml"/>
+          <FRBRdate date="2006-08-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-04" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправка в Закона за изменение и допълнение на Закона за професионалното образование и обучение (ДВ, бр. 62 от 2006 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

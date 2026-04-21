@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-1"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на държавното обществено осигуряване за 2007 г." name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на държавното обществено осигуряване за 2007 г." name="eli" other="/eli/bg/zid/2007/dv-53-07-1"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-1/bul@2007-06-30/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-1/bul@2007-06-30"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-1/bul@2007-06-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-1/bul@2007-06-30.xml"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-30" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за бюджета на държавното обществено осигуряване за 2007 г.</p>
+      <p>(обн., ДВ, бр. 105 от 2006 г.; изм., бр. 41 от  2007 г  .)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 9 т. 2 се изменя така:</p>
+          <p>“2. от 1 юли до 31 декември - 93,50 лв;”.</p>
+          <p>Заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <paragraph eId="par_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>За 2007 г. пенсиите, отпуснати до 31 декември 2006 г., се индексират от 1 юли с 10 на сто.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Индексираните пенсии по ал. 1 не се осъвременяват през 2007 г. по чл. 100 от Кодекса за социално осигуряване.</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Размерът на пенсията по чл. 9, т. 2 и определените в процент от него минимални размери на другите пенсии за трудова дейност не подлежат на осъвременяване за 2007 г. по чл. 100 от Кодекса за социално осигуряване.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила от 1 юли 2007 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

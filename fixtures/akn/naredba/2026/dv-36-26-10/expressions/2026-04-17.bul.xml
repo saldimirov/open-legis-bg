@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-36-26-10/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-36-26-10"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея" name="eli" other="/eli/bg/naredba/2026/dv-36-26-10"/>
+          <FRBRdate date="2026-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-36-26-10/bul@2026-04-17/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-36-26-10/bul@2026-04-17"/>
+          <FRBRdate date="2026-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-36-26-10/bul@2026-04-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-36-26-10/bul@2026-04-17.xml"/>
+          <FRBRdate date="2026-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-04-17" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 11 от 21 декември 2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или добавки към нея</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 5 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 думите „два лева“ се заменят с „две евро“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 2 думите „един лев“ се заменят с „едно евро“.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 септември 2026 г.</p>
+            <p>Министър на труда и социалната политика:  Хасан Адемов</p>
+            <p>Министър на здравеопазването:  Михаил Околийски</p>
+            <p>1817</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

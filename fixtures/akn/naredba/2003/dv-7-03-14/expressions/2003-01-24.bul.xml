@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-14"/>
+          <FRBRalias value="Наредба № 6 от 16 януари 2003 г. за идентификация на животните и регистрация на животновъдните обекти, в които те се отглеждат" name="short"/>
+          <FRBRalias value="Наредба № 6 от 16 януари 2003 г. за идентификация на животните и регистрация на животновъдните обекти, в които те се отглеждат" name="eli" other="/eli/bg/naredba/2003/dv-7-03-14"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-14/bul@2003-01-24/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-14/bul@2003-01-24"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-14/bul@2003-01-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-14/bul@2003-01-24.xml"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-24" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 6 от 16 януари 2003 г. за идентификация на животните и регистрация на животновъдните обекти, в които те се отглеждат</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I</num>
+        <heading>Общи положения</heading>
+        <article eId="sec_1__art_1">
+          <num>Чл. 1.</num>
+          <intro>
+            <p>С тази наредба се определят:</p>
+          </intro>
+          <point eId="sec_1__art_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>редът и начинът на идентифициране на едри преживни животни (ЕПЖ), дребни преживни животни (ДПЖ) и свине от всички възрастови групи, наричани „животни&amp;quot;;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>видът на ушните марки и кодовата система за маркиране;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>обмяната на информация за идентифицираните животни;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_1__pt_4">
+            <num>4.</num>
+            <content>
+              <p>редът и начините на регистрация на животновъдните обекти, в които се отглеждат животните.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_1__art_2">
+          <num>Чл. 2.</num>
+          <intro>
+            <p>Идентификацията на животните и регистрацията на животновъдните обекти се извършва за:</p>
+          </intro>
+          <point eId="sec_1__art_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>гарантиране на здравословното състояние на животните и безвредността на продуктите, получени от тях;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>контрол върху заразните болести, наличието на хормони и техногенни замърсители чрез проследяване произхода на животните;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>провеждане на държавната профилактична програма;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>прилагане на ограничителни мерки за ликвидиране на възникнали заразни болести.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_1__art_3">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Идентификацията на животните и регистрацията на животновъдните обекти се извършва от органите на Националната ветеринарномедицинска служба (НВМС) или от упълномощени от тях частнопрактикуващи ветеринарномедицински специалисти.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_4">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Главно управление на НВМС и регионалните ветеринарномедицински служби (РВМС) упражняват контрол на районните ветеринарни лечебници (РВЛ) и ветеринарните участъци (ВУ) и сравняват данните в регистрите им.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_5">
+          <num>Чл. 5.</num>
+          <intro>
+            <p>Кметовете на общини:</p>
+          </intro>
+          <point eId="sec_1__art_5__pt_1">
+            <num>1.</num>
+            <content>
+              <p>ежегодно до 31 януари изготвят списъци с имената на собствениците на животни, съдържащи вида, броя, пола и предназначението на животните;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_5__pt_2">
+            <num>2.</num>
+            <content>
+              <p>при издаване на свидетелство за собственост на животни вписват в него и регистрационния номер, под който животновъдният обект е регистриран в регистъра на съответната областна дирекция „Земеделие и гори&amp;quot;;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_5__pt_3">
+            <num>3.</num>
+            <content>
+              <p>предоставят информация по т. 1 и 2 на органите на НВМС при поискване;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_5__pt_4">
+            <num>4.</num>
+            <content>
+              <p>оказват съдействие на органите на НВМС при изпълнение на задачите, свързани с идентификацията на животните и регистрацията на животновъдните обекти.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_1__art_6">
+          <num>Чл. 6.</num>
+          <intro>
+            <p>Регионалната ветеринарномедицинска служба:</p>
+          </intro>
+          <point eId="sec_1__art_6__pt_1">
+            <num>1.</num>
+            <content>
+              <p>ръководи и контролира идентификацията на животните и регистрацията на животновъдните обекти на нейната територия;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_6__pt_2">
+            <num>2.</num>
+            <content>
+              <p>съхранява информацията, свързана с идентификацията на животните, здравния статус, придвижването и реализацията им и регистрацията на животновъдните обекти.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_1__art_7">
+          <num>Чл. 7.</num>
+          <content>
+            <p>Не се разрешава придвижване до пазари, кланици, изложби, състезания и други животновъдни обекти и населени места на неидентифицирани животни.</p>
+          </content>
+        </article>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел   II</num>
+        <heading>Ред и начин за извършване на идентификацията на животните</heading>
+        <article eId="sec_2__art_8">
+          <num>Чл.8.</num>
+          <paragraph eId="sec_2__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Животните се идентифицират с индивидуална жълта пластмасова ушна марка, която се поставя в средната третина на ухото на животното, а  ЕПЖ - и с индивидуален здравен ветеринарномедицински паспорт.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Едрите преживни животни се маркират с по една марка на всяко ухо на животното, като двете ушни марки съдържат еднаква гравирана идентификационна информация:</p>
+            </intro>
+            <point eId="sec_2__art_8__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>на първия ред - инициалите   „BG&amp;quot;   и кода на областта (от 01 до 28);</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>на втория ред - цифрите от 000 001 до 999 999, обозначаващи поредния номер на ЕПЖ (шест цифри).</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_3">
+            <num>(3)</num>
+            <intro>
+              <p>Дребните преживни животни се маркират с една марка на лявото ухо на животното, като ушната марка съдържа гравирана идентификационна информация:</p>
+            </intro>
+            <point eId="sec_2__art_8__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>на първия ред - инициалите   „BG&amp;quot;   и кода на областта (от 01 до 28) и знака   D;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>на втория ред - цифрите от 0 000 001 до 9 999 999, обозначаващи поредния номер на ДПЖ (седем цифри).</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_4">
+            <num>(4)</num>
+            <intro>
+              <p>Свинете се маркират с една марка на лявото ухо на животното, като ушната марка съдържа гравирана идентификационна информация:</p>
+            </intro>
+            <point eId="sec_2__art_8__al_4__pt_1">
+              <num>1.</num>
+              <content>
+                <p>на първия ред - инициалите   „BG&amp;quot;   и кода на областта (от 01 до 28) и знака   S;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_8__al_4__pt_2">
+              <num>2.</num>
+              <content>
+                <p>на втория ред - цифрите от 0 000 001 до 9 999 999, обозначаващи поредния номер на свинята (седем цифри).</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Идентификационният номер по ал. 2, 3 и 4 не се променя до смъртта на животното.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_8__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Номерата на ушните марки за всяка област се регистрират от НВМС.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_9">
+          <num>Чл. 9.</num>
+          <intro>
+            <p>Индивидуалните ушни марки отговарят на следните изисквания:</p>
+          </intro>
+          <point eId="sec_2__art_9__pt_1">
+            <num>1.</num>
+            <content>
+              <p>дълготрайност и надеждност - да се задържат през цялия живот на животното;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_9__pt_2">
+            <num>2.</num>
+            <content>
+              <p>да не дразнят тъканите на ухото;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_9__pt_3">
+            <num>3.</num>
+            <content>
+              <p>да са произведени по начин, недопускащ фалшифицирането им.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_2__art_10">
+          <num>Чл. 10.</num>
+          <paragraph eId="sec_2__art_10__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Доставката и разпределението на ушните марки за отделните области се осъществява от Главно управление (ГУ) на НВМС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Едрите преживни животни и дребните преживни животни се маркират до 20 дни след тяхното раждане, но при всички случаи преди да напуснат животновъдния обект, където са родени.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Прасетата се маркират след отбиването им, но при всички случаи преди да напуснат животновъдния обект, където са родени.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Не се разрешава отстраняването и повторната употреба на поставени индивидуални ушни марки.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Паднала или унищожена ушна марка се заменя с нова със същата информация.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_10__al_6">
+            <num>(6)</num>
+            <content>
+              <p>При смърт на животните марките се отстраняват, като се отрязват, без да се засяга целостта на ухото.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="sec_2__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Маркираните животни се регистрират в единна информационна система.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Информацията за регистрацията на животните във ВУ се подава от ветеринарния лекар на участъка до РВЛ и РВМС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_11__al_3">
+            <num>(3)</num>
+            <content>
+              <p>В компютърния център на ГУ на НВМС се събира, обработва и съхранява цялостната информация за идентификацията на животните и регистрацията на съответните животновъдни обекти в страната.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="sec_2__art_12__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>При маркиране на животните идентификационните номера по чл. 8, ал. 2, 3 и 4 се записват във:</p>
+            </intro>
+            <point eId="sec_2__art_12__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>регистъра на собственика;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>здравния ветеринарномедицински паспорт (при маркиране на ЕПЖ);</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>регистъра на ВУ;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>регистъра на РВЛ;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>регистъра на РВМС;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>компютърния регистър на ГУ на НВМС. (2) Регистрите по ал. 1 съдържат:</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_7">
+              <num>1.</num>
+              <content>
+                <p>номер на ушната марка;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_8">
+              <num>2.</num>
+              <content>
+                <p>дата на раждане на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_9">
+              <num>3.</num>
+              <content>
+                <p>дата на поставяне на ушната марка;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_10">
+              <num>4.</num>
+              <content>
+                <p>вид, пол и порода на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_11">
+              <num>5.</num>
+              <content>
+                <p>предназначение на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_12">
+              <num>6.</num>
+              <content>
+                <p>регистрационен номер на животновъдния обект;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_13">
+              <num>7.</num>
+              <content>
+                <p>трите имена, адрес и ЕГН на собственика на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_14">
+              <num>8.</num>
+              <content>
+                <p>ветеринарен участък, РВЛ и РВМС, на чиято територия се намира животновъдният обект;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_15">
+              <num>9.</num>
+              <content>
+                <p>трите имена и печат на ветеринарния лекар, поставящ ушната марка;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_16">
+              <num>10.</num>
+              <intro>
+                <p>информация при промяна на собственика:</p>
+              </intro>
+              <point eId="sec_2__art_12__al_1__pt_16__l_1">
+                <num>а)</num>
+                <content>
+                  <p>дата на промяната;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_12__al_1__pt_16__l_2">
+                <num>б)</num>
+                <content>
+                  <p>трите имена, адрес и ЕГН на новия собственик;</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_17">
+              <num>11.</num>
+              <content>
+                <p>при животни от внос - номера на ушната марка, с която животното е внесено;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_18">
+              <num>12.</num>
+              <content>
+                <p>дата на клане на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_1__pt_19">
+              <num>13.</num>
+              <content>
+                <p>дата, на която животното е умряло.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_12__al_2">
+            <num>(3)</num>
+            <content>
+              <p>Здравният ветеринарномедицински паспорт по ал. 1, т. 2 се издава от съответния ветеринарен лекар в рамките на 14 дни от известяването за раждането на ЕПЖ, а при внос на ЕПЖ - до 14 дни от неговото повторно маркиране.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_12__al_3">
+            <num>(4)</num>
+            <intro>
+              <p>Здравният ветеринарномедицински паспорт съдържа следната информация:</p>
+            </intro>
+            <point eId="sec_2__art_12__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>за какъв вид ЕПЖ се издава паспортът;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>трите имена, адрес и ЕГН на собственика;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>регистрационен номер на животновъдния обект;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_4">
+              <num>4.</num>
+              <content>
+                <p>номер на ушната марка на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_5">
+              <num>5.</num>
+              <intro>
+                <p>описание на животното:</p>
+              </intro>
+              <point eId="sec_2__art_12__al_3__pt_5__l_1">
+                <num>а)</num>
+                <content>
+                  <p>име (ако има);</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_12__al_3__pt_5__l_2">
+                <num>б)</num>
+                <content>
+                  <p>пол и порода;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_12__al_3__pt_5__l_3">
+                <num>в)</num>
+                <content>
+                  <p>възраст;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_12__al_3__pt_5__l_4">
+                <num>г)</num>
+                <content>
+                  <p>цвят на косъма;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_12__al_3__pt_5__l_5">
+                <num>д)</num>
+                <content>
+                  <p>предназначение на животното (развъждане, угояване);</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_6">
+              <num>6.</num>
+              <content>
+                <p>произход на животното (приплод, покупка);</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_7">
+              <num>7.</num>
+              <content>
+                <p>трите имена и печат на ветеринарния лекар, издал паспорта;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_8">
+              <num>8.</num>
+              <content>
+                <p>дата на издаване на паспорта;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_9">
+              <num>9.</num>
+              <content>
+                <p>ветеринарен участък, обслужван от ветеринарния лекар, издал паспорта;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_10">
+              <num>10.</num>
+              <content>
+                <p>здравословен статус на животното;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_12__al_3__pt_11">
+              <num>11.</num>
+              <content>
+                <p>информация за застраховка на животното.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="sec_2__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Управителят на кланицата или</p>
+              <p>упълномощено от него лице предава на обслужващия кланицата ветеринарен лекар по опис ушните марки на закланите животни заедно с ветеринарномедицинските свидетелства, с които са придвижени до кланицата, а за ЕПЖ и ветеринарномедицинския паспорт - не по-късно от 5 дни след клането.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Ветеринарният лекар връща в съответната РВМС марките и документите по ал.1 с приемателно-предавателен протокол.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_14">
+          <num>Чл. 14.</num>
+          <content>
+            <p>При наличие или съмнение за остро заразно заболяване ушните марки от умрелите или принудително убити животни се свалят от ветеринарния лекар, контролиращ участъка, който заедно с ветеринарномедицинските паспорти за ЕПЖ и информация за диагнозата ги изпраща в РВМС.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_15">
+          <num>Чл. 15.</num>
+          <content>
+            <p>Собственикът или управителят на екарисаж до 5 дни след получаване на трупове на животни с ушни марки предава марките по опис на РВМС.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_16">
+          <num>Чл. 16.</num>
+          <content>
+            <p>Чистопородните животни при необходимост се маркират и с допълнителна маркировка от органите на Изпълнителната агенция по селекция и репродукция в животновъдството.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_17">
+          <num>Чл. 17.</num>
+          <paragraph eId="sec_2__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Животните от внос запазват индивидуалната ушна марка, поставена в страната износител, като в срок до 20 дни от извършване на ветеринарните проверки при въвеждане на животните в страната те се маркират по реда на чл. 8.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Ушната марка, поставена в страната износител, се регистрира заедно с марката по чл. 8.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_18">
+          <num>Чл. 18.</num>
+          <paragraph eId="sec_2__art_18__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Собствениците на идентифицирани животни са длъжни да:</p>
+            </intro>
+            <point eId="sec_2__art_18__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>съхраняват регистъра по чл. 12, ал. 1, т. 1;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_18__al_1__pt_2">
+              <num>2.</num>
+              <intro>
+                <p>уведомяват съответния ветеринарен лекар за нанасяне на корекции в регистъра:</p>
+              </intro>
+              <point eId="sec_2__art_18__al_1__pt_2__l_1">
+                <num>а)</num>
+                <content>
+                  <p>за новозакупени животни - в тридневен срок от покупката;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_18__al_1__pt_2__l_2">
+                <num>б)</num>
+                <content>
+                  <p>за смърт или клане на животни - в тридневен срок от смъртта или клането, като предават ушните марки на животните и ветеринарномедицинските паспорти на ЕПЖ на ветеринарния лекар;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_18__al_1__pt_2__l_3">
+                <num>в)</num>
+                <content>
+                  <p>за новородените животни и датата на раждането  им - в  седемдневен срок;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_18__al_1__pt_2__l_4">
+                <num>г)</num>
+                <content>
+                  <p>за промяна на предназначението на животните - в седемдневен срок от промяната;</p>
+                </content>
+              </point>
+              <point eId="sec_2__art_18__al_1__pt_2__l_5">
+                <num>д)</num>
+                <content>
+                  <p>за продажба на животните - незабавно след продажбата;</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_2__art_18__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>предоставят регистъра по т. 1 за проверка от органите на НВМС.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_18__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При наличие на обстоятелства по ал. 1, т. 2 съответният ветеринарен лекар прави корекции на регистъра по чл. 12, ал. 2 и 3.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_3">
+        <num>Раздел III</num>
+        <heading>Регистрация на животновъдните обекти</heading>
+        <article eId="sec_3__art_19">
+          <num>Чл. 19.</num>
+          <paragraph eId="sec_3__art_19__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Животновъдните обекти, в които се отглеждат ЕПЖ, ДПЖ и свине, подлежат на регистрация във:</p>
+            </intro>
+            <point eId="sec_3__art_19__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>регистъра на собственика;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_19__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>регистъра на ВУ;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_19__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>регистъра на РВЛ;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_19__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>регистъра на РВМС;</p>
+              </content>
+            </point>
+            <point eId="sec_3__art_19__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>компютърния регистър на ГУ на НВМС.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_3__art_19__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Регистрирането на обекта по ал. 1 обхваща завеждането му на отчет под кодов регистрационен номер.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_19__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Кодовият регистрационен номер на обекта се състои от осем цифри и се образува от пощенския код на населеното място и поредния му номер при първоначалното му вписване в регистрите по ал. 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_19__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Кодовият регистрационен номер на обекта се дава еднократно и остава постоянен, независимо какви видове животни се регистрират в този обект.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_19__al_5">
+            <num>(5)</num>
+            <content>
+              <p>В регистрите по ал. 1 се отразява всяка промяна, като раждане на нови животни, предназначение, покупка, продажба, клане, смърт и др.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_20">
+          <num>Чл. 20.</num>
+          <content>
+            <p>Всички информационни данни се съхраняват за срок 3 години след прекратяване на дейността на животновъдния обект или продажба, клане, смърт и др. на отделно животно, отглеждано в обекта.</p>
+          </content>
+        </article>
+      </section>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>„Едри преживни животни&amp;quot; са говеда и биволи.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>„ Дребни преживни животни&amp;quot; са овце и кози.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 32, ал. 4 от Закона за ветеринарномедицинската дейност.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата отменя Наредба № 28 от 2002 г. за идентификация на свине и регистрация на свиневъдните обекти (ДВ, бр. 75 от 2002 г.) и Наредба № 41 от 2001 г. за идентификация на дребните преживни животни (овце и кози) (ДВ, бр. 101 от 2001 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на наредбата се възлага на генералния директор на НВМС.</p>
+            <p>Министър:    М. Дикме</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

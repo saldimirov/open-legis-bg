@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-28-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-28-08-6"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за митниците" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за митниците" name="eli" other="/eli/bg/zid/2008/dv-28-08-6"/>
+          <FRBRdate date="2008-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-28-08-6/bul@2008-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-28-08-6/bul@2008-03-14"/>
+          <FRBRdate date="2008-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-28-08-6/bul@2008-03-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-28-08-6/bul@2008-03-14.xml"/>
+          <FRBRdate date="2008-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-14" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за митниците</p>
+      <p>(обн., ДВ, бр. 15 от 1998 г.; изм., бр. 89 и 153 от 1998 г., бр. 30 и 83 от 1999 г., бр. 63 от 2000 г., бр. 110 от 2001 г., бр. 76 от 2002 г., бр. 37 и 95 от 2003 г., бр. 38 от 2004 г., бр. 45, 86, 91 и 105 от 2005 г., бр. 30 и 105 от 2006 г. и бр. 59 и  109 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 15 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 2, т. 11 след думите “Закона за Министерството на вътрешните работи” се добавя “и с органите на Държавна агенция “Национална сигурност” при условията и по реда на Закона за Държавна агенция “Национална сигурност”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Алинея 3 се изменя така: “(3) Условията и редът за взаимодействие между митническите органи и органите по ал. 2, т. 11 за предотвратяване и разкриване на митнически и валутни нарушения се уреждат със съвместни инструкции на министъра на финансите с министъра на вътрешните работи и с председателя на агенцията.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 16, ал. 1, т. 11 след думите “Министерството на вътрешните работи” се добавя “и на Държавна агенция “Национална сигурност”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

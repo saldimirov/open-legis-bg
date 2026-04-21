@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-73-06-7/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-73-06-7"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 14 от 2005 г. за технически правила и нормативи за проектиране, изграждане и ползване на обектите и съоръженията за производство, преобразуване, пренос и разпределение на електрическа енергия" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 14 от 2005 г. за технически правила и нормативи за проектиране, изграждане и ползване на обектите и съоръженията за производство, преобразуване, пренос и разпределение на електрическа енергия" name="eli" other="/eli/bg/naredba/2006/dv-73-06-7"/>
+          <FRBRdate date="2006-09-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-73-06-7/bul@2006-09-05/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-73-06-7/bul@2006-09-05"/>
+          <FRBRdate date="2006-09-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-73-06-7/bul@2006-09-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-73-06-7/bul@2006-09-05.xml"/>
+          <FRBRdate date="2006-09-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-09-05" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 14 от 2005 г. за технически правила и нормативи за проектиране, изграждане и ползване на обектите и съоръженията за производство, преобразуване, пренос и разпределение на електрическа енергия</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 138 се правят следните изменения и допълнения:</p>
+            <p>1. Създават се ал. 1 и 2 със следното съдържание:</p>
+            <p>“Чл. 138. (1) Местоположението на обектите по чл. 127, т. 2, 3, 4 и 5 извън границите на урбанизираните територии се определя въз основа на подробни устройствени планове, съответстващи на предвижданията на общите устройствени планове, ако има такива, и парцеларни планове, одобрени по реда на Закона за устройство на територията.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <intro>
+              <p>Площадките и/или трасетата на обектите по ал. 1, разположени върху земеделски земи, се определят по реда на чл. 27, ал. 2 и чл. 28 от Правилника за прилагане на Закона за опазване на земеделските земи.”</p>
+            </intro>
+            <point eId="sec_final__par_1__al_1__pt_1">
+              <num>2.</num>
+              <content>
+                <p>Алинеи 1, 2 и 3 стават съответно ал. 3, 4 и 5.</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>Създава се нов чл. 141а със следното съдържание:</p>
+            <p>“Чл. 141а. (1) Разстоянията между вятърните генератори се определят в зависимост от начина на разполагане върху терена (редово, кръгово и др.), от вида и мощността на турбините, от скоростта на вятъра, от тоположки, ландшафтни и други характеристики на терена при отчитане на климатичните въздействия и на информацията от техническите спецификации на производителите.</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Разстоянията по ал. 1 се определят чрез дължината на диаметъра на ротора на турбините (D), както следва:</p>
+              <p>L1 = от 5 до 7 пъти D по посоката на преобладаващия вятър, и</p>
+              <p>L2 = от 3 до 5 пъти D по посока, перпендикулярна на посоката на преобладаващия вятър.”</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В заключителните разпоредби се създава нов § 3а със следното съдържание:</p>
+            <p>“§ 3а. Изискванията на чл. 141а се прилагат за изграждане на вятърни централи, чието проектиране започва след влизане в сила на наредбата.”</p>
+            <p>Министър на регионалното развитие и благоустройството:  А. Гагаузов</p>
+            <p>Министър на икономиката и енергетиката:  Р. Овчаров</p>
+            <p>59764</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

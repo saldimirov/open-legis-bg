@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-43-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-43-06-6"/>
+          <FRBRalias value="Закон за изменение и допълнение на Валутния закон" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Валутния закон" name="eli" other="/eli/bg/zid/2006/dv-43-06-6"/>
+          <FRBRdate date="2006-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-43-06-6/bul@2006-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-43-06-6/bul@2006-05-26"/>
+          <FRBRdate date="2006-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-43-06-6/bul@2006-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-43-06-6/bul@2006-05-26.xml"/>
+          <FRBRdate date="2006-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-05-26" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Валутния закон</p>
+      <p>(обн., ДВ, бр. 83 от 1999 г.; изм., бр. 45 от 2002 г., бр. 60 от 2003 г., бр. 36 от 2004 г., бр. 105 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 3, ал. 1 след думата “закон” се добавя “както и лице, регистрирано като търговец по законодателството на държава - членка на Европейския съюз, или на друга държава - страна по споразумението за Европейското икономическо пространство” и се поставя запетая, а думата “публичен” се заменя с “публичния”.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

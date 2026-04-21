@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-26/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-26"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2007 г. за изискванията към дейността на инвестиционните посредници" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 38 от 2007 г. за изискванията към дейността на инвестиционните посредници" name="eli" other="/eli/bg/naredba/2009/dv-39-09-26"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-26/bul@2009-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-26/bul@2009-05-26"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-26/bul@2009-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-26/bul@2009-05-26.xml"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-26" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 38 от 2007 г. за изискванията към дейността на инвестиционните посредници</p>
+      <p>(обн., ДВ, бр. 67 от 2007 г.; изм. и доп., бр. 60 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 23 се създава ал. 3:</p>
+            <p>“(3) В общите условия или в договора с клиента се посочват и начините за уреждане на отношенията с клиента след прекратяване на договорните правоотношения, включително условията за прехвърляне на клиентските финансови инструменти в депозитарна институция, в съответствие с правилата на депозитарната институция, по подсметка на друго лице, посочено от клиента предварително или след прекратяване на договорните правоотношения в определен в общите условия или в договора срок, или по лична сметка на клиента, включително чрез откриване на нова сметка.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>При прекратяване на договорни правоотношения, възникнали преди влизане в сила на наредбата, между инвестиционен посредник и клиент, чиито финансови инструменти се водят по клиентска подсметка към инвестиционния посредник в Централния депозитар, ако в предоставения от инвестиционния посредник разумен срок клиентът не е посочил друг член на депозитаря, по подсметка на когото да бъдат прехвърлени финансовите инструменти, инвестиционният посредник има право да ги прехвърли по лична сметка на клиента, включително чрез откриване на нова сметка, по ред, определен в правилника на Централния депозитар.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата се издава на основание § 25 във връзка с чл. 34, ал. 5 и чл. 43 ЗПФИ и е приета с Решение № 113-Н от 11.05.2009 г. на Комисията за финансов надзор.</p>
+            <p>Председател:  Ап. Апостолов</p>
+            <p>6922</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

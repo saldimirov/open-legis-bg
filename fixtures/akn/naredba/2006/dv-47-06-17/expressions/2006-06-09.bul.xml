@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-17"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2005 г. за реда за възстановяване на 30 на сто от внесените осигурителни вноски от работодатели и специализираните предприятия, трудово-лечебни бази и кооперациите на хората с увреждания, членуващи в национално представителните организации на хора с увреждания и в национално представителните организации за хората с увреждания" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2005 г. за реда за възстановяване на 30 на сто от внесените осигурителни вноски от работодатели и специализираните предприятия, трудово-лечебни бази и кооперациите на хората с увреждания, членуващи в национално представителните организации на хора с увреждания и в национално представителните организации за хората с увреждания" name="eli" other="/eli/bg/naredba/2006/dv-47-06-17"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-17/bul@2006-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-17/bul@2006-06-09"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-47-06-17/bul@2006-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-47-06-17/bul@2006-06-09.xml"/>
+          <FRBRdate date="2006-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-09" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 4 от 2005 г. за реда за възстановяване на 30 на сто от внесените осигурителни вноски от работодатели и специализираните предприятия, трудово-лечебни бази и кооперациите на хората с увреждания, членуващи в национално представителните организации на хора с увреждания и в национално представителните организации за хората с увреждания</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 т. 2 се изменя така:</p>
+            <p>“2. документ, заверен от компетентната териториална дирекция на Националната агенция по приходи (НАП), удостоверяващ размера на внесените за негова сметка осигурителни вноски за държавното обществено осигуряване, задължително здравно осигуряване и допълнително задължително пенсионно осигуряване за наетите по трудово правоотношение хора с увреждания.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 1, т. 2 думите “териториалните поделения на Националния осигурителен институт” се заменят с “компетентната териториална дирекция на НАП”.</p>
+            <p>Министър:  Ем. Масларова</p>
+            <p>38773</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-10-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-10-04-26"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 30 от 1999 г. за износ и внос на левове и чуждестранна валута в наличност, благородни метали и скъпоценни камъни" name="short"/>
+          <FRBRalias value="Наредба за отменяне на Наредба № 30 от 1999 г. за износ и внос на левове и чуждестранна валута в наличност, благородни метали и скъпоценни камъни" name="eli" other="/eli/bg/naredba/2004/dv-10-04-26"/>
+          <FRBRdate date="2004-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-10-04-26/bul@2004-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-10-04-26/bul@2004-02-06"/>
+          <FRBRdate date="2004-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-10-04-26/bul@2004-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-10-04-26/bul@2004-02-06.xml"/>
+          <FRBRdate date="2004-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-06" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за отменяне на Наредба № 30 от 1999 г. за износ и внос на левове и чуждестранна валута в наличност, благородни метали и скъпоценни камъни</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

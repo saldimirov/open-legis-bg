@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-78-06-18/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-78-06-18"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 20 от 2006 г. за изискванията към дейностите, извършвани на всички етапи от събирането до обезвреждането на странични животински продукти и на продукти, получени от тях, както и тяхната употреба, пускане на пазара и транзитно преминаване" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 20 от 2006 г. за изискванията към дейностите, извършвани на всички етапи от събирането до обезвреждането на странични животински продукти и на продукти, получени от тях, както и тяхната употреба, пускане на пазара и транзитно преминаване" name="eli" other="/eli/bg/naredba/2006/dv-78-06-18"/>
+          <FRBRdate date="2006-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-78-06-18/bul@2006-09-26/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-78-06-18/bul@2006-09-26"/>
+          <FRBRdate date="2006-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-78-06-18/bul@2006-09-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-78-06-18/bul@2006-09-26.xml"/>
+          <FRBRdate date="2006-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-09-26" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 20 от 2006 г. за изискванията към дейностите, извършвани на всички етапи от събирането до обезвреждането на странични животински продукти и на продукти, получени от тях, както и тяхната употреба, пускане на пазара и транзитно преминаване</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 2 т. 6 се изменя така:</p>
+            <p>“6. кухненски отпадъци с изключение на кухненски отпадъци, предназначени за храна за животни или за употреба в предприятия за производство на биогаз или тор;”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4, ал. 2 в т. 4 думите “т. 5” се заменят с “т. 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В допълнителните разпоредби т. 17 се изменя така:</p>
+            <p>“17. “Компетентни власти” са органите на НВМС в Република България, които гарантират спазване на изискванията на тази наредба, или други органи, на които НВМС е делегирала такива правомощия, когато това е предвидено в закон.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>За министър:  Д. Пейчев</p>
+            <p>61716</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-110-04-1/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-110-04-1"/>
+          <FRBRalias value="Закон за медиацията" name="short"/>
+          <FRBRalias value="Закон за медиацията" name="eli" other="/eli/bg/zakon/2004/dv-110-04-1"/>
+          <FRBRdate date="2004-12-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-110-04-1/bul@2004-12-17/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-110-04-1/bul@2004-12-17"/>
+          <FRBRdate date="2004-12-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-110-04-1/bul@2004-12-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-110-04-1/bul@2004-12-17.xml"/>
+          <FRBRdate date="2004-12-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-12-17" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за медиацията</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ Приложно поле</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>Този закон урежда отношенията, свързани с медиацията като алтернативен способ за разрешаване на правни и неправни спорове.</p>
+            <p>Понятие за медиация</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Медиацията е доброволна и поверителна процедура за извънсъдебно разрешаване на спорове, при която трето лице - медиатор, подпомага спорещите страни да постигнат споразумение.</p>
+            <p>Предмет на медиацията</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_1__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Предмет на медиация могат да бъдат граждански, търговски, трудови, семейни и административни спорове, свързани с права на потребители, и други спорове между физически и/или юридически лица.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Медиация се провежда и в случаите, предвидени в Наказателно-процесуалния кодекс.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Медиация не се провежда, ако закон или друг нормативен акт предвижда друг ред за сключване на споразумение.</p>
+              <p>Организация на медиацията</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Медиацията се осъществява от физически лица. Тези лица могат да се сдружават с цел осъществяване на дейността. Лица, осъществяващи функции по правораздаване в системата на съдебната власт, не могат да извършват дейност по медиация.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>ПРИНЦИПИ НА МЕДИАЦИЯТА Доброволност и равнопоставеност</heading>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Страните имат равни възможности за участие в процедурата по медиация. Те участват в процедурата по своя воля и могат по всяко време да се оттеглят.</p>
+            <p>Неутралност и безпристрастност</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <paragraph eId="chap_2__art_6__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Медиаторът не проявява пристрастие и не налага решение по спора.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В процедурата по медиация всички въпроси се уреждат по взаимно съгласие на страните.</p>
+              <p>Поверителност</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_7">
+          <num>Чл. 7.</num>
+          <content>
+            <p>Разискванията във връзка със спора са поверителни. Участниците в процедурата по медиация са длъжни да пазят в тайна всички обстоятелства, факти и документи, които са им станали известни в хода на процедурата.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>ПРАВНО ПОЛОЖЕНИЕ НА МЕДИАТОРА Общи изисквания</heading>
+        <article eId="chap_3__art_8">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Медиатор може да бъде само дееспособно лице, което не е осъждано за престъпления от общ характер и е вписано в Единния регистър на медиаторите към министъра на правосъдието.</p>
+            <p>Правила за поведение на медиатора</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_3__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Медиаторът осъществява дейността си добросъвестно при спазване на закона, добрите нрави и процедурните и етичните правила за поведение на медиатора.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Медиаторът приема да води процедурата само ако може да гарантира своята независимост, безпристрастност и неутралност.</p>
+              <p>Задължения и отговорност на медиатора</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_10">
+          <num>Чл. 10.</num>
+          <paragraph eId="chap_3__art_10__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Медиаторът не може да дава правни съвети.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_2">
+            <num>(2)</num>
+            <content>
+              <p>По време на процедурата медиаторът е длъжен да се съобразява с мнението на всяка от страните по спора.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Медиаторът се оттегля от процедурата при възникване на обстоятелства, които биха породили съмнение в неговата независимост, безпристрастност и неутралност.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Медиаторът не може да съобщава на другите участници в процедурата обстоятелства, които се отнасят само до една от страните по спора, без нейното съгласие.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Медиаторът не отговаря, ако страните не постигнат споразумение.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Медиаторът не отговаря за неизпълнение на споразумението.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава четвърта</num>
+        <heading>ПРОЦЕДУРА ПО МЕДИАЦИЯ Откриване на процедурата</heading>
+        <article eId="chap_4__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="chap_4__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Процедурата по медиация започва по инициатива на страните по спора, като всяка от тях може да направи предложение за разрешаване на спора чрез медиация.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Предложение за разрешаване на спора чрез медиация може да направи и съдът или друг компетентен орган, пред който спорът е отнесен за решаване.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_11__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Съгласието на страните възможен бъдещ спор между тях да бъде разрешен чрез медиация може да бъде уговорено и като клауза от договор.</p>
+              <p>Участници</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="chap_4__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Процедурата по медиация се осъществява от един или повече медиатори, посочени от страните.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Страните по спора участват в процедурата лично или чрез представител.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_12__al_3">
+            <num>(3)</num>
+            <content>
+              <p>В процедурата по медиация могат да участват и адвокати, както и други специалисти.</p>
+              <p>Действия на медиатора</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="chap_4__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Преди провеждане на процедурата медиаторът информира страните за същността на медиацията и за нейните последици и изисква тяхното писмено или устно съгласие за участие.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Медиаторът е длъжен да посочи всички обстоятелства, които могат да породят в страните основателни съмнения относно неговата безпристрастност и неутралност.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_3">
+            <num>(3)</num>
+            <content>
+              <p>В хода на процедурата се изяснява същността на спора, уточняват се взаимноприемливи варианти на решения и се очертава възможната рамка на споразумение.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_4">
+            <num>(4)</num>
+            <content>
+              <p>При осъществяване на посочените дей&amp;shy;ствия медиаторът може да насрочва отделни срещи с всяка от страните при зачитане на равните им права за участие в процедурата.</p>
+              <p>Основания за спиране на процедурата</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="chap_4__art_14__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Медиацията се спира:</p>
+            </intro>
+            <point eId="chap_4__art_14__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>по общо съгласие на страните или по искане на една от страните;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_14__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>при смърт на медиатора;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_14__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>в случаите, предвидени в чл. 10, ал. 3.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_4__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Ако медиацията се провежда по време на висящо производство, страните незабавно уведомяват компетентния орган за спирането на процедурата.</p>
+              <p>Основания за прекратяване на процедурата</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="chap_4__art_15__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Процедурата по медиация се пре&amp;shy;кратява:</p>
+            </intro>
+            <point eId="chap_4__art_15__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>с постигането на споразумение;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>по взаимно съгласие на страните;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>при отказ на една от страните;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>при смърт на страна по спора;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>при прекратяване на юридическото лице - страна по спора.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_4__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Съгласието на страните за прекратяването на спора им трябва да бъде изразено ясно и недвусмислено.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_15__al_3">
+            <num>(3)</num>
+            <content>
+              <p>При прекратяване на процедурата по медиация висящото производство, което е било спряно, се възобновява в съответствие с разпоредбите на закона.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_5">
+        <num>Глава пета</num>
+        <heading>СПОРАЗУМЕНИЕ Форма и съдържание</heading>
+        <article eId="chap_5__art_16">
+          <num>Чл. 16.</num>
+          <content>
+            <p>Съдържанието и формата на споразумението се определят от страните. Формата може да бъде устна, писмена и писмена с нотариална заверка. Писменото споразумение съдържа мястото и датата, на която е било постигнато, имената на страните и техните адреси, за какво се съгласяват те, името на медиатора и подписите на страните.</p>
+            <p>Действие на споразумението</p>
+          </content>
+        </article>
+        <article eId="chap_5__art_17">
+          <num>Чл. 17.</num>
+          <paragraph eId="chap_5__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Споразумението обвързва само страните по спора и не може да се противопостави на лица, които не са участвали в процедурата.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Споразумението задължава страните само за това, за което са се договорили, и не може да противоречи на закона и морала.</p>
+              <p>ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ</p>
+              <p>РАЗПОРЕДБИ</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В срок 6 месеца от влизането в сила на закона министърът на правосъдието приема стандарти за обучение на медиатора, Процедурни и етични правила за поведение на медиатора и създава и поддържа Единен регистър на медиаторите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на закона се възлага на министъра на правосъдието.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

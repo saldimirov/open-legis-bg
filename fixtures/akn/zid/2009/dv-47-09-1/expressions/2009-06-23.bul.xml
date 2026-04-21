@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-1"/>
+          <FRBRalias value="Закон за допълнение на Закона за морските пространства, вътрешните водни пътища и пристанищата на Република България" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за морските пространства, вътрешните водни пътища и пристанищата на Република България" name="eli" other="/eli/bg/zid/2009/dv-47-09-1"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-1/bul@2009-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-1/bul@2009-06-23"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-1/bul@2009-06-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-1/bul@2009-06-23.xml"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-23" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за морските пространства, вътрешните водни пътища и пристанищата на Република България</p>
+      <p>(обн., ДВ, бр. 12 от 2000 г.; изм., бр. 111 от 2001 г., бр. 24 и 70 от 2004 г., бр. 11 от 2005 г.; Решение № 5 на Конституционния съд от 2005 г. - бр. 45 от 2005 г.; изм., бр. 87, 88, 94, 102 и 104 от 2005 г., бр. 30, 36, 43, 65, 99 и 108 от 2006 г., бр. 41, 54 и 109 от  2007 г., бр. 67, 71, 98 и 108 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В приложение № 1 в т. 3 след думата “Силистра” се добавя “Фериботен терминал - Силистра” и след думата “Свищов” се поставя запетая и се добавя “Фериботен терминал - Никопол”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В приложение № 2 се създават т. 30 и 31:</p>
+          <p>“30. Пристанище “Пристис”;</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>31.</num>
+          <content>
+            <p>Пристанище “Дръстър”.”</p>
+          </content>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

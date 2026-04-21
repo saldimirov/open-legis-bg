@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-9/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-9"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2002 г. за изискванията към използване на добавки в храните" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2002 г. за изискванията към използване на добавки в храните" name="eli" other="/eli/bg/naredba/2008/dv-45-08-9"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-9/bul@2008-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-9/bul@2008-05-13"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-9/bul@2008-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-9/bul@2008-05-13.xml"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-13" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 8 от 2002 г. за изискванията към използване на добавки в храните</p>
+      <p>(обн., ДВ, бр. 44 от 2002 г.; изм. и доп., бр. 3 от 2005 г., бр. 70 от   2007 г  .)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 14 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 6 думите “Е 128” се заличават.</p>
+            <p>2. Създават се ал. 8 и 9:</p>
+            <p>“(8) Не се разрешава влагането на оцветител Е 128 Червено 2G в храни.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(9)</num>
+            <content>
+              <p>Не се разрешава пускането на пазара и вносът на храни, съдържащи оцветител Е 128 Червено 2G.”</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 6, раздели А и Г, редът “Е 128” се заличава.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>С тази наредба се осигурява изпълнението на изискванията на Регламент (ЕО) № 884/2007 (ОВ L 195, 27.7.2007 г.) относно спешни мерки за спиране на употребата на Е 128 Червено 2G като оцветител.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Малотрайните колбаси и месните полуфабрикати за бургери, съдържащи оцветител Е 128 Червено 2G, които са пуснати на пазара преди влизането в сила на Регламент (ЕО) № 884/2007, могат да се продават при условията и в сроковете, определени в него.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Наредбата влиза в сила от датата на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>19237</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

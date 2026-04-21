@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-104-05-2/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-104-05-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за пътищата" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за пътищата" name="eli" other="/eli/bg/zakon/2005/dv-104-05-2"/>
+          <FRBRdate date="2005-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-104-05-2/bul@2005-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-104-05-2/bul@2005-12-27"/>
+          <FRBRdate date="2005-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-104-05-2/bul@2005-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-104-05-2/bul@2005-12-27.xml"/>
+          <FRBRdate date="2005-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-27" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за пътищата</p>
+      <p>(обн., ДВ., бр. 26 от 2000 г.; изм., бр. 88 от 2000 г., бр. 111 от 2001 г., бр. 47 и 118 от 2002 г., бр. 9 и 112 от 2003 г., бр. 6, 14 и 88 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 10 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 3, изречение първо след думите “посочени в този закон” се добавя “с изключение на моторните превозни средства, предназначени за превоз на товари с технически допустима максимална маса 12 и повече тона”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 6 изречение второ се изменя така: “За едно пътно превозно средство за един и същ пътен участък не могат да се събират едновременно такси по ал. 2 и 3.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10в изречение първо се изменя така: “Лице с 50 и над 50 на сто загубена работоспособност се освобождава от заплащане на винетна такса за един лек автомобил, негова собственост или съпружеска имуществена общност, с обем на двигателя до 1800 куб. см и мощност до 73,55 kW (100 к.с.).”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 10д:</p>
+            <p>“Чл. 10д. За колесни трактори, тракторни ремаркета и друга самоходна техника, регистрирана за работа съгласно Закона за регистрация и контрол на земеделската и горската техника, не се заплаща винетна такса.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

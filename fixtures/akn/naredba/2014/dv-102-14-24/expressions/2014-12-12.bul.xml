@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-24"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 5 от 2006 г. за техническите паспорти на строежите" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 5 от 2006 г. за техническите паспорти на строежите" name="eli" other="/eli/bg/naredba/2014/dv-102-14-24"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-24/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-24/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-24/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-24/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 5 от 2006 г. за техническите паспорти на строежите</p>
+      <p>(обн., ДВ, бр. 7 от 2007 г.; изм. и доп., бр. 38 от 2008 г. и бр. 22 от 2010 г.; изм., бр. 98 от 2011 г.; изм. и доп., бр. 2 и 80 от 2013 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-11"/>
+          <FRBRalias value="Наредба № 46 от 29 октомври 2003 г. за производство и търговия на семена от маслодайни и влакнодайни култури" name="short"/>
+          <FRBRalias value="Наредба № 46 от 29 октомври 2003 г. за производство и търговия на семена от маслодайни и влакнодайни култури" name="eli" other="/eli/bg/naredba/2003/dv-103-03-11"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-11/bul@2003-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-11/bul@2003-11-25"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-103-03-11/bul@2003-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-103-03-11/bul@2003-11-25.xml"/>
+          <FRBRdate date="2003-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-25" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 46 от 29 октомври 2003 г. за производство и търговия на семена от маслодайни и влакнодайни култури</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава     първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <paragraph eId="chap_1__art_1__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>С тази наредба се уреждат:</p>
+            </intro>
+            <point eId="chap_1__art_1__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>категориите семена от маслодайни и влакнодайни култури, които се произвеждат, серти-фицират и търгуват в страната;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>условията и редът за сертификация на семената;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>условията и редът за одобряване на търговските семена;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>полската инспекция;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>заготовката, опаковането и етикетирането на семената;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>вземането на проби и извършването на анализи;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_7">
+              <num>7.</num>
+              <content>
+                <p>проверка кълняемостта на семената;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_8">
+              <num>8.</num>
+              <content>
+                <p>последващото разфасоване на семена;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_9">
+              <num>9.</num>
+              <content>
+                <p>предлагането на пазара на сертифицирани и търговски семена;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_1__al_1__pt_10">
+              <num>10.</num>
+              <content>
+                <p>условията и редът за извършване на последващ контрол.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_1__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Наредбата се прилага за семената от маслодайни и влакнодайни култури, посочени в приложение № 1.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава     втора</num>
+        <heading>КАТЕГОРИИ СЕМЕНА ОТ МАСЛОДАЙНИ И ВЛАКНОДАЙНИ КУЛТУРИ</heading>
+        <article eId="chap_2__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Семената от маслодайните и влакнодайните култури се предлагат на пазара като предбазови, базови, сертифицирани, сертифицирани първо размножение, сертифицирани второ размножение, сертифицирани трето размножение и търговски.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_2__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Предбазовите семена се произвеждат по методи и схеми за поддържане на сорта, под контрола на лицето по чл. 26 от Закона за посевния и посадъчен материал (ЗППМ) или притежателя на сертификата.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Лицето по ал. 1 декларира писмено пред Изпълнителната агенция по сортоизпитване, апробация и семеконтрол (ИАСАС) използваните методи и схеми при производството на предбазови семена.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_3__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Предбазовите семена се предлагат на пазара, когато са сертифицирани по изискванията за базови.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_3__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Предбазовите семена, сертифицирани по изискванията за базови, са предназначени за производство на базови, сертифицирани, сертифицирани първо, второ и трето размножение.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="chap_2__art_4__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Базови семена се произвеждат от:</p>
+            </intro>
+            <point eId="chap_2__art_4__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>всички директни сортове при видовете маслодайни и влакнодайни култури;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_4__al_1__pt_2">
+              <num>2.</num>
+              <intro>
+                <p>родителски компоненти на хибридите, които са:</p>
+              </intro>
+              <point eId="chap_2__art_4__al_1__pt_2__l_1">
+                <num>а)</num>
+                <content>
+                  <p>базови семена от самоопрашени линии;</p>
+                </content>
+              </point>
+              <point eId="chap_2__art_4__al_1__pt_2__l_2">
+                <num>б)</num>
+                <content>
+                  <p>базови семена от прости хибриди.</p>
+                </content>
+              </point>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_2__art_4__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Базовите семена са предназначени за производството на категориите:</p>
+            </intro>
+            <point eId="chap_2__art_4__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>при директните сортове — на сертифицирани семена, сертифицирани първо размножение и по искане на лицето по чл. 3 — на сертифицирани второ и трето размножение;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_4__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>при хибридите — на сертифицирани семена.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_2__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Сертифицирани семена се произвеждат от: репица, кафяв синап, рапица, двудо-мен коноп, сафлор, черен синап, ким, слънчоглед, мак, бял синап, кимион и сусам.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Сертифицираните семена не са предназначени за производството на семена.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <paragraph eId="chap_2__art_6__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Сертифицираните семена първо размножение се произвеждат от: фъстъци, ед-нодомен коноп, лен, соя, памук и рицин.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Сертифицираните семена първо размножение са предназначени за производството на сертифицирани семена второ и трето размножение или за цели, различни от семепроизводство.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_7">
+          <num>Чл.7.</num>
+          <paragraph eId="chap_2__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Сертифицираните семена второ размножение се произвеждат от: фъстъци, лен, соя, памук, рицин и еднодомен коноп.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Сертифицираните семена второ размножение от лен са предназначени за производството на сертифицирани семена трето размножение.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Сертифицираните семена второ размножение от останалите култури са предназначени за цели, различни от семепроизводство.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_8">
+          <num>Чл. 8.</num>
+          <paragraph eId="chap_2__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Сертифицираните семена трето размножение се произвеждат от лен.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_8__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Сертифицираните семена трето размо-жение са предназначени за цели, различни от семепроизводството.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_2__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Търговски семена се произвеждат от видовете: фъстъци, кафяв синап, черен си-нап,бял синап, кимион, рицин и сусам.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_9__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Търговските семена:</p>
+            </intro>
+            <point eId="chap_2__art_9__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>се идентифицират само с вида;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_9__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>се одобряват от ИАСАС, че отговарят на изискванията на т.1 и на изискванията за посевни качества и здравно състояние.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава     трета</num>
+        <heading>СЕРТИфИКАЦИЯ НА СЕМЕНАТА</heading>
+        <section eId="chap_3__sec_1">
+          <num>Раздел   I</num>
+          <heading>Общи положения</heading>
+          <article eId="chap_3__sec_1__art_10">
+            <num>Чл. 10.</num>
+            <content>
+              <p>Изпълнителната агенция по сортоизпитване, апробация и семеконтрол сертифицира семената по чл. 3 — 8, които отговарят на изискванията на приложения №2, 3, 4 и 5 и методите за полска инспекция и лабораторни анализи за посевни качества и здравно състояние на семената, утвърдени от министъра на земеделието и горите.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_1__art_11">
+            <num>Чл. 11.</num>
+            <paragraph eId="chap_3__sec_1__art_11__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Сертификацията на семената се извършва въз основа на заявление по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_11__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Към заявлението се прилагат:</p>
+              </intro>
+              <point eId="chap_3__sec_1__art_11__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>скица на парцела за семепроизводство, заверена от областна (общинска) дирекция „Земеделие и гори&amp;quot; на МЗГ;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_11__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>документи за изходния материал (изходните семена);</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_11__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>писмена декларация на селекционера, че ще извършва методично ръководство на производството на базови и предбазови семена;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_1__art_11__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>разрешително, издадено от министъра на земеделието и горите, за производство на семена от коноп със съдържание на тетрахидроканабинол под 0,2 тегловни процента съгласно Наредба № 12 от 2001 г. за условията и реда за семепроизводство, отглеждане и внос на растения и семена от рода на конопа (канабис) със съдържание под 0,2 тегловни процента на тетрахидроканабинол и за внос и износ на семена от опиев мак (ДВ, бр. 44 от 2001 г.)-при подадена заявка за сертификация на семена от коноп.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_11__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Заявлението за сертификация се подава от лицата по чл. 28 ЗППМ в териториалното звено (ТЗ) на ИАСАС, в чийто район са площите за производство на сертифицирани семена.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_11__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Заявлението за сертификация се подава 30 дни след извършване на сеитбата и се регистрира в ТЗ в деня на получаването му.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_1__art_11__al_5">
+              <num>(5)</num>
+              <content>
+                <p>Инспекторите в ТЗ съставят досие на заявените за сертификация семена.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_3__sec_2">
+          <num>Раздел   II</num>
+          <heading>Полска инспекция</heading>
+          <article eId="chap_3__sec_2__art_12">
+            <num>Чл. 12.</num>
+            <content>
+              <p>Полска инспекция се извършва за установяване съответствието на посева с изискванията съгласно приложение  №2 и методите за полска инспекция, утвърдени от министъра на земеделието и горите.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_2__art_13">
+            <num>Чл. 13.</num>
+            <paragraph eId="chap_3__sec_2__art_13__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Полската инспекция се извършва от инспектори от ИАСАС и от инспектори по чл. 6 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_13__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Когато полската инспекция се извършва от инспектор по чл. 6 ЗППМ, към заявлението за сертификация се прилага договор, сключен между инспектора и заявителя.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_14">
+            <num>Чл. 14.</num>
+            <paragraph eId="chap_3__sec_2__art_14__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Инспекторите на ИАСАС извършват полска инспекция на всички категории семена.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_14__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Полски инспектори по чл. 6 ЗППМ могат да извършват полска инспекция на категориите: сертифицирани семена, сертифицирани семена първо, второ и трето размножение.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_14__al_3">
+              <num>(3)</num>
+              <content>
+                <p>При необходимост здравното състояние на посева може да се установи и от представител на Националната служба за растителна защита (НСРЗ).</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_15">
+            <num>Чл. 15.</num>
+            <content>
+              <p>Изпълнителната агенция по сорто-изпитване, апробация и семеконтрол контролира извършването на полска инспекция от инспекторите по чл. 6 ЗППМ.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_2__art_16">
+            <num>Чл. 16.</num>
+            <paragraph eId="chap_3__sec_2__art_16__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Полската инспекция се извършва, когато посевът има добре развити сортови признаци, позволяващи да се установи съответствието му с изискванията по чл. 12.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_16__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Полската инспекция се извършва чрез прегледи на посевите.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_16__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Заявителят е длъжен да уведоми ТЗ на ИАСАС, в което е подал заявлението за серти-фикация, 7 дни преди настъпване на съответната фаза на развитие на културата за извършване на преглед.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_17">
+            <num>Чл. 17.</num>
+            <paragraph eId="chap_3__sec_2__art_17__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Резултатите от полската инспекция се отразяват в акт за полска инспекция по образец, утвърден от изпълнителния директор</p>
+                <p>на ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_17__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Актът се издава от инспектора, извършил полската инспекция, в тридневен срок от последния преглед на полето.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_17__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Актът за полска инспекция се съставя в три екземпляра. Единият екземпляр се предоставя на заявителя, вторият се добавя към досието по чл. 11, ал. 5, а третият се съхранява в ТЗ на ИАСАС или от инспектора по чл. 6 ЗППМ, когато полската инспекция е извършена от него.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_18">
+            <num>Чл. 18.</num>
+            <content>
+              <p>Актът за полска инспекция на хибридни семена се издава само ако резултатите от последващ контрол на родителските компоненти показват, че всеки родителски компонент отговаря на изискванията за съответната категория, посочени в методите за последващ контрол, утвърдени от министъра на земеделието и горите.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_2__art_19">
+            <num>Чл. 19.</num>
+            <paragraph eId="chap_3__sec_2__art_19__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато резултатите от извършен преглед показват несъответствие на посева с изискванията по чл. 12, но тези несъответствия могат да бъдат отстранени, инспекторът определя срок за отстраняването им.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_19__al_2">
+              <num>(2)</num>
+              <content>
+                <p>След изтичане на срока инспекторът извършва повторен преглед в същата фаза на развитие на културата, за който заявителят заплаща такса, определена с тарифата по ЗППМ.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_20">
+            <num>Чл. 20.</num>
+            <paragraph eId="chap_3__sec_2__art_20__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато резултатите от полската инспекция покажат несъответствие на посева с изискванията по чл. 12 и несъответствията не могат да бъдат отстранени или повторният преглед покаже, че не са отстранени, инспекторът писмено уведомява заявителя.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_20__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Посевът се бракува или със съгласието на заявителя се категоризира от инспектора в по-ниска категория, ако отговаря на изискванията по чл. 12 за нея. Бракуването или категоризирането на посева в по-ниска категория се отразява в акта за полска инспекция и се подписва от заявителя.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_2__art_21">
+            <num>Чл. 21.</num>
+            <paragraph eId="chap_3__sec_2__art_21__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато заявителят не е съгласен с резултатите от извършен преглед, той може в срок до 5 дни от тяхното получаване да поиска арбитражен преглед.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_21__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Арбитражният преглед се извършва от комисия, определена със заповед на изпълнителния директор на ИАСАС, в присъствието на инспектора, извършил полската инспекция, и заявителя или упълномощено от него лице.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_21__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Забранява се производителят да извършва допълнителни манипулации в посева между последния преглед и арбитражния преглед.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_2__art_21__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Резултатът от арбитражния преглед е окончателен. Когато резултатът от арбитражния преглед потвърди заключението на акта за полска инспекция, заявителят заплаща такса съгласно тарифата по ЗППМ.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_3__sec_3">
+          <num>Раздел   III</num>
+          <heading>Заготовка на семената</heading>
+          <article eId="chap_3__sec_3__art_22">
+            <num>Чл. 22.</num>
+            <paragraph eId="chap_3__sec_3__art_22__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Произведените семена от посевите, за които има издаден акт за полска инспекция, се почистват и се оформят в хомогенни партиди.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_3__art_22__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Xомогенните партиди имат максимални размери в зависимост от вида култура съгласно приложение  №4 и се опаковат в опаковки с нетно тегло или брой семена, определени от заявителя.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_3__sec_4">
+          <num>Раздел IV</num>
+          <heading>Опаковане и етикетиране на семената</heading>
+          <article eId="chap_3__sec_4__art_23">
+            <num>Чл. 23.</num>
+            <paragraph eId="chap_3__sec_4__art_23__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Семената се опаковат в хартиени, синтетични, метални или в други опаковки от естествени материали.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_23__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>В зависимост от начина на затварянето им опаковките могат да бъдат:</p>
+              </intro>
+              <point eId="chap_3__sec_4__art_23__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>машинно зашити;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_23__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>затварящи се чрез топло залепване;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_23__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>метални или синтетични със затваряне, съответстващо на вида материал.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_4__art_24">
+            <num>Чл. 24.</num>
+            <paragraph eId="chap_3__sec_4__art_24__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Върху външната страна на опаковката на семената, предназначени за серти-фицикация, задължително се поставя етикет, издаден от ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_24__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Етикетът се изработва от устойчив на късане или самозалепващ се материал с размери 114   mm   х 70   mm.</p>
+                <p>Чл. 25   .(1) Етикетът съдържа данните, посочени в приложение № 6, изписани на български език. Данните се отпечатват по начин, който не позволява тяхното заличаване.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_24__al_3">
+              <num>(2)</num>
+              <content>
+                <p>При етикетиране на генетично модифицирани сортове на етикета се отбелязва, че този сорт е генетично модифициран.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_24__al_4">
+              <num>(3)</num>
+              <content>
+                <p>Всички химически третирания на семената се посочват на етикета. Разрешените препарати се отбелязват на етикета с тяхното търговско наименование за употреба в страната.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_4__art_25">
+            <num>Чл. 26.</num>
+            <paragraph eId="chap_3__sec_4__art_25__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>В зависимост от категорията на семената етикетът е:</p>
+              </intro>
+              <point eId="chap_3__sec_4__art_25__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>бял с диагонална виолетова ивица — за предбазови семена;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_25__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>бял — за базови семена;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_25__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>син — за сертифицирани семена и за сертифицирани семена първо размножение;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_25__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>червен — за сертифицирани семена второ и трето размножение.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_25__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>В зависимост от начина на поставяне етикетът е:</p>
+              </intro>
+              <point eId="chap_3__sec_4__art_25__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>зашит за опаковката;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_25__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>самозалепващ се;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_25__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>поставен в опаковката, ако тя е прозрачна и етикетът може да бъде прочетен.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_4__art_26">
+            <num>Чл. 27.</num>
+            <content>
+              <p>Опаковките на семената се затварят и етикетите се поставят по такъв начин, че при отваряне да се наруши целостта на запечатването или да останат следи върху опаковката и при подмяна или подправяне на етикета да останат следи.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_4__art_27">
+            <num>Чл. 28.</num>
+            <paragraph eId="chap_3__sec_4__art_27__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Преди да се извърши опаковането и етикетирането на семената, заявителят отправя писмено искане за етикети до ТЗ на ИАСАС, на чиято територия се намират семената, в което се посочват: големината и броят на партидите, нетното тегло и броят на семената в опаковките и тяхното местонахождение.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_27__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Въз основа на искането заявителят получава съответния брой етикети с идентификационните номера на партидите.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_27__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Искането се добавя към попълненото до този момент досие.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_4__art_28">
+            <num>Чл. 29.</num>
+            <content>
+              <p>Заявителят е длъжен да върне на ТЗ на ИАСАС, издало етикетите, останалите неизползвани етикети. Този факт се отбелязва в досието.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_4__art_29">
+            <num>Чл. 30.</num>
+            <paragraph eId="chap_3__sec_4__art_29__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Забранява се отварянето на опаковките без разрешение на ИАСАС освен при:</p>
+              </intro>
+              <point eId="chap_3__sec_4__art_29__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>презаготовка на семената преди сертифи-цирането им;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_29__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>допълнителни растителнозащитни третирания на семената;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_4__art_29__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>последващо разфасоване.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_29__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Етикетите на отворените опаковки се</p>
+                <p>връщат в ТЗ на ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_29__al_3">
+              <num>(3)</num>
+              <content>
+                <p>В случаите по ал. 1 заявителят подава писмено искане за нови етикети до ТЗ на ИАСАС, на чиято територия се намират семената.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_4__art_29__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Връщането на етикетите и искането за нови се отбелязва в досието.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_3__sec_5">
+          <num>Раздел   V</num>
+          <heading>Вземане на проби</heading>
+          <article eId="chap_3__sec_5__art_30">
+            <num>Чл. 31.</num>
+            <paragraph eId="chap_3__sec_5__art_30__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Проби за лабораторни анализи и последващ контрол се вземат от партиди след заготовка съгласно чл. 22.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_30__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Проби за извършване на контролни анализи се вземат при съхранението на семената и при предлагането им на пазара.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_30__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Вземане на проби може да се извършва и при презаготовка.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_31">
+            <num>Чл. 32.</num>
+            <paragraph eId="chap_3__sec_5__art_31__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Вземането на проби се извършва от длъжностно лице—пробовземач, упълномощено от изпълнителния директор на ИАСАС, по методи, утвърдени от министъра на МЗГ, съгласно чл. 31, ал. 6 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_31__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Проби се вземат в присъствието на заявителя или негов представител.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_32">
+            <num>Чл. 33.</num>
+            <paragraph eId="chap_3__sec_5__art_32__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>Пробовземачът взема изходна проба, от която формира шест средни проби. Средните проби са с размери съгласно приложение  №4 и служат за:</p>
+              </intro>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>анализ за кълняемост и аналитична чистота;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>анализ за влага;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>здравен анализ—за културите по приложение № 5;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>последващ контрол;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_5">
+                <num>5.</num>
+                <content>
+                  <p>съхранение в ТЗ на ИАСАС;</p>
+                </content>
+              </point>
+              <point eId="chap_3__sec_5__art_32__al_1__pt_6">
+                <num>6.</num>
+                <content>
+                  <p>заявителя-по негово искане.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_32__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Пробата по ал. 1, т. 5 се съхранява до изтичане срока на действие на сертификата и се ползва при необходимост от допълнителни изпитвания, включително за арбитражни анализи.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_33">
+            <num>Чл. 34.</num>
+            <paragraph eId="chap_3__sec_5__art_33__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Пробовземачът изготвя протокол за взетите проби по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_33__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Протоколът се подписва от пробовзема-ча и от заявителя или от упълномощено от него лице и се прилага към досието.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_34">
+            <num>Чл.35.</num>
+            <paragraph eId="chap_3__sec_5__art_34__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Пробовземъчът изпраща в 3-дне-вен срок взетите проби с екземпляр от протокола за лабораторни анализи и последващ контрол.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_34__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Взетите проби се използват само за целите на лабораторни изпитвания и последващ контрол. Остатъчните количества не се връщат на заявителя.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_35">
+            <num>Чл. 36.</num>
+            <paragraph eId="chap_3__sec_5__art_35__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато заявителят иска да провери посевните качества на семената, преди окончателната им заготовка може да вземе проби от тях за лабораторен анализ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_5__art_35__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Лабораторните анализи се извършват в лаборатория на ИАСАС или в лаборатория по чл. 7 ЗППМ, като резултатите важат само за представената проба.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_5__art_36">
+            <num>Чл. 37.</num>
+            <content>
+              <p>Разходите по изпращането на пробите за лабораторни анализи в съответната лаборатория и в ТЗ за грунтов контрол са за сметка на заявителя.</p>
+            </content>
+          </article>
+        </section>
+        <section eId="chap_3__sec_6">
+          <num>Раздел VI</num>
+          <heading>Лабораторни анализи за посевни качества и здравно състояние</heading>
+          <article eId="chap_3__sec_6__art_37">
+            <num>Чл. 38.</num>
+            <paragraph eId="chap_3__sec_6__art_37__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Взетите проби семена се изследват за посевни качества-аналитична чистота, кълняемост и влага, в лаборатория на ИАСАС или лаборатория по чл. 7 ЗППМ, одобрена за извършване на анализи на маслодайни и влакнодайни култури.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_37__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Взетите проби семена се изследват за здравно състояние за културите по приложение  №5 в лаборатория на    НсРЗ   или в лаборатория по чл. 8 ЗППМ.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_6__art_38">
+            <num>Чл. 39.</num>
+            <content>
+              <p>Лабораторните анализи се извършват по методи, утвърдени от министъра на земеделието и горите, съгласно чл. 31, ал. 8 и 9 ЗППМ.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_6__art_39">
+            <num>Чл. 40.</num>
+            <paragraph eId="chap_3__sec_6__art_39__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Лабораторията, извършила анализа, издава документ за резултатите от него по образец, утвърден от изпълнителния директор на ИАСАС/генералния директор на НСРЗ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_39__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Документът се съставя в три екземпяра: един за лабораторията, един за ТЗ на ИАСАС, взело пробите, и един за заявителя.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_39__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Документът се издава в 3-дневен срок след приключване на лабораторния анализ.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_6__art_40">
+            <num>Чл. 41.</num>
+            <content>
+              <p>Когато резултатите от лабораторните анализи показват, че семената отговарят на изискванията за посевни качества или здравно състояние, семената могат да бъдат предлагани на пазара.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_6__art_41">
+            <num>Чл. 42.</num>
+            <paragraph eId="chap_3__sec_6__art_41__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато резултатите от лабораторните анализи показват, че семената не отговарят на изискванията за посевни качества или здравно състояние, лабораторията, извършила анализа, писмено уведомява заявителя и ТЗ, взело пробите.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_41__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Забранява се предлагането на пазара на семената по ал. 1. Заявителят е длъжен да върне издадените етикети в ТЗ на ИАСАС.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_41__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Семената, които не отговарят на изискванията за кълняемост, се предлагат на пазара само след разрешение от министъра на земеделието и горите или упълномощено от него длъжностно лице по чл. 39 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_41__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Заявителят може да отстрани отклоненията от изискванията за кълняемост на семената чрез смесване със семена от други партиди от същия вид, сорт и размножение.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_6__art_42">
+            <num>Чл. 43.</num>
+            <content>
+              <p>Заявителят може да отстрани отклоненията от изискванията за посевни качества и здравно състояние на семената чрез презаготовка, след която се извършва последващ анализ.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_6__art_43">
+            <num>Чл. 44.</num>
+            <paragraph eId="chap_3__sec_6__art_43__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Ако не е съгласен с резултатите от лабораторните анализи за посевни качества на семената или здравно състояние, заявителят може да подаде заявление до изпълнителния директор на ИАСАС или до генералния директор на НСРЗ за арбитражен лабораторен анализ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_43__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Арбитражният анализ се извършва в Централната лаборатория на ИАСАС или в Централната лаборатория по карантина на растенията на НСРЗ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_43__al_3">
+              <num>(3)</num>
+              <content>
+                <p>За целите на арбитражния анализ се извършва ново вземане на проба.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_6__art_43__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Когато арбитражният анализ потвърди резултатите от първия лабораторен анализ, заявителят заплаща такса съгласно тарифа по ЗППМ.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_3__sec_7">
+          <num>Раздел   VII</num>
+          <heading>Ред за издаване на сертификат</heading>
+          <article eId="chap_3__sec_7__art_44">
+            <num>Чл. 45.</num>
+            <paragraph eId="chap_3__sec_7__art_44__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Сертификатът се издава от длъжностно лице, упълномощено от изпълнителния директор на ИАСАС, в 5-дневен срок от приключване на лабораторните анализи.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_3__sec_7__art_44__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Сертификатът се издава в 2 екземпляра-един за заявителя и един за ТЗ на ИАСАС, взело пробите.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_3__sec_7__art_45">
+            <num>Чл. 46.</num>
+            <content>
+              <p>Сертификатите на семената от всички категории маслодайни и влакнодайни култури имат срок на валидност една година от датата на издаването им.</p>
+            </content>
+          </article>
+          <article eId="chap_3__sec_7__art_46">
+            <num>Чл. 47.</num>
+            <content>
+              <p>Сертифицирането на семена от самоопрашени линии и хибриди слънчоглед се извършва след получаване на резултатите от електрофореза или други специфични тестове.</p>
+            </content>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава     четвърта</num>
+        <heading>ТЪРГОВСКИ СЕМЕНА</heading>
+        <article eId="chap_4__art_47">
+          <num>Чл. 48.</num>
+          <paragraph eId="chap_4__art_47__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Производителите на търговски семена подават в ТЗ на ИАСАС заявление за одобрение на търговските семена по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_47__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Заявлението се регистрира в деня на получаването му и за семената се съставя досие.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_48">
+          <num>Чл. 49.</num>
+          <paragraph eId="chap_4__art_48__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Произведените търговски семена се почистват и оформят в хомогенни партиди с максимални размери в зависимост от вида култура съгласно приложение № 4.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_48__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Заготовката, опаковането и етикетирането на търговските семена се извършва при спазване разпоредбите на глава 3, раздели III и IV.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_48__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Етикетът на търговските семена е кафяв на цвят и съдържа информацията, посочена в приложение № 6.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_49">
+          <num>Чл. 50.</num>
+          <content>
+            <p>Вземането на проби от заготвени партиди търговски семена за лабораторни анализи за посевни качества и/или здравен анализ се извършва при условията на глава трета, раздел V, с изключение на чл. 33, ал. 1, т. 4.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_50">
+          <num>Чл. 51.</num>
+          <content>
+            <p>Лабораторните анализи за посевни качества и/или здравен анализ на търговските семена се извършват при условията на глава трета, раздел   VI.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_51">
+          <num>Чл. 52.</num>
+          <paragraph eId="chap_4__art_51__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За търговските семена, отговарящи на условията по чл. 48 — 51, се издава документ по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_51__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Документът се издава от упълномощено от изпълнителния директор на ИАСАС лице в 5-дневен срок след приключване на лабораторните анализи.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_51__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Документът се издава в два екземпля-ра—един за заявителя и един за ТЗ на ИАСАС, взело пробите.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_51__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Документът има срок на валидност една година от датата на издаване.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_5">
+        <num>Глава     пета</num>
+        <heading>ПОСЛЕДВАЩО РАЗФАСОВАНЕ, ОПАКОВАНЕ И ЕТИКЕТИРАНЕ</heading>
+        <article eId="chap_5__art_52">
+          <num>Чл. 53.</num>
+          <paragraph eId="chap_5__art_52__al_1">
+            <num>(1)</num>
+            <content>
+              <p>При последващо разфасоване, опаковане и етикетиране на количества семена от партида, за която има издаден сертификат (документ за търговските семена), притежателят на сертификата/документа или търговецът подава заявление в ТЗ на ИАСАС, на чиято територия се намират семената. Към заявлението се прилага копие на сертификата/ документа.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_52__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Заявителят връща етикетите на опаковките, подлежащи на разфасоване, и получава нови.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_52__al_3">
+            <num>(3)</num>
+            <content>
+              <p>След приключването на последващото разфасоване заявителят уведомява ТЗ на ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_52__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Упълномощено от изпълнителния директор на ИАСАС длъжностно лице проверява на място извършената разфасовка.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_52__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Лицето по ал. 4 нанася в сертификата извършените промени и ги заверява с официален печат.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_52__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Разходите за присъствие на длъжностното лице са за сметка на заявителя.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_53">
+          <num>Чл. 54.</num>
+          <content>
+            <p>Когато при разфасоването на количества семена от партида останат семена в отделната опаковка, за която няма заявен етикет, длъжностното лице я запечатва.Тези семена не могат да се търгуват, но могат да се разфасоват по реда на тази глава.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_6">
+        <num>Глава     шеста</num>
+        <heading>ПРЕДЛАГАНЕ НА ПАЗАРА НА СЕМЕНА   ОТ МАСЛОДАЙНИ И ВЛАКНОДАЙНИ   КУЛТУРИ</heading>
+        <section eId="chap_6__sec_1">
+          <num>Раздел   I</num>
+          <heading>Внос на семена</heading>
+          <article eId="chap_6__sec_1__art_54">
+            <num>Чл. 55.</num>
+            <paragraph eId="chap_6__sec_1__art_54__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Изпълнителната агенция по сортоизпитване, апробация и семеконтрол проверява съответствието на семената от внос с посоченото в документите по чл. 57, ал. 2 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_54__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>За проверка на съответствието по ал. 1 пробовземач, определен от ИАСАС, взема изходна проба, от която оформя средни проби по методи, утвърдени от министъра на МЗГ. Средните проби се използват за:</p>
+              </intro>
+              <point eId="chap_6__sec_1__art_54__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>извършване на лабораторен анализ за посевни качества;</p>
+                </content>
+              </point>
+              <point eId="chap_6__sec_1__art_54__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>извършване на лабораторни анализи за здравно състояние;</p>
+                </content>
+              </point>
+              <point eId="chap_6__sec_1__art_54__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>извършване на грунтов контрол, с изключение на търговските семена;</p>
+                </content>
+              </point>
+              <point eId="chap_6__sec_1__art_54__al_2__pt_4">
+                <num>4.</num>
+                <content>
+                  <p>за съхранение с цел контрол.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_6__sec_1__art_55">
+            <num>Чл. 56.</num>
+            <paragraph eId="chap_6__sec_1__art_55__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Пробовземачът изготвя протокол за взетите проби по реда на глава трета, раздел V.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_55__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Разходите по изпращането на пробите в Централната лаборатория на ИАСАС/НСРЗ и в ТЗ за грунтов контрол са за сметка на вносителя.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_6__sec_1__art_56">
+            <num>Чл. 57.</num>
+            <paragraph eId="chap_6__sec_1__art_56__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Пробите за лабораторен анализ се изследват в Централната лаборатория на ИАСАС/НСРЗ по методи съгласно чл. 31, ал. 8 и 9 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_56__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Забранява се предлагането на пазара и използването в страната на семената от внос до получаването на резултатите от лабораторните анализи.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_6__sec_1__art_57">
+            <num>Чл. 58.</num>
+            <paragraph eId="chap_6__sec_1__art_57__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато резултатите от лаботор-ните анализи показват, че семената отговарят на изискванията на приложения № 3 и 5, длъжностно лице, определено от изпълнителния директор на ИАСАС, издава документ за търговия в страната съгласно чл. 58, ал. 9 ЗППМ. Документът се издава в 3-дневен срок от приключване на лабораторните анализи.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_57__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Документът за търговия на семената от категориите сертифицирани семена се издава, без да се изчаква резултатът от грунтов контрол.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_57__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Документът за търговия на семената от внос има срок на действие една година от датата на издаването му.</p>
+                <p>Чл. 59   .(1) Когато резултатите от лабораторните анализи показват, че семената не отговарят на изискванията на приложения № 3 и 5, Централната лаборатория на ИАСАС/НСРЗ писмено уведомява вносителя и ТЗ, на територията на което се намират семената.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_57__al_4">
+              <num>(2)</num>
+              <content>
+                <p>В уведомлението се посочват изискванията, на които семената не отговарят, за да бъдат търгувани в страната.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_1__art_57__al_5">
+              <num>(3)</num>
+              <content>
+                <p>Семената се изнасят от страната или се унищожават.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_6__sec_1__art_58">
+            <num>Чл. 60.</num>
+            <content>
+              <p>Семената от внос, с издаден документ за търговия, се търгуват с опаковките и етикетите, с които са внесени в страната, и допълнително поставен етикет върху всяка опаковка, съдържащ данните от официалния етикет на опаковката на български език. Етикетът се поставя върху опаковката по начин, който гарантира сигурността на системата на опаковане, при условията на глава трета, раздел   IV.</p>
+            </content>
+          </article>
+        </section>
+        <section eId="chap_6__sec_2">
+          <num>Раздел   II</num>
+          <heading>Документи за търговия в страната</heading>
+          <article eId="chap_6__sec_2__art_59">
+            <num>Чл. 61.</num>
+            <paragraph eId="chap_6__sec_2__art_59__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Семената от маслодайните и влакнодайните култури се търгуват с ясно и четливо копие на сертификата/документа, върху което е поставен печат и подпис на търговеца по чл. 28, ал. 4 ЗППМ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_2__art_59__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Върху копието се изписват данните на купувача и продавача, количеството продадени семена и датата на продажбата.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_2__art_59__al_3">
+              <num>(3)</num>
+              <content>
+                <p>фактите по ал. 2 се записват в книгата по чл. 62, ал. 1 ЗППМ. Търговецът се подписва срещу всеки запис в книгата.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_2__art_59__al_4">
+              <num>(4)</num>
+              <content>
+                <p>Изпълнителната агенция по сортоизпит-ване, апробация и семеконтрол контролира воденето на книгата за продажби на семената.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_2__art_59__al_5">
+              <num>(5)</num>
+              <content>
+                <p>Когато предмет на търговията е цялата партида, оригиналът на сертификата/документа става притежание на купувача.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_6__sec_3">
+          <num>Раздел   III</num>
+          <heading>Документи за износ</heading>
+          <article eId="chap_6__sec_3__art_60">
+            <num>Чл. 62.</num>
+            <paragraph eId="chap_6__sec_3__art_60__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Износът на всички категории сертифицирани семена се извършва със сертификат по чл. 32, ал. 1 ЗППМ или   ISTA   сертификат.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_3__art_60__al_2">
+              <num>(2)</num>
+              <content>
+                <p>За издаване на   ISTA   сертификат износителите на семена подават в Централната лаборатория на ИАСАС заявление по образец.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_3__art_60__al_3">
+              <num>(3)</num>
+              <content>
+                <p>За издаване на   ISTA   сертификат се извършва пробовземане по реда на глава трета, раздел   V.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_6__sec_3__art_61">
+            <num>Чл.63.</num>
+            <paragraph eId="chap_6__sec_3__art_61__al_1">
+              <num>(1)</num>
+              <content>
+                <p>ОЕСО сертификат за износ на семена се издава за семена от сортовете, включени в листата на ОЕСВ за сертифициране по методите и схемите на ОЕСВ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_6__sec_3__art_61__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Сертификатът се издава от упълномощено от изпълнителния директор на ИАСАС длъжностно лице.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_7">
+        <num>Глава     седма</num>
+        <heading>ПРОВЕРКА КЪЛНЯЕМОСТТА НА СЕМЕНАТА</heading>
+        <article eId="chap_7__art_62">
+          <num>Чл. 64.</num>
+          <paragraph eId="chap_7__art_62__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Партидите сертифицирани семена от всички категории и търговските семена, за които има издаден сертификат, документ за търговски семена и документ за търговия на семена от внос, се проверяват за съответствие на кълняемостта им с изискванията на приложение № 3.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_62__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Проверката се извършва след изтичането на срока на валидност на сертификата/документа чрез лабораторен анализ на семената.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_7__art_63">
+          <num>Чл. 65.</num>
+          <paragraph eId="chap_7__art_63__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Лицето, притежаващо семената, подава заявление за извършване на лабораторен анализ в ТЗ на ИАСАС, на чиято територия се намират семената.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_63__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Заявлението е по образец, утвърден от изпълнителния директор на ИАСАС. Към него се прилагат сертификатът/документът и документът за последващ контрол, ако е издаден такъв.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_7__art_64">
+          <num>Чл. 66.</num>
+          <content>
+            <p>Вземането на проби се извършва по реда на глава трета, раздел   V.</p>
+          </content>
+        </article>
+        <article eId="chap_7__art_65">
+          <num>Чл. 67.</num>
+          <paragraph eId="chap_7__art_65__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато резултатите от лабораторния анализ показват, че семената отговарят на изискването за кълняемост, лабораторията издава документ за анализа. Документът е в два екземпляра, един от които се изпраща на ТЗ на ИАСАС, взело пробите, а другият—на заявителя.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_65__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Въз основа на документа от лабораторния анализ упълномощено от изпълнителния директор на ИАСАС длъжностно лице издава сертификат или документ за търговските семена по образец, утвърден от изпълнителния директор.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_65__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Върху стария етикет се поставя самозалепващ се стикер по чл. 32, ал. 3 ЗППМ.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_7__art_66">
+          <num>Чл. 68.</num>
+          <paragraph eId="chap_7__art_66__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато резултатите от лабораторния анализ покажат, че семената не отговарят на изискването за кълняемост, лабораторията уведомява ТЗ на ИАСАС и заявителя.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_66__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Забранява се предлагането на пазара на семената по ал. 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_7__art_66__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Издадените етикети се връщат в ТЗ на ИАСАС, на чиято територия се намират семената.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_8">
+        <num>Глава     осма</num>
+        <heading>УСЛОВИЯ И РЕД ЗА ИЗВЪРШВАНЕ НА ПОСЛЕДВАЩ КОНТРОЛ</heading>
+        <article eId="chap_8__art_67">
+          <num>Чл. 69.</num>
+          <content>
+            <p>Последващ контрол на семена от маслодайни и влакнодайни култури се извършва за установяване сортовата им чистота и автентичност.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_68">
+          <num>Чл. 70.</num>
+          <content>
+            <p>Последващият контрол се осъществява чрез грунтов контрол и/или електрофореза, тест „Милдиу&amp;quot; или други лабораторни методи, по методики, утвърдени от министъра на МЗГ, съгласно чл. 37, ал. 4 ЗППМ.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_69">
+          <num>Чл. 71.</num>
+          <intro>
+            <p>На последващ контрол подлежат:</p>
+          </intro>
+          <point eId="chap_8__art_69__pt_1">
+            <num>1.</num>
+            <content>
+              <p>всички партиди от предбазови семена, базови семена и хибриди;</p>
+            </content>
+          </point>
+          <point eId="chap_8__art_69__pt_2">
+            <num>2.</num>
+            <content>
+              <p>процент от партидите на сертифицираните семена, сертифицираните семена първо размножение, сертифицираните семена второ размножение и сертифицираните семена трето размножение, определен ежегодно със заповед на изпълнителния директор на ИАСАС, но не повече от 25 %;</p>
+            </content>
+          </point>
+          <point eId="chap_8__art_69__pt_3">
+            <num>3.</num>
+            <content>
+              <p>семена, които се проверяват от ИАСАС в търговската мрежа, с изключение на търговските семена;</p>
+            </content>
+          </point>
+          <point eId="chap_8__art_69__pt_4">
+            <num>4.</num>
+            <content>
+              <p>всички партиди семена от внос, с изключение на търговските семена.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_8__art_70">
+          <num>Чл. 72.</num>
+          <content>
+            <p>На всички категории сертифицирани семена от маслодайни и влакнодайни култури, с изключение на слънчогледа, се извършва само грунтов контрол.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_71">
+          <num>Чл. 73.</num>
+          <paragraph eId="chap_8__art_71__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Хибридите слънчоглед, на които само бащиният родителски компонент (само-опрашена линия) е устойчив на мана, подлежат на лабораторен тест „Милдиу&amp;quot;.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_71__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Хибридите слънчоглед, на които майчиният родителски компонент или двата родителски компонента са устойчиви на мана, подлежат на електрофореза.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_71__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Родителските компоненти (самоопраше-ни линии) на всички хибриди слънчоглед подлежат на електрофореза.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_71__al_4">
+            <num>(4)</num>
+            <content>
+              <p>На самоопрашените линии слънчоглед се извършва и грунтов контрол.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_8__art_72">
+          <num>Чл. 74.</num>
+          <content>
+            <p>Последващ контрол се извършва чрез вземане на проби по реда на глава трета.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_73">
+          <num>Чл. 75.</num>
+          <paragraph eId="chap_8__art_73__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Взетите проби и протоколите за вземане на проби за последващ контрол се изпращат от ТЗ в Централната лаборатория на ИАСАС за извършване на тест „Милдиу&amp;quot; или електрофореза.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_73__al_2">
+            <num>(2)</num>
+            <content>
+              <p>За самоопрашените линии слънчоглед селекционерът представя в ТЗ декларация за закрепителни или възстановителни способности или стерилност на самоопрашената линия. Декларацията се изпраща в Централната лаборатория на ИАСАС заедно с пробите и протоколите по ал. 1.</p>
+              <p>Чл. 76   .(1) Когато резултатите от лабораторните методи за самоопрашени линии и хибриди слънчоглед показват, че семената отговарят на изискването за сортова чистота и автентичност, лабораторията издава документ за сортова чистота по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_73__al_3">
+            <num>(2)</num>
+            <content>
+              <p>Документът се изготвя в три екземпляра: един за Централната лаборатория на ИА-САС, един за заявителя и един за ТЗ на ИАСАС, взело пробите за последващ контрол.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_8__art_74">
+          <num>Чл. 77.</num>
+          <content>
+            <p>Когато резултатите от лабораторните методи показват, че семената на самоопра-шените линии и хибриди слънчоглед не отговарят на изискванията, заявителят се уведомява писмено. В този случай на семената се извършва грунтов контрол и те не се търгуват до излизане на резултатите от грунтовия контрол.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_75">
+          <num>Чл. 78.</num>
+          <paragraph eId="chap_8__art_75__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато резултатите от грунтовия контрол показват, че семената отговарят на изискванията за сортова чистота и автентичност, упълномощено от изпълнителния директор на ИАСАС длъжностно лице от ТЗ за грунтов контрол издава свидетелство за сортова чистота по образец, утвърден от изпълнителния директор на ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_75__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Свидетелството се съставя в три екземп-ляра—един за ТЗ на ИАСАС, взело пробите, един за притежателя на семената и един за съхранение в ТЗ за грунтов контрол.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_8__art_76">
+          <num>Чл. 79.</num>
+          <content>
+            <p>При несъответствие с изискванията за сортова чистота и автентичност длъжностното лице уведомява в тридневен срок от установяване на несъответствието притежателя на семената и му осигурява достъп до посева. Забранява се търговията с тези семена.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_77">
+          <num>Чл. 80.</num>
+          <content>
+            <p>Когато резултатите от грунтовия контрол показват, че предбазовите, базовите, сертифицираните, сертифицираните първо размножение и сертифицираните второ размножение (за културата лен) семена не отговарят на изискванията за сортова чистота и сортова автентичност за съответната категория, но отговарят на изискванията за по-ниска категория, длъжностното лице одобрява семената за категорията, на която отговарят.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_78">
+          <num>Чл. 81.</num>
+          <content>
+            <p>Базовите семена от самоопрашени линии слънчоглед, за които се установява при грунтов контрол отклонение над допустимото изискване за „резки отклонения от сортовите признаци&amp;quot;, се одобряват за ползването им от притежателя на сертификата с цел производство на хибриди, за негова сметка и на негова отговорност, след разрешение от ИАСАС.</p>
+          </content>
+        </article>
+        <article eId="chap_8__art_79">
+          <num>Чл. 82.</num>
+          <paragraph eId="chap_8__art_79__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато резултатите от грунтовия контрол показват, че семената не отговарят на изискванията за сортова чистота и автентичност, писмено се уведомява ТЗ на ИАСАС, взело пробите, и се посочват резултатите.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_79__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Семената по ал. 1 не могат да се предлагат на пазара.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_79__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Официалните етикети се връщат в ИАСАС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_8__art_79__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Собственикът на сертификата или притежателят на семената при проби, взети от търговската мрежа, или притежателят (вносителят ) на семената от внос е длъжен да съобщи на ТЗ на ИАСАС, взело пробите, за количествата налични и продадени семена и лицата, които са ги закупили.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_8__art_80">
+          <num>Чл. 83.</num>
+          <content>
+            <p>Резултатите от последващия контрол на семената в търговската мрежа се отнасят само за партидата, от която са взети пробите.</p>
+          </content>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>„Официален етикет&amp;quot; е етикет, издаден от ИАСАС или от сертифициращ/контролен орган на страна—износител на семена.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>„Грунтов контрол&amp;quot; е основен метод за проверка чрез полско парцелно изпитване на посевния материал с цел определяне на неговата сортова автентичност и сортова чистота.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>„Електрофореза&amp;quot; е лабораторен метод за проверка на сортовата чистота.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>По смисъла на тази наредба категориите семена по чл. 2 са еквивалентни на категориите семена, произвеждани и търгувани в страната до влизане в сила на ЗППМ, съответно:</p>
+          </intro>
+          <point eId="sec_add__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>предбазови семена (ПБ)—на семена Су-перелит (СЕ), семена от Сравнително изпитване на потомствата (СИП), семена от Предварително размножение (ПР) и др.;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>базови семена (Б)—на семена Елит (Е);</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>сертифицирани семена (С)—на семена Първо размножение   (I   р.)—за култури, чиито сортове се преразмножават само до първо размножение, включително хибридите   (F   1);</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>сертифицирани семена първо размножение (С1) — на семена Първо размножение (1р.) — за култури, чиито сортове се преразмножават до второ размножение;</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_2__pt_5">
+            <num>5.</num>
+            <content>
+              <p>сертифицирани семена второ размножение (С2)—на семена Второ размножение (II р.);</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_2__pt_6">
+            <num>6.</num>
+            <content>
+              <p>сертифицирани семена трето размножение (С3)—на семена Трето размножение (III р.).</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Издаването на: актове за полска инспекция; протоколи за вземане на проби; документи за лабораторни анализи за посевни качества/здравно състояние, включително информативни анализи; сертификати; документ за одобряване на търговските семена; документи за сортова чистота от лабораторни методи и грунтов контрол и документи за търговия на семена от внос—се извършва в посочените в наредбата срокове, при условие че са заплатени таксите по тарифата от ЗППМ.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 29, ал. 6 от Закона за посевния и посадъчния материал.</p>
+            <p>Министър:    М. Дикме</p>
+            <p>Виж приложенията в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

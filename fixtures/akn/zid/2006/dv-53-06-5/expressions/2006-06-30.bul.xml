@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-53-06-5/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-53-06-5"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за възстановяване собствеността върху одържавени недвижими имоти" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за възстановяване собствеността върху одържавени недвижими имоти" name="eli" other="/eli/bg/zid/2006/dv-53-06-5"/>
+          <FRBRdate date="2006-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-53-06-5/bul@2006-06-30/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-53-06-5/bul@2006-06-30"/>
+          <FRBRdate date="2006-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-53-06-5/bul@2006-06-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-53-06-5/bul@2006-06-30.xml"/>
+          <FRBRdate date="2006-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-30" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за възстановяване собствеността върху одържавени недвижими имоти</p>
+      <p>(обн., ДВ, бр. 15 от 1992 г.; изм., бр. 28 от 1992 г., бр. 20 и 40 от 1995 г., бр. 66 от 1995 г. - Решение № 9 на Конституционния съд от 1995 г.; изм., бр. 87 от 1995 г., бр. 94 от 1995 г. - Решение № 20 на Конституционния съд от 1995 г.; изм., бр. 51 от 1996 г., бр. 61 от 1996 г. - Решение № 11 на Конституционния съд от 1996 г.; попр., бр. 87 от 1996 г. - Решение № 16 на Конституционния съд от 1996 г.; изм., бр. 107 от 1997 г., бр. 30 от 1998 г. - Решение № 4 на Конституционния съд от 1998 г.; изм., бр. 45 от 1998 г., бр. 9 от 2000 г., бр. 30 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 7 се правят следните изменения и допълнения:</p>
+          <p>1. Досегашният текст става ал. 1.</p>
+          <p>2. Създават се ал. 2 и 3:</p>
+          <p>“(2) Гражданите, чиито имоти са отнети по ал. 1 с влязло в сила съдебно решение, получават обезщетение по чл. 5, ал. 3 от Закона за обезщетяване на собственици на одържавени имоти. Те закупуват с предимство държавно или общинско жилище с жилищни компенсаторни записи по номиналната им стойност. Уравнението е парично.</p>
+        </intro>
+        <paragraph eId="par_1__al_1">
+          <num>(3)</num>
+          <content>
+            <p>Когато държавата и общините не предоставят за закупуване жилища от своя фонд на тези граждани в тримесечен срок от тяхната молба, гражданите имат право да получат левовата равностойност на техните жилищни компенсаторни записи по номинал. Гражданите подават молба до Министерството на финансите за получаването на левовата равностойност.”</p>
+            <p>Преходни и заключителни разпоредби</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В едномесечен срок от влизането в сила на този закон Министерският съвет приема наредба за прилагането му.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Изпълнението на закона се възлага на Министерския съвет.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

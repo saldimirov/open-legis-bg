@@ -22,7 +22,7 @@ templates = Jinja2Templates(directory=str(_TEMPLATES_DIR))
 
 TYPE_LABELS: dict[str, str] = {
     "zakon": "Закон",
-    "zid": "ЗИД",
+    "zid": "Изменение / Отмяна",
     "byudjet": "Бюджетен закон",
     "kodeks": "Кодекс",
     "naredba": "Наредба",
@@ -34,7 +34,54 @@ TYPE_LABELS: dict[str, str] = {
     "konstitutsiya": "Конституция",
 }
 
+# Order for filter tabs on the index/browse page
+TYPE_FILTER_ORDER: list[tuple[str, str]] = [
+    ("", "Всички"),
+    ("zakon", "Закони"),
+    ("zid", "Изменения и отмяна"),
+    ("kodeks", "Кодекси"),
+    ("naredba", "Наредби"),
+    ("byudjet", "Бюджетни закони"),
+    ("ratifikatsiya", "Ратификации"),
+    ("postanovlenie", "Постановления"),
+    ("pravilnik", "Правилници"),
+    ("reshenie_ns", "Решения на НС"),
+    ("konstitutsiya", "Конституция"),
+]
+
+_CATEGORY_DESCS: dict[str, str] = {
+    "zakon": "Основните нормативни актове на Народното събрание",
+    "zid": "Закони за изменение, допълнение или отмяна на съществуващи актове",
+    "byudjet": "Годишни закони за държавния бюджет",
+    "kodeks": "Систематизирани сборници от правни норми",
+    "naredba": "Подзаконови нормативни актове на изпълнителната власт",
+    "ratifikatsiya": "Закони за ратифициране на международни договори",
+    "postanovlenie": "Постановления на Министерски съвет",
+    "pravilnik": "Правилници за прилагане на закони",
+    "reshenie_ns": "Решения на Народното събрание",
+    "konstitutsiya": "Основният закон на Република България",
+}
+
+# Order for category cards on the landing page
+_CATEGORY_ORDER = [
+    "zakon", "zid", "kodeks", "naredba", "byudjet",
+    "ratifikatsiya", "postanovlenie", "pravilnik", "reshenie_ns", "konstitutsiya",
+]
+
 PAGE_SIZE = 20
+
+
+def _fix_title(title: str) -> str:
+    """Sentence-case titles that are all-caps (e.g. scraped from justice.gov.bg)."""
+    if not title:
+        return title
+    alpha = [c for c in title if c.isalpha()]
+    if alpha and all(c == c.upper() for c in alpha):
+        return title[0] + title[1:].lower()
+    return title
+
+
+templates.env.filters["fix_title"] = _fix_title
 
 
 def _ctx(**kwargs: Any) -> dict[str, Any]:
@@ -48,6 +95,72 @@ def index(
     q: str | None = None,
     page: int = Query(1, ge=1),
     s: Session = Depends(get_session),
+) -> HTMLResponse:
+    if not type and not q:
+        return _landing_page(request, s)
+    return _index_page(request, s, type=type, q=q, page=page)
+
+
+def _landing_page(request: Request, s: Session) -> HTMLResponse:
+    total = s.scalar(select(func.count(m.Work.id))) or 0
+
+    # Featured: kodeks + konstitutsiya, oldest first (classic codes)
+    featured_works = s.scalars(
+        select(m.Work)
+        .where(m.Work.act_type.in_([m.ActType.KODEKS, m.ActType.KONSTITUTSIYA]))
+        .order_by(m.Work.dv_year.asc(), m.Work.dv_broy.asc())
+        .limit(8)
+    ).all()
+    featured = [
+        {"uri": w.eli_uri, "type": w.act_type.value, "title": w.title}
+        for w in featured_works
+    ]
+
+    # Category cards with counts
+    counts_rows = s.execute(
+        select(m.Work.act_type, func.count(m.Work.id)).group_by(m.Work.act_type)
+    ).all()
+    counts = {row[0].value: row[1] for row in counts_rows}
+    categories = [
+        {
+            "type": t,
+            "label": TYPE_LABELS.get(t, t),
+            "count": counts.get(t, 0),
+            "desc": _CATEGORY_DESCS.get(t, ""),
+        }
+        for t in _CATEGORY_ORDER
+        if counts.get(t, 0) > 0
+    ]
+
+    # Recent: last 10 by DV issue
+    recent_works = s.scalars(
+        select(m.Work)
+        .order_by(m.Work.dv_year.desc(), m.Work.dv_broy.desc(), m.Work.dv_position)
+        .limit(10)
+    ).all()
+    recent = [
+        {
+            "uri": w.eli_uri,
+            "type": w.act_type.value,
+            "title": w.title,
+            "dv_ref": {"broy": w.dv_broy, "year": w.dv_year},
+        }
+        for w in recent_works
+    ]
+
+    return templates.TemplateResponse(
+        request,
+        "landing.html",
+        _ctx(total=total, featured=featured, categories=categories, recent=recent),
+    )
+
+
+def _index_page(
+    request: Request,
+    s: Session,
+    type: str | None,
+    q: str | None,
+    page: int,
 ) -> HTMLResponse:
     db_q = select(m.Work).order_by(m.Work.dv_year.desc(), m.Work.dv_broy.desc(), m.Work.dv_position)
     if type:
@@ -66,7 +179,7 @@ def index(
         {
             "uri": w.eli_uri,
             "title": w.title,
-            "type": w.act_type.value.lower(),
+            "type": w.act_type.value,
             "dv_ref": {"broy": w.dv_broy, "year": w.dv_year},
         }
         for w in works
@@ -82,6 +195,7 @@ def index(
             total_pages=total_pages,
             current_type=type or "",
             q=q or "",
+            type_filter_order=TYPE_FILTER_ORDER,
         ),
     )
 
@@ -146,7 +260,6 @@ def work_page(
         if work.adoption_date:
             adoption_date = work.adoption_date.isoformat()
 
-        # Extract preface from AKN XML
         try:
             from lxml import etree
             NS = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
@@ -173,7 +286,7 @@ def work_page(
         "uri": work.eli_uri,
         "expr_uri": expr_uri,
         "title": work.title,
-        "type": work.act_type.value.lower(),
+        "type": work.act_type.value,
         "dv_ref": {"broy": work.dv_broy, "year": work.dv_year},
         "issuing_body": work.issuing_body,
     }

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-16"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции" name="eli" other="/eli/bg/naredba/2008/dv-38-08-16"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-16/bul@2008-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-16/bul@2008-04-11"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-16/bul@2008-04-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-16/bul@2008-04-11.xml"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-11" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 8 от 2006 г. за капиталовата адекватност на кредитните институции</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 3 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 1 се създава т. 5:</p>
+            <p>“5. печалбата от текущата година, намалена с дължимите данъци, очакваните плащания по дивиденти и други отчисления.”</p>
+            <p>2. В ал. 2 след думите “печалба по” се добавя “ал. 1,”.</p>
+            <p>3. Създават се нови ал. 4 и 5:</p>
+            <p>“(4) Печалбата по ал. 1, т. 5 може да се включи в капитала само ако са налице следните условия:</p>
+            <p>1. общото събрание на акционерите е определило максималния размер на очакваните плащания по дивиденти и други отчисления;</p>
+            <p>2. печалбите и дължимите данъци са потвърдени (одитирани) от външния одитор на банката по ред, определен от БНБ;</p>
+            <p>3. изпратено е уведомление до БНБ с приложени документи за обстоятелствата по т. 1 и 2 и БНБ не е възразила в 10-дневен срок от постъпването им или от представянето на допълнителни документи, ако такива са поискани.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(5)</num>
+            <intro>
+              <p>В капитала от първи ред може да бъде включена по реда на ал. 1, т. 5 само печалбата от текущата година към 30 юни. Ако текущата печалба в отчетните периоди след 30 юни е по-ниска от отчетената към тази дата, в капитала се включва по-ниската стойност.”</p>
+            </intro>
+            <point eId="sec_final__par_1__al_1__pt_1">
+              <num>4.</num>
+              <content>
+                <p>Досегашните ал. 4 и 5 стават съответно ал. 6 и 7.</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 6, ал. 1 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова т. 5: “5. когато банката използва стандартизиран подход за кредитен риск - размера на специфичните провизии за кредитен риск съгласно Наредба № 9 на БНБ от 2008 г. за оценка и класификация на рисковите експозиции на банките и за установяване на специфични провизии за кредитен риск (Наредба № 9 от 2008 г.).”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашната т. 5 става т. 6 и в нея думите “ползва вътрешнорейтингов подход” се заменят с “използва вътрешнорейтингов подход за кредитен риск”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Досегашната т. 6 става т. 7.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 8, ал. 2 думите “ал. 4” се заменят с “ал. 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 18, ал. 3 думите “ал. 4” се заменят с “ал. 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 25 ал. 1 се изменя така:</p>
+            <p>“(1) Стойността на експозиция е балансовата й стойност, изчислена по приложимите счетоводни стандарти и коригирана със специфичните провизии за кредитен риск съгласно Наредба № 9 от 2008 г. Стойността на задбалансова позиция е нейната приравнена балансова стойност, получена след прилагане на конверсионен коефициент, съгласно приложение № 2 “Задбалансови позиции”. Приравнените задбалансови позиции се разпределят по класове активи съгласно чл. 26, ал. 1.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_6" name="modification">
+          <num>§ 6.</num>
+          <intro>
+            <p>В чл. 30 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 2 накрая се поставя запетая и се добавя “без прилагане на преференциалното третиране за краткосрочни експозиции по смисъла на чл. 33, ал. 4 и 6 и чл. 34, ал.1”.</p>
+            <p>2. Създават се нови ал. 3 и 4:</p>
+            <p>“(3) По преценка на БНБ експозиция към местно предприятие от публичния сектор може да се третира като експозиция към централното правителство поради наличие на гаранция от него.</p>
+          </intro>
+          <paragraph eId="sec_final__par_6__al_1">
+            <num>(4)</num>
+            <intro>
+              <p>Българската народна банка периодично публикува списък на местните предприятия от публичния сектор съгласно ал. 3.”</p>
+            </intro>
+            <point eId="sec_final__par_6__al_1__pt_1">
+              <num>3.</num>
+              <content>
+                <p>Досегашните ал. 3 и 4 стават съответно ал. 5 и 6.</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_7" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>В чл. 37, ал. 2 думите “в юрисдикцията на” се заменят с “под чиято юрисдикция е”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_8" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>В чл. 60, ал. 12 изречение трето се изменя така:</p>
+            <p>“Експозициите, за които липсват достатъчно данни, се класифицират като “други капиталови инструменти”.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_9" name="modification">
+          <num>§ 9.</num>
+          <content>
+            <p>В заглавието на раздел II от глава пета думата “рисковопретеглени” се заменя с “рисковопретегления”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_10" name="modification">
+          <num>§ 10.</num>
+          <content>
+            <p>В чл. 63, ал. 6, изречение второ след думите “за размера на” се добавя “дейността на”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_11" name="modification">
+          <num>§ 11.</num>
+          <content>
+            <p>В чл. 66, ал. 4 думата “нефинансирана” се заличава, а след думите “кредитна защита” се добавя “с гаранции”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_12" name="modification">
+          <num>§ 12.</num>
+          <content>
+            <p>В чл. 67, ал. 1, изречение първо съюзът “и” се заменя със запетая, а след числото “3” се добавя “и 4”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_13" name="modification">
+          <num>§ 13.</num>
+          <content>
+            <p>В чл. 72, изречение трето след думата “провизии” се добавя “и други корекции в стойността”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_14" name="modification">
+          <num>§ 14.</num>
+          <content>
+            <p>В чл. 77, ал. 6, т. 1 думата “кредитни” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_15" name="modification">
+          <num>§ 15.</num>
+          <content>
+            <p>В чл. 78, ал. 3, изречение първо думата “нефинансирана” се заличава, а след думите “кредитна защита” се добавя “с гаранции”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_16" name="modification">
+          <num>§ 16.</num>
+          <content>
+            <p>В чл. 90, ал. 1 думите “ал. 9” се заменят с “ал. 5”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_17" name="modification">
+          <num>§ 17.</num>
+          <content>
+            <p>В чл. 135, ал. 2, т. 1 думите “в чиято юрисдикция” се заменят с “под юрисдикцията на което”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_18" name="modification">
+          <num>§ 18.</num>
+          <intro>
+            <p>В чл. 162 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_18__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 след думите “в пазарната стойност на” се добавя “експозициите и”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_18__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 4 думите “в стойността на обезпечението” се заличават.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_19" name="modification">
+          <num>§ 19.</num>
+          <content>
+            <p>В чл. 173, ал. 5 думите “IХ “Изчислителни процедури за параметъра LGD за допълнителните обезпечения при прилагане на вътрешнорейтинговия подход” се заменят с “VII “Несъответствие между падежите”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_20" name="modification">
+          <num>§ 20.</num>
+          <content>
+            <p>В чл. 212, ал. 2 думите “ал. 5” се заменят с “ал. 7”, а думите “посочен в чл. 212” се заменят с “по настоящия член”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_21" name="modification">
+          <num>§ 21.</num>
+          <content>
+            <p>В чл. 217, ал. 1, т. 2 след буквите “АВКО” думата “на” се заменя със “за”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_22" name="modification">
+          <num>§ 22.</num>
+          <content>
+            <p>В чл. 246, ал. 1 думите “чл. 287” се заменят с “чл. 276”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_23" name="modification">
+          <num>§ 23.</num>
+          <content>
+            <p>В чл. 254, ал. 2, изречение второ след думата “години” думата “по” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_24" name="modification">
+          <num>§ 24.</num>
+          <content>
+            <p>В чл. 262 се създава ал. 5:</p>
+            <p>“(5) Банките незабавно уведомяват БНБ за всяко неизпълнение на договорни задължения на техни контрагенти по репосделки, обратни репосделки или сделки по предоставяне/получаване в заем на ценни книжа или стоки.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_25" name="modification">
+          <num>§ 25.</num>
+          <content>
+            <p>В чл. 296 алинея 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_26" name="modification">
+          <num>§ 26.</num>
+          <content>
+            <p>В чл. 336, ал. 3, т. 1 думите “ал. 4” се заменят с “ал. 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_27" name="modification">
+          <num>§ 27.</num>
+          <intro>
+            <p>В чл. 346 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_27__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Точка 1 се изменя така: “1. по чл. 4, ал. 5 - 1000 лв.;”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_27__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Точка 2 се изменя така: “2. по чл. 260, ал. 1 - 5000 лв.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_27__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Точка 3 се отменя.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_28" name="modification">
+          <num>§ 28.</num>
+          <content>
+            <p>В § 6 от преходните и заключителните разпоредби след думите “чл. 40” думата “от” се заличава, поставя се запетая и се добавя “49, 50 и 70 във връзка с § 13 от преходните и заключителните разпоредби на”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_29" name="modification">
+          <num>§ 29.</num>
+          <content>
+            <p>В приложение № 4 “Вътрешнорейтингов подход”, формула № 6, числото “60” се заменя със “160”, а думите “формула № 5” се заменят с “формула № 2”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_30" name="modification">
+          <num>§ 30.</num>
+          <content>
+            <p>В приложение № 6 “Секюритизация”, формула № 3, след думите “средна стойност на параметъра LGD” буквата “i” се заличава, поставя се запетая и се добавя “като i”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_31" name="modification">
+          <num>§ 31.</num>
+          <content>
+            <p>В приложение № 11 “Оповестяване”, списък № 10, т. 5 буквите “ОПР” се заменят с “отчета за доходите”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 32.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 40, 49, 50 и 70 във връзка с § 13 от преходните и заключителните разпоредби на Закона за кредитните институции, приета е с Решение № 17 от 3.IV.2008 г. на Управителния съвет на БНБ и влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>16811</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

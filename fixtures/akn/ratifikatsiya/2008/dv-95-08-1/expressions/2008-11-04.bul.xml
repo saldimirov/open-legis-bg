@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-1/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-1"/>
+          <FRBRalias value="Закон за ратифициране на протоколите към Северноатлантическия договор относно присъединяването на Република Албания и Република Хърватия" name="short"/>
+          <FRBRalias value="Закон за ратифициране на протоколите към Северноатлантическия договор относно присъединяването на Република Албания и Република Хърватия" name="eli" other="/eli/bg/ratifikatsiya/2008/dv-95-08-1"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-1/bul@2008-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-1/bul@2008-11-04"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-1/bul@2008-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-1/bul@2008-11-04.xml"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-04" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на протоколите към Северноатлантическия договор относно присъединяването на Република Албания и Република Хърватия</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Протокола към Северноатлантическия договор относно присъединяването на Република Албания, подписан на 9 юли 2008 г. в Брюксел.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Протокола към Северноатлантическия договор относно присъединяването на Република Хърватия, подписан на 9 юли 2008 г. в Брюксел.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

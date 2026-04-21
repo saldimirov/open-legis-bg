@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-20"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 2001 г. за условията и реда за признаване на организации на производители на земеделски продукти" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 2001 г. за условията и реда за признаване на организации на производители на земеделски продукти" name="eli" other="/eli/bg/naredba/2005/dv-19-05-20"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-20/bul@2005-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-20/bul@2005-03-01"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-20/bul@2005-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-20/bul@2005-03-01.xml"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-03-01" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 21 от 2001 г. за условията и реда за признаване на организации на производители на земеделски продукти</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1, т. 5 след думата “членове” се поставя запетая и се добавят думите “а за мляко не по-малко от 7”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 7 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1, т. 6 числото “800” се заменя с “550”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 1, т. 7, буква “б” в края на изречението се добавят думите “84 т”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В ал. 2, т. 6 числото “200” се заменя със “135”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>В ал. 2, т. 7, буква “а” в края се добавят думите “3900”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_5">
+            <num>5.</num>
+            <content>
+              <p>В ал. 3 след запетаята се добавят думите “а за мляко на 100 000 евро, ”. За министър:  Б. Боев 6632</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-63-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-63-03-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 2 от 1999 г. за възстановяване на платен данък върху добавената стойност на чуждестранни физически лица" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 2 от 1999 г. за възстановяване на платен данък върху добавената стойност на чуждестранни физически лица" name="eli" other="/eli/bg/naredba/2003/dv-63-03-12"/>
+          <FRBRdate date="2003-07-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-63-03-12/bul@2003-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-63-03-12/bul@2003-07-15"/>
+          <FRBRdate date="2003-07-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-63-03-12/bul@2003-07-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-63-03-12/bul@2003-07-15.xml"/>
+          <FRBRdate date="2003-07-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-07-15" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 2 от 1999 г. за възстановяване на платен данък върху добавената стойност на чуждестранни физически лица</p>
+      <p>(обн., ДВ, бр.  15 от    1999   г.;   изм., бр. 55 от 1999 г.; изм. и доп., бр. 17 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 6, т. 6 се добавя изречение второ: „При автоматизирано попълване на искането от страна на доставчика на стоките информацията за агента може да се отпечатва върху искането в деня на неговото автоматизирано попълване.&amp;quot;</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в „Държавен вестник&amp;quot;.</p>
+            <p>Министър:    М. Велчев</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

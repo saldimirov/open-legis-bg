@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-65-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-65-04-2"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между страните по Северноатлантическия договор относно статута на техните въоръжени сили и на Протокола за статута на международните военни щабове, създадени в съответствие със Северноатлантическия договор" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между страните по Северноатлантическия договор относно статута на техните въоръжени сили и на Протокола за статута на международните военни щабове, създадени в съответствие със Северноатлантическия договор" name="eli" other="/eli/bg/ratifikatsiya/2004/dv-65-04-2"/>
+          <FRBRdate date="2004-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-65-04-2/bul@2004-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-65-04-2/bul@2004-07-27"/>
+          <FRBRdate date="2004-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-65-04-2/bul@2004-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-65-04-2/bul@2004-07-27.xml"/>
+          <FRBRdate date="2004-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-27" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението между страните по Северноатлантическия договор относно статута на техните въоръжени сили и на Протокола за статута на международните военни щабове, създадени в съответствие със Северноатлантическия договор</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Споразумението между страните по Северноатлантическия договор относно статута на техните въоръжени сили, подписано на 19 юни 1951 г. в Лондон, и Протокола за статута на международните военни щабове, създадени в съответствие със Северноатлантическия договор, подписан на 28 август 1952 г. в Париж.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>За целите на чл. VIII, ал. 2(f) от Споразумението между страните по Северноатлантическия договор относно статута на техните въоръжени сили Република България се отказва от искове за обезщетение на щети при всеки случай, когато стойността на тези щети е по-малка от 1457 лв.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

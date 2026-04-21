@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-10-09-8/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-10-09-8"/>
+          <FRBRalias value="Закон за изменение на Закона за предотвратяване и разкриване на конфликт на интереси" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за предотвратяване и разкриване на конфликт на интереси" name="eli" other="/eli/bg/zid/2009/dv-10-09-8"/>
+          <FRBRdate date="2009-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-10-09-8/bul@2009-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-10-09-8/bul@2009-02-06"/>
+          <FRBRdate date="2009-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-10-09-8/bul@2009-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-10-09-8/bul@2009-02-06.xml"/>
+          <FRBRdate date="2009-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-02-06" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за предотвратяване и разкриване на конфликт на интереси</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В преходните и заключителните разпоредби се правят следните изменения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В § 2 думата “30-дневен” се заменя с “тримесечен”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В § 3 думата “двумесечен” се заменя с “4-месечен”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_3">
+          <num>3.</num>
+          <content>
+            <p>В § 4 думата “двумесечен” се заменя с “4-месечен”. Заключителна разпоредба</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Параграф 1, т. 1 влиза в сила от 31 януари 2009 г., а § 1, т. 2 и 3 влизат в сила от 31 декември 2008 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

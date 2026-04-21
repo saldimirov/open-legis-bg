@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-4/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за акцизите и данъчните складове" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за акцизите и данъчните складове" name="eli" other="/eli/bg/zid/2006/dv-81-06-4"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-4/bul@2006-10-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-4/bul@2006-10-06"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-4/bul@2006-10-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-4/bul@2006-10-06.xml"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-06" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за акцизите и данъчните складове</p>
+      <p>(обн., ДВ, бр. 91 от 2005 г.; изм., бр. 105 от 2005 г., бр. 30, 34 и 63 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 4 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В т. 8 думите “в размер до 10 хектолитра чист алкохол годишно” се заличават.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се т. 23: “23. “Биоетанол” е етанол, произведен от биомаса и/или биологично разграждащата се част от отпадъците, който е предназначен за използване като биогориво.”</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 28, т. 11 след думата “биодизел” се добавя “и биоетанол”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <intro>
+          <p>В чл. 32 се правят следните допълнения:</p>
+        </intro>
+        <point eId="par_3__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 1, т. 7 след думата “биодизел” се добавя “и биоетанол с код по КН 2207 20 00 0”.</p>
+          </content>
+        </point>
+        <point eId="par_3__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В ал. 2, т. 4 след думата “биодизел” се добавя “и биоетанол с код по КН 2207 20 00 0”.</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 57, ал. 3, т. 2 думите “и техническото средство за измерване на произведеното количество и алкохолно съдържание по обем” се заличават.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

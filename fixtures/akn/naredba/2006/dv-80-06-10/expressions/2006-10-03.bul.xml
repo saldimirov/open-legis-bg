@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-10"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-141 от 2002 г. за условията и реда, при които се ползва специален режим на движение от моторните превозни средства" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-141 от 2002 г. за условията и реда, при които се ползва специален режим на движение от моторните превозни средства" name="eli" other="/eli/bg/naredba/2006/dv-80-06-10"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-10/bul@2006-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-10/bul@2006-10-03"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-80-06-10/bul@2006-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-80-06-10/bul@2006-10-03.xml"/>
+          <FRBRdate date="2006-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-03" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № I-141 от 2002 г. за условията и реда, при които се ползва специален режим на движение от моторните превозни средства</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 думите “Национална служба “Пожарна и аварийна безопасност” се заменят с “Национална служба “Пожарна безопасност и защита на населението”, а след израза “Спешна медицинска помощ” се добавя “Главна дирекция “Охрана” и Главна дирекция “Изпълнение на наказанията” на Министерството на правосъдието”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 2 т. 3 се изменя така:</p>
+            <p>“3. на автомобилите и мотоциклетите със специален режим на движение от НСП, НСО и НС се допуска монтиране на устройства за специален светлинен сигнал на достатъчно видимо място на автомобила за осигуряване на по-добра видимост при движение със специален режим на движение.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Петков</p>
+            <p>62032</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

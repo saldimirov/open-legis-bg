@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-114-25-8/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-114-25-8"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 42 от 2004 г. за въвеждане на класификационни статистически системи за кодиране на болестите и проблемите, свързани със здравето, и на медицинските процедури" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 42 от 2004 г. за въвеждане на класификационни статистически системи за кодиране на болестите и проблемите, свързани със здравето, и на медицинските процедури" name="eli" other="/eli/bg/naredba/2025/dv-114-25-8"/>
+          <FRBRdate date="2025-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-114-25-8/bul@2025-12-24/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-114-25-8/bul@2025-12-24"/>
+          <FRBRdate date="2025-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-114-25-8/bul@2025-12-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-114-25-8/bul@2025-12-24.xml"/>
+          <FRBRdate date="2025-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-12-24" name="Държавен вестник" number="114" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 42 от 2004 г. за въвеждане на класификационни статистически системи за кодиране на болестите и проблемите, свързани със здравето, и на медицинските процедури</p>
+      <p>(обн., ДВ, бр. 111 от 2004 г.; изм. и доп., бр. 103 от 2012 г., бр. 75 и 106 от 2014 г., бр. 30 и 88 от 2016 г., бр. 8 от 2018 г., бр. 8 от 2019 г., бр. 49 от 2020 г., бр. 33 и 76 от 2022 г., бр. 88 от 2023 г., бр. 50 от 2024 г., бр. 69 от 2024 г. и бр. 15 и 97 от 2025 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, ал. 1, в клас „Болести на пикочо-половата система (N00 – N99)“, в блок „Бъбречна недостатъчност (N17 – N19)“, рубрика N18 „Хронична бъбречна недостатъчност“ думите:</p>
+            <p>„N18 „Хронична бъбречна недостатъчност“</p>
+            <p>Включва: хронична уремия</p>
+            <p>дифузен склерозиращ гломерулонефрит</p>
+            <p>Не включва: хронична бъбречна недостатъчност с хипертония (I12.0)</p>
+            <p>N18.0 Терминален стадий на бъбречна болест</p>
+            <p>N18.8 Други прояви на хронична бъбречна недостатъчност</p>
+            <p>Уремични:</p>
+            <p>• невропатрия + (G63.8*)</p>
+            <p>• перикардит + (I32.8*)</p>
+            <p>N18.9 Хронична бъбречна недостатъчност, неуточнена“,</p>
+            <p>се заменят с:</p>
+            <p>„N18 Хронична бъбречна болест</p>
+            <p>Включва: хронична бъбречна недостатъчност</p>
+            <p>При необходимост от идентифициране на основното заболяване се използва допълнителен код.</p>
+            <p>При необходимост от идентифициране на хипертония се използва допълнителен код.</p>
+            <p>N18.1 Хронично бъбречно заболяване, стадий 1</p>
+            <p>Бъбречна увреда с нормална или повишена GFR (&amp;ge; 90 mL/min)</p>
+            <p>N18.2 Хронично бъбречно заболяване, стадий 2</p>
+            <p>Бъбречна увреда с леко понижена GFR (60-89 mL/min)</p>
+            <p>N18.3 Хронично бъбречно заболяване, стадий 3</p>
+            <p>Бъбречна увреда с умерено понижена GFR (30-59 mL/min)</p>
+            <p>N18.4 Хронично бъбречно заболяване, стадий 4</p>
+            <p>Бъбречна увреда със силно понижена GFR (15-29 mL/min)</p>
+            <p>N18.5 Хронично бъбречно заболяване, стадий 5</p>
+            <p>Краен стадий на бъбречно заболяване:</p>
+            <p>• с отхвърлен алографт</p>
+            <p>• БДУ</p>
+            <p>• на диализа</p>
+            <p>• без диализа или трансплант</p>
+            <p>Бъбречен ретинит + (H32.8*)</p>
+            <p>Уремичен:</p>
+            <p>• апоплексия + (I68.8*)</p>
+            <p>• деменция + (F02.8*)</p>
+            <p>• невропатия + (G63.8*)</p>
+            <p>• парализа + (G99.8*)</p>
+            <p>• перикардит + (I32.8*)</p>
+            <p>N18.9 Хронична бъбречна болест, неуточнена</p>
+            <p>Хронично бъбречно увреждане</p>
+            <p>Хронична уремия БДУ</p>
+            <p>Дифузен склерозиращ гломерулонефрит БДУ“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата е съгласувана с Националния статистически институт.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 януари 2027 г.</p>
+            <p>Министър:  Силви Кирилов</p>
+            <p>7713</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

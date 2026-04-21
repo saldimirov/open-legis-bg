@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-110-20-25/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-110-20-25"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 22 от 2009 г. за Централния кредитен регистър" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 22 от 2009 г. за Централния кредитен регистър" name="eli" other="/eli/bg/naredba/2020/dv-110-20-25"/>
+          <FRBRdate date="2020-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-110-20-25/bul@2020-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-110-20-25/bul@2020-12-29"/>
+          <FRBRdate date="2020-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-110-20-25/bul@2020-12-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-110-20-25/bul@2020-12-29.xml"/>
+          <FRBRdate date="2020-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-29" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 22 от 2009 г. за Централния кредитен регистър</p>
+      <p>(обн., ДВ, бр. 62 от 2009 г.; изм. и доп., бр. 31 от 2012 г., бр. 93 от 2015 г., бр. 81 и 103 от 2016 г., бр. 21 от 2017 г., бр. 37 от 2018 г., бр. 42 и 100 от 2019 г.; доп., бр. 18 и 101 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 28, ал. 1 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 1 числото „0,10“ се заменя с „0,20“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 2 числото „0,10“ се заменя с „0,20“ и числото „0,05“ се заменя с „0,10“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В т. 6 числото „0,10“ се заменя с „0,20“.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В приложението към чл. 29 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 2 запетаята след думата „хардуер“ се заменя със съюза „и“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Точка 3 се изменя така: „3. Прогнозният брой справки се определя на база прогнозен брой справки, извършени по електронен път за едно лице и за група лица от 1 до 400 в един файл XML формат от институции и органи по чл. 4 за календарната година.“</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В т. 4 думите „кредитна задлъжнялост на едно лице“ се заменят с „информация в регистъра“, а думата „нагоре“ се заличава.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>В т. 5 думите „се определя в размер“ се заменят с „е равен на размера“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_5">
+            <num>5.</num>
+            <content>
+              <p>В т. 6 думите „за кредитна задлъжнялост на едно лице“ се заличават.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 56, ал. 4 от Закона за кредитните институции, приета е с Решение № 452 от 17 декември 2020 г. на Управителния съвет на Българската народна банка и влиза в сила от 1 януари 2021 г.</p>
+            <p>Управител:  Димитър Радев</p>
+            <p>9632</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за Конституционен съд" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за Конституционен съд" name="eli" other="/eli/bg/zid/2003/dv-114-03-2"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-2/bul@2003-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-2/bul@2003-12-30"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-2/bul@2003-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-2/bul@2003-12-30.xml"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-30" name="Държавен вестник" number="114" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за Конституционен съд</p>
+      <p>(обн., ДВ, бр. 67 от 1991 г.; изм., бр. 25 от 2001 г. и бр. 45 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 6, ал. 3 накрая се добавя „освен като преподаватели във висши училища&amp;quot; и се създава изречение второ: „Конституционните съдии, които са преподаватели във висши училища, ползват неплатен отпуск до прекратяване на пълномощията им&amp;quot;.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>Член 27 се изменя така:</p>
+          <p>„Чл. 27. (1) При неизпълнение на разпореждане или определение на Конституционния съд председателят на съда налага на виновното лице глоба до 1000 лв.</p>
+        </intro>
+        <paragraph eId="par_2__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Преди налагането на глобата на виновното лице се дава възможност да даде писмени обяснения в 14-дневен срок от съобщаването.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_2__al_2">
+          <num>(3)</num>
+          <content>
+            <p>Председателят може да събира и други доказателства, ако прецени, че това е необходимо.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_2__al_3">
+          <num>(4)</num>
+          <content>
+            <p>Глобата не подлежи на обжалване, но може да бъде намалена или отменена от председателя на съда.&amp;quot;</p>
+            <p>Заключителна разпоредба</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила от 1 януари 2004 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

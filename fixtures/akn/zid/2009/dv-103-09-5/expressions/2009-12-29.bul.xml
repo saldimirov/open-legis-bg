@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-5/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-5"/>
+          <FRBRalias value="Закон за изменение на Закона за енергетиката" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за енергетиката" name="eli" other="/eli/bg/zid/2009/dv-103-09-5"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-5/bul@2009-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-5/bul@2009-12-29"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-103-09-5/bul@2009-12-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-103-09-5/bul@2009-12-29.xml"/>
+          <FRBRdate date="2009-12-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-29" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за енергетиката</p>
+      <p>(обн., ДВ, бр. 107 от 2003 г.; изм. и доп., бр. 18 от 2004 г., бр. 18 и 95 от 2005 г., бр. 30, 65 и 74 от 2006 г., бр. 49, 55 и 59 от 2007 г., бр. 36, 43 и 98 от 2008 г. и бр. 35, 41, 42 и 82 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>Член 3 се изменя така:</p>
+          <p>„Чл. 3. (1) Държавната политика в енергетиката се осъществява чрез Народното събрание и Министерския съвет.</p>
+        </intro>
+        <paragraph eId="par_1__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Народното събрание приема Енергийна стратегия на Република България по предложение на Министерския съвет, с която се определят основните цели, етапи, средства и методи за развитие на енергетиката.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_1__al_2">
+          <num>(3)</num>
+          <content>
+            <p>Министерският съвет ръководи енергетиката на страната в съответствие с приетата от Народното събрание Енергийна стратегия.“</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 4 се правят следните изменения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 2, т. 1 думата „приемане“ се заменя с „одобряване“.</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В ал. 3 думите „Министерския съвет“ се заменят с „Народното събрание“, а думите „чл. 4, ал. 2, т. 1“ се заменят с „чл. 3, ал. 2“.</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 8, ал. 5 думите „Министерския съвет“ се заменят с „Народното събрание“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 30, ал. 1, т. 7 думите „с изключение на цените за транзитен пренос“ се заличават.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

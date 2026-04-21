@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-10/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-10"/>
+          <FRBRalias value="Наредба № 4 от 7 февруари 2003 г. за утвърждаване на медицински стандарт „Неонатология&quot;" name="short"/>
+          <FRBRalias value="Наредба № 4 от 7 февруари 2003 г. за утвърждаване на медицински стандарт „Неонатология&quot;" name="eli" other="/eli/bg/naredba/2003/dv-16-03-10"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-10/bul@2003-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-10/bul@2003-02-18"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-10/bul@2003-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-10/bul@2003-02-18.xml"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-18" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 4 от 7 февруари 2003 г. за утвърждаване на медицински стандарт „Неонатология&quot;</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

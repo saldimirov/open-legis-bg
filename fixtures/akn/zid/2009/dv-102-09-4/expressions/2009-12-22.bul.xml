@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за влизането, пребиваването и напускането на Република България на гражданите на Европейския съюз и членовете на техните семейства" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за влизането, пребиваването и напускането на Република България на гражданите на Европейския съюз и членовете на техните семейства" name="eli" other="/eli/bg/zid/2009/dv-102-09-4"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-4/bul@2009-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-4/bul@2009-12-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-4/bul@2009-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-4/bul@2009-12-22.xml"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за влизането, пребиваването и напускането на Република България на гражданите на Европейския съюз и членовете на техните семейства</p>
+      <p>(обн., ДВ, бр. 80 от 2006 г.; изм., бр. 109 от 2007 г., бр. 69 от 2008 г. и бр. 36 и 93 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 4 се правят следните допълнения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 2 се създават изречения трето и четвърто: „Отказът за издаване на виза се мотивира и подлежи на оспорване по реда на Административнопроцесуалния кодекс. За отказа за издаване на виза се съставя формуляр по образец, утвърден с акт на Министерския съвет.“</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се ал. 6: „(6) Отказът за влизане и пребиваване на лицата по ал. 1 и 2 се мотивира и подлежи на оспорване по реда на Административнопроцесуалния кодекс.“ Допълнителна разпоредба</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Този закон въвежда изискванията на Директива 2004/38/ЕО на Европейския парламент и на Съвета от 29 април 2004 г. относно правото на граждани на Съюза и на членове на техните семейства да се движат и да пребивават свободно на територията на държавите членки, за изменение на Регламент (ЕИО) № 1612/68 и отменяща Директиви 64/221/ЕИО, 68/360/ЕИО, 72/194/ЕИО, 73/148/ЕИО, 75/34/ЕИО, 75/35/ЕИО, 90/364/ЕИО, 90/365/ЕИО и 93/96/ЕИО.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-23"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 1998 г. за задължителните минимални резерви, които банките поддържат при Българската народна банка" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 21 от 1998 г. за задължителните минимални резерви, които банките поддържат при Българската народна банка" name="eli" other="/eli/bg/naredba/2006/dv-48-06-23"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-23/bul@2006-06-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-23/bul@2006-06-13"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-48-06-23/bul@2006-06-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-48-06-23/bul@2006-06-13.xml"/>
+          <FRBRdate date="2006-06-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-13" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 21 от 1998 г. за задължителните минимални резерви, които банките поддържат при Българската народна банка</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 9а се изменя така:</p>
+            <p>“Чл. 9а. Банките поддържат допълнителни задължителни минимални резерви в двойния размер на стойността, с която общият размер на предоставените кредити през всеки базисен период надхвърля съотношението, определено съгласно чл. 9, ал. 1, т. 1 във връзка с чл. 9, ал. 3.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 41, ал. 1, т. 1 и ал. 2 от Закона за Българската народна банка, приета е с Решение № 80 от 1 юни 2006 г. на Управителния съвет на Българската народна банка и влиза в сила от 4 август 2006 г.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>40003</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

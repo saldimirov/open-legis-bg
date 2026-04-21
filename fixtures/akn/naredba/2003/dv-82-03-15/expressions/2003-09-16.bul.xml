@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-15"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2001 г. за условията и реда за предписване и отпускане на лекарствени продукти" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2001 г. за условията и реда за предписване и отпускане на лекарствени продукти" name="eli" other="/eli/bg/naredba/2003/dv-82-03-15"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-15/bul@2003-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-15/bul@2003-09-16"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-15/bul@2003-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-15/bul@2003-09-16.xml"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 4 от 2001 г. за условията и реда за предписване и отпускане на лекарствени продукти</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 14, т. 2, цифрата „15&amp;quot; се заменя с „30&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 15 цифрата „15&amp;quot; се заменя с „30&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В чл. 47 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова ал. 2: „(2) Когато приносителят на рецептата е лице, различно от лицето по чл. 7, ал. 1, т. 6, на гърба на първия екземпляр на рецептата се отбелязват трите му имена и данните от документа за самоличност.&amp;quot;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашната ал. 2 става ал. 3. Министър:    Сл. Богоев</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

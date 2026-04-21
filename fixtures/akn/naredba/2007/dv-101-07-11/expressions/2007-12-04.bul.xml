@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-11/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-11"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 11 от 2004 г. за минималните изисквания за осигуряване на безопасността и здравето на работещите при потенциален риск от експлозивна атмосфера" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 11 от 2004 г. за минималните изисквания за осигуряване на безопасността и здравето на работещите при потенциален риск от експлозивна атмосфера" name="eli" other="/eli/bg/naredba/2007/dv-101-07-11"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-11/bul@2007-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-11/bul@2007-12-04"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-11/bul@2007-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-11/bul@2007-12-04.xml"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-04" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 11 от 2004 г. за минималните изисквания за осигуряване на безопасността и здравето на работещите при потенциален риск от експлозивна атмосфера</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 11, ал. 2, т. 6 накрая се добавя: “която въвежда разпоредбите на Директива на Съвета 89/654/ЕИО за минималните изисквания за безопасност и здраве на работното място и Директива на Съвета 89/655/ЕИО за минималните изисквания за безопасността и здравето на работещите при използване на работно оборудване при работа”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В раздел “Допълнителна разпоредба” се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>наименованието “Допълнителна разпоредба” се заменя с “Допълнителни разпоредби”;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>създава се § 1а: “§ 1а. С тази наредба се въвеждат разпоредбите на Директива 1999/92/ЕО на Европейския парламент и Съвета от 16 декември 1999 г. за минималните изисквания за подобряване на защитата на работещите в потенциален риск от експлозивни атмосфери (петнадесета специална директива по смисъла на член 16, параграф 1 от Директива 89/391/ЕИО).” Министър:  Ем. Масларова 63878</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

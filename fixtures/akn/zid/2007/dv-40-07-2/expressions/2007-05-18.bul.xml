@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-2"/>
+          <FRBRalias value="Закон за изменение на Закона за ветераните от войните" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за ветераните от войните" name="eli" other="/eli/bg/zid/2007/dv-40-07-2"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-2/bul@2007-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-2/bul@2007-05-18"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-2/bul@2007-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-2/bul@2007-05-18.xml"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-05-18" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за ветераните от войните</p>
+      <p>(обн., ДВ, бр. 152 от 1998 г.; изм., бр. 49 от 2000 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <intro>
+          <p>В чл. 4 се правят следните изменения:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В т. 1 в изречение първо след думата “рецепта” се поставя точка и текстът до края се заличава, а изречение второ се изменя така: “Средствата са за сметка на държавния бюджет”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>В т. 2 в изречение първо след думата “общините” се поставя точка и текстът до края се заличава, а изречение второ се изменя така: “Средствата са за сметка на държавния бюджет”.</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_3">
+          <num>3.</num>
+          <intro>
+            <p>Точка 3 се изменя така: “3. безплатно пътуване по железопътния, градския трамваен и тролейбусен транспорт, метрото и по автомобилния транспорт по утвърдените транспортни схеми, както следва:</p>
+          </intro>
+          <point eId="par_1__pt_3__l_1">
+            <num>а)</num>
+            <content>
+              <p>по основните градски линии във всички градове в страната;</p>
+            </content>
+          </point>
+          <point eId="par_1__pt_3__l_2">
+            <num>б)</num>
+            <content>
+              <p>в областта, в която са регистрирани с постоянен адрес.</p>
+              <p>Разходите за стойността на билетите са за сметка на държавния бюджет.”</p>
+            </content>
+          </point>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Член 5 се изменя така:</p>
+          <p>“Чл. 5. Ветераните от войните получават към пенсията си добавка в размер на социалната пенсия за старост.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <intro>
+          <p>Член 6 се изменя така:</p>
+          <p>“Чл. 6. (1) Министерството на отбраната и общините предоставят на ветераните от войните за безвъзмездно ползване клубове и създават други условия за осъществяване на тяхната общественополезна и патриотична дейност.</p>
+        </intro>
+        <paragraph eId="par_3__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Държавата подпомага дейността на Съюза на ветераните от войните със средства, определяни ежегодно със закона за държавния бюджет на Република България.”</p>
+            <p>Заключителни разпоредби</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Консултативният съвет по въпросите на военноинвалидите и военнопострадалите към Министерския съвет е и съвет за ветераните от войните. В състава му се включва и представител на ветераните от войните.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>Законът влиза в сила от 1 юли 2007 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

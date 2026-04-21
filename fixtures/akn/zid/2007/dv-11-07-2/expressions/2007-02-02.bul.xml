@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за здравното осигуряване" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за здравното осигуряване" name="eli" other="/eli/bg/zid/2007/dv-11-07-2"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-2/bul@2007-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-2/bul@2007-02-02"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-2/bul@2007-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-2/bul@2007-02-02.xml"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-02-02" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за здравното осигуряване</p>
+      <p>(обн., ДВ, бр. 70 от 1998 г.; изм., бр. 93 и 153 от 1998 г., бр. 62, 65, 67, 69, 110 и 113 от 1999 г., бр. 1, 31 и 64 от 2000 г., бр. 41 от 2001 г., бр. 1, 54, 74, 107, 112, 119 и 120 от 2002 г., бр. 8, 50, 107 и 114 от 2003 г., бр. 28, 38, 49, 70, 85 и 111 от 2004 г., бр. 39, 45, 76, 99, 102, 103 и 105 от 2005 г., бр. 17,  18, 30, 33, 34, 59, 95 и 105 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 11.</num>
+        <intro>
+          <p>За 2007 г., считано от 1 януари, се прилагат:</p>
+        </intro>
+        <point eId="par_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>правилата на Националния рамков договор за 2006 г. по чл. 55, ал. 2, т. 3, 5, 7, 8, 9, 10 и 11;</p>
+          </content>
+        </point>
+        <point eId="par_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>определените от управителния съвет на НЗОК условия, на които трябва да отговарят изпълнителите на медицинска помощ, редът за сключване на договорите с тях и други условия по чл. 55, ал. 2, т. 2, 4 и 6.”</p>
+          </content>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

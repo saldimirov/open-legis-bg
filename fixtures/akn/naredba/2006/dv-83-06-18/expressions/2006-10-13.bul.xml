@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-83-06-18/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-83-06-18"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 9 от 2000 г. за определяне броя на учениците в паралелките и групите на средните училища по изкуствата и културата" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 9 от 2000 г. за определяне броя на учениците в паралелките и групите на средните училища по изкуствата и културата" name="eli" other="/eli/bg/naredba/2006/dv-83-06-18"/>
+          <FRBRdate date="2006-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-83-06-18/bul@2006-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-83-06-18/bul@2006-10-13"/>
+          <FRBRdate date="2006-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-83-06-18/bul@2006-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-83-06-18/bul@2006-10-13.xml"/>
+          <FRBRdate date="2006-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-13" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 9 от 2000 г. за определяне броя на учениците в паралелките и групите на средните училища по изкуствата и културата</p>
+      <p>(обн., ДВ, бр. 65 от 2000 г.; изм., бр. 77 от 2002 г. и бр. 65 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на наредбата думите “по изкуствата и културата” се заменят с “по изкуствата и по културата”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, т. 8 думите “(изработка на народни инструменти)” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 3а:</p>
+            <p>“Чл. 3а. Обучението за професия актьор по специалните предмети се провежда в една обща група с минимум 5 ученици.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 5, ал. 1, т. 1 думите “когато момичетата са 16 и повече, те се делят на две групи;” се заменят с “когато момичетата от IV до VII клас са 13 и повече ученици, те се делят на две групи; когато момичетата от VIII до XII клас са 16 и повече ученици, те се делят на две групи;”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 8, ал. 1, т. 2 след думите “графично и техническо чертане” се добавя “основи на киното”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Навсякъде в наредбата думите “класически танци” се заменят с “класически танц”.</p>
+            <p>Министър:  Ст. Данаилов</p>
+            <p>63167</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

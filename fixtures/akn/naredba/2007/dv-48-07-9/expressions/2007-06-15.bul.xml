@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-9/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-9"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-13 от 2004 г. за реда за временно настаняване на чужденци, за организацията и дейността на специалните домове за временно настаняване на чужденци" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-13 от 2004 г. за реда за временно настаняване на чужденци, за организацията и дейността на специалните домове за временно настаняване на чужденци" name="eli" other="/eli/bg/naredba/2007/dv-48-07-9"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-9/bul@2007-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-9/bul@2007-06-15"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-48-07-9/bul@2007-06-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-48-07-9/bul@2007-06-15.xml"/>
+          <FRBRdate date="2007-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-15" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № I-13 от 2004 г. за реда за временно настаняване на чужденци, за организацията и дейността на специалните домове за временно настаняване на чужденци</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 2, ал. 1 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 1 думите “Столична дирекция на вътрешните работи” се заменят със “Столична дирекция “Полиция”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 2 думите “регионални дирекции на вътрешните работи” се заменят с “областни дирекции “Полиция”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 23, ал. 3 думите “дежурния по смяна офицер от Национална служба “Гранична полиция” (НСГП) на ГКПП” се заменят с “началника на смяна или командира на отделение от Главна дирекция “Гранична полиция” на съответния ГКПП”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде абревиатурите “РДВР” и “СДВР” се заменят съответно с “ОДП” и “СДП”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Чужденците, които са в производство по определяне на държавата, отговорна за разглеждане на молбата за предоставяне на статут съгласно Регламент ЕО 343/2003 на Съвета на ЕС и имат наложени принудителни административни мерки по чл. 41 или чл. 42 ЗЧРБ и заповед за настаняване в СДВНЧ, до изграждане на регистрационно-приемателен център се настаняват в Блок - 3 на СДВНЧ - Бусманци.</p>
+            <p>Министър:  Р. Пeтков</p>
+            <p>28939</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-28-18-4/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-28-18-4"/>
+          <FRBRalias value="Закон за ратифициране на Международната конвенция за контрол и управление на корабните баластни води и седименти" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Международната конвенция за контрол и управление на корабните баластни води и седименти" name="eli" other="/eli/bg/ratifikatsiya/2018/dv-28-18-4"/>
+          <FRBRdate date="2018-03-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-28-18-4/bul@2018-03-29/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-28-18-4/bul@2018-03-29"/>
+          <FRBRdate date="2018-03-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-28-18-4/bul@2018-03-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-28-18-4/bul@2018-03-29.xml"/>
+          <FRBRdate date="2018-03-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-03-29" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Международната конвенция за контрол и управление на корабните баластни води и седименти</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

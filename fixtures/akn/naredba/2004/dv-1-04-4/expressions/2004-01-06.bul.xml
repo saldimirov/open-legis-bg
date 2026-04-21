@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-1-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-1-04-4"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 6 от 2001 г. за разпределение на учебното време за достигане на общообразователния минимум по класове, етапи и степени на образование" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 6 от 2001 г. за разпределение на учебното време за достигане на общообразователния минимум по класове, етапи и степени на образование" name="eli" other="/eli/bg/naredba/2004/dv-1-04-4"/>
+          <FRBRdate date="2004-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-1-04-4/bul@2004-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-1-04-4/bul@2004-01-06"/>
+          <FRBRdate date="2004-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-1-04-4/bul@2004-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-1-04-4/bul@2004-01-06.xml"/>
+          <FRBRdate date="2004-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-01-06" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 6 от 2001 г. за разпределение на учебното време за достигане на общообразователния минимум по класове, етапи и степени на образование</p>
+      <p>(обн., ДВ, бр. 54 от 2001 г.; изм., бр. 95 от 2001 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 6, ал. 2 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 3 думите “в основната образователна степен” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Създава се нова т. 4 със следното съдържание: “4. религия.”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 7 думите “началника на инспектората по образование” се заменят с “министъра на образованието и науката”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 12 след думата “план” се поставя запетая, а думите “и майчин език” се заменят с “майчин език и религия”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 21 думите “директора на училището” се заменят с “началника на регионалния инспекторат по образование”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Тази наредба влиза в сила от учебната 2004/2005 г.</p>
+            <p>Министър:  Иг. Дамянов</p>
+            <p>74210</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

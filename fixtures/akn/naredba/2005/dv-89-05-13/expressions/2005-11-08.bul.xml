@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-89-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-89-05-13"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 5 от 2003 г. за условията и реда за отпускане на целеви помощи за отопление" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 5 от 2003 г. за условията и реда за отпускане на целеви помощи за отопление" name="eli" other="/eli/bg/naredba/2005/dv-89-05-13"/>
+          <FRBRdate date="2005-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-89-05-13/bul@2005-11-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-89-05-13/bul@2005-11-08"/>
+          <FRBRdate date="2005-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-89-05-13/bul@2005-11-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-89-05-13/bul@2005-11-08.xml"/>
+          <FRBRdate date="2005-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-08" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 5 от 2003 г. за условията и реда за отпускане на целеви помощи за отопление</p>
+      <p>(обн., ДВ, бр. 53 от 2003 г.; изм. и доп., бр. 32 от 2004 г.; изм., бр. 35 от 2005 г.; изм. и доп., бр. 70 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава § 6а:</p>
+            <p>“§ 6а. За отоплителен сезон 2005 - 2006 г. размерът на целевата помощ за отопление с топлоенергия по чл. 3, ал. 1 за лицата и семействата, които ползват топлоенергия от “Топлофикация - Русе” - ЕАД, “Топлофикация - Казанлък” - ЕАД и “Топлофикация - Ловеч” - ЕАД, се определя съобразно пределните цени на топлинната енергия, произвеждана от тези дружества.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 ноември 2005 г.</p>
+            <p>Министър:  Ем. Масларова</p>
+            <p>107569</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

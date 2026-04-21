@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-31-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-31-08-6"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 34 от 2005 г. за реда за заплащане от републиканския бюджет на лечението на българските граждани за заболявания, извън обхвата на задължителното здравно осигуряване" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 34 от 2005 г. за реда за заплащане от републиканския бюджет на лечението на българските граждани за заболявания, извън обхвата на задължителното здравно осигуряване" name="eli" other="/eli/bg/naredba/2008/dv-31-08-6"/>
+          <FRBRdate date="2008-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-31-08-6/bul@2008-03-21/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-31-08-6/bul@2008-03-21"/>
+          <FRBRdate date="2008-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-31-08-6/bul@2008-03-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-31-08-6/bul@2008-03-21.xml"/>
+          <FRBRdate date="2008-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-21" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 34 от 2005 г. за реда за заплащане от републиканския бюджет на лечението на българските граждани за заболявания, извън обхвата на задължителното здравно осигуряване</p>
+      <p>(обн., ДВ, бр. 95 от 2005 г.; изм., бр. 16, 48  и 95 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 7 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова ал. 2: “(2) За лекарствените продукти, посочени в приложение № 1, част “А”, т. 5, максималната стойност за единица лекарствено вещество по международно непатентно наименование за лекарствената форма, която се заплаща от републиканския бюджет, се определя в левове, като се взема средноаритметичната стойност за единица лекарствено вещество по международно непатентно наименование за лекарствената форма от трите най-ниски стойности, покривани от обществените фондове в страните по чл. 5, т. 2.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашните ал. 2 и 3 стават съответно ал. 3 и 4.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 1 към чл. 2, ал. 2, част “А”, т. 8 колони 2 и 3 се допълват със:</p>
+            <p>“LO1CD Таксани”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В приложение № 1, към чл. 2, ал. 2 , част “Б”, т. 1 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В колона 2 думите “L01CD01 РACLITAXEL” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Колона 2 се допълва с думите “L01XX17 TOPOTEKAN”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_3__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Колони 2 и 3 се допълват с думите “HO1CB02 OCTREOTIDE Специализирана болница за активно лечение по ендокринология, нефрология и геронтология - ЕАД”.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>12083</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

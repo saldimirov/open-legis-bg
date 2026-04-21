@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-3/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-3"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица" name="eli" other="/eli/bg/zid/2006/dv-81-06-3"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-3/bul@2006-10-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-3/bul@2006-10-06"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-81-06-3/bul@2006-10-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-81-06-3/bul@2006-10-06.xml"/>
+          <FRBRdate date="2006-10-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-06" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица</p>
+      <p>(обн., ДВ, бр. 50 от 1991 г.; изм., бр. 52 от 1994 г., бр. 12 от 2004 г., бр. 29 от 2005 г., бр. 30 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 5, ал. 1 думите “постоянния адрес на правоимащото лице” се заменят с “последния постоянен адрес на репресираното лице”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 9 се създава ал. 4:</p>
+          <p>“(4) Добавката на лицата по ал. 1, т. 23 се отпуска по реда на ал. 3 след представяне на документ, издаден от централната комисия по искане на лицето, за установяване качеството “правоимащо лице”.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В § 3а от допълнителните и заключителните разпоредби се създава т. 4:</p>
+          <p>“4. “Интернирани, изселвани и заселвани по административен ред” са и членовете на семейството (включително малолетни, непълнолетни и пълнолетни деца), когато в удостоверение образец № 3 на Министерството на вътрешните работи или с решение на централната комисия е посочено, че е изселено цялото семейство.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В § 11 от преходните и заключителните разпоредби на Закона за изменение и допълнение на Закона за политическа и гражданска реабилитация на репресирани лица (ДВ, бр. 29 от 2005 г.) думите “една година от влизането в сила на този закон” се заменят с “до 31 декември 2007 г.”.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>Параграф 4 влиза в сила от 9 април 2006 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

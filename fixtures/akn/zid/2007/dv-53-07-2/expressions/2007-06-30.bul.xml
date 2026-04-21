@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-2"/>
+          <FRBRalias value="Закон за изменение на Закона за търговския регистър" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за търговския регистър" name="eli" other="/eli/bg/zid/2007/dv-53-07-2"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-2/bul@2007-06-30/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-2/bul@2007-06-30"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-53-07-2/bul@2007-06-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-53-07-2/bul@2007-06-30.xml"/>
+          <FRBRdate date="2007-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-30" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за търговския регистър</p>
+      <p>(обн., ДВ, бр. 34 от 2006 г.; изм., бр. 80 и 105 от 2006 г. )</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В § 56 от преходните и заключителните разпоредби думите “1 юли 2007 г.” се заменят с “1 януари 2008 г.”.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

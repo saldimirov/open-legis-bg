@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-46-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-46-08-6"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина" name="eli" other="/eli/bg/naredba/2008/dv-46-08-6"/>
+          <FRBRdate date="2008-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-46-08-6/bul@2008-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-46-08-6/bul@2008-05-16"/>
+          <FRBRdate date="2008-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-46-08-6/bul@2008-05-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-46-08-6/bul@2008-05-16.xml"/>
+          <FRBRdate date="2008-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-16" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № I-157 от 2002 г. за условията и реда за издаване на свидетелство за управление на моторни превозни средства, отчета на водачите и тяхната дисциплина</p>
+      <p>(обн., ДВ, бр. 97 от 2002 г.; изм., бр. 66 от 2003 г., бр. 93 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 13 се създават т. 6 и 7:</p>
+            <p>“6. декларация, че обичайното му пребиваване не е в друга държава - членка на Европейския съюз, и че не е притежател на валидно свидетелство, издадено от държава - членка на Европейския съюз;</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>7.</num>
+            <content>
+              <p>копие от документ за завършено най-малко основно образование.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 14, ал. 1 текстът “чл. 13, т. 1, 2, 3 и 4” се заменя с “чл. 13, т. 1, 2, 3, 4, 6 и 7”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 15, ал. 2 текстът “чл. 13, т. 1 и 3” се заменя с “чл. 13, т. 1, 3 и 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 16, ал. 2 текстът “чл. 13, т. 1” се заменя с “чл. 13, т. 1 и 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 17, ал. 2 текстът “чл. 13, т. 1, 3 и 4” се заменя с “чл. 13, т. 1, 3, 4, 6 и 7”.</p>
+            <p>Министър:  М. Миков</p>
+            <p>19976</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

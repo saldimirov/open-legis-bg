@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-18-05-1/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-18-05-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Конституцията на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Конституцията на Република България" name="eli" other="/eli/bg/zid/2005/dv-18-05-1"/>
+          <FRBRdate date="2005-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-18-05-1/bul@2005-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-18-05-1/bul@2005-02-25"/>
+          <FRBRdate date="2005-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-18-05-1/bul@2005-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-18-05-1/bul@2005-02-25.xml"/>
+          <FRBRdate date="2005-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-25" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 56 от 1991 г.; изм. и доп., бр. 85 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 4 се създава ал. 3:</p>
+          <p>“(3) Република България участва в изграждането и развитието на Европейския съюз.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>Член 22 се изменя така:</p>
+          <p>“Чл. 22. (1) Чужденци и чуждестранни юридически лица могат да придобиват право на собственост върху земя при условията, произтичащи от присъединяването на Република България към Европейския съюз или по силата на международен договор, ратифициран, обнародван и влязъл в сила за Република България, както и чрез наследяване по закон.</p>
+        </intro>
+        <paragraph eId="par_2__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Законът за ратифициране на международен договор по ал. 1 се приема с мнозинство две трети от всички народни представители.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="par_2__al_2">
+          <num>(3)</num>
+          <content>
+            <p>Режимът на земята се определя със закон.”</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 25 ал. 4 се изменя така:</p>
+          <p>“(4) Гражданин на Република България не може да бъде предаден на друга държава или на международен съд за целите на наказателно преследване, освен ако това е предвидено в международен договор, ратифициран, обнародван и влязъл в сила за Република България.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 42 се създава ал. 3:</p>
+          <p>“(3) Изборите за членове на Европейския парламент и участието на граждани на Европейския съюз в избори за местни органи се уреждат със закон.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <intro>
+          <p>В чл. 85 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_5__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 1 се създава т. 9: “9. предоставят на Европейския съюз правомощия, произтичащи от тази Конституция.”</p>
+          </content>
+        </point>
+        <point eId="par_5__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Създава се нова ал. 2: “(2) Законът за ратифициране на международен договор по ал. 1, т. 9 се приема с мнозинство две трети от всички народни представители.”</p>
+          </content>
+        </point>
+        <point eId="par_5__pt_3">
+          <num>3.</num>
+          <content>
+            <p>Досегашните ал. 2 и 3 стават съответно ал. 3 и 4.</p>
+          </content>
+        </point>
+      </hcontainer>
+      <hcontainer eId="par_6" name="modification">
+        <num>§ 6.</num>
+        <intro>
+          <p>В чл. 105 се създават ал. 3 и 4:</p>
+          <p>“(3) Министерският съвет информира Народното събрание по въпроси, отнасящи се до задълженията, произтичащи за Република България от нейното членство в Европейския съюз.</p>
+        </intro>
+        <paragraph eId="par_6__al_1">
+          <num>(4)</num>
+          <content>
+            <p>Когато участва в разработването и приемането на актове на Европейския съюз, Министерският съвет информира предварително Народното събрание и дава отчет за своите действия.”</p>
+            <p>Заключителна разпоредба</p>
+          </content>
+        </paragraph>
+      </hcontainer>
+      <hcontainer eId="par_7" name="modification">
+        <num>§ 7.</num>
+        <content>
+          <p>Параграф 2 влиза в сила от датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз и не се прилага към заварените международни договори.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

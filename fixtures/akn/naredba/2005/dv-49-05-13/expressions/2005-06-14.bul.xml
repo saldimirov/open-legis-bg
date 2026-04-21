@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-49-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-49-05-13"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 5 от 2000 г. за възстановяване на данък върху добавената стойност и акциз на дипломатически представителства, консулства, представителства на междуправителствени организации и членовете на техния персонал" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 5 от 2000 г. за възстановяване на данък върху добавената стойност и акциз на дипломатически представителства, консулства, представителства на междуправителствени организации и членовете на техния персонал" name="eli" other="/eli/bg/naredba/2005/dv-49-05-13"/>
+          <FRBRdate date="2005-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-49-05-13/bul@2005-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-49-05-13/bul@2005-06-14"/>
+          <FRBRdate date="2005-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-49-05-13/bul@2005-06-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-49-05-13/bul@2005-06-14.xml"/>
+          <FRBRdate date="2005-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-06-14" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 5 от 2000 г. за възстановяване на данък върху добавената стойност и акциз на дипломатически представителства, консулства, представителства на междуправителствени организации и членовете на техния персонал</p>
+      <p>(обн., ДВ, бр. 61 от 2000 г.; изм. и доп., бр. 8 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>Параграф 1 от допълнителните разпоредби се изменя така:</p>
+            <p>“§ 1. По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>“Компетентен данъчен орган” е териториалният данъчен директор - София-град, или упълномощен от него данъчен орган.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>“Консулства” са консулствата, ръководени от щатни консулски длъжностни лица, и консулствата, ръководени от почетни консулски длъжностни лица.”</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>За министър на финансите:  Л. Дацов</p>
+            <p>Министър на външните работи:  С. Паси</p>
+            <p>31589</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

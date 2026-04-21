@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-6"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за потребителския кредит" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за потребителския кредит" name="eli" other="/eli/bg/zid/2008/dv-110-08-6"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-6/bul@2008-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-6/bul@2008-12-30"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-6/bul@2008-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-6/bul@2008-12-30.xml"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-30" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за потребителския кредит</p>
+      <p>(обн., ДВ, бр. 53 от 2006 г.; изм., бр. 105 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 7, т. 12 думите “и указание, че в този случай той има право на намаление на размера на задълженията си съгласно чл. 18, ал. 2” се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <intro>
+          <p>В чл. 18 се правят следните изменения и допълнения:</p>
+        </intro>
+        <point eId="par_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>В ал. 1 накрая се добавя “без да дължи лихви, такси или други разходи по кредита”.</p>
+          </content>
+        </point>
+        <point eId="par_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>Алинеи 2 и 3 се отменят.</p>
+          </content>
+        </point>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

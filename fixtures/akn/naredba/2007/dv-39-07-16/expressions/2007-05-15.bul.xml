@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-39-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-39-07-16"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 28 от 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 28 от 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането" name="eli" other="/eli/bg/naredba/2007/dv-39-07-16"/>
+          <FRBRdate date="2007-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-39-07-16/bul@2007-05-15/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-39-07-16/bul@2007-05-15"/>
+          <FRBRdate date="2007-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-39-07-16/bul@2007-05-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-39-07-16/bul@2007-05-15.xml"/>
+          <FRBRdate date="2007-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-05-15" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 28 от 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Заглавието на наредбата се изменя така: “Наредба № 28 от 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването и Изпълнителната агенция по лекарствата по Закона за кръвта, кръводаряването и кръвопреливането”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 думата “регистър” се заменя с “регистри”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>Член 2 се изменя така:</p>
+            <p>“Чл. 2. (1) Министърът на здравеопазването със заповед определя длъжностно лице за водене на регистъра по чл. 1, т. 1.</p>
+          </intro>
+          <paragraph eId="sec_final__par_3__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Изпълнителният директор на Изпълнителната агенция по лекарствата (ИАЛ) със заповед определя длъжностно лице за водене на регистъра по чл. 1, т. 2.”</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <intro>
+            <p>Член 6 се изменя така:</p>
+            <p>“Чл. 6. Регистърът по чл. 5 съдържа:</p>
+          </intro>
+          <point eId="sec_final__par_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>пореден номер;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>дата на вписване;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_3">
+            <num>3.</num>
+            <content>
+              <p>наименование и адрес на лечебното заведение, адрес на извършване на дейността, телефонен номер и трите имена на лице за контакт;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_4">
+            <num>4.</num>
+            <content>
+              <p>трите имена на лицата, участващи в управителния орган, и на лицето/лицата, представляващи лечебното заведение;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_5">
+            <num>5.</num>
+            <content>
+              <p>видовете дейности по чл. 5, които се осъществяват в лечебното заведение;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_6">
+            <num>6.</num>
+            <content>
+              <p>оценката от проведената акредитация по Закона за лечебните заведения и срока, за който е присъдена;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_7">
+            <num>7.</num>
+            <content>
+              <p>номер и дата на заповедта по чл. 44, ал. 2 ЗККК (когато е приложимо);</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_8">
+            <num>8.</num>
+            <intro>
+              <p>информацията за извършените инспекции по чл. 39, ал. 4 ЗККК и за резултатите от тях, както следва:</p>
+            </intro>
+            <point eId="sec_final__par_4__pt_8__l_1">
+              <num>а)</num>
+              <content>
+                <p>начална и крайна дата на инспекцията;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_4__pt_8__l_2">
+              <num>б)</num>
+              <content>
+                <p>повод за извършване на инспекцията;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_4__pt_8__l_3">
+              <num>в)</num>
+              <content>
+                <p>номер и дата на заповедта за извършване на инспекцията;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_4__pt_8__l_4">
+              <num>г)</num>
+              <content>
+                <p>направените констатации и препоръки;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_4__pt_8__l_5">
+              <num>д)</num>
+              <content>
+                <p>данните от съставените актове и издадените наказателни постановления по чл. 56 ЗККК;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_final__par_4__pt_9">
+            <num>9.</num>
+            <content>
+              <p>данните от съставените актове и издадените наказателни постановления по чл. 57 ЗККК;</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_4__pt_10">
+            <num>10.</num>
+            <content>
+              <p>промени в обстоятелствата по т. 1 - 6.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <intro>
+            <p>Член 7 се изменя така:</p>
+            <p>“Чл. 7. (1) Информацията по чл. 6, т. 6 и 7 се вписва в регистъра в тридневен срок след издаване на заповед на министъра на здравеопазването.</p>
+          </intro>
+          <paragraph eId="sec_final__par_5__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Изпълнителния директор на ИАЛ изпраща информацията по чл. 6, т. 8 и 9 в Министерството на здравеопазването един път на всеки шест месеца.”</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_6" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Член 8 се изменя така:</p>
+            <p>“Чл. 8. Данните по чл. 6 се вписват в регистъра от лицето по чл. 2, ал. 1 в тридневен срок след постъпването им в Министерството на здравеопазването.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_7" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>Заглавието на глава трета се изменя така:</p>
+            <p>“Регистър на сериозните инциденти и сериозните нежелани реакции”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_8" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>В чл. 9 думите “Министерството на здравеопазването” се заменят с “Изпълнителната агенция по лекарствата”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_9" name="modification">
+          <num>§ 9.</num>
+          <intro>
+            <p>Член 10 се изменя така:</p>
+            <p>“Чл.10. (1) Регистърът по чл. 9 се състои от два раздела:</p>
+            <p>1. раздел сериозни нежелани реакции;</p>
+            <p>2. раздел сериозни инциденти.</p>
+          </intro>
+          <paragraph eId="sec_final__par_9__al_1">
+            <num>(2)</num>
+            <intro>
+              <p>Разделът по ал. 1, т. 1 съдържа следните данни:</p>
+            </intro>
+            <point eId="sec_final__par_9__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>наименование на лечебното заведение, съобщило за сериозната нежелана реакция;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>идентификационен номер на съобщението;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>дата на съобщението;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>дата на вземането или преливането;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>възраст и пол на донора или реципиента;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>идентификационен номер на единицата кръв или кръвна съставка;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_7">
+              <num>7.</num>
+              <content>
+                <p>наименование на центъра по трансфузионна хематология, където е диагностицирана и етикетирана единицата кръв или кръвна съставка;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_8">
+              <num>8.</num>
+              <content>
+                <p>дата на възникване на сериозната нежелана реакция;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_9">
+              <num>9.</num>
+              <content>
+                <p>вид и количество на взетите/прелетите кръв или кръвни съставки;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_10">
+              <num>10.</num>
+              <intro>
+                <p>вид на сериозната нежелана реакция при донор:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_1__pt_10__l_1">
+                <num>а)</num>
+                <content>
+                  <p>неуспешна венепункция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_2">
+                <num>б)</num>
+                <content>
+                  <p>хематом;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_3">
+                <num>в)</num>
+                <content>
+                  <p>локална подкожна инфекция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_4">
+                <num>г)</num>
+                <content>
+                  <p>локална алергична кожна реакция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_5">
+                <num>д)</num>
+                <content>
+                  <p>инцидентно пунктиране на артерия;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_6">
+                <num>е)</num>
+                <content>
+                  <p>лека системна реакция без загуба на съзнание;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_7">
+                <num>ж)</num>
+                <content>
+                  <p>средно тежка системна реакция - синкоп;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_10__l_8">
+                <num>з)</num>
+                <content>
+                  <p>тежка системна реакция - конвулсии, смърт;</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_11">
+              <num>11.</num>
+              <intro>
+                <p>вид на сериозната нежелана реакция при реципиент:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_1__pt_11__l_1">
+                <num>а)</num>
+                <content>
+                  <p>имунологична хемолиза, дължаща се на АВО несъвместимост;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_2">
+                <num>б)</num>
+                <content>
+                  <p>имунологична хемолиза, дължаща се на друго чуждо антитяло;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_3">
+                <num>в)</num>
+                <content>
+                  <p>неимунологична хемолиза;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_4">
+                <num>г)</num>
+                <content>
+                  <p>бактериална инфекция, предадена при кръвопреливането;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_5">
+                <num>д)</num>
+                <content>
+                  <p>анафилаксия/свръхчувствителност;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_6">
+                <num>е)</num>
+                <content>
+                  <p>остра увреда на белия дроб, дължаща се на кръвопреливането;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_7">
+                <num>ж)</num>
+                <content>
+                  <p>вирусна инфекция, предадена при кръвопреливането (HBV, HCV, HIV-1/2, друга);</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_8">
+                <num>з)</num>
+                <content>
+                  <p>паразитна инфекция, предадена при кръвопреливането (малария, друга);</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_9">
+                <num>и)</num>
+                <content>
+                  <p>посттрансфузионна пурпура;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_10">
+                <num>й)</num>
+                <content>
+                  <p>реакция (болест) “присадка срещу приемник”;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_11__l_11">
+                <num>к)</num>
+                <content>
+                  <p>друга сериозна нежелана реакция (следва да се опише подробно);</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_12">
+              <num>12.</num>
+              <content>
+                <p>ниво на класификация на сериозната нежелана реакция (NA, 0-3);</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_13">
+              <num>13.</num>
+              <intro>
+                <p>потвърждение за сериозната нежелана реакция:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_1__pt_13__l_1">
+                <num>а)</num>
+                <content>
+                  <p>наименование на лечебното заведение, потвърдило сериозната нежелана реакция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_2">
+                <num>б)</num>
+                <content>
+                  <p>идентификационен номер на съобщението за потвърждаване;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_3">
+                <num>в)</num>
+                <content>
+                  <p>дата на потвърждаване;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_4">
+                <num>г)</num>
+                <content>
+                  <p>дата на сериозната нежелана реакция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_5">
+                <num>д)</num>
+                <content>
+                  <p>ниво на класификация на потвърждението (NA, 0-3);</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_6">
+                <num>е)</num>
+                <content>
+                  <p>промяна във вида на сериозната нежелана реакция;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_1__pt_13__l_7">
+                <num>ж)</num>
+                <content>
+                  <p>клиничен изход (пълно възстановяване, минимално увреждане, сериозно увреждане, смърт);</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_1__pt_14">
+              <num>14.</num>
+              <content>
+                <p>номер и дата на заповедта за извършване на инспекция по повод сериозната нежелана реакция.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_final__par_9__al_2">
+            <num>(3)</num>
+            <intro>
+              <p>Разделът по ал. 1, т. 2 съдържа следните данни:</p>
+            </intro>
+            <point eId="sec_final__par_9__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>наименование на лечебното заведение, съобщило за сериозния инцидент;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>идентификационен номер на съобщението;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>дата на съобщението;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>дата на сериозния инцидент;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_5">
+              <num>5.</num>
+              <intro>
+                <p>причина, свързана със сериозния инцидент:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_2__pt_5__l_1">
+                <num>а)</num>
+                <content>
+                  <p>дефект на продукта;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_5__l_2">
+                <num>б)</num>
+                <content>
+                  <p>дефект на оборудването;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_5__l_3">
+                <num>в)</num>
+                <content>
+                  <p>човешка грешка;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_5__l_4">
+                <num>г)</num>
+                <content>
+                  <p>друго (следва да се опише подробно);</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_6">
+              <num>6.</num>
+              <intro>
+                <p>естество на сериозния инцидент, което може да бъде свързано със:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_2__pt_6__l_1">
+                <num>а)</num>
+                <content>
+                  <p>вземането на кръвта;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_2">
+                <num>б)</num>
+                <content>
+                  <p>вземане на кръвна съставка чрез афереза;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_3">
+                <num>в)</num>
+                <content>
+                  <p>диагностиката на кръвта или кръвната съставка;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_4">
+                <num>г)</num>
+                <content>
+                  <p>обработка;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_5">
+                <num>д)</num>
+                <content>
+                  <p>етикетиране;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_6">
+                <num>е)</num>
+                <content>
+                  <p>съхранение;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_7">
+                <num>ж)</num>
+                <content>
+                  <p>разпределяне (експедиция, предоставяне);</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_8">
+                <num>з)</num>
+                <content>
+                  <p>използваните материали;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_6__l_9">
+                <num>и)</num>
+                <content>
+                  <p>друго (следва да се опише подробно);</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_7">
+              <num>7.</num>
+              <intro>
+                <p>потвърждение на сериозния инцидент:</p>
+              </intro>
+              <point eId="sec_final__par_9__al_2__pt_7__l_1">
+                <num>а)</num>
+                <content>
+                  <p>наименование на лечебното заведение, потвърдило сериозния инцидент;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_7__l_2">
+                <num>б)</num>
+                <content>
+                  <p>идентификационен номер на съобщението за потвърждаване;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_7__l_3">
+                <num>в)</num>
+                <content>
+                  <p>дата на потвърждаване;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_7__l_4">
+                <num>г)</num>
+                <content>
+                  <p>дата на сериозния инцидент;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_7__l_5">
+                <num>д)</num>
+                <content>
+                  <p>анализ на причината на сериозния инцидент;</p>
+                </content>
+              </point>
+              <point eId="sec_final__par_9__al_2__pt_7__l_6">
+                <num>е)</num>
+                <content>
+                  <p>предприетите мерки за отстраняване на причината за сериозния инцидент;</p>
+                </content>
+              </point>
+            </point>
+            <point eId="sec_final__par_9__al_2__pt_8">
+              <num>8.</num>
+              <content>
+                <p>номер и дата на заповедта за извършване на инспекция по повод на сериозния инцидент.”</p>
+              </content>
+            </point>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_10" name="modification">
+          <num>§ 10.</num>
+          <content>
+            <p>В чл. 11 ал. 1 се изменя така:</p>
+            <p>“(1) Данните по чл. 10 се вписват в регистъра от лицето по чл. 2, ал. 2 в тридневен срок след постъпването им в Изпълнителната агенция по лекарствата.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_11" name="modification">
+          <num>§ 11.</num>
+          <content>
+            <p>Член 12 се изменя така:</p>
+            <p>“Чл. 12. Здравна информация от регистъра по чл. 9 се предоставя по реда на чл. 28 от Закона за здравето.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_12" name="modification">
+          <num>§ 12.</num>
+          <content>
+            <p>В параграф единствен думите “чл. 40, ал. 3” се заменят с “чл. 40, ал. 4”.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>19920</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

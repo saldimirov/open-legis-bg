@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-104-23-11/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-104-23-11"/>
+          <FRBRalias value="Наредба за изменение на Наредба № Н-9 от 2018 г. за регистрите, водени от Агенция „Митници“" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № Н-9 от 2018 г. за регистрите, водени от Агенция „Митници“" name="eli" other="/eli/bg/naredba/2023/dv-104-23-11"/>
+          <FRBRdate date="2023-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-104-23-11/bul@2023-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-104-23-11/bul@2023-12-15"/>
+          <FRBRdate date="2023-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-104-23-11/bul@2023-12-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-104-23-11/bul@2023-12-15.xml"/>
+          <FRBRdate date="2023-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-12-15" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № Н-9 от 2018 г. за регистрите, водени от Агенция „Митници“</p>
+      <p>(обн., ДВ, бр. 94 от 2018 г.; изм. и доп., бр. 9 от 2019 г. и бр. 40 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1, т. 2 думите „Митническо представителство“ се заменят с „Предоставяне на профил за работа с митнически информационни системи“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В глава втора в наименованието на раздел II думите „Митническо представителство“ се заменят с „Предоставяне на профил за работа с митнически информационни системи“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>Член 10 се изменя така:</p>
+            <p>„Чл. 10. (1) Агенция „Митници“ води и поддържа електронен регистър „Предоставяне на профил за работа с митнически информационни системи“.</p>
+          </intro>
+          <paragraph eId="sec_final__par_3__al_1">
+            <num>(2)</num>
+            <intro>
+              <p>Регистърът съдържа данни за икономическите оператори, които предоставят и/или получават профили за работа с митнически информационни системи, включително данни за:</p>
+            </intro>
+            <point eId="sec_final__par_3__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>срока на валидност на предоставянето;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_3__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>статуса на предоставянето;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_3__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>правата/профилите за достъп до информационни системи на Агенция „Митници“ и Европейската комисия, които са предоставени и/или получени от икономическите оператори.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_final__par_3__al_2">
+            <num>(3)</num>
+            <content>
+              <p>Данните и обстоятелствата, свързани с предоставянето и получаването на профили за работа с митнически информационни системи, се подават само от лица, които са вписани в регистър „Единна регистрация на търговците за електронно общуване с Агенция „Митници“ и Европейската комисия“.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_3__al_3">
+            <num>(4)</num>
+            <content>
+              <p>Данните и обстоятелствата, свързани с предоставянето и получаването на профили за работа с митнически информационни системи, се подават и обменят между предоставящ и получаващ по електронен път през Е-портала на Агенция „Митници“ и се вписват автоматично в регистъра.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_3__al_4">
+            <num>(5)</num>
+            <content>
+              <p>За всеки запис в регистъра се генерира уникален номер.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_3__al_5">
+            <num>(6)</num>
+            <content>
+              <p>Регистърът позволява търсенето, преглеждането, редактирането или анулирането на данни и обстоятелства по конкретен запис. Допустимо е конкретен запис относно предоставянето и получаването на профили за работа с митнически информационни системи да бъде деактивиран чрез анулиране при оттегляне или отказ на предоставяне и/или получаване от предоставящия или от получаващия. Конкретен запис за работа с митнически информационни системи става автоматично неактивен след изтичането на срока му на валидност по ал. 2, т. 1.“</p>
+              <p>Министър:  Асен Василев</p>
+              <p>8769</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

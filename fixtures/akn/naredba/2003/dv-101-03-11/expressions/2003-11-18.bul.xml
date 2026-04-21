@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-101-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-101-03-11"/>
+          <FRBRalias value="Наредба № 1 от 30 октомври 2003 г. за реда за създаване и начините за нанасяне на номер за идентифициране на пътните превозни средства, произвеждани в Република България" name="short"/>
+          <FRBRalias value="Наредба № 1 от 30 октомври 2003 г. за реда за създаване и начините за нанасяне на номер за идентифициране на пътните превозни средства, произвеждани в Република България" name="eli" other="/eli/bg/naredba/2003/dv-101-03-11"/>
+          <FRBRdate date="2003-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-101-03-11/bul@2003-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-101-03-11/bul@2003-11-18"/>
+          <FRBRdate date="2003-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-101-03-11/bul@2003-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-101-03-11/bul@2003-11-18.xml"/>
+          <FRBRdate date="2003-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-18" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 1 от 30 октомври 2003 г. за реда за създаване и начините за нанасяне на номер за идентифициране на пътните превозни средства, произвеждани в Република България</p>
+      <p>(обн., ДВ, бр. 31 от 2000г.; изм., бр. 48 от 2002 г.; изм. и доп., бр. 105 от 2002 г.; изм. с Решение № 7802 от 2003 г. на ВАС на РБ — бр. 68 от 2003 г.)</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава     първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <intro>
+            <p>С тази наредба се определят:</p>
+          </intro>
+          <point eId="chap_1__art_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>редът за създаване на номер за идентифициране на пътно превозно средство (ППС)   (VIN — Vehicle Identification Number);</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>начините за нанасяне на номера за идентифициране върху ППС;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>координаторът на   WMI   за издаване, управление и съхранение на номера за идентифициране на ППС за Република България;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_1__pt_4">
+            <num>4.</num>
+            <content>
+              <p>редът за управлението и съхранението на издадените номера за идентифициране на ППС.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Наредбата се прилага за ППС от категории   G, L,   М, N и О.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Наредбата не се прилага за подкатегория От— ремаркета и полуремаркета, предназначени за теглене от колесни трактори.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_1__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Всички ППС от категориите по чл. 2, ал. 1, произвеждани в Република България, трябва да имат номер за идентифициране съгласно БДС   ISO   3779.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>За всяко ППС от категориите по чл. 2, ал. 1 се издава само един номер за идентифициране.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_3">
+            <num>(3)</num>
+            <content>
+              <p>При издаване на номер за идентифициране се използват арабските цифри 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 и главните латински букви   A, B, C, D, E, F, G, H, J, K, L, M, N, P, R, S, T, U,   V,   W,   X,   Y, Z.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Буквите   I, O   и   Q   не се използват.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <intro>
+            <p>Номерът за идентифициране представлява 17-знакова комбинация, образувана съгласно чл. 3, която се състои от три части:</p>
+          </intro>
+          <point eId="chap_1__art_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Световен код за идентифициране на производителя   (WMI — World Manufacturer Identifier).</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Сектор, който характеризира ППС   (VDS — Vehicle Descriptor Section).</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Указателен сектор на ППС   (VIS — Vehicle Indicator Section).</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_1__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_1__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Световният код за идентифициране на производителя   (WMI)   съдържа три знака съгласно БДС   ISO   3780.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Първият знак характеризира географската зона и се определя от Обществото на автомобилните инженери   (SAE—Society of Automotive Engineers).   За Република България първият знак е „Х&amp;quot;.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_5__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Вторият знак характеризира държавата производител, избира се от координатора на   WMI   за Република България от една от главните латински букви   A, B, C, D   и Е.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_5__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Третият знак характеризира производителя и се издава от координатора на   WMI   за Република България.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Секторът, който характеризира ППС   (VDS),   съдържа шест знака и се издава от производителя на ППС.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_7">
+          <num>Чл. 7.</num>
+          <content>
+            <p>Указателният сектор на ППС   (VIS)   съдържа осем знака и се издава от производителя на ППС и координатора на   WMI   за Република България или само от производителя на ППС.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_8">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Всеки производител на ППС трябва да има методика и/или схема за формиране на   VDS   и   VIS,   която предоставя на Изпълнителния директор на Изпълнителна агенция „Автомобилна администрация&amp;quot; към Министерството на транспорта и съобщенията.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава     втора</num>
+        <heading>СЪЗДАВАНЕ НА НОМЕР ЗА ИДЕНТИфИЦИРАНЕ НА ППС</heading>
+        <section eId="chap_2__sec_1">
+          <num>Раздел   I</num>
+          <heading>Създаване на световен код за идентифициране на производителя</heading>
+          <article eId="chap_2__sec_1__art_9">
+            <num>Чл. 9.</num>
+            <content>
+              <p>Координатор на   WMI   за Република България е Министерството на икономиката.</p>
+            </content>
+          </article>
+          <article eId="chap_2__sec_1__art_10">
+            <num>Чл. 10.</num>
+            <paragraph eId="chap_2__sec_1__art_10__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Министерството на икономиката издава втория и третия знак на   WMI   въз основа на писмено заявление на производителя съгласно приложение № 1.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_1__art_10__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Заявлението за издаване на   WMI   съдържа:</p>
+              </intro>
+              <point eId="chap_2__sec_1__art_10__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>име/наименование и адрес на производителя;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_10__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>категория или категории на ППС, които ще бъдат произвеждани;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_10__al_2__pt_3">
+                <num>3.</num>
+                <content>
+                  <p>обем на планираното годишно производство.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_2__sec_1__art_11">
+            <num>Чл. 11.</num>
+            <paragraph eId="chap_2__sec_1__art_11__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Когато годишното производство на ППС е по-малко от 500 броя, третият знак на   WMI   е цифрата 9.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_1__art_11__al_2">
+              <num>(2)</num>
+              <content>
+                <p>В случая по ал. 1 Mинистерството на икономиката издава и 12-и, 13-и и 14-и знак от   VIN.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_2__sec_1__art_12">
+            <num>Чл. 12.</num>
+            <paragraph eId="chap_2__sec_1__art_12__al_1">
+              <num>(1)</num>
+              <intro>
+                <p>При сливане или вливане в други производители със същия предмет на дейност и/ или придобиване на активи от друг производител със същия предмет на дейност, за чиито продукти има издаден   WMI,   Mинистерството на икономиката извършва преценка и взема решение за необходимостта от издаване на нов   WMI,   като:</p>
+              </intro>
+              <point eId="chap_2__sec_1__art_12__al_1__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>ако наименованието на производителя е изцяло променено, издаването на нов   WMI   е препоръчително;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_1__art_12__al_1__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>нов   WMI   не се издава, когато наименованието на производителя не е променено и продуктите му запазват своята идентичност по отношение на регистрация, лицензиране, титу-ловане и одобрение на типа.</p>
+                </content>
+              </point>
+            </paragraph>
+            <paragraph eId="chap_2__sec_1__art_12__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Всеки производител на ППС е длъжен да информира Mинистерството на икономиката за настъпили обстоятелства по ал. 1.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_2__sec_2">
+          <num>Раздел   II</num>
+          <heading>Създаване на   VDS, VIS   сектори и определяне на число на проверка Чл. 13   .(1) Производителят на ППС определя   VDS   при спазване изискванията на чл. 3, алинеи 3 и 4. (2) Производителят попълва неизползваните позиции във   VDS   с буквени или цифрови знаци по негов избор.</heading>
+          <article eId="chap_2__sec_2__art_13">
+            <num>Чл. 14.</num>
+            <paragraph eId="chap_2__sec_2__art_13__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Производителят на ППС създава   VIS   при спазване изискванията на чл. 3, ал. 3 и 4.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_13__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Последните четири знака на   VIS   са арабски цифри.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_13__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Неизползваните позиции при създаването на   VIS   се запълват с 0.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_2__sec_2__art_14">
+            <num>Чл. 15.</num>
+            <paragraph eId="chap_2__sec_2__art_14__al_1">
+              <num>(1)</num>
+              <content>
+                <p>На позиция 9 от номера за идентифициране производителят нанася число за проверка.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_14__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Производителят определя числото за проверка съгласно приложение № 2.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава     трета</num>
+        <heading>НАНАСЯНЕ НА НОMЕРA ЗА ИДЕПГИфИ-ЦИРАНЕ НА ППС</heading>
+        <article eId="chap_3__art_15">
+          <num>Чл. 16.</num>
+          <paragraph eId="chap_3__art_15__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Номерът за идентифициране на ППС се нанася на табелата на производителя и директно на рамата или на шасито от дясната страна на ППС чрез набиване или отпечатване по такъв начин, че да не може да бъде заличен или подправен по време на срока на експлоатация на ППС.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Номерът за идентифициране на ППС се нанася на един ред.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Допуска се номерът за идентифициране на ППС да бъде нанесен на два реда, като отделните му части   — WMI, VDS   или   VIS,   не трябва да се прекъсват. Началото и краят на всеки ред се маркират със знак, различен от арабска цифра или главна латинска буква.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_4">
+            <num>(4)</num>
+            <content>
+              <p>В случая по ал. 2 трите части на номера за идентифициране се разграничават със знаците по ал. 3.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Не се допускат интервали между позициите на номера за идентифициране.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Mинималната височина на знаците на номера за идентифициране при нанасяне директно върху рамата или шасито е 7   mm.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_15__al_7">
+            <num>(7)</num>
+            <content>
+              <p>Mинималната височина на знаците на номера за идентифициране при нанасяне на табелата на производителя е 4   mm.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_16">
+          <num>Чл. 17.</num>
+          <content>
+            <p>Mестата за монтаж на табелата на производителя и за директното нанасяне на номера върху шасито или рамата трябва да бъдат леснодостъпни и видими.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава     четвърта</num>
+        <heading>УПРАВЛЕНИЕ И СЪХРАНЕНИЕ НА ИНфОРMAЦИЯTA</heading>
+        <article eId="chap_4__art_17">
+          <num>Чл. 18.</num>
+          <paragraph eId="chap_4__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Mинистерството на икономиката изпраща копие от всеки издаден   WMI   на Обществото на автомобилните инженери   (SAE)   за регистрация.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Копието се придружава с информация за наименованието и адреса на производителя и категориите ППС, за които се отнася.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_18">
+          <num>Чл. 19.</num>
+          <content>
+            <p>Mинистерството на икономиката изпраща копие от потвърждението за регистрацията по чл. 18 на производителя, след като го получи от   SAE.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_19">
+          <num>Чл. 20.</num>
+          <paragraph eId="chap_4__art_19__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Mинистерството на икономиката съхранява информацията за издадените   WMI.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_19__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Информацията по ал. 1 се съхранява 30 години от Mинистерството на икономиката, след като производителя е поискал заличаването на издадените му   WMI.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_20">
+          <num>Чл. 21.</num>
+          <content>
+            <p>Всеки производител е задължен да уведоми Mинистерството на икономиката, когато заличи издаден на негово име   WMI.</p>
+            <p>ПРЕХОДНИ И    заключИтелни    РАЗПОРЕДБИ</p>
+          </content>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Всички нови ППС, които към датата на влизане в сила на тази наредба не притежават издадени номера за идентифициране и не са регистрирани съгласно Наредба №   I-45   от 2000 г. за регистрацията, отчета, пускането в движение и спирането от движение на моторните превозни средства и на ремаркетата, теглени от тях (обн., ДВ, бр. 31 от 2000г.; изм., бр. 48 от 2002 г.; изм. и доп., бр. 105 от 2002 г.; изм. с Решение № 7802 от 2003 г. на ВАС на РБ — бр. 68 от 2003 г.), се привеждат в съответствие с изискванията на тази наредба в срок три месеца.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 138, ал. 6 от Закона за движението по пътищата.</p>
+            <p>Mинистър:    Лидия Шулева</p>
+            <p>Приложение № 1 към чл. 10, ал. 1</p>
+            <p>Заявление за издаване на световен код за идентифициране на производителя</p>
+            <p>Виж приложението в    PDF   -а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

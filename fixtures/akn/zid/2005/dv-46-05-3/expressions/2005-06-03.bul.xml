@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-46-05-3/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-46-05-3"/>
+          <FRBRalias value="Закон за изменение на Закона за административно-териториалното устройство на Република България" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за административно-териториалното устройство на Република България" name="eli" other="/eli/bg/zid/2005/dv-46-05-3"/>
+          <FRBRdate date="2005-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-46-05-3/bul@2005-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-46-05-3/bul@2005-06-03"/>
+          <FRBRdate date="2005-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-46-05-3/bul@2005-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-46-05-3/bul@2005-06-03.xml"/>
+          <FRBRdate date="2005-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-06-03" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за административно-териториалното устройство на Република България</p>
+      <p>(обн., ДВ, бр. 63 от 1995 г.; бр. 51 от 1996 г. - Решение № 8 на Конституционния съд от 1996 г.; изм., бр. 27, 33 и 154 от 1998 г., бр. 10 и 69 от 1999 г., бр. 57 от 2000 г., бр. 67 от 2003 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

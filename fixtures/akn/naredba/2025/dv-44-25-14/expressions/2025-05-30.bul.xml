@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-44-25-14/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-44-25-14"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 30 октомври 2023 г. за условията и реда за предоставяне от Висшия съдебен съвет на информацията по чл. 24, параграф 2 от Регламент (ЕС) 2015/848 на Европейския парламент и на Съвета от 20 май 2015 г. относно производството по несъстоятелност, както и данни относно производствата по несъстоятелност, стабилизация и погасяване на задължения" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 9 от 30 октомври 2023 г. за условията и реда за предоставяне от Висшия съдебен съвет на информацията по чл. 24, параграф 2 от Регламент (ЕС) 2015/848 на Европейския парламент и на Съвета от 20 май 2015 г. относно производството по несъстоятелност, както и данни относно производствата по несъстоятелност, стабилизация и погасяване на задължения" name="eli" other="/eli/bg/naredba/2025/dv-44-25-14"/>
+          <FRBRdate date="2025-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-44-25-14/bul@2025-05-30/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-44-25-14/bul@2025-05-30"/>
+          <FRBRdate date="2025-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-44-25-14/bul@2025-05-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-44-25-14/bul@2025-05-30.xml"/>
+          <FRBRdate date="2025-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-05-30" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 9 от 30 октомври 2023 г. за условията и реда за предоставяне от Висшия съдебен съвет на информацията по чл. 24, параграф 2 от Регламент (ЕС) 2015/848 на Европейския парламент и на Съвета от 20 май 2015 г. относно производството по несъстоятелност, както и данни относно производствата по несъстоятелност, стабилизация и погасяване на задължения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 2 думите „Информационната система за производство по несъстоятелност“ се заменят с „регистъра по несъстоятелност по чл. 760е, ал. 1 от Търговския закон“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 5, ал. 1 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 1 буква „а“ се изменя така: „а) броя на откритите, висящи и приключени производства;“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 1, буква „б“ думите „от подаване на заявлението или“ се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В т. 1 буква „г“ се изменя така: „г) броя на молбите за производство по стабилизация, които са оставени без разглеждане, броя на молбите, които са отхвърлени, както и броя на молбите, които са оттеглени преди откриване на производството.“</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>Навсякъде в чл. 5 думите „производство по преструктуриране“, „производства по преструктуриране“ се заменят с „производство по стабилизация“ и „производства по стабилизация“. Представляващ Висшия съдебен съвет:  Боян Магдалинчев 2917</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

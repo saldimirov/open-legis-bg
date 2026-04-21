@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-29/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-29"/>
+          <FRBRalias value="Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порционни пари на служителите на Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порционни пари на служителите на Министерството на вътрешните работи" name="eli" other="/eli/bg/naredba/2014/dv-106-14-29"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-29/bul@2014-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-29/bul@2014-12-23"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-29/bul@2014-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-29/bul@2014-12-23.xml"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-23" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порционни пари на служителите на Министерството на вътрешните работи</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>На служителите на Министерството на вътрешните работи (МВР) се изплащат ежемесечно порционни пари.</p>
+          <p>Чл. 2    Размерът на порционните пари се определя ежегодно със заповед на министъра на вътрешните работи.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Порционните пари се изплащат за действително отработено време.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>При неотработен пълен месец порционните пари се изчисляват пропорционално на отработеното време.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 4.</num>
+        <intro>
+          <p>При изчисляване на индивидуалния месечен размер на порционните пари за отработено време се зачита:</p>
+        </intro>
+        <point eId="art_3__pt_1">
+          <num>1.</num>
+          <content>
+            <p>времето на ползване на платен годишен отпуск;</p>
+          </content>
+        </point>
+        <point eId="art_3__pt_2">
+          <num>2.</num>
+          <content>
+            <p>времето на ползване на отпуск поради временна неработоспособност – до 30-ия календарен ден включително без прекъсване;</p>
+          </content>
+        </point>
+        <point eId="art_3__pt_3">
+          <num>3.</num>
+          <content>
+            <p>ползване на неплатен отпуск, независимо от основанието – до 30-ия календарен ден включително без прекъсване;</p>
+          </content>
+        </point>
+        <point eId="art_3__pt_4">
+          <num>4.</num>
+          <content>
+            <p>командироване или специализация в чужбина при условията и по реда на Наредбата за служебните командировки и специализациите в чужбина, приета с ПМС № 115 от 2004 г. (ДВ, бр. 50 от 2004 г.) – до 30-ия календарен ден включително без прекъсване.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 5.</num>
+        <intro>
+          <p>Порционните пари не се изплащат за времето на:</p>
+        </intro>
+        <point eId="art_4__pt_1">
+          <num>1.</num>
+          <content>
+            <p>ползване на отпуск поради бременност, раждане и осиновяване;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_2">
+          <num>2.</num>
+          <content>
+            <p>ползване на отпуск за отглеждане на дете до 2-годишна възраст или при осиновяване на дете от 2- до 5-годишна възраст;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_3">
+          <num>3.</num>
+          <content>
+            <p>ползване на отпуск поради временна неработоспособност – след срока по чл. 4, т. 2;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_4">
+          <num>4.</num>
+          <content>
+            <p>ползване на неплатен отпуск, независимо от основанието – след срока по чл. 4, т. 3;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_5">
+          <num>5.</num>
+          <content>
+            <p>командироване или специализация в чужбина при условията и по реда на Наредбата за служебните командировки и специализациите в чужбина, приета с ПМС № 115 от 2004 г. – след срока по чл. 4, т. 4;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_6">
+          <num>6.</num>
+          <content>
+            <p>командироване в чужбина при условията и по реда на Наредбата за командировъчните средства при задграничен мандат, приета с ПМС № 188 от 2008 г. (ДВ, бр. 70 от 2008 г.), и Наредбата за условията и реда за участие на граждански специалисти от Република България в операции и мисии на международни организации за управление на кризи извън територията на Република България, приета с ПМС № 9 от 2011 г. (ДВ, бр. 9 от 2011 г.);</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_7">
+          <num>7.</num>
+          <content>
+            <p>временно отстраняване от длъжност.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 6.</num>
+        <paragraph eId="art_5__al_1">
+          <num>(1)</num>
+          <content>
+            <p>При настъпване на някое от обстоятелствата по чл. 5 екземпляр или заверено копие от документите, удостоверяващи настъпването му, се изпращат незабавно в обслужващото финансово звено за прекратяване изплащането на порционните пари.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_5__al_2">
+          <num>(2)</num>
+          <content>
+            <p>При промяна или отпадане на обстоятелство по чл. 5 екземпляр или заверено копие от документите, удостоверяващи промяната или отпадането му, се изпращат незабавно в обслужващото финансово звено за възстановяване на изплащането на порционните пари.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 181, ал. 1 във връзка с ал. 5 от Закона за Министерството на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>Министър:  Веселин Вучков</p>
+            <p>8909</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-91-06-20/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-91-06-20"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите" name="eli" other="/eli/bg/naredba/2006/dv-91-06-20"/>
+          <FRBRdate date="2006-11-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-91-06-20/bul@2006-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-91-06-20/bul@2006-11-10"/>
+          <FRBRdate date="2006-11-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-91-06-20/bul@2006-11-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-91-06-20/bul@2006-11-10.xml"/>
+          <FRBRdate date="2006-11-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-11-10" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите</p>
+      <p>(обн., ДВ, бр. 7 от 2003 г.; изм. и доп., бр. 78 от 2004 г., бр. 59 от 2005 г.; доп.,  бр. 32 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 1 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 3 изразът “лодки с максимална дължина до 3,05 м, неизвършващи стопанска дейност” се заличава.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Алинея 4 се изменя така: “(4) Плаващите пристанищни съоръжения, служещи за връзка между кораба и брега, се вписват в информационната база данни на пристанищната инфраструктура към регистъра на пристанищата.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Създава се ал. 5: “(5) Регистрирането на плавателни съдове с максимална дължина до 4,57 метра (15 фута), неизвършващи стопанска дейност, не е задължително.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 2 след думата “осъществяване” се добавя “на”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 4 ал. 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 5, ал. 5 се създава изречение второ: “Вписването се извършва в една от дирекциите на ИА “МА”, посочени в чл. 7, ал. 1 или ал. 2, по писмено заявление на корабособственика.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <intro>
+            <p>В чл. 9 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_5__pt_1">
+            <num>1.</num>
+            <intro>
+              <p>Алинея 1 се изменя така:</p>
+            </intro>
+            <point eId="sec_final__par_5__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>в т. 1 след израза “местосключване на договора” се добавя “или нотариално заверена декларация, че корабът е построен със собствени сили и средства”;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_5__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>в т. 3 след думата “кораба” се поставя тире и се добавя изразът “задължително за конвенционални кораби, а за останалите ако”, а думата “когато” се заличава;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_5__pt_1__l_3">
+              <num>в)</num>
+              <content>
+                <p>в т. 5 след думата “придобит” се добавя изразът “или нотариално заверена декларация от заявилия вписването за това, че корабът не е вписан в чужд регистър - за кораби, подлежащи на вписване в регистровите книги на малките кораби;”;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_5__pt_1__l_4">
+              <num>г)</num>
+              <content>
+                <p>точка 6 се отменя;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_5__pt_1__l_5">
+              <num>д)</num>
+              <content>
+                <p>точка 8 се отменя.</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_final__par_5__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 2 думите “и т. 6” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_5__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В ал. 4 т. 8 се отменя.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_5__pt_4">
+            <num>4.</num>
+            <content>
+              <p>В ал. 5 след числото “6” тирето и числото “8” се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_5__pt_5">
+            <num>5.</num>
+            <content>
+              <p>Алинея 9 се изменя така: “(9) Изпълнителна агенция “Морска администрация” предоставя служебно информация от регистровите книги при поискване от Изпълнителната агенция по рибарство и аквакултури за кораби, за които има приети заявления за издаване на разрешително за стопански риболов.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_6" name="modification">
+          <num>§ 6.</num>
+          <intro>
+            <p>В чл. 10, ал. 1 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_6__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 14 след думата “(позивни)” се добавят думите “и идентификационен номер по морската мобилна комуникационна мрежа - “MMSI номер”, а думата “такъв” се заменя с “такива”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_6__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 16 след думата “агент” се добавя “(оператор)”, а в края на изречението след думата “кораби” се поставя запетая и се добавя изразът “ако има такъв”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_7" name="modification">
+          <num>§ 7.</num>
+          <intro>
+            <p>В чл. 13 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_7__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 след думите “(приложение № 7)” точката се заличава, поставя се запетая и се добавя изразът “а риболовните кораби и уникален регистров номер на риболовните кораби от Европейската общност (приложение № 7а).”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_7__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 2 след думите “корабни документи” текстът до края се изменя така: “съгласно действащото национално законодателство и след извършването на преглед”.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_8" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>В чл. 15, ал. 1 изразът “българските букви за пристанището на регистрация и номерът на регистрация” се заменя с “пристанището на регистрация с български и латински букви и номерът на регистрация”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_9" name="modification">
+          <num>§ 9.</num>
+          <content>
+            <p>В чл. 22 ал. 3 се изменя така:</p>
+            <p>“(3) В случаите, посочени в ал. 1, т. 1 и 3 и ал. 2, корабът се заличава със съгласието на кредитора, чието вещно право е вписано в регистъра.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_10" name="modification">
+          <num>§ 10.</num>
+          <content>
+            <p>Създава се чл. 22а:</p>
+            <p>“Чл. 22а. Изпълнителна агенция “Морска администрация” уведомява служебно Изпълнителната агенция по рибарство и аквакултури за отписаните по реда на този раздел риболовни кораби.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_11" name="modification">
+          <num>§ 11.</num>
+          <content>
+            <p>Раздел VII “Електронна база данни “Регистър на риболовните кораби” се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_12" name="modification">
+          <num>§ 12.</num>
+          <content>
+            <p>В чл. 33а, ал. 1 думите “ИА “Морска администрация” се заменят с “ИА “МА”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_13" name="modification">
+          <num>§ 13.</num>
+          <content>
+            <p>В чл. 34, ал. 2 думите “ИА “Морска администрация” се заменят с “ИА “МА”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_14" name="modification">
+          <num>§ 14.</num>
+          <intro>
+            <p>В § 1 от допълнителната разпоредба се създават нови т. 4 и т. 5:</p>
+            <p>“4. “надувни лодки” са плавателни съдове, на които плавучеста се осигурява само от еластична надуваема конструкция;</p>
+          </intro>
+          <point eId="sec_final__par_14__pt_1">
+            <num>5.</num>
+            <intro>
+              <p>“конвенционални кораби” са кораби, които попадат в обхвата на приложение на поне една от следните конвенции:</p>
+            </intro>
+            <point eId="sec_final__par_14__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>Международната конвенция за безопасност на човешкия живот на море от 1974 г. (SOLAS) (обн. като притурка на ДВ, бр. 12 от 2005 г.);</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_14__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>Международната конвенция за предотвратяване на замърсяването от кораби, 1973, изменена с протокол от 1978 г. (MARPOL 73/78) и с протокол от 1997 г. (ДВ, бр. 12 от 2005 г.);</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_14__pt_1__l_3">
+              <num>в)</num>
+              <content>
+                <p>Международната конвенция за товарните водолинии от 1966 г. (Loadline Convention) (ДВ, бр. 81 от 2003 г.) и Протокола от 1988 г. към Международната конвенция за товарните водолинии от 1966 г. (ДВ, бр. 96 от 2004 г.).”</p>
+              </content>
+            </point>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_15" name="modification">
+          <num>§ 15.</num>
+          <content>
+            <p>Приложение № 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_16" name="modification">
+          <num>§ 16.</num>
+          <intro>
+            <p>В приложение № 6:</p>
+          </intro>
+          <point eId="sec_final__par_16__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Изразът “към чл. 9, ал. 1, т. 8” се заменя с “към чл. 9, ал. 1, т. 7”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_16__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Думите “и съобщенията” в заглавието се заличават.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_16__pt_3">
+            <num>3.</num>
+            <content>
+              <p>В раздел I след “MMSI” се добавят думите “или ATIS”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_16__pt_4">
+            <num>4.</num>
+            <intro>
+              <p>В раздел II:</p>
+            </intro>
+            <point eId="sec_final__par_16__pt_4__l_1">
+              <num>а)</num>
+              <content>
+                <p>в т. 1 и 2 след думата “корабособственика” се добавя изразът “или беърбоут чартьора”;</p>
+              </content>
+            </point>
+            <point eId="sec_final__par_16__pt_4__l_2">
+              <num>б)</num>
+              <content>
+                <p>в т. 8 след думата “корабособственика” се добавя изразът “или беърбоут чартьора”.</p>
+              </content>
+            </point>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_17" name="modification">
+          <num>§ 17.</num>
+          <intro>
+            <p>Създава се приложение № 7а към чл. 13, ал. 1:</p>
+            <p>“Приложение № 7а   към чл. 13, ал. 1</p>
+            <p>Уникален регистров номер на риболовните кораби от Европейската общност (CRF номер)</p>
+          </intro>
+          <point eId="sec_final__par_17__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Образуване на номера BGR               00                20                 2                  0288 Код на         Резер-      Код на             Код на            Номер, под страната      вен          пристани-        регистро-        който кора- щето на           вата               бът е впи- регистра-         книга              сан в реги- ция                                       стровата Таблица 1        Таблица 2       книга Таблица 1 - Код на пристанищата на регистрация: 10                                    Варна 11                                    Шабла 12                                    Каварна 13                                    Балчик 14                                    Бяла 20                                    Бургас 21                                    Несебър 22                                    Поморие 23                                    Созопол 24                                    Приморско 25                                    Царево 26                                    Ахтопол Таблица 2 - Код на регистровите книги: 1               Регистрови книги на големите кораби 2               Регистрови книги на малките кораби 3               Регистрови книги на кораби до 20 БТ на море 4              Регистрови книги на кораби, наети при усло- вия на беърбоут чартър</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_17__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Код на пристанището на вписване: Таблица 3 - Код на пристанищата на вписване (на латиница) Port Name              National port code Varna                    BGVAR Shabla                    BGSHA Kavarna                 BGKAV Balchik                   BGBAL Byala                     BGBYA Burgas                   BGBOJ Nessebar                BGNES Pomorie                  BGPOM Sozopol                  BGSOS Primorsko               BGPRI Tzarevo                  BGTZA Ahtopol                   BGAHT ”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_18" name="modification">
+          <num>§ 18.</num>
+          <content>
+            <p>Приложения № 8, 9, 10 и 11 се отменят.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 19.</num>
+          <intro>
+            <p>В Наредба № 19 от 2004 г. за регистрация на пристанищата на Република България (обн., ДВ, бр. 111 от 2004 г.; изм., бр. 62 от 2005 г.) се правят следните допълнения:</p>
+          </intro>
+          <point eId="sec_final_2__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В чл. 8, ал. 1 след израза “пристанищните инфраструктура и съоръжения” се добавя изразът “както плаващи пристанищни съоръжения, служещи за връзка между кораба и брега” и се поставя запетая.</p>
+            </content>
+          </point>
+          <point eId="sec_final_2__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В заглавието на приложение № 4 в думите в скоби след думата “понтони” се поставя запетая и се добавя изразът “плаващи пристанищни съоръжения, служещи за връзка между кораба и брега”. Министър:  П. Мутафчиев 68660</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-11"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 3 от 2005 г. за условията и реда за предоставяне на средства за субсидиране на превоза на пътниците по нерентабилни автобусни линии във вътрешноградския транспорт и транспорта в планински и други райони" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 3 от 2005 г. за условията и реда за предоставяне на средства за субсидиране на превоза на пътниците по нерентабилни автобусни линии във вътрешноградския транспорт и транспорта в планински и други райони" name="eli" other="/eli/bg/naredba/2008/dv-32-08-11"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-11/bul@2008-03-25/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-11/bul@2008-03-25"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-11/bul@2008-03-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-11/bul@2008-03-25.xml"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-25" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 3 от 2005 г. за условията и реда за предоставяне на средства за субсидиране на превоза на пътниците по нерентабилни автобусни линии във вътрешноградския транспорт и транспорта в планински и други райони</p>
+      <p>(обн., ДВ, бр. 33 от 2005 г.; изм., бр. 92 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 11 се създава ал. 3:</p>
+            <p>“(3) Когато в срока по ал. 1 не е утвърден списъкът за разпределението на субсидиите по чл. 2, лимитите по СЕБРА се залагат в размер една четвърт от предоставените средства за предходната година.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата е съгласувана с министъра на транспорта и влиза в сила от 1 януари 2008 г.</p>
+            <p>За министър:  К. Желев</p>
+            <p>13003</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

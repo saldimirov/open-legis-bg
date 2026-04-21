@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-70-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-70-08-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за системата за оценяване" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за системата за оценяване" name="eli" other="/eli/bg/naredba/2008/dv-70-08-12"/>
+          <FRBRdate date="2008-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-70-08-12/bul@2008-08-08/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-70-08-12/bul@2008-08-08"/>
+          <FRBRdate date="2008-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-70-08-12/bul@2008-08-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-70-08-12/bul@2008-08-08.xml"/>
+          <FRBRdate date="2008-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-08" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 3 от 2003 г. за системата за оценяване</p>
+      <p>(обн., ДВ, бр. 37 от 2003 г.; попр., бр. 48 от 2003 г.; изм., бр. 46 от 2004 г.; изм. и доп., бр. 65 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 28 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова ал. 5: “(5) Редовните поправителни сесии за учениците от 12 клас са две и се провеждат до две седмици след приключване на учебните занятия и до един месец преди началото на учебната година по ред, определен със заповед на директора на училището.”</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашните ал. 5 и 6 стават съответно ал. 6 и 7.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 29, ал. 5 думите “чл. 28, ал. 3 - 6” се заменят с “чл. 28, ал. 3 - 7”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 11а, ал. 2 от Наредба № 7 от 2000 г. за определяне броя на паралелките и групите и броя на учениците и на децата в паралелките и в групите на училищата, детските градини и обслужващите звена (обн., ДВ, бр. 4 от 2001 г.; изм. и доп., бр. 49 и 55 от 2002 г., бр. 74 от 2003 г.; доп., бр. 87 от 2003 г.; изм. и доп., бр. 27 от 2008 г.) думите “по ал. 2” се заменят с “по ал. 1”.</p>
+            <p>Министър:  Д. Вълчев</p>
+            <p>2022</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

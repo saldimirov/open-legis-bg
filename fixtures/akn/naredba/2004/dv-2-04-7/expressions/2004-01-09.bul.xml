@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-2-04-7/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-2-04-7"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК" name="eli" other="/eli/bg/naredba/2004/dv-2-04-7"/>
+          <FRBRdate date="2004-01-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-2-04-7/bul@2004-01-09/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-2-04-7/bul@2004-01-09"/>
+          <FRBRdate date="2004-01-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-2-04-7/bul@2004-01-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-2-04-7/bul@2004-01-09.xml"/>
+          <FRBRdate date="2004-01-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-01-09" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 29 от 2003 г. за определяне на основния пакет от здравни дейности, гарантиран от бюджета на НЗОК</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В приложение № 4 към член единствен се създават т. 88 и 89:</p>
+            <p>“88. Асистирана репродукция - ин витро фертилизация.</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>89.</num>
+            <content>
+              <p>Асистирана репродукция - контролирана вътрематочна инсеминация.”</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 5 към член единствен се заличават клинични пътеки № 55. “Асистирани репродуктивни технологии - ин витро фертилизация.” и № 56. “Асистирани репродуктивни технологии - контролирана вътрематочна инсеминация.”</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>75640</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

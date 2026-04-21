@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-67-06-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-67-06-17"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения" name="eli" other="/eli/bg/naredba/2006/dv-67-06-17"/>
+          <FRBRdate date="2006-08-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-67-06-17/bul@2006-08-18/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-67-06-17/bul@2006-08-18"/>
+          <FRBRdate date="2006-08-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-67-06-17/bul@2006-08-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-67-06-17/bul@2006-08-18.xml"/>
+          <FRBRdate date="2006-08-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-18" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 18 от 2005 г. за критериите, показателите и методиката за акредитация на лечебните заведения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 16 ал. 2 се изменя така:</p>
+            <p>“(2) Минималният състав на експертната комисия при оценяване за цялостна медицинска дейност включва лекар (стоматолог), юрист и икономист. По предложение на акредитационния съвет в състава на експертната комисия могат да се включват лекари (стоматолози) с различни признати специалности и медицинска сестра (акушерка, лаборант, рехабилитатор или зъботехник).”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>56052</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

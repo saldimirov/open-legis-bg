@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-108-07-3/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-108-07-3"/>
+          <FRBRalias value="Закон за допълнение на Закона за интеграция на хората с увреждания" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за интеграция на хората с увреждания" name="eli" other="/eli/bg/zid/2007/dv-108-07-3"/>
+          <FRBRdate date="2007-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-108-07-3/bul@2007-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-108-07-3/bul@2007-12-19"/>
+          <FRBRdate date="2007-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-108-07-3/bul@2007-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-108-07-3/bul@2007-12-19.xml"/>
+          <FRBRdate date="2007-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-19" name="Държавен вестник" number="108" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за интеграция на хората с увреждания</p>
+      <p>(обн., ДВ, бр. 81 от 2004 г.; изм., бр. 28, 88, 94, 103 и 105 от 2005 г., бр.18, 30, 33, 37, 63, 95, 97 и 108 от 2006 г., бр. 31 и 46 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В преходните и заключителните разпоредби се създават § 8а и § 8б:</p>
+          <p>“§ 8а. Лицата, регистрирани до влизането в сила на § 14, т. 3 от Закона за медицинските изделия, могат да предоставят медицински изделия, помощни средства, приспособления и съоръжения за хора с увреждания, посочени в списъците по чл. 35а, ал. 1, до 31 декември 2007 г., като получават полагащите се за това средства от Агенцията за хората с увреждания.</p>
+          <p>§ 8б. Лицата, регистрирани до влизането в сила на § 14, т. 3 от Закона за медицинските изделия, могат да извършват ремонт на медицински изделия, помощни средства, приспособления и съоръжения за хора с увреждания, посочени в списъците по чл. 35а, ал. 1, до 31 декември 2007 г., както и да получават полагащите се за това средства от Агенцията за хората с увреждания до изтичането на експлотационния им срок.”</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 12 юни 2007 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

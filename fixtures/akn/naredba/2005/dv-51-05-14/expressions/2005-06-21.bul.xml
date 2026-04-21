@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-14"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 21 от 2003 г. за одобрение на типа на нови колесни трактори" name="short"/>
+          <FRBRalias value="Наредба за допълнение на Наредба № 21 от 2003 г. за одобрение на типа на нови колесни трактори" name="eli" other="/eli/bg/naredba/2005/dv-51-05-14"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-14/bul@2005-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-14/bul@2005-06-21"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-14/bul@2005-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-14/bul@2005-06-21.xml"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-06-21" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за допълнение на Наредба № 21 от 2003 г. за одобрение на типа на нови колесни трактори</p>
+      <p>(обн., ДВ, бр. 63 от 2003 г.; попр., бр. 70 от 2003 г.; изм., бр. 62 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се член 9а:</p>
+            <p>“Чл. 9а. Сертификатите на Европейската общност (ЕС сертификат) за одобрение на типа на нови колесни трактори, системи и компоненти за тях, издадени от компетентните органи на страни - членки на Европейския съюз, запазват действието си на територията на Република България.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 20, ал. 1 след думите “съответствие с одобрения тип” се добавя “на български език”.</p>
+            <p>Министър:  Н. Кабил</p>
+            <p>32901</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

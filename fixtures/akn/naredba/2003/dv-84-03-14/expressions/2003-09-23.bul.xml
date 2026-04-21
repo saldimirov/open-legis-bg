@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-84-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-84-03-14"/>
+          <FRBRalias value="Наредба № 39 от 15 септември 2003 г. за условията и реда за контрол за съответствие на зърнените продукти" name="short"/>
+          <FRBRalias value="Наредба № 39 от 15 септември 2003 г. за условията и реда за контрол за съответствие на зърнените продукти" name="eli" other="/eli/bg/naredba/2003/dv-84-03-14"/>
+          <FRBRdate date="2003-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-84-03-14/bul@2003-09-23/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-84-03-14/bul@2003-09-23"/>
+          <FRBRdate date="2003-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-84-03-14/bul@2003-09-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-84-03-14/bul@2003-09-23.xml"/>
+          <FRBRdate date="2003-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-23" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 39 от 15 септември 2003 г. за условията и реда за контрол за съответствие на зърнените продукти</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава     първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С наредбата се уреждат условията и редът за контрол на съответствието на зърнените продукти.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Националната служба по зърното и фуражите (НСЗф) извършва контрол за съответствие на зърнените продукти с обявеното качество.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>При извършване на контрол за съответствие на зърнените продукти инспекторите на НСЗф имат право:</p>
+            </intro>
+            <point eId="chap_1__art_2__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>на свободен достъп до помещенията и документите на контролирания производител или търговец;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_2__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>да изискват необходимата им информация;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_2__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>да вземат проби и мостри за лабораторни изследвания;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_2__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>да привличат експерти, когато проверката изисква това.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_3">
+            <num>(3)</num>
+            <intro>
+              <p>При извършване на контрол за съответствие на зърнените продукти инспекторите на НСЗф са длъжни:</p>
+            </intro>
+            <point eId="chap_1__art_2__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>да се легитимират пред контролираното лице;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_2__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>да опазват служебната и търговската тайна;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_2__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>да установяват точно фактите и да отразяват обективно резултатите от извършената проверка.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <intro>
+            <p>Контролът за съответствие на зърнените продукти има за цел:</p>
+          </intro>
+          <point eId="chap_1__art_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>да предотвратява производството и търговията на зърнени продукти, които са опасни за здравето на хората;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>да предпази потребителите от измами и заблуждаващи действия, свързани с качеството на предлаганите зърнени продукти.</p>
+            </content>
+          </point>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава       втора</num>
+        <heading>ИЗИСКВАНИЯ КЪМ КАЧЕСТВОТО, ОПАКОВАНЕТО И ОЗНАЧАВАНЕТО НА ЗЪРНЕНИТЕ ПРОДУКТИ</heading>
+        <article eId="chap_2__art_4">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Зърнените продукти трябва да отговарят на изискванията за качество, предвидени в технологичната документация на продукта, по чл. 56 от Наредба № 7 от 2002 г. за хигиенните изисквания към предприятията, които произвеждат и търгуват с храни, и към условията за производство и търговия с качествени и безопасни храни (ДВ, бр. 40 от 2002 г.).</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_2__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Зърнените продукти се опаковат с материали, които са чисти и ги предпазват от замърсяване, външни и вътрешни повреди.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Материалите за опаковка на зърнени продукти отговарят на изискванията на Наредба № 24 от 2001 г. за хигиенните изисквания към материалите и предметите, различни от пластмаси, предназначени за контакт с храни (ДВ, бр. 56 от 2001 г.).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_5__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Забранява се използването на токсично лепило и мастило при отпечатването или залепването на материалите за опаковка на зърнени продукти.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <paragraph eId="chap_2__art_6__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Върху опаковките на зърнените продукти се поставят означения за:</p>
+            </intro>
+            <point eId="chap_2__art_6__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>вида на зърнения продукт;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>показателите за качество на продукта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>производителя на продукта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>количеството на продукта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>срока на годност на продукта;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>видовете и количеството на вложените добавки и разрешенията за тяхното използване.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Върху опаковката на всеки зърнен продукт задължително се означават показателите за качество, посочени в приложение № 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Означенията трябва да бъдат ясни, четливи и неизтриваеми, трайно прикрепени на външната страна на опаковката.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Когато зърнените продукти се превозват в насипно състояние, данните по ал. 1 се посочват в документите, придружаващи стоките, или на видно място в транспортното средство.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава      трета</num>
+        <heading>КОНТРОЛ ЗА СЪОТВЕТСТВИЕ НА ЗЪРНЕНИТЕ ПРОДУКТИ</heading>
+        <article eId="chap_3__art_7">
+          <num>Чл.  7.</num>
+          <paragraph eId="chap_3__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>На контрол за съответствие подлежат зърнените продукти, включени в приложение № 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Контролът за съответствие се извършва в предприятията за производство на зърнени продукти и в търговските складове.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_8">
+          <num>Чл. 8.</num>
+          <paragraph eId="chap_3__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Контрол за съответствие се извършва чрез вземане на средни проби и тяхното оценяване.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_8__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Средни проби от зърнени продукти се вземат съгласно БДС   ISO   13 690.*</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_8__al_3">
+            <num>(3)</num>
+            <content>
+              <p>За формиране на средни проби не се вземат извадки от повредени зърнени продукти. От такива продукти се вземат отделни проби и се отбелязва количеството зърнени продукти, за което са взети.</p>
+              <p>* Прилага се последното издание на стандарта.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_3__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Инспекторите на НСЗф вземат проби от проверяваните зърнени продукти в присъствието на производителя или търговеца, или на негов представител.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Производителите и търговците на зърнени продукти, както и техните представители са длъжни да предоставят на инспекторите на НСЗф възможност за вземане на проби и всички необходими сведения и документи за идентифициране на партидата.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_10">
+          <num>Чл. 10.</num>
+          <paragraph eId="chap_3__art_10__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Проверка за съответствие се извършва чрез сравнение на показателите на взетата проба с обявеното качество съгласно технологичната документация на продукта.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_10__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При проверка на съответствието инспекторът на НСЗф проверява и спазването на правилата за опаковане и означаване на зърнените продукти.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="chap_3__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато качеството на партидата съответства на обявеното, инспекторът на НСЗф издава сертификат съгласно приложение № 2.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Когато зърнени продукти с издаден сертификат бъдат разделени на няколко партиди, инспекторът издава сертификат за всяка партида въз основа на сертификата.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="chap_3__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато качеството на партидата не съответства на обявеното, инспекторът на НСЗф издава протокол съгласно приложение № 3, с който забранява да бъде предлагана на пазара, и писмено уведомява производителя или търговеца за установеното несъответствие.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Партида, за която е издаден протокол по ал. 1, може да се превозва или премества с разрешение на инспектора, издал протокола, при спазване на неговите предписания.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_3">
+            <num>(3)</num>
+            <intro>
+              <p>Производителят или търговецът може да приведе партидата в съответствие, като:</p>
+            </intro>
+            <point eId="chap_3__art_12__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>отстрани от нея продукцията с недостатъци;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_12__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>промени означеното качество;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_12__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>я преработи.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_4">
+            <num>(4)</num>
+            <content>
+              <p>В случаите по ал. 3 инспекторът на НСЗф издава сертификат по чл. 11 след проверка на съответствието на партидата.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Партида, която не бъде приведена в съответствие или е непригодна за хранителни цели, се бракува, като се изготвя протокол за бракуване.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_12__al_6">
+            <num>(6)</num>
+            <content>
+              <p>Когато производителят или търговецът не спази забраните или предписанията по ал. 1 и 2, инспекторите на Националната служба по растителна защита съставят актове по чл. 49 от Закона за храните, а ръководителят на службата налага глоба по чл. 38 от същия закон.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава       четвърта</num>
+        <heading>КОНТРОЛ ЗА СЪОТВЕТСТВИЕ ПРИ ВНОС И ИЗНОС НА ЗЪРНЕНИ ПРОДУКТИ</heading>
+        <article eId="chap_4__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="chap_4__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>На контрол за съответствие подлежат всички партиди зърнени продукти по приложение № 1, предназначени за износ или от внос.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Износителят или вносителят предоставят на инспектора на НСЗф цялата необходима информация за извършване на проверката.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="chap_4__art_14__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Когато качеството на партидата отговаря на обявеното, инспекторът издава на износителя или вносителя сертификат съгласно чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Когато пратката от внос или предназначена за износ се състои от няколко партиди, се издава общ сертификат за съответствие, в който се вписват включените в пратката партиди.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="chap_4__art_15__al_1">
+            <num>(1)</num>
+            <content>
+              <p>фитосанитарен сертификат за износ по чл. 33, ал. 1 от Закона за защита на растенията се издава след представяне от търговеца на сертификат за съответствие по чл. 11.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Инспекторите на Националната служба за растителна защита дават писмено разрешение по чл. 26 от Закона за защита на растенията за внос на зърнени продукти след представяне на сертификат за съответствие по чл. 11.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_16">
+          <num>Чл. 16.</num>
+          <paragraph eId="chap_4__art_16__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Инспекторите на НСЗф съставят и съхраняват в продължение на една година документи за извършения контрол, които съдържат информация за:</p>
+            </intro>
+            <point eId="chap_4__art_16__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>метода на вземане на проби;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_16__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>резултатите от контрола;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_16__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>предприетите действия при липса на съответствие на проверяваните продукти.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_4__art_16__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Производителите и търговците на зърнени продукти са длъжни да съхраняват документите, представени при контрола за съответствие, до изтичане на срока на годност на продукта, но не по-малко от една година от датата на извършване на проверката.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>ДОПЪЛНИТЕЛНА РАЗПОРЕДБА</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>По смисъла на тази наредба:</p>
+          </intro>
+          <point eId="sec_add__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>„Контрол за съответствие&amp;quot; са материалните и правните действия, извършени от опра-вомощени лица с цел проверка дали обявеното и означеното качество отговаря на действителното качество на партидата.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>„Идентификация&amp;quot; е проверка за установяване съответствието на партидата и придружаващите я документи.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_3">
+            <num>3.</num>
+            <content>
+              <p>„Пратка&amp;quot; е цялото количество продукти на отделен търговец, налично при проверка. Тя може да включва един или няколко вида продукти и да се състои от една или повече партиди.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_4">
+            <num>4.</num>
+            <content>
+              <p>„Вземане на проба&amp;quot; е отделяне на определено количество от партидата с цел проверка за съответствие.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_5">
+            <num>5.</num>
+            <content>
+              <p>„Партида&amp;quot; е количество продукти, представени като еднородни по отношение на: произход (страна/производител); вид; класа на качество; опаковка и маркировка.</p>
+            </content>
+          </point>
+          <point eId="sec_add__par_1__pt_6">
+            <num>6.</num>
+            <content>
+              <p>„Средна проба&amp;quot; е общото количество от всички проби (извадки), взети от една партида. ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ   РАЗПОРЕДБИ</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 31а, ал. 1 от Закона за съхранение и търговия със зърно.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_add__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на наредбата се възлага на ръководителя на Националната служба по зърното и фуражите и на генералния директор на Националната служба по растителна защита.</p>
+            <p>Министър:    М. Дикме</p>
+            <p>Приложение № 1 към чл. 7, ал. 1</p>
+            <p>Списък на зърнените продукти, които подлежат на контрол за съответствие</p>
+            <p>Приложение № 2 към чл. 11, ал. 1</p>
+            <p>Приложение № 3 към чл. 12, ал. 1</p>
+            <p>Виж приложенията в PDF-а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-66-03-20/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-66-03-20"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-139 от 2002 г. за определяне на първоначалния максимален размер на контролните точки на водач на моторно превозно средство и нарушенията, за които се отнемат" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № I-139 от 2002 г. за определяне на първоначалния максимален размер на контролните точки на водач на моторно превозно средство и нарушенията, за които се отнемат" name="eli" other="/eli/bg/naredba/2003/dv-66-03-20"/>
+          <FRBRdate date="2003-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-66-03-20/bul@2003-07-25/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-66-03-20/bul@2003-07-25"/>
+          <FRBRdate date="2003-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-66-03-20/bul@2003-07-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-66-03-20/bul@2003-07-25.xml"/>
+          <FRBRdate date="2003-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-07-25" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № I-139 от 2002 г. за определяне на първоначалния максимален размер на контролните точки на водач на моторно превозно средство и нарушенията, за които се отнемат</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Досегашният текст на чл. 2 става ал. 1 и се създава ал. 2:</p>
+            <p>„(2) Първоначалният максимален размер на контролните точки за отчет на извършваните нарушения на правилата за движение по пътищата от водачите на МПС със стаж до две години е 27. Стажът се отчита от датата на първоначално издаване на свидетелство за управление на МПС в Р България.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§2.</num>
+          <intro>
+            <p>В чл. 5 се създават ал. 4 и 5:</p>
+            <p>„(4) На водач, който притежава контролен талон „Водач на МПС без наказания&amp;quot;, не се отнемат контролни точки при налагане на наказание за нарушенията, посочени в чл. 3.</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(5)</num>
+            <content>
+              <p>При навършване на двегодишен стаж водачите автоматично придобиват право на максималния размер от 39 контролни точки. Броят на отнетите към тази дата точки се запазва.&amp;quot;</p>
+              <p>Министър:    Г. Петканов</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-13/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-13"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 42 от 2003 г. за условията и реда за изплащане на експортни субсидии при износ на земеделски продукти" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 42 от 2003 г. за условията и реда за изплащане на експортни субсидии при износ на земеделски продукти" name="eli" other="/eli/bg/naredba/2004/dv-41-04-13"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-13/bul@2004-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-13/bul@2004-05-18"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-13/bul@2004-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-13/bul@2004-05-18.xml"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-18" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 42 от 2003 г. за условията и реда за изплащане на експортни субсидии при износ на земеделски продукти</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 11 ал. 4 се изменя така:</p>
+            <p>“(4) Когато производители по ал. 2 са поискали еднакви количества или купувачи по ал. 3 са заплатили еднакви цени, количеството продукти за износ се разпределя между тях пропорционално.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 26, ал. 2:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В т. 5 думите “чл. 18, ал. 2” се заменят с “чл. 14, ал. 4”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 8 числото “16” се заменя със “17”. За министър:  Б. Боев 24720</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

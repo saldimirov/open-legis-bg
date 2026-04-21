@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-6"/>
+          <FRBRalias value="Закон за изменение на Закона за замяна на воинските задължения с алтернативна служба" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за замяна на воинските задължения с алтернативна служба" name="eli" other="/eli/bg/zakon/2005/dv-91-05-6"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-6/bul@2005-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-6/bul@2005-11-15"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-6/bul@2005-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-6/bul@2005-11-15.xml"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-15" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за замяна на воинските задължения с алтернативна служба</p>
+      <p>(обн., ДВ, бр. 131 от 1998 г.; изм., бр. 69 от 1999 г., бр. 49 от 2000 г., бр. 50 от 2003 г., бр. 70   от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 16 думите “30 години” се заменят с “27 години”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 37, ал. 2, т. 2 думите “становища на регионалните органи на държавния здравен контрол и на инспекцията по труда” се заменят с “декларация”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Законът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

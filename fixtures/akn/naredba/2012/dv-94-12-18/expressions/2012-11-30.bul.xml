@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-18"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 44 от 2006 г. за ветеринарномедицинските изисквания към животновъдните обекти" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 44 от 2006 г. за ветеринарномедицинските изисквания към животновъдните обекти" name="eli" other="/eli/bg/naredba/2012/dv-94-12-18"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-18/bul@2012-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-18/bul@2012-11-30"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-18/bul@2012-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-18/bul@2012-11-30.xml"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 44 от 2006 г. за ветеринарномедицинските изисквания към животновъдните обекти</p>
+      <p>(обн., ДВ, бр. 41 от 2006 г.; изм., бр. 102 от 2006 г., бр. 40, 48 и 90 от 2008 г., бр. 50 от 2010 г. и бр. 10 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В приложение № 7 към чл. 14, ал. 3, т. 2, 3 и 4 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В наименованието думите „чл. 14, ал. 3, т. 2, 3 и 4“ се заменят с „чл. 14, ал. 3, т. 1 и 2“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>На ред „Фронт на поене“ числото „10“ се заменя с „15“.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>За министър:  Цветан Димитров</p>
+            <p>10801</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

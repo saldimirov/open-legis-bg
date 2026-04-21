@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-68-04-19/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-68-04-19"/>
+          <FRBRalias value="Наредба № 28 от 19 юли 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането" name="short"/>
+          <FRBRalias value="Наредба № 28 от 19 юли 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането" name="eli" other="/eli/bg/naredba/2004/dv-68-04-19"/>
+          <FRBRdate date="2004-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-68-04-19/bul@2004-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-68-04-19/bul@2004-08-03"/>
+          <FRBRdate date="2004-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-68-04-19/bul@2004-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-68-04-19/bul@2004-08-03.xml"/>
+          <FRBRdate date="2004-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-08-03" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 28 от 19 юли 2004 г. за условията и реда за водене на регистри към Министерството на здравеопазването по Закона за кръвта, кръводаряването и кръвопреливането</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <intro>
+            <p>С наредбата се определят условията и редът за създаване и водене на регистър на:</p>
+          </intro>
+          <point eId="chap_1__art_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>лечебните заведения, които осъществяват дейности по вземане, диагностика, преработка, съхранение и разпределение на кръв и кръвни съставки;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>сериозните инциденти и сериозните нежелани реакции, свързани с вземането и употребата на кръв и кръвни съставки.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Министърът на здравеопазването със заповед определя длъжностно лице за водене на регистрите по чл. 1.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_1__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Регистрите по чл. 1 се поддържат на хартиен и електронен носител.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Регистрите на хартиен носител се водят в томове, страниците на които се номерират. На корицата на всеки том се отбелязват наименованието на регистъра и номерът на тома.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="chap_1__art_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Всяка промяна в обстоятелствата, вписани в регистрите, подлежи на отбелязване.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Допуснатите явни фактически грешки се поправят служебно.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_4__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Грешките се отбелязват и заличават по начин, който не засяга целостта на информацията за вписаните вече обстоятелства.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>РЕГИСТЪР НА ЛЕЧЕБНИТЕ ЗАВЕДЕНИЯ, КОИТО ОСЪЩЕСТВЯВАТ ДЕЙНОСТИ ПО ЗАКОНА ЗА КРЪВТА, КРЪВОДАРЯВАНЕТО И КРЪВОПРЕЛИВАНЕТО</heading>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Министерството на здравеопазването създава и поддържа регистър на лечебните заведения, които осъществяват дейности по вземане, диагностика, преработка, съхранение и разпределение на кръв и кръвни съставки.</p>
+          </content>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <intro>
+            <p>Регистърът съдържа:</p>
+          </intro>
+          <point eId="chap_2__art_6__pt_1">
+            <num>1.</num>
+            <content>
+              <p>пореден номер;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_2">
+            <num>2.</num>
+            <content>
+              <p>данни за лечебното заведение: номер и дата на разрешението за осъществяване на лечебна дейност, а за лечебните заведения по чл. 5, ал. 1 от Закона за лечебните заведения - наименование на акта, с който са създадени;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_3">
+            <num>3.</num>
+            <content>
+              <p>данни за лицата, участващи в управителните органи на лечебното заведение, и за лицата, които го представляват - име, паспортни данни, единен граждански номер, адрес;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_4">
+            <num>4.</num>
+            <content>
+              <p>видове дейности по Закона за кръвта, кръводаряването и кръвопреливането (ЗККК), които лечебното заведение има право да извършва;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_5">
+            <num>5.</num>
+            <content>
+              <p>дата на отнемане на разрешението за осъществяване на лечебна дейност и основанието за това;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_6">
+            <num>6.</num>
+            <content>
+              <p>вид на проверката по чл. 39 ЗККК;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_7">
+            <num>7.</num>
+            <content>
+              <p>дата на извършване на проверката;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_8">
+            <num>8.</num>
+            <content>
+              <p>състав на комисията, която извършва проверката;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_9">
+            <num>9.</num>
+            <content>
+              <p>констатации от извършената проверка;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_10">
+            <num>10.</num>
+            <content>
+              <p>предложени мерки и срок за изпълнението им;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_11">
+            <num>11.</num>
+            <content>
+              <p>промени в обстоятелствата по т. 1 - 10.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_2__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="chap_2__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните по чл. 6, т. 1 - 4 се вписват в регистъра служебно в тридневен срок от издаване на разрешение за осъществяване на лечебна дейност на съответното лечебно заведение, а данните по чл. 6, т. 5 - в тридневен срок от издаване на заповедта за отнемане на разрешението за осъществяване на лечебна дейност.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Данните в чл. 6, т. 6 - 10 се вписват в регистъра в тридневен срок от представяне на министъра на здравеопазването на доклада на комисията за извършената проверка.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_3">
+            <num>(3)</num>
+            <content>
+              <p>За промени по вписаните в регистъра обстоятелства длъжностното лице по чл. 3 следи служебно.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_8">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Документите за всяка проверка се съхраняват в отделно досие.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>РЕГИСТЪР НА СЕРИОЗНИТЕ ИНЦИДЕНТИ И СЕРИОЗНИТЕ НЕЖЕЛАНИ РЕАКЦИИ, СВЪРЗАНИ С ВЗЕМАНЕТО И УПОТРЕБАТА НА КРЪВ И КРЪВНИ СЪСТАВКИ</heading>
+        <article eId="chap_3__art_9">
+          <num>Чл. 9.</num>
+          <content>
+            <p>Министерството на здравеопазването създава и поддържа регистър на сериозните инциденти и сериозните нежелани реакции, свързани с вземането и употребата на кръв и кръвни съставки.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_10">
+          <num>Чл. 10.</num>
+          <intro>
+            <p>Регистърът съдържа:</p>
+          </intro>
+          <point eId="chap_3__art_10__pt_1">
+            <num>1.</num>
+            <content>
+              <p>дата на съобщаване;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_2">
+            <num>2.</num>
+            <content>
+              <p>дата и място на възникване;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_3">
+            <num>3.</num>
+            <content>
+              <p>описание на сериозния инцидент и/или сериозната нежелана реакция;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_4">
+            <num>4.</num>
+            <content>
+              <p>донор/реципиент;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_5">
+            <num>5.</num>
+            <content>
+              <p>констатации и предложения за подобряване на работата с кръв и кръвни съставки на комисиите по чл. 41, ал. 1 ЗККК;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_6">
+            <num>6.</num>
+            <content>
+              <p>предприети мерки от лечебното заведение за недопускане на сериозните инциденти и сериозните нежелани реакции;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_7">
+            <num>7.</num>
+            <content>
+              <p>други обстоятелства.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_3__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="chap_3__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Данните по чл. 10, т. 1 - 6 се вписват в регистъра в тридневен срок от съобщаването им.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Формите на документацията за съобщаването на възникналите сериозни инциденти и сериозните нежелани реакции се определят с наредбата по чл. 37 ЗККК.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_12">
+          <num>Чл. 12.</num>
+          <content>
+            <p>Документите за всеки възникнал сериозен инцидент и сериозна нежелана реакция се съхраняват в отделно дело.</p>
+          </content>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
