@@ -92,6 +92,8 @@ def crawl_year(year: int, sleep: float = 1.0) -> list[DvIssue]:
                     "javax.faces.ViewState": vs,
                     "broi_form:not_first": "1",
                     "active_tab": "2",
+                    "broi_form:from_date": f"1.1.{year}",
+                    "broi_form:to_date": f"31.12.{year}",
                     "broi_": "",
                     "idObj": "",
                     "razdel_": "",
