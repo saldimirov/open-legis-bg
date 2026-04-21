@@ -384,9 +384,9 @@ def _parse_structured(text: str) -> list[ParsedSection]:
                 j += 1
             current_chapter = ParsedSection(
                 e_id=f"chap_{chap_seq}",
-                tag="hcontainer",
+                tag="chapter",
                 num=m.group(1),
-                name="chapter",
+                name=None,
                 heading=" ".join(heading_parts) or None,
                 paragraphs=[],
             )
@@ -408,9 +408,9 @@ def _parse_structured(text: str) -> list[ParsedSection]:
             prefix = f"chap_{chap_seq}__" if current_chapter else ""
             current_section = ParsedSection(
                 e_id=f"{prefix}sec_{section_seq}",
-                tag="hcontainer",
+                tag="section",
                 num=m.group(1),
-                name="section",
+                name=None,
                 heading=" ".join(heading_parts) or None,
                 paragraphs=[],
             )

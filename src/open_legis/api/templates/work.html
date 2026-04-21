@@ -85,33 +85,27 @@
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'section' %}
-            <div class="mt-5 mb-2 pl-{% if depth > 0 %}4{% else %}0{% endif %}">
+            <div class="mt-5 mb-2">
               <h3 class="text-sm font-semibold text-blue-800">{{ el.num }}{% if el.heading %} — {{ el.heading }}{% endif %}</h3>
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
-            {% elif el.type in ('final-provisions', 'transitional-provisions', 'additional-provisions') or (el.type == 'hcontainer' and el.name in ('final-provisions', 'transitional-provisions', 'additional-provisions')) %}
+            {% elif el.type == 'hcontainer' and el.children %}
             <div class="mt-8 mb-2">
               <h2 class="text-base font-bold text-gray-800 uppercase tracking-wide">{{ el.num }}</h2>
-            </div>
-            {{ render_elements(el.children, depth + 1) }}
-
-            {% elif el.type == 'hcontainer' and el.children %}
-            <div class="mt-4 mb-1">
-              {% if el.num %}<span class="font-semibold text-gray-700">{{ el.num }}</span>{% endif %}
-              {% if el.heading %}<span class="text-gray-600 ml-1">{{ el.heading }}</span>{% endif %}
+              {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-0.5">{{ el.heading }}</p>{% endif %}
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'article' %}
-            <div class="py-2 border-t border-gray-50 pl-{% if depth > 1 %}6{% elif depth > 0 %}3{% else %}0{% endif %}">
+            <div class="py-2 border-t border-gray-50">
               {% if el.num %}<span class="font-semibold text-gray-800">{{ el.num }}</span>{% endif %}
               {% if el.text %}<span class="text-gray-700 ml-1">{{ el.text }}</span>{% endif %}
               {{ render_elements(el.children, depth + 1) }}
             </div>
 
             {% elif el.type == 'hcontainer' %}
-            <div class="py-1.5 border-t border-gray-50 pl-{% if depth > 1 %}6{% elif depth > 0 %}3{% else %}0{% endif %}">
+            <div class="py-1.5 border-t border-gray-50">
               {% if el.num %}<span class="font-semibold text-gray-700">{{ el.num }}</span>{% endif %}
               {% if el.text %}<span class="text-gray-600 ml-1">{{ el.text }}</span>{% endif %}
             </div>
@@ -124,7 +118,7 @@
             </div>
 
             {% elif el.type == 'point' %}
-            <div class="mt-0.5 ml-{% if depth > 2 %}8{% else %}6{% endif %} flex gap-1.5">
+            <div class="mt-0.5 ml-6 flex gap-1.5">
               <span class="text-gray-400 text-xs shrink-0 w-6">{{ el.num }}</span>
               <span class="text-gray-600 text-sm">
                 {% if el.text %}{{ el.text }}{% endif %}
