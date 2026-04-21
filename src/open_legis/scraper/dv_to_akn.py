@@ -23,15 +23,20 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("Постановление", "postanovlenie"),
     ("ПРАВИЛНИК", "pravilnik"),
     ("Правилник", "pravilnik"),
+    # Parliamentary decisions (Решение на/за Народното събрание)
+    ("Решение за", "reshenie_ns"),
     ("Решение на Народното събрание", "reshenie_ns"),
     ("УКАЗ", "ukaz"),
     ("Указ", "ukaz"),
-    # Court decisions — not legislative acts
+    # Court/constitutional decisions — not legislative acts
     ("Решение № ", "_court"),
     ("Определение № ", "_court"),
+    # Non-legislative documents
+    ("Инструкция", "_other"),
+    ("Споразумение", "_other"),
 ]
 
-# Act types we care about for legislative data (skip administrative acts)
+# Act types we care about for legislative data
 LEGISLATIVE_TYPES = {"zakon", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
 
 _ISSUING_BODY: dict[str, str] = {
@@ -46,10 +51,16 @@ _ISSUING_BODY: dict[str, str] = {
 
 
 def detect_act_type(title: str) -> str:
+    # Check if the title STARTS with the keyword (word boundary check)
+    # to avoid "Постановление ... за изменение на Закона ..." matching "Закон"
+    for keyword, act_type in _TYPE_KEYWORDS:
+        if title.startswith(keyword):
+            return act_type
+    # Fallback: substring match for all-caps variants (titles scraped in caps)
     for keyword, act_type in _TYPE_KEYWORDS:
         if keyword in title:
             return act_type
-    return "zakon"
+    return "_other"
 
 
 # --- Slug generation ----------------------------------------------------------
