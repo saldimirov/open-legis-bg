@@ -372,6 +372,7 @@ def _parse_structured(text: str) -> list[ParsedSection]:
     current_special: Optional[ParsedSection] = None
 
     chap_seq = section_seq = art_seq = par_seq = 0
+    _special_eid_counts: dict[str, int] = {}
 
     def _current_container() -> Optional[ParsedSection]:
         if current_special:
@@ -450,8 +451,11 @@ def _parse_structured(text: str) -> list[ParsedSection]:
             par_seq = 0
             label = m.group(1)
             sname = _SPECIAL_NAME.get(label, "special")
+            base_eid = _SPECIAL_EID.get(sname, "sec_special")
+            _special_eid_counts[base_eid] = _special_eid_counts.get(base_eid, 0) + 1
+            eid = base_eid if _special_eid_counts[base_eid] == 1 else f"{base_eid}_{_special_eid_counts[base_eid]}"
             current_special = ParsedSection(
-                e_id=_SPECIAL_EID.get(sname, "sec_special"),
+                e_id=eid,
                 tag="hcontainer",
                 num=label,
                 name=sname,
@@ -501,8 +505,11 @@ def _parse_structured(text: str) -> list[ParsedSection]:
         m = _PAR_RE.match(line)
         if m:
             if current_special is None:
+                base_eid = "sec_final"
+                _special_eid_counts[base_eid] = _special_eid_counts.get(base_eid, 0) + 1
+                eid = base_eid if _special_eid_counts[base_eid] == 1 else f"{base_eid}_{_special_eid_counts[base_eid]}"
                 current_special = ParsedSection(
-                    e_id="sec_final",
+                    e_id=eid,
                     tag="hcontainer",
                     num="ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ",
                     name="final-provisions",

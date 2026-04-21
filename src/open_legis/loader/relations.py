@@ -78,8 +78,10 @@ def _insert_reference(session: Session, entry: dict) -> None:
         m.Reference(
             source_expression_id=src_expr.id,
             source_e_id=entry["source_e_id"],
+            raw_text=entry.get("raw_text", ""),
             target_work_id=target_work.id,
             target_e_id=entry.get("target_e_id"),
+            resolved=target_work is not None,
             reference_type=m.ReferenceType(entry["type"]),
         )
     )
