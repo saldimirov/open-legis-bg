@@ -70,7 +70,14 @@
       <div class="prose-law text-sm leading-relaxed">
         {% macro render_elements(items, depth=0) %}
           {% for el in items %}
-            {% if el.type == 'chapter' %}
+            {% if el.type == 'part' %}
+            <div class="mt-10 mb-4">
+              <h2 class="text-base font-extrabold text-gray-900 uppercase tracking-widest border-b border-gray-300 pb-1">{{ el.num }}</h2>
+              {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-1">{{ el.heading }}</p>{% endif %}
+            </div>
+            {{ render_elements(el.children, depth + 1) }}
+
+            {% elif el.type == 'chapter' %}
             <div class="mt-8 mb-2">
               <h2 class="text-base font-bold text-gray-800 uppercase tracking-wide">{{ el.num }}</h2>
               {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-0.5">{{ el.heading }}</p>{% endif %}
