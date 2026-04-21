@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-101-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-101-17-1"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за лечебните заведения" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за лечебните заведения" name="eli" other="/eli/bg/zid/2017/dv-101-17-1"/>
+          <FRBRdate date="2017-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-101-17-1/bul@2017-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-101-17-1/bul@2017-12-19"/>
+          <FRBRdate date="2017-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-101-17-1/bul@2017-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-101-17-1/bul@2017-12-19.xml"/>
+          <FRBRdate date="2017-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-19" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за лечебните заведения</p>
+      <p>(обн., ДВ, бр. 62 от 1999 г.; изм., бр. 88 и 113 от 1999 г.; попр., бр. 114 от 1999 г.; изм., бр. 36, 65 и 108 от 2000 г.; Решение № 11 на Конституционния съд от 2001 г. – бр. 51 от 2001 г.; изм., бр. 28 и 62 от 2002 г., бр. 83, 102 и 114 от 2003 г., бр. 70 от 2004 г., бр. 46, 76, 85, 88 и 105 от 2005 г., бр. 30, 34, 59, 80 и 105 от 2006 г., бр. 31, 53 и 59 от 2007 г., бр. 110 от 2008 г., бр. 36, 41, 99 и 101 от 2009 г., бр. 38, 59, 98 и 100 от 2010 г., бр. 45 и 60 от 2011 г., бр. 54, 60 и 102 от 2012 г., бр. 15 и 20 от 2013 г., бр. 47 от 2014 г., бр. 72 и 95 от 2015 г., бр. 81 и 98 от 2016 г. и бр. 85 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 106а се правят следните изменения и допълнения:</p>
+          <p>1. В ал. 1 съюзът „и“ след думата „капитала“ се заменя със запетая, а след думите „и 26а“ се добавя „както и лечебните заведения към Министерския съвет, Министерството на отбраната, Министерството на вътрешните работи, Министерството на правосъдието и Министерството на транспорта, информацион&amp;shy;ните технологии и съобщенията“.</p>
+          <p>2. В ал. 2 думите „Извън случаите по ал. 1“ се заличават.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 1 януари 2018 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

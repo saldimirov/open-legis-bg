@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-1"/>
+          <FRBRalias value="Закон за изменение на Закона за народните читалища" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за народните читалища" name="eli" other="/eli/bg/zid/2017/dv-102-17-1"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-1/bul@2017-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-1/bul@2017-12-22"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-1/bul@2017-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-1/bul@2017-12-22.xml"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за народните читалища</p>
+      <p>(обн., ДВ, бр. 89 от 1996 г.; изм., бр. 95 от 1997 г., бр. 90 от 1999 г., бр. 28 и 94 от 2005 г., бр. 108 от 2006 г., бр. 42 и 74 от 2009 г., бр. 47 и 97 от 2010 г., бр. 68 от 2013 г. и бр. 74 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 10 се правят следните изменения:</p>
+          <p>1. Алинея 1 се изменя така:</p>
+          <p>„(1) В Министерството на културата се води регистър на народните читалища и на читалищните сдружения по ред, определен с наредба на министъра на културата. Регистърът е публичен, поддържа се в електронен вид, като достъпът до него е свободен и безплатен, включително онлайн, в машинночетим формат.“</p>
+          <p>2. Алинеи 3 и 4 се изменят така:</p>
+          <p>„(3) В 7-дневен срок от вписване на читалището или на читалищното сдружение в регистъра на юридическите лица с нестопанска цел читалищното настоятелство или управителният орган на читалищното сдружение подава заявление за вписване по регистъра по ал. 1. Към заявлението се прилагат данните по ал. 2, уставът на читалището или читалищното сдружение, а за сдруженията – и списък с членуващите в тях читалища. В случаите, когато заявлението се подава по електронен път, се спазват изискванията на Закона за електронния документ и електронните удостоверителни услуги.</p>
+          <p>(4) Министърът на културата или оправомощено от него длъжностно лице в 14-дневен срок от подаване на заявлението по ал. 3 извършва вписване и издава удостоверение за вписване в регистъра или отказва вписване. За извършено вписване в регистъра се уведомява кметът на общината по седалището на читалището или читалищното сдружение.“</p>
+          <p>Заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В срок три месеца от влизането в сила на този закон министърът на културата издава наредбата по чл. 10, ал. 1.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В едногодишен срок от влизането в сила на този закон Министерството на културата осигурява условия за приемане на документи и заявления, подавани за вписване в регистъра по чл. 10, по електронен път.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила от 2 януари 2018 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

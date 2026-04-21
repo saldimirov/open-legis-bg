@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-2/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-2"/>
+          <FRBRalias value="Закон за изменение на Закона за автомобилните превози" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за автомобилните превози" name="eli" other="/eli/bg/zid/2015/dv-100-15-2"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-2/bul@2015-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-2/bul@2015-12-18"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-2/bul@2015-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-2/bul@2015-12-18.xml"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-18" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за автомобилните превози</p>
+      <p>(обн., ДВ, бр. 82 от 1999 г.; изм., бр. 11 и 45 от 2002 г., бр. 99 от 2003 г., бр. 70 от 2004 г., бр. 88, 92, 95, 102, 103 и 105 от 2005 г., бр. 30, 85, 92 и 102 от 2006 г., бр. 42, 80 и 109 от 2007 г., бр. 102 от 2008 г., бр. 93 от 2009 г., бр. 41 от 2010 г., бр. 17 от 2011 г., бр. 38, 50, 60, 99 и 103 от 2012 г., бр. 15, 23, 66 и 109 от 2013 г., бр. 11, 60, 98 и 107 от 2014 г. и бр. 14, 60 и 81 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В заключителните разпоредби на Закона за изменение на Закона за автомобилните превози (ДВ, бр. 81 от 2015 г.) в § 3 думите „един месец след обнародването му в „Държавен вестник“ се заменят с „от 1 април 2016 г.“</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 20 ноември 2015 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

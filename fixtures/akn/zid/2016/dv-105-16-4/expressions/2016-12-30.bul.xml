@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-105-16-4/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-105-16-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за ветераните от войните" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за ветераните от войните" name="eli" other="/eli/bg/zid/2016/dv-105-16-4"/>
+          <FRBRdate date="2016-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-105-16-4/bul@2016-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-105-16-4/bul@2016-12-30"/>
+          <FRBRdate date="2016-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-105-16-4/bul@2016-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-105-16-4/bul@2016-12-30.xml"/>
+          <FRBRdate date="2016-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-30" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за ветераните от войните</p>
+      <p>(обн., ДВ, бр. 152 от 1998 г.; изм., бр. 49 от 2000 г., бр. 40 и 57 от 2007 г. и бр. 98 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В наименованието на закона накрая се добавя „на Република България“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 4 се правят следните изменения и допълнения:</p>
+          <p>1. Създава се нова т. 3:</p>
+          <p>„3. диспансерен отчет от общопрактикуващи лекари и специалисти, както и регулярни медицински прегледи;“.</p>
+          <p>2. Досегашната т. 3 става т. 4 и се изменя така:</p>
+          <p>„4. лечение един път годишно, но не повече от 14 дни, в лечебните заведения на Министерството на отбраната, Министерството на вътрешните работи, Министерството на здравеопазването, Националния осигурителен институт и на общините. Ако ветеранът има нужда по преценка на лекар от придружител, средствата за престоя им са за сметка на държавния бюджет;“.</p>
+          <p>3. Досегашната т. 4 става т. 5 и в нея изречение второ се изменя така: „Ако ветеранът ползва придружител при пътуване, разходите за стойността на билетите са за сметка на държавния бюджет.“</p>
+          <p>4. Досегашната т. 5 става т. 6 и в нея изречение трето се изменя така: „Ако ветеранът ползва придружител при пътуване, разходите за стойността на билетите са за сметка на държавния бюджет.“</p>
+          <p>5. Досегашната т. 6 става т. 7.</p>
+          <p>6. Досегашната т. 7 става т. 8 и в нея се създава изречение второ: „Същото право имат и техните съпруги (съпрузи).“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 7, ал. 1 след думата „наследниците“ се добавя „или тези, които са погребали починалия ветеран“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за защита на личните данни" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за защита на личните данни" name="eli" other="/eli/bg/zid/2010/dv-94-10-2"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-2/bul@2010-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-2/bul@2010-11-30"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-2/bul@2010-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-2/bul@2010-11-30.xml"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за защита на личните данни</p>
+      <p>(обн., ДВ, бр. 1 от 2002 г.; изм., бр. 70 и 93 от 2004 г., бр. 43 и 103 от 2005 г., бр. 30 и 91 от 2006 г., бр. 57 от 2007 г. и бр. 42 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 6 се правят следните изменения и допълнения:</p>
+          <p>1. Създава се нова ал. 2:</p>
+          <p>„(2) Комисията съдейства за провеждането на държавната политика в областта на защита на личните данни.“</p>
+          <p>2. Досегашната ал. 2 става ал. 3.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 10, ал. 1 се създават т. 10, 11 и 12:</p>
+          <p>„10. участва в дейностите, осъществявани от международните организации по въпросите в областта на защита на личните данни;</p>
+          <p>11. участва в преговорите и сключването на двустранни или многостранни споразумения по въпроси от своята компетентност;</p>
+          <p>12. организира и координира обучението в областта на защитата на личните данни на администраторите на лични данни.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 28 ал. 2 се изменя така:</p>
+          <p>„(2) Администраторът на лични данни предоставя информацията по ал. 1 безплатно.“</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
