@@ -85,7 +85,9 @@ _CHAPTER_RE = re.compile(r"^(Глава\s+\S+)$")
 _SECTION_RE = re.compile(r"^(Раздел\s+\S+)$")
 _SPECIAL_RE = re.compile(
     r"^(ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ|ПРЕХОДНИ РАЗПОРЕДБИ|ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ"
-    r"|Заключителни разпоредби|Преходни разпоредби|Допълнителни разпоредби)$"
+    r"|ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ|ДОПЪЛНИТЕЛНИ И ПРЕХОДНИ РАЗПОРЕДБИ"
+    r"|Заключителни разпоредби|Преходни разпоредби|Допълнителни разпоредби"
+    r"|Преходни и заключителни разпоредби|Допълнителни и преходни разпоредби)$"
 )
 _ARTICLE_RE = re.compile(r"^(Чл\.\s*\d+[а-я]?)\.")
 _PAR_RE = re.compile(r"^(§\s*\d+[а-я]?)\.")
@@ -99,9 +101,13 @@ _SPECIAL_NAME = {
     "ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ": "final-provisions",
     "ПРЕХОДНИ РАЗПОРЕДБИ": "transitional-provisions",
     "ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ": "additional-provisions",
+    "ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ": "transitional-provisions",
+    "ДОПЪЛНИТЕЛНИ И ПРЕХОДНИ РАЗПОРЕДБИ": "additional-provisions",
     "Заключителни разпоредби": "final-provisions",
     "Преходни разпоредби": "transitional-provisions",
     "Допълнителни разпоредби": "additional-provisions",
+    "Преходни и заключителни разпоредби": "transitional-provisions",
+    "Допълнителни и преходни разпоредби": "additional-provisions",
 }
 _SPECIAL_EID = {
     "final-provisions": "sec_final",
@@ -477,9 +483,24 @@ def _parse_structured(text: str) -> list[ParsedSection]:
             i = j
             continue
 
-        # --- § item (in special sections or before them) ---
+        # --- § item — always belongs to closing provisions, never mid-chapter ---
+        # If the ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ heading was absent or didn't match
+        # (wrong casing, missing line, etc.) we synthesise it here so § items
+        # are never attached to whatever chapter happened to be open last.
         m = _PAR_RE.match(line)
         if m:
+            if current_special is None:
+                current_special = ParsedSection(
+                    e_id="sec_final",
+                    tag="hcontainer",
+                    num="ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ",
+                    name="final-provisions",
+                    heading=None,
+                    paragraphs=[],
+                )
+                current_chapter = None
+                current_section = None
+                root.append(current_special)
             par_seq += 1
             num = m.group(1).replace("  ", " ").strip() + "."
             body = line[m.end():].strip()
@@ -488,17 +509,15 @@ def _parse_structured(text: str) -> list[ParsedSection]:
             while j < len(lines) and not _is_boundary(lines[j]):
                 paras.append(lines[j])
                 j += 1
-            container = _current_container()
-            prefix = f"{container.e_id}__" if container else ""
             par = ParsedSection(
-                e_id=f"{prefix}par_{par_seq}",
+                e_id=f"{current_special.e_id}__par_{par_seq}",
                 tag="hcontainer",
                 num=num,
                 name="modification",
                 heading=None,
                 paragraphs=[p for p in paras if p],
             )
-            _add(par)
+            current_special.children.append(par)
             i = j
             continue
 
