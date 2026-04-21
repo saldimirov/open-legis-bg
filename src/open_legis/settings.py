@@ -17,3 +17,7 @@ class Settings(BaseSettings):
         default=Path("fixtures/akn"),
         alias="OPEN_LEGIS_FIXTURES_DIR",
     )
+    dumps_dir: Path = Field(
+        default=Path("dumps"),
+        alias="OPEN_LEGIS_DUMPS_DIR",
+    )
