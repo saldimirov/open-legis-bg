@@ -19,9 +19,34 @@ def load(path: str = typer.Argument("fixtures/akn", help="Path to fixtures direc
 
 
 @app.command()
-def dump(out: str = typer.Option("dumps/latest.tar.gz", help="Output tarball path")) -> None:
+def dump(
+    out: str = typer.Option("dumps/latest.tar.gz", help="Output tarball path"),
+    fixtures: str = typer.Option("fixtures/akn", help="Fixtures root"),
+) -> None:
     """Build a deterministic snapshot tarball."""
-    typer.echo(f"stub: would dump to {out}")
+    from pathlib import Path
+
+    from open_legis.dumps.build import build_tarball
+    from open_legis.model.db import make_engine
+    from open_legis.settings import Settings
+
+    engine = make_engine(Settings().database_url)
+    build_tarball(engine=engine, fixtures_dir=Path(fixtures), out_path=Path(out))
+    typer.echo(f"wrote {out}")
+
+
+@app.command("dump-sql")
+def dump_sql(
+    out: str = typer.Option("dumps/latest.sql.gz", help="Output SQL.gz path"),
+) -> None:
+    """Build a gzipped pg_dump of the current database."""
+    from pathlib import Path
+
+    from open_legis.dumps.build import build_sql_dump
+    from open_legis.settings import Settings
+
+    build_sql_dump(database_url=Settings().database_url, out_path=Path(out))
+    typer.echo(f"wrote {out}")
 
 
 @app.command("new-fixture")
