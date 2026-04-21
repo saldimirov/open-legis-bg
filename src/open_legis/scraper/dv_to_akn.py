@@ -10,7 +10,7 @@ from typing import Optional
 _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("КОДЕКС", "kodeks"),
     ("Кодекс", "kodeks"),
-    ("Закон за ратифициране", "zid"),
+    ("Закон за ратифициране", "ratifikatsiya"),
     ("Закон за изменение и допълнение", "zid"),
     ("Закон за допълнение", "zid"),
     ("Закон за изменение", "zid"),
@@ -36,7 +36,7 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("Споразумение", "_other"),
 ]
 
-LEGISLATIVE_TYPES = {"zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
+LEGISLATIVE_TYPES = {"zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns", "ratifikatsiya"}
 
 _ISSUING_BODY: dict[str, str] = {
     "zakon": "Народно събрание",
@@ -47,6 +47,7 @@ _ISSUING_BODY: dict[str, str] = {
     "postanovlenie": "Министерски съвет",
     "pravilnik": "Министерски съвет",
     "reshenie_ns": "Народно събрание",
+    "ratifikatsiya": "Народно събрание",
     "ukaz": "Президент на Републиката",
 }
 

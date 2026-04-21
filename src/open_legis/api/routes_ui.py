@@ -29,6 +29,7 @@ TYPE_LABELS: dict[str, str] = {
     "postanovlenie": "Постановление",
     "pravilnik": "Правилник",
     "reshenie_ns": "Решение на НС",
+    "ratifikatsiya": "Ратификация",
     "ukaz": "Указ",
     "konstitutsiya": "Конституция",
 }

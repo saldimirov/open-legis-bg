@@ -32,6 +32,7 @@ class ActType(str, enum.Enum):
     UKAZ = "ukaz"
     RESHENIE_KS = "reshenie_ks"
     RESHENIE_NS = "reshenie_ns"
+    RATIFIKATSIYA = "ratifikatsiya"
 
 
 class ActStatus(str, enum.Enum):

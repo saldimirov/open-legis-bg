@@ -4,7 +4,7 @@ from typing import Literal, Optional, Union
 
 _VALID_TYPES = {
     "konstitutsiya", "kodeks", "zakon", "zid", "byudjet", "naredba", "pravilnik",
-    "postanovlenie", "ukaz", "reshenie-ks", "reshenie-ns",
+    "postanovlenie", "ukaz", "reshenie-ks", "reshenie-ns", "ratifikatsiya",
 }
 
 
