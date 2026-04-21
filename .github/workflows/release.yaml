@@ -1,0 +1,44 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: openlegis
+          POSTGRES_PASSWORD: openlegis
+          POSTGRES_DB: openlegis
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U openlegis"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql+psycopg://openlegis:openlegis@localhost:5432/openlegis
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - name: Install postgres client (pg_dump)
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - run: uv sync --all-extras
+      - run: uv run alembic upgrade head
+      - run: uv run open-legis load fixtures/akn
+      - run: uv run open-legis dump --out dumps/latest.tar.gz
+      - run: uv run open-legis dump-sql --out dumps/latest.sql.gz
+      - name: Attach to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dumps/latest.tar.gz
+            dumps/latest.sql.gz
