@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from open_legis.api.routes_aliases import router as aliases_router
 from open_legis.api.routes_discovery import router as discovery_router
@@ -15,6 +16,12 @@ def create_app() -> FastAPI:
         title="open-legis",
         description="An open machine-readable database of Bulgarian legislation.",
         version="0.1.0",
+    )
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["GET", "OPTIONS"],
+        allow_headers=["*"],
     )
     app.include_router(meta_router)
     app.include_router(eli_router)
