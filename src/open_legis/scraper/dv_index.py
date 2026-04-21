@@ -9,7 +9,9 @@ from typing import Optional
 
 import httpx
 
-from open_legis.scraper.dv_client import DvIssue, _BASE, _HEADERS
+from open_legis.scraper.dv_client import DvIssue, _HEADERS
+
+_BASE = "https://dv.parliament.bg/DVWeb"
 
 
 _ISSUE_PAT = re.compile(
