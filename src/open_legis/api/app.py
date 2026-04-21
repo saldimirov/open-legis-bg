@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+from open_legis.api.routes_aliases import router as aliases_router
 from open_legis.api.routes_discovery import router as discovery_router
 from open_legis.api.routes_eli import router as eli_router
 from open_legis.api.routes_meta import router as meta_router
@@ -18,4 +19,5 @@ def create_app() -> FastAPI:
     app.include_router(meta_router)
     app.include_router(eli_router)
     app.include_router(discovery_router)
+    app.include_router(aliases_router)
     return app
