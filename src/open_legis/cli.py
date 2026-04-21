@@ -80,5 +80,71 @@ def new_fixture(
     typer.echo(f"created {out}")
 
 
+@app.command("scrape-dv")
+def scrape_dv(
+    idobj: int = typer.Option(..., "--idobj", help="DV issue idObj to scrape"),
+    out: str = typer.Option("fixtures/akn", "--out", help="Output fixtures root"),
+    load_after: bool = typer.Option(True, "--load/--no-load", help="Load into DB after scrape"),
+    types: str = typer.Option("zakon,kodeks", "--types", help="Comma-separated act types to include"),
+) -> None:
+    """Scrape laws from a single DV issue and optionally load them."""
+    import datetime as _dt
+    from pathlib import Path
+
+    from open_legis.scraper.dv_client import get_issue_materials, get_material_text, get_issue_metadata
+    from open_legis.scraper.dv_to_akn import detect_act_type, convert_material, LEGISLATIVE_TYPES
+
+    allowed_types = {t.strip() for t in types.split(",")} if types else LEGISLATIVE_TYPES
+    out_root = Path(out)
+
+    issue = get_issue_metadata(idobj)
+    if not issue:
+        typer.echo(f"Could not find issue for idObj={idobj}", err=True)
+        raise typer.Exit(1)
+
+    typer.echo(f"Scraping broy={issue.broy} year={issue.year} date={issue.date}")
+
+    materials = get_issue_materials(idobj)
+    typer.echo(f"Found {len(materials)} materials")
+
+    saved: list[Path] = []
+    for mat in materials:
+        title, body = get_material_text(mat.idMat)
+        if not title:
+            continue
+        act_type = detect_act_type(title)
+        if act_type not in allowed_types:
+            typer.echo(f"  skip {act_type}: {title[:60]}")
+            continue
+
+        typer.echo(f"  {act_type}: {title[:70]}")
+        slug, xml = convert_material(
+            title=title,
+            body=body,
+            idMat=mat.idMat,
+            issue=issue,
+            position=mat.page,
+        )
+
+        # Write to fixtures/akn/{act_type}/{year}/{slug}/expressions/{date}.bul.xml
+        expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
+        expr_dir.mkdir(parents=True, exist_ok=True)
+        akn_path = expr_dir / f"{issue.date}.bul.xml"
+        akn_path.write_text(xml, encoding="utf-8")
+        typer.echo(f"    -> {akn_path}")
+        saved.append(akn_path)
+
+    typer.echo(f"Saved {len(saved)} fixtures")
+
+    if load_after and saved:
+        from open_legis.loader.cli import load_directory
+        from open_legis.model.db import make_engine
+        from open_legis.settings import Settings
+
+        engine = make_engine(Settings().database_url)
+        load_directory(out_root, engine=engine)
+        typer.echo("Loaded into DB")
+
+
 if __name__ == "__main__":
     app()
