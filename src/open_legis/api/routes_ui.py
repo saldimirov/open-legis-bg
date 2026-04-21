@@ -161,8 +161,14 @@ def work_page(
         ).all()
         elements = _build_element_tree(db_elements, parent_e_id=None)
 
+    expr_uri = (
+        f"{work.eli_uri}/{expr.expression_date.isoformat()}/{expr.language}"
+        if expr else work.eli_uri
+    )
+
     work_data = {
         "uri": work.eli_uri,
+        "expr_uri": expr_uri,
         "title": work.title,
         "type": work.act_type.value.lower(),
         "dv_ref": {"broy": work.dv_broy, "year": work.dv_year},
