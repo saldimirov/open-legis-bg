@@ -12,10 +12,49 @@
   <span class="text-gray-600">{{ work.title[:60] }}{% if work.title|length > 60 %}…{% endif %}</span>
 </nav>
 
-<div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+
+  <!-- ToC sidebar -->
+  {% set toc_items = elements | selectattr('type', 'in', ['part','chapter','section','hcontainer']) | list %}
+  {% macro toc_entries(items) %}
+    {% for el in items %}
+      {% if el.type in ('part', 'chapter', 'hcontainer') %}
+      <li>
+        <a href="#{{ el.e_id }}"
+           class="block py-1 pr-2 text-xs leading-snug truncate rounded hover:text-blue-600 hover:bg-blue-50 px-2
+                  {% if el.type == 'part' %}font-semibold text-gray-800{% else %}text-gray-600{% endif %}">
+          {{ el.num }}{% if el.heading and el.type == 'part' %} — {{ el.heading }}{% endif %}
+        </a>
+        {% if el.children %}
+        <ul class="ml-3">
+          {{ toc_entries(el.children | selectattr('type', 'in', ['chapter','section','hcontainer']) | list) }}
+        </ul>
+        {% endif %}
+      </li>
+      {% elif el.type == 'section' %}
+      <li>
+        <a href="#{{ el.e_id }}"
+           class="block py-0.5 pr-2 text-xs leading-snug truncate rounded hover:text-blue-600 hover:bg-blue-50 px-2 text-gray-400 pl-3">
+          {{ el.num }}{% if el.heading %} — {{ el.heading }}{% endif %}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  {% endmacro %}
+
+  <div class="lg:col-span-1 order-2 lg:order-1">
+    {% if elements %}
+    <div class="sticky top-4 bg-white rounded-lg border border-gray-200 p-3 max-h-[80vh] overflow-y-auto">
+      <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2 px-2">Съдържание</p>
+      <ul class="space-y-0.5">
+        {{ toc_entries(elements) }}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
 
   <!-- Main content -->
-  <div class="lg:col-span-3">
+  <div class="lg:col-span-3 order-1 lg:order-2">
     <div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
       <div class="flex items-start gap-3 mb-4">
         <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-medium shrink-0
@@ -73,37 +112,53 @@
         {% macro render_elements(items, depth=0) %}
           {% for el in items %}
             {% if el.type == 'part' %}
-            <div class="mt-10 mb-4">
+            <div id="{{ el.e_id }}" class="mt-10 mb-4 scroll-mt-4">
               <h2 class="text-base font-extrabold text-gray-900 uppercase tracking-widest border-b border-gray-300 pb-1">{{ el.num }}</h2>
               {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-1">{{ el.heading }}</p>{% endif %}
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'chapter' %}
-            <div class="mt-8 mb-2">
+            <div id="{{ el.e_id }}" class="mt-8 mb-2 scroll-mt-4">
               <h2 class="text-base font-bold text-gray-800 uppercase tracking-wide">{{ el.num }}</h2>
               {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-0.5">{{ el.heading }}</p>{% endif %}
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'section' %}
-            <div class="mt-5 mb-2">
+            <div id="{{ el.e_id }}" class="mt-5 mb-2 scroll-mt-4">
               <h3 class="text-sm font-semibold text-blue-800">{{ el.num }}{% if el.heading %} — {{ el.heading }}{% endif %}</h3>
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'hcontainer' and el.children %}
-            <div class="mt-8 mb-2">
+            <div id="{{ el.e_id }}" class="mt-8 mb-2 scroll-mt-4">
               <h2 class="text-base font-bold text-gray-800 uppercase tracking-wide">{{ el.num }}</h2>
               {% if el.heading %}<p class="text-sm font-semibold text-gray-600 mt-0.5">{{ el.heading }}</p>{% endif %}
             </div>
             {{ render_elements(el.children, depth + 1) }}
 
             {% elif el.type == 'article' %}
-            <div class="py-2 border-t border-gray-50">
-              {% if el.num %}<span class="font-semibold text-gray-800">{{ el.num }}</span>{% endif %}
-              {% if el.text %}<span class="text-gray-700 ml-1">{{ el.text }}</span>{% endif %}
-              {{ render_elements(el.children, depth + 1) }}
+            <div id="{{ el.e_id }}" class="group py-2 border-t border-gray-50 scroll-mt-4 flex items-baseline gap-2">
+              <div class="flex items-baseline gap-1 shrink-0">
+                {% if el.num %}
+                <a href="#{{ el.e_id }}"
+                   class="font-semibold text-gray-800 hover:text-blue-600"
+                   title="Връзка към {{ el.num }}">{{ el.num }}</a>
+                {% endif %}
+                <button onclick="copyArticleLink('{{ el.e_id }}')"
+                        class="opacity-0 group-hover:opacity-100 transition-opacity text-gray-300 hover:text-blue-500"
+                        title="Копирай връзка">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="min-w-0">
+                {% if el.text %}<span class="text-gray-700">{{ el.text }}</span>{% endif %}
+                {{ render_elements(el.children, depth + 1) }}
+              </div>
             </div>
 
             {% elif el.type == 'hcontainer' %}
@@ -136,7 +191,7 @@
   </div>
 
   <!-- Sidebar -->
-  <div class="lg:col-span-1 space-y-4">
+  <div class="lg:col-span-1 order-3 space-y-4">
     <div class="bg-white rounded-lg border border-gray-200 p-4">
       <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Достъп</h3>
       <div class="space-y-2 text-sm">
@@ -165,4 +220,20 @@
   </div>
 
 </div>
+
+<!-- Copy link toast -->
+<div id="copy-toast" class="fixed bottom-6 right-6 bg-gray-900 text-white text-sm px-4 py-2 rounded-lg shadow-lg opacity-0 transition-opacity duration-200 pointer-events-none">
+  Връзката е копирана
+</div>
+
+<script>
+function copyArticleLink(eId) {
+  const url = window.location.origin + window.location.pathname + '#' + eId;
+  navigator.clipboard.writeText(url).then(() => {
+    const toast = document.getElementById('copy-toast');
+    toast.style.opacity = '1';
+    setTimeout(() => toast.style.opacity = '0', 2000);
+  });
+}
+</script>
 {% endblock %}

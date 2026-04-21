@@ -101,6 +101,7 @@ def search_page(
             "work_title": h.work_title,
             "type": h.work_type.lower(),
             "expression_date": h.expression_date,
+            "e_id": h.e_id,
             "num": h.num,
             "snippet": h.snippet,
         }
