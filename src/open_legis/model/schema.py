@@ -165,10 +165,14 @@ class Reference(Base):
         UUID(as_uuid=True), ForeignKey("expression.id", ondelete="CASCADE"), nullable=False
     )
     source_e_id: Mapped[str] = mapped_column(Text, nullable=False)
+    # Verbatim text as it appears in the law — preserved for display and re-resolution
+    raw_text: Mapped[str] = mapped_column(Text, nullable=False)
+    # Resolved target — nullable until the referenced law exists in the corpus
     target_work_id: Mapped[Optional[uuid.UUID]] = mapped_column(
         UUID(as_uuid=True), ForeignKey("work.id", ondelete="SET NULL")
     )
     target_e_id: Mapped[Optional[str]] = mapped_column(Text)
+    resolved: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
     reference_type: Mapped[ReferenceType] = mapped_column(
         Enum(ReferenceType, name="reference_type"), nullable=False
     )
