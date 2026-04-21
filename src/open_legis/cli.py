@@ -299,5 +299,49 @@ def match_amendments(
         typer.echo(f"Inserted {count} amendment links.")
 
 
+@app.command("cache-dv")
+def cache_dv(
+    out: str = typer.Option("local_dv", "--out", help="Directory to store RTF files"),
+    index_file: str = typer.Option(".dv-index.json", "--index-file"),
+    year: Optional[int] = typer.Option(None, "--year"),
+    from_year: Optional[int] = typer.Option(None, "--from-year"),
+    to_year: Optional[int] = typer.Option(None, "--to-year"),
+    workers: int = typer.Option(4, "--workers", help="Parallel download workers"),
+    sleep: float = typer.Option(0.5, "--sleep", help="Seconds between requests per worker"),
+) -> None:
+    """Download DV issues as RTF files to a local mirror."""
+    from pathlib import Path
+
+    from open_legis.scraper.dv_index import load_index
+    from open_legis.scraper.dv_mirror import mirror_issues
+
+    idx_path = Path(index_file)
+    if not idx_path.exists():
+        typer.echo(f"Index file not found: {index_file}", err=True)
+        raise typer.Exit(1)
+
+    all_issues = load_index(idx_path)
+
+    if year:
+        issues = [i for i in all_issues if i.year == year]
+    elif from_year and to_year:
+        issues = [i for i in all_issues if from_year <= i.year <= to_year]
+    elif from_year:
+        issues = [i for i in all_issues if i.year >= from_year]
+    else:
+        issues = all_issues
+
+    typer.echo(f"Mirroring {len(issues)} issues → {out}  (workers={workers})")
+
+    saved, skipped, failed = mirror_issues(
+        issues,
+        out_dir=Path(out),
+        workers=workers,
+        sleep=sleep,
+        progress_cb=typer.echo,
+    )
+    typer.echo(f"Done: {saved} downloaded, {skipped} skipped, {failed} failed")
+
+
 if __name__ == "__main__":
     app()
