@@ -84,13 +84,9 @@ class ParsedSection:
 
 def parse_body_text(text: str, act_type: str) -> list[ParsedSection]:
     """Parse DV body text into structured sections."""
-    # Detect ZID (has §-paragraph structure)
-    has_paragraphs = bool(re.search(r"§\s*\d+\.", text))
-
-    if has_paragraphs:
+    if act_type == "zid":
         return _parse_zid(text)
-    else:
-        return _parse_articles(text)
+    return _parse_articles(text)
 
 
 def _clean_text(text: str) -> str:
