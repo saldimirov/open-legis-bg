@@ -21,11 +21,13 @@
         <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-medium shrink-0
           {% if work.type == 'zakon' %}bg-blue-50 text-blue-700
           {% elif work.type == 'zid' %}bg-rose-50 text-rose-700
+          {% elif work.type == 'byudjet' %}bg-amber-50 text-amber-700
           {% elif work.type == 'kodeks' %}bg-purple-50 text-purple-700
           {% elif work.type == 'naredba' %}bg-green-50 text-green-700
           {% elif work.type == 'postanovlenie' %}bg-yellow-50 text-yellow-700
           {% elif work.type == 'pravilnik' %}bg-orange-50 text-orange-700
           {% elif work.type == 'reshenie_ns' %}bg-teal-50 text-teal-700
+          {% elif work.type == 'konstitutsiya' %}bg-slate-100 text-slate-800
           {% else %}bg-gray-100 text-gray-600{% endif %}">
           {{ type_labels[work.type] }}
         </span>

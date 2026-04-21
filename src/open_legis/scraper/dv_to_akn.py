@@ -14,6 +14,10 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("Закон за изменение и допълнение", "zid"),
     ("Закон за допълнение", "zid"),
     ("Закон за изменение", "zid"),
+    ("Закон за държавния бюджет", "byudjet"),
+    ("Закон за бюджета на", "byudjet"),
+    ("Закон за събирането на приходи и извършването на разходи", "byudjet"),
+    ("Закон за прилагане на разпоредби на Закона за държавния бюджет", "byudjet"),
     ("ЗАКОН", "zakon"),
     ("Закон", "zakon"),
     ("НАРЕДБА", "naredba"),
@@ -32,11 +36,12 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("Споразумение", "_other"),
 ]
 
-LEGISLATIVE_TYPES = {"zakon", "zid", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
+LEGISLATIVE_TYPES = {"zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns"}
 
 _ISSUING_BODY: dict[str, str] = {
     "zakon": "Народно събрание",
     "zid": "Народно събрание",
+    "byudjet": "Народно събрание",
     "kodeks": "Народно събрание",
     "naredba": "Министерски съвет",
     "postanovlenie": "Министерски съвет",

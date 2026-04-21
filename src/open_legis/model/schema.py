@@ -25,6 +25,7 @@ class ActType(str, enum.Enum):
     KODEKS = "kodeks"
     ZAKON = "zakon"
     ZID = "zid"
+    BYUDJET = "byudjet"
     NAREDBA = "naredba"
     PRAVILNIK = "pravilnik"
     POSTANOVLENIE = "postanovlenie"
