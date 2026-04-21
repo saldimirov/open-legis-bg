@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-1/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-1"/>
+          <FRBRalias value="Закон за допълнение на Закона за задълженията и договорите" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за задълженията и договорите" name="eli" other="/eli/bg/zid/2020/dv-102-20-1"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-1/bul@2020-12-01/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-1/bul@2020-12-01"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-1/bul@2020-12-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-1/bul@2020-12-01.xml"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-01" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за задълженията и договорите</p>
+      <p>(обн., ДВ, бр. 275 от 1950 г.; попр., бр. 2 от 1950 г.; изм., Изв., бр. 69 от 1951 г., бр. 92 от 1952 г.; ДВ, бр. 85 от 1963 г., бр. 27 от 1973 г., бр. 16 от 1977 г., бр. 28 от 1982 г., бр. 30 от 1990 г., бр. 12 и 56 от 1993 г., бр. 83 и 104 от 1996 г., бр. 83 и 103 от 1999 г., бр. 34 от 2000 г., бр. 19 от 2003 г., бр. 42 и 43 от 2005 г., бр. 36 от 2006 г., бр. 59 и 92 от 2007 г., бр. 50 от 2008 г., бр. 96 от 2017 г. и бр. 42 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Създава се чл. 112:</p>
+          <p>„112. С изтичането на десетгодишна давност се погасяват парични вземания срещу физически лица, независимо от прекъсването й, освен когато задължението е отсрочено или разсрочено.</p>
+          <p>Давността по ал. 1 не се прилага за вземания:</p>
+          <p>1. от търговската дейност на еднолични търговци или на физически лица – съдружници в дружество по чл. 357;</p>
+          <p>2. за непозволено увреждане;</p>
+          <p>3. за неоснователно обогатяване;</p>
+          <p>4. за издръжка;</p>
+          <p>5. за трудово възнаграждение;</p>
+          <p>6. за обезщетения по Кодекса на труда;</p>
+          <p>7. по повод приватизационна сделка;</p>
+          <p>8. по повод имущество, реституирано по реда на нормативен акт.</p>
+          <p>За давността по ал. 1 се прилагат чл. 115 и 118.“</p>
+          <p>Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>За заварените случаи давността по чл. 112 започва да тече от деня, в който вземането е станало изискуемо. При висящо изпълнително производство давността започва да тече от първото действие по изпълнението, а когато такова не е образувано – от деня на влизането в сила на акта, с който е признато вземането.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила в 6-месечен срок от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
