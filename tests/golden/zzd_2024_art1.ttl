@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://testserver/eli/bg/zakon/1950/zzd> a eli:LegalResource ;
+    eli:date_document "1950-11-22"^^xsd:date ;
+    eli:id_local "/eli/bg/zakon/1950/zzd",
+        "ДВ бр. 275/1950" ;
+    eli:in_force true ;
+    eli:passed_by "Народно събрание"@bg ;
+    eli:type_document "zakon" ;
+    dcterms:title "Закон за задълженията и договорите"@bg .
+
