@@ -38,6 +38,7 @@ class ParsedExpression:
     expression_date: dt.date
     language: str
     source_file: str
+    akn_xml: str = ""
 
 
 @dataclass
@@ -71,8 +72,8 @@ def _find_first(root: etree._Element, xpath: str) -> Optional[etree._Element]:
 
 
 def parse_akn_file(path: Path) -> ParsedAkn:
-    tree = etree.parse(str(path))
-    root = tree.getroot()
+    akn_xml = path.read_text(encoding="utf-8")
+    root = etree.fromstring(akn_xml.encode())
 
     # Work metadata
     eli_alias = _find_first(
@@ -91,7 +92,10 @@ def parse_akn_file(path: Path) -> ParsedAkn:
     pub = _find_first(root, "//akn:publication")
     if pub is None:
         raise ValueError(f"{path}: missing <publication>")
-    dv_year = int(pub.get("date", "")[:4])
+    try:
+        dv_year = int(pub.get("date", "")[:4])
+    except ValueError as exc:
+        raise ValueError(f"{path}: bad publication date: {pub.get('date')!r}") from exc
     dv_broy = int(pub.get("number") or "0")
     frbr_num_el = _find_first(root, "//akn:FRBRWork/akn:FRBRnumber")
     dv_position = int((frbr_num_el.get("value") if frbr_num_el is not None else "1") or "1")
@@ -135,6 +139,7 @@ def parse_akn_file(path: Path) -> ParsedAkn:
         expression_date=expr_date,
         language=language,
         source_file=str(path),
+        akn_xml=akn_xml,
     )
 
     body = _find_first(root, "//akn:body")

@@ -5,8 +5,10 @@ import math
 from pathlib import Path
 from typing import Any
 
+from collections import defaultdict
+
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, Response
 from fastapi.templating import Jinja2Templates
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
@@ -282,45 +284,79 @@ def work_page(
         if expr else work.eli_uri
     )
 
-    # Amendment relationships
-    amended_by = s.scalars(
-        select(m.Amendment)
+    # Amendment timeline — group per-article rows by ZID
+    amendment_rows = s.execute(
+        select(m.Amendment, m.Work)
+        .join(m.Work, m.Amendment.amending_work_id == m.Work.id)
         .where(m.Amendment.target_work_id == work.id)
-        .order_by(m.Amendment.effective_date)
+        .order_by(m.Amendment.effective_date, m.Work.dv_broy)
     ).all()
-    amends = s.scalars(
-        select(m.Amendment)
+
+    # Group by amending ZID (preserve insertion order = chronological)
+    _zid_groups: dict = {}
+    for amendment, zid_work in amendment_rows:
+        key = str(zid_work.id)
+        if key not in _zid_groups:
+            _zid_groups[key] = {
+                "uri": zid_work.eli_uri,
+                "title": zid_work.title,
+                "dv_broy": zid_work.dv_broy,
+                "dv_year": zid_work.dv_year,
+                "date": amendment.effective_date.isoformat(),
+                "is_omnibus": False,
+                "changes": [],
+            }
+        _zid_groups[key]["changes"].append({
+            "e_id": amendment.target_e_id,
+            "operation": amendment.operation.value,
+            "notes": amendment.notes,
+        })
+
+    # Flag omnibus: ZID amends more than one target work
+    if _zid_groups:
+        omnibus_ids = {
+            str(row[0])
+            for row in s.execute(
+                select(m.Amendment.amending_work_id)
+                .where(m.Amendment.amending_work_id.in_(
+                    [a.amending_work_id for a, _ in amendment_rows]
+                ))
+                .group_by(m.Amendment.amending_work_id)
+                .having(func.count(func.distinct(m.Amendment.target_work_id)) > 1)
+            ).all()
+        }
+        for key, grp in _zid_groups.items():
+            grp["is_omnibus"] = key in omnibus_ids
+
+    amended_by_list = list(_zid_groups.values())
+
+    # Per-article change index: e_id → list of (date, operation, zid_uri)
+    article_changes: dict[str, list[dict]] = defaultdict(list)
+    for grp in amended_by_list:
+        for ch in grp["changes"]:
+            if ch["e_id"]:
+                article_changes[ch["e_id"]].append({
+                    "date": grp["date"],
+                    "operation": ch["operation"],
+                    "zid_uri": grp["uri"],
+                })
+
+    # What this ZID amends (if it's a ZID itself)
+    amends_rows = s.execute(
+        select(m.Amendment, m.Work)
+        .join(m.Work, m.Amendment.target_work_id == m.Work.id)
         .where(m.Amendment.amending_work_id == work.id)
+        .order_by(m.Work.title)
     ).all()
-
-    amending_works = {
-        a.amending_work_id: s.get(m.Work, a.amending_work_id)
-        for a in amended_by
-    }
-    target_works = {
-        a.target_work_id: s.get(m.Work, a.target_work_id)
-        for a in amends
-    }
-
-    amended_by_list = [
-        {
-            "uri": amending_works[a.amending_work_id].eli_uri,
-            "title": amending_works[a.amending_work_id].title,
-            "dv_broy": amending_works[a.amending_work_id].dv_broy,
-            "dv_year": amending_works[a.amending_work_id].dv_year,
-            "date": a.effective_date.isoformat(),
-        }
-        for a in amended_by
-        if amending_works.get(a.amending_work_id)
-    ]
-    amends_list = [
-        {
-            "uri": target_works[a.target_work_id].eli_uri,
-            "title": target_works[a.target_work_id].title,
-        }
-        for a in amends
-        if target_works.get(a.target_work_id)
-    ]
+    seen_targets: set = set()
+    amends_list = []
+    for amendment, target_work in amends_rows:
+        if target_work.id not in seen_targets:
+            seen_targets.add(target_work.id)
+            amends_list.append({
+                "uri": target_work.eli_uri,
+                "title": target_work.title,
+            })
 
     work_data = {
         "uri": work.eli_uri,
@@ -342,8 +378,77 @@ def work_page(
             adoption_date=adoption_date,
             amended_by=amended_by_list,
             amends=amends_list,
+            article_changes=dict(article_changes),
         ),
     )
+
+
+_REVIEW_THRESHOLD = 0.9
+
+
+@router.get("/ui/admin/amendments/review", response_class=HTMLResponse)
+def admin_amendments_review(
+    request: Request,
+    s: Session = Depends(get_session),
+) -> HTMLResponse:
+    from open_legis.loader.amendment_matcher import match_all
+
+    all_matches = match_all(s, min_score=0.45)
+    existing_keys = set(
+        s.execute(
+            select(m.Amendment.amending_work_id, m.Amendment.target_work_id)
+        ).all()
+    )
+
+    review_matches = []
+    for r in all_matches:
+        if r.score >= _REVIEW_THRESHOLD:
+            continue
+        if (r.zid.id, r.target.id) not in existing_keys:
+            continue
+        review_matches.append({
+            "amending_id": str(r.zid.id),
+            "target_id": str(r.target.id),
+            "amending_uri": r.zid.eli_uri,
+            "target_uri": r.target.eli_uri,
+            "amending_title": r.zid.title,
+            "target_title": r.target.title,
+            "amending_dv_broy": r.zid.dv_broy,
+            "amending_dv_year": r.zid.dv_year,
+            "score": r.score,
+            "extracted": r.extracted,
+        })
+
+    return templates.TemplateResponse(
+        request,
+        "admin_amendments.html",
+        _ctx(matches=review_matches, threshold=_REVIEW_THRESHOLD),
+    )
+
+
+@router.post("/ui/admin/amendments/{amending_id}/{target_id}/delete")
+def admin_amendment_delete(
+    amending_id: str,
+    target_id: str,
+    s: Session = Depends(get_session),
+) -> Response:
+    import uuid
+    s.execute(
+        m.Amendment.__table__.delete().where(
+            m.Amendment.amending_work_id == uuid.UUID(amending_id),
+            m.Amendment.target_work_id == uuid.UUID(target_id),
+        )
+    )
+    s.commit()
+    return Response(status_code=204)
+
+
+@router.post("/ui/admin/amendments/{amending_id}/{target_id}/keep")
+def admin_amendment_keep(
+    amending_id: str,
+    target_id: str,
+) -> Response:
+    return Response(status_code=204)
 
 
 def _build_element_tree(

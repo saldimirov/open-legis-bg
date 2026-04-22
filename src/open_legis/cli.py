@@ -23,11 +23,15 @@ def load(
     engine = make_engine(settings.database_url)
 
     if if_empty:
-        with engine.connect() as conn:
-            count = conn.execute(text("SELECT COUNT(*) FROM work")).scalar()
-        if count:
-            typer.echo(f"skipping load — {count} works already in DB")
-            return
+        try:
+            with engine.connect() as conn:
+                count = conn.execute(text("SELECT COUNT(*) FROM work")).scalar()
+            if count:
+                typer.echo(f"skipping load — {count} works already in DB")
+                return
+        except Exception:
+            typer.echo("--if-empty: DB not ready (run migrations first)", err=True)
+            raise typer.Exit(1)
 
     load_directory(Path(path), engine=engine)
     typer.echo(f"loaded {path}")
@@ -172,6 +176,7 @@ def scrape_dv_batch(
     types: str = typer.Option("zakon,kodeks", "--types"),
     resume: bool = typer.Option(True, "--resume/--no-resume", help="Skip already-scraped fixtures"),
     sleep: float = typer.Option(0.8, "--sleep", help="Seconds between requests"),
+    local_dir: Optional[str] = typer.Option(None, "--local-dir", help="Local DV mirror directory; use local files instead of HTTP when available"),
 ) -> None:
     """Scrape all laws from a year range and load into DB."""
     import datetime as _dt
@@ -180,10 +185,13 @@ def scrape_dv_batch(
     from open_legis.scraper.dv_client import get_issue_materials, get_material_text
     from open_legis.scraper.dv_to_akn import detect_act_type, convert_material, LEGISLATIVE_TYPES
     from open_legis.scraper.dv_index import crawl_year, crawl_years, save_index, load_index
+    from open_legis.scraper.dv_mirror import issue_path as local_issue_path
+    from open_legis.scraper.rtf_parser import parse_local_issue
 
     allowed_types = {t.strip() for t in types.split(",")} if types else LEGISLATIVE_TYPES
     out_root = Path(out)
     idx_path = Path(index_file)
+    local_root = Path(local_dir) if local_dir else None
 
     # Resolve year range
     if year:
@@ -199,12 +207,10 @@ def scrape_dv_batch(
     # Build or load issue index
     if idx_path.exists():
         all_issues = load_index(idx_path)
-        # Filter to requested range
         issues = [i for i in all_issues if y_from <= i.year <= y_to]
         if not issues:
             typer.echo(f"No cached issues for {y_from}-{y_to}, crawling...")
             issues = crawl_years(y_from, y_to, sleep=sleep, progress_cb=typer.echo)
-            # Merge into cache
             existing_idObjs = {i.idObj for i in all_issues}
             new_issues = [i for i in issues if i.idObj not in existing_idObjs]
             all_issues.extend(new_issues)
@@ -220,41 +226,90 @@ def scrape_dv_batch(
     skipped_total = 0
 
     for issue in issues:
-        typer.echo(f"Issue broy={issue.broy}/{issue.year} ({issue.date}) idObj={issue.idObj}")
-        try:
-            materials = get_issue_materials(issue.idObj, sleep=sleep)
-        except Exception as e:
-            typer.echo(f"  ERROR fetching materials: {e}", err=True)
-            continue
+        # --- Local mirror path ---
+        local_path = local_issue_path(issue, local_root) if local_root else None
 
-        for mat in materials:
+        if local_path:
+            # Parse from local file — no HTTP
             try:
-                title, body = get_material_text(mat.idMat, sleep=sleep)
+                raw_materials = parse_local_issue(local_path)
             except Exception as e:
-                typer.echo(f"  ERROR fetching idMat={mat.idMat}: {e}", err=True)
+                typer.echo(f"  ERROR parsing {local_path.name}: {e}", err=True)
+                raw_materials = []
+
+            if not raw_materials:
+                # Unreadable local file (e.g. pre-2000 PDF with custom encoding) — fall back to HTTP
+                local_path = None
+
+        if local_path and raw_materials:
+            # Dedup within issue: same title → keep longest body
+            seen_titles: dict[str, tuple[int, str]] = {}
+            for position, (title, body) in enumerate(raw_materials, start=1):
+                if not title:
+                    continue
+                act_type = detect_act_type(title)
+                if act_type not in allowed_types:
+                    continue
+                key = (act_type, title.strip().lower()[:120])
+                if key not in seen_titles or len(body) > len(seen_titles[key][1]):
+                    seen_titles[key] = (position, body)
+
+            for (act_type, _), (position, body) in seen_titles.items():
+                title = raw_materials[position - 1][0]
+
+                slug, xml = convert_material(
+                    title=title, body=body, idMat=0,
+                    issue=issue, position=position,
+                )
+                expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
+                akn_path = expr_dir / f"{issue.date}.bul.xml"
+
+                if resume and akn_path.exists():
+                    skipped_total += 1
+                    continue
+
+                expr_dir.mkdir(parents=True, exist_ok=True)
+                akn_path.write_text(xml, encoding="utf-8")
+                typer.echo(f"  + {act_type}: {title[:65]}")
+                saved_total += 1
+
+        else:
+            # Fall back to HTTP
+            typer.echo(f"Issue broy={issue.broy}/{issue.year} ({issue.date}) idObj={issue.idObj}")
+            try:
+                materials = get_issue_materials(issue.idObj, sleep=sleep)
+            except Exception as e:
+                typer.echo(f"  ERROR fetching materials: {e}", err=True)
                 continue
 
-            if not title:
-                continue
-            act_type = detect_act_type(title)
-            if act_type not in allowed_types:
-                continue
+            for mat in materials:
+                try:
+                    title, body = get_material_text(mat.idMat, sleep=sleep)
+                except Exception as e:
+                    typer.echo(f"  ERROR fetching idMat={mat.idMat}: {e}", err=True)
+                    continue
 
-            slug, xml = convert_material(
-                title=title, body=body, idMat=mat.idMat,
-                issue=issue, position=mat.page,
-            )
-            expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
-            akn_path = expr_dir / f"{issue.date}.bul.xml"
+                if not title:
+                    continue
+                act_type = detect_act_type(title)
+                if act_type not in allowed_types:
+                    continue
 
-            if resume and akn_path.exists():
-                skipped_total += 1
-                continue
+                slug, xml = convert_material(
+                    title=title, body=body, idMat=mat.idMat,
+                    issue=issue, position=mat.page,
+                )
+                expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
+                akn_path = expr_dir / f"{issue.date}.bul.xml"
 
-            expr_dir.mkdir(parents=True, exist_ok=True)
-            akn_path.write_text(xml, encoding="utf-8")
-            typer.echo(f"  + {act_type}: {title[:65]}")
-            saved_total += 1
+                if resume and akn_path.exists():
+                    skipped_total += 1
+                    continue
+
+                expr_dir.mkdir(parents=True, exist_ok=True)
+                akn_path.write_text(xml, encoding="utf-8")
+                typer.echo(f"  + {act_type}: {title[:65]}")
+                saved_total += 1
 
     typer.echo(f"Done: {saved_total} saved, {skipped_total} skipped")
 
@@ -266,6 +321,158 @@ def scrape_dv_batch(
         engine = make_engine(Settings().database_url)
         load_directory(out_root, engine=engine)
         typer.echo("Loaded into DB")
+
+
+@app.command("repair-bodies")
+def repair_bodies(
+    fixtures: str = typer.Option("fixtures/akn", "--fixtures", help="AKN fixtures root"),
+    mirror: str = typer.Option("local_dv", "--mirror", help="Local DV mirror directory"),
+    index_file: str = typer.Option(".dv-index.json", "--index-file", help="DV issue index"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Report what would be fixed without writing"),
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
+) -> None:
+    """Re-parse empty-body fixtures from the local DV mirror, preserving existing slugs."""
+    import re as _re
+    from pathlib import Path
+
+    from lxml import etree
+
+    from open_legis.scraper.dv_index import load_index
+    from open_legis.scraper.dv_mirror import issue_path as local_issue_path
+    from open_legis.scraper.rtf_parser import parse_local_issue
+    from open_legis.scraper.dv_to_akn import convert_material
+    from open_legis.scraper.dv_client import DvIssue
+
+    _AKN_NS = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    _NS = {"akn": _AKN_NS}
+    _SLUG_RE = _re.compile(r"^dv-(?P<broy>\d+)-\d+-(?P<pos>\d+)$")
+
+    fixtures_root = Path(fixtures)
+    mirror_root = Path(mirror)
+    idx_path = Path(index_file)
+
+    if not idx_path.exists():
+        typer.echo(f"Index not found: {index_file}", err=True)
+        raise typer.Exit(1)
+
+    all_issues = load_index(idx_path)
+    index: dict[tuple[int, int], DvIssue] = {(i.broy, i.year): i for i in all_issues}
+
+    # Find all empty-body fixtures
+    empty_fixtures: list[Path] = []
+    for f in sorted(fixtures_root.rglob("*.bul.xml")):
+        try:
+            tree = etree.parse(f)
+            body = tree.find(".//akn:body", _NS)
+            if body is None or len(body) == 0:
+                empty_fixtures.append(f)
+        except etree.XMLSyntaxError:
+            pass
+
+    typer.echo(f"Found {len(empty_fixtures)} empty-body fixtures")
+
+    # Cache parsed local files — one parse per DV issue
+    _parsed_cache: dict[Path, list[tuple[str, str]]] = {}
+
+    fixed = skipped = failed = 0
+
+    for f in empty_fixtures:
+        parts = f.relative_to(fixtures_root).parts
+        if len(parts) < 4:
+            continue
+        act_type, year_str, slug = parts[0], parts[1], parts[2]
+
+        m = _SLUG_RE.match(slug)
+        if not m:
+            if verbose:
+                typer.echo(f"  skip non-standard slug: {slug}")
+            skipped += 1
+            continue
+
+        broy = int(m.group("broy"))
+        position = int(m.group("pos"))
+        year = int(year_str)
+
+        issue = index.get((broy, year))
+        if not issue:
+            if verbose:
+                typer.echo(f"  no index entry for broy={broy} year={year}: {f.name}")
+            skipped += 1
+            continue
+
+        local_path = local_issue_path(issue, mirror_root)
+        if not local_path or not local_path.exists():
+            if verbose:
+                typer.echo(f"  no local file for {slug}")
+            skipped += 1
+            continue
+
+        if local_path not in _parsed_cache:
+            try:
+                _parsed_cache[local_path] = parse_local_issue(local_path)
+            except Exception as e:
+                typer.echo(f"  ERROR parsing {local_path.name}: {e}", err=True)
+                _parsed_cache[local_path] = []
+
+        materials = _parsed_cache[local_path]
+        if not materials:
+            skipped += 1
+            continue
+
+        # Get original title from fixture
+        try:
+            tree = etree.parse(f)
+            alias = tree.find(".//akn:FRBRalias[@name='short']", _NS)
+            orig_title = alias.get("value", "") if alias is not None else ""
+        except Exception:
+            skipped += 1
+            continue
+
+        if not orig_title:
+            skipped += 1
+            continue
+
+        # Find best matching material by title prefix
+        best_body = ""
+        best_score = 0
+        orig_prefix = orig_title.lower()[:60]
+        for mat_title, mat_body in materials:
+            mat_prefix = mat_title.lower()[:60]
+            # Score: length of common prefix
+            common = sum(1 for a, b in zip(orig_prefix, mat_prefix) if a == b)
+            if common > best_score and common >= 15 and mat_body:
+                best_score = common
+                best_body = mat_body
+
+        if not best_body:
+            if verbose:
+                typer.echo(f"  no match for: {orig_title[:60]}")
+            skipped += 1
+            continue
+
+        if dry_run:
+            typer.echo(f"  would fix: {f.relative_to(fixtures_root)} (score={best_score})")
+            fixed += 1
+            continue
+
+        try:
+            _, xml = convert_material(
+                title=orig_title,
+                body=best_body,
+                idMat=0,
+                issue=issue,
+                position=position,
+            )
+            f.write_text(xml, encoding="utf-8")
+            if verbose:
+                typer.echo(f"  fixed: {f.relative_to(fixtures_root)}")
+            fixed += 1
+        except Exception as e:
+            typer.echo(f"  ERROR converting {slug}: {e}", err=True)
+            failed += 1
+
+    action = "would fix" if dry_run else "fixed"
+    typer.echo(f"Done: {fixed} {action}, {skipped} skipped, {failed} failed")
 
 
 @app.command("match-amendments")
@@ -395,6 +602,35 @@ def validate(
 
     error_count = print_report(results, verbose=verbose)
     raise typer.Exit(code=1 if error_count > 0 else 0)
+
+
+@app.command("parse-zid-ops")
+def parse_zid_ops(
+    limit: Optional[int] = typer.Option(None, "--limit", help="Max ZIDs to process (for testing)"),
+    sleep: float = typer.Option(0.2, "--sleep", help="Seconds between API calls"),
+) -> None:
+    """Parse ZID § paragraphs with LLM and populate consolidation_op table."""
+    from sqlalchemy.orm import Session
+
+    from open_legis.consolidation.populate import populate_ops
+    from open_legis.model.db import make_engine
+    from open_legis.settings import Settings
+
+    settings = Settings()
+    if not settings.anthropic_api_key:
+        typer.echo("ANTHROPIC_API_KEY not set", err=True)
+        raise typer.Exit(1)
+
+    engine = make_engine(settings.database_url)
+    with Session(engine) as session:
+        inserted, skipped, failed = populate_ops(
+            session,
+            api_key=settings.anthropic_api_key,
+            limit=limit,
+            sleep=sleep,
+            progress_cb=typer.echo,
+        )
+    typer.echo(f"Done: {inserted} ops inserted, {skipped} amendments skipped, {failed} failed")
 
 
 if __name__ == "__main__":

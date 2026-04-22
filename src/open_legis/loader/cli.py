@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Optional
 
 from sqlalchemy import Engine, select
 from sqlalchemy.orm import Session
@@ -10,16 +11,45 @@ from open_legis.model import schema as m
 
 def load_directory(root: Path, engine: Engine) -> None:
     files = sorted(Path(root).rglob("*.bul.xml"))
-    parsed_by_file = [(f, parse_akn_file(f)) for f in files]
-    for f, p in parsed_by_file:
-        validate_parsed(p, source_path=f)
+
+    parsed_by_file: list[tuple[Path, ParsedAkn]] = []
+    parse_errors = 0
+    for f in files:
+        try:
+            p = parse_akn_file(f)
+            validate_parsed(p, source_path=f)
+            parsed_by_file.append((f, p))
+        except Exception as exc:
+            print(f"  SKIP {f}: {exc}", flush=True)
+            parse_errors += 1
+
+    if parse_errors:
+        print(f"  {parse_errors} file(s) skipped due to parse errors", flush=True)
+
+    total = len(parsed_by_file)
+    print(f"Loading {total} fixtures...", flush=True)
+
+    skip_count = 0
+    expr_ids: set[int] = set()
 
     with Session(engine) as session:
-        for f, p in parsed_by_file:
-            _upsert(session, p)
+        for i, (_, p) in enumerate(parsed_by_file, 1):
+            if i % 100 == 0 or i == total:
+                print(f"  {i}/{total}", flush=True)
+            expr_id = _upsert(session, p)
+            if expr_id is None:
+                skip_count += 1
+            else:
+                expr_ids.add(expr_id)
+
+        if skip_count:
+            print(f"  {skip_count} fixture(s) skipped (position conflict)", flush=True)
+
         _recompute_is_latest(session)
-        _populate_paths(session)
+        _populate_paths(session, expr_ids)
         session.commit()
+
+    print(f"Loaded {len(expr_ids)} expressions", flush=True)
 
     relations_dir = Path(root) / "relations"
     if relations_dir.exists():
@@ -27,10 +57,33 @@ def load_directory(root: Path, engine: Engine) -> None:
         load_relations(relations_dir, engine=engine)
 
 
-def _upsert(session: Session, p: ParsedAkn) -> None:
+def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
     work = session.scalars(
         select(m.Work).where(m.Work.eli_uri == p.work.eli_uri)
     ).one_or_none()
+    if work is None:
+        pos_work = session.scalars(
+            select(m.Work).where(
+                m.Work.dv_broy == p.work.dv_broy,
+                m.Work.dv_year == p.work.dv_year,
+                m.Work.dv_position == p.work.dv_position,
+            )
+        ).one_or_none()
+        if pos_work is not None and pos_work.act_type.value == p.work.act_type:
+            # Same type, different slug — skip to avoid eli_uri/akn_xml mismatch
+            print(
+                f"  SKIP position conflict: {p.work.eli_uri} vs existing {pos_work.eli_uri}",
+                flush=True,
+            )
+            return None
+        elif pos_work is not None:
+            # Different type at same DV position — scraper conflict, skip
+            print(
+                f"  SKIP type conflict at dv={p.work.dv_broy}/{p.work.dv_year} pos={p.work.dv_position}",
+                flush=True,
+            )
+            return None
+
     if work is None:
         work = m.Work(
             eli_uri=p.work.eli_uri,
@@ -57,20 +110,19 @@ def _upsert(session: Session, p: ParsedAkn) -> None:
             m.Expression.language == p.expression.language,
         )
     ).one_or_none()
-    akn_xml = Path(p.expression.source_file).read_text()
     if expr is None:
         expr = m.Expression(
             work_id=work.id,
             expression_date=p.expression.expression_date,
             language=p.expression.language,
-            akn_xml=akn_xml,
+            akn_xml=p.expression.akn_xml,
             source_file=p.expression.source_file,
             is_latest=False,
         )
         session.add(expr)
         session.flush()
     else:
-        expr.akn_xml = akn_xml
+        expr.akn_xml = p.expression.akn_xml
         expr.source_file = p.expression.source_file
 
     session.query(m.Element).filter(m.Element.expression_id == expr.id).delete(
@@ -92,6 +144,7 @@ def _upsert(session: Session, p: ParsedAkn) -> None:
             )
         )
     session.flush()
+    return expr.id
 
 
 def _recompute_is_latest(session: Session) -> None:
@@ -124,17 +177,26 @@ def _recompute_is_latest(session: Session) -> None:
         )
 
 
-def _populate_paths(session: Session) -> None:
+def _populate_paths(session: Session, expression_ids: set[int]) -> None:
     from sqlalchemy import text
 
-    session.execute(text("UPDATE element SET path = NULL"))
+    if not expression_ids:
+        return
+
+    ids = list(expression_ids)
+
+    session.execute(
+        text("UPDATE element SET path = NULL WHERE expression_id = ANY(:ids)"),
+        {"ids": ids},
+    )
     session.flush()
 
     session.execute(
         text(
             "UPDATE element SET path = text2ltree(regexp_replace(e_id, '[^A-Za-z0-9_]', '_', 'g')) "
-            "WHERE parent_e_id IS NULL"
-        )
+            "WHERE parent_e_id IS NULL AND expression_id = ANY(:ids)"
+        ),
+        {"ids": ids},
     )
     session.flush()
 
@@ -150,8 +212,10 @@ def _populate_paths(session: Session) -> None:
                   AND child.expression_id = parent.expression_id
                   AND child.path IS NULL
                   AND parent.path IS NOT NULL
+                  AND child.expression_id = ANY(:ids)
                 """
-            )
+            ),
+            {"ids": ids},
         )
         if res.rowcount == 0:
             break

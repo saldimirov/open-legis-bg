@@ -32,6 +32,10 @@ class ActType(str, enum.Enum):
     UKAZ = "ukaz"
     RESHENIE_KS = "reshenie_ks"
     RESHENIE_NS = "reshenie_ns"
+    RESHENIE_MS = "reshenie_ms"
+    RESHENIE_KEVR = "reshenie_kevr"   # Energy and Water Regulatory Commission
+    RESHENIE_KFN = "reshenie_kfn"     # Financial Supervision Commission
+    RESHENIE_NHIF = "reshenie_nhif"   # National Health Insurance Fund
     RATIFIKATSIYA = "ratifikatsiya"
 
 
@@ -58,6 +62,24 @@ class AmendmentOp(str, enum.Enum):
     SUBSTITUTION = "substitution"
     REPEAL = "repeal"
     RENUMBERING = "renumbering"
+
+
+class ConsolidationOpType(str, enum.Enum):
+    # Element-level
+    ELEMENT_SUBSTITUTION = "ELEMENT_SUBSTITUTION"  # whole element replaced
+    ELEMENT_INSERTION = "ELEMENT_INSERTION"          # new element added
+    ELEMENT_REPEAL = "ELEMENT_REPEAL"                # element marked отменен
+    # Text-level (within an element)
+    TEXT_SUBSTITUTION = "TEXT_SUBSTITUTION"          # word/phrase replaced
+    TEXT_INSERTION = "TEXT_INSERTION"                # text appended/prepended
+    TEXT_DELETION = "TEXT_DELETION"                  # text removed
+
+
+class ConsolidationOpStatus(str, enum.Enum):
+    PARSED = "PARSED"        # extracted by LLM, target_ref_raw populated
+    RESOLVED = "RESOLVED"    # target_e_id matched to a real element
+    APPLIED = "APPLIED"      # op applied to produce a consolidated expression
+    FAILED = "FAILED"        # parse or resolution error
 
 
 class ReferenceType(str, enum.Enum):
@@ -155,6 +177,41 @@ class Amendment(Base):
     operation: Mapped[AmendmentOp] = mapped_column(Enum(AmendmentOp, name="amendment_op"), nullable=False)
     effective_date: Mapped[dt.date] = mapped_column(Date, nullable=False)
     notes: Mapped[Optional[str]] = mapped_column(Text)
+
+    ops: Mapped[list["ConsolidationOp"]] = relationship(
+        back_populates="amendment", cascade="all, delete-orphan"
+    )
+
+
+class ConsolidationOp(Base):
+    """One parsed operation extracted from a single § paragraph of a ZID.
+
+    A single § can yield multiple ops (e.g. "се правят следните изменения:
+    1. ... 2. ..."), hence sequence.
+    """
+    __tablename__ = "consolidation_op"
+
+    id: Mapped[uuid.UUID] = _uuid_pk()
+    amendment_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("amendment.id", ondelete="CASCADE"), nullable=False
+    )
+    source_e_id: Mapped[str] = mapped_column(Text, nullable=False)   # § e_id in ZID
+    sequence: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+    target_ref_raw: Mapped[str] = mapped_column(Text, nullable=False)  # "чл. 32, ал. 5"
+    target_e_id: Mapped[Optional[str]] = mapped_column(Text)           # resolved e_id
+    op_type: Mapped[ConsolidationOpType] = mapped_column(
+        Enum(ConsolidationOpType, name="consolidation_op_type"), nullable=False
+    )
+    old_text: Mapped[Optional[str]] = mapped_column(Text)
+    new_text: Mapped[Optional[str]] = mapped_column(Text)
+    status: Mapped[ConsolidationOpStatus] = mapped_column(
+        Enum(ConsolidationOpStatus, name="consolidation_op_status"),
+        nullable=False,
+        default=ConsolidationOpStatus.PARSED,
+    )
+    error: Mapped[Optional[str]] = mapped_column(Text)
+
+    amendment: Mapped[Amendment] = relationship(back_populates="ops")
 
 
 class Reference(Base):

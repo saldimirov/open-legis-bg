@@ -25,3 +25,7 @@ class Settings(BaseSettings):
         default="",
         alias="PUBLIC_URL",
     )
+    anthropic_api_key: str = Field(
+        default="",
+        alias="ANTHROPIC_API_KEY",
+    )

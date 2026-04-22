@@ -8,6 +8,39 @@ from typing import Optional
 # --- Act type detection -------------------------------------------------------
 
 _TYPE_KEYWORDS: list[tuple[str, str]] = [
+    # Exclude maritime IMO codes and professional/conduct codes before generic kodeks match
+    ("КОДЕКС ЗА БЕЗОПАСНОСТ", "_other"),
+    ("КОДЕКС ЗА РАЗШИРЕНИ", "_other"),
+    ("КОДЕКС ЗА УПРАВЛЕНИЕ", "_other"),
+    ("КОДЕКС ЗА ПРЕВОЗ", "_other"),
+    ("КОДЕКС ЗА КОНСТРУКЦИЯТА", "_other"),
+    ("КОДЕКС ЗА ОДОБРЕНИЕ", "_other"),
+    ("КОДЕКС ЗА НИВАТА", "_other"),
+    ("КОДЕКС ЗА СИГУРНОСТ", "_other"),
+    ("КОДЕКС ЗА ПРИЛАГАНЕ", "_other"),
+    ("КОДЕКС НА ПОВЕДЕНИЕ", "_other"),
+    ("КОДЕКС ОТ 20", "_other"),  # "Кодекс от 2008 г."
+    ("КОДЕКС ЗА NOх", "_other"),
+    ("Кодекс за безопасност", "_other"),
+    ("Кодекс за разширени", "_other"),
+    ("Кодекс за управление на безопасността", "_other"),
+    ("Кодекс за превоз", "_other"),
+    ("Кодекс за конструкцията", "_other"),
+    ("Кодекс за одобрение", "_other"),
+    ("Кодекс за нивата", "_other"),
+    ("Кодекс за сигурност на корабите", "_other"),
+    ("Кодекс за прилагане на задължителните", "_other"),
+    ("Кодекс за разследване на морски", "_other"),
+    ("Кодекс за устойчивост", "_other"),
+    ("Кодекс за добра", "_other"),
+    ("Кодекс за поведение", "_other"),
+    ("Кодекс за признатите", "_other"),
+    ("Кодекс за признати", "_other"),
+    ("Кодекс за професионална", "_other"),
+    ("Кодекс ЗА ПОВЕДЕНИЕ", "_other"),
+    ("Кодекс ЗА БЕЗОПАСНОСТ", "_other"),
+    ("Кодекс ЗА РАЗШИРЕНИ", "_other"),
+    ("Кодекс НА ПОВЕДЕНИЕ", "_other"),
     ("КОДЕКС", "kodeks"),
     ("Кодекс", "kodeks"),
     ("Закон за ратифициране", "ratifikatsiya"),
@@ -32,13 +65,21 @@ _TYPE_KEYWORDS: list[tuple[str, str]] = [
     ("Решение на Народното събрание", "reshenie_ns"),
     ("УКАЗ", "ukaz"),
     ("Указ", "ukaz"),
+    # Regulatory decisions — matched before the generic _court catch below
+    ("Решение № РД-НС-04", "reshenie_nhif"),   # НЗОК (health insurance fund)
+    ("Решение № РД-НС-", "reshenie_nhif"),
+    ("Решение № ТПрГ", "reshenie_kevr"),        # КЕВР energy price regulation
     ("Решение № ", "_court"),
     ("Определение № ", "_court"),
     ("Инструкция", "_other"),
     ("Споразумение", "_other"),
 ]
 
-LEGISLATIVE_TYPES = {"zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik", "reshenie_ns", "ratifikatsiya"}
+LEGISLATIVE_TYPES = {
+    "zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik",
+    "reshenie_ns", "reshenie_ks", "reshenie_ms", "reshenie_kevr", "reshenie_kfn", "reshenie_nhif",
+    "ratifikatsiya",
+}
 
 _ISSUING_BODY: dict[str, str] = {
     "zakon": "Народно събрание",
@@ -51,15 +92,51 @@ _ISSUING_BODY: dict[str, str] = {
     "reshenie_ns": "Народно събрание",
     "ratifikatsiya": "Народно събрание",
     "ukaz": "Президент на Републиката",
+    "reshenie_ms": "Министерски съвет",
+    "reshenie_kevr": "Комисия за енергийно и водно регулиране",
+    "reshenie_kfn": "Комисия за финансов надзор",
+    "reshenie_nhif": "Национална здравноосигурителна каса",
 }
+
+# Regex for decision number suffixes/prefixes that indicate the issuing body
+_RESHENIE_SUFFIX_RE = re.compile(
+    r"^Решение\s+№\s+(?:ТПрГ|ТПГ)\b"
+    r"|^Решение\s+№\s+\S*-(?P<suffix>ОЗ|ЖЗ|ОЕ|ЕС|ЕО)\b"  # КЕВР electricity/gas
+    r"|^Решение\s+№\s+\S*-(?P<kfn>НИФ|ИП|УД|ДСИЦ|ПД|ОЗО|ЛУАИФ)\b"  # КФН financial
+    r"|^Решение\s+№\s+(?P<nhif>РД-НС-\d+)"                            # НЗОК health
+)
+
+# Keywords in concession/MS decision titles
+_MS_DECISION_RE = re.compile(
+    r"за предоставяне на концесия|"
+    r"за продължаване срока на разрешение|"
+    r"за даване на разрешение за прехвърляне|"
+    r"за удължаване срока на|"
+    r"за прекратяване на концесия",
+    re.IGNORECASE,
+)
 
 
 def detect_act_type(title: str) -> str:
+    # Normalise non-breaking spaces for consistent keyword matching
+    norm = title.replace(" ", " ").replace(" ", " ")
+    # For "Решение №" run suffix regex BEFORE the generic _court catch in keywords
+    if "№" in title:
+        m = _RESHENIE_SUFFIX_RE.match(norm)
+        if m:
+            if m.group("nhif"):
+                return "reshenie_nhif"
+            return "reshenie_kevr" if m.group("suffix") else "reshenie_kfn"
+        if _MS_DECISION_RE.search(norm):
+            return "reshenie_ms"
     for keyword, act_type in _TYPE_KEYWORDS:
-        if title.startswith(keyword):
+        if norm.startswith(keyword):
             return act_type
+    # Second pass: substring match, but skip kodeks and _other (too broad)
     for keyword, act_type in _TYPE_KEYWORDS:
-        if keyword in title:
+        if act_type in ("kodeks", "_other"):
+            continue
+        if keyword in norm:
             return act_type
     return "_other"
 

@@ -1,13 +1,17 @@
-"""Parse a DV RTF issue file into individual materials.
+"""Parse a DV issue file (RTF or PDF) into individual materials.
 
-DV RTF structure:
+RTF structure (newer issues, ~2003+):
   - Mixed-case TOC lines: "Title text \\t page_number"
   - Section headers: "ОФИЦИАЛЕН РАЗДЕЛ", "НАРОДНО СЪБРАНИЕ", etc.
   - Act headings in ALL CAPS: "ЗАКОН", "ПОСТАНОВЛЕНИЕ № X от ...", "УКАЗ № X", etc.
   - Act body: plain text paragraphs
 
+PDF structure (older issues, 1989–~2002):
+  - No reliable TOC; acts separated by ALL-CAPS headings in body text
+  - Same split strategy, no TOC-title matching available
+
 Strategy:
-  1. Extract TOC titles (mixed-case, more descriptive)
+  1. Extract TOC titles (RTF only; mixed-case, more descriptive)
   2. Split body on ALL-CAPS act headings
   3. Match each body chunk to its TOC title by act number / type prefix
 """
@@ -58,7 +62,7 @@ def parse_rtf(path: Path) -> list[tuple[str, str]]:
 
     lines = text.splitlines()
 
-    # --- Phase 1: extract TOC titles for lookup ---
+    # Phase 1: extract TOC titles
     toc_titles: list[str] = []
     for line in lines[:400]:
         m = _TOC_LINE.match(line)
@@ -67,37 +71,35 @@ def parse_rtf(path: Path) -> list[tuple[str, str]]:
             if len(title) > 10:
                 toc_titles.append(title)
 
-    # --- Phase 2: find body start (first section header) ---
+    # Phase 2: find body start at first section header
     body_start = 0
     for i, line in enumerate(lines):
         if re.match(r"^ОФИЦИАЛЕН РАЗДЕЛ|^НЕОФИЦИАЛЕН РАЗДЕЛ", line.strip()):
             body_start = i
             break
 
-    body_lines = lines[body_start:]
+    return _split_acts(lines[body_start:], toc_titles)
 
-    # --- Phase 3: split on ALL-CAPS act headings ---
-    # Collect (line_index, heading) pairs
+
+def _split_acts(body_lines: list[str], toc_titles: list[str]) -> list[tuple[str, str]]:
+    """Split body lines on ALL-CAPS act headings and return (title, body) pairs."""
     splits: list[tuple[int, str]] = []
     i = 0
     while i < len(body_lines):
         line = body_lines[i].strip()
         if _CAPS_ACT.match(line) and not _SKIP_HEADERS.match(line):
-            # Collect heading: first CAPS line + following "за ..." subject lines
             heading_parts = [line]
             j = i + 1
             while j < len(body_lines):
                 next_line = body_lines[j].strip()
                 if not next_line:
                     break
-                # Subject lines start with lowercase (за/относно/и/на) or continuation
                 if re.match(r"^(за |относно |и |на |от )", next_line, re.IGNORECASE):
                     heading_parts.append(next_line)
                     j += 1
                 else:
                     break
-            heading = " ".join(heading_parts)
-            splits.append((i, heading))
+            splits.append((i, " ".join(heading_parts)))
             i = j
         else:
             i += 1
@@ -105,24 +107,31 @@ def parse_rtf(path: Path) -> list[tuple[str, str]]:
     if not splits:
         return []
 
-    # --- Phase 4: build (title, body) pairs ---
-    materials: list[tuple[str, str]] = []
+    raw: list[tuple[str, str]] = []
     for idx, (line_idx, caps_heading) in enumerate(splits):
         end_line = splits[idx + 1][0] if idx + 1 < len(splits) else len(body_lines)
         body_chunk = _clean("\n".join(body_lines[line_idx:end_line]))
 
-        # Try to match to a TOC title for a better (more descriptive) title
-        # Match by: same act number, or same prefix words
         title = _match_toc_title(caps_heading, toc_titles) or _normalise_heading(caps_heading)
 
-        # Strip the heading from the body chunk start
         body = body_chunk
         if body.startswith(caps_heading):
             body = body[len(caps_heading):].lstrip(" \n")
         elif body.lower().startswith(title[:30].lower()):
             body = body[len(title):].lstrip(" \n")
 
-        materials.append((title, body))
+        raw.append((title, body))
+
+    # Merge consecutive chunks with the same title — repeated headings inside a doc body
+    materials: list[tuple[str, str]] = []
+    for title, body in raw:
+        if materials and materials[-1][0] == title:
+            materials[-1] = (title, (materials[-1][1] + " " + body).strip())
+        else:
+            materials.append((title, body))
+
+    # Drop fragments with very little body text (< 80 chars) — likely split artifacts
+    materials = [(t, b) for t, b in materials if len(b) >= 80]
 
     return materials
 
@@ -136,6 +145,44 @@ def _normalise_heading(caps: str) -> str:
     type_word = parts[0].capitalize()
     rest = parts[1] if len(parts) > 1 else ""
     return f"{type_word} {rest}".strip()
+
+
+def parse_pdf(path: Path) -> list[tuple[str, str]]:
+    """Return list of (title, body) for each legislative act in the PDF file.
+
+    Returns an empty list when the PDF uses an undecodable custom font encoding
+    (typically pre-2000 issues) — caller should fall back to HTTP in that case.
+    """
+    try:
+        import fitz  # pymupdf
+    except ImportError:
+        return []
+
+    try:
+        doc = fitz.open(str(path))
+        text = "\n".join(page.get_text() for page in doc)
+        doc.close()
+    except Exception:
+        return []
+
+    if not text:
+        return []
+
+    # Pre-2000 PDFs use undecodable custom font encoding — detect and bail out
+    cyrillic = sum(1 for c in text if "Ѐ" <= c <= "ӿ")
+    if cyrillic < 50:
+        return []
+
+    return _split_acts(text.splitlines(), toc_titles=[])
+
+
+def parse_local_issue(path: Path) -> list[tuple[str, str]]:
+    """Dispatch to RTF or PDF parser based on file extension."""
+    if path.suffix.lower() == ".rtf":
+        return parse_rtf(path)
+    elif path.suffix.lower() == ".pdf":
+        return parse_pdf(path)
+    return []
 
 
 def _match_toc_title(caps_heading: str, toc_titles: list[str]) -> str | None:
