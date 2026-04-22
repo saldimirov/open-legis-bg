@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -7,6 +8,8 @@ from sqlalchemy import text
 from sqlalchemy.orm import Session
 
 from open_legis.validate import Issue, LayerResult
+
+_SLUG_RE = re.compile(r"^dv-(\d+)-\d+-(\d+)$")
 
 _ISSUE_THRESHOLDS: dict[str, int] = {
     "zakon": 3, "kodeks": 3, "byudjet": 3, "konstitutsiya": 1,
@@ -131,6 +134,38 @@ def check_db(fixtures_root: Path, session: Session) -> LayerResult:
                 path=act_type,
             ))
 
+    # Per-fixture: verify each DV-slugged fixture has a matching DB row
+    fixture_coords: list[tuple[int, int, int, str]] = []  # (broy, year, pos, rel_path)
+    for f in fixtures_root.rglob("*.bul.xml"):
+        parts = f.relative_to(fixtures_root).parts
+        if len(parts) < 4:
+            continue
+        slug = parts[2]
+        m = _SLUG_RE.match(slug)
+        if not m:
+            continue  # non-DV slug (test fixtures, etc.)
+        broy = int(m.group(1))
+        year = int(parts[1])
+        position = int(m.group(2))
+        rel = f.relative_to(fixtures_root).as_posix()
+        fixture_coords.append((broy, year, position, rel))
+
+    if fixture_coords:
+        all_rows = session.execute(
+            text("SELECT dv_broy, dv_year, dv_position FROM work")
+        ).fetchall()
+        db_coords = set(all_rows)
+
+        for broy, year, position, rel in fixture_coords:
+            if (broy, year, position) not in db_coords:
+                issues.append(Issue(
+                    severity="error",
+                    code="FIXTURE_NOT_LOADED",
+                    message=f"Fixture not found in DB: dv_broy={broy} dv_year={year} dv_position={position}",
+                    path=rel,
+                    detail=f"Expected work with (dv_broy={broy}, dv_year={year}, dv_position={position})",
+                ))
+
     # Works with 0 elements
     zero_elem_rows = session.execute(text("""
         SELECT w.eli_uri
@@ -157,6 +192,7 @@ def check_db(fixtures_root: Path, session: Session) -> LayerResult:
             "db_types": len(db_counts),
             "type_not_in_db": sum(1 for i in issues if i.code == "TYPE_NOT_IN_DB"),
             "coverage_gaps": sum(1 for i in issues if i.code == "COVERAGE_GAP"),
+            "fixture_not_loaded": sum(1 for i in issues if i.code == "FIXTURE_NOT_LOADED"),
             "zero_elements": len(zero_elem_rows),
             **dup_stats,
         },

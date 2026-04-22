@@ -98,6 +98,22 @@ def test_probable_fragment_detected(loaded_db):
     assert any(i.code == "PROBABLE_FRAGMENT" for i in result.issues)
 
 
+def test_fixture_not_loaded_detected(loaded_db):
+    eng, fixtures_root = loaded_db
+    # Add a fixture with a valid DV slug that has no matching DB row
+    extra = fixtures_root / "zakon" / "2022" / "dv-99-22-1" / "expressions"
+    extra.mkdir(parents=True)
+    (extra / "2022-12-20.bul.xml").write_text(
+        Path("tests/data/validate_valid.xml").read_text()
+        .replace("dv-26-24-1", "dv-99-22-1")
+        .replace("2024", "2022")
+        .replace("2024-03-30", "2022-12-20")
+    )
+    with Session(eng) as session:
+        result = check_db(fixtures_root, session)
+    assert any(i.code == "FIXTURE_NOT_LOADED" and i.severity == "error" for i in result.issues)
+
+
 def test_issue_overcount_flagged(loaded_db):
     """More than threshold zakoni in a single issue should warn."""
     eng, fixtures_root = loaded_db
