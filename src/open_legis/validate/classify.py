@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import re
 from pathlib import Path
 
 from lxml import etree
@@ -11,28 +10,21 @@ from open_legis.validate import Issue, LayerResult
 _AKN_NS = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 _NS = {"akn": _AKN_NS}
 
-# Court decision subtype patterns (from the DV index page, issue 80 from 2016 has KEVR decisions)
-_COURT_SUBTYPES = {
-    # ЖЗ = Supreme Court of Cassation (Жалба Касационна)
-    r"ЖЗ": "reshenie_kevr",
-    # БЗ = Supreme Administrative Court
-    r"БЗ": "reshenie_bs",
-    # ВАС = Supreme Administrative Court (alternate)
-    r"ВАС": "reshenie_vas",
-    # КС = Constitutional Court
-    r"КС": "reshenie_cc",
-}
+_RESHENIE_BODY: list[tuple[str, str]] = [
+    ("Народното събрание", "reshenie_ns"),
+    ("Решение за", "reshenie_ns"),
+    ("КЕВР", "reshenie_kevr"),
+    ("ДКЕВР", "reshenie_kevr"),
+    ("КФН", "reshenie_kfn"),
+    ("РД-НС", "reshenie_nhif"),
+    ("Министерски съвет", "reshenie_ms"),
+]
 
 
-def _detect_court_subtype(title: str) -> str | None:
-    """Detect court decision subtype from title suffix patterns like '№ 689-ЖЗ'."""
-    # Match patterns like "Решение № 689-ХХ" where ХХ is the court abbreviation
-    m = re.search(r"№\s+\d+\s*-\s*([А-Я]+)", title)
-    if m:
-        suffix = m.group(1)
-        for pattern, subtype in _COURT_SUBTYPES.items():
-            if pattern in suffix:
-                return subtype
+def _detect_reshenie_subtype(title: str) -> str | None:
+    for keyword, subtype in _RESHENIE_BODY:
+        if keyword in title:
+            return subtype
     return None
 
 
@@ -57,17 +49,31 @@ def check_classification(fixtures_root: Path) -> LayerResult:
             continue  # already flagged by Layer 2 as MISSING_TITLE
 
         title = short_nodes[0].get("value", "")
-        detected = detect_act_type(title)
         checked += 1
 
-        # Handle court decisions: detect_act_type returns "_court", we need to check subtype
-        if detected == "_court":
-            subtype = _detect_court_subtype(title)
-            if subtype:
-                detected = subtype
-            else:
-                # Generic court decision without specific subtype
-                detected = "reshenie_court"
+        if dir_act_type.startswith("reshenie_"):
+            expected = _detect_reshenie_subtype(title)
+            if expected is None:
+                issues.append(Issue(
+                    severity="warn",
+                    code="UNDETECTED",
+                    message=f"Cannot determine reshenie subtype from title: {title[:80]!r}",
+                    path=rel,
+                ))
+            elif expected != dir_act_type:
+                issues.append(Issue(
+                    severity="error",
+                    code="RESHENIE_WRONG_BODY",
+                    message=(
+                        f"Directory={dir_act_type!r} but body keywords suggest {expected!r}: "
+                        f"{title[:80]!r}"
+                    ),
+                    path=rel,
+                    detail=f"expected={dir_act_type}, detected_body={expected}",
+                ))
+            continue  # reshenie handled; don't fall through to generic TYPE_MISMATCH
+
+        detected = detect_act_type(title)
 
         if detected == "_other":
             issues.append(Issue(
@@ -97,5 +103,6 @@ def check_classification(fixtures_root: Path) -> LayerResult:
             "checked": checked,
             "mismatches": sum(1 for i in issues if i.code == "TYPE_MISMATCH"),
             "undetected": sum(1 for i in issues if i.code == "UNDETECTED"),
+            "reshenie_wrong_body": sum(1 for i in issues if i.code == "RESHENIE_WRONG_BODY"),
         },
     )

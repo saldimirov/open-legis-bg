@@ -34,12 +34,20 @@ def test_type_mismatch_detected(tmp_path):
     assert any(i.code == "TYPE_MISMATCH" and i.severity == "error" for i in result.issues)
 
 
-def test_reshenie_subtype_mismatch(tmp_path):
-    # File is in reshenie_ns/ but title is a KEVR decision
-    _place(tmp_path, "reshenie_ns", "dv-80-16-8",
-           "Решение № 689-ЖЗ от 26 септември 2016 г.")
+def test_reshenie_wrong_body(tmp_path):
+    # File is in reshenie_kevr/ but title has КФН body → should fire RESHENIE_WRONG_BODY
+    _place(tmp_path, "reshenie_kevr", "dv-80-16-8",
+           "Решение № 689 от 26 септември 2016 г. на КФН")
     result = check_classification(tmp_path)
-    assert any(i.code == "TYPE_MISMATCH" and "reshenie_kevr" in i.message for i in result.issues)
+    assert any(i.code == "RESHENIE_WRONG_BODY" and i.severity == "error" for i in result.issues)
+
+
+def test_reshenie_correct_body(tmp_path):
+    # File is in reshenie_kevr/ and title has КЕВР → no issues
+    _place(tmp_path, "reshenie_kevr", "dv-80-16-8",
+           "Решение № 689 от 26 септември 2016 г. на КЕВР")
+    result = check_classification(tmp_path)
+    assert not any(i.code in ("TYPE_MISMATCH", "RESHENIE_WRONG_BODY") for i in result.issues)
 
 
 def test_undetected_title_warned(tmp_path):
