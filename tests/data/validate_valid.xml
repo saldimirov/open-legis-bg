@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-26-24-1/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-26-24-1"/>
+          <FRBRalias value="Закон за тест" name="short"/>
+          <FRBRalias value="Закон за тест" name="eli" other="/eli/bg/zakon/2024/dv-26-24-1"/>
+          <FRBRdate date="2024-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-26-24-1/bul@2024-03-30/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-26-24-1/bul@2024-03-30"/>
+          <FRBRdate date="2024-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+      </identification>
+      <publication date="2024-03-30" name="Държавен вестник" number="26" showAs="ДВ"/>
+    </meta>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content><p>Тест.</p></content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>
