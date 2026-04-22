@@ -6,7 +6,7 @@ from open_legis.validate.mirror import check_mirror
 
 
 def _write_index(path: Path, entries: list[dict]) -> None:
-    path.write_text(json.dumps(entries))
+    path.write_text(json.dumps(entries), encoding="utf-8")
 
 
 def test_issue_creation():
@@ -23,7 +23,7 @@ def test_layer_result_error_count():
             Issue("error", "MISSING_FILE", "gone"),
             Issue("warn", "TOO_SMALL", "tiny"),
         ],
-        stats={"checked": 2},
+        stats={"entries": 2},
     )
     errors = [i for i in result.issues if i.severity == "error"]
     assert len(errors) == 1
@@ -37,7 +37,7 @@ def test_mirror_all_present(tmp_path):
     _write_index(idx, [{"year": 2024, "broy": 1, "idObj": 1234}])
 
     result = check_mirror(idx, mirror)
-    assert result.stats["checked"] == 1
+    assert result.stats["entries"] == 1
     assert result.stats["missing"] == 0
     assert result.stats["too_small"] == 0
     assert result.issues == []
@@ -89,5 +89,5 @@ def test_mirror_multiple_entries(tmp_path):
     ])
 
     result = check_mirror(idx, mirror)
-    assert result.stats["checked"] == 2
+    assert result.stats["entries"] == 2
     assert result.stats["missing"] == 1

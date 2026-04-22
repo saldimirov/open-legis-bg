@@ -32,7 +32,7 @@ def check_mirror(index_path: Path, mirror_root: Path) -> LayerResult:
                 code="MISSING_FILE",
                 message=f"DV {year} broy {broy} (idObj={idobj}) not in mirror",
                 path=str(mirror_root / str(year) / stem),
-                detail=f"Expected {rtf} or {pdf}",
+                detail=f"Expected {rtf.relative_to(mirror_root)} or {pdf.relative_to(mirror_root)}",
             ))
             checked += 1
             continue
@@ -51,5 +51,5 @@ def check_mirror(index_path: Path, mirror_root: Path) -> LayerResult:
     return LayerResult(
         name="mirror",
         issues=issues,
-        stats={"checked": checked, "missing": missing, "too_small": too_small},
+        stats={"entries": checked, "missing": missing, "too_small": too_small},
     )
