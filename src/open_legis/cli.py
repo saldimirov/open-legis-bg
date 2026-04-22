@@ -343,5 +343,59 @@ def cache_dv(
     typer.echo(f"Done: {saved} downloaded, {skipped} skipped, {failed} failed")
 
 
+@app.command("validate")
+def validate(
+    fixtures: str = typer.Option("fixtures/akn", "--fixtures", help="AKN fixtures root"),
+    mirror: str = typer.Option("local_dv", "--mirror", help="Local DV mirror directory"),
+    index_file: str = typer.Option(".dv-index.json", "--index-file", help="DV issue index"),
+    layer: Optional[str] = typer.Option(
+        None, "--layer",
+        help="Run only one layer: mirror|fixtures|classify|db|eli (default: all)",
+    ),
+    verbose: bool = typer.Option(False, "--verbose", "-v", help="Show all issues"),
+    json_out: Optional[str] = typer.Option(None, "--json", help="Write JSON report to file"),
+) -> None:
+    """Validate the data pipeline: mirror → fixtures → DB."""
+    from pathlib import Path
+
+    from open_legis.validate.mirror import check_mirror
+    from open_legis.validate.fixtures import check_fixtures
+    from open_legis.validate.classify import check_classification
+    from open_legis.validate.eli import check_eli
+    from open_legis.validate.report import print_report, write_json_report
+
+    fixtures_path = Path(fixtures)
+    mirror_path = Path(mirror)
+    index_path = Path(index_file)
+
+    results = []
+
+    def _run(name: str, fn, *args):
+        if layer is None or layer == name:
+            results.append(fn(*args))
+
+    _run("mirror", check_mirror, index_path, mirror_path)
+    _run("fixtures", check_fixtures, fixtures_path)
+    _run("classify", check_classification, fixtures_path)
+
+    if layer is None or layer == "db":
+        from open_legis.validate.db import check_db
+        from open_legis.model.db import make_engine
+        from open_legis.settings import Settings
+        from sqlalchemy.orm import Session
+
+        engine = make_engine(Settings().database_url)
+        with Session(engine) as session:
+            results.append(check_db(fixtures_path, session))
+
+    _run("eli", check_eli, fixtures_path)
+
+    if json_out:
+        write_json_report(results, json_out)
+
+    error_count = print_report(results, verbose=verbose)
+    raise typer.Exit(code=1 if error_count > 0 else 0)
+
+
 if __name__ == "__main__":
     app()

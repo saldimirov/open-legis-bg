@@ -16,9 +16,9 @@ _NUMBER_PATTERNS: dict[str, re.Pattern[str]] = {
     "naredba": re.compile(r"Наредба\s+№\s+[\w\-/]+", re.IGNORECASE),
     "pravilnik": re.compile(r"Правилник\s+№\s+[\w\-/]+", re.IGNORECASE),
     "reshenie_kevr": re.compile(r"Решение\s+№\s+[\w\-]+"),
-    "reshenie_kfn": re.compile(r"Решение\s+№\s+[\w\-]+"),
-    "reshenie_nhif": re.compile(r"Решение\s+№\s+[\w\-]+"),
 }
+_NUMBER_PATTERNS["reshenie_kfn"] = _NUMBER_PATTERNS["reshenie_kevr"]
+_NUMBER_PATTERNS["reshenie_nhif"] = _NUMBER_PATTERNS["reshenie_kevr"]
 
 
 def check_eli(fixtures_root: Path) -> LayerResult:
@@ -52,7 +52,7 @@ def check_eli(fixtures_root: Path) -> LayerResult:
         number_stats[act_type]["total"] += 1
 
         try:
-            tree = etree.parse(str(f))
+            tree = etree.parse(f)
             aliases = tree.xpath("//akn:FRBRalias[@name='short']", namespaces=_NS)
             if aliases:
                 title = aliases[0].get("value", "")
