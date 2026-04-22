@@ -17,4 +17,4 @@ class Issue:
 class LayerResult:
     name: str
     issues: list[Issue] = field(default_factory=list)
-    stats: dict[str, int] = field(default_factory=dict)
+    stats: dict[str, int | float] = field(default_factory=dict)

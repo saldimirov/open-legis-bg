@@ -3,6 +3,7 @@ from __future__ import annotations
 import datetime
 import json
 from dataclasses import asdict
+from pathlib import Path
 
 from open_legis.validate import LayerResult
 
@@ -41,9 +42,9 @@ def print_report(results: list[LayerResult], verbose: bool = False) -> int:
     return total_errors
 
 
-def write_json_report(results: list[LayerResult], path: str) -> None:
+def write_json_report(results: list[LayerResult], path: str | Path) -> None:
     report = {
-        "run_at": datetime.datetime.now().isoformat(),
+        "run_at": datetime.datetime.now(tz=datetime.timezone.utc).isoformat(),
         "summary": {
             "errors": sum(len([i for i in r.issues if i.severity == "error"]) for r in results),
             "warnings": sum(len([i for i in r.issues if i.severity == "warn"]) for r in results),
