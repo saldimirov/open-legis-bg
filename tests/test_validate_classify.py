@@ -56,6 +56,14 @@ def test_undetected_title_warned(tmp_path):
     assert any(i.code == "UNDETECTED" and i.severity == "warn" for i in result.issues)
 
 
+def test_reshenie_undetected_body(tmp_path):
+    # reshenie_ks directory but no matching body keyword → RESHENIE_UNDETECTED
+    _place(tmp_path, "reshenie_ks", "dv-80-16-8",
+           "Решение № 3 от 2016 г. на Конституционния съд")
+    result = check_classification(tmp_path)
+    assert any(i.code == "RESHENIE_UNDETECTED" and i.severity == "warn" for i in result.issues)
+
+
 def test_postanovlenie_correct(tmp_path):
     _place(tmp_path, "postanovlenie", "dv-68-12-1",
            "Постановление № 193 ОТ 28 АВГУСТ 2012 Г. за определяне")

@@ -13,8 +13,8 @@ _NS = {"akn": _AKN_NS}
 _RESHENIE_BODY: list[tuple[str, str]] = [
     ("Народното събрание", "reshenie_ns"),
     ("Решение за", "reshenie_ns"),
-    ("КЕВР", "reshenie_kevr"),
     ("ДКЕВР", "reshenie_kevr"),
+    ("КЕВР", "reshenie_kevr"),
     ("КФН", "reshenie_kfn"),
     ("РД-НС", "reshenie_nhif"),
     ("Министерски съвет", "reshenie_ms"),
@@ -56,7 +56,7 @@ def check_classification(fixtures_root: Path) -> LayerResult:
             if expected is None:
                 issues.append(Issue(
                     severity="warn",
-                    code="UNDETECTED",
+                    code="RESHENIE_UNDETECTED",
                     message=f"Cannot determine reshenie subtype from title: {title[:80]!r}",
                     path=rel,
                 ))
@@ -69,7 +69,7 @@ def check_classification(fixtures_root: Path) -> LayerResult:
                         f"{title[:80]!r}"
                     ),
                     path=rel,
-                    detail=f"expected={dir_act_type}, detected_body={expected}",
+                    detail=f"dir={dir_act_type}, body_suggests={expected}",
                 ))
             continue  # reshenie handled; don't fall through to generic TYPE_MISMATCH
 
@@ -104,5 +104,6 @@ def check_classification(fixtures_root: Path) -> LayerResult:
             "mismatches": sum(1 for i in issues if i.code == "TYPE_MISMATCH"),
             "undetected": sum(1 for i in issues if i.code == "UNDETECTED"),
             "reshenie_wrong_body": sum(1 for i in issues if i.code == "RESHENIE_WRONG_BODY"),
+            "reshenie_undetected": sum(1 for i in issues if i.code == "RESHENIE_UNDETECTED"),
         },
     )
