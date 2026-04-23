@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-93-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-93-04-16"/>
+          <FRBRalias value="Поправка в Наредба № 4 от 2004 г. за условията и реда за присъединяване на потребителите и за ползване на водоснабдителните и канализационните системи (ДВ, бр. 88 от 2004 г.)" name="short"/>
+          <FRBRalias value="Поправка в Наредба № 4 от 2004 г. за условията и реда за присъединяване на потребителите и за ползване на водоснабдителните и канализационните системи (ДВ, бр. 88 от 2004 г.)" name="eli" other="/eli/bg/zid/2004/dv-93-04-16"/>
+          <FRBRdate date="2004-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-93-04-16/bul@2004-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-93-04-16/bul@2004-10-19"/>
+          <FRBRdate date="2004-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-93-04-16/bul@2004-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-93-04-16/bul@2004-10-19.xml"/>
+          <FRBRdate date="2004-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-19" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправка в Наредба № 4 от 2004 г. за условията и реда за присъединяване на потребителите и за ползване на водоснабдителните и канализационните системи (ДВ, бр. 88 от 2004 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

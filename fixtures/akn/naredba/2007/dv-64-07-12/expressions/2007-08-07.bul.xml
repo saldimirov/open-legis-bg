@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-64-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-64-07-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 17 от 2000 г. за условията и реда за предписване и отпускане на лекарства на ветераните от войните" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 17 от 2000 г. за условията и реда за предписване и отпускане на лекарства на ветераните от войните" name="eli" other="/eli/bg/naredba/2007/dv-64-07-12"/>
+          <FRBRdate date="2007-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-64-07-12/bul@2007-08-07/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-64-07-12/bul@2007-08-07"/>
+          <FRBRdate date="2007-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-64-07-12/bul@2007-08-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-64-07-12/bul@2007-08-07.xml"/>
+          <FRBRdate date="2007-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-08-07" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 17 от 2000 г. за условията и реда за предписване и отпускане на лекарства на ветераните от войните</p>
+      <p>(обн., ДВ, бр. 80 от 2000 г.; изм., бр. 19 и 42 от 2001 г., бр. 61 от 2002 г., бр. 51 от 2004 г., бр. 7 от 2006 г., бр. 43 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 2 се изменя така:</p>
+            <p>“Чл. 2. Ветераните от войните имат право на лекарства по списък съгласно приложението. Стойността на лекарствата е за сметка на държавния бюджет и се изплаща чрез бюджета на общините.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3 текстът “избрани по реда на Наредбата за достъпа на здравноосигурените лица до лечебните заведения за извънболнична и болнична помощ” се заменя с “по чл. 4 от Наредбата за осъществяване правото на достъп до медицинска помощ”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7 ал. 1 се изменя така:</p>
+            <p>“(1) Лекарствата, предписани по реда на тази наредба, се получават от всяка аптека, сключила договор с общината по местоживеене на ветерана, срещу представяне на рецепта, лична карта/личен паспорт и удостоверение за “ветеран от войните”. Стойността на лекарствата се изплаща на аптеките от общината срещу представени оригинали на изпълнените рецепти, опис на рецептите със стойност и фактура.”</p>
+            <p>Министър на здравеопазването:  Р. Гайдарски</p>
+            <p>Министър на финансите:  Пл. Орешарски</p>
+            <p>Министър на отбраната:  В. Близнаков</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

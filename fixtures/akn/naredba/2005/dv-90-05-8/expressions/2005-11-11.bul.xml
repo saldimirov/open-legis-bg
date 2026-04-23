@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-90-05-8/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-90-05-8"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 47 от 2004 г. за изискванията към добавките към храните" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 47 от 2004 г. за изискванията към добавките към храните" name="eli" other="/eli/bg/naredba/2005/dv-90-05-8"/>
+          <FRBRdate date="2005-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-90-05-8/bul@2005-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-90-05-8/bul@2005-11-11"/>
+          <FRBRdate date="2005-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-90-05-8/bul@2005-11-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-90-05-8/bul@2005-11-11.xml"/>
+          <FRBRdate date="2005-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-11" name="Държавен вестник" number="90" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 47 от 2004 г. за изискванията към добавките към храните</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 след думите “да пуснат на пазара” се добавя “за първи път”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 3 от предходните и заключителните разпоредби се изменя така:</p>
+            <p>“§ 3. Добавките към храните, които се намират на пазара (произведени или внесени в страната) преди 01.08.2005 г. и които не отговарят на изискванията на наредбата, могат да се продават до изчерпване на наличните количества, но не по-късно от 31.12.2005 г.”</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>108103</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-2/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-2"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на Националната здравноосигурителна каса за 2005 г." name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на Националната здравноосигурителна каса за 2005 г." name="eli" other="/eli/bg/zid/2005/dv-102-05-2"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-2/bul@2005-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-2/bul@2005-12-20"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-2/bul@2005-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-2/bul@2005-12-20.xml"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-20" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за бюджета на Националната здравноосигурителна каса за 2005 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 1 се правят следните изменения:</p>
+          <p>1. В ал. 1:</p>
+          <p>а) в текста и в “I. Приходи” числото “873 080 000” се заменя с “961 080 000”;</p>
+          <p>б) в т. 1 числото “850 000 000” се заменя с “930 000 000”;</p>
+          <p>в) в т. 3 числото “10 000 000” се заменя с “18 000 000”.</p>
+          <p>2. В ал. 2:</p>
+          <p>а) в текста числото “984 289 690” се заменя с “1 072 289 690”;</p>
+          <p>б) във “II. Разходи” числото “982 889 690” се заменя с “1 070 889 690”;</p>
+          <p>в) в т. 1 числото “892 889 690” се заменя с “972 889 690”;</p>
+          <p>г) в т. 1.5 числото “863 600 000” се заменя с “943 600 000”;</p>
+          <p>д) в т. 1.5.6 числото “295 100 000” се заменя с “375 100 000”;</p>
+          <p>е) в т. 3 числото “85 000 000” се заменя с “93 000 000”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В § 7 от заключителните разпоредби думите “но не повече от 50 на сто” се заличават.</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила от 1 декември 2005 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

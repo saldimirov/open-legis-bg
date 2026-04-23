@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-7-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-7-07-22"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 27 от 2003 г. за статистиката на платежния баланс" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 27 от 2003 г. за статистиката на платежния баланс" name="eli" other="/eli/bg/naredba/2007/dv-7-07-22"/>
+          <FRBRdate date="2007-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-7-07-22/bul@2007-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-7-07-22/bul@2007-01-23"/>
+          <FRBRdate date="2007-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-7-07-22/bul@2007-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-7-07-22/bul@2007-01-23.xml"/>
+          <FRBRdate date="2007-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-01-23" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 27 от 2003 г. за статистиката на платежния баланс</p>
+      <p>(обн., ДВ, бр. 69 от 2003 г.; изм. и доп., бр. 111 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1, т. 1 думите “5000 лв.” се заменят с “25 000 лв.”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 1 думите “5000 лв.” се заменят с “25 000 лв.”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 7, ал. 11 от Валутния закон и чл. 42 от Закона за Българската народна банка и е приета с Решение № 117 от 22 декември 2006 г. на Управителния съвет на Българската народна банка.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>80315</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-60-04-17/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-60-04-17"/>
+          <FRBRalias value="Поправка в Наредба № 57 от 9 юни 2004 г. за съществените изисквания към железопътната инфраструктура и подвижния състав за осигуряване на необходимите параметри на взаимодействие, оперативност и съвместимост с трансевропейската железопътна система (ДВ, бр. 55 от 2004 г.)" name="short"/>
+          <FRBRalias value="Поправка в Наредба № 57 от 9 юни 2004 г. за съществените изисквания към железопътната инфраструктура и подвижния състав за осигуряване на необходимите параметри на взаимодействие, оперативност и съвместимост с трансевропейската железопътна система (ДВ, бр. 55 от 2004 г.)" name="eli" other="/eli/bg/zid/2004/dv-60-04-17"/>
+          <FRBRdate date="2004-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-60-04-17/bul@2004-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-60-04-17/bul@2004-07-09"/>
+          <FRBRdate date="2004-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-60-04-17/bul@2004-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-60-04-17/bul@2004-07-09.xml"/>
+          <FRBRdate date="2004-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-09" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправка в Наредба № 57 от 9 юни 2004 г. за съществените изисквания към железопътната инфраструктура и подвижния състав за осигуряване на необходимите параметри на взаимодействие, оперативност и съвместимост с трансевропейската железопътна система (ДВ, бр. 55 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 6.</num>
+        <content>
+          <p>Наредбата с приложенията по чл. 5, ал. 1 се обнародва като притурка на “Държавен вестник”.”</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

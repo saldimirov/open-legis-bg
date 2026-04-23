@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-26"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 26 от 2006 г. за финансовите къщи" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 26 от 2006 г. за финансовите къщи" name="eli" other="/eli/bg/naredba/2007/dv-19-07-26"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-26/bul@2007-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-26/bul@2007-03-02"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-26/bul@2007-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-26/bul@2007-03-02.xml"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 26 от 2006 г. за финансовите къщи</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се правят следните изменения:</p>
+            <p>1. В ал. 2 т. 3 се изменя така:</p>
+            <p>“ 3. не е осъждано за умишлено престъпление от общ характер, освен ако е реабилитирано.”</p>
+            <p>2. Алинея 3 се изменя така:</p>
+            <p>“(3) Акционер/съдружник във финансова къща може да бъде лице, което не е осъждано за умишлено престъпление от общ характер, освен ако е реабилитирано.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения:</p>
+            <p>1. В ал. 4, т. 4 думите “т. 1 - 3” се заменят с “т. 1 и 2”.</p>
+            <p>2. В ал. 5 т. 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 14, ал. 1 т. 5 се изменя така:</p>
+            <p>“ 5. се установи нарушение на Закона за мерките срещу изпиране на пари;”.</p>
+            <p>§ 4   . В чл. 14, ал. 1 т. 6 се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

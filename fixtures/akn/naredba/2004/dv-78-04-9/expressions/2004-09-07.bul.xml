@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-78-04-9/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-78-04-9"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите" name="eli" other="/eli/bg/naredba/2004/dv-78-04-9"/>
+          <FRBRdate date="2004-09-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-78-04-9/bul@2004-09-07/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-78-04-9/bul@2004-09-07"/>
+          <FRBRdate date="2004-09-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-78-04-9/bul@2004-09-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-78-04-9/bul@2004-09-07.xml"/>
+          <FRBRdate date="2004-09-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-07" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 1 от 2003 г. за вписване в регистъра на корабите</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 4 съюзът “във” се заменя с “в”, а думите “водните бази” и запетаята след тях се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 8, ал. 4 съюзът “във” се заменя с “в”, а думите “водните бази” и запетаята след тях се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 9 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 4:</p>
+            <p>а) в т. 3 след думата “кораба” запетаята се заменя със съюза “и”, а думите “и всички регистрирани ипотеки и други ограничения в разпорежданията с кораба, ако има такива” се заличават;</p>
+            <p>б) в т. 4 думите “е временно отписан” се заменят с думите “няма право да плава под знамето на държавата на основния регистър”.</p>
+            <p>2. Алинея 5 се изменя така:</p>
+            <p>“(5) В случаите по ал. 4, когато корабът е вписан в регистровите книги по чл. 4, ал. 1, т. 1 и 2, към заявлението се прилагат документите по ал. 4, т. 1, 3, 6 - 8.”</p>
+            <p>3. Досегашните ал. 5, 6, 7 и 8 стават съответно ал. 6, 7, 8 и 9.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 10 се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1.</p>
+            <p>2. Създава се ал. 2:</p>
+            <p>“(2) Данните по ал. 1, т. 11 не се вписват в регистровите книги по чл. 4, ал. 1, т. 3, а в тях се вписва забележка, че тези данни са вписани в основния регистър на кораба.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В приложение № 3 думата “залог” се заличава.</p>
+            <p>Министър:  Н. Василев</p>
+            <p>43167</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

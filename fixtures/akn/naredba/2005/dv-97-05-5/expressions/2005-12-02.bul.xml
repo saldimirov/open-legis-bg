@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-5"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 42 от 2001 г. за лицензиране на железопътни предприятия за превоз на пътници и/или товари и на лицата, издаващи сертификат за безопасност" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 42 от 2001 г. за лицензиране на железопътни предприятия за превоз на пътници и/или товари и на лицата, издаващи сертификат за безопасност" name="eli" other="/eli/bg/naredba/2005/dv-97-05-5"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-5/bul@2005-12-02/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-5/bul@2005-12-02"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-5/bul@2005-12-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-5/bul@2005-12-02.xml"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-02" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 42 от 2001 г. за лицензиране на железопътни предприятия за превоз на пътници и/или товари и на лицата, издаващи сертификат за безопасност</p>
+      <p>(обн., ДВ, бр. 67 от 2001 г.; изм. и доп., бр. 14 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 4 т. 1 се изменя така:</p>
+            <p>“1. превоз на пътници и/или превоз на товари на цялата територия на страната:</p>
+            <p>а) съгласно приложение № 1 - до датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз;</p>
+            <p>б) съгласно приложение № 1а - от датата на влизане в сила на Договора за присъединяване на Република България към Европей&amp;shy;ския съюз;”.</p>
+            <p>2. Създава се ал. 6:</p>
+            <p>“(6) Към лицензията се издава финансова застраховка за отговорност по образец съгласно приложение № 1б.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наименованието на глава трета се изменя така: “Издаване на сертификати за безопасност”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 30а:</p>
+            <p>“Чл. 30а. (1) Изпълнителният директор на ИА “ЖА” издава сертификат за безопасност на превозвача и сертификат за безопасност на управителя на железопътната инфраструктура.</p>
+            <p>(2) Сертификатът за безопасност на превозвача удостоверява безопасната технология на превозите.</p>
+            <p>(3) Сертификатът за безопасност на управителя на железопътната инфраструктура удостоверява безопасното функциониране на инфраструктурата и управлението на влаковата работа.</p>
+            <p>(4) Сертификатите по ал. 1 не подлежат на преотстъпване.</p>
+            <p>(5) Сертификатите по ал. 1 са със срок на валидност 5 години.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Разпоредбата на чл. 4, ал. 4, т. 1, буква “а” се прилага до датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Разпоредбите на § 1 относно чл. 4, ал. 4, т. 1, буква “б” и ал. 6 и разпоредбите на § 3 относно чл. 30а влизат в сила от датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз.</p>
+            <p>Министър:  П. Мутафчиев</p>
+            <p>Приложение № 1а към чл. 4, ал. 4, т. 1, буква “б”</p>
+            <p>( Забележка на редакцията : виж приложенията в PDF-а на броя)</p>
+            <p>Приложение № 1б към чл. 4, ал. 6</p>
+            <p>117014</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

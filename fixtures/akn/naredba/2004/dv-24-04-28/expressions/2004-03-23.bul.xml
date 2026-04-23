@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-28"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 11 от 1998 г. за реда за писмено деклариране на стоки пред митническите учреждения" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 11 от 1998 г. за реда за писмено деклариране на стоки пред митническите учреждения" name="eli" other="/eli/bg/naredba/2004/dv-24-04-28"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-28/bul@2004-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-28/bul@2004-03-23"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-28/bul@2004-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-28/bul@2004-03-23.xml"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-03-23" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 11 от 1998 г. за реда за писмено деклариране на стоки пред митническите учреждения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 16, т. 26 накрая се добавя “особен случай: при деклариране на опаковки или опаковани стоки се вписва цифровият код на опаковъчния материал съгласно приложение № 2 към Наредбата за опаковките и отпадъците от опаковки, както и количеството в килограми на опаковъчния материал, по следния начин: цифров код на опаковъчния материал = количество в килограми;”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 18, т. 26 накрая се добавя “особен случай: при деклариране на опаковки или опаковани стоки се вписва цифровият код на опаковъчния материал съгласно приложение № 2 към Наредбата за опаковките и отпадъците от опаковки, както и количеството в килограми на опаковъчния материал, по следния начин: цифров код на опаковъчния материал = количество в килограми;”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В т. 1 на приложение № 17 се правят следните изменения и допълнения:</p>
+            <p>1. Код 46 се изменя така:</p>
+            <p>“46 Продуктова такса за батерии и акумулатори”.</p>
+            <p>2. Създава се код 47:</p>
+            <p>“47 Продуктова такса за опаковки”.</p>
+            <p>Министър:  М. Велчев</p>
+            <p>13356</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

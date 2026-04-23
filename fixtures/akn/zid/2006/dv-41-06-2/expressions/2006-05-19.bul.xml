@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-41-06-2/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-41-06-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за нотариусите и нотариалната дейност" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за нотариусите и нотариалната дейност" name="eli" other="/eli/bg/zid/2006/dv-41-06-2"/>
+          <FRBRdate date="2006-05-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-41-06-2/bul@2006-05-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-41-06-2/bul@2006-05-19"/>
+          <FRBRdate date="2006-05-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-41-06-2/bul@2006-05-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-41-06-2/bul@2006-05-19.xml"/>
+          <FRBRdate date="2006-05-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-05-19" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за нотариусите и нотариалната дейност</p>
+      <p>(обн., ДВ, бр. 104 от 1996 г.; изм., бр. 117, 118 и 123 от 1997 г., бр. 24 от 1998 г., бр. 69 от 1999 г., бр. 18 от 2003 г., бр. 29 и 36 от 2004 г., бр. 19 и 43 от 2005 г., бр. 30 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 11, ал. 2 след думата “документи” се добавя “за платена държавна такса” и се поставя запетая.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 12 се създава ал. 5:</p>
+          <p>“(5) Министерството на правосъдието събира държавна такса за конкурса в размер, определен с тарифа, одобрена от Министерския съвет.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 46 се създава ал. 8:</p>
+          <p>“(8) Министерството на правосъдието събира държавна такса за изпита по ал. 3 в размер, определен с тарифа, одобрена от Министер&amp;shy;ския съвет.”</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

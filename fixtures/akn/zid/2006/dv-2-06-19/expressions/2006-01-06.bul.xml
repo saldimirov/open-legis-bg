@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-19"/>
+          <FRBRalias value="Поправка в Наредбата за изменение и допълнение на Наредба № 919 от 2000 г. на Министерство на транспорта за събиране на статистическа информация за гражданското въздухоплаване в Република България (ДВ, бр. 1 от 2006 г., стр. 50)" name="short"/>
+          <FRBRalias value="Поправка в Наредбата за изменение и допълнение на Наредба № 919 от 2000 г. на Министерство на транспорта за събиране на статистическа информация за гражданското въздухоплаване в Република България (ДВ, бр. 1 от 2006 г., стр. 50)" name="eli" other="/eli/bg/zid/2006/dv-2-06-19"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-19/bul@2006-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-19/bul@2006-01-06"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-19/bul@2006-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-19/bul@2006-01-06.xml"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправка в Наредбата за изменение и допълнение на Наредба № 919 от 2000 г. на Министерство на транспорта за събиране на статистическа информация за гражданското въздухоплаване в Република България (ДВ, бр. 1 от 2006 г., стр. 50)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-11"/>
+          <FRBRalias value="Закон за ратифициране на Европейската конвенция за гражданството" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Европейската конвенция за гражданството" name="eli" other="/eli/bg/ratifikatsiya/2005/dv-102-05-11"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-11/bul@2005-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-11/bul@2005-12-20"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-102-05-11/bul@2005-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-102-05-11/bul@2005-12-20.xml"/>
+          <FRBRdate date="2005-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-20" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Европейската конвенция за гражданството</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ЗАКОН</p>
+          <p>за ратифициране на Европейската конвенция за гражданството</p>
+          <p>Член единствен.  Ратифицира Европейската конвенция за гражданството, подписана от Република България на 15 януари 1998 г. в Страсбург, със следните резерви и декларация:</p>
+          <p>1. Резерва по чл. 11:</p>
+          <p>“Република България в съответствие с чл. 29, т. 1 от конвенцията си запазва правото да не прилага разпоредбата на чл. 11 от конвенцията.”</p>
+          <p>2. Резерва по чл. 12:</p>
+          <p>“Република България в съответствие с чл. 29, т. 1 от конвенцията си запазва правото да не прилага разпоредбата на чл. 12 от конвенцията.”</p>
+          <p>3. Резерва по чл. 16:</p>
+          <p>“Република България в съответствие с чл. 29, т. 1 от конвенцията си запазва правото да не прилага разпоредбата на чл. 16 от конвенцията.”</p>
+          <p>4. Резерва по чл. 17:</p>
+          <p>“Република България в съответствие с чл. 29, т. 1 от конвенцията си запазва правото да не прилага разпоредбата на чл. 17, т. 1 от конвенцията. По смисъла на тази резерва Република България няма да прилага по отношение на гражданите на Република България, притежаващи друго гражданство и които пребивават на нейна територия, правата и задълженията, за които Конституцията и законите изискват само българско гражданство.”</p>
+          <p>5. Декларация по чл. 22, буква “б”:</p>
+          <p>“Във връзка с чл. 22, буква “б” от конвенцията Република България заявява, че в Република България пределната възраст за повикване на наборна военна служба е 27 години.”</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-63-07-14/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-63-07-14"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 46 от 2001 г. за железопътен превоз на опасни товари" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 46 от 2001 г. за железопътен превоз на опасни товари" name="eli" other="/eli/bg/naredba/2007/dv-63-07-14"/>
+          <FRBRdate date="2007-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-63-07-14/bul@2007-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-63-07-14/bul@2007-08-03"/>
+          <FRBRdate date="2007-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-63-07-14/bul@2007-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-63-07-14/bul@2007-08-03.xml"/>
+          <FRBRdate date="2007-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-08-03" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 46 от 2001 г. за железопътен превоз на опасни товари</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 1 се правят следните изменения и допълнения :</p>
+            <p>1. Точка 14 се изменя така:</p>
+            <p>14. “RID” е правилник, определящ изискванията за международен железопътен превоз на опасни товари, упоменати в Приложение на Притурка С към Конвенцията за международни железопътни превози (COTIF), включително всичките изменения в него.”</p>
+            <p>2. В т. 15 думата “опасни” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 2 думите „Директива 2004/89/ЕО и Директива 2004/110/ЕО” се заменят с „Директива 2004/89/ЕО, Директива 2004/110/ЕО и Директива 2006/90/ЕС”.</p>
+            <p>Министър:  П. Мутафчиев</p>
+            <p>37182</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

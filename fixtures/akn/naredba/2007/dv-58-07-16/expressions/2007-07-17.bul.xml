@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-58-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-58-07-16"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 107 от 2006 г. за условията и реда за подаване на заявления по схеми и мерки за подпомагане на площ" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 107 от 2006 г. за условията и реда за подаване на заявления по схеми и мерки за подпомагане на площ" name="eli" other="/eli/bg/naredba/2007/dv-58-07-16"/>
+          <FRBRdate date="2007-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-58-07-16/bul@2007-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-58-07-16/bul@2007-07-17"/>
+          <FRBRdate date="2007-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-58-07-16/bul@2007-07-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-58-07-16/bul@2007-07-17.xml"/>
+          <FRBRdate date="2007-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-17" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 107 от 2006 г. за условията и реда за подаване на заявления по схеми и мерки за подпомагане на площ</p>
+      <p>(обн., ДВ, бр. 84 от 2006 г.; изм. и доп., бр. 12 от 2007 г.; изм., бр. 20  от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 накрая се създава изречение трето:</p>
+            <p>“През 2007 г. заявленията по ал. 1 се подават през периода от 1 март до 31 май.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 15 май 2007 г.</p>
+            <p>Министър:  Н. Кабил</p>
+            <p>34714</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

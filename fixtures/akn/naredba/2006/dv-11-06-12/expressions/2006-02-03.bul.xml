@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-11-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-11-06-12"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2002 г. за приемане на ученици в Националната гимназия за древни езици и култури “Константин-Кирил Философ”" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 4 от 2002 г. за приемане на ученици в Националната гимназия за древни езици и култури “Константин-Кирил Философ”" name="eli" other="/eli/bg/naredba/2006/dv-11-06-12"/>
+          <FRBRdate date="2006-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-11-06-12/bul@2006-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-11-06-12/bul@2006-02-03"/>
+          <FRBRdate date="2006-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-11-06-12/bul@2006-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-11-06-12/bul@2006-02-03.xml"/>
+          <FRBRdate date="2006-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-03" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 4 от 2002 г. за приемане на ученици в Националната гимназия за древни езици и култури “Константин-Кирил Философ”</p>
+      <p>(обн., ДВ, бр. 25 от 2002 г.; доп., бр. 29 от 2003 г.; изм., бр. 57 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3, ал. 2 отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 5 се изменя така:</p>
+            <p>“Чл. 5. (1) Кандидатите за приемни изпити полагат писмен изпит по български език и литература и устен изпит по история на България и обща култура.</p>
+            <p>(2) Когато кандидатите са с увреждания, които не позволяват полагането на писмен и/или устен изпит, изпитът се провежда съобразно уврежданията от комисия, определена със заповед на директора на гимназията.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 9 се изменя така:</p>
+            <p>“Чл. 9. Кандидатите са длъжни да се явят в залата и да заемат местата си най-късно 15 минути преди започване на изпита.”</p>
+            <p>Министър:  Ст. Данаилов</p>
+            <p>7178</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-97-06-2/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-97-06-2"/>
+          <FRBRalias value="Закон за ратифициране на измененията на Конвенцията по оценка на въздействието върху околната среда в трансграничен контекст" name="short"/>
+          <FRBRalias value="Закон за ратифициране на измененията на Конвенцията по оценка на въздействието върху околната среда в трансграничен контекст" name="eli" other="/eli/bg/ratifikatsiya/2006/dv-97-06-2"/>
+          <FRBRdate date="2006-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-97-06-2/bul@2006-12-01/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-97-06-2/bul@2006-12-01"/>
+          <FRBRdate date="2006-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-97-06-2/bul@2006-12-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-97-06-2/bul@2006-12-01.xml"/>
+          <FRBRdate date="2006-12-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-01" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на измененията на Конвенцията по оценка на въздействието върху околната среда в трансграничен контекст</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ЗАКОН</p>
+          <p>за ратифициране на измененията на Конвенцията по оценка на въздействието върху околната среда в трансграничен контекст</p>
+          <p>Член единствен.  Ратифицира измененията на Конвенцията по оценка на въздействието върху околната среда в трансграничен контекст, приети на 27 февруари 2001 г. в София и на 4 юни 2004 г. в Цавтат, Хърватия.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

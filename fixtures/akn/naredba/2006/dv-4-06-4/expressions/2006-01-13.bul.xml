@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-4-06-4/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-4-06-4"/>
+          <FRBRalias value="Поправки в Постановление № 278 от 2005 г. на Министерския съвет за изменение и допълнение на Наредбата за условията и реда за издаване на комплексни разрешителни за изграждането и експлоатацията на нови и експлоатацията на действащи промишлени инсталации и съоръжения (ДВ, бр. 105 от 2005 г.)" name="short"/>
+          <FRBRalias value="Поправки в Постановление № 278 от 2005 г. на Министерския съвет за изменение и допълнение на Наредбата за условията и реда за издаване на комплексни разрешителни за изграждането и експлоатацията на нови и експлоатацията на действащи промишлени инсталации и съоръжения (ДВ, бр. 105 от 2005 г.)" name="eli" other="/eli/bg/naredba/2006/dv-4-06-4"/>
+          <FRBRdate date="2006-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-4-06-4/bul@2006-01-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-4-06-4/bul@2006-01-13"/>
+          <FRBRdate date="2006-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-4-06-4/bul@2006-01-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-4-06-4/bul@2006-01-13.xml"/>
+          <FRBRdate date="2006-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-13" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправки в Постановление № 278 от 2005 г. на Министерския съвет за изменение и допълнение на Наредбата за условията и реда за издаване на комплексни разрешителни за изграждането и експлоатацията на нови и експлоатацията на действащи промишлени инсталации и съоръжения (ДВ, бр. 105 от 2005 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерски съвет           брой: 4, от дата 13.1.2006 г.   Официален раздел / МИНИСТЕРСТВА И ДРУГИ ВЕДОМСТВА    стр.61</p>
+          <p>Поправки в Постановление № 278 от 2005 г. на Министерския съвет за изменение и допълнение на Наредбата за условията и реда за издаване на комплексни разрешителни за изграждането и експлоатацията на нови и експлоатацията на действащи промишлени инсталации и съоръжения (ДВ, бр. 105 от 2005 г.)</p>
+          <p>Поправка.    Министерският съвет прави поправки в Постановление № 278 от 2005 г. за изменение и допълнение на Наредбата за условията и реда за издаване на комплексни разрешителни за изграждането и експлоатацията на нови и експлоатацията на действащи промишлени инсталации и съоръжения (ДВ, бр. 105 от 2005 г.):</p>
+          <p>1. в § 9, т. 3, буква “б” думите “чл. 23, ал. 3 ЗООС” да се четат “чл. 123, ал. 4 ЗООС”;</p>
+          <p>2. в § 13 (чл. 18, ал. 1, т. 1) думите “по т. 2” да се четат “по ал. 2”.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

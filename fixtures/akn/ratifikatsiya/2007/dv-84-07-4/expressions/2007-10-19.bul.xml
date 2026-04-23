@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-84-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-84-07-4"/>
+          <FRBRalias value="Закон за ратифициране на Меморандума за разбирателство между Организацията на обединените нации и правителството на Република България за предоставяне на ресурси на Временните сили на ООН в Ливан (ЮНИФИЛ) и на Споразумението за общите условия за дългосрочно предоставяне на военноморски услуги, ангажиращи държавни материални активи" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Меморандума за разбирателство между Организацията на обединените нации и правителството на Република България за предоставяне на ресурси на Временните сили на ООН в Ливан (ЮНИФИЛ) и на Споразумението за общите условия за дългосрочно предоставяне на военноморски услуги, ангажиращи държавни материални активи" name="eli" other="/eli/bg/ratifikatsiya/2007/dv-84-07-4"/>
+          <FRBRdate date="2007-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-84-07-4/bul@2007-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-84-07-4/bul@2007-10-19"/>
+          <FRBRdate date="2007-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-84-07-4/bul@2007-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-84-07-4/bul@2007-10-19.xml"/>
+          <FRBRdate date="2007-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-19" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Меморандума за разбирателство между Организацията на обединените нации и правителството на Република България за предоставяне на ресурси на Временните сили на ООН в Ливан (ЮНИФИЛ) и на Споразумението за общите условия за дългосрочно предоставяне на военноморски услуги, ангажиращи държавни материални активи</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Меморандума за разбирателство между Организацията на обединените нации и правителството на Република България за предоставяне на ресурси на Временните сили на ООН в Ливан (ЮНИФИЛ), подписан на 14 август 2007 г. в Ню Йорк.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Споразумението за общите условия за дългосрочно предоставяне на военноморски услуги, ангажиращи държавни материални активи, подписано на 17 август 2007 г. в Ню Йорк.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

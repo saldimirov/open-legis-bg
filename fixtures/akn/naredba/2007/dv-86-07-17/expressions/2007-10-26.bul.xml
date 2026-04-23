@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-17"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2007 г. за реда и начина за определяне на индивидуалните месечни работни заплати на персонала в средното образование" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 1 от 2007 г. за реда и начина за определяне на индивидуалните месечни работни заплати на персонала в средното образование" name="eli" other="/eli/bg/naredba/2007/dv-86-07-17"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-17/bul@2007-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-17/bul@2007-10-26"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-17/bul@2007-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-17/bul@2007-10-26.xml"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-26" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 1 от 2007 г. за реда и начина за определяне на индивидуалните месечни работни заплати на персонала в средното образование</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6 ал. 1 се изменя така:</p>
+            <p>“(1) Когато по силата на нормативен акт на Министерския съвет, колективен трудов договор или вътрешен акт на работодателя от определена дата са увеличени работните заплати, но работникът или служителят към тази дата или след нея е бил в платен отпуск, поради което увеличението не се е отразило в базата, от която се изчислява възнаграждението за платен отпуск по реда на чл. 177 от Кодекса на труда, към възнаграждението за отпуска се заплаща добавка, изчислена с процента на увеличение на новото и предишното брутно трудово възнаграждение, определени по трудовото правоотношение.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 юли 2007 г.</p>
+            <p>Министър:  Д. Вълчев</p>
+            <p>55676</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-42-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-42-05-6"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Националния център по опазване на общественото здраве" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Националния център по опазване на общественото здраве" name="eli" other="/eli/bg/pravilnik/2005/dv-42-05-6"/>
+          <FRBRdate date="2005-05-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-42-05-6/bul@2005-05-17/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-42-05-6/bul@2005-05-17"/>
+          <FRBRdate date="2005-05-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-42-05-6/bul@2005-05-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-42-05-6/bul@2005-05-17.xml"/>
+          <FRBRdate date="2005-05-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-17" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на Националния център по опазване на общественото здраве</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 ал. 1 се изменя така:</p>
+            <p>“(1) Ръководството на центъра се осъществява от директор, който е хабилитирано лице по едно от направленията на дейността на центъра.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 9а:</p>
+            <p>“Чл. 9а (1) Дейността на директора на центъра се подпомага от назначени от него замест&amp;shy;ник-директори.</p>
+            <p>(2) При отсъствие на директора функциите му се изпълняват от определен с негова заповед за всеки конкретен случай заместник-директор.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 10 ал. 1 се изменя така:</p>
+            <p>“(1) В центъра като съвещателен орган функционира директорски съвет, който се състои от директора, заместник-директорите, главния счетоводител и юрисконсулта. При необходимост в зависимост от разглежданите въпроси в заседанията на директорския съвет могат да вземат участие и ръководители на отделните структурни звена.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 11, т. 2 след думата “договор” се добавя “в случаите, предвидени в Кодекса на труда”.</p>
+            <p>Министър:  Сл. Богоев</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

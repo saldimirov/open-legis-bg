@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-13/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-13"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 28 от 2003 г. за профилактичните прегледи и диспансеризацията" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 28 от 2003 г. за профилактичните прегледи и диспансеризацията" name="eli" other="/eli/bg/naredba/2004/dv-16-04-13"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-13/bul@2004-02-27/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-13/bul@2004-02-27"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-13/bul@2004-02-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-13/bul@2004-02-27.xml"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-27" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 28 от 2003 г. за профилактичните прегледи и диспансеризацията</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 числото “20” се заменя с “10”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Навсякъде в текста думата “копие” се заменя с “екземпляр”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 3 се изменя така:</p>
+            <p>“§ 3. Наредбата влиза в сила от 31.III.2004 г.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Навсякъде в приложение № 1 изразът “преглед на зъбите, зъбните редици и устната кухина” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Приложение № 6 към чл. 11, ал. 5 се изменя така:</p>
+            <p>“Приложение № 6</p>
+            <p>към чл. 11, ал. 5</p>
+            <p>Списък на заболявания при децата, за които Националната здравноосигурителна каса заплаща дейностите по диспансеризация</p>
+            <p>Забележка на редакцията:    виж таблицата в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_6" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Приложение № 7 към чл. 11, ал. 6 се изменя:</p>
+            <p>“Приложение № 7</p>
+            <p>към чл. 11, ал. 6</p>
+            <p>Забележка на редакцията:    виж таблицата в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>Наредбата влиза в сила от 30.I.2004 г.</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>7155</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

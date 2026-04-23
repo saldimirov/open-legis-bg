@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-25"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 2005 г. за прилагането на международен номер на банкова сметка и за банковите кодове" name="short"/>
+          <FRBRalias value="Наредба за изменение и допълнение на Наредба № 13 от 2005 г. за прилагането на международен номер на банкова сметка и за банковите кодове" name="eli" other="/eli/bg/naredba/2006/dv-15-06-25"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-25/bul@2006-02-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-25/bul@2006-02-17"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-25/bul@2006-02-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-25/bul@2006-02-17.xml"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-17" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение и допълнение на Наредба № 13 от 2005 г. за прилагането на международен номер на банкова сметка и за банковите кодове</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Алинея 2 в чл. 6 се изменя така:</p>
+            <p>“(2) Банката е длъжна да уведоми писмено или по друг подходящ начин титулярите на съществуващите сметки за съответните IBAN.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В алинея 2 на параграф 2 от преходните и заключителните разпоредби датата “1 юни 2006 г.” се заменя с “5 юни 2006 г.”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тази наредба се издава на основание чл. 40 от Закона за Българската народна банка и чл. 45 от Закона за банките и е приета с Решение № 11 от 02.02.2006 г. на Управителния съвет на БНБ.</p>
+            <p>Управител:  Ив. Искров</p>
+            <p>11933</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

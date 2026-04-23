@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-9-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-9-03-11"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 27 от 1994 г. за съдебните заседатели" name="short"/>
+          <FRBRalias value="Наредба за изменение на Наредба № 27 от 1994 г. за съдебните заседатели" name="eli" other="/eli/bg/naredba/2003/dv-9-03-11"/>
+          <FRBRdate date="2003-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-9-03-11/bul@2003-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-9-03-11/bul@2003-01-31"/>
+          <FRBRdate date="2003-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-9-03-11/bul@2003-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-9-03-11/bul@2003-01-31.xml"/>
+          <FRBRdate date="2003-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за изменение на Наредба № 27 от 1994 г. за съдебните заседатели</p>
+      <p>(обн., ДВ, бр. 105 от  1994 г.; изм., бр. 15 от 1995 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 12 се изменя така:</p>
+            <p>„Чл. 12.(1) Съветът на съдебните заседатели осъществява връзка с административния секретар на съда по организацията на работата на съдебните заседатели за доброто взаимодействие между съдиите и съдебните заседатели.</p>
+            <p>(2) Съдебните заседатели поставят въпросите по ал. 1 на административния секретар - пряко или чрез съвета на съдебните заседатели.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 13 се изменя така:</p>
+            <p>„Чл. 13. Съветът на съдебните заседатели съвместно с административния секретар изработва вътрешни правила за работата на съдебните заседатели, които включват и изискванията за облеклото им съгласно чл. 102, ал. 5 от Закона за съдебната власт, и организира повишаване на квалификацията на съдебните заседатели.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 14 се изменя така:</p>
+            <p>„Чл. 14. Общото събрание на съдебните заседатели приема вътрешните правила по чл. 13.&amp;quot;</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата се издава на основание чл. 102, ал. 5 от Закона за съдебната власт и е съгласувана с Висшия съдебен съвет.</p>
+            <p>Министър:    А. Станков</p>
+            <p>6240</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
