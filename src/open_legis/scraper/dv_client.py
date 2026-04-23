@@ -96,20 +96,14 @@ def _parse_materials(html: str, idObj: int) -> list[DvMaterial]:
     if sec_m:
         section = sec_m.group(1).strip()
 
-    # Each row: idMat=XXXX ... стр. N ... title text
-    row_pattern = re.compile(
-        r'idMat=(\d+)[^>]*>.*?стр\.\s*(\d+)',
-        re.DOTALL,
-    )
-    # Also grab title from showMaterialDV link anchor text
-    title_pattern = re.compile(
-        r'showMaterialDV\.jsp[^?]*\?idMat=(\d+)[^>]*>.*?<[^/]',
-        re.DOTALL,
-    )
+    # Match every idMat in document order — no стр. requirement so materials
+    # without a page-number marker in the HTML are not skipped and do not
+    # cause sequential-position drift between HTTP and local-file scraping.
+    mat_pattern = re.compile(r'idMat=(\d+)')
 
     seen: set[int] = set()
     seq = 0
-    for m in row_pattern.finditer(html):
+    for m in mat_pattern.finditer(html):
         idMat = int(m.group(1))
         if idMat in seen:
             continue
