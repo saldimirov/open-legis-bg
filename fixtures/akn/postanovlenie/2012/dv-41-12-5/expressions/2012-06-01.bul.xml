@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-5/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-5"/>
+          <FRBRalias value="Постановление № 97 ОТ 28 МАЙ 2012 Г. за приемане на Правилник за устройството и" name="short"/>
+          <FRBRalias value="Постановление № 97 ОТ 28 МАЙ 2012 Г. за приемане на Правилник за устройството и" name="eli" other="/eli/bg/postanovlenie/2012/dv-41-12-5"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-5/bul@2012-06-01/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-5/bul@2012-06-01"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-5/bul@2012-06-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-5/bul@2012-06-01.xml"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-01" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 97 ОТ 28 МАЙ 2012 Г. за приемане на Правилник за устройството и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 97 ОТ 28 МАЙ 2012 Г. за приемане на Правилник за устройството и дейността на Консултативния съвет за подпома- гане на Министерския съвет при формиране на държавната политика в областта на защитата при бедствия МИНИСТЕРСКИЯТ СЪВЕТ П О С ТА Н О В И : Член единствен. Приема Правилник за устройството и дейността на Консултативния съвет за подпомагане на Министерския съвет при формиране на държавната политика в об- ластта на защитата при бедствия. Заключителна разпоредба Параграф единствен. Постановлението влиза в сила от деня на обнародването му в „Дър- жавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

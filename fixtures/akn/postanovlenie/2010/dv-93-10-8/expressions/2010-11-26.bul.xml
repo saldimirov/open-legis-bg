@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-8"/>
+          <FRBRalias value="Постановление № 272 ОТ 19 НОЕМВРИ 2010 Г. за закриване на задгранични представител­" name="short"/>
+          <FRBRalias value="Постановление № 272 ОТ 19 НОЕМВРИ 2010 Г. за закриване на задгранични представител­" name="eli" other="/eli/bg/postanovlenie/2010/dv-93-10-8"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-8/bul@2010-11-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-8/bul@2010-11-26"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-8/bul@2010-11-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-8/bul@2010-11-26.xml"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-26" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 272 ОТ 19 НОЕМВРИ 2010 Г. за закриване на задгранични представител­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Закриват се дипломатическите представителства на Република България в Тунис – Тунизийската република, Хартум – Ре­ публика Судан, Хараре – Република Зимбабве, Луанда – Република Ангола, Мексико – Мекси­ кански съединени щати, Бангкок – Кралство Тайланд, и Пном Пен – Кралство Камбоджа.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Закрива се Генералното консулство на Република България в Хонг Конг – Китайската народна република.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на външните работи да предприеме необходимите действия за уреждане на въпросите с недвижимите имоти и движи­ мото имущество, както и другите задължения, произтичащи от закриването на представител­ ствата по чл. 1. Заключителна разпоредба Параграф единствен. Изпълнението на постановлението се възлага на министъра на външните работи.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

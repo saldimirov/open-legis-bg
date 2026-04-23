@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-70-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-70-11-4"/>
+          <FRBRalias value="Постановление № 248 ОТ 30 АВГУСТ 2011 Г. за приемане на Наредба за определяне на" name="short"/>
+          <FRBRalias value="Постановление № 248 ОТ 30 АВГУСТ 2011 Г. за приемане на Наредба за определяне на" name="eli" other="/eli/bg/postanovlenie/2011/dv-70-11-4"/>
+          <FRBRdate date="2011-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-70-11-4/bul@2011-09-09/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-70-11-4/bul@2011-09-09"/>
+          <FRBRdate date="2011-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-70-11-4/bul@2011-09-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-70-11-4/bul@2011-09-09.xml"/>
+          <FRBRdate date="2011-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-09" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 248 ОТ 30 АВГУСТ 2011 Г. за приемане на Наредба за определяне на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Наредба за определяне на правила за образуване и прилагане на цената на универсалната пощенска услуга.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Приема Методика за определяне достъпността на цената на универсалната пощенска услуга. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Наредбата за определяне на правила за образуване и прилагане на це­ ните на услугите, включени в универсалната пощенска услуга, приета с Постановление № 158 на Министерския съвет от 2004 г. (ДВ, бр. 62 от 2004 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Методиката за определяне достъпността на цената на универсалната пощенска услуга, приета с Постановление № 158 на Министерския съвет от 2004 г. (ДВ, бр. 62 от 2004 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

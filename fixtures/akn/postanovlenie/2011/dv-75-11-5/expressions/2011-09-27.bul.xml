@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-75-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-75-11-5"/>
+          <FRBRalias value="Постановление № 264 ОТ 19 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Тарифата за" name="short"/>
+          <FRBRalias value="Постановление № 264 ОТ 19 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Тарифата за" name="eli" other="/eli/bg/postanovlenie/2011/dv-75-11-5"/>
+          <FRBRdate date="2011-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-75-11-5/bul@2011-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-75-11-5/bul@2011-09-27"/>
+          <FRBRdate date="2011-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-75-11-5/bul@2011-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-75-11-5/bul@2011-09-27.xml"/>
+          <FRBRdate date="2011-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-27" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 264 ОТ 19 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Тарифата за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 в таблицата се създава т. 13: „ 13. Интегрирана мобилна спътникова система 5000 “</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 се създава ал. 4: „</p>
+            <p>(4) За осъществяване на електронни съоб­ щения чрез интегрирана мобилна спътникова система годишната такса по ал. 1 се определя като процент от годишните брутни приходи от дейността на територията на Република България при условията на ал. 2 и 3.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7 се правят следните изменения и допълнения: 1. Създава се нова ал. 7: БРОЙ 75 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 „</p>
+            <p>(7) Годишната такса за ползване на инди­ видуално определен ограничен ресурс – ра­ диочестотен спектър, за осъществяване на електронни съобщения чрез интегрирана мобилна спътникова система за 2х15 MHz в обхват 2 GHz е 500 000 лв.“ 2. Досегашната ал. 7 става ал. 8. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

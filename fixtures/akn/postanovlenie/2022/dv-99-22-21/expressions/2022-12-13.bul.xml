@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-21/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-21"/>
+          <FRBRalias value="Постановление № 416 ОТ 8 ДЕКЕМВРИ 2022 Г. за определяне на структури от другите сили от системата за национална сигурност на" name="short"/>
+          <FRBRalias value="Постановление № 416 ОТ 8 ДЕКЕМВРИ 2022 Г. за определяне на структури от другите сили от системата за национална сигурност на" name="eli" other="/eli/bg/postanovlenie/2022/dv-99-22-21"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-21/bul@2022-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-21/bul@2022-12-13"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-21/bul@2022-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-21/bul@2022-12-13.xml"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-12-13" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 416 ОТ 8 ДЕКЕМВРИ 2022 Г. за определяне на структури от другите сили от системата за национална сигурност на</p>
+      <p>(обн., ДВ, бр. 83 от 2006 г.; изм., бр. 24 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 54 на Министерския съвет от 2013 г. за определяне на структури от другите сили от системата за национална сигурност на Република Бъл- гария и тяхната численост за включване във въоръжените сили във военно време (ДВ, бр. 24 от 2013 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Постановление № 271 на Министерския съвет от 2006 г. за определяне на резерва на въоръжените сили на Република България, предназначен за комплектуване на Министерството на вътрешните работи (обн., ДВ, бр. 83 от 2006 г.; изм., бр. 24 от 2013 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на ос- нование чл. 17, т. 5 и чл. 19 от Закона за резерва на въоръжените сили на Република България.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на отбраната.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

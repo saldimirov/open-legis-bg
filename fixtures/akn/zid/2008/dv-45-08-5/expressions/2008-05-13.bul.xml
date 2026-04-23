@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-5"/>
+          <FRBRalias value="Поправка в Постановление № 74 от 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет (ДВ, бр. 40 от 2008 г.)" name="short"/>
+          <FRBRalias value="Поправка в Постановление № 74 от 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет (ДВ, бр. 40 от 2008 г.)" name="eli" other="/eli/bg/zid/2008/dv-45-08-5"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-5/bul@2008-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-5/bul@2008-05-13"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-45-08-5/bul@2008-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-45-08-5/bul@2008-05-13.xml"/>
+          <FRBRdate date="2008-05-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-13" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Поправка в Постановление № 74 от 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет (ДВ, бр. 40 от 2008 г.)</p>
+      <p>(обн., ДВ, бр. 61 от 2007 г.; изм. и доп., бр. 78, 80, 100, 101, 104, 108 и 110 от 2007 г. и бр. 10, 14, 17, 24, 32, 33 и 34 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 2.</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

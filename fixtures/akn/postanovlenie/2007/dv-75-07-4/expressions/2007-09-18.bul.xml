@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-4"/>
+          <FRBRalias value="Постановление № 206 от 5 септември 2007 г. за изменение на Устройствения правилник на Министерството на външните работи, приет с Постановление № 34 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 206 от 5 септември 2007 г. за изменение на Устройствения правилник на Министерството на външните работи, приет с Постановление № 34 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-75-07-4"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-4/bul@2007-09-18/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-4/bul@2007-09-18"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-4/bul@2007-09-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-4/bul@2007-09-18.xml"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-09-18" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 206 от 5 септември 2007 г. за изменение на Устройствения правилник на Министерството на външните работи, приет с Постановление № 34 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 19 от 2006 г.; изм. и доп., бр. 48 и 71 от 2006 г. и бр. 35 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 14, ал. 1 числото “23” се заменя с “24”, а думите “звено за вътрешен одит” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В глава четвърта наименованието на раздел IIIа се изменя така: “Дирекция “Вътрешен одит”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде в чл. 17а думите “Звеното за вътрешен одит” и “Звеното по ал. 1” се заменят с “Дирекция “Вътрешен одит”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 1 към чл. 14, ал. 4:</p>
+            <p>1. Ред “Звено за вътрешен одит” 10” се заменя с ред “дирекция “Вътрешен одит” 10”.</p>
+            <p>2. На ред “Специализирана администрация” числото “1179” се заменя с “1189”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

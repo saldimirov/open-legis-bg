@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-8/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-8"/>
+          <FRBRalias value="Закон за ратифициране Изменението на Меморан­" name="short"/>
+          <FRBRalias value="Закон за ратифициране Изменението на Меморан­" name="eli" other="/eli/bg/ratifikatsiya/2012/dv-42-12-8"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-8/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-8/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-8/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-8/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране Изменението на Меморан­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>дума за разбирателство относно бъдещето на Здравната мрежа на страните от Югоизточна Европа в рамките на Процеса за сътрудни­ чество в Югоизточна Европа Член единствен. Ратифицира Изменението на Меморандума за разбирателство относно бъдещето на Здравната мрежа на страните от Югоизточна Европа в рамките на Процеса за сътрудничество в Югоизточна Европа, под­ писано на 12 октомври 2011 г. в Баня Лука, Босна и Херцеговина.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

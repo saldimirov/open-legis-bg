@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-4"/>
+          <FRBRalias value="Постановление № 279 ОТ 26 НОЕМВРИ 2009 Г. за предоставяне на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 279 ОТ 26 НОЕМВРИ 2009 Г. за предоставяне на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2009/dv-96-09-4"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-4/bul@2009-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-4/bul@2009-12-04"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-4/bul@2009-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-4/bul@2009-12-04.xml"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-04" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 279 ОТ 26 НОЕМВРИ 2009 Г. за предоставяне на допълнителни бюджетни</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да предос- тави бюджетни кредити от централния бюджет за 2009 г. в размер 1 707 480 лв. по бюджета на община Кюстендил за 2009 г. за аварийно-въз- становителни работи съгласно приложението.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Бюджетните кредити по чл. 1 да се осигурят за сметка на резерва за непредвидени и неотложни разходи по чл. 1, ал. 2, т. 4.2 от Закона за държавния бюджет на Република България за 2009 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извър- ши налагащите се промени на бюджетните взаимоотношения на община Кюстендил и централния бюджет за 2009 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 11, ал. 4 и чл. 35, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Контролът по изпълнението на дей- ностите се възлага на областния управител на област Кюстендил.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

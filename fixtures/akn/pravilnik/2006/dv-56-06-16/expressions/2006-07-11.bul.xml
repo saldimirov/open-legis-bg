@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-16"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части­ - Русе" name="short"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части­ - Русе" name="eli" other="/eli/bg/pravilnik/2006/dv-56-06-16"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-16/bul@2006-07-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-16/bul@2006-07-11"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-16/bul@2006-07-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-16/bul@2006-07-11.xml"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-07-11" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части­ - Русе</p>
+      <p>(обн., ДВ, бр. 86 от 2000 г.; изм. и доп., бр. 4 от 2002 г.; изм., бр. 88 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8, ал. 4 числото “26” се заменя с “23”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части - Русе, влиза в сила от датата на влизането в сила на Устройствения правилник на Министерството на земеделието и горите.</p>
+            <p>За министър:  Д. Пейчев</p>
+            <p>48183</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

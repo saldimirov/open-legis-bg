@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-85-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-85-07-5"/>
+          <FRBRalias value="Постановление № 247 от 15 октомври 2007 г. за допълнение на Постановление № 47 на Министерския съвет от 2007 г. за осигуряване на средства от централния бюджет за 2007 г. за поемане на разходи, свързани със защитата, престоя и медицинското обслужване на подсъдимите български граждани и палестинския гражданин по делото в Либия" name="short"/>
+          <FRBRalias value="Постановление № 247 от 15 октомври 2007 г. за допълнение на Постановление № 47 на Министерския съвет от 2007 г. за осигуряване на средства от централния бюджет за 2007 г. за поемане на разходи, свързани със защитата, престоя и медицинското обслужване на подсъдимите български граждани и палестинския гражданин по делото в Либия" name="eli" other="/eli/bg/postanovlenie/2007/dv-85-07-5"/>
+          <FRBRdate date="2007-10-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-85-07-5/bul@2007-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-85-07-5/bul@2007-10-23"/>
+          <FRBRdate date="2007-10-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-85-07-5/bul@2007-10-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-85-07-5/bul@2007-10-23.xml"/>
+          <FRBRdate date="2007-10-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-23" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 247 от 15 октомври 2007 г. за допълнение на Постановление № 47 на Министерския съвет от 2007 г. за осигуряване на средства от централния бюджет за 2007 г. за поемане на разходи, свързани със защитата, престоя и медицинското обслужване на подсъдимите български граждани и палестинския гражданин по делото в Либия</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на постановлението накрая се поставя запетая и се добавя:</p>
+            <p>“и за участие във форуми за разясняване на източниците на заразата с вируса на СПИН и разглеждане на научните доказателства около заразата със СПИН в Бенгази”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 2 се създава т. 3:</p>
+            <p>“3. покриване на разходите на част от участниците във форума за журналисти, който ще се проведе през ноември 2007 г. в Генуа, Италия, с цел представяне пред широката общественост на научните доказателства около заразата със СПИН в Бенгази.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

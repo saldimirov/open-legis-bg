@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-5"/>
+          <FRBRalias value="Постановление № 261 от 29 октомври 2007 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми по бюджета за 2007 г. на Министерството на транспорта" name="short"/>
+          <FRBRalias value="Постановление № 261 от 29 октомври 2007 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми по бюджета за 2007 г. на Министерството на транспорта" name="eli" other="/eli/bg/postanovlenie/2007/dv-89-07-5"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-5/bul@2007-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-5/bul@2007-11-06"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-89-07-5/bul@2007-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-89-07-5/bul@2007-11-06.xml"/>
+          <FRBRdate date="2007-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-11-06" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 261 от 29 октомври 2007 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми по бюджета за 2007 г. на Министерството на транспорта</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите на основание чл. 34, ал. 1 от Закона за устройството на държавния бюджет да предостави бюджетни кредити в размер 17 000 хил. лв. по бюджета на Министерството на финансите за финансиране на обекти на Фонд “Републиканска пътна инфраструктура”.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <intro>
+          <p>Средствата по чл. 1 се осигуряват за сметка на бюджетните кредити по бюджета за 2007 г. на Министерството на транспорта, както следва:</p>
+        </intro>
+        <point eId="art_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>по проект “Реконструкция и електрификация на жп линията Пловдив - Свиленград” - 15 305 915 лв.;</p>
+          </content>
+        </point>
+        <point eId="art_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>по проект “Изграждане на нов комбиниран (пътен и железопътен) мост на р. Дунав при Видин - Калафат” - 1 694 085 лв.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по предложение на министъра на транспорта да извърши налагащите се промени по съответните бюджети.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет и § 23, ал. 2 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2007 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на транспорта.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 25 октомври 2007 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

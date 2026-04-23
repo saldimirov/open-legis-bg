@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-4/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-4"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Фонда за компенсиране на инвеститорите в ценни книжа" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Фонда за компенсиране на инвеститорите в ценни книжа" name="eli" other="/eli/bg/pravilnik/2005/dv-97-05-4"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-4/bul@2005-12-02/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-4/bul@2005-12-02"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-97-05-4/bul@2005-12-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-97-05-4/bul@2005-12-02.xml"/>
+          <FRBRdate date="2005-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-12-02" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на Фонда за компенсиране на инвеститорите в ценни книжа</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нов § 4 със следното съдържание:</p>
+            <p>“§ 4. Фондът може да използва за покриване на административните си разходи за 2005 и 2006 г. средствата, получени от набраните във фонда вноски.”</p>
+            <p>2. Досегашният § 4 става § 5.</p>
+            <p>Председател:  А. Апостолов</p>
+            <p>117023</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

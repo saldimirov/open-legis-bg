@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-3"/>
+          <FRBRalias value="Постановление № 379 ОТ 28 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 379 ОТ 28 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2017/dv-2-17-3"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-3/bul@2017-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-3/bul@2017-01-06"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-3/bul@2017-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-3/bul@2017-01-06.xml"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 379 ОТ 28 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерството на регионалното развитие и благоустройството за 2016 г., както следва: 1. намалява утвърдените разходи по „По- литика в областта на подобряване на инвес- тиционния процес чрез усъвършенстване на информационните системи на кадастъра и имотния регистър, подобряване качеството на превантивния и текущия контрол в строи- телството“ по бюджетна програма „Геодезия, картография и кадастър“ с 850 000 лв.; 2. увеличава утвърдените разходи по „Политика за поддържане, модернизация и изграждане на техническата инфраструктура, свързана с подобряване на транспортната достъпност и интегрираното управление на водните ресурси и геозащита“ по бюджетна програма „Рехабилитация и изграждане на пътна инфраструктура“ с 850 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на регионалното раз- витие и благоустройството да извърши съответните промени по бюджета на Ми- нистерството на регионалното развитие и благоустройството за 2016 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на регионалното развитие и благоустройството.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 28 декември 2016 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

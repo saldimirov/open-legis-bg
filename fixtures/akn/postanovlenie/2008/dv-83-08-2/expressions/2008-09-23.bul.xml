@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-83-08-2/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-83-08-2"/>
+          <FRBRalias value="Постановление № 227 от 15 септември 2008 г. за изменение и допълнение на Наредбата за възлагане на специални обществени поръчки, приета с Постановление № 233 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 227 от 15 септември 2008 г. за изменение и допълнение на Наредбата за възлагане на специални обществени поръчки, приета с Постановление № 233 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-83-08-2"/>
+          <FRBRdate date="2008-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-83-08-2/bul@2008-09-23/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-83-08-2/bul@2008-09-23"/>
+          <FRBRdate date="2008-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-83-08-2/bul@2008-09-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-83-08-2/bul@2008-09-23.xml"/>
+          <FRBRdate date="2008-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-09-23" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 227 от 15 септември 2008 г. за изменение и допълнение на Наредбата за възлагане на специални обществени поръчки, приета с Постановление № 233 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 80 от 2004 г.; изм. и доп., бр. 78 от 2005 г. и бр. 7 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава нов § 6:</p>
+            <p>“§ 6. Глава трета от наредбата не се прилага относно доставките, услугите и строителството, свързани с обезпечаване функциите на субектите по чл. 7 ЗОП относно българските документи за самоличност, за пребиваване и за управление на МПС.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Досегашният § 6 става § 7.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

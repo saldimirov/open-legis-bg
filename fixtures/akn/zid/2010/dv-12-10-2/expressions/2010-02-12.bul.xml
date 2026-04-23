@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за здравословни и" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за здравословни и" name="eli" other="/eli/bg/zid/2010/dv-12-10-2"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-2/bul@2010-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-2/bul@2010-02-12"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-2/bul@2010-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-2/bul@2010-02-12.xml"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-12" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за здравословни и</p>
+      <p>(обн., ДВ, бр. 124 от 1997 г.; изм., бр. 86 от 1999 г., бр. 64 и 92 от 2000 г., бр. 25 и 111 от 2001 г., бр. 18 и 114 от 2003 г., бр. 70 от 2004 г., бр. 76 от 2005 г., бр. 33, 48, 102 и 105 от 2006 г., бр. 40 от 2007 г., бр. 102 и 108 от 2008 г. и бр. 93 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 15, ал. 1 след думите „Лицата по чл. 14, ал. 1“ се добавя „с изключение на тези, които за своя сметка работят сами“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В преходните и заключителните разпо­ редби се създава § 4б: „§ 4б. Декларацията по чл. 15 за 2009 г. се подава до 30 юни 2010 г. включително.“ СТР. 2 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 12</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

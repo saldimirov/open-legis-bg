@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-2/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-2"/>
+          <FRBRalias value="Постановление № 277 ОТ 26 НОЕМВРИ 2009 Г. за отменяне на Постановление № 197 на Ми-" name="short"/>
+          <FRBRalias value="Постановление № 277 ОТ 26 НОЕМВРИ 2009 Г. за отменяне на Постановление № 197 на Ми-" name="eli" other="/eli/bg/postanovlenie/2009/dv-96-09-2"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-2/bul@2009-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-2/bul@2009-12-04"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-2/bul@2009-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-2/bul@2009-12-04.xml"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-04" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 277 ОТ 26 НОЕМВРИ 2009 Г. за отменяне на Постановление № 197 на Ми-</p>
+      <p>(обн., ДВ, бр. 71 от 2008 г.; изм. и доп., бр. 86 от 2008 г. и бр. 11 и 18 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 197 на Министерския съвет от 2008 г. за материално стимулиране на служителите, изпълняващи функции по усвояване на средства по струк- турните фондове и предприсъединителните програми на Европейския съюз. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 7 от Постановление № 46 на Министерския съвет от 2009 г. за заплатите в бюджетните организации и дейности (обн., ДВ, бр. 18 от 2009 г.; изм. и доп., бр. 36, 64, 81, 85, 89 и 90 от 2009 г.) се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 7.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Необходимите средства за до- пълнителни възнаграждения на служителите от звената по пореден № 3, т. 1 и 4, поредни № 4 и 5, пореден № 6, т. 1 и 2 и поредни № 7, 10, 14 – 17 от приложение № 8 към чл. 6, ал. 3 се финансират по линия на техническа помощ по оперативните програми.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Необходимите средства за допълнителни възнаграждения на служителите от звената по пореден № 2, пореден № 3, т. 2 и 3, по- реден № 4, т. 4, пореден № 6, т. 3 и поредни № 9, 11 – 13 и 18 от приложение № 8 към чл. 6, ал. 3 и на служителите в звената по оперативните програми по цел „Европейско териториално сътрудничество“ се финансират от републиканския бюджет.“</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В пореден № 4, колона 2 от приложение № 8 към чл. 6, ал. 3 се създава т. 4: „4. Дирекция „Европейски и международни поректи“.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 де- кември 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

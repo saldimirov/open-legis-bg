@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-86-05-3/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-86-05-3"/>
+          <FRBRalias value="Постановление № 224 от 24 октомври 2005 г. за изменение и допълнение на Устройствения правилник на Държавна агенция “Гражданска защита”, приет с Постановление № 101 на Министерския съвет от 2005 г." name="short"/>
+          <FRBRalias value="Постановление № 224 от 24 октомври 2005 г. за изменение и допълнение на Устройствения правилник на Държавна агенция “Гражданска защита”, приет с Постановление № 101 на Министерския съвет от 2005 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-86-05-3"/>
+          <FRBRdate date="2005-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-86-05-3/bul@2005-10-28/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-86-05-3/bul@2005-10-28"/>
+          <FRBRdate date="2005-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-86-05-3/bul@2005-10-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-86-05-3/bul@2005-10-28.xml"/>
+          <FRBRdate date="2005-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-28" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 224 от 24 октомври 2005 г. за изменение и допълнение на Устройствения правилник на Държавна агенция “Гражданска защита”, приет с Постановление № 101 на Министерския съвет от 2005 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 22 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 22а:</p>
+            <p>“Чл. 22а. Дирекция “Превантивна дейност и контрол”:</p>
+            <p>1. организира, планира и осъществява превантивна дейност;</p>
+            <p>2. събира информация за възникналите в страната бедствия, аварии и катастрофи и организира нейното обработване и своевременно предоставяне на държавните органи;</p>
+            <p>3. подпомага дейността на  м инистерството на държавната политика при бедствия и аварии и на Националния кризисен щаб;</p>
+            <p>4. подпомага  м инистерството на държавната политика при бедствия и аварии при осъществяване на контролната му дейност.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложението към чл. 7, ал. 2 се правят следните изменения и допълнения:</p>
+            <p>1. На ред “Обща администрация” числото “238” се заменя с “235”.</p>
+            <p>2. На ред “дирекция “Управление при кризи и отбранително-мобилизационна подготовка” числото “67” се заменя с “66”.</p>
+            <p>3. На ред “дирекция “Административно и правно обслужване” числото “20” се заменя</p>
+            <p>с “18”.</p>
+            <p>4. На ред “Специализирана администрация” числото “1060” се заменя с “1063”.</p>
+            <p>5. Ред “дирекция “Възстановяване и подпомагане при кризи” 10” се заличава.</p>
+            <p>6. Пред ред “дирекция “Гражданска защита” - област Благоевград” се създава нов ред:</p>
+            <p>“дирекция “Превантивна дейност</p>
+            <p>и контрол”                                                                    13”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

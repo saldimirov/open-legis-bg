@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-86-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-86-06-8"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника на Фонд “Научни изследвания”" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника на Фонд “Научни изследвания”" name="eli" other="/eli/bg/pravilnik/2006/dv-86-06-8"/>
+          <FRBRdate date="2006-10-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-86-06-8/bul@2006-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-86-06-8/bul@2006-10-24"/>
+          <FRBRdate date="2006-10-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-86-06-8/bul@2006-10-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-86-06-8/bul@2006-10-24.xml"/>
+          <FRBRdate date="2006-10-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-24" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника на Фонд “Научни изследвания”</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 8 се изменя така:</p>
+            <p>“Чл. 8. (1) Изпълнителният съвет се състои от 9 членове и включва представители на научната общност, държавата и бизнеса.</p>
+            <p>(2) Представители на научната общност са хабилитирани лица от висши училища, Българската академия на науките и Националния център за аграрни науки, които са утвърдени в съответната научна област.</p>
+            <p>(3) Представители на държавата са лица, определени от министъра на образованието и науката и министъра на финансите.</p>
+            <p>(4) Не могат да бъдат членове на изпълнителния съвет:</p>
+            <p>1. ректорите и деканите на факултети във висшите училища;</p>
+            <p>2. председателят и членовете на Управителния съвет на Българската академия на науките;</p>
+            <p>3. председателят и членовете на Управителния съвет на Националния център за аграрни науки;</p>
+            <p>4. директорите на научни институти;</p>
+            <p>5. лица над възрастта по чл. 328, ал. 1, т. 10 от Кодекса на труда.</p>
+            <p>(5) Съставът на изпълнителния съвет се определя от министъра на образованието и науката след консултиране със съответните органи и организации при балансирано представителство на научните направления.</p>
+            <p>(6) Членовете на изпълнителния съвет се назначават за срок от две години с право на не повече от два последователни мандата.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 10 се изменя така:</p>
+            <p>“Чл. 10. (1) Управителят на фонда се определя за срок от две години от министъра на образованието и науката.</p>
+            <p>(2) Министърът на образованието и науката съгласувано с изпълнителния съвет сключва договор за управление с управителя на фонда и определя възнаграждението му.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се нов чл. 15а:</p>
+            <p>“Чл. 15а. Членовете на изпълнителния съвет, с изключение на представителите на държавата, получават възнаграждение, равно на минималната месечна работна заплата за страната. Те имат право на възнаграждение само за месеците, през които са участвали в заседания.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

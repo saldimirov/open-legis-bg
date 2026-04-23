@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-4/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-4"/>
+          <FRBRalias value="Постановление № 275 от 24 ноември 2003 г. за изменение на Постановление № 16 на Министерския съвет от 2003 г. за изпълнението на държавния бюджет на Република България за 2003 г." name="short"/>
+          <FRBRalias value="Постановление № 275 от 24 ноември 2003 г. за изменение на Постановление № 16 на Министерския съвет от 2003 г. за изпълнението на държавния бюджет на Република България за 2003 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-105-03-4"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-4/bul@2003-12-02/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-4/bul@2003-12-02"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-4/bul@2003-12-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-4/bul@2003-12-02.xml"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-02" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 275 от 24 ноември 2003 г. за изменение на Постановление № 16 на Министерския съвет от 2003 г. за изпълнението на държавния бюджет на Република България за 2003 г.</p>
+      <p>(обн., ДВ, бр. 11 от 2003 г.; изм., бр. 63 и 81 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 28, ал. 2  т.2 се изменя така:</p>
+            <p>„2. осигуряване на разходите по прекратяване на договорите за кадрова военна служба на офицерите и сержантите, както и на разходи за обезщетения на наборни военнослужещи от закритите Войски на Министерството на транспорта, които следва да бъдат изплатени през 2003 г.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 5 към чл. 28, ал. 1 „Разпределение на субсидиите, предвидени с чл. 1, ал. 2, т. 1.7 от Закона за държавния бюджет на Република България за 2003 г.&amp;quot; числата „11 500,0&amp;quot;, „3400,0&amp;quot; и „259 243,9&amp;quot; се заменят съответно с „12 160,0&amp;quot;, „4060,0&amp;quot; и „259 903,9&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Средствата за изпълнение на постановлението да се осигурят от икономии на разходите и/или от преизпълнение на приходите по централния бюджет за 2003 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Министърът на финансите да извърши произтичащите от § 2 промени по централния бюджет и другите субсидии и плащания за 2003 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

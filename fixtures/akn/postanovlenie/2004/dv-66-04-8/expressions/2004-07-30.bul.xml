@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-66-04-8/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-66-04-8"/>
+          <FRBRalias value="Постановление № 175 от 19 юли 2004 г. за изменение на Постановление № 84 на Министерския съвет от 2004 г. за осигуряване на средства за структурната реформа в здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 175 от 19 юли 2004 г. за изменение на Постановление № 84 на Министерския съвет от 2004 г. за осигуряване на средства за структурната реформа в здравеопазването" name="eli" other="/eli/bg/postanovlenie/2004/dv-66-04-8"/>
+          <FRBRdate date="2004-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-66-04-8/bul@2004-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-66-04-8/bul@2004-07-30"/>
+          <FRBRdate date="2004-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-66-04-8/bul@2004-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-66-04-8/bul@2004-07-30.xml"/>
+          <FRBRdate date="2004-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-30" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 175 от 19 юли 2004 г. за изменение на Постановление № 84 на Министерския съвет от 2004 г. за осигуряване на средства за структурната реформа в здравеопазването</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 думите “5000 хил. лв.” се заменят с “10 000 хил. лв.”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:</p>
+            <p>Николай Василев</p>
+            <p>За главен секретар на Министерския съвет:</p>
+            <p>Веселин Даков</p>
+            <p>38991</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

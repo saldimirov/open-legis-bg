@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-35-06-7/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-35-06-7"/>
+          <FRBRalias value="Постановление № 89 от 19 април 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на околната среда и водите, приет с Постановление № 214 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 89 от 19 април 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на околната среда и водите, приет с Постановление № 214 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-35-06-7"/>
+          <FRBRdate date="2006-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-35-06-7/bul@2006-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-35-06-7/bul@2006-04-28"/>
+          <FRBRdate date="2006-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-35-06-7/bul@2006-04-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-35-06-7/bul@2006-04-28.xml"/>
+          <FRBRdate date="2006-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-28" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 89 от 19 април 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на околната среда и водите, приет с Постановление № 214 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 100 от 2000 г., бр. 28, 32 и 91 от 2001 г., бр. 64 от 2002 г., бр. 3, 93 и 107 от 2003 г., бр. 31 и 99 от 2004 г., бр. 48, 83 и 90 от 2005 г. и бр. 1 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 24а се правят следните изменения и допълнения:</p>
+            <p>1. Точка 1 се отменя.</p>
+            <p>2. Създават се т. 8 и 9:</p>
+            <p>“8. предварителен контрол на:</p>
+            <p>а) процесите на договаряне и разплащане за гарантиране на съответствие с процедурите и нормативните изисквания на Европейския съюз и Република България;</p>
+            <p>б) качеството на тръжните досиета в процеса на договаряне, който да осигури изпълняемост на съответното задание;</p>
+            <p>в) качеството по отношение на дизайна на техническите задания и техническите спецификации, който трябва да осигури постигане на целите, заложени в съответния финансов меморандум;</p>
+            <p>9. функциите на междинно звено за Оперативна програма “Околна среда”.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

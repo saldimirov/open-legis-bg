@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-8/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-8"/>
+          <FRBRalias value="Постановление № 73 ОТ 13 АПРИЛ 2017 Г. за допълнение на Тарифата за таксите, които" name="short"/>
+          <FRBRalias value="Постановление № 73 ОТ 13 АПРИЛ 2017 Г. за допълнение на Тарифата за таксите, които" name="eli" other="/eli/bg/postanovlenie/2017/dv-32-17-8"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-8/bul@2017-04-21/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-8/bul@2017-04-21"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-8/bul@2017-04-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-8/bul@2017-04-21.xml"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-04-21" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 73 ОТ 13 АПРИЛ 2017 Г. за допълнение на Тарифата за таксите, които</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 16 се създава ал. 3: „</p>
+            <p>(3) За движение на колесни трактори, тракторни ремаркета и друга колесна само- ходна техника за земеделското стопанство, регистрирана за работа съгласно Закона за регистрация и контрол на земеделската и гор- ската техника, за които се издава едногодишно разрешително по чл. 8, ал. 3 от Наредба № 11 от 2001 г., след подаване на заявлението за издаване на разрешително и таксата по ал. 1 и 2, се събират следните годишни такси: № по ред Превишаване на допустимата максимална широчина Лв. 1. от 2,55 м до 3,50 м включително 30 2. над 3,50 м до 4,50 м включително 100 “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Стефан Янев Главен секретар на Министерския съвет: Веселин Даков 2818</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

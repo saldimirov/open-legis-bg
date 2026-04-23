@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-7/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-7"/>
+          <FRBRalias value="Постановление № 4 ОТ 14 ЯНУАРИ 2016 Г. за изменение на Постановление № 36 на Министерския съвет от 2015 г. за финансово подпома-" name="short"/>
+          <FRBRalias value="Постановление № 4 ОТ 14 ЯНУАРИ 2016 Г. за изменение на Постановление № 36 на Министерския съвет от 2015 г. за финансово подпома-" name="eli" other="/eli/bg/postanovlenie/2016/dv-5-16-7"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-7/bul@2016-01-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-7/bul@2016-01-19"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-7/bul@2016-01-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-7/bul@2016-01-19.xml"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-19" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 4 ОТ 14 ЯНУАРИ 2016 Г. за изменение на Постановление № 36 на Министерския съвет от 2015 г. за финансово подпома-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложение № 1 към чл. 2, ал. 1 се изменя така: „Приложение № 1 към чл. 2, ал. 1 Годишен размер на средствата от държавния бюджет за финансово подпомагане на извън­ училищните педагогически учреждения Община с брой ученици в дневна форма на обучение Размер на финансовото подпомагане за едно звено (в лв.) Минимален брой часове препо- давателска работа в годишната програма до 1000 22 700 800 от 1001 до 1500 28 300 1000 от 1501 до 2500 37 800 1340 от 2501 до 3500 75 600 2670 от 3501 до 6000 113 400 4000 от 6001 до 15 000 151 200 5340 от 15 001 до 25 000 302 400 10 670 от 25 001 до 45 000 472 500 16 670 над 45 000 926 100 28 000 Забележка. Размерът на финансовото подпомагане за: Националния дворец на децата е 940 000 лв.; Логопедичен център – София, е 750 000 лв.; Логопедичен център – Варна, е 285 000 лв.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 2 към чл. 2, ал. 1 се изменя така: „Приложение № 2 към чл. 2, ал. 1 Годишен размер на средствата от държавния бюджет за финансово подпомагане на между­ училищните центрове за трудово-политехническо обучение Община с брой ученици в дневна форма на обучение Размер на финансовото подпомагане за едно звено (в лв.) до 4000 28 300 от 4001 до 10 000 47 200 над 10 001 56 500 “</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

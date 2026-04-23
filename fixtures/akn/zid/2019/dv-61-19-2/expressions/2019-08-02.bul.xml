@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-61-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-61-19-2"/>
+          <FRBRalias value="Закон за изменение на Изборния кодекс (обн.," name="short"/>
+          <FRBRalias value="Закон за изменение на Изборния кодекс (обн.," name="eli" other="/eli/bg/zid/2019/dv-61-19-2"/>
+          <FRBRdate date="2019-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-61-19-2/bul@2019-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-61-19-2/bul@2019-08-02"/>
+          <FRBRdate date="2019-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-61-19-2/bul@2019-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-61-19-2/bul@2019-08-02.xml"/>
+          <FRBRdate date="2019-08-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-08-02" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Изборния кодекс (обн.,</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В преходните и заключителните разпо- редби на Закона за изменение и допълнение на Изборния кодекс (ДВ, бр. 21 от 2019 г.) в § 39 се правят следните изменения: 1. В ал. 1 думите „се произвежда в най- малко 6000 избирателни секции“ се заменят с „не се произвежда“. 2. В ал. 3 думите „На всички избори след общите избори за общински съветници и кме- тове през 2019 г. се произвежда само машинно гласуване и“ се заменят със „След общите избори за общински съветници и кметове през 2019 г. машинното гласуване се произвежда само на избори за народни представители, на избори за президент и вицепрезидент на републиката и на избори за членове на Евро- пейския парламент от Република България и на тези избори“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна- родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

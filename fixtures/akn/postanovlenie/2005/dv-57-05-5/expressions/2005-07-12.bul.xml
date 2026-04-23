@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-57-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-57-05-5"/>
+          <FRBRalias value="Постановление № 142 от 4 юли 2005 г. за изменение и допълнение на Наредбата за реда и начина за класифициране, опаковане и етикетиране на химични вещества и препарати, приета с Постановление № 316 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 142 от 4 юли 2005 г. за изменение и допълнение на Наредбата за реда и начина за класифициране, опаковане и етикетиране на химични вещества и препарати, приета с Постановление № 316 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-57-05-5"/>
+          <FRBRdate date="2005-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-57-05-5/bul@2005-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-57-05-5/bul@2005-07-12"/>
+          <FRBRdate date="2005-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-57-05-5/bul@2005-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-57-05-5/bul@2005-07-12.xml"/>
+          <FRBRdate date="2005-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-12" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 142 от 4 юли 2005 г. за изменение и допълнение на Наредбата за реда и начина за класифициране, опаковане и етикетиране на химични вещества и препарати, приета с Постановление № 316 на Министерския съвет от 2002 г.</p>
+      <p>(обн., ДВ, бр. 5 от 2003 г.; изм. и доп., бр. 66 от 2004 г. и бр. 50 от   2005 г  .)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложение № 1 към чл. 2, т. 4 се изменя съгласно приложение № 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 3 към чл. 3, ал. 2 се изменя и допълва съгласно приложение № 2.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила 6 месеца след обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Приложения № 1 и 2 се обнародват като притурка към “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

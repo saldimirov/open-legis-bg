@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-101-18-4/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-101-18-4"/>
+          <FRBRalias value="Закон за ратифициране на Актуализираното общо" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Актуализираното общо" name="eli" other="/eli/bg/ratifikatsiya/2018/dv-101-18-4"/>
+          <FRBRdate date="2018-12-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-101-18-4/bul@2018-12-07/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-101-18-4/bul@2018-12-07"/>
+          <FRBRdate date="2018-12-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-101-18-4/bul@2018-12-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-101-18-4/bul@2018-12-07.xml"/>
+          <FRBRdate date="2018-12-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-12-07" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Актуализираното общо</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>споразумение за създаване на рамка за управление и обвързаност с условия за Механизма за бежанците в Турция между държавите – членки на Европейския съюз, и Европейската комисия и образеца на сер­ тификат за финансов принос Член единствен. Ратифицира Актуализи­ раното общо споразумение за създаване на рамка за управление и обвързаност с условия за Механизма за бежанците в Турция между държавите – членки на Европейския съюз, и Ев­ ропейската комисия и образеца на сертификат за финансов принос, одобрени от Европейската комисия и представителите на правителствата на държавите членки на 18 юли 2018 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

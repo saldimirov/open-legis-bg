@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-96-23-6/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-96-23-6"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за енергетиката" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за енергетиката" name="eli" other="/eli/bg/zid/2023/dv-96-23-6"/>
+          <FRBRdate date="2023-11-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-96-23-6/bul@2023-11-17/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-96-23-6/bul@2023-11-17"/>
+          <FRBRdate date="2023-11-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-96-23-6/bul@2023-11-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-96-23-6/bul@2023-11-17.xml"/>
+          <FRBRdate date="2023-11-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-11-17" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за енергетиката</p>
+      <p>(обн., ДВ, бр. 8 от 2023 г.; изм., бр. 67 и 86 от 2023 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В наименованието на глава втора „а“ думите „вноса и транзитния пренос на природен газ“ се заменят с „внос на природен газ с произход от Русия и пренос на природен газ за транзит“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Член 5а се изменя така: „Чл. 5а. За внос на природен газ с произход от Русия и пренос на природен газ за транзит с произход от Русия с кодове по КН 2711 11 00 и 2711 21 00 се събират енергийни вноски.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 5б думите „вносителите по смисъла на митническото законодателство и операторите на газопреносни и газоразпределителни мрежи“ се заменят с „ползвателите на газопреносната мрежа, които са вносители по смисъла на митническото законодателство или за които операторите на газопреносните мрежи извършват пренос на природен газ за транзит“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 5в се правят следните изменения и допълнения: 1. В ал. 1 думите „транзитен пренос на природен газ“ се заменят с „пренос на природен газ за транзит“ и накрая се добавя „и природния газ за собствени технологични нужди на операторите на газопреносни мрежи“. 2. Създава се ал. 6: „(6) В срок до 5-о число на месеца, следващ отчетния период, операторът на газопреносната мрежа предоставя на Агенция „Митници“ информация относно вноса на природен газ и преноса на природен газ за транзит по ползватели.“</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-84-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-84-20-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за бюджета на" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за бюджета на" name="eli" other="/eli/bg/zid/2020/dv-84-20-2"/>
+          <FRBRdate date="2020-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-84-20-2/bul@2020-09-29/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-84-20-2/bul@2020-09-29"/>
+          <FRBRdate date="2020-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-84-20-2/bul@2020-09-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-84-20-2/bul@2020-09-29.xml"/>
+          <FRBRdate date="2020-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-09-29" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за бюджета на</p>
+      <p>(обн., ДВ, бр. 99 от 2019 г.; изм., бр. 44 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В § 1 от преходните и заключителните разпоредби се правят следните допълнения: 1. Създава се ал. 3: „(3) При наличие на неусвоени средства по ал. 2 за здравноосигурителни плащания по ред 1.1.3.7, до 75 млн. лв. от тях могат да се използват за заплащане на отчетени от изпълнителите на болнична медицинска по­ мощ, които имат сключени договори с НЗОК за съответния период, незаплатени дейности в болничната медицинска помощ за 2015 г. и 2016 г.“ 2. Създава се ал. 4: „(4) Установяването от НЗОК на стойно­ стите на незаплатени дейности в болничната медицинска помощ за 2015 г. и за 2016 г. се извършва чрез проверки от контролните органи на НЗОК/РЗОК и се заплаща при условия и по ред, определени съвместно от надзорния съвет на НЗОК и от управителния съвет на БЛС.“ 3. Създава се ал. 5: „(5) За здравноосигурителни плащания по реда на ал. 3 може да се използва сметка за чужди средства на НЗОК до размера на неусвоените средства за здравноосигурителни плащания по бюджета на НЗОК, преведени по тази сметка до 31 декември 2020 г.“ 4. Създава се ал. 6: „(6) Преведените по реда на ал. 5 суми по сметката за чужди средства се отразяват в изпълнението на съответните разходни показатели по бюджета на НЗОК за 2020 г. и се предоставят по реда на ал. 4, като за съхраняването, разплащането и отчитането на тези средства се прилагат съответните изисквания на Закона за публичните финанси за сметките за чужди средства.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

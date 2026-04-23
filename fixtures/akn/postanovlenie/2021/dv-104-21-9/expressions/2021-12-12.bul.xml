@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-104-21-9/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-104-21-9"/>
+          <FRBRalias value="Постановление № 426 ОТ 9 ДЕКЕМВРИ 2021 Г. за отменяне на Постановление № 6 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 426 ОТ 9 ДЕКЕМВРИ 2021 Г. за отменяне на Постановление № 6 на Ми­" name="eli" other="/eli/bg/postanovlenie/2021/dv-104-21-9"/>
+          <FRBRdate date="2021-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-104-21-9/bul@2021-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-104-21-9/bul@2021-12-12"/>
+          <FRBRdate date="2021-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-104-21-9/bul@2021-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-104-21-9/bul@2021-12-12.xml"/>
+          <FRBRdate date="2021-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-12-12" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 426 ОТ 9 ДЕКЕМВРИ 2021 Г. за отменяне на Постановление № 6 на Ми­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя Постановление № 6 на Ми­ нистерския съвет от 2021 г. за одобряване на промени по бюджета на Министерството на финансите за 2021 г. във връзка с увеличаване капитала на търговско дружество. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Извършеният трансфер на средства в централния бюджет в размер 21 881 480 лв., възстановени от операция за финансов ин­ женеринг по „Програмата за развитие на селските райони“ за периода 2007 – 2013 г., се възстановява по сметка за средствата от Европейския съюз на Националния фонд.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

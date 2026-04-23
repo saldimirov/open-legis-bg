@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-10"/>
+          <FRBRalias value="Постановление № 237 от 8 ноември 2005 г. за изменение на Постановление № 165 на Министерския съвет от 2004 г. за организацията и координацията на обмена на информация за технически регламенти и правила за услуги на информационното общество" name="short"/>
+          <FRBRalias value="Постановление № 237 от 8 ноември 2005 г. за изменение на Постановление № 165 на Министерския съвет от 2004 г. за организацията и координацията на обмена на информация за технически регламенти и правила за услуги на информационното общество" name="eli" other="/eli/bg/postanovlenie/2005/dv-91-05-10"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-10/bul@2005-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-10/bul@2005-11-15"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-10/bul@2005-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-10/bul@2005-11-15.xml"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-15" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 237 от 8 ноември 2005 г. за изменение на Постановление № 165 на Министерския съвет от 2004 г. за организацията и координацията на обмена на информация за технически регламенти и правила за услуги на информационното общество</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 ал. 1 се изменя така:</p>
+            <p>“(1) Възлага на председателя на ДАМТН чрез дирекция “Международно сътрудничество и европейска интеграция” да изпълнява задълженията като Национален информационен център за обмен на информация за проекти на технически регламенти с ЕК и с Генералния секретар на Съвета на Европа.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10 ал.1 се изменя така:</p>
+            <p>“(1) Председателят на ДАМТН изпраща на министрите, на другите органи на изпълнителната власт, както и на националните организации по стандартизация получените от Комитета “Стандарти и технически регламенти” към ЕК и от Генералния секретар на Съвета на Европа съобщения за технически регламенти.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на влизане в сила на Конвенцията за информационно и правно сътрудничество по отношение на “услугите на информационното общество” на Съвета на Европа, ратифицирана със закон (ДВ, бр. 38 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

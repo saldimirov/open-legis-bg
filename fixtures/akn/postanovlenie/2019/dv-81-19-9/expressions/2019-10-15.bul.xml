@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-9/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-9"/>
+          <FRBRalias value="Постановление № 252 ОТ 8 ОКТОМВРИ 2019 Г. за приемане на Наредба за Националния ту-" name="short"/>
+          <FRBRalias value="Постановление № 252 ОТ 8 ОКТОМВРИ 2019 Г. за приемане на Наредба за Националния ту-" name="eli" other="/eli/bg/postanovlenie/2019/dv-81-19-9"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-9/bul@2019-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-9/bul@2019-10-15"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-9/bul@2019-10-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-9/bul@2019-10-15.xml"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-10-15" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 252 ОТ 8 ОКТОМВРИ 2019 Г. за приемане на Наредба за Националния ту-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 252 ОТ 8 ОКТОМВРИ 2019 Г. за приемане на Наредба за Националния ту- ристически регистър На основание чл. 165, ал. 2 от Закона за туризма МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за Наци- оналния туристически регистър. Заключителна разпоредба Параграф единствен. Отменя се Наредбата за организацията на Единната система за турис- тическа информация, приета с Постановление № 23 на Министерския съвет от 2015 г. (ДВ, бр. 13 от 2015 г.).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

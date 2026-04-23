@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-97-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-97-13-12"/>
+          <FRBRalias value="Постановление № 251 ОТ 1 НОЕМВРИ 2013 Г. за изменение на Правилника за прилагане на Закона за регионалното развитие, приет" name="short"/>
+          <FRBRalias value="Постановление № 251 ОТ 1 НОЕМВРИ 2013 Г. за изменение на Правилника за прилагане на Закона за регионалното развитие, приет" name="eli" other="/eli/bg/postanovlenie/2013/dv-97-13-12"/>
+          <FRBRdate date="2013-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-97-13-12/bul@2013-11-08/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-97-13-12/bul@2013-11-08"/>
+          <FRBRdate date="2013-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-97-13-12/bul@2013-11-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-97-13-12/bul@2013-11-08.xml"/>
+          <FRBRdate date="2013-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-08" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 251 ОТ 1 НОЕМВРИ 2013 Г. за изменение на Правилника за прилагане на Закона за регионалното развитие, приет</p>
+      <p>(обн., ДВ, бр. 80 от 2008 г.; изм., бр. 93 от 2009 г. и бр. 5 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 44 се правят следните изменения: 1. В ал. 1: а) в т. 1 думите „Министерството на икономиката, енергетиката и туризма“ се заменят с „Министерството на икономиката и енергетиката“ и думите „Министерството на транспорта“ се заменят с „Министерството на транспорта, информационните технологии и съобщенията“; б) точка 2 се отменя. 2. В ал. 3 думите „председателят на Държав- ната агенция за информационни технологии и съобщения“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Навсякъде думите „министърът на регионалното развитие и благоустройство- то“, „министъра на регионалното развитие и благоустройството“ и „Министерството на регионалното развитие и благоустройство- то“ се заменят съответно с „министърът на регионалното развитие“, „министъра на ре- гионалното развитие“ и „Министерството на регионалното развитие“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-10/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-10"/>
+          <FRBRalias value="Постановление № 228 от 15 октомври 2003 г. за изменение и допълнение на Устройствения правилник на Държавната комисия за енергийно регулиране и на нейната администрация, приет с Постановление № 88 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 228 от 15 октомври 2003 г. за изменение и допълнение на Устройствения правилник на Държавната комисия за енергийно регулиране и на нейната администрация, приет с Постановление № 88 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-93-03-10"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-10/bul@2003-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-10/bul@2003-10-21"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-10/bul@2003-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-10/bul@2003-10-21.xml"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-21" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 228 от 15 октомври 2003 г. за изменение и допълнение на Устройствения правилник на Държавната комисия за енергийно регулиране и на нейната администрация, приет с Постановление № 88 на Министерския съвет от 2002 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 31, ал. 2 числото „85&amp;quot; за заменя с „87&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В глава трета „Администрация на държавната комисия за енергийно регулиране&amp;quot; се създава раздел Па:</p>
+            <p>„Раздел IIа</p>
+            <p>Служител по сигурността на информацията и финансов контрольор</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 35а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Служителят по сигурността на информацията и финансовият контрольор са пряко подчинени на председателя на комисията.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Служителят по сигурността на информацията се назначава по реда на Закона за защита на класифицираната информация и изпълнява задачите, произтичащи от закона и нормативните актове по прилагането му.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_3">
+            <num>(3)</num>
+            <content>
+              <p>финансовият контрольор се назначава по реда на Закона за държавния вътрешен финансов контрол и осъществява предварителен контрол за законосъобразност на всички документи и действия, свързани с финансовата дейност на ДКЕР.&amp;quot;</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложението към чл. 31, ал. 2 се изменя така:</p>
+            <p>„Приложена към чл. 31, ал. 2</p>
+            <p>Численост на персонала в организационните структури и административните звена на Държавната комисия за енергийно регулиране — 87 щатни бройки</p>
+            <p>Виж приложението в   PDF-a   на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

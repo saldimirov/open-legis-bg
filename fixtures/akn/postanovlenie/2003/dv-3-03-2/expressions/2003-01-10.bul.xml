@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-3-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-3-03-2"/>
+          <FRBRalias value="Постановление № 319 от 29 декември 2002 г. за приемане на Правилник за устройството и дейността на Предприятието за управление на дейностите по опазване на околната среда" name="short"/>
+          <FRBRalias value="Постановление № 319 от 29 декември 2002 г. за приемане на Правилник за устройството и дейността на Предприятието за управление на дейностите по опазване на околната среда" name="eli" other="/eli/bg/postanovlenie/2003/dv-3-03-2"/>
+          <FRBRdate date="2003-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-3-03-2/bul@2003-01-10/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-3-03-2/bul@2003-01-10"/>
+          <FRBRdate date="2003-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-3-03-2/bul@2003-01-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-3-03-2/bul@2003-01-10.xml"/>
+          <FRBRdate date="2003-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-10" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 319 от 29 декември 2002 г. за приемане на Правилник за устройството и дейността на Предприятието за управление на дейностите по опазване на околната среда</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Правилник за устройството и дейността на Предприятието за управление на дейностите по опазване на околната среда.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Предприятието за управление на дейностите по опазване на околната среда е правоприемник на правата и задълженията по всички договори на Националния фонд за опазване на околната среда.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-10"/>
+          <FRBRalias value="Постановление № 266 ОТ 20 ОКТОМВРИ 2016 Г. за одобряване на допълнителни разходи/" name="short"/>
+          <FRBRalias value="Постановление № 266 ОТ 20 ОКТОМВРИ 2016 Г. за одобряване на допълнителни разходи/" name="eli" other="/eli/bg/postanovlenie/2016/dv-84-16-10"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-10/bul@2016-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-10/bul@2016-10-25"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-10/bul@2016-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-10/bul@2016-10-25.xml"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 266 ОТ 20 ОКТОМВРИ 2016 Г. за одобряване на допълнителни разходи/</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни раз- ходи/трансфери за 2016 г. в общ размер 20 770,0 хил. лв., разпределени, както следва: 1. по бюджета на Министерския съвет в размер 20 020,0 хил. лв., разпределени, както следва: а) за продължаване изграждането на временно възпрепятстващо съоръжение по българо-турската граница – 20 000,0 хил. лв.; б) за Държавната агенция за българите в чужбина за издръжка – 20,0 хил. лв.; 2. за Българската академия на науките в размер 50,0 хил. лв. чрез бюджета на Ми- нистерството на образованието и науката за 2016 г.; средствата да се предоставят на На- ционалния археологически институт с музей към Българската академия на науките за</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

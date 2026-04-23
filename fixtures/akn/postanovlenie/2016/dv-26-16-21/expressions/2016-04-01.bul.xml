@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-21/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-21"/>
+          <FRBRalias value="Постановление № 62 ОТ 25 МАРТ 2016 Г. за одобряване на допълнителни плащания от централния бюджет по бюджета на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 62 ОТ 25 МАРТ 2016 Г. за одобряване на допълнителни плащания от централния бюджет по бюджета на Ми­" name="eli" other="/eli/bg/postanovlenie/2016/dv-26-16-21"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-21/bul@2016-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-21/bul@2016-04-01"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-21/bul@2016-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-21/bul@2016-04-01.xml"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-01" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 62 ОТ 25 МАРТ 2016 Г. за одобряване на допълнителни плащания от централния бюджет по бюджета на Ми­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни пла- щания по бюджета на Министерството на транспорта, информационните технологии и съобщенията за 2016 г. в частта на финан- сирането на бюджетното салдо за сметка на централния бюджет в размер до 208 000 хил. лв.</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

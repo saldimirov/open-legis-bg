@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-40-20-6/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-40-20-6"/>
+          <FRBRalias value="Постановление № 85 ОТ 30 АПРИЛ 2020 Г. за приемане на Правилник за прилагане на" name="short"/>
+          <FRBRalias value="Постановление № 85 ОТ 30 АПРИЛ 2020 Г. за приемане на Правилник за прилагане на" name="eli" other="/eli/bg/postanovlenie/2020/dv-40-20-6"/>
+          <FRBRdate date="2020-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-40-20-6/bul@2020-05-05/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-40-20-6/bul@2020-05-05"/>
+          <FRBRdate date="2020-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-40-20-6/bul@2020-05-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-40-20-6/bul@2020-05-05.xml"/>
+          <FRBRdate date="2020-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-05-05" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 85 ОТ 30 АПРИЛ 2020 Г. за приемане на Правилник за прилагане на</p>
+      <p>(обн., ДВ, бр. 51 от 2003 г.; изм. и доп., бр. 59 от 2003 г.; Решение № 8260 на Върховния административен съд от 2005 г. – бр. 79 от 2005 г.; изм. и доп., бр. 54 от 2006 г., бр. 15 от 2007 г., бр. 103 от 2008 г., бр. 39 и 93 от 2009 г., бр. 22, 29 и 72 от 2010 г., бр. 68 от 2011 г., бр. 49 от 2013 г., бр. 40 и 70 от 2015 г., бр. 64 от 2017 г., бр. 70 от 2018 г. и бр. 77 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Правилникът за реда за упражняване правата на държавата в търговските дружества с държавно участие в капитала, приет с Пос­ тановление № 112 на Министерския съвет от 2003 г. (обн., ДВ, бр. 51 от 2003 г.; изм. и доп., бр. 59 от 2003 г.; Решение № 8260 на Върховния административен съд от 2005 г. – бр. 79 от 2005 г.; изм. и доп., бр. 54 от 2006 г., бр. 15 от 2007 г., бр. 103 от 2008 г., бр. 39 и 93 от 2009 г., бр. 22, 29 и 72 от 2010 г., бр. 68 от 2011 г., бр. 49 от 2013 г., бр. 40 и 70 от 2015 г., бр. 64 от 2017 г., бр. 70 от 2018 г. и бр. 77 от 2019 г.). 2. Постановление № 114 на Министерския съвет от 2010 г. за наблюдение и контрол върху финансовото състояние на държавни предприятия и търговски дружества с над 50 на сто държавно участие в капитала и на дружествата, които те контролират (обн., ДВ, бр. 46 от 2010 г.; изм., бр. 49 от 2013 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

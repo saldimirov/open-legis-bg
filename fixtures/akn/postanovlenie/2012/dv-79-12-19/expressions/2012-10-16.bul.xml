@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-79-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-79-12-19"/>
+          <FRBRalias value="Постановление № 243 ОТ 10 ОКТОМВРИ 2012 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 243 ОТ 10 ОКТОМВРИ 2012 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2012/dv-79-12-19"/>
+          <FRBRdate date="2012-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-79-12-19/bul@2012-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-79-12-19/bul@2012-10-16"/>
+          <FRBRdate date="2012-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-79-12-19/bul@2012-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-79-12-19/bul@2012-10-16.xml"/>
+          <FRBRdate date="2012-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-16" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 243 ОТ 10 ОКТОМВРИ 2012 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 34 от 2012 г.; изм. и доп., бр. 41, 44, 61 и 68 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 числото „103 000“ се заменя със „113 000“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 1, т. 1 се правят следните изменения и допълнения: 1. В раздел А. „Програма/обекти“: а) на ред 2 числото „10 960 000“ се заменя с „15 960 000“; б) на ред 2.1 числото „6 000 000“ се заменя с „5 500 000“; в) на ред 4 числото „2 500 000“ се заменя с „3 000 000“; г) ред 5.4 се изменя така: „5.4. Лот 3 Път III-554 Нова Загора – Си­ меоновград, участък 1: от км 0+000 до км 19+540, и участък 2: от км 47+450 до км 73+848 740 000“; д) създава се ред 5.6: „5.6. Лот 23А Път II-62 „Кюстендил Обходен път – Дупница“ от км 0+000 до км 37+465, Път I-1 „Обходен път Дупница“ от км 326+939 до км 331+522 740 000“; е) на ред 6 числото „4 876 000“ се заменя с „27 376 000“; ж) създава се ред 6.5: „6.5. Път I-2 Русе – Шумен от км 00+000 до км 109+000 10 000 000“; з) на ред „Общо“ числото „103 000 000“ се заменя със „113 000 000“. 2. В раздел Б. „Обекти и дейности за фи­ нансиране при освобождаване на средства от раздел А“: а) създават се редове 27 и 28: „27. Поддържане на пътната мрежа – подго­ товка на пътищата за зимния период 3 000 000 28. Археология 1 000 000“; б) на ред „Общо“ числото „106 778 960“ се заменя със „110 778 960“. 3. На ред „Всичко А + Б“ числото „109 778 960“ се заменя с „223 778 960“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 3 октомври 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

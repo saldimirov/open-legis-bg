@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-103-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-103-04-10"/>
+          <FRBRalias value="Постановление № 303  от 10 ноември 2004 г. за изменение на Устройствения правилник на Агенцията за следприватизационен контрол, приет с Постановление № 245 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 303  от 10 ноември 2004 г. за изменение на Устройствения правилник на Агенцията за следприватизационен контрол, приет с Постановление № 245 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-103-04-10"/>
+          <FRBRdate date="2004-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-103-04-10/bul@2004-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-103-04-10/bul@2004-11-23"/>
+          <FRBRdate date="2004-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-103-04-10/bul@2004-11-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-103-04-10/bul@2004-11-23.xml"/>
+          <FRBRdate date="2004-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-11-23" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 303  от 10 ноември 2004 г. за изменение на Устройствения правилник на Агенцията за следприватизационен контрол, приет с Постановление № 245 на Министерския съвет от 2002 г.</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

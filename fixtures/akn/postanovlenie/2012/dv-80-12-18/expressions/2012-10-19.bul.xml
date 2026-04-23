@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-18"/>
+          <FRBRalias value="Постановление № 252 ОТ 12 ОКТОМВРИ 2012 Г. за определяне размера на линията на бедност за страната за 2013 г." name="short"/>
+          <FRBRalias value="Постановление № 252 ОТ 12 ОКТОМВРИ 2012 Г. за определяне размера на линията на бедност за страната за 2013 г." name="eli" other="/eli/bg/postanovlenie/2012/dv-80-12-18"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-18/bul@2012-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-18/bul@2012-10-19"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-18/bul@2012-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-18/bul@2012-10-19.xml"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-19" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 252 ОТ 12 ОКТОМВРИ 2012 Г. за определяне размера на линията на бедност за страната за 2013 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 252 ОТ 12 ОКТОМВРИ 2012 Г. за определяне размера на линията на бедност за страната за 2013 г. МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Определя от 1 януари 2013 г. размер на линията на бедност за стра­ ната 241 лв. Заключителна разпоредба Параграф единствен. Изпълнението на постановлението се възлага на министъра на труда и социалната политика и на председате­ ля на Националния статистически институт.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

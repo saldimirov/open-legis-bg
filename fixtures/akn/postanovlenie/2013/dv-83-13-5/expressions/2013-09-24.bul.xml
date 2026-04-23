@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-5"/>
+          <FRBRalias value="Постановление № 210 ОТ 17 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Минис-" name="short"/>
+          <FRBRalias value="Постановление № 210 ОТ 17 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Минис-" name="eli" other="/eli/bg/postanovlenie/2013/dv-83-13-5"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-5/bul@2013-09-24/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-5/bul@2013-09-24"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-5/bul@2013-09-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-5/bul@2013-09-24.xml"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-24" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 210 ОТ 17 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Минис-</p>
+      <p>(обн., ДВ, бр. 6 от 2013 г.; изм. и доп., бр. 9, 24, 38, 59, 62, 63, 67, 70, 76 и 78 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 6 към чл. 16 „Разходи за заплати, възнаграждения и задължителни осигурителни вноски на лицата по трудови, извънтрудови и служебни правоотношения (разходи за персонал) на първостепенни раз- поредители с бюджетни кредити по чл. 5 и чл. 6, ал. 1 от Закона за държавния бюджет на Република България за 2013 г.“ на ред 21 „Комисия за отнемане на незаконно придо- бито имущество (с изборните длъжности)“ се правят следните изменения: 1. В колона 9 числото „320 000“ се заменя с „390 000“. 2. В колона 10 числото „355 000“ се заменя с „430 000“. 3. В колона 11 числото „325 000“ се заменя с „385 000“. 4. В колона 12 числото „325 000“ се заменя с „390 000“. 5. В колона 13 числото „4 000 000“ се за- меня с „4 270 000“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

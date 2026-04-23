@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-9"/>
+          <FRBRalias value="Постановление № 265 ОТ 20 ОКТОМВРИ 2016 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 265 ОТ 20 ОКТОМВРИ 2016 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2016/dv-84-16-9"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-9/bul@2016-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-9/bul@2016-10-25"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-9/bul@2016-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-9/bul@2016-10-25.xml"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 265 ОТ 20 ОКТОМВРИ 2016 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. Ред 5 се заличава. 2. На ред 11, в колона 4 „Стойност (в лв.) с ДДС“ числото „750 000“ се заменя с „392 335“. 3. Създават се редове 15 – 24: „ № по ред Дейност Отго- ворно ведом- ство Стой- ност (в лв.) с ДДС 15. Ремонт на покриви на сгра- ди на ГПУ, ГКПП, ГОДГ и ГП МВР 235 000 16. Доставка и монтаж на бариери и светофарни уре- ди на ГКПП – Капитан Андреево МВР 38 000 17. Поддръжка на мобилни рентгенови устройства ZBV МВР 20 000 18. Доставка и монтаж на ко- тел и горелка за отоплени- ето на административната сграда на ГПУ – Болярово, и ГКПП – Малко Търново МВР 11 665 19. Доставка на батерии за ръчни термовизионни ка- мери и система „EMIDS“ МВР 36 000 № по ред Дейност Отго- ворно ведом- ство Стой- ност (в лв.) с ДДС 20. Укрепителни работи на свлачище в района на ПТВН – Галата МВР 40 000 21. Ремонт на UPS на ГКПП – Малко Търново МВР 4000 22. Доставка на комуникаци- онна техника МВР 10 000 23. Доставка на трансформа- тор за захранване от бряг на граничен полицейски кораб „проект Patrol 130“ МВР 3000 24. Доставка на материали за възстановяване на повре- дени от нарушители на дър- жавната граница участъци от възпрепятстващото ин- женерно съоръжение по българо-турската граница МВР 10 000 Обща стойност на допъл- нителните дейности за 2016 г. 407 665 “ Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на заместник министър-председателя по коалиционна политика и държавна адми- нистрация и министър на вътрешните работи и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 8505</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

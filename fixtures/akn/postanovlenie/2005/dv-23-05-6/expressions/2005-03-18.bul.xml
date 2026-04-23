@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-23-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-23-05-6"/>
+          <FRBRalias value="Постановление № 37 от 8 март 2005 г. за изменение на Устройствения правилник на Държавната комисия по сигурността на информацията и на нейната администрация, приет с Постановление № 50 на Министерския съвет от 2003 г." name="short"/>
+          <FRBRalias value="Постановление № 37 от 8 март 2005 г. за изменение на Устройствения правилник на Държавната комисия по сигурността на информацията и на нейната администрация, приет с Постановление № 50 на Министерския съвет от 2003 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-23-05-6"/>
+          <FRBRdate date="2005-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-23-05-6/bul@2005-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-23-05-6/bul@2005-03-18"/>
+          <FRBRdate date="2005-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-23-05-6/bul@2005-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-23-05-6/bul@2005-03-18.xml"/>
+          <FRBRdate date="2005-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-03-18" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 37 от 8 март 2005 г. за изменение на Устройствения правилник на Държавната комисия по сигурността на информацията и на нейната администрация, приет с Постановление № 50 на Министерския съвет от 2003 г.</p>
+      <p>(обн., ДВ, бр. 22 от 2003 г.; изм. и доп., бр. 69 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 18, ал. 2 числото “100” се заменя със “120”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 25, ал. 1 т. 20 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложението към чл. 18, ал. 2 се изменя така:</p>
+            <p>“Приложение  към чл. 18, ал. 2</p>
+            <p>Обща численост на персонала в административните звена на ДКСИ</p>
+            <p>Обща численост на персонала                                                                                             120</p>
+            <p>в т. ч.:</p>
+            <p>Председател                                                                                                                               1</p>
+            <p>Заместник-председател                                                                                                           1</p>
+            <p>Членове                                                                                                                                       3</p>
+            <p>Главен секретар                                                                                                                        1</p>
+            <p>Финансов контрольор                                                                                                                1</p>
+            <p>Обща администрация                                                                                                              31</p>
+            <p>в т. ч.:</p>
+            <p>дирекция “Финансово-стопански дейности, управление на собствеността</p>
+            <p>и човешки ресурси”                                                                                                                 15</p>
+            <p>дирекция “Канцелария”                                                                                                            16</p>
+            <p>Специализирана администрация                                                                                            82</p>
+            <p>в т. ч.:</p>
+            <p>дирекция “Правна и международно-правна дейност”                                                         18</p>
+            <p>дирекция “Сигурност”                                                                                                              32</p>
+            <p>дирекция “Вътрешен ред и охрана”                                                                                        15</p>
+            <p>дирекция “Информационни фондове</p>
+            <p>и системи”                                                                                                                              17”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

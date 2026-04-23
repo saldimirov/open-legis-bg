@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-6"/>
+          <FRBRalias value="Закон за ратифициране на Протокола между Ре­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протокола между Ре­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-87-10-6"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-6/bul@2010-11-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-6/bul@2010-11-05"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-6/bul@2010-11-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-6/bul@2010-11-05.xml"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-05" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протокола между Ре­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>публика България и Република Армения за изменение на Спогодбата между Република България и Република Армения за избягване на двойното данъчно облагане с данъци на доходите и имуществото Член единствен. Ратифицира Протокола, подписан на 10 декември 2008 г. в София, между Република България и Република Армения за изменение на Спогодбата между Република България и Република Армения за избягва­ не на двойното данъчно облагане с данъци на доходите и имуществото, подписана на 10 април 1995 г., в сила от 1 декември 1995 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

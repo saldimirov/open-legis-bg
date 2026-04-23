@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-10"/>
+          <FRBRalias value="Закон за допълнение на Закона за Държавна агенция" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за Държавна агенция" name="eli" other="/eli/bg/zid/2010/dv-80-10-10"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-10/bul@2010-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-10/bul@2010-10-12"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-10/bul@2010-10-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-10/bul@2010-10-12.xml"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-12" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за Държавна агенция</p>
+      <p>(обн., ДВ, бр. 109 от 2007 г.; изм. и доп., бр. 69 и 94 от 2008 г., бр. 22, 35, 42, 82 и 93 от 2009 г. и бр. 16 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Създава се чл. 72а: „Чл. 72а. (1) За времето на дългосрочно командироване при условията и по реда на Закона за дипломатическата служба държавните служители в агенцията получават половината от възнагражденията си по чл. 71, ал. 1 и по чл. 72, ал. 1, т. 1. (2) На служителите по ал. 1 не се изплащат сумите и доволствията по чл. 74.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 1 октомври 2010 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

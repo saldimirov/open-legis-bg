@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-92-05-12/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-92-05-12"/>
+          <FRBRalias value="Постановление № 239 от 14 ноември 2005 г. за въвеждане на автономна мярка за суспендиране на митото за внос на сурова захар от захарна тръстика" name="short"/>
+          <FRBRalias value="Постановление № 239 от 14 ноември 2005 г. за въвеждане на автономна мярка за суспендиране на митото за внос на сурова захар от захарна тръстика" name="eli" other="/eli/bg/postanovlenie/2005/dv-92-05-12"/>
+          <FRBRdate date="2005-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-92-05-12/bul@2005-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-92-05-12/bul@2005-11-18"/>
+          <FRBRdate date="2005-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-92-05-12/bul@2005-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-92-05-12/bul@2005-11-18.xml"/>
+          <FRBRdate date="2005-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-18" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 239 от 14 ноември 2005 г. за въвеждане на автономна мярка за суспендиране на митото за внос на сурова захар от захарна тръстика</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Въвежда се автономна мярка за суспендиране на митото за внос на сурова захар от захарна тръстика за 2005 г., както следва:</p>
+          <p>№                    Код по                                     Описание на                             Количество,</p>
+          <p>по                       КН                                           стоката                            ставка на митото и</p>
+          <p>ред                                                                                                           период на действие</p>
+          <p>1                          2                                                 3                                              4</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>1701 11                                   сурова захар от                           20 000 t захарна тръстика                             5 % до 31.12.2005</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Автономната мярка по чл. 1 обхваща всички стоки, които се класират в позицията, посочена в колона “Код по КН”.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 26, ал. 1, т. 6 от Закона за митниците.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

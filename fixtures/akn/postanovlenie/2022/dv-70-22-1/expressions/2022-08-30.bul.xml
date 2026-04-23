@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-70-22-1/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-70-22-1"/>
+          <FRBRalias value="Постановление № 255 ОТ 26 АВГУСТ 2022 Г. за изменение на Постановление № 79 на" name="short"/>
+          <FRBRalias value="Постановление № 255 ОТ 26 АВГУСТ 2022 Г. за изменение на Постановление № 79 на" name="eli" other="/eli/bg/postanovlenie/2022/dv-70-22-1"/>
+          <FRBRdate date="2022-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-70-22-1/bul@2022-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-70-22-1/bul@2022-08-30"/>
+          <FRBRdate date="2022-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-70-22-1/bul@2022-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-70-22-1/bul@2022-08-30.xml"/>
+          <FRBRdate date="2022-08-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-08-30" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 255 ОТ 26 АВГУСТ 2022 Г. за изменение на Постановление № 79 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 думата „тримесечен“ се заменя с „петмесечен“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

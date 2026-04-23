@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-1/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-1"/>
+          <FRBRalias value="Постановление № 446 ОТ 23 ДЕКЕМВРИ 2014 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 446 ОТ 23 ДЕКЕМВРИ 2014 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2015/dv-1-15-1"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-1/bul@2015-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-1/bul@2015-01-06"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-1/bul@2015-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-1/bul@2015-01-06.xml"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-06" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 446 ОТ 23 ДЕКЕМВРИ 2014 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 41 от 2011 г.; изм. и доп., бр. 93 от 2011 г., бр. 43 от 2013 г. и бр. 17 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 се създава т. 11: „11. Делегиран регламент (ЕС) № 65/2014 на Комисията от 1 октомври 2013 г. за допъл- ване на Директива 2010/30/ЕС на Европей- ския парламент и на Съвета по отношение на енергийното етикетиране на битови фурни и абсорбатори (ОВ, L 29/1, 31.01.2014 г.).“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Раздел Х „Етикетиране и предоставяне на стандартна информация за битови елек- трически фурни“ се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 1а от допълнителните разпоредби т. 9 се изменя така: „9. Директива 2002/40/ЕС, която се прилага до 1 януари 2015 г.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Приложение № 8 към чл. 29 се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

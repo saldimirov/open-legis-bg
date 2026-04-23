@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-24-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-24-03-2"/>
+          <FRBRalias value="Постановление № 54 от 5 март 2003 г. за изменение на Наредбата за условията и реда за издаване на лицензии за дейности с наркотични вещества за медицински и ветеринарномедицински цели от приложения № 2 и 3 към чл. 3, ал. 2 от Закона за контрол върху наркотичните вещества и прекурсорите, приета с Постановление № 199 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 54 от 5 март 2003 г. за изменение на Наредбата за условията и реда за издаване на лицензии за дейности с наркотични вещества за медицински и ветеринарномедицински цели от приложения № 2 и 3 към чл. 3, ал. 2 от Закона за контрол върху наркотичните вещества и прекурсорите, приета с Постановление № 199 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-24-03-2"/>
+          <FRBRdate date="2003-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-24-03-2/bul@2003-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-24-03-2/bul@2003-03-14"/>
+          <FRBRdate date="2003-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-24-03-2/bul@2003-03-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-24-03-2/bul@2003-03-14.xml"/>
+          <FRBRdate date="2003-03-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-14" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 54 от 5 март 2003 г. за изменение на Наредбата за условията и реда за издаване на лицензии за дейности с наркотични вещества за медицински и ветеринарномедицински цели от приложения № 2 и 3 към чл. 3, ал. 2 от Закона за контрол върху наркотичните вещества и прекурсорите, приета с Постановление № 199 на Министерския съвет от 2000 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7, ал. 1 думите „в срок до 3 месеца&amp;quot; се заменят с „в срок до 2 месеца&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10, ал. 2 след думите „се извършва&amp;quot; се добавя „в сроковете по чл. 7&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

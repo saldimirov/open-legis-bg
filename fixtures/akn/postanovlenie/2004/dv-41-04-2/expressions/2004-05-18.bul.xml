@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-2"/>
+          <FRBRalias value="Постановление № 88 от 3 май 2004 г. за приемане на Устройствен правилник на Министерството на енергетиката и енергийните ресурси" name="short"/>
+          <FRBRalias value="Постановление № 88 от 3 май 2004 г. за приемане на Устройствен правилник на Министерството на енергетиката и енергийните ресурси" name="eli" other="/eli/bg/postanovlenie/2004/dv-41-04-2"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-2/bul@2004-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-2/bul@2004-05-18"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-2/bul@2004-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-2/bul@2004-05-18.xml"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-18" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 88 от 3 май 2004 г. за приемане на Устройствен правилник на Министерството на енергетиката и енергийните ресурси</p>
+      <p>(обн., ДВ, бр. 15 от 2002 г.; изм. и доп., бр. 86 от 2002 г. и бр. 24 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се:</p>
+            <p>1. Устройственият правилник на Министерството на енергетиката и енергийните ресурси, приет с Постановление № 24 на Министерския съвет от 2002 г. (обн., ДВ, бр. 15 от 2002 г.; изм. и доп., бр. 86 от 2002 г. и бр. 24 от 2003 г.).</p>
+            <p>2. Член 2 от Постановление № 24 на Министерския съвет от 2002 г. (обн., ДВ, бр. 15 от 2002 г.; изм., бр. 111 от 2003 г.) за закриване на Държавната агенция по енергетика и енергийни ресурси и за приемане на Устройствен правилник на Министерството на енергетиката и енергийните ресурси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

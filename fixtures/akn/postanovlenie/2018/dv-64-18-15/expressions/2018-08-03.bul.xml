@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-15/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-15"/>
+          <FRBRalias value="Постановление № 159 ОТ 30 ЮЛИ 2018 Г. за приемане на Наредба за условията и реда за функциониране на системата за военновре­" name="short"/>
+          <FRBRalias value="Постановление № 159 ОТ 30 ЮЛИ 2018 Г. за приемане на Наредба за условията и реда за функциониране на системата за военновре­" name="eli" other="/eli/bg/postanovlenie/2018/dv-64-18-15"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-15/bul@2018-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-15/bul@2018-08-03"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-15/bul@2018-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-15/bul@2018-08-03.xml"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-03" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 159 ОТ 30 ЮЛИ 2018 Г. за приемане на Наредба за условията и реда за функциониране на системата за военновре­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя Постановление № 351 на Ми­ нистерския съвет от 1997 г. за приемане на Наредба за организацията и поддържането на системата за военновременно управление на държавната и местната администрация, друже­ ствата и организациите в мирно и военно време (ДВ, бр. 85 от 1999 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 34, ал. 3 от Закона за отбраната и въоръжените сили на Република България.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

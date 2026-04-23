@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-8/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-8"/>
+          <FRBRalias value="Постановление № 65 от 8 април 2005 г. за отменяне на нормативни актове" name="short"/>
+          <FRBRalias value="Постановление № 65 от 8 април 2005 г. за отменяне на нормативни актове" name="eli" other="/eli/bg/postanovlenie/2005/dv-34-05-8"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-8/bul@2005-04-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-8/bul@2005-04-19"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-34-05-8/bul@2005-04-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-34-05-8/bul@2005-04-19.xml"/>
+          <FRBRdate date="2005-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-19" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 65 от 8 април 2005 г. за отменяне на нормативни актове</p>
+      <p>(обн., ДВ, бр. 31 от 2002 г.; Решение № 11356 на Върховния административен съд от 2002 г. - бр. 118 от 2002 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

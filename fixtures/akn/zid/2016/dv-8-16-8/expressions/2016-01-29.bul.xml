@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-8-16-8/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-8-16-8"/>
+          <FRBRalias value="Закон за изменение на Кодекса на труда (обн., ДВ," name="short"/>
+          <FRBRalias value="Закон за изменение на Кодекса на труда (обн., ДВ," name="eli" other="/eli/bg/zid/2016/dv-8-16-8"/>
+          <FRBRdate date="2016-01-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-8-16-8/bul@2016-01-29/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-8-16-8/bul@2016-01-29"/>
+          <FRBRdate date="2016-01-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-8-16-8/bul@2016-01-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-8-16-8/bul@2016-01-29.xml"/>
+          <FRBRdate date="2016-01-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-29" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Кодекса на труда (обн., ДВ,</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 34, т. 1 думите „75 хиляди“ се заменят с „50 хиляди“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 35, ал. 1 т. 1 се изменя така: „1. има най-малко: а) 1500 членове и общо не по-малко от 50 000 работници и служители във всички членове на работодателската организация, или б) 100 000 работници и служители, наети по трудов договор, във всички членове на ра- ботодателската организация;“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна- родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

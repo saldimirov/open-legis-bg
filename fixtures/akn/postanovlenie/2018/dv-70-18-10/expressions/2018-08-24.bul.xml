@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-70-18-10/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-70-18-10"/>
+          <FRBRalias value="Постановление № 176 ОТ 20 АВГУСТ 2018 Г. за приемане на Наредба за отговорността и за прекратяването на дейността на достав-" name="short"/>
+          <FRBRalias value="Постановление № 176 ОТ 20 АВГУСТ 2018 Г. за приемане на Наредба за отговорността и за прекратяването на дейността на достав-" name="eli" other="/eli/bg/postanovlenie/2018/dv-70-18-10"/>
+          <FRBRdate date="2018-08-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-70-18-10/bul@2018-08-24/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-70-18-10/bul@2018-08-24"/>
+          <FRBRdate date="2018-08-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-70-18-10/bul@2018-08-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-70-18-10/bul@2018-08-24.xml"/>
+          <FRBRdate date="2018-08-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-24" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 176 ОТ 20 АВГУСТ 2018 Г. за приемане на Наредба за отговорността и за прекратяването на дейността на достав-</p>
+      <p>(обн., ДВ, бр. 15 от 2002 г.; изм. и доп., бр. 85 от 2011 г. и бр. 5 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Договорите за застраховки за покриване на вредите от неизпълнение на задълженията на доставчиците на удостоверителни услуги, сключени до влизането в сила на наредбата по член единствен, продължават действието си до изтичането на срока им.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Наредбата за дейността на доставчиците на удостоверителни услуги, реда за нейното прекратяване и за изискванията при предоставяне на удостоверителни услуги, приета с Постановление № 17 на Министерския съвет от 2002 г. (обн., ДВ, бр. 15 от 2002 г.; изм. и доп., бр. 85 от 2011 г. и бр. 5 от 2017 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Отменя се Наредбата за изискванията към алгоритмите за създаване и проверка на квалифициран електронен подпис, приета с Постановление № 259 на Министерския съвет от 2011 г. (ДВ, бр. 71 от 2011 г. ).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

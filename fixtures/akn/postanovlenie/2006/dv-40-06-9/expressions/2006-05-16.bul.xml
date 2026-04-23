@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-40-06-9/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-40-06-9"/>
+          <FRBRalias value="Постановление № 104 от 4 май 2006 г. за изменение на Устройствения правилник на Държавна агенция “Държавен резерв и военновременни запаси”, приет с Постановление № 13 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 104 от 4 май 2006 г. за изменение на Устройствения правилник на Държавна агенция “Държавен резерв и военновременни запаси”, приет с Постановление № 13 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-40-06-9"/>
+          <FRBRdate date="2006-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-40-06-9/bul@2006-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-40-06-9/bul@2006-05-16"/>
+          <FRBRdate date="2006-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-40-06-9/bul@2006-05-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-40-06-9/bul@2006-05-16.xml"/>
+          <FRBRdate date="2006-05-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-05-16" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 104 от 4 май 2006 г. за изменение на Устройствения правилник на Държавна агенция “Държавен резерв и военновременни запаси”, приет с Постановление № 13 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 8 от 2004 г.; изм. и доп., бр. 55,  78 и 89 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 3 числото “876” се заменя със “788”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложението към чл. 6, ал. 4 се изменя така:</p>
+            <p>“Приложение към чл. 6, ал. 4</p>
+            <p>Численост на организационните структури и административните звена в Държавна агенция “Държавен резерв и военновременни запаси” при Министерския съвет - 788 щатни бройки</p>
+            <p>Председател                                                                                                                                                            1</p>
+            <p>Заместник-председател                                                                                                                                             1</p>
+            <p>Главен секретар                                                                                                                                                       1</p>
+            <p>Инспекторат                                                                                                                                                             4</p>
+            <p>Звено по сигурността                                                                                                                                               4</p>
+            <p>Обща администрация                                                                                                                                              39</p>
+            <p>дирекция “Финансови дейности  и административно-правно обслужване”                                                                    39</p>
+            <p>Специализирана администрация                                                                                                                             738</p>
+            <p>Главна дирекция “Управление на  държавните резерви и военновре-</p>
+            <p>менните запаси”                                                                                                                                                    698</p>
+            <p>в т.ч.:</p>
+            <p>териториални дирекции                                                                                                                                     676</p>
+            <p>дирекция “Управление на задължителните запаси от нефт и  нефтопродукти”                                                           21</p>
+            <p>дирекция “Обществени поръчки, продажби и информационно осигуряване”                                                           19”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2006 г.</p>
+            <p>За министър-председател:  Даниел Вълчев</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>32374</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-9/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-9"/>
+          <FRBRalias value="Постановление № 68 от 29 март 2006 г. за приемане на Устройствен правилник на Министерството на регионалното развитие и благоустройството" name="short"/>
+          <FRBRalias value="Постановление № 68 от 29 март 2006 г. за приемане на Устройствен правилник на Министерството на регионалното развитие и благоустройството" name="eli" other="/eli/bg/postanovlenie/2006/dv-28-06-9"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-9/bul@2006-04-04/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-9/bul@2006-04-04"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-9/bul@2006-04-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-9/bul@2006-04-04.xml"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-04" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 68 от 29 март 2006 г. за приемане на Устройствен правилник на Министерството на регионалното развитие и благоустройството</p>
+      <p>(обн., ДВ, бр. 26 от 2003 г.; изм. и доп., бр. 72 и 103 от 2004 г. и бр. 49 и 90 от 2005 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Устройствен правилник на Министерството на регионалното развитие и благоустройството.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Министърът на регионалното развитие и благоустройството е първостепенен разпоредител с бюджетни кредити.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <intro>
+            <p>Второстепенни разпоредители с бюджетни кредити към министъра на регионалното развитие и благоустройството са:</p>
+          </intro>
+          <point eId="art_2__al_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Агенцията по кадастъра;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Изпълнителна агенция “Пътища”;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_3">
+            <num>3.</num>
+            <content>
+              <p>Дирекцията за национален строителен контрол;</p>
+            </content>
+          </point>
+          <point eId="art_2__al_2__pt_4">
+            <num>4.</num>
+            <content>
+              <p>Фонд “Републиканска пътна инфраструктура”.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Общата численост на персонала в разпоредителите по ал. 2 е посочена в приложението.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 65 на Министерския съвет от 2003 г. за приемане на Устройствен правилник на Министерството на регионалното развитие и благоустройството (обн., ДВ, бр. 26 от 2003 г.; изм. и доп., бр. 72 и 103 от 2004 г. и бр. 49 и 90 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

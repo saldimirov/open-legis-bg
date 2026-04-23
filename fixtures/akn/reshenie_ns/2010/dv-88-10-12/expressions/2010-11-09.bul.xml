@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-12"/>
+          <FRBRalias value="Решение за приемане на Бяла книга за отбраната и въоръжените сили на Република Бълга­" name="short"/>
+          <FRBRalias value="Решение за приемане на Бяла книга за отбраната и въоръжените сили на Република Бълга­" name="eli" other="/eli/bg/reshenie_ns/2010/dv-88-10-12"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-12/bul@2010-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-12/bul@2010-11-09"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-12/bul@2010-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-12/bul@2010-11-09.xml"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-09" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Бяла книга за отбраната и въоръжените сили на Република Бълга­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>рия като програма за развитие на въоръ­ жените сили и за определяне числеността на въоръжените сили Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 16, т. 6 от Закона за отбраната и въоръ­ жените сили на Република България Р Е Ш И : 1. Приема Бяла книга за отбраната и въ­ оръжените сили на Република България като програма за развитие на въоръжените сили. 2. Определя общата численост на въоръже­ ните сили на Република България не по-малко от 37 000 души, която следва да бъде достигната до 31 декември 2014 г. Решението е прието от 41-ото Народно съ­ брание на 28 октомври 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

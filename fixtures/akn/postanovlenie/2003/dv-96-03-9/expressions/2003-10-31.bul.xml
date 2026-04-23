@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-9/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-9"/>
+          <FRBRalias value="Постановление № 242 от 28 октомври 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 242 от 28 октомври 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-96-03-9"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-9/bul@2003-10-31/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-9/bul@2003-10-31"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-9/bul@2003-10-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-9/bul@2003-10-31.xml"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-31" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 242 от 28 октомври 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 23 от 2000 г.; изм. и доп., бр. 53, 56, 62, 63 и 89 от 2000 г., бр. 10, 16, 17, 28, 35, 48, 54, 62 и 108 от 2001 г., бр. 9, 56, 71, 83, 86, 115, 118 и 119 от 2002 г. и бр. 4, 15, 17, 20, 25, 36, 42, 49 и 63 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 3, в пореден № 3, в колона 3 след думите „Агенция за икономически анализи и прогнози&amp;quot; се поставя точка и запетая и се добавя „Национално управление по горите&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Необходимите средства за изпълнение на постановлението се осигуряват в рамките на одобрените със Закона за държавния бюджет на Република България за 2003 г. средства по бюджета на Министерството на земеделието и горите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

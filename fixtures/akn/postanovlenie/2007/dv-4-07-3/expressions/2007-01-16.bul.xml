@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-4-07-3/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-4-07-3"/>
+          <FRBRalias value="Постановление № 375 от 29 декември 2006 г. за приемане на Устройствен правилник на Изпълнителна агенция “Българска служба за акредитация”" name="short"/>
+          <FRBRalias value="Постановление № 375 от 29 декември 2006 г. за приемане на Устройствен правилник на Изпълнителна агенция “Българска служба за акредитация”" name="eli" other="/eli/bg/postanovlenie/2007/dv-4-07-3"/>
+          <FRBRdate date="2007-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-4-07-3/bul@2007-01-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-4-07-3/bul@2007-01-16"/>
+          <FRBRdate date="2007-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-4-07-3/bul@2007-01-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-4-07-3/bul@2007-01-16.xml"/>
+          <FRBRdate date="2007-01-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-01-16" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 375 от 29 декември 2006 г. за приемане на Устройствен правилник на Изпълнителна агенция “Българска служба за акредитация”</p>
+      <p>(обн., ДВ, бр. 13 от 2000 г.; изм. и доп., бр. 50 и 91 от 2001 г., бр. 112 от 2002 г., бр. 26 от 2003 г., бр. 47 и 49 от 2004 г., бр. 78 от 2005 г. и бр. 28 и 40 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Изпълнителна агенция “Българска служба за акредитация”, приет с Постановление № 270 на Министерския съвет от 1999 г. (обн., ДВ, бр. 13 от 2000 г.; изм. и доп., бр. 50 и 91 от 2001 г., бр. 112 от 2002 г., бр. 26 от 2003 г., бр. 47 и 49 от 2004 г., бр. 78 от 2005 г. и бр. 28 и 40 от 2006 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

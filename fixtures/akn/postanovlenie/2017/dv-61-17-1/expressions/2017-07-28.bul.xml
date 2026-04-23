@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-1"/>
+          <FRBRalias value="Постановление № 149 ОТ 24 ЮЛИ 2017 Г. за изменение и допълнение на Наредбата за административното обслужване, приета" name="short"/>
+          <FRBRalias value="Постановление № 149 ОТ 24 ЮЛИ 2017 Г. за изменение и допълнение на Наредбата за административното обслужване, приета" name="eli" other="/eli/bg/postanovlenie/2017/dv-61-17-1"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-1/bul@2017-07-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-1/bul@2017-07-28"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-1/bul@2017-07-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-1/bul@2017-07-28.xml"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-07-28" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 149 ОТ 24 ЮЛИ 2017 Г. за изменение и допълнение на Наредбата за административното обслужване, приета</p>
+      <p>(обн., ДВ, бр. 78 от 2006 г.; изм. и доп., бр. 47 и 64 от 2008 г., бр. 25 и 58 от 2010 г., бр. 105 от 2011 г., бр. 50 от 2012 г., бр. 27 от 2015 г. и бр. 8 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 ал. 2 се изменя така: „</p>
+            <p>(2) За неуредените в наредбата въпроси главният секретар, съответно постоянният секретар на отбраната в Министерството на отбраната, министърът на вътрешните рабо­ ти или оправомощено от него длъжностно лице и секретарят на общината, утвърждава вътрешни правила за организация на адми­ нистративното обслужване, които регулират НАРОДНО СЪБРАНИЕ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

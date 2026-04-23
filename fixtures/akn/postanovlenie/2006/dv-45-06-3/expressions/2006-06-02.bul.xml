@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-3/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-3"/>
+          <FRBRalias value="Постановление № 117 от 22 май 2006 г. за изменение и допълнение на Постановление № 14 на Министерския съвет от 2006 г. за изпълнението на държавния бюджет на Република България за 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 117 от 22 май 2006 г. за изменение и допълнение на Постановление № 14 на Министерския съвет от 2006 г. за изпълнението на държавния бюджет на Република България за 2006 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-45-06-3"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-3/bul@2006-06-02/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-3/bul@2006-06-02"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-45-06-3/bul@2006-06-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-45-06-3/bul@2006-06-02.xml"/>
+          <FRBRdate date="2006-06-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-02" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 117 от 22 май 2006 г. за изменение и допълнение на Постановление № 14 на Министерския съвет от 2006 г. за изпълнението на държавния бюджет на Република България за 2006 г.</p>
+      <p>(обн., ДВ, бр. 14 от 2006 г.; изм. и доп., бр. 24 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 49 ал. 3 се изменя така:</p>
+            <p>“(3) Министърът на финансите по предложение на министъра на образованието и науката може да разреши корекции между субсидията за присъщата на висшето училище научна или художествено-творческа дейност и субсидията за издаване на учебници и научни трудове.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 50а:</p>
+            <p>“Чл. 50а. (1) Министърът на финансите да предостави допълнителни средства чрез бюджета на Министерството на образованието и науката по самостоятелния бюджет на Софийския университет “Св. Климент Охридски” в размер 1700 хил. лв. за издръжка на обучението.</p>
+            <p>(2) Средствата по ал. 1 да се осигурят за сметка на целевите разходи по централния бюджет за 2006 г.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 51а:</p>
+            <p>“Чл. 51а. (1) Министърът на финансите да предостави по бюджета на Министерството на образованието и науката предвидените в централния бюджет средства в размер 4400 хил. лв. за основни ремонти на държавните средни училища.</p>
+            <p>(2) Средствата по ал. 1 се разходват за подобряване на енергийната ефективност на училищата, включително за ремонти на покриви и на отоплителни инсталации.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

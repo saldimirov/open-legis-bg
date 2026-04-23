@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-27-07-9/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-27-07-9"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Института по розата и етеричномаслените култури" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Института по розата и етеричномаслените култури" name="eli" other="/eli/bg/pravilnik/2007/dv-27-07-9"/>
+          <FRBRdate date="2007-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-27-07-9/bul@2007-03-30/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-27-07-9/bul@2007-03-30"/>
+          <FRBRdate date="2007-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-27-07-9/bul@2007-03-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-27-07-9/bul@2007-03-30.xml"/>
+          <FRBRdate date="2007-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-30" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Устройствения правилник на Института по розата и етеричномаслените култури</p>
+      <p>(обн., ДВ, бр. 65 от 2001 г.; изм., бр. 4 от 2002 г., бр. 111 от  2003 г  ., бр. 56 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8, ал. 2 числото “61” се заменя с “55”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10 се създава т. 14:</p>
+            <p>“14. Извършва регистрация, разглеждане, изясняване на фактите и обстоятелствата с всички средства, които не са забранени със закон, изискване на всички необходими документи, сведения и обяснения за вземане на обективно решение по постъпили предложения и сигнали.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В раздел V се създават чл. 14а и чл.14б:</p>
+            <p>“Чл.14а. (1) Предложения и сигнали се подават в писмена или устна форма, лично или чрез упълномощен представител, по телефона, телеграф, телекс, факс, електронна поща и се вписват в регистър. В случай, че Институтът по розата и етеричномаслените култури не е компетентен орган, в 7-дневен срок от постъпването на предложение или сигнал го препраща на компетентния орган, като уведомява за това направилия предложението или сигнала. Анонимни предложения и сигнали, както и сигнали, отнасящи се до нарушения, извършени преди повече от две години, се оставят без разглеждане.</p>
+            <p>(2) Решение по предложение и сигнал се взема най-късно до два месеца от неговото постъпване и в 7-дневен срок от постановяване на решението се съобщава на подателя.</p>
+            <p>(3) Когато е необходимо по-продължително проучване, срокът на вземане на решение може да бъде продължен от ръководителя, като писмено подателят се уведомява:</p>
+            <p>1. до шест месеца - при предложение;</p>
+            <p>2. до един месец - при сигнал.</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл.14б.</num>
+          <content>
+            <p>Приемно време за изслушване на предложения и сигнали на граждани и организации от ръководителя или упълномощено от него длъжностно лице е всеки четвъртък от 14 до 16 ч.”</p>
+            <p>За министър:  Св. Бъчварова</p>
+            <p>8971</p>
+          </content>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

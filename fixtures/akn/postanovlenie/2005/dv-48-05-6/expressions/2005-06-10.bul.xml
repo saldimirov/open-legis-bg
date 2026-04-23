@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-48-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-48-05-6"/>
+          <FRBRalias value="Постановление № 103 от 2 юни 2005 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 103 от 2 юни 2005 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2005/dv-48-05-6"/>
+          <FRBRdate date="2005-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-48-05-6/bul@2005-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-48-05-6/bul@2005-06-10"/>
+          <FRBRdate date="2005-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-48-05-6/bul@2005-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-48-05-6/bul@2005-06-10.xml"/>
+          <FRBRdate date="2005-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-06-10" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 103 от 2 юни 2005 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 19 от 2002 г.; изм. и доп., бр. 85 и 86 от 2002 г., бр. 68 и 75 от 2003 г., бр. 13 и 56 от 2004 г. и бр. 29 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 20, ал. 3 от Постановление № 33 на Министерския съвет от 2002 г. за координация и мониторинг на подготовката на Република България за присъединяване към Европейския съюз (обн., ДВ, бр. 19 от 2002 г.; изм. и доп., бр. 85 и 86 от 2002 г., бр. 68 и 75 от 2003 г., бр. 13 и 56 от 2004 г. и бр. 29 от 2005 г.) се създава изречение второ:</p>
+            <p>“По преценка на органа по назначаването, а за второстепенните разпоредители с бюджетни кредити - съгласувано със съответния първостепенен разпоредител с бюджетни кредити, средствата за награди по ал. 1 или част от тях могат да бъдат разходвани и за обучение на лицата по ал. 2.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 11 на Министерския съвет от 2005 г. за изпълнението на държавния бюджет на Република България за 2005 г. (ДВ, бр. 10 от 2005 г.) се правят следните изменения и допълнения:</p>
+            <p>1. В чл. 78 след думите “средства за награди” се добавя “и/или обучение”.</p>
+            <p>2. В наименованието на приложение № 4 към чл. 78 думите “стимулиране под формата на” се заменят с “обучение и/или”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

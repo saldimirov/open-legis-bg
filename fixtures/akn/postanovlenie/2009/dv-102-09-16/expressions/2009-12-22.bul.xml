@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-16"/>
+          <FRBRalias value="Постановление № 303 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 303 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2009/dv-102-09-16"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-16/bul@2009-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-16/bul@2009-12-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-16/bul@2009-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-16/bul@2009-12-22.xml"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 303 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 55 от 2005 г.; изм., бр. 45 и 79 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 след думите „на престъпността“ се поставя запетая и се добавя „който“, а след думата „насоки“ се добавя „и становища”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3 ал. 2 се изменя така: „</p>
+            <p>(2) Председател на комисията е замест­ ник министър-председателят и министър на вътрешните работи.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 3 ал. 4 се изменя така: „</p>
+            <p>(4) Членове на комисията са: 1. директорът на Главна дирекция „Кри­ минална полиция“ на Министерството на въ­ трешните работи; 2. директорът на Главна дирекция „Ох­ ранителна полиция“ на Министерството на вътрешните работи; 3. директорът на специализирана админи­ стративна дирекция „Пресцентър и връзки с обществеността“ на Министерството на въ­ трешните работи; 4. ректорът на Академията на Министер­ ството на вътрешните работи;</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

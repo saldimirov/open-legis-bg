@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-9/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-9"/>
+          <FRBRalias value="Постановление № 17 ОТ 24 ЯНУАРИ 2013 Г. за одобряване на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 17 ОТ 24 ЯНУАРИ 2013 Г. за одобряване на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2013/dv-9-13-9"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-9/bul@2013-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-9/bul@2013-02-01"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-9/bul@2013-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-9/bul@2013-02-01.xml"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-01" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 17 ОТ 24 ЯНУАРИ 2013 Г. за одобряване на допълнителни бюджетни</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни бюджет­ ни кредити от централния бюджет за 2013 г. в общ размер до 30 000 000 лв. по бюджетите на общини съгласно приложението за осно­ вен ремонт и за изграждане на детски ясли и детски градини.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по чл. 1 да се осигурят от разчетените средства от резерва за непред­ видени и неотложни разходи – за структурни реформи и допълнителни фискални мерки, по чл. 1, ал. 2, т. 4.1 от Закона за държавния бюджет на Република България за 2013 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да из­ върши налагащите се от чл. 1 промени в бюджетните взаимоотношения на общините с централния бюджет за 2013 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа­ ние чл. 28, ал. 1 от Закона за устройството на държавния бюджет във връзка с § 4, ал. 4, т. 2 СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 9 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2013 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Цветан Цветанов Главен секретар на Министерския съвет: Росен Желязков Приложение към чл. 1, ал. 1 Общини Сума (в лв.) Бургас 2 000 000 Варна 4 000 000 Плевен 2 000 000 Пловдив 4 000 000 Русе 2 000 000 Стара Загора 2 000 000 Столична община 14 000 000 ВСИЧКО: 30 000 000 842</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

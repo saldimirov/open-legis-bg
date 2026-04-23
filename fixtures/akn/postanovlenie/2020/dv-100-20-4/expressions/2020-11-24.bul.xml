@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-4/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-4"/>
+          <FRBRalias value="Постановление № 310 ОТ 20 НОЕМВРИ 2020 Г. за допълнение на Постановление № 381 на" name="short"/>
+          <FRBRalias value="Постановление № 310 ОТ 20 НОЕМВРИ 2020 Г. за допълнение на Постановление № 381 на" name="eli" other="/eli/bg/postanovlenie/2020/dv-100-20-4"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-4/bul@2020-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-4/bul@2020-11-24"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-4/bul@2020-11-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-4/bul@2020-11-24.xml"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-11-24" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 310 ОТ 20 НОЕМВРИ 2020 Г. за допълнение на Постановление № 381 на</p>
+      <p>(обн., ДВ, бр. 2 от 2020 г.; изм и доп., бр. 20, 39 и 56 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 66: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 66.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Средствата от заема по спора­ зумението за заем между Европейския съюз и Република България, сключено съгласно чл. 8, параграф 2 от Регламент (ЕС) 2020/672 на Съвета от 19 май 2020 г. за създаване на Европейски инструмент за временна подкрепа с цел смекчаване на рисковете от безработица при извънредни обстоятелства (SURE) вслед­ ствие на избухването на COVID-19 (OВ, L 159 от 20 май 2020 г.), постъпват в централния бюджет.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Постъпленията от заема по ал. 1 се администрират от Министерството на труда и социалната политика, а плащанията по неговото обслужване – от Министерството на финансите.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Средствата от заема по ал. 1 постъпват по отделно открита за целта сметка в евро на централния бюджет в Българската народна банка с титуляр – Министерството на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_4">
+            <num>(4)</num>
+            <content>
+              <p>След постъпването им по сметката по ал. 3 сумите от съответния транш по заема се превеждат по определена от министъра на финансите сметка на централния бюджет.“ БРОЙ 100 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 9 Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-12"/>
+          <FRBRalias value="Постановление № 195 от 5 август 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 195 от 5 август 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2008/dv-71-08-12"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-12/bul@2008-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-12/bul@2008-08-12"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-71-08-12/bul@2008-08-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-71-08-12/bul@2008-08-12.xml"/>
+          <FRBRdate date="2008-08-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-12" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 195 от 5 август 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 18 от 2004 г.; изм. и доп., бр. 46 от 2004 г., бр. 58, 74 и 78 от 2005 г., бр. 24, 40 и 46 от 2006 г., бр. 11, 46, 61, 88 и 100 от 2007 г. и бр. 3, 34, 37, 52 и 64 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Единния класификатор на длъжностите в администрацията, приет с Постановление № 47 на Министерския съвет от 2004 г. (обн., ДВ, бр. 18 от 2004 г.; изм. и доп., бр. 46 от 2004 г., бр. 58, 74 и 78 от 2005 г., бр. 24, 40 и 46 от 2006 г., бр. 11, 46, 61, 88 и 100 от 2007 г. и бр. 3, 34, 37, 52 и 64 от 2008 г.), се правят следните допълнения:</p>
+            <p>1. В длъжностно ниво Б1, колона 2 “Наименование на длъжността” след думите “Министерския съвет” се поставя точка и запетая и се добавя “държавен инспектор в Главния инспекторат”.</p>
+            <p>2. В длъжностно ниво Б2, колона 2 “Наименование на длъжността” след думите “правителствен преводач” се поставя точка и запетая и се добавя “главен инспектор в Главния инспекторат”.</p>
+            <p>3. В длъжностно ниво Б3, колона 2 “Наименование на длъжността” след думите “главен експерт в администрацията на Народното събрание, на Президента и на Министерския съвет” се поставя точка и запетая и се добавя “старши инспектор в Главния инспекторат”.</p>
+            <p>4. В длъжностно ниво Б5, колона 2 “Наименование на длъжността” след думите “младши експерт в администрацията на Народното събрание, на Президента и на Министерския съвет” се поставя точка и запетая и се добавя “младши инспектор в Главния инспекторат”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 12, ал. 1, т. 2 от Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 47 на Министерския съвет от 2004 г. (обн., ДВ, бр. 18 от 2004 г.; изм. и доп., бр. 46 и 72 от 2004 г., бр. 83 от 2005 г., бр. 28 от 2006 г. и бр. 64 от 2008 г.), думите “20 на сто” се заменят с “25 на сто”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

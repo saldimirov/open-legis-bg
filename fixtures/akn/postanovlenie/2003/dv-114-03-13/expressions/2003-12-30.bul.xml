@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-13"/>
+          <FRBRalias value="Постановление № 316 от 19 декември 2003 г. за откриване на Медицински факултет в структурата на Софийския университет „Св. Климент Охридски&quot;" name="short"/>
+          <FRBRalias value="Постановление № 316 от 19 декември 2003 г. за откриване на Медицински факултет в структурата на Софийския университет „Св. Климент Охридски&quot;" name="eli" other="/eli/bg/postanovlenie/2003/dv-114-03-13"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-13/bul@2003-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-13/bul@2003-12-30"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-13/bul@2003-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-13/bul@2003-12-30.xml"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-30" name="Държавен вестник" number="114" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 316 от 19 декември 2003 г. за откриване на Медицински факултет в структурата на Софийския университет „Св. Климент Охридски&quot;</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Министърът на финансите съгласувано с министъра на образованието и науката и министъра на държавната администрация и по предложение на Софийския университет „Св. Климент Охридски&amp;quot; и на директора на Болница „Лозенец&amp;quot; - София, да изготви и внесе по съответния ред предложения за финансово осигуряване на факултета по член единствен.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

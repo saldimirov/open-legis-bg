@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-9/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-9"/>
+          <FRBRalias value="Постановление № 164 ОТ 19 ЮНИ 2014 Г. за одобряване на допълнителни трансфери за бюджетите на общини за 2014 г." name="short"/>
+          <FRBRalias value="Постановление № 164 ОТ 19 ЮНИ 2014 Г. за одобряване на допълнителни трансфери за бюджетите на общини за 2014 г." name="eli" other="/eli/bg/postanovlenie/2014/dv-52-14-9"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-9/bul@2014-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-9/bul@2014-06-24"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-9/bul@2014-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-9/bul@2014-06-24.xml"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-24" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 164 ОТ 19 ЮНИ 2014 Г. за одобряване на допълнителни трансфери за бюджетите на общини за 2014 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни трансфери за бюджетите на общини в затруднено финансово състояние съгласно Наредбата за условията, реда и критериите за предоставяне на средства на общини в затруднено финансово състояние за 2014 г., приета с Постановление № 117 на Министерския съвет от 2014 г. (ДВ, бр. 42 от 2014 г.), в размер 14 933 000 лв., разпределени по общини съгласно приложението.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Допълнителните трансфери по чл. 1 да се осигурят за сметка на предвидените средства по централния бюджет за 2014 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по централния бюджет, включително по бюджетните взаимоотношения на общините с централния бюджет за 2014 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 89 от Закона за държавния бюджет на Република България за 2014 г. и чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

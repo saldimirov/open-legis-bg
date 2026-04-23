@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-25-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-25-10-4"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между пра­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между пра­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-25-10-4"/>
+          <FRBRdate date="2010-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-25-10-4/bul@2010-03-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-25-10-4/bul@2010-03-30"/>
+          <FRBRdate date="2010-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-25-10-4/bul@2010-03-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-25-10-4/bul@2010-03-30.xml"/>
+          <FRBRdate date="2010-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-30" name="Държавен вестник" number="25" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Спогодбата между пра­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>вителството на Република България и пра­ вителството на Румъния за работата на железопътните гранични преходи, подписана на 9 февруари 2007 г. в Русе Член единствен. Ратифицира Спогодбата между правителството на Република България и правителството на Румъния за работата на железопътните гранични преходи, подписана на 9 февруари 2007 г. в Русе. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

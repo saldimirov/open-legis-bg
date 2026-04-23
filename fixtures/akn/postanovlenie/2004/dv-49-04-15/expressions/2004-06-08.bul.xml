@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-49-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-49-04-15"/>
+          <FRBRalias value="Постановление № 112 от 28 май 2004 г. за изменение и допълнение на Постановление № 220 на Министерския съвет от 2003 г. за определяне на състава и дейността на Държавно-обществената консултативна комисия по проблемите на безопасността на движението по пътищата" name="short"/>
+          <FRBRalias value="Постановление № 112 от 28 май 2004 г. за изменение и допълнение на Постановление № 220 на Министерския съвет от 2003 г. за определяне на състава и дейността на Държавно-обществената консултативна комисия по проблемите на безопасността на движението по пътищата" name="eli" other="/eli/bg/postanovlenie/2004/dv-49-04-15"/>
+          <FRBRdate date="2004-06-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-49-04-15/bul@2004-06-08/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-49-04-15/bul@2004-06-08"/>
+          <FRBRdate date="2004-06-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-49-04-15/bul@2004-06-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-49-04-15/bul@2004-06-08.xml"/>
+          <FRBRdate date="2004-06-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-06-08" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 112 от 28 май 2004 г. за изменение и допълнение на Постановление № 220 на Министерския съвет от 2003 г. за определяне на състава и дейността на Държавно-обществената консултативна комисия по проблемите на безопасността на движението по пътищата</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се правят следните изменения и допълнения:</p>
+            <p>1. Алинея 3 се изменя така:</p>
+            <p>“(3) Секретарят на комисията е служител от администрацията на Министерството на вътрешните работи.”</p>
+            <p>2. Създава се ал. 4:</p>
+            <p>“(4) За подпомагане на работата към Секретариата се създават експертни съвети по направленията на дейност от експерти на отделните министерства и организации.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се създава ал. 3:</p>
+            <p>“(3) Между заседанията секретарят организира и подпомага изпълнението на приетите задачи.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

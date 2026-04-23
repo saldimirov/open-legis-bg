@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-9"/>
+          <FRBRalias value="Решение за избиране на председател на Комисията за" name="short"/>
+          <FRBRalias value="Решение за избиране на председател на Комисията за" name="eli" other="/eli/bg/reshenie_ns/2016/dv-51-16-9"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-9/bul@2016-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-9/bul@2016-07-05"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-9/bul@2016-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-9/bul@2016-07-05.xml"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на председател на Комисията за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>защита на конкуренцията Народното събрание на основание чл. 84, т. 8 от Конституцията на Република Бъл­ гария и чл. 4, ал. 1 от Закона за защита на конкуренцията Р Е Ш И : Избира Юлия Рачева Ненкова за председа­ тел на Комисията за защита на конкуренцията. Решението е прието от 43-то Народно събрание на 29 юни 2016 г. и е подпечатано с официалния печат на Народното събрание. За председател на Народното събрание: Димитър Главчев Подпечатано с държавния печат. Министър на правосъдието: Екатерина Захариева 5244</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

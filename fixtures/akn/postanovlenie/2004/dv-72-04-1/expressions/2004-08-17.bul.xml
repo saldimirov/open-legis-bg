@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-72-04-1/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-72-04-1"/>
+          <FRBRalias value="Постановление № 197 от 3 август 2004 г. за откриване на публично здравно заведение в системата на здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 197 от 3 август 2004 г. за откриване на публично здравно заведение в системата на здравеопазването" name="eli" other="/eli/bg/postanovlenie/2004/dv-72-04-1"/>
+          <FRBRdate date="2004-08-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-72-04-1/bul@2004-08-17/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-72-04-1/bul@2004-08-17"/>
+          <FRBRdate date="2004-08-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-72-04-1/bul@2004-08-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-72-04-1/bul@2004-08-17.xml"/>
+          <FRBRdate date="2004-08-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-08-17" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 197 от 3 август 2004 г. за откриване на публично здравно заведение в системата на здравеопазването</p>
+      <p>(обн., ДВ, бр. 105 от 1999 г.; изм. и доп., бр. 40, 62, 81 и 84 от 2000 г., бр. 9 от 2001 г., бр. 52, 74 и 118 от 2002 г. и бр. 2 и 15 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В двумесечен срок от влизането в сила на постановлението министърът на здравеопазването да издаде правилник за устройството и дейността на НМКЦ .</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Необходимите средства за създаването и функционирането на НМКЦ през 2004 г. се осигуряват чрез преструктуриране на общите разходи и числеността на персонала, одобрени по бюджета на Министерството на здравеопазването за 2004 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В Постановление № 218 на Министер&amp;shy;ския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на здраве&amp;shy;опазването (обн., ДВ, бр. 105 от 1999 г.; изм. и доп., бр. 40, 62, 81 и 84 от 2000 г., бр. 9 от 2001 г., бр. 52, 74 и 118 от 2002 г. и бр. 2 и 15 от 2004 г.) в приложение № 2 към чл. 3, ал. 2, т. 3 се правят следните изменения:</p>
+            <p>1. На ред 1 в колона 3 числото “3674” се заменя с “3651”.</p>
+            <p>2. Създава се ред 60:</p>
+            <p>“60. Национален медицински коорди-</p>
+            <p>национен център                                                      23”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 2, ал. 2 от Закона за народното здраве.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

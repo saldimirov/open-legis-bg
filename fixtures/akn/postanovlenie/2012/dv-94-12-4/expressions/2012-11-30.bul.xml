@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-4"/>
+          <FRBRalias value="Постановление № 292 ОТ 22 НОЕМВРИ 2012 Г. за изменение на Устройствения правилник на" name="short"/>
+          <FRBRalias value="Постановление № 292 ОТ 22 НОЕМВРИ 2012 Г. за изменение на Устройствения правилник на" name="eli" other="/eli/bg/postanovlenie/2012/dv-94-12-4"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-4/bul@2012-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-4/bul@2012-11-30"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-4/bul@2012-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-4/bul@2012-11-30.xml"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 292 ОТ 22 НОЕМВРИ 2012 Г. за изменение на Устройствения правилник на</p>
+      <p>(обн., ДВ, бр. 94 от 2009 г.; изм. и доп., бр. 74 и 102 от 2010 г., бр. 16, 52, 83 и 97 от 2011 г. и бр. 22, 42, 58 и 87 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 13, ал. 1 числото „17“ се заменя с „16“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 17, ал. 1 думите „и дирекция „Европейски инфраструктурни проекти и благоустройствени дейности“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложението към чл. 13, ал. 3 на ред „Политически кабинет в т.ч.: съветници, експерти и технически сътруд­ ници“ цифрата „6“ се заменя със „7“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 ноември 2012 г. За министър-председател: Симеон Дянков За главен секретар на Министерския съвет: Веселин Даков 10778</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

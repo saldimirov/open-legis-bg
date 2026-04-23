@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-31-16-6/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-31-16-6"/>
+          <FRBRalias value="Постановление № 84 ОТ 14 АПРИЛ 2016 Г. за изменение на Наредбата за критериите и" name="short"/>
+          <FRBRalias value="Постановление № 84 ОТ 14 АПРИЛ 2016 Г. за изменение на Наредбата за критериите и" name="eli" other="/eli/bg/postanovlenie/2016/dv-31-16-6"/>
+          <FRBRdate date="2016-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-31-16-6/bul@2016-04-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-31-16-6/bul@2016-04-19"/>
+          <FRBRdate date="2016-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-31-16-6/bul@2016-04-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-31-16-6/bul@2016-04-19.xml"/>
+          <FRBRdate date="2016-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-19" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 84 ОТ 14 АПРИЛ 2016 Г. за изменение на Наредбата за критериите и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 84 ОТ 14 АПРИЛ 2016 Г. за изменение на Наредбата за критериите и реда за избор на лечебни заведения за болнична помощ, с които Националната здравнооси­ гурителна каса сключва договори, приета с Постановление № 45 на Министерския съвет от 2016 г. (ДВ, бр. 19 от 2016 г.) МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Параграф единствен. В чл. 2, ал. 1 думите „основния и допълнителния пакет“ се заменят с „пакета от“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

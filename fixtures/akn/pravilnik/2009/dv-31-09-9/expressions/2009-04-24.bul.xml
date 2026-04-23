@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-31-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-31-09-9"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и дейността на Съвета по продуктите за растителна защита" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и дейността на Съвета по продуктите за растителна защита" name="eli" other="/eli/bg/pravilnik/2009/dv-31-09-9"/>
+          <FRBRdate date="2009-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-31-09-9/bul@2009-04-24/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-31-09-9/bul@2009-04-24"/>
+          <FRBRdate date="2009-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-31-09-9/bul@2009-04-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-31-09-9/bul@2009-04-24.xml"/>
+          <FRBRdate date="2009-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-04-24" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за организацията и дейността на Съвета по продуктите за растителна защита</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1 се правят следните изменения:</p>
+            <p>1. Числото “19” се заменя с “15”.</p>
+            <p>2. Думите “Изпълнителна агенция по сортоизпитване, апробация и семеконтрол”, “Селскостопанска академия”, “Министерството на финансите”, “Министерството на вътрешните работи” и “университети” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 7 се изменя така:</p>
+            <p>“Чл. 7. (1) По решение на СПРЗ или по решение на председателя към съвета могат да се създават експертни комисии, както и да се привличат експерти, които не са членове.</p>
+            <p>(2) Експертните комисии осъществяват своята дейност по вътрешни правила, утвърдени от председателя на СПРЗ;”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 16 се изменя така:</p>
+            <p>“Чл. 16. (1) Средствата, необходими за дейността на СПРЗ и на експертните комисии към него, се осигуряват в рамките на бюджета на НСРЗ.</p>
+            <p>(2) Размерът на средствата по ал. 1 се определя на базата на:</p>
+            <p>1. петнадесет членове на СПРЗ и 10 проведени заседания на съвета годишно;</p>
+            <p>2. тридесет членове на експертни комисии и 10 проведени заседания на всяка експертна комисия годишно.</p>
+            <p>(3) Членовете на Съвета по продуктите за растителна защита и членовете на експертните комисии получават възнаграждение в размер 2/3 от минималната работна заплата за страната, определена за съответната година с постановление на Министерския съвет, за всяко заседание, в което са участвали.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Правилникът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>Министър:  В. Цветанов</p>
+            <p>5711</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

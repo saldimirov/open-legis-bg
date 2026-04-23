@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-55-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-55-11-2"/>
+          <FRBRalias value="Закон за изменение на Закона за българските лични" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за българските лични" name="eli" other="/eli/bg/zid/2011/dv-55-11-2"/>
+          <FRBRdate date="2011-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-55-11-2/bul@2011-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-55-11-2/bul@2011-07-19"/>
+          <FRBRdate date="2011-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-55-11-2/bul@2011-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-55-11-2/bul@2011-07-19.xml"/>
+          <FRBRdate date="2011-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-19" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за българските лични</p>
+      <p>(обн., ДВ, бр. 93 от 1998 г.; изм., бр. 53, 67, 70 и 113 от 1999 г., бр. 108 от 2000 г., бр. 42 от 2001 г., бр. 45 и 54 от 2002 г., бр. 29 и 63 от 2003 г., бр. 96, 103 и 111 от 2004 г., бр. 43, 71, 86, 88 и 105 от 2005 г., бр. 30, 82 и 105 от 2006 г., бр. 29, 46 и 52 от 2007 г., бр. 66, 88 и 110 от 2008 г., бр. 35, 47, 82 и 102 от 2009 г., бр. 26 и 100 от 2010 г., бр. 9 и 23 от 2011 г., Решение № 2 на Конституционния съд от 2011 г. – бр. 32 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 75 т. 4 се отменя. Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Прекратява се действието на принуди­ телните административни мерки, приложени със заповеди на основание разпоредбата на отменената т. 4 на чл. 75.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-17-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-17-12-4"/>
+          <FRBRalias value="Постановление № 38 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 38 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2012/dv-17-12-4"/>
+          <FRBRdate date="2012-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-17-12-4/bul@2012-02-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-17-12-4/bul@2012-02-28"/>
+          <FRBRdate date="2012-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-17-12-4/bul@2012-02-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-17-12-4/bul@2012-02-28.xml"/>
+          <FRBRdate date="2012-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-28" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 38 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение и допълнение на нормативни</p>
+      <p>(обн., ДВ, бр. 53 от 2006 г.; изм. и доп., бр. 84 от Законът е приет от 41-ото Народно събра- ние на 15 февруари 2012 г. и е подпечатан с официалния печат на Народното събрание. Председател на Народното събрание: Цецка Цачева 1796 БРОЙ 17 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 а)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Правилника за прилагане на Закона за обществените поръчки, приет с Постановление № 150 на Министерския съвет от 2006 г. (обн., ДВ, бр. 53 от 2006 г.; изм. и доп., бр. 84 от</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

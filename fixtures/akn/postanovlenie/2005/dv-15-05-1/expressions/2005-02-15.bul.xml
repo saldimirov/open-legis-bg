@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-15-05-1/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-15-05-1"/>
+          <FRBRalias value="Постановление № 19 от 4 февруари 2005 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 19 от 4 февруари 2005 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-15-05-1"/>
+          <FRBRdate date="2005-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-15-05-1/bul@2005-02-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-15-05-1/bul@2005-02-15"/>
+          <FRBRdate date="2005-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-15-05-1/bul@2005-02-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-15-05-1/bul@2005-02-15.xml"/>
+          <FRBRdate date="2005-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-15" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 19 от 4 февруари 2005 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 78 от 1999 г.; изм. и доп., бр. 58 от 2001 г., бр. 1 и 115 от 2002 г., бр. 24 и 111 от 2003 г.; Решение № 963 на Върховния административен съд от 2004 г. - бр. 12 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 24 се създава ал. 4:</p>
+            <p>“(4) Забранява се продажбата на заглушители за огнестрелни оръжия освен за нуждите на Министерството на вътрешните работи и Въоръжените сили на Република България.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 59 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се ал. 1:</p>
+            <p>“(1) Забранява се придобиването, носенето и употребата за служебни и граждански цели на заглушители за огнестрелни оръжия.”</p>
+            <p>2. Досегашният текст става ал. 2.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-18"/>
+          <FRBRalias value="Постановление № 334 ОТ 8 ДЕКЕМВРИ 2011 Г. за българските неделни училища в чужбина" name="short"/>
+          <FRBRalias value="Постановление № 334 ОТ 8 ДЕКЕМВРИ 2011 Г. за българските неделни училища в чужбина" name="eli" other="/eli/bg/postanovlenie/2011/dv-99-11-18"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-18/bul@2011-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-18/bul@2011-12-16"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-18/bul@2011-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-18/bul@2011-12-16.xml"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-16" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 334 ОТ 8 ДЕКЕМВРИ 2011 Г. за българските неделни училища в чужбина</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>В българските неделни училища в чужбина се организира обучение за бълга­ рите, живеещи извън Република България.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>В училищата по ал. 1 се извършва обучение по български език и литература, по история и по география на България за учениците от I до XII клас и по български език за децата от предучилищна възраст. Дейност Отговорно ведомство Стой­ ност (в лв.) с ДДС 75. Ремонтни дейности на административната сгра­ да на ГКПП – Връшка чука. Областният у п ра ви т е л на облас т Видин 7452,20 76. Доставка и монтаж на 4 бр. светофарни уред­ би на ГКПП – Връшка чука. Областният у п ра ви т е л на облас т Видин 4320 77. Изграждане на до­ пълнителна козирка на пътните платна на ГКПП – Връшка чука. Областният у п ра ви т е л на облас т Видин 65 400 “ Заключителни разпоредби</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на ми­ нистъра на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

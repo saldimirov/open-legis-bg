@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-2"/>
+          <FRBRalias value="Постановление № 14 ОТ 25 ЯНУАРИ 2019 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 14 ОТ 25 ЯНУАРИ 2019 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2019/dv-10-19-2"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-2/bul@2019-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-2/bul@2019-02-01"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-2/bul@2019-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-2/bul@2019-02-01.xml"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-02-01" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 14 ОТ 25 ЯНУАРИ 2019 Г. за изменение и допълнение на Наредбата за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения: 1. Създават се нови т. 2 и 3: НАРОДНО СЪБРАНИЕ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

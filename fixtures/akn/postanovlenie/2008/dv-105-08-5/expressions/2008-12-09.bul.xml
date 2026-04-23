@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-5"/>
+          <FRBRalias value="Постановление № 289 от 28 ноември 2008 г. за изменение и допълнение на Наредбата за регулиране на цените на топлинната енергия, приета с Постановление № 131 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 289 от 28 ноември 2008 г. за изменение и допълнение на Наредбата за регулиране на цените на топлинната енергия, приета с Постановление № 131 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-105-08-5"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-5/bul@2008-12-09/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-5/bul@2008-12-09"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-5/bul@2008-12-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-5/bul@2008-12-09.xml"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-09" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 289 от 28 ноември 2008 г. за изменение и допълнение на Наредбата за регулиране на цените на топлинната енергия, приета с Постановление № 131 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 55 от 2004 г.;  изм. и доп., бр. 61 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се създава ал. 3:</p>
+            <p>“(3) При прилагането на методите по ал. 1, т. 2 цените могат да бъдат изменяни преди изтичане на ценовия период, в случай че е налице изменение на цените на природния газ, което води до необходимост от изменение на утвърдените ценообразуващи елементи.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 22а:</p>
+            <p>“Чл. 22а. Цените по чл. 16, 20, 22 и 23 ежегодно, при доказана необходимост, се изменят в съответствие с промените в цените на горивата.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 35а:</p>
+            <p>“Чл. 35а. (1) В случаите по чл. 4, ал. 3 комисията може да изменя цени на енергия в съответствие с промяната на цените на входа на газопреносната мрежа в сроковете по чл. 28 и 29 от Наредбата за регулиране на цените на природния газ.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В § 1 от допълнителните разпоредби т. 16 се изменя така:</p>
+            <p>“16. “Ценови период” е период, през който цените остават непроменени от комисията - обикновено една година, с изключение на случаите на изменение по чл. 4, ал. 3 и чл. 28.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>До 31 декември 2008 г. комисията може да измени цените на енергията в съответствие с промяната на цените на входа на газопреносната мрежа.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

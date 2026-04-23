@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-2/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-2"/>
+          <FRBRalias value="Закон за изменение на Закона за признаване, изпълнение и изпращане на актове за конфискация или отнемане и решения за налагане на финансови санкции" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за признаване, изпълнение и изпращане на актове за конфискация или отнемане и решения за налагане на финансови санкции" name="eli" other="/eli/bg/zid/2025/dv-47-25-2"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-2/bul@2025-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-2/bul@2025-06-10"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-2/bul@2025-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-2/bul@2025-06-10.xml"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-06-10" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за признаване, изпълнение и изпращане на актове за конфискация или отнемане и решения за налагане на финансови санкции</p>
+      <p>(обн., ДВ, бр. 15 от 2010 г.; изм., бр. 55 от 2011 г. и бр. 56 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 16, ал. 1 думите „7-дневен срок“ се заменят с „14-дневен срок“, а думите „трима съдии“ се заменят с „един съдия“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 45, ал. 1 думите „трима съдии“ се заменят с „един съдия“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В § 2а от допълнителните разпоредби думата „обезпечаване“ се заменя с „конфискация“. Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Неприключилите до влизането в сила на този закон съдебни производства по чл. 16, 32 и 45 се довършват по досегашния ред.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

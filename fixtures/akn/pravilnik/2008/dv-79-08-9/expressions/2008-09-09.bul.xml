@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-79-08-9/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-79-08-9"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Националната служба за съвети в земеделието" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Националната служба за съвети в земеделието" name="eli" other="/eli/bg/pravilnik/2008/dv-79-08-9"/>
+          <FRBRdate date="2008-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-79-08-9/bul@2008-09-09/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-79-08-9/bul@2008-09-09"/>
+          <FRBRdate date="2008-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-79-08-9/bul@2008-09-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-79-08-9/bul@2008-09-09.xml"/>
+          <FRBRdate date="2008-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-09-09" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на Националната служба за съвети в земеделието</p>
+      <p>(обн., ДВ, бр. 65 от 2000 г.; изм., бр. 29 от   2001 г  ., бр. 4 и 38 от 2002 г. и бр. 58 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 10 числото “20” се заменя със “17”, думите “два отдела” се заменят с “един отдел”, а думите “и “Аналитична лаборатория” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 13 се правят следните изменения:</p>
+            <p>1. В ал. 1 т. 26, 27, 28, 29 и 30 се отменят.</p>
+            <p>2. В ал. 2 думите “и гори” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде в устройствения правилник думите “Министерството на земеделието и горите” и “министъра на земеделието и горите” се заменят съответно с “Министерството на земеделието и храните” и “министъра на земеделието и храните”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Приложението към чл. 11 се изменя така:</p>
+            <p>“Приложение към чл. 11</p>
+            <p>Обща численост на службата - 125 щатни бройки</p>
+            <p>Изпълнителен директор                                                  1</p>
+            <p>Главен секретар                                                             1</p>
+            <p>Обща администрация                                                     15</p>
+            <p>в т. ч.</p>
+            <p>дирекция “Административно, финан-</p>
+            <p>сово, информационно обслужване и</p>
+            <p>човешки ресурси”                                                         15</p>
+            <p>Специализирана администрация                                   108</p>
+            <p>в т. ч.</p>
+            <p>Главна дирекция “Съвети в земеделието”                      108</p>
+            <p>в т. ч.</p>
+            <p>Териториални звена - 17 областни</p>
+            <p>служби за съвети в земеделието                                      96.”</p>
+            <p>Министър:  В. Цветанов</p>
+            <p>3150</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

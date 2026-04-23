@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-12"/>
+          <FRBRalias value="Закон за ратифициране на Рамковото споразумение" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Рамковото споразумение" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-98-10-12"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-12/bul@2010-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-12/bul@2010-12-14"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-12/bul@2010-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-12/bul@2010-12-14.xml"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Рамковото споразумение</p>
+      <p>(обн., ДВ, бр. 99 от 2009 г.; изм., бр. 59 и 62 от 2010 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>между Европейския съюз и неговите държави членки, от една страна, и Република Корея, от друга страна Член единствен. Ратифицира Рамковото спо­ разумение между Европейския съюз и неговите държави членки, от една страна, и Република Корея, от друга страна, подписано на 10 май 2010 г. в Брюксел.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

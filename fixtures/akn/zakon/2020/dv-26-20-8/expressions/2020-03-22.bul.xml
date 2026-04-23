@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-26-20-8/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-26-20-8"/>
+          <FRBRalias value="Закон за  ратифициране на Рамково споразумение за" name="short"/>
+          <FRBRalias value="Закон за  ратифициране на Рамково споразумение за" name="eli" other="/eli/bg/zakon/2020/dv-26-20-8"/>
+          <FRBRdate date="2020-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-26-20-8/bul@2020-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-26-20-8/bul@2020-03-22"/>
+          <FRBRdate date="2020-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-26-20-8/bul@2020-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-26-20-8/bul@2020-03-22.xml"/>
+          <FRBRdate date="2020-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-03-22" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за  ратифициране на Рамково споразумение за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ЗАКОН за ратифициране на Рамково споразумение за съвместно възлагане на обществени поръчки при мерки за медицинско противодействие Член единствен. Ратифицира Рамковото споразумение за съвместно възлагане на обществени поръчки при мерки за медицин­ ско противодействие, подписано на 14 юни 2019 г. в Люксембург, Велико Херцогство Люксембург.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

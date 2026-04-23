@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-43-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-43-13-1"/>
+          <FRBRalias value="Постановление № 100 ОТ 7 МАЙ 2013 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 100 ОТ 7 МАЙ 2013 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2013/dv-43-13-1"/>
+          <FRBRdate date="2013-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-43-13-1/bul@2013-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-43-13-1/bul@2013-05-14"/>
+          <FRBRdate date="2013-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-43-13-1/bul@2013-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-43-13-1/bul@2013-05-14.xml"/>
+          <FRBRdate date="2013-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-05-14" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 100 ОТ 7 МАЙ 2013 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 80 от 2007 г.; изм. и доп., бр. 65 и 107 от 2008 г., бр. 93 от 2009 г., бр. 34 от 2010 г. и бр. 71 от 2011 г.; попр., бр. 72 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5, ал. 2 се правят следните из- менения и допълнения: 1. В т. 8 думите „(пътни, дневни и квар- тирни)“ се заличават. 2. В т. 10 след думата „данъци“ се добавя „и такси“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 8 т. 7 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 15, т. 6 думите „(пътни, дневни и квартирни)“ се заличават. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. Министър-председател и министър на външните работи: Марин Райков Главен секретар на Министерския съвет: Росен Желязков 3920</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

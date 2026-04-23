@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-6-12-6/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-6-12-6"/>
+          <FRBRalias value="Постановление № 2 ОТ 13 ЯНУАРИ 2012 Г. за изменение и допълнение на Тарифата за" name="short"/>
+          <FRBRalias value="Постановление № 2 ОТ 13 ЯНУАРИ 2012 Г. за изменение и допълнение на Тарифата за" name="eli" other="/eli/bg/postanovlenie/2012/dv-6-12-6"/>
+          <FRBRdate date="2012-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-6-12-6/bul@2012-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-6-12-6/bul@2012-01-20"/>
+          <FRBRdate date="2012-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-6-12-6/bul@2012-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-6-12-6/bul@2012-01-20.xml"/>
+          <FRBRdate date="2012-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-20" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 2 ОТ 13 ЯНУАРИ 2012 Г. за изменение и допълнение на Тарифата за</p>
+      <p>(обн., ДВ, бр. 48 от 2004 г.; изм. и доп., бр. 51 от 2005 г., бр. 14 от 2006 г. и бр. 43 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се правят следните изменения и допълнения: 1. В т. 1: а) след думите „за създаване на български филм“ се поставя запетая и се добавя „на бъл­ гарски филми, свързани с национални прояви и чествания на събития и бележити дейци“; б) думите „на филм при условията на ко­ продукция с европейски страни“ се заменят с „на филми при условията на копродукция с държави – страни по Европейската конвенция за кинематографската копродукция“. 2. Създава се т. 4: „4. за промоция на български филми на меж­ дународни и национални кинофестивали, седми­ ци и панорами на българското кино – 250 лв.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 1 от заключителните разпоредби думите „чл. 25“ се заменят с „чл. 25 и чл. 26, ал. 8“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

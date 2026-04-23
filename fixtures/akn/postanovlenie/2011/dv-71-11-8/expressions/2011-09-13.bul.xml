@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-8"/>
+          <FRBRalias value="Постановление № 256 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Постановление № 65 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 256 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Постановление № 65 на Ми­" name="eli" other="/eli/bg/postanovlenie/2011/dv-71-11-8"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-8/bul@2011-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-8/bul@2011-09-13"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-8/bul@2011-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-8/bul@2011-09-13.xml"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 256 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Постановление № 65 на Ми­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 „Раз­ пределение на допълнителните средства за финансиране на приоритетни инфраструктурни обекти и за неотложни разходи по бюджета на Министерството на регионалното развитие и благоустройството за 2011 г.“ т. 5 се изменя така: „5. Обекти „Текущ ремонт“ 7 000 000 Път І-7, Ямбол – Елхово, участък от км 265+190 до км 296+179 7 000 000“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-80-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-80-08-3"/>
+          <FRBRalias value="Постановление № 213 от 2 септември 2008 г. за приемане на Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос и за одобряване на Тарифа за таксите, които се събират по Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори" name="short"/>
+          <FRBRalias value="Постановление № 213 от 2 септември 2008 г. за приемане на Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос и за одобряване на Тарифа за таксите, които се събират по Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори" name="eli" other="/eli/bg/postanovlenie/2008/dv-80-08-3"/>
+          <FRBRdate date="2008-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-80-08-3/bul@2008-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-80-08-3/bul@2008-09-12"/>
+          <FRBRdate date="2008-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-80-08-3/bul@2008-09-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-80-08-3/bul@2008-09-12.xml"/>
+          <FRBRdate date="2008-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-09-12" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 213 от 2 септември 2008 г. за приемане на Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос и за одобряване на Тарифа за таксите, които се събират по Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори</p>
+      <p>(обн., ДВ, бр. 11 от 2007 г.; изм. и доп., бр. 109 от 2007 г. и бр. 36 от 2008 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос съгласно приложения № 1 и 2.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Одобрява Тарифа за таксите, които се събират по Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 2 от Тарифата за таксите, които се събират по Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба, одобрена с Постановление № 72 на Министерския съвет от 2007 г. (ДВ, бр. 32 от 2007 г.), се правят следните допълнения:</p>
+            <p>1. В т. 1 след думата “внос” се поставя запетая и се добавя “транзит”.</p>
+            <p>2. В т. 5 след думите “за разглеждане на заявление” се добавя “за издаване на разрешение за износ или трансфер или”.</p>
+            <p>3. В т. 9 след думите “за износ” се добавя “или трансфер”.</p>
+            <p>4. В т. 10 след думите “за износ” се добавя “или трансфер”.</p>
+            <p>5. В т. 12 след думата “допълнено” се добавя “и/или продължено”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменят се Списъкът на оръжията и Списъкът на изделията и технологиите с двойна употреба, които подлежат на контрол при внос, приети с Постановление № 115 на Министерския съвет от 2007 г. (ДВ, бр. 43 от 2007 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 2, ал. 1 от Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба (обн., ДВ, бр. 11 от 2007 г.; изм. и доп., бр. 109 от 2007 г. и бр. 36 от 2008 г.) и чл. 9, ал. 4 от Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори (обн., ДВ, бр. 8 от 2000 г.; изм., бр. 75 от 2002 г. и бр. 11 от 2007 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

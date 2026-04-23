@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-10/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-10"/>
+          <FRBRalias value="Постановление № 207 от 23 септември 2003 г. за изменение и допълнение на Постановление № 137 на Министерския съвет от 2003 г. за определяне на таксите за кандидатстване и обучение в държавните висши училища за учебната 2003 - 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 207 от 23 септември 2003 г. за изменение и допълнение на Постановление № 137 на Министерския съвет от 2003 г. за определяне на таксите за кандидатстване и обучение в държавните висши училища за учебната 2003 - 2004 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-86-03-10"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-10/bul@2003-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-10/bul@2003-09-30"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-10/bul@2003-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-10/bul@2003-09-30.xml"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-30" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 207 от 23 септември 2003 г. за изменение и допълнение на Постановление № 137 на Министерския съвет от 2003 г. за определяне на таксите за кандидатстване и обучение в държавните висши училища за учебната 2003 - 2004 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 4 към  чл.5 на ред 2 в колона „Редовно обучение&amp;quot; числото „210&amp;quot; се заменя с „310&amp;quot;, а в колона „Задочно обучение&amp;quot; числото „105&amp;quot; се заменя със „155&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 5 към чл. 6 се създава ред 36, като в колона 2 се записва „Национален военен университет „Васил Левски&amp;quot;, в колона 9-числото „3500&amp;quot;, в колона 10-числото „1500&amp;quot;, и в колона 11-числото „3000&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

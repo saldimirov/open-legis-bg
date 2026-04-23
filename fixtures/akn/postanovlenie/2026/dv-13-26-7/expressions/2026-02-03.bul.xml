@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-7/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-7"/>
+          <FRBRalias value="Постановление № 23 от 29 януари 2026 г. за откриване на Институт по криптоикономика, блокчейн и иновации като основно звено в структурата на Университета за национално и световно стопанство, гр. София" name="short"/>
+          <FRBRalias value="Постановление № 23 от 29 януари 2026 г. за откриване на Институт по криптоикономика, блокчейн и иновации като основно звено в структурата на Университета за национално и световно стопанство, гр. София" name="eli" other="/eli/bg/postanovlenie/2026/dv-13-26-7"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-7/bul@2026-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-7/bul@2026-02-03"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-7/bul@2026-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-7/bul@2026-02-03.xml"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-03" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 23 от 29 януари 2026 г. за откриване на Институт по криптоикономика, блокчейн и иновации като основно звено в структурата на Университета за национално и световно стопанство, гр. София</p>
+      <p>(обн., ДВ, бр. 42 от 2016 г.; изм. и доп., бр. 101 от 2020 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ ПОСТАНОВИ: Член единствен. Открива Институт по криптоикономика, блокчейн и иновации като основно звено в структурата на Университета за национално и световно стопанство, гр. София. Заключителна разпоредба Параграф единствен. Постановлението се приема на основание чл. 9, ал. 3, т. 3, буква „а“ от Закона за висшето образование.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

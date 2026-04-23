@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-50-18-3/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-50-18-3"/>
+          <FRBRalias value="Закон за ратифициране на Протокола за предвари-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протокола за предвари-" name="eli" other="/eli/bg/ratifikatsiya/2018/dv-50-18-3"/>
+          <FRBRdate date="2018-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-50-18-3/bul@2018-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-50-18-3/bul@2018-06-15"/>
+          <FRBRdate date="2018-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-50-18-3/bul@2018-06-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-50-18-3/bul@2018-06-15.xml"/>
+          <FRBRdate date="2018-06-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-15" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протокола за предвари-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>телно изпълнение на Споразумението относно Единния патентен съд Член единствен. Ратифицира Протокола за предварително изпълнение на Споразумението относно Единния патентен съд, подписан от Република България на 11 септември 2017 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

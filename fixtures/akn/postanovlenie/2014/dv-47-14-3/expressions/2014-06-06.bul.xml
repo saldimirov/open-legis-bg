@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-47-14-3/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-47-14-3"/>
+          <FRBRalias value="Постановление № 132 ОТ 30 МАЙ 2014 Г. за изменение на Постановление № 186 на" name="short"/>
+          <FRBRalias value="Постановление № 132 ОТ 30 МАЙ 2014 Г. за изменение на Постановление № 186 на" name="eli" other="/eli/bg/postanovlenie/2014/dv-47-14-3"/>
+          <FRBRdate date="2014-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-47-14-3/bul@2014-06-06/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-47-14-3/bul@2014-06-06"/>
+          <FRBRdate date="2014-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-47-14-3/bul@2014-06-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-47-14-3/bul@2014-06-06.xml"/>
+          <FRBRdate date="2014-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-06" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 132 ОТ 30 МАЙ 2014 Г. за изменение на Постановление № 186 на</p>
+      <p>(обн., ДВ, бр. 71 от 2010 г.; изм. и доп., бр. 40 и 106 от 2011 г., бр. 18 от 2012 г. и бр. 17, 40 и 62 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието думите „І до ІV клас“ се заменят с „І до V клас“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения: 1. В ал. 1 думите „І до ІV клас“ се заменят с „І до V клас“. 2. В ал. 2 думите „І до ІV клас“ се заменят с „І до V клас“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 2 думите „І до ІV клас“ се за­ менят с „І до V клас“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 3 думите „І до ІV клас“ се за­ менят с „І до V клас“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от учебната 2014/2015 година.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

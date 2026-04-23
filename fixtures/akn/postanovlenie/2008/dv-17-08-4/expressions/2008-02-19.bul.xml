@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-17-08-4/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-17-08-4"/>
+          <FRBRalias value="Постановление № 17 от 8 февруари 2008 г. за промени в структурата на Русенския университет “Ангел Кънчев”" name="short"/>
+          <FRBRalias value="Постановление № 17 от 8 февруари 2008 г. за промени в структурата на Русенския университет “Ангел Кънчев”" name="eli" other="/eli/bg/postanovlenie/2008/dv-17-08-4"/>
+          <FRBRdate date="2008-02-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-17-08-4/bul@2008-02-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-17-08-4/bul@2008-02-19"/>
+          <FRBRdate date="2008-02-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-17-08-4/bul@2008-02-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-17-08-4/bul@2008-02-19.xml"/>
+          <FRBRdate date="2008-02-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-02-19" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 17 от 8 февруари 2008 г. за промени в структурата на Русенския университет “Ангел Кънчев”</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Закрива Техническия колеж - Силистра, в структурата на Русенския университет “Ангел Кънчев”.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Преобразува Технологичния колеж - Разград, в структурата на Русенския университет “Ангел Кънчев” във Филиал на Русенския университет “Ангел Кънчев” със седалище Разград за обучение по специалности от професионални направления 5.10 Химични технологии, 5.11 Биотехнологии и 5.12 Хранителни технологии.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Студентите от закрития колеж по чл. 1 продължават обучението си в Русенския университет “Ангел Кънчев” за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Студентите от преобразувания колеж по чл. 2 продължават обучението си във Филиала на Русенския университет “Ангел Кънчев” - Разград, за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Движимото имущество и архивът на закрития Технически колеж - Силистра, се предоставят на Филиала на Русенския университет “Ангел Кънчев” със седалище Силистра.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

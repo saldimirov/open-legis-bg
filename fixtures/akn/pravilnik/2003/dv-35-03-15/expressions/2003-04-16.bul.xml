@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-15"/>
+          <FRBRalias value="Правилник за устройството и дейността на Националния институт за помирение и арбитраж" name="short"/>
+          <FRBRalias value="Правилник за устройството и дейността на Националния институт за помирение и арбитраж" name="eli" other="/eli/bg/pravilnik/2003/dv-35-03-15"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-15/bul@2003-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-15/bul@2003-04-16"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-15/bul@2003-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-15/bul@2003-04-16.xml"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-04-16" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за устройството и дейността на Националния институт за помирение и арбитраж</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава     първа</num>
+        <heading>ОБЩИ РАЗПОРЕДБИ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С правилника се уреждат дейността, числеността, структурата и организацията на работата на Националния институт за помирение и арбитраж, наричан по-нататък „института&amp;quot;, както и функциите на неговите организационни структури и административни звена.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Институтът е юридическо лице със седалище София.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Институтът се ръководи и представлява от директор.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_1__art_3__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Институтът е второстепенен разпоредител с бюджетни кредити към министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Издръжката на института се формира от бюджетни средства и от собствени приходи.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_3">
+            <num>(3)</num>
+            <intro>
+              <p>Източниците на собствени приходи са:</p>
+            </intro>
+            <point eId="chap_1__art_3__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>от национални и международни програми;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>от отпечатване и разпространение на материали, свързани с дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>от информационно обслужване;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_3__pt_4">
+              <num>4.</num>
+              <content>
+                <p>от провеждане на курсове и семинари;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_3__pt_5">
+              <num>5.</num>
+              <content>
+                <p>от дарения;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_3__pt_6">
+              <num>6.</num>
+              <content>
+                <p>други.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Основна дейност на института са посредничеството и арбитражът при уреждане на колективните трудови спорове.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_5">
+          <num>Чл. 5.</num>
+          <intro>
+            <p>При осъществяване на основната си дейност институтът:</p>
+          </intro>
+          <point eId="chap_1__art_5__pt_1">
+            <num>1.</num>
+            <intro>
+              <p>събира, съхранява и анализира данни самостоятелно и в сътрудничество със социалните партньори за:</p>
+            </intro>
+            <point eId="chap_1__art_5__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>колективното трудово договаряне;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>възникналите колективни трудови спорове;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_1__l_3">
+              <num>в)</num>
+              <content>
+                <p>причините за възникване на колективните трудови спорове;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_1__l_4">
+              <num>г)</num>
+              <content>
+                <p>способите и сроковете за уреждането на колективните трудови спорове;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="chap_1__art_5__pt_2">
+            <num>2.</num>
+            <intro>
+              <p>класифицира информация по:</p>
+            </intro>
+            <point eId="chap_1__art_5__pt_2__l_1">
+              <num>а)</num>
+              <content>
+                <p>видове икономически дейности;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_2__l_2">
+              <num>б)</num>
+              <content>
+                <p>вида на предприятията-малки, средни, големи;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_2__l_3">
+              <num>в)</num>
+              <content>
+                <p>характер на исканията;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__pt_2__l_4">
+              <num>г)</num>
+              <content>
+                <p>брой на работниците и/или служителите, засегнати от колективния трудов спор;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="chap_1__art_5__pt_3">
+            <num>3.</num>
+            <content>
+              <p>разработва програми за обучение;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_4">
+            <num>4.</num>
+            <content>
+              <p>провежда обучения на посредници и арбитри;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_5">
+            <num>5.</num>
+            <content>
+              <p>поддържа база от данни с информация за посредниците и арбитрите, както и за проведените обучения с тях;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_6">
+            <num>6.</num>
+            <content>
+              <p>осъществява сътрудничество с български и международни институции и организации във връзка с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_7">
+            <num>7.</num>
+            <content>
+              <p>провежда консултации в областта на своята дейност;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_8">
+            <num>8.</num>
+            <content>
+              <p>издава информационни издания, лекторски материали и други, свързани с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_9">
+            <num>9.</num>
+            <content>
+              <p>организира специализирано обучение в страната и в чужбина, свързано с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_10">
+            <num>10.</num>
+            <content>
+              <p>участва в разработването на нормативни документи и предлага на министъра на труда и социалната политика усъвършенстване на нормативната уредба относно уреждането на колективните трудови спорове;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_11">
+            <num>11.</num>
+            <content>
+              <p>проучва и предлага за реализация добрата международна практика в областта на уреждането на колективните трудови спорове;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_5__pt_12">
+            <num>12.</num>
+            <content>
+              <p>осъществява и други функции, възложени му с нормативни актове.</p>
+            </content>
+          </point>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава      втора</num>
+        <heading>ДИРЕКТОР</heading>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <paragraph eId="chap_2__art_6__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Директорът на института се назначава от министъра на труда и социалната политика по трудово правоотношение, след консултации с надзорния съвет на института.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_6__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Директорът ръководи, координира и контролира осъществяването на цялостната дейност на института съобразно нормативно установените правомощия, като:</p>
+            </intro>
+            <point eId="chap_2__art_6__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>осъществява оперативното ръководство на института и го представлява;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>организира разработването и изпълнението на програмите на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_3">
+              <num>3.</num>
+              <intro>
+                <p>внася в надзорния съвет на института за утвърждаване:</p>
+              </intro>
+              <point eId="chap_2__art_6__al_2__pt_3__l_1">
+                <num>а)</num>
+                <content>
+                  <p>проекти на програми за дейността на института;</p>
+                </content>
+              </point>
+              <point eId="chap_2__art_6__al_2__pt_3__l_2">
+                <num>б)</num>
+                <content>
+                  <p>проект на бюджет и отчет за изпълнението на бюджета на института;</p>
+                </content>
+              </point>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>сключва договори, свързани с дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_5">
+              <num>5.</num>
+              <content>
+                <p>провежда информационната политика на института, която при спазване разпоредбите на Конституцията и законите на страната гарантира откритост и достъпност на дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_6">
+              <num>6.</num>
+              <content>
+                <p>взаимодейства с органите на държавната администрация, организациите на работодателите и на работниците и служителите, както и с други организации, органи и лица във връзка с дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_7">
+              <num>7.</num>
+              <content>
+                <p>ежегодно издава удостоверенията на посредниците и арбитрите по образец съгласно приложение № 1;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_8">
+              <num>8.</num>
+              <content>
+                <p>утвърждава образец на печата на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_9">
+              <num>9.</num>
+              <content>
+                <p>утвърждава длъжностното разписание и длъжностните характеристики;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_10">
+              <num>10.</num>
+              <content>
+                <p>назначава и освобождава служителите на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_11">
+              <num>11.</num>
+              <content>
+                <p>сключва, изменя и прекратява трудовите договори с лицата, работещи в института по трудово правоотношение;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_12">
+              <num>12.</num>
+              <content>
+                <p>командирова със заповед служителите от института в страната и в чужбина;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_13">
+              <num>13.</num>
+              <content>
+                <p>командирова членовете на надзорния съвет в страната и в чужбина;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_14">
+              <num>14.</num>
+              <content>
+                <p>изготвя и представя на надзорния съвет доклад за дейността на института до министъра на труда и социалната политика;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_15">
+              <num>15.</num>
+              <content>
+                <p>разпорежда се с бюджета на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_16">
+              <num>16.</num>
+              <content>
+                <p>осъществява и други функции, свързани с дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_6__al_2__pt_17">
+              <num>17.</num>
+              <content>
+                <p>при отсъствие на директора той се замества от заместник-директора на института.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава      трета</num>
+        <heading>СТРУКТУРА И ФУНКЦИИ НА АДМИНИСТРАЦИЯТА НА ИНСТИТУТА</heading>
+        <article eId="chap_3__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="chap_3__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Институтът е организиран в една дирекция.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Общата численост на персонала на института е 30 щатни бройки.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_8">
+          <num>Чл. 8.</num>
+          <intro>
+            <p>Администрацията на института осигурява:</p>
+          </intro>
+          <point eId="chap_3__art_8__pt_1">
+            <num>1.</num>
+            <content>
+              <p>техническото изпълнение на правомощията на директора и дейностите по административното обслужване на страните в колективните трудови спорове;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_2">
+            <num>2.</num>
+            <content>
+              <p>разработва проект на бюджет и отчет за изпълнението на бюджета на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_3">
+            <num>3.</num>
+            <content>
+              <p>разработва проекти на програми и изготвя отчет за изпълнението на програмите на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_4">
+            <num>4.</num>
+            <content>
+              <p>организира и координира провеждането на обучението на посредниците и арбитрите;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_5">
+            <num>5.</num>
+            <intro>
+              <p>поддържа базата с данни за:</p>
+            </intro>
+            <point eId="chap_3__art_8__pt_5__l_1">
+              <num>а)</num>
+              <content>
+                <p>колективното трудово договаряне;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__pt_5__l_2">
+              <num>б)</num>
+              <content>
+                <p>възникналите колективни трудови спорове;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__pt_5__l_3">
+              <num>в)</num>
+              <content>
+                <p>причините за възникване на колективни трудови спорове;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__pt_5__l_4">
+              <num>г)</num>
+              <content>
+                <p>способите и сроковете за уреждането на колективни трудови спорове;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__pt_5__l_5">
+              <num>д)</num>
+              <content>
+                <p>посредниците и арбитрите с персонални данни за тях, както и за обучението, което са преминали, и за споровете, при които са посредничили или са били арбитри;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__pt_5__l_6">
+              <num>е)</num>
+              <content>
+                <p>броя на засегнатите от колективни трудови спорове;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="chap_3__art_8__pt_6">
+            <num>6.</num>
+            <content>
+              <p>подготвя провеждането на международни срещи и прояви в областта на дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_7">
+            <num>7.</num>
+            <content>
+              <p>дава консултации, свързани с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_8">
+            <num>8.</num>
+            <content>
+              <p>разработва и участва в разработването на проекти на нормативни документи, свързани с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_9">
+            <num>9.</num>
+            <content>
+              <p>проучва и предлага за реализиране добрата международна практика в областта на уреждане на колективните трудови спорове;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_10">
+            <num>10.</num>
+            <content>
+              <p>води отчета и съхранява документацията от дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_11">
+            <num>11.</num>
+            <content>
+              <p>води отчета и съхранява личната документация на служителите на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_12">
+            <num>12.</num>
+            <content>
+              <p>осигурява техническото и административното обслужване на дейността на надзорния съвет на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_13">
+            <num>13.</num>
+            <content>
+              <p>води регистър на издадените удостоверения на посредниците и арбитрите;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_14">
+            <num>14.</num>
+            <content>
+              <p>осъществява протоколната дейност и връзките с обществеността;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_15">
+            <num>15.</num>
+            <content>
+              <p>извършва счетоводното отчитане на приходите и разходите;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_16">
+            <num>16.</num>
+            <content>
+              <p>изготвя месечните, тримесечните и годишните отчети за касовото изпълнение на бюджета на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_17">
+            <num>17.</num>
+            <content>
+              <p>осъществява процесуалното представителство на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_18">
+            <num>18.</num>
+            <content>
+              <p>подготвя проекти на договори и дава становища по законосъобразността на договори, предложени на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_19">
+            <num>19.</num>
+            <content>
+              <p>подготвя актовете за назначаване и трудовите договори с работещите в института и оформя прекратяването на трудовите правоотношения;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_20">
+            <num>20.</num>
+            <content>
+              <p>изготвя длъжностното разписание на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_21">
+            <num>21.</num>
+            <content>
+              <p>изготвя месечните и годишните оборотни ведомости на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_22">
+            <num>22.</num>
+            <content>
+              <p>осъществява и други функции, възложени от министъра на труда и социалната политика или директора на института със заповед;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_23">
+            <num>23.</num>
+            <content>
+              <p>разработва информацията и следи за актуалността й на електронния адрес (страница) на института в интернет;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_8__pt_24">
+            <num>24.</num>
+            <content>
+              <p>събира, съхранява и обобщава мнения и препоръки за дейността на института.</p>
+            </content>
+          </point>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава      четвърта</num>
+        <heading>ПОСРЕДНИЦИ И АРБИТРИ</heading>
+        <article eId="chap_4__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_4__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Посредник или арбитър може да бъде само лице, включено в списъка на посредниците и арбитрите, утвърден от надзорния съвет на института.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Посредниците и арбитрите се предлагат на надзорния съвет на института за включване в списъка на посредниците и арбитрите от страна на държавата, национално представителните организации на работниците и служителите и на работодателите.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_9__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Всяка от трите страни, представени в надзорния съвет на института, може да предложи до 12 кандидати за посредници и до 12 кандидати за арбитри.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_9__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Посредниците и арбитрите, предложени от национално представителните организации на работниците и служителите и на работодателите, се определят от националните им представителни органи, а на държавата - от министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_9__al_5">
+            <num>(5)</num>
+            <content>
+              <p>При необходимост надзорният съвет на института може да утвърди допълнителен брой посредници и/или арбитри при спазване на принципа за разпределение по ал. 3.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_10">
+          <num>Чл. 10.</num>
+          <content>
+            <p>Утвърдените от надзорния съвет на института посредници и арбитри получават ежегодно удостоверение, с което се легитимират пред страните по спора.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_11">
+          <num>Чл. 11.</num>
+          <intro>
+            <p>Надзорният съвет на института може да изключи от списъка посредник или арбитър:</p>
+          </intro>
+          <point eId="chap_4__art_11__pt_1">
+            <num>1.</num>
+            <content>
+              <p>за груби нарушения на установените правила;</p>
+            </content>
+          </point>
+          <point eId="chap_4__art_11__pt_2">
+            <num>2.</num>
+            <content>
+              <p>за уронване на престижа и доброто име на института;</p>
+            </content>
+          </point>
+          <point eId="chap_4__art_11__pt_3">
+            <num>3.</num>
+            <content>
+              <p>при обективна невъзможност за изпълнение на задълженията му;</p>
+            </content>
+          </point>
+          <point eId="chap_4__art_11__pt_4">
+            <num>4.</num>
+            <content>
+              <p>по негово желание.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_4__art_12">
+          <num>Чл. 12.</num>
+          <content>
+            <p>Списъкът на посредниците и арбитрите се актуализира по реда на неговото приемане.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="chap_4__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Възнаграждението, което се дължи от страните по спора на посредника или на арбитъра, се определя по споразумение със спорещите страни.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Възнаграждението по ал. 1 не може да бъде по-малко от 100 лв. на ден.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_14">
+          <num>Чл. 14.</num>
+          <content>
+            <p>Посредникът или арбитърът предоставя на директора на института справка за уреждането на спора съгласно приложение № 2 не по-късно от 7 дни след уреждането му или прекратяване на дейността поради непостигнато съгласие от страните по спора.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_5">
+        <num>Глава      пета</num>
+        <heading>НАДЗОРЕН СЪВЕТ</heading>
+        <article eId="chap_5__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="chap_5__art_15__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Членовете на надзорния съвет на института за участието си в заседанията на съвета получават възнаграждение в размер 10 % от основната заплата на директора на института.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Възнаграждението по чл. 1 се заплаща за всяко заседание, на което членът на надзорния съвет е присъствал.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_15__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Директорът на института не получава възнаграждението по ал. 1.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_16">
+          <num>Чл. 16.</num>
+          <content>
+            <p>Надзорният съвет на института взема решения за командироване на свои членове в страната и в чужбина.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_6">
+        <num>Глава      шеста</num>
+        <heading>ОРГАНИЗАЦИЯ НА ДЕЙНОСТТА</heading>
+        <article eId="chap_6__art_17">
+          <num>Чл. 17.</num>
+          <content>
+            <p>Работното време на служителите в института е съгласно работното време на Министерството на труда и социалната политика.</p>
+          </content>
+        </article>
+        <article eId="chap_6__art_18">
+          <num>Чл. 18.</num>
+          <paragraph eId="chap_6__art_18__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Документите, изпратени до института от държавни органи, юридически или физически лица, ведомства и институции, се завеждат във входящ регистър, като се отбелязва датата на получаването им.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_6__art_18__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При завеждането на документите се извършва проверка за наличието на всички материали, посочени в тях, и се образува служебна преписка, която се разпределя според адресата и съдържанието й.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_6__art_19">
+          <num>Чл. 19.</num>
+          <content>
+            <p>Директорът разпределя преписките с резолюция, която съдържа указания, срок за изработване, дата и подпис.</p>
+          </content>
+        </article>
+        <article eId="chap_6__art_20">
+          <num>Чл. 20.</num>
+          <content>
+            <p>Изходящите от института документи се съставят в два екземпляра. Вторият екземпляр съдържа имената и подписа на служителя, изготвил документите.</p>
+          </content>
+        </article>
+        <article eId="chap_6__art_21">
+          <num>Чл. 21.</num>
+          <paragraph eId="chap_6__art_21__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Служителите на института могат да се награждават с отличия и награди за образцово изпълнение на служебните им задължения.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_6__art_21__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Паричните и предметните награди могат да бъдат в размер от 50 до 250 лв. общо за една календарна година. Видът на предметната награда се определя в заповедта на директора, с която се награждава служителят.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

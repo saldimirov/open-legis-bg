@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-7"/>
+          <FRBRalias value="Постановление № 96 ОТ 18 МАЙ 2017 Г. за допълнение на Постановление № 374 на" name="short"/>
+          <FRBRalias value="Постановление № 96 ОТ 18 МАЙ 2017 Г. за допълнение на Постановление № 374 на" name="eli" other="/eli/bg/postanovlenie/2017/dv-41-17-7"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-7/bul@2017-05-23/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-7/bul@2017-05-23"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-7/bul@2017-05-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-7/bul@2017-05-23.xml"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-23" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 96 ОТ 18 МАЙ 2017 Г. за допълнение на Постановление № 374 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 57а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 57а.</num>
+          <content>
+            <p>При изчерпване на средствата за дейности по асистирана репродукция, утвърде­ ни по „Политика в областта на диагностиката и лечението“, бюджетна програма „Медико- социални грижи за деца в неравностойно положение, майчино и детско здравеопазване“ по бюджета на Министерството на здраве­ опазването, министърът на здравеопазването предприема действия за осигуряване на до­ пълнителни средства за тези дейности чрез вътрешнокомпенсирани промени по реда на чл. 110, ал. 3 и/или чл. 109, ал. 1 от Закона за публичните финанси и/или чрез одобряване на допълнителни разходи по бюджета на Ми­ нистерството на здравеопазването за сметка на централния бюджет по реда на чл. 109, ал. 3 от Закона за публичните финанси с цел пълно финансиране на дейностите.“ Заключителни разпоредби</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на здравеопазването и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

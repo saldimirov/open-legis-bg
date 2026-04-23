@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-9"/>
+          <FRBRalias value="Постановление № 151 от 12 юни 2009 г. за преобразуване на Колежа по минно дело -  Кърджали, във Филиал - Кърджали, в структурата на Минно-геоложкия университет “Св.  Иван Рилски” - София" name="short"/>
+          <FRBRalias value="Постановление № 151 от 12 юни 2009 г. за преобразуване на Колежа по минно дело -  Кърджали, във Филиал - Кърджали, в структурата на Минно-геоложкия университет “Св.  Иван Рилски” - София" name="eli" other="/eli/bg/postanovlenie/2009/dv-47-09-9"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-9/bul@2009-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-9/bul@2009-06-23"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-47-09-9/bul@2009-06-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-47-09-9/bul@2009-06-23.xml"/>
+          <FRBRdate date="2009-06-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-23" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 151 от 12 юни 2009 г. за преобразуване на Колежа по минно дело -  Кърджали, във Филиал - Кърджали, в структурата на Минно-геоложкия университет “Св.  Иван Рилски” - София</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Студентите от колежа, които не са се дипломирали до преобразуването му, продължават обучението си във Филиал - Кърджали, на Минно-геоложкия университет “Св. Иван Рилски” - София, за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 октомври 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-31"/>
+          <FRBRalias value="Постановление № 136 ОТ 13 МАЙ 2011 Г. за приемане на Тарифа за таксите, които се" name="short"/>
+          <FRBRalias value="Постановление № 136 ОТ 13 МАЙ 2011 Г. за приемане на Тарифа за таксите, които се" name="eli" other="/eli/bg/postanovlenie/2011/dv-39-11-31"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-31/bul@2011-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-31/bul@2011-05-20"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-31/bul@2011-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-31/bul@2011-05-20.xml"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-20" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 136 ОТ 13 МАЙ 2011 Г. за приемане на Тарифа за таксите, които се</p>
+      <p>(обн., ДВ, бр. 86 от 2004 г.; изм. и доп., бр. 22 от 2006 г., бр. 20, 39 и 79 от 2007 г., бр. 53 от 2008 г., бр. 6 от 2009 г.; попр., бр. 9 от 2009 г.; изм., бр. 25 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите, приета с Постановле- ние № 253 на Министерския съвет от 2004 г. (обн., ДВ, бр. 86 от 2004 г.; изм. и доп., бр. 22 от 2006 г., бр. 20, 39 и 79 от 2007 г., бр. 53 от 2008 г., бр. 6 от 2009 г.; попр., бр. 9 от 2009 г.; изм., бр. 25 от 2010 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

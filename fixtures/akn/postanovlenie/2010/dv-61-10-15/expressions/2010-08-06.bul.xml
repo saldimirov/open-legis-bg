@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-15"/>
+          <FRBRalias value="Постановление № 156 ОТ 29 ЮЛИ 2010 Г. за предоставяне на финансови средства от" name="short"/>
+          <FRBRalias value="Постановление № 156 ОТ 29 ЮЛИ 2010 Г. за предоставяне на финансови средства от" name="eli" other="/eli/bg/postanovlenie/2010/dv-61-10-15"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-15/bul@2010-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-15/bul@2010-08-06"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-15/bul@2010-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-15/bul@2010-08-06.xml"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-06" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 156 ОТ 29 ЮЛИ 2010 Г. за предоставяне на финансови средства от</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Министърът на финансите да предостави от централния бюджет за 2010 г. средства в размер 4 000 000 лв. по бюджета на Министерството на икономиката, енергетиката и туризма за финансиране изпълнението на Мярка 1 от Иновационната стратегия на Република България и мерки за нейната реализация за Националния иновационен фонд 2010 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят от резерва за непредвидени и неотложни разходи, предвиден за структурни реформи, по чл. 1, ал. 2, т. 4.1 от Закона за държавния бюджет на Република България за 2010 г. в изпълнение на Мярка 1, определена с т. 5.1.1 от Иновационната стратегия на Република България и мерки за нейната реализация.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да извър­ ши налагащите се промени по бюджета на Министерството на икономиката, енергетиката и туризма за 2010 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 35, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на минис­ търа на икономиката, енергетиката и туризма.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

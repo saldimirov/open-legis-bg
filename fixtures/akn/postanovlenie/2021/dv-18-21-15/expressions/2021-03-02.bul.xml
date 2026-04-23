@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-15/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-15"/>
+          <FRBRalias value="Постановление № 62 ОТ 25 ФЕВРУАРИ 2021 Г. за допълнение на Наредбата за единните" name="short"/>
+          <FRBRalias value="Постановление № 62 ОТ 25 ФЕВРУАРИ 2021 Г. за допълнение на Наредбата за единните" name="eli" other="/eli/bg/postanovlenie/2021/dv-18-21-15"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-15/bul@2021-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-15/bul@2021-03-02"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-15/bul@2021-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-15/bul@2021-03-02.xml"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-03-02" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 62 ОТ 25 ФЕВРУАРИ 2021 Г. за допълнение на Наредбата за единните</p>
+      <p>(обн., ДВ, бр. 31 от 1996 г.; Решение № 6795 на Върховния административен съд от 2000 г. – бр. 96 от 2000 г.; изм. и доп., бр. 59 от 2001 г., бр. 117 от 2002 г., бр. 69 от 2005 г., бр. 79 от 2009 г., бр. 62 от 2013 г., бр. 41 от 2018 г., бр. 46 от 2019 г. и бр. 50 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 3 от преходните и заключителните разпоредби след думите „учебната 2020/2021 година“ се добавя „и за учебната 2021/2022 година“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-47-18-4/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-47-18-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2018/dv-47-18-4"/>
+          <FRBRdate date="2018-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-47-18-4/bul@2018-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-47-18-4/bul@2018-06-05"/>
+          <FRBRdate date="2018-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-47-18-4/bul@2018-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-47-18-4/bul@2018-06-05.xml"/>
+          <FRBRdate date="2018-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-05" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 77 от 1991 г.; изм., бр. 24, 49 и 65 от 1995 г., бр. 90 от 1996 г., бр. 122 от 1997 г., бр. 33, 130 и 154 от 1998 г., бр. 67 и 69 от 1999 г., бр. 26 и 85 от 2000 г., бр. 1 от 2001 г., бр. 28, 45 и 119 от 2002 г., бр. 69 от 2003 г., бр. 19 и 34 от 2005 г., бр. 30 и 69 от 2006 г., бр. 61 и 63 от 2007 г., бр. 54 и 108 от 2008 г., бр. 6, 14, 35, 42 и 44 от 2009 г., бр. 15 и 97 от 2010 г., бр. 9 и 32 от 2011 г.; Решение № 4 на Конституционния съд от 2011 г. – бр. 36 от 2011 г.; изм., бр. 57 от 2011 г., бр. 38 от 2012 г., бр. 15 от 2013 г., бр. 1, 19 и 53 от 2014 г., бр. 39, 43 и 51 от 2016 г., бр. 9, 99 и 103 от 2017 г. и бр. 7, 21 и 24 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 27 се правят следните изменения и допълнения: 1. В ал. 2 се създава изречение второ: „Повече от половината от общия брой на съ­ ветниците е налице, когато броят на присъст­ ващите на заседанието общински съветници е по-голям от останалата част от общия брой на съветниците.“ 2. В ал. 3 се създава ново изречение второ: „Решенията са приети с мнозинство повече от половината от присъстващите съветници, когато броят на гласувалите „за“ общински съветници е по-голям от останалата част от присъстващите на заседанието съветници.“, а досегашното изречение второ става изре­ чение трето. 3. В ал. 4 се създава изречение второ: „Ре­ шенията са приети с мнозинство повече от половината от общия брой на съветниците, когато броят на гласувалите „за“ общински съветници е по-голям от останалата част от общия брой на общинските съветници.“ Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Неприключилите до влизането в сила на този закон съдебни производства по оспорени решения на общинските съвети по чл. 27, ал. 2, 3 и 4 се приключват по реда на този закон.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

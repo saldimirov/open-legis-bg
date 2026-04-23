@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-8"/>
+          <FRBRalias value="Постановление № 293 от 28 декември 2005 г. за допълнение на Наредбата за служебните командировки и специализации в чужбина, приета с Постановление № 115 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 293 от 28 декември 2005 г. за допълнение на Наредбата за служебните командировки и специализации в чужбина, приета с Постановление № 115 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-2-06-8"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-8/bul@2006-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-8/bul@2006-01-06"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-2-06-8/bul@2006-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-2-06-8/bul@2006-01-06.xml"/>
+          <FRBRdate date="2006-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 293 от 28 декември 2005 г. за допълнение на Наредбата за служебните командировки и специализации в чужбина, приета с Постановление № 115 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 50 от 2004 г.; изм. и доп., бр. 80 и 86 от 2004 г. и бр. 36 и 96 от 2005 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

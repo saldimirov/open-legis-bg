@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-20-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-20-13-4"/>
+          <FRBRalias value="Закон за изменение на Закона за електронното упра­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за електронното упра­" name="eli" other="/eli/bg/zid/2013/dv-20-13-4"/>
+          <FRBRdate date="2013-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-20-13-4/bul@2013-02-28/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-20-13-4/bul@2013-02-28"/>
+          <FRBRdate date="2013-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-20-13-4/bul@2013-02-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-20-13-4/bul@2013-02-28.xml"/>
+          <FRBRdate date="2013-02-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-28" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за електронното упра­</p>
+      <p>(обн., ДВ, бр. 46 от 2007 г.; изм., бр. 82 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В глава четвърта наименованието на раздел ІV се изменя така: „Съответствие с изискванията за оперативна съвместимост и информационна сигурност“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 56 се правят следните изменения: 1. В ал. 1 думите „са сертифицирани за съ­ ответствие с“ се заменят със „съответстват на“. 2. В ал. 2 думите „са сертифицирани“ се заменят със „съответстват на изискванията“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 57 се правят следните изменения: 1. В ал. 1 думите „от акредитирани“ и думата „лица“ се заличават. 2. Алинея 2 се изменя така: „(2) Методиката и правилата за извършване на оценката за съответствие се определят с наредбата по чл. 43, ал. 2.“ 3. Алинеи 3 и 4 се отменят.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Член 58 се отменя. Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>В Закона за пряко участие на гражданите в държавната власт и местното самоуправление (обн., ДВ, бр. 44 от 2009 г.; изм., бр. 100 от 2010 г., бр. 9 от 2011 г. и бр. 42 от 2012 г.) в чл. 53а се правят следните изменения: 1. В ал. 3 след думите „Регламент (ЕС) № 211/2011“ се поставя точка и текстът докрая се заличава. 2. Алинея 5 се изменя така: „(5) Методиката и правилата за извършва­ не на оценката за съответствие се уреждат с наредба на Министерския съвет.“ 3. Алинея 6 се отменя. 4. В ал. 8 думите „акредитираните от ми­ нистъра на транспорта, информационните технологии и съобщенията лица по ал. 3 изда­ ват“ се заменят с „министърът на транспорта, информационните технологии и съобщенията издава“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_6" name="modification">
+        <num>§ 6.</num>
+        <content>
+          <p>(1) За информационни системи, разра­ ботени или в процес на разработка към датата на влизане в сила на този закон, се прилагат разпоредбите на този закон. (2) Издадените към датата на влизане в сила на този закон сертификати за оператив­ на съвместимост и информационна сигурност запазват своето действие.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

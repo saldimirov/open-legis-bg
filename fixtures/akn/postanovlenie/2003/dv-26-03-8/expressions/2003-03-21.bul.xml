@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-8"/>
+          <FRBRalias value="Постановление № 60 от 12 март 2003 г. за предоставяне на средства от централния бюджет за 2003 г. за придобиване от държавата на акционерно участие в търговско дружество" name="short"/>
+          <FRBRalias value="Постановление № 60 от 12 март 2003 г. за предоставяне на средства от централния бюджет за 2003 г. за придобиване от държавата на акционерно участие в търговско дружество" name="eli" other="/eli/bg/postanovlenie/2003/dv-26-03-8"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-8/bul@2003-03-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-8/bul@2003-03-21"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-8/bul@2003-03-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-8/bul@2003-03-21.xml"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-21" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 60 от 12 март 2003 г. за предоставяне на средства от централния бюджет за 2003 г. за придобиване от държавата на акционерно участие в търговско дружество</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл.  1.</num>
+        <content>
+          <p>Дава съгласие за предоставяне от централния бюджет за 2003 г. чрез бюджета на Министерството на регионалното развитие и благоустройството на средства в размер 1000 лв. за закупуване на една привилегирована акция от капитала на „Трансболкан ойл пайплайн България&amp;quot; - АД, София - дружество в процедура на учредяване.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл.  2.</num>
+        <content>
+          <p>Министърът на финансите на основание § 22, ал. 11 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2003 г. и чл. 34, ал. 1 от Закона за устройството на държавния бюджет да извърши необходимите корекции по централния бюджет и по бюджета на Министерството на регионалното развитие и благоустройството за 2003 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на регионалното развитие и благоустройството и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

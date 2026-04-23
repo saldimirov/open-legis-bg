@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-15"/>
+          <FRBRalias value="Постановление № 74 ОТ 28 МАРТ 2011 Г. за приемане на Наредба за условията и реда за издаване на удостоверения, свързани с" name="short"/>
+          <FRBRalias value="Постановление № 74 ОТ 28 МАРТ 2011 Г. за приемане на Наредба за условията и реда за издаване на удостоверения, свързани с" name="eli" other="/eli/bg/postanovlenie/2011/dv-28-11-15"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-15/bul@2011-04-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-15/bul@2011-04-05"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-15/bul@2011-04-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-15/bul@2011-04-05.xml"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-05" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 74 ОТ 28 МАРТ 2011 Г. за приемане на Наредба за условията и реда за издаване на удостоверения, свързани с</p>
+      <p>(обн., ДВ, бр. 39 от 2005 г.; изм., бр. 105 от 2005 г., бр. 34 от 2006 г., бр. 42 от 2007 г. и бр. 82 и 95 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 66.</num>
+          <content>
+            <p>В Закона за регистър БУЛСТАТ (обн., ДВ, бр. 39 от 2005 г.; изм., бр. 105 от 2005 г., бр. 34 от 2006 г., бр. 42 от 2007 г. и бр. 82 и 95 от 2009 г.) се правят следните изменения и допълнения: 1. В чл. 3, ал. 1, т. 6 след думите „Закона за задълженията и договорите“ се поставя запетая и се добавя „включително тези, организирани по занаятчийски начин“. 2. В чл. 7: а) в ал. 1, т. 10 накрая се добавя „или за­ наяти по Закона за занаятите“; б) в ал. 2: аа) в т. 6 накрая се добавя „или занаяти по Закона за занаятите“; бб) в т. 7 накрая се добавя „или придобива­ нето на званието майстор или калфа по Закона за занаятите“. 3. В чл. 29, ал. 2 т. 4 се изменя така: „4. регионалните регистри и националния регистър на обучаваните и обучените чираци, калфи и майстори, на обучаващите ги майстори, както и на майсторите и калфите, работещи в предприятия, организирани по занаятчийски начин.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-8/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-8"/>
+          <FRBRalias value="Постановление № 277 ОТ 5 НОЕМВРИ 2012 Г. за приемане на Наредба за управление на" name="short"/>
+          <FRBRalias value="Постановление № 277 ОТ 5 НОЕМВРИ 2012 Г. за приемане на Наредба за управление на" name="eli" other="/eli/bg/postanovlenie/2012/dv-89-12-8"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-8/bul@2012-11-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-8/bul@2012-11-13"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-8/bul@2012-11-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-8/bul@2012-11-13.xml"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-13" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 277 ОТ 5 НОЕМВРИ 2012 Г. за приемане на Наредба за управление на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 277 ОТ 5 НОЕМВРИ 2012 Г. за приемане на Наредба за управление на строителните отпадъци и за влагане на ре­ циклирани строителни материали МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за упра­ вление на строителните отпадъци и за влагане на рециклирани строителни материали.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

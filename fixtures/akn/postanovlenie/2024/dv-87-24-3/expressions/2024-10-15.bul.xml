@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-87-24-3/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-87-24-3"/>
+          <FRBRalias value="Постановление № 345 от 10 октомври 2024 г. за допълнение на Наредбата за реда за класифициране на растенията и веществата като наркотични, приета с Постановление № 293 на Министерския съвет от 2011 г." name="short"/>
+          <FRBRalias value="Постановление № 345 от 10 октомври 2024 г. за допълнение на Наредбата за реда за класифициране на растенията и веществата като наркотични, приета с Постановление № 293 на Министерския съвет от 2011 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-87-24-3"/>
+          <FRBRdate date="2024-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-87-24-3/bul@2024-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-87-24-3/bul@2024-10-15"/>
+          <FRBRdate date="2024-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-87-24-3/bul@2024-10-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-87-24-3/bul@2024-10-15.xml"/>
+          <FRBRdate date="2024-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-10-15" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 345 от 10 октомври 2024 г. за допълнение на Наредбата за реда за класифициране на растенията и веществата като наркотични, приета с Постановление № 293 на Министерския съвет от 2011 г.</p>
+      <p>(обн., ДВ, бр. 87 от 2011 г.; изм. и доп., бр. 97 от 2013 г., бр. 70 от 2015 г., бр. 48 от 2016 г., бр. 6 и 88 от 2018 г., бр. 41 и 83 от 2019 г., бр. 81 от 2020 г., бр. 50 от 2021 г., бр. 9 и 85 от 2022 г. и бр. 85 от 2023 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 3, т. 1 се правят следните допълнения: 1. След ред „ Броламфетамин|Диметоксибромамфетамин (DOB)|(RS)-1-(4-бром-2,5-диметоксифенил)-2-аминопропан| “ се създава ред: „ -|Бромазолам|8-бромо-1-метил-6-фенил-4H-[1,2,4]триазоло[4,3-a][1,4]бензодиазепин| “ 2. След ред „ -|Бутирфентанил|N-фенил-N-[1-(2-фенилетил)-4-пиперидинил]бутанамид| “ се създава ред: „ -|Бутонитазен|N,N-диетил-2-[(4-бутоксифенил)метил] 5-нитро-1H-бензимидазол-1-етанамин| “ 3. След ред „ -|2,5-диметокси-4-хлорамфетамин (DOC)|1-(4-хлор-2,5-диметокси-фенил)пропан-2-амин| “ се създава ред: „ -|Дипентилон|1-(1,3-бензодиоксол-5-ил)-2-(диметиламино)пентан-1-он| “ 4. След ред „ -|Тетрахидроканабинол и неговите изомери: делта 6a(10a), делта 6a(7), делта 7, делта 8, делта 10, делта 9</p>
+            <p>(11) и техните стерохимични варианти|-| “ се създава ред: „ -|Тетрахидроканабидиол H4-CBD|2-(2-изопропил-5-метилциклохексил)-5-пентилбензен-1,3-диол| “</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

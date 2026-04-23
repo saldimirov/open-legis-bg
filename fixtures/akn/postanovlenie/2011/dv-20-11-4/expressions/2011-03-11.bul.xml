@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-4"/>
+          <FRBRalias value="Постановление № 50 ОТ 7 МАРТ 2011 Г. за изменение на Наредбата за таксите за из­" name="short"/>
+          <FRBRalias value="Постановление № 50 ОТ 7 МАРТ 2011 Г. за изменение на Наредбата за таксите за из­" name="eli" other="/eli/bg/postanovlenie/2011/dv-20-11-4"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-4/bul@2011-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-4/bul@2011-03-11"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-4/bul@2011-03-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-4/bul@2011-03-11.xml"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-11" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 50 ОТ 7 МАРТ 2011 Г. за изменение на Наредбата за таксите за из­</p>
+      <p>(обн., ДВ, бр. 2 от 1999 г.; изм. и доп., бр. 15 от 2000 г., бр. 9 и 62 от 2001 г., бр. 19 от 2002 г., бр. 16 от 2003 г., бр. 32 и 71 от 2004 г., бр. 15 и 96 от 2005 г., бр. 22 от 2006 г., бр. 1 и 25 от 2007 г., бр. 34 от 2008 г.; Решение № 5551 на Върхов­ ния административен съд от 2008 г. – бр. 92 от 2008 г.; изм. и доп., бр. 28 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7, ал. 2 числото „11,58“ се заменя с „11,00“. БРОЙ 20 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 18, ал. 3 числото „42,93“ се заменя с „39,77“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

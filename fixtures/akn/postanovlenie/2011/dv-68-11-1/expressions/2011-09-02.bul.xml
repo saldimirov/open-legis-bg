@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-1/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-1"/>
+          <FRBRalias value="Постановление № 240 ОТ 4 АВГУСТ 2011 Г. за изменение на Правилника за реда за упраж­" name="short"/>
+          <FRBRalias value="Постановление № 240 ОТ 4 АВГУСТ 2011 Г. за изменение на Правилника за реда за упраж­" name="eli" other="/eli/bg/postanovlenie/2011/dv-68-11-1"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-1/bul@2011-09-02/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-1/bul@2011-09-02"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-1/bul@2011-09-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-1/bul@2011-09-02.xml"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-02" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 240 ОТ 4 АВГУСТ 2011 Г. за изменение на Правилника за реда за упраж­</p>
+      <p>(обн., ДВ, бр. 51 от 2003 г.; изм. и доп., бр. 59 от 2003 г.; Решение № 8260 на Върховния административен съд от 2005 г. – бр. 79 от 2005 г.; изм. и доп., бр. 54 от 2006 г., бр. 15 от 2007 г., бр. 103 от 2008 г., бр. 39 и 93 от 2009 г. и бр. 22, 29 и 72 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложение № 1 към чл. 17, т. 8 се изменя така: „Приложение № 1 към чл. 17, ал. 1, т. 8 1. „Агенция дипломатически имоти в стра­ ната“ – ЕООД; 2. „Национален дворец на културата – Кон­ гресен център София“ – ЕАД – за сключването на договори за наем.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

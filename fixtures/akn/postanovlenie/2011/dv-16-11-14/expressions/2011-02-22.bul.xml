@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-14"/>
+          <FRBRalias value="Постановление № 40 ОТ 16 ФЕВРУАРИ 2011 Г. за изменение на Устройствения правилник на" name="short"/>
+          <FRBRalias value="Постановление № 40 ОТ 16 ФЕВРУАРИ 2011 Г. за изменение на Устройствения правилник на" name="eli" other="/eli/bg/postanovlenie/2011/dv-16-11-14"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-14/bul@2011-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-14/bul@2011-02-22"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-14/bul@2011-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-14/bul@2011-02-22.xml"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-22" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 40 ОТ 16 ФЕВРУАРИ 2011 Г. за изменение на Устройствения правилник на</p>
+      <p>(обн., ДВ, бр. 42 от 2006 г.; доп., бр. 61 от 2006 г.; изм. и доп., бр. 70 от 2006 г., бр. 8 от 2007 г.; доп., бр. 33 от 2007 г.; изм. и доп., бр. 4 от 2008 г., бр. 28 и 100 от 2009 г., бр. 24 и 78 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7 се правят следните изменения: 1. В ал. 1 думите „заместник-директор“ се заменят с „двама заместник-директори“. 2. В ал. 2 думите „Заместник-директорът се назначава“ се заменят със „Заместник-дирек­ торите се назначават“. 3. В ал. 3 думите „той делегира правомощи­ ята си със заповед на заместник-директора за всеки конкретен случай“ се заменят с „неговите правомощия се упражняват от определен от него заместник-директор за всеки конкретен случай“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 11 на ред „за­ местник-директор“ цифрата „1“ се заменя с „2“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 16 февруари 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-13/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-13"/>
+          <FRBRalias value="Закон за ратифициране на международен договор" name="short"/>
+          <FRBRalias value="Закон за ратифициране на международен договор" name="eli" other="/eli/bg/ratifikatsiya/2019/dv-60-19-13"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-13/bul@2019-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-13/bul@2019-07-30"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-13/bul@2019-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-13/bul@2019-07-30.xml"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-30" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на международен договор</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира международен договор (LOA) BU-D-SAB „Самолети F-16 Block 70 и свързана с тях поддръжка“ (F-16 Block 70 aircraft and associated support), подписан на 3 юли 2019 г. в авиобаза „Райт Патерсън“ на Военновъздушните сили (ВВС) на САЩ, Охайо, САЩ, и на 11 юли 2019 г. в гр. София, Република България.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира международен договор (LOA) BU-D-AAA „Боеприпаси в подкрепа на F-16“ (Munitions in support of the F-16), подписан на 12 юни 2019 г. в авиобаза „Райт Патерсън“ на ВВС на САЩ, Охайо, САЩ, и на 11 юли 2019 г. в гр. София, Република България.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Ратифицира международен договор (LOA) BU-P-AAD „Sidewinder AIM 9X Блок II ракети, свързани материали и услуги“ (Sidewinder AIM 9X Block II Missiles, associated material and services), подписан на 13 юни 2019 г. в гр. Вашингтон, САЩ, и на 11 юли 2019 г. в гр. София, Република България.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

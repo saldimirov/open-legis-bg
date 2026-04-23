@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-5/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-5"/>
+          <FRBRalias value="Постановление № 72 от 4 април 2006 г. за закриване на медицински колежи в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна" name="short"/>
+          <FRBRalias value="Постановление № 72 от 4 април 2006 г. за закриване на медицински колежи в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна" name="eli" other="/eli/bg/postanovlenie/2006/dv-31-06-5"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-5/bul@2006-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-5/bul@2006-04-14"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-5/bul@2006-04-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-5/bul@2006-04-14.xml"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-14" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 72 от 4 април 2006 г. за закриване на медицински колежи в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна</p>
+      <p>(обн., ДВ, бр. 10 от 1997 г.; изм. и доп., бр. 26 от 2000 г. и бр. 8 от 2001 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Закрива Медицинския колеж - Добрич, в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Закрива Медицинския колеж - Шумен, в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>От учебната 2006 - 2007 г. студентите от закритите колежи по чл. 1 и 2, обучаващи се по специалностите “медицинска сестра” и “акушерка”, продължават обучението си във Факултета по обществено здравеопазване на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна, а студентите, обучаващи се по други специалности, продължават обучението си в Медицинския колеж - Варна, в структурата на Медицинския университет “Проф. д-р Параскев Стоянов” - Варна.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Движимото имущество и архивът на закритите колежи по чл. 1 и 2 се предоставят на Медицинския университет - Варна.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 1 от Постановление № 16 на Министерския съвет от 1997 г. за преобразуване на полувисши институти в колежи в структурата на висши училища (обн., ДВ, бр. 10 от 1997 г.; изм. и доп., бр. 26 от 2000 г. и бр. 8 от 2001 г.) и в приложение № 1 към чл. 1 думите “със статут на юридически лица” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

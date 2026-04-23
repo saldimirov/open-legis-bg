@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-2"/>
+          <FRBRalias value="Закон за денонсиране на Споразумението за съз­" name="short"/>
+          <FRBRalias value="Закон за денонсиране на Споразумението за съз­" name="eli" other="/eli/bg/zakon/2010/dv-88-10-2"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-2/bul@2010-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-2/bul@2010-11-09"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-2/bul@2010-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-2/bul@2010-11-09.xml"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-09" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за денонсиране на Споразумението за съз­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>даване на Международната организация за развитие на рибарството в Източна и Цен­ трална Европа (Еврофиш) Член единствен. Денонсира Споразумението за създаване на Международната организация за развитие на рибарството в Източна и Цен­ трална Европа (Еврофиш), съставено на 23 май 2000 г. в Копенхаген, ратифицирано със закон от Народното събрание на 11 март 2003 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

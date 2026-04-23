@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-58-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-58-04-14"/>
+          <FRBRalias value="Правилник  за изменение и допълнение на Правилника за прилагане на Закона за акцизите" name="short"/>
+          <FRBRalias value="Правилник  за изменение и допълнение на Правилника за прилагане на Закона за акцизите" name="eli" other="/eli/bg/pravilnik/2004/dv-58-04-14"/>
+          <FRBRdate date="2004-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-58-04-14/bul@2004-07-06/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-58-04-14/bul@2004-07-06"/>
+          <FRBRdate date="2004-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-58-04-14/bul@2004-07-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-58-04-14/bul@2004-07-06.xml"/>
+          <FRBRdate date="2004-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-06" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник  за изменение и допълнение на Правилника за прилагане на Закона за акцизите</p>
+      <p>(обн., ДВ, бр. 16 от 1999 г.; изм. и доп., бр. 55 и 80 от 1999 г., бр. 4 от 2000 г., бр. 12 от 2001 г., бр. 21 и 58 от 2002 г., бр. 33 от 2003 г., бр. 14 от 2004 г.; изм., бр. 16 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 10 към чл. 48, към ред 18а на колона 2 накрая се добавя:</p>
+            <p>“от 2901 10 00 0</p>
+            <p>от 2901 21 00 0</p>
+            <p>от 2901 22 00 0</p>
+            <p>от 2901 23 10 0</p>
+            <p>от 2901 23 90 0</p>
+            <p>от 2901 24 10 0”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът влиза в сила от 22 юни 2004 г.</p>
+            <p>За министър:  Л. Дацов</p>
+            <p>36384</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

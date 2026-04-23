@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-85-22-8/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-85-22-8"/>
+          <FRBRalias value="Постановление № 333 ОТ 20 ОКТОМВРИ 2022 Г. за изменение на Постановление № 157 на" name="short"/>
+          <FRBRalias value="Постановление № 333 ОТ 20 ОКТОМВРИ 2022 Г. за изменение на Постановление № 157 на" name="eli" other="/eli/bg/postanovlenie/2022/dv-85-22-8"/>
+          <FRBRdate date="2022-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-85-22-8/bul@2022-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-85-22-8/bul@2022-10-25"/>
+          <FRBRdate date="2022-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-85-22-8/bul@2022-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-85-22-8/bul@2022-10-25.xml"/>
+          <FRBRdate date="2022-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-10-25" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 333 ОТ 20 ОКТОМВРИ 2022 Г. за изменение на Постановление № 157 на</p>
+      <p>(обн., ДВ, бр. 54 от 2022 г.; изм. и доп., бр. 70 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 3, ал. 1, т. 3, в първата таблица се правят следните изменения: 1. Ред 3 се изменя така: „ C1.I3 Предоставяне на обу- чения за дигитални умения и създаване на платформа за обу- чение на възрастни Министерство на труда и социалната политика СНД “ 2. Ред 21 се изменя така: „ C7.I1 Ш и р о ко м а щ аб н о разгръщане на циф­ рова инфраструктура на територията на България Изпълнителна аген- ция „Инфраструкту- ра на електронното управление“ КП/Министерство на транспорта и съ- общенията СНД “ 3. Ред 23 се изменя така: „ C7.I3 Дигитална транс­ формация на Българ- ски пощи и предоста- вяне на комплексни услуги „Български пощи“ ЕАД КП/Министерство на транспорта и съ- общенията СН “ 4. Ред 44 се изменя така: „ C11.I1 Модернизация на дългосрочната гри- жа Министерство на труда и социалната политика СНД “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

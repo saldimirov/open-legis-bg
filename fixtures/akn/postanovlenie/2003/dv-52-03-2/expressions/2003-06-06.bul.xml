@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-52-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-52-03-2"/>
+          <FRBRalias value="Постановление № 115 от 30 май 2003 г. за изменение на Постановление № 233 на Министерския съвет от 2000 г. за външнотърговския режим на Република България" name="short"/>
+          <FRBRalias value="Постановление № 115 от 30 май 2003 г. за изменение на Постановление № 233 на Министерския съвет от 2000 г. за външнотърговския режим на Република България" name="eli" other="/eli/bg/postanovlenie/2003/dv-52-03-2"/>
+          <FRBRdate date="2003-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-52-03-2/bul@2003-06-06/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-52-03-2/bul@2003-06-06"/>
+          <FRBRdate date="2003-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-52-03-2/bul@2003-06-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-52-03-2/bul@2003-06-06.xml"/>
+          <FRBRdate date="2003-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-06-06" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 115 от 30 май 2003 г. за изменение на Постановление № 233 на Министерския съвет от 2000 г. за външнотърговския режим на Република България</p>
+      <p>(обн., ДВ, бр. 93 от 2000 г.; изм. и доп., бр. 58 и 112 от 2001 г. и бр.28, 86 и 110 от 2002г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 6 се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юни 2003 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

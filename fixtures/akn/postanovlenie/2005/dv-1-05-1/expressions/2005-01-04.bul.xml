@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-1-05-1/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-1-05-1"/>
+          <FRBRalias value="Постановление № 347 от 17 декември 2004 г. за изменение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 347 от 17 декември 2004 г. за изменение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2005/dv-1-05-1"/>
+          <FRBRdate date="2005-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-1-05-1/bul@2005-01-04/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-1-05-1/bul@2005-01-04"/>
+          <FRBRdate date="2005-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-1-05-1/bul@2005-01-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-1-05-1/bul@2005-01-04.xml"/>
+          <FRBRdate date="2005-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-01-04" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 347 от 17 декември 2004 г. за изменение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 13 от 2004 г.; попр., бр. 14 от 2004 г.; изм. и доп., бр. 16, 58, 81, 95 и 103 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 61, ал. 1 от Постановление № 30 на Министерския съвет от 2004 г. за изпълнението на държавния бюджет на Република България за 2004 г. (обн., ДВ, бр. 13 от 2004 г.; попр., бр. 14 от 2004 г.; изм. и доп., бр. 16, 58, 81, 95 и 103 от 2004 г.) се правят следните изменения:</p>
+            <p>1. В т. 1 числото “12 000” се заменя с “11 114”.</p>
+            <p>2. В т. 2 числото “ 3000” се заменя с “3860”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 279 на Министерския съвет от 2004 г. за предоставяне на допълнителни средства от републиканския бюджет за 2004 г. (обн., ДВ, бр. 95 от 2004 г.; изм. и доп., бр. 103 от 2004 г.) се правят следните изменения:</p>
+            <p>1. В чл. 1 числото “146,5” се заменя със “146,526”.</p>
+            <p>2. В приложението към чл. 1 в т. 9 числото “0,500” се заменя с “0,526”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Увеличението на средствата по § 2 е за сметка на намаляване на разходите в централния бюджет по § 1, т. 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на енергетиката и енергийните ресурси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_3" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:  Пламен Панайотов</p>
+            <p>Главен секретар на Министерския съвет:    Севдалин Мавров</p>
+            <p>67499</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

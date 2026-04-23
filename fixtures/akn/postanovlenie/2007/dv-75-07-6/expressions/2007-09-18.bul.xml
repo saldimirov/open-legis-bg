@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-6/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-6"/>
+          <FRBRalias value="Постановление № 208 от 5 септември 2007 г. за структурни промени в системата на здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 208 от 5 септември 2007 г. за структурни промени в системата на здравеопазването" name="eli" other="/eli/bg/postanovlenie/2007/dv-75-07-6"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-6/bul@2007-09-18/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-6/bul@2007-09-18"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-75-07-6/bul@2007-09-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-75-07-6/bul@2007-09-18.xml"/>
+          <FRBRdate date="2007-09-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-09-18" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 208 от 5 септември 2007 г. за структурни промени в системата на здравеопазването</p>
+      <p>(обн., ДВ, бр. 22 от 2006 г.; изм. и доп., бр. 39 и 93 от 2006 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Преобразува Националния център по опазване на общественото здраве към министъра на здравеопазването чрез отделяне на част от аналитичната дейност в областта на оценка на риска под въздействието на факторите, свързани с околната и трудовата среда, в еднолично акционерно дружество с държавно участие в капитала “Лаборекс” - ЕАД.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Трудовите правоотношения с работниците и служителите, които преминават от Националния център по опазване на общественото здраве в търговското дружество по ал. 1, се уреждат съгласно чл. 123 от Кодекса на труда.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по предложение на министъра на здравеопазването да извърши съответните корекции по бюджета на Министерството на здравеопазването, произтичащи от отделянето по чл. 1, ал. 1.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 2, ал. 2, т. 6 и ал. 3 от Постановление № 43 на Министерския съвет от 2006 г. за приемане на Устройствен правилник на Министерството на здравеопазването (обн., ДВ, бр. 22 от 2006 г.; изм. и доп., бр. 39 и 93 от 2006 г.) се правят следните изменения:</p>
+            <p>1. На ред 9, колона 3 числото “308” се заменя с “225”.</p>
+            <p>2. На ред 16, колона 3 числото “1453” се заменя с “1486”.</p>
+            <p>3. На ред 17, колона 3 числото “3023” се заменя с “3043”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 22, ал. 1 от Закона за здравето.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

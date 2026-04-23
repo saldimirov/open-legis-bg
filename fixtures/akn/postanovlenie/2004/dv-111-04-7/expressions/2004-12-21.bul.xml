@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-7/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-7"/>
+          <FRBRalias value="Постановление № 335 от 11 декември 2004 г. за предоставяне на временна финансова помощ на “Водоснабдяване и канализация” - ООД, Търговище" name="short"/>
+          <FRBRalias value="Постановление № 335 от 11 декември 2004 г. за предоставяне на временна финансова помощ на “Водоснабдяване и канализация” - ООД, Търговище" name="eli" other="/eli/bg/postanovlenie/2004/dv-111-04-7"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-7/bul@2004-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-7/bul@2004-12-21"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-111-04-7/bul@2004-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-111-04-7/bul@2004-12-21.xml"/>
+          <FRBRdate date="2004-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-12-21" name="Държавен вестник" number="111" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 335 от 11 декември 2004 г. за предоставяне на временна финансова помощ на “Водоснабдяване и канализация” - ООД, Търговище</p>
+      <p>(обн., ДВ, бр. 13 от 2004 г.; попр., бр. 14 от 2004 г.; изм. и доп., бр. 16, 58, 81, 95 и 103 от 2004 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Предоставя на “Водоснабдяване и канализация” - ООД, Търговище, временна финансова помощ от централния бюджет в размер до 2 347 280 лв.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се използват за изграждане на необходимите системи и съоръжения за водоснабдяване до площадката на Завода за плоско стъкло в Търговище, изграждан от “Тракия глас България” - ЕАД.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Временната финансова помощ да се предостави след одобряването на проектната документация от министъра на регионалното развитие и благоустройството и министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>“Водоснабдяване и канализация” - ООД, Търговище, да възстанови предоставените средства до 10 декември 2005 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 10, т. 4 от Постановление № 30 на Министерския съвет от 2004 г. за изпълнението на държавния бюджет на Република България за 2004 г. (обн., ДВ, бр. 13 от 2004 г.; попр., бр. 14 от 2004 г.; изм. и доп., бр. 16, 58, 81, 95 и 103 от 2004 г.) числото “12 300,0” се заменя с “9 952,0”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет и Решение № 272 на Комисията за защита на конкуренцията от 21 октомври 2004 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

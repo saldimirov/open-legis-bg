@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-9/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-9"/>
+          <FRBRalias value="Постановление № 146 ОТ 11 ЮЛИ 2013 Г. за одобряване на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 146 ОТ 11 ЮЛИ 2013 Г. за одобряване на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2013/dv-63-13-9"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-9/bul@2013-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-9/bul@2013-07-16"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-9/bul@2013-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-9/bul@2013-07-16.xml"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-16" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 146 ОТ 11 ЮЛИ 2013 Г. за одобряване на допълнителни бюджетни</p>
+      <p>(обн., ДВ, бр. 62 от 2009 г.; изм. и доп., бр. 26 от 2010 г. и бр. 14 от 2011 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни бюджетни кредити от централния бюджет по бюджета на съдебната власт за 2013 г. в размер 3 000 000 лв. за обзавеждане и оборудване на сгра­ дата на бул. Цар Борис ІІІ № 54 за нуждите на Софийския районен съд.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата да се осигурят чрез пре­ структуриране на разходите по централния бюджет за 2013 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да из­ върши налагащите се от чл. 1 промени по централния бюджет за 2013 г. и по бюджета на съдебната власт за 2013 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

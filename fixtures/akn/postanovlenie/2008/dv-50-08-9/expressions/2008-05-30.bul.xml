@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-9/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-9"/>
+          <FRBRalias value="Постановление № 111 от 26 май 2008 г. за допълнение на Тарифата за държавните такси, които се събират от съдилищата по Гражданския процесуален кодекс (ГПК), приета с Постановление № 38 на  Министерския съвет от 2008 г." name="short"/>
+          <FRBRalias value="Постановление № 111 от 26 май 2008 г. за допълнение на Тарифата за държавните такси, които се събират от съдилищата по Гражданския процесуален кодекс (ГПК), приета с Постановление № 38 на  Министерския съвет от 2008 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-50-08-9"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-9/bul@2008-05-30/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-9/bul@2008-05-30"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-9/bul@2008-05-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-9/bul@2008-05-30.xml"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-30" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 111 от 26 май 2008 г. за допълнение на Тарифата за държавните такси, които се събират от съдилищата по Гражданския процесуален кодекс (ГПК), приета с Постановление № 38 на  Министерския съвет от 2008 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 2а:</p>
+            <p>“Чл. 2а. По искове за обезщетение по Закона за отговорността на държавата и общините за вреди се събира такса, както следва:</p>
+            <p>1. от граждани, еднолични търговци и юридически лица с нестопанска цел - 10 лв.;</p>
+            <p>2. от юридически лица, без посочените по т. 1 - 25 лв.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 18 се създава ал. 3:</p>
+            <p>“(3) За обжалване пред въззивна и касационна инстанция и по молби за отмяна по делата, водени по Закона за отговорността на държавата и общините за вреди, се събират такси в размер на половината от предвидените по чл. 2а.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 3 от преходните и заключителните разпоредби накрая се добавя “и чл. 9а, ал. 1 от Закона за отговорността на държавата и общините за вреди”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на влизане в сила на Закона за изменение и допълнение на Закона за отговорността на държавата и общините за вреди (ДВ, бр. 43 от 2008 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-8"/>
+          <FRBRalias value="Наредба № 26 от 14 октомври 2010 г. за специфичните изисквания за директни" name="short"/>
+          <FRBRalias value="Наредба № 26 от 14 октомври 2010 г. за специфичните изисквания за директни" name="eli" other="/eli/bg/naredba/2010/dv-84-10-8"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-8/bul@2010-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-8/bul@2010-10-26"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-8/bul@2010-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-8/bul@2010-10-26.xml"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-26" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 26 от 14 октомври 2010 г. за специфичните изисквания за директни</p>
+      <p>(обн., ДВ, бр. 3 от 2010 г.; изм. и доп., бр. 31, 61 и 75 от 2010 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С тази наредба се уреждат условията и реда за: 1. директната доставка, извършена от произ­ водителя, до крайния потребител или до местни Забележки: 1. В разходите за заплати са включени и възнагражденията на лицата, заемащи ръководни длъжности, определени с акт, приет от Народното събрание. 2. В разходите за заплати по поредни № 7, 8, 12 и 14 не се включват държавните училища и обслужващи звена, финансирани по единни раз­ ходни стандарти. 3. В разходите за заплати по пореден № 4 не са включени разходите за заплати на служителите от Главна дирекция „Изпълнение на наказанията“ и Главна дирекция „Охрана“ на Министерството на правосъдието.“ Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Необходимите средства за прилагане на постановлението се осигуряват в рамките на одобрените със Закона за държавния бюджет на Република България за 2010 г. средства по бюджетите на първостепенните разпоредители с бюджетни кредити.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>(1) В Постановление № 324 на Минис­ терския съвет от 2009 г. за изпълнението на държавния бюджет на Република България за 2010 г. (обн., ДВ, бр. 3 от 2010 г.; изм. и доп., бр. 31, 61 и 75 от 2010 г.) чл. 103 се отменя.</p>
+            <p>(2) За 2010 г. средства от централния бюджет за парични награди и обучение по чл. 30 от Постановление № 85 на Министерския съвет от 2007 г. за координация по въпросите на Европейския съюз (обн., ДВ, бр. 35 от 2007 г.; изм. и доп., бр. 53 и 64 от 2008 г., бр. 34, 71, 78 и 83 от 2009 г. и бр. 4, 5, 19 и 65 от 2010 г.; попр., бр. 66 от 2010 г.) не се предоставят по бюджетите на съответните първостепенни раз­ поредители с бюджетни кредити.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

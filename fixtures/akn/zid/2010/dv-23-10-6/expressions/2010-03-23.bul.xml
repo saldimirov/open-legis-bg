@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-6"/>
+          <FRBRalias value="Закон за допълнение на Закона за храните (обн.," name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за храните (обн.," name="eli" other="/eli/bg/zid/2010/dv-23-10-6"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-6/bul@2010-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-6/bul@2010-03-23"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-6/bul@2010-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-6/bul@2010-03-23.xml"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-23" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за храните (обн.,</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Създава се чл. 21б: „Чл. 21б. (1) Министърът на земеделието и храните издава наредба, с която се уреждат специфичните изисквания за директни достав­ ки на малки количества суровини и храни от животински произход. (2) С наредбата по ал. 1 се определят спе­ цифичните изисквания при директна доставка на малки количества: 1. прясно месо от птици и зайци, заклани във фермата; 2. отстрелян дивеч или месо от дивеч; 3. пчелен мед и пчелни продукти; СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 23 4. суровини и храни, произведени от суровини от животински произход, добити във фермата, с изключение на продуктите по т. 5; 5. месо и месни продукти, произведени от домашни двукопитни животни и щрауси, отгле­ дани във фермата, които са заклани в обекти, регистрирани по чл. 12.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Създава се чл. 44а: „Чл. 44а. (1) Който произвежда и доставя директно малки количества суровини и храни от животински произход в нарушение на изиск­ ванията на наредбата по чл. 21б, се наказва с глоба от 200 до 2000 лв., а при повторно нарушение – с глоба от 500 до 5000 лв. (2) За нарушение по ал. 1, извършено от юридическо лице или от едноличен търговец, се налага имуществена санкция в размер от 500 до 5000 лв., а при повторно нарушение – от 700 до 7000 лв.“</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

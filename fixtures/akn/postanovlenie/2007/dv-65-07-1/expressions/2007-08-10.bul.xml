@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-1/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-1"/>
+          <FRBRalias value="Постановление № 181 от 31 юли 2007 г. за изменение на Постановление № 204 на Министерския съвет от 1999 г. за определяне на второстепенни разпоредители с бюджетни кредити към министъра на културата и за преобразуване и закриване на държавни културни институти" name="short"/>
+          <FRBRalias value="Постановление № 181 от 31 юли 2007 г. за изменение на Постановление № 204 на Министерския съвет от 1999 г. за определяне на второстепенни разпоредители с бюджетни кредити към министъра на културата и за преобразуване и закриване на държавни културни институти" name="eli" other="/eli/bg/postanovlenie/2007/dv-65-07-1"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-1/bul@2007-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-1/bul@2007-08-10"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-1/bul@2007-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-1/bul@2007-08-10.xml"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-08-10" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 181 от 31 юли 2007 г. за изменение на Постановление № 204 на Министерския съвет от 1999 г. за определяне на второстепенни разпоредители с бюджетни кредити към министъра на културата и за преобразуване и закриване на държавни културни институти</p>
+      <p>(обн., ДВ, бр. 105 от 1999 г.; изм. и доп., бр. 112 от 1999 г., бр. 24, 49, 64 и 94 от 2000 г., бр. 24, 28 и 88 от 2001 г., бр. 9, 26 и 65 от 2002 г., бр. 1, 46, 54 и 63 от 2003 г., бр. 17, 19, 37, 41, 42, 49, 102 и 112 от 2004 г., бр. 1, 29, 44, 49, 56 и 100 от 2005 г., бр. 22, 30, 52, 77, 78 и 93 от 2006 г. и  бр. 3 и 15 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 2 към чл. 5, ал. 2 се правят следните изменения:</p>
+            <p>1. В т. 3 “Опери, филхармонии и ансамбли” числото “1668” се заменя с “1666”.</p>
+            <p>2. В т. 6 “Културни институти с национално значение” числото “1849” се заменя с “1851”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила в деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

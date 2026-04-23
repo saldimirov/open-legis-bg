@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-7/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-7"/>
+          <FRBRalias value="Постановление № 72 от 4 април 2008 г. за намаляване на щатната численост на Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Постановление № 72 от 4 април 2008 г. за намаляване на щатната численост на Министерството на вътрешните работи" name="eli" other="/eli/bg/postanovlenie/2008/dv-38-08-7"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-7/bul@2008-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-7/bul@2008-04-11"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-38-08-7/bul@2008-04-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-38-08-7/bul@2008-04-11.xml"/>
+          <FRBRdate date="2008-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-11" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 72 от 4 април 2008 г. за намаляване на щатната численост на Министерството на вътрешните работи</p>
+      <p>(обн., ДВ, бр. 47 от 2006 г.; изм., бр. 24 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 151, ал. 1 от Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановление № 126 на Министерския съвет от 2006 г. (обн., ДВ, бр. 47 от 2006 г.; изм., бр. 24 от 2007 г.), във връзка с § 2, ал. 2 и 4 от преходните и заключителните разпоредби на Закона за Държавна агенция “Национална сигурност”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2008 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на вътрешните работи.</p>
+            <p>За министър-председател:  Даниел Вълчев</p>
+            <p>За главен секретар на Министерския съвет:  Галина Маринска</p>
+            <p>16663</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

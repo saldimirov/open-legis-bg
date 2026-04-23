@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-50-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-50-19-2"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре-" name="eli" other="/eli/bg/ratifikatsiya/2019/dv-50-19-2"/>
+          <FRBRdate date="2019-06-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-50-19-2/bul@2019-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-50-19-2/bul@2019-06-25"/>
+          <FRBRdate date="2019-06-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-50-19-2/bul@2019-06-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-50-19-2/bul@2019-06-25.xml"/>
+          <FRBRdate date="2019-06-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-06-25" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за пре-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>доставяне на консултантски услуги между Министерството на регионалното развитие и благоустройството на Република България и Международната банка за възстановяване и развитие, подписано на 8 април 2019 г. Член единствен. Ратифицира Споразуме­ нието за предоставяне на консултантски услуги между Министерството на регионал- ното развитие и благоустройството на Ре- публика България и Международната банка за възстановяване и развитие, подписано на 8 април 2019 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

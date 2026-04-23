@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-5"/>
+          <FRBRalias value="Решение за работата на Народното събрание през" name="short"/>
+          <FRBRalias value="Решение за работата на Народното събрание през" name="eli" other="/eli/bg/reshenie_ns/2011/dv-17-11-5"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-5/bul@2011-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-5/bul@2011-02-25"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-5/bul@2011-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-5/bul@2011-02-25.xml"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-25" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за работата на Народното събрание през</p>
+      <p>(обн., ДВ, бр. 102 от 2009 г.; попр., бр. 4 от 2010 г.; изм., бр. 25 от 2010 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>месец март 2011 г. Народното събрание на основание чл. 74 и чл. 86, ал. 1 от Конституцията на Репуб­ лика България във връзка с чл. 38, ал. 3 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Народното събрание не заседава на 2 март 2011 г. 2. Народното събрание да проведе извънред­ ни пленарни заседания на 15 и 19 март 2011 г. Решението е прието от 41-ото Народно съб­ рание на 23 февруари 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

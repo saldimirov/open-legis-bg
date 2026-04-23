@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-3"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="eli" other="/eli/bg/ratifikatsiya/2017/dv-94-17-3"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-3/bul@2017-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-3/bul@2017-11-24"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-3/bul@2017-11-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-3/bul@2017-11-24.xml"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-11-24" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>асоцииране между Европейския съюз и не- говите държави членки, от една страна, и Централна Америка, от друга страна Член единствен. Ратифицира Споразумени­ ето за асоцииране между Европейския съюз и неговите държави членки, от една страна, и Централна Америка, от друга страна, със­ тавено в Тегусигалпа на 29 юни 2012 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-8/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-8"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията" name="short"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията" name="eli" other="/eli/bg/pravilnik/2007/dv-79-07-8"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-8/bul@2007-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-8/bul@2007-10-02"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-8/bul@2007-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-8/bul@2007-10-02.xml"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-02" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията</p>
+      <p>(обн., ДВ, бр. 99 от 2003 г.; изм., бр. 39, бр. 58 и бр. 75 от 2004 г., бр. 36 от 2005 г., бр. 43   и бр. 50 от 2006 г., бр. 3 и бр. 26 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 17 се правят следните изменения:</p>
+            <p>1. В т. V.1 числото “11” се заменя с числото “13”.</p>
+            <p>2. В т. V.2 числото “21” се заменя с числото “18”.</p>
+            <p>3. В т. V.4 числото “15” се заменя с числото “16”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът за изменение на Устройствения правилник на Комисията за защита на конкуренцията е приет с решение на Комисията за защита на конкуренцията на 20.IХ.2007 г. и влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>Председател:  П. Николов</p>
+            <p>52633</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

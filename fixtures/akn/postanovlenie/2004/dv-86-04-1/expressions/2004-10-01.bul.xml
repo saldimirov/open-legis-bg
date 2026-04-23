@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-86-04-1/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-86-04-1"/>
+          <FRBRalias value="Постановление № 251 от 20 септември 2004 г. за изменение и допълнение на Правилника за прилагане на Закона за собствеността и ползването на земеделските земи, приет с Постановление № 74 на Министерския съвет от 1991 г." name="short"/>
+          <FRBRalias value="Постановление № 251 от 20 септември 2004 г. за изменение и допълнение на Правилника за прилагане на Закона за собствеността и ползването на земеделските земи, приет с Постановление № 74 на Министерския съвет от 1991 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-86-04-1"/>
+          <FRBRdate date="2004-10-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-86-04-1/bul@2004-10-01/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-86-04-1/bul@2004-10-01"/>
+          <FRBRdate date="2004-10-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-86-04-1/bul@2004-10-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-86-04-1/bul@2004-10-01.xml"/>
+          <FRBRdate date="2004-10-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-01" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 251 от 20 септември 2004 г. за изменение и допълнение на Правилника за прилагане на Закона за собствеността и ползването на земеделските земи, приет с Постановление № 74 на Министерския съвет от 1991 г.</p>
+      <p>(обн., ДВ, бр. 34 от 1991 г.; изм. и доп., бр. 60 и 80 от 1991 г., бр. 34 от 1992 г., бр. 8, 72 и 87 от 1993 г., бр. 2 и 100 от 1994 г.; попр., бр. 103 от 1994 г.; изм. и доп., бр. 5, 48 и 95 от 1995 г., бр. 28 от 1997 г.; попр., бр. 43 от 1997 г.; изм. и доп., бр. 57, 61, 112 и 122 от 1997 г., бр. 18 от 1998 г., бр. 18 и 113 от 1999 г., бр. 41 и 44 от 2001 г., бр. 31 от 2003 г. и бр. 69 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 27б се създава ал. 5:</p>
+            <p>“(5) Общинските и областните търгове по ал. 4 се провеждат еднократно. След провеждането им продажбата на земи от държавния поземлен фонд срещу поименни компенсационни бонове може да се извършва само на национален търг.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 51, ал. 1, 3, 4 и 5 от преходните и заключителните разпоредби на Постановление № 70 на Министерския съвет от 2003 г. за изменение и допълнение на Правилника за прилагане на Закона за собствеността и ползването на земедел&amp;shy;ските земи (ДВ, бр. 31 от 2003 г.) думите “26 октомври 2003 г.” се заменят с “26 октомври 2005 г.”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

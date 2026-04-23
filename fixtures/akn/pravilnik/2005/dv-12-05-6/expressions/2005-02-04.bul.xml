@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-6"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Института по тютюна и тютюневите изделия" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Института по тютюна и тютюневите изделия" name="eli" other="/eli/bg/pravilnik/2005/dv-12-05-6"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-6/bul@2005-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-6/bul@2005-02-04"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-6/bul@2005-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-6/bul@2005-02-04.xml"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-04" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Устройствения правилник на Института по тютюна и тютюневите изделия</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7, ал. 3 се правят следните изменения и допълнения:</p>
+            <p>1. Точки 9 и 10 се изменят така:</p>
+            <p>“9. отдел “Опитна станция по тютюна”, Гоце Делчев;</p>
+            <p>10. отдел “Опитна станция по тютюна”, Бяла Слатина”.”</p>
+            <p>2. Създават се т. 11, 12 и 13:</p>
+            <p>“11. отдел “Опитна станция”, Кърджали;</p>
+            <p>12. отдел “Опитна станция”, Хасково;</p>
+            <p>13. отдел “Опитна станция”, Търговище, филиал с. Хан Крум.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10, ал.1 се правят следните изменения и допълнения:</p>
+            <p>1. Числото “10” се заменя с “13”.</p>
+            <p>2. Досегашните т. 8 и 9 се изменят така:</p>
+            <p>“8. “Опитна станция по тютюна”, Гоце Делчев.</p>
+            <p>9. “Опитна станция по тютюна”, Бяла Слатина.”</p>
+            <p>3. Създават се нови т. 10, 11 и 12:</p>
+            <p>“10. “Опитна станция по тютюна”, Кърджали;</p>
+            <p>11. “Опитна станция по тютюна”, Хасково;</p>
+            <p>12. “Опитна станция по тютюна”, Търговище, филиал с. Хан Крум.”</p>
+            <p>4. Досегашната т. 10 става т. 13.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложението към чл. 7 се правят следните изменения:</p>
+            <p>1. В позиция “Обща численост на персонала - 100 щатни бройки” числото “100” се заменя със “117”.</p>
+            <p>2. След “отдел “Опитна станция”, Бяла Слатина” се добавят:</p>
+            <p>“отдел “Опитна станция”, Кърджали - 5;</p>
+            <p>отдел “Опитна станция”, Хасково - 8;</p>
+            <p>отдел “Опитна станция”, Търговище, филиал с. Хан Крум - 4.”</p>
+            <p>За министър:  Б. Боев</p>
+            <p>2542</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

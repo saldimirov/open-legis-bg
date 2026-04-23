@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-46-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-46-11-18"/>
+          <FRBRalias value="Постановление № 160 ОТ 10 ЮНИ 2011 Г. за финансиране на плащания по договори по" name="short"/>
+          <FRBRalias value="Постановление № 160 ОТ 10 ЮНИ 2011 Г. за финансиране на плащания по договори по" name="eli" other="/eli/bg/postanovlenie/2011/dv-46-11-18"/>
+          <FRBRdate date="2011-06-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-46-11-18/bul@2011-06-17/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-46-11-18/bul@2011-06-17"/>
+          <FRBRdate date="2011-06-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-46-11-18/bul@2011-06-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-46-11-18/bul@2011-06-17.xml"/>
+          <FRBRdate date="2011-06-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-17" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 160 ОТ 10 ЮНИ 2011 Г. за финансиране на плащания по договори по</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Дава съгласие за извършване на плащания за 2011 г. по договори, сключени по проекти, съфинансирани от Кохезионния фонд по Регламент (ЕО) № 1164/94 на Съве­ та от 16 май 1994 г. относно създаването на Кохезионен фонд и управлявани от Министер­ ството на околната среда и водите, съгласно приложението.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Финансирането на плащанията по чл. 1 да се осигури в рамките на одобрения трансфер от републиканския бюджет по из­ вънбюджетната сметка на Националния фонд към министъра на финансите за 2011 г., а при недостиг – от депозити по извънбюджетната сметка на Националния фонд.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Плащанията по чл. 1 да се извършват в съответствие с правилата за Кохезионния фонд по Регламент (ЕО) № 1164/94 на Съвета от 16 май 1994 г. относно създаването на Кохе­ зионен фонд, националното законодателство, процедурите и Споразумението за изпълнение на проекти по Кохезионния фонд по Регламент 1164/94 чрез управляващия орган, сключено между ръководителя на разплащателния орган в Министерството на финансите и ръководите­ ля на управляващия орган в Министерството на околната среда и водите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 47а от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на околната среда и водите и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

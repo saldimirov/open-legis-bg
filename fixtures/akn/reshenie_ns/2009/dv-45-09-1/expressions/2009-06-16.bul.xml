@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-1"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="eli" other="/eli/bg/reshenie_ns/2009/dv-45-09-1"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-1/bul@2009-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-1/bul@2009-06-16"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-45-09-1/bul@2009-06-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-45-09-1/bul@2009-06-16.xml"/>
+          <FRBRdate date="2009-06-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-16" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен представител</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

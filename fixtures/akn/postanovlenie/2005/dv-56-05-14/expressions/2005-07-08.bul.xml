@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-14"/>
+          <FRBRalias value="Постановление № 138 от 4 юли 2005 г. за изменение на Постановление № 120 на Министерския съвет от 1995 г. за освобождаване от митни сборове вноса на машини, съоръжения, оборудване, прибори и други материали от чуждестранните фирми, получили разрешение за търсене и/или проучване или концесия за добив на нефт и газ на сушата и в континенталния шелф на Република България в Черно море" name="short"/>
+          <FRBRalias value="Постановление № 138 от 4 юли 2005 г. за изменение на Постановление № 120 на Министерския съвет от 1995 г. за освобождаване от митни сборове вноса на машини, съоръжения, оборудване, прибори и други материали от чуждестранните фирми, получили разрешение за търсене и/или проучване или концесия за добив на нефт и газ на сушата и в континенталния шелф на Република България в Черно море" name="eli" other="/eli/bg/postanovlenie/2005/dv-56-05-14"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-14/bul@2005-07-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-14/bul@2005-07-08"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-14/bul@2005-07-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-14/bul@2005-07-08.xml"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-08" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 138 от 4 юли 2005 г. за изменение на Постановление № 120 на Министерския съвет от 1995 г. за освобождаване от митни сборове вноса на машини, съоръжения, оборудване, прибори и други материали от чуждестранните фирми, получили разрешение за търсене и/или проучване или концесия за добив на нефт и газ на сушата и в континенталния шелф на Република България в Черно море</p>
+      <p>(обн., ДВ., бр. 56 от 1995 г.; изм. и доп., бр. 101 от 1997 г. и бр. 85 от 1999 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на постановлението думата “чуждестранните” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В член единствен се правят следните изменения:</p>
+            <p>1. В ал. 1 думата “чуждестранните” се заличава, а думите “председателя на Държавната агенция по енергетика и енергийни ресурси и чуждестранните фирми” се заменят с “министъра на енергетиката и енергийните ресурси и фирмите”.</p>
+            <p>2. В ал. 2 думите “председателя на Държавната агенция по енергетика и енергийни ресурси съгласувано с Министерството на промишлеността” се заменят с “министъра на енергетиката и енергийните ресурси”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

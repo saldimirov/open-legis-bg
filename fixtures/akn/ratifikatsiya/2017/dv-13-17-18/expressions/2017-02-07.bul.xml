@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-18/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-18"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за обез­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за обез­" name="eli" other="/eli/bg/ratifikatsiya/2017/dv-13-17-18"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-18/bul@2017-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-18/bul@2017-02-07"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-18/bul@2017-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-18/bul@2017-02-07.xml"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-02-07" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за обез­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>щетяване между правителството на Репуб­ лика България и Консорциум IBERDROLA INGENIERIA Y CONSTRUCCION S.A.U и BELGOPROCESS NV Член единствен. Ратифицира Споразуме- нието за обезщетяване между правителство- то на Република България и Консорциум IBERDROLA INGENIERIA Y CONSTRUCCION S.A.U и BELGOPROCESS NV, подписано на 23 май 2014 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

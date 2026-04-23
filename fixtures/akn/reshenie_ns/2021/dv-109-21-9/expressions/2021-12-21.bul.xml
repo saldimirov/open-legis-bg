@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-9/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-9"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен" name="eli" other="/eli/bg/reshenie_ns/2021/dv-109-21-9"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-9/bul@2021-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-9/bul@2021-12-21"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-9/bul@2021-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-9/bul@2021-12-21.xml"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-12-21" name="Държавен вестник" number="109" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>представител Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Репуб­ лика България Р Е Ш И : Прекратява пълномощията на Христо Йор- данов Даскалов като народен представител от Шестнадесети изборен район – Пловдив. Решението е прието от 47-ото Народно съб­ рание на 17 декември 2021 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

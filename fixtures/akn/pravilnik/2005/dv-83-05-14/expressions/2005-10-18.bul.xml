@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-83-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-83-05-14"/>
+          <FRBRalias value="Правилник за изменение на Правилника за съдебната администрация на районните, окръжните, военните и апелативните съдилища" name="short"/>
+          <FRBRalias value="Правилник за изменение на Правилника за съдебната администрация на районните, окръжните, военните и апелативните съдилища" name="eli" other="/eli/bg/pravilnik/2005/dv-83-05-14"/>
+          <FRBRdate date="2005-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-83-05-14/bul@2005-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-83-05-14/bul@2005-10-18"/>
+          <FRBRdate date="2005-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-83-05-14/bul@2005-10-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-83-05-14/bul@2005-10-18.xml"/>
+          <FRBRdate date="2005-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-18" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение на Правилника за съдебната администрация на районните, окръжните, военните и апелативните съдилища</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 130 се изменя така:</p>
+            <p>“Чл. 130. Взривните вещества, огнестрелните оръжия, боеприпасите, отровните и наркотичните вещества и прекурсорите, упойващите вещества и растенията, съдържащи наркотични вещества, се съхраняват по реда, предвиден в съответните специални закони и подзаконови нормативни актове.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 131 се отменя.</p>
+            <p>Министър:  Г. Петканов</p>
+            <p>96138</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

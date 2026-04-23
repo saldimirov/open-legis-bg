@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-13"/>
+          <FRBRalias value="Решение за приемане на Доклад за младежта за" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад за младежта за" name="eli" other="/eli/bg/reshenie_ns/2012/dv-25-12-13"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-13/bul@2012-03-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-13/bul@2012-03-27"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-13/bul@2012-03-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-13/bul@2012-03-27.xml"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-27" name="Държавен вестник" number="25" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад за младежта за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>2009 – 2010 г. Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бълга- рия и Решение относно изготвяне на ежегоден доклад на младежта (ДВ, бр. 38 от 2002 г.) Р Е Ш И : Приема Доклада за младежта за 2009 – 2010 г. Решението е прието от 41-ото Народно събрание на 21 март 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

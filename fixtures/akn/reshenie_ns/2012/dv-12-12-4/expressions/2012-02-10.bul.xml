@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-4"/>
+          <FRBRalias value="Решение за избиране на председател на Икономическия и социален съвет" name="short"/>
+          <FRBRalias value="Решение за избиране на председател на Икономическия и социален съвет" name="eli" other="/eli/bg/reshenie_ns/2012/dv-12-12-4"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-4/bul@2012-02-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-4/bul@2012-02-10"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-4/bul@2012-02-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-4/bul@2012-02-10.xml"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-10" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на председател на Икономическия и социален съвет</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 7, ал. 2 във връзка с чл. 8, ал. 1 от Закона за Икономическия и социален съвет Р Е Ш И : Избира Лалко Стойчев Дулевски за пред­ седател на Икономическия и социален съвет с мандат 4 години, считано от 25 април 2012 г. Решението е прието от 41-ото Народно съ­ брание на 1 февруари 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

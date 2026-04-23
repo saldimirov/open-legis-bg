@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-4/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-4"/>
+          <FRBRalias value="Постановление № 21 от 3 февруари 2006 г. за определяне нов размер на социалната пенсия за старост" name="short"/>
+          <FRBRalias value="Постановление № 21 от 3 февруари 2006 г. за определяне нов размер на социалната пенсия за старост" name="eli" other="/eli/bg/postanovlenie/2006/dv-15-06-4"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-4/bul@2006-02-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-4/bul@2006-02-17"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-15-06-4/bul@2006-02-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-15-06-4/bul@2006-02-17.xml"/>
+          <FRBRdate date="2006-02-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-17" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 21 от 3 февруари 2006 г. за определяне нов размер на социалната пенсия за старост</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 89, ал. 2 от Кодекса за социално осигуряване във връзка с § 6 от преходните и заключителните разпоредби на Закона за бюджета на държавното обществено осигуряване за 2006 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Размерът на социалната пенсия за старост, определен с член единствен, ал. 1, се прилага и при индексирането на пенсиите, които се определят в процент от нея, от 1 януари 2006 г. по § 6 от преходните и заключителните разпоредби на Закона за бюджета на държавното обществено осигуряване за 2006 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на управителя на Националния осигурителен институт.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

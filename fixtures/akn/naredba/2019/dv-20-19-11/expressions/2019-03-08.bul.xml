@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-20-19-11/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-20-19-11"/>
+          <FRBRalias value="Наредба № 5 от 2018 г. за прилагане на правилата на биологично производство, етикетиране и контрол, и за издаване на" name="short"/>
+          <FRBRalias value="Наредба № 5 от 2018 г. за прилагане на правилата на биологично производство, етикетиране и контрол, и за издаване на" name="eli" other="/eli/bg/naredba/2019/dv-20-19-11"/>
+          <FRBRdate date="2019-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-20-19-11/bul@2019-03-08/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-20-19-11/bul@2019-03-08"/>
+          <FRBRdate date="2019-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-20-19-11/bul@2019-03-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-20-19-11/bul@2019-03-08.xml"/>
+          <FRBRdate date="2019-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-03-08" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 5 от 2018 г. за прилагане на правилата на биологично производство, етикетиране и контрол, и за издаване на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 31.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването є в „Държавен вестник“ и се прилага за кампания по директни плащания 2019 г. Министър: Румен Порожанов 1635 Данни от БАБХ за принтиране: Таблица за животните, за кандидатстване по схеми за подпомагане, необвързани с производството Брой допустими животни по схеми Вид Брой в регистъра, към съответната референтна дата Общ брой по видове, за които кандидатствам през текущата кампания ПНДЖ 1 Име на схема Брой допустими животни Стопанството отговаря на условията за схемата 1 2 3 4 1 2 3 Говеда Биволи Таблица на отглежданите животни За едно животно може да е отбелязана САМО една схема Плащания за Мярка 10 и Мярка 11 Вид Порода Ушна марка /паспорт/ ЕИД номер Дата на раждане Собственик/наемате л на ЖО Собственик/наемате л ЖО Собственик на животното Пол За мляко За месо Запис в род. Книга Чл. 18, ал. 6 ПНДЖ 3 СМлК СМлК (пл) СМКЮ ЕЖСК (мляко) ЕЖСК (месо) ДПЖ (пл) ДПЖСК Биволи Мярка 10 на ЖЕ Мярка 10 на площ Мярка 11 Номер на ЖО: “ СТР. 84 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 20 МИНИСТЕРСТВО НА ОБРАЗОВАНИЕТО И НАУКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

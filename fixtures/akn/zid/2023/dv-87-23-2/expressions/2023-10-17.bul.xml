@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-87-23-2/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-87-23-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за бюджета на Националната здравноосигурителна каса за 2023 г." name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за бюджета на Националната здравноосигурителна каса за 2023 г." name="eli" other="/eli/bg/zid/2023/dv-87-23-2"/>
+          <FRBRdate date="2023-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-87-23-2/bul@2023-10-17/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-87-23-2/bul@2023-10-17"/>
+          <FRBRdate date="2023-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-87-23-2/bul@2023-10-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-87-23-2/bul@2023-10-17.xml"/>
+          <FRBRdate date="2023-10-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-10-17" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за бюджета на Националната здравноосигурителна каса за 2023 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В преходните и заключителните разпоредби се правят следните изменения и допълнения: 1. В § 15: а) в текста преди т. 1 думата „методики“ се заменя с „методика“; б) точка 1 се отменя. 2. Създава се § 15а: „§ 15а. (1) В срок 1 февруари 2024 г. надзорният съвет на Националната здравноосигурителна каса приема методика по чл. 45, ал. 29а от Закона за здравното осигуряване. (2) От 1 февруари 2024 г. Националната здравноосигурителна каса заплаща лекарствените продукти по цена, равна на цената, определена по реда на чл. 45, ал. 29а от Закона за здравното осигуряване.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 1 октомври 2023 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

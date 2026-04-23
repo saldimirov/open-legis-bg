@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-51-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-51-13-1"/>
+          <FRBRalias value="Постановление № 129 ОТ 6 ЮНИ 2013 Г. за допълнение на Постановление № 258 на" name="short"/>
+          <FRBRalias value="Постановление № 129 ОТ 6 ЮНИ 2013 Г. за допълнение на Постановление № 258 на" name="eli" other="/eli/bg/postanovlenie/2013/dv-51-13-1"/>
+          <FRBRdate date="2013-06-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-51-13-1/bul@2013-06-11/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-51-13-1/bul@2013-06-11"/>
+          <FRBRdate date="2013-06-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-51-13-1/bul@2013-06-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-51-13-1/bul@2013-06-11.xml"/>
+          <FRBRdate date="2013-06-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-11" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 129 ОТ 6 ЮНИ 2013 Г. за допълнение на Постановление № 258 на</p>
+      <p>(обн., ДВ, бр. 89 от 2007 г.; изм. и доп., бр. 8 от 2010 г., бр. 37 и 92 от 2011 г. и бр. 14 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 се създава изречение второ: „Допустими са и разходите, свързани с изпълнението на Договор EuropeAid/114597/D/ SV/BG с предмет: „Реконструкция и електрифи- кация на железопътната линия Пловдив – Сви- ленград по коридори IV и IX. Техническа помощ на Звеното за управление и изпълнение на проекти при НКЖИ за комплексното уп- равление на проекта“, сключен на 22 август 2005 г., Договор EuropeAid/124429/D/WKS/BG с предмет: „Реконструкция и електрификация на железопътната линия Пловдив – Сви- ленград по коридори IV и IX. Проектиране и строителство за изграждане на системите за сигнализация, телекомуникация и СКАДА за цялата жп линия“, сключен на 5 септември 2007 г., и Договор EuropeAid/117011/D/SV/BG с предмет: „Реконструкция и електрификация на железопътната линия Пловдив – Свиленград по коридори IV и IX. Техническа помощ за супервизия на строителството“, сключен на 25 април 2006 г., възложени в съответствие с националното законодателство по реда на Практическото ръководство за договорни про- цедури при външни дейности на Европейската комисия (PRAG).“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се преходна разпоредба с § 1а: „Преходна разпоредба § 1а. Дейностите, възложени с договорите по чл. 2, ал. 2, изречение второ в съответствие с Практическото ръководство за договорни процедури при външни дейности на Евро- пейската комисия (PRAG), продължават да се изпълняват при условията и по реда, по които са възложени.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

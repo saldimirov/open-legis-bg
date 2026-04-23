@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-11/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-11"/>
+          <FRBRalias value="Постановление № 155 ОТ 26 ЮЛИ 2018 Г. за изменение на Постановление № 215 на" name="short"/>
+          <FRBRalias value="Постановление № 155 ОТ 26 ЮЛИ 2018 Г. за изменение на Постановление № 215 на" name="eli" other="/eli/bg/postanovlenie/2018/dv-64-18-11"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-11/bul@2018-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-11/bul@2018-08-03"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-11/bul@2018-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-11/bul@2018-08-03.xml"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-03" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 155 ОТ 26 ЮЛИ 2018 Г. за изменение на Постановление № 215 на</p>
+      <p>(обн., ДВ, бр. 72 от 2012 г.; изм. и доп., бр. 62 от 2013 г., бр. 60 от 2014 г. и бр. 41 и 51 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3, ал. 4 се правят следните из­ менения: 1. В т. 7 думите „земеделието и храните“ се заменят със „земеделието, храните и горите“. 2. В т. 18 думите „и криминология“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 3 от заключителните разпоредби думите „заместник министър-председателя и министър на вътрешните работи“ се заменят със „заместник министър-председателя по обществения ред и сигурността и министър на отбраната“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

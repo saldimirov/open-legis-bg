@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-14"/>
+          <FRBRalias value="Постановление № 52 от 4 март 2009 г. за изменение на Постановление № 27 на Министерския съвет от 2009 г. за изпълнението на държавния бюджет на Република България за 2009 г." name="short"/>
+          <FRBRalias value="Постановление № 52 от 4 март 2009 г. за изменение на Постановление № 27 на Министерския съвет от 2009 г. за изпълнението на държавния бюджет на Република България за 2009 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-19-09-14"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-14/bul@2009-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-14/bul@2009-03-13"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-19-09-14/bul@2009-03-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-19-09-14/bul@2009-03-13.xml"/>
+          <FRBRdate date="2009-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-03-13" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 52 от 4 март 2009 г. за изменение на Постановление № 27 на Министерския съвет от 2009 г. за изпълнението на държавния бюджет на Република България за 2009 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 43 се правят следните изменения:</p>
+            <p>1. В ал. 1 т. 2 се отменя.</p>
+            <p>2. Алинея 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 7 към чл. 36, ал. 1, пореден номер 3 числата “130 000 000”, “117 000 000” и “13 000 000” се заменят съответно със “180 000 000”, “162 000 000” и “18 000 000”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 26 февруари 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

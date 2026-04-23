@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-96-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-96-06-6"/>
+          <FRBRalias value="Постановление № 307 от 21 ноември 2006 г. за допълнение на Тарифа № 12 за таксите, които се събират в системата на Министерството на финансите по Закона за държавните такси, одобрена с Постановление № 55 на Министерския съвет от 1993 г." name="short"/>
+          <FRBRalias value="Постановление № 307 от 21 ноември 2006 г. за допълнение на Тарифа № 12 за таксите, които се събират в системата на Министерството на финансите по Закона за държавните такси, одобрена с Постановление № 55 на Министерския съвет от 1993 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-96-06-6"/>
+          <FRBRdate date="2006-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-96-06-6/bul@2006-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-96-06-6/bul@2006-11-28"/>
+          <FRBRdate date="2006-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-96-06-6/bul@2006-11-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-96-06-6/bul@2006-11-28.xml"/>
+          <FRBRdate date="2006-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-11-28" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 307 от 21 ноември 2006 г. за допълнение на Тарифа № 12 за таксите, които се събират в системата на Министерството на финансите по Закона за държавните такси, одобрена с Постановление № 55 на Министерския съвет от 1993 г.</p>
+      <p>(обн., ДВ, бр. 24 от 1993 г.; изм. и доп., бр. 1, 18, 37, 77 и 101 от 1994 г., бр. 106 от 1996 г., бр. 58 и 78 от 1997 г., бр. 42 и 90 от 1999 г., бр. 2 от 2000 г., бр. 112 от 2001 г., бр. 96 от 2002 г., бр. 13 и 111 от 2003 г. и бр. 77 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 се създава т. 11:</p>
+            <p>“11. за бандероли за алкохолни напитки и тютюневи изделия - 5 на сто.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2007 г.</p>
+            <p>За министър-председател:  Ивайло Калфин</p>
+            <p>Главен секретар на Министерския съвет:   Севдалин Мавров</p>
+            <p>72653</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

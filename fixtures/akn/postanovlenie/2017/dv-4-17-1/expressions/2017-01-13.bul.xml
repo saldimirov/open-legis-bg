@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-4-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-4-17-1"/>
+          <FRBRalias value="Постановление № 2 ОТ 6 ЯНУАРИ 2017 Г. за приемане на Наредба за специфичните" name="short"/>
+          <FRBRalias value="Постановление № 2 ОТ 6 ЯНУАРИ 2017 Г. за приемане на Наредба за специфичните" name="eli" other="/eli/bg/postanovlenie/2017/dv-4-17-1"/>
+          <FRBRdate date="2017-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-4-17-1/bul@2017-01-13/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-4-17-1/bul@2017-01-13"/>
+          <FRBRdate date="2017-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-4-17-1/bul@2017-01-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-4-17-1/bul@2017-01-13.xml"/>
+          <FRBRdate date="2017-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-13" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 2 ОТ 6 ЯНУАРИ 2017 Г. за приемане на Наредба за специфичните</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>изисквания към казеините и казеинатите, предназначени за консумация от човека МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за специ- фичните изисквания към казеините и казеина- тите, предназначени за консумация от човека. Заключителна разпоредба Параграф единствен. Отменя се Наредбата за изискванията към някои млечни белтъ- ци – казеини и казеинати, предназначени за консумация от човека, приета с Постановление № 302 на Министерския съвет от 2003 г. (ДВ, бр. 1 от 2004 г.).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

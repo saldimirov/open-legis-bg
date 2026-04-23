@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-7/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-7"/>
+          <FRBRalias value="Постановление № 189 от 28 юли 2006 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 189 от 28 юли 2006 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2006/dv-64-06-7"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-7/bul@2006-08-08/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-7/bul@2006-08-08"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-64-06-7/bul@2006-08-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-64-06-7/bul@2006-08-08.xml"/>
+          <FRBRdate date="2006-08-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-08" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 189 от 28 юли 2006 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 34 от 2003 г.; изм. и доп., бр. 97 от 2003 г. и бр. 73 и 87 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Наредбата за критериите, условията и правилата за включване на лекарствени продукти в позитивния лекарствен списък в Република България, приета с Постановление № 81 на Министерския съвет от 2003 г. (обн., ДВ, бр. 34 от 2003 г.; изм. и доп., бр. 97 от 2003 г. и бр. 73 и 87 от 2004 г.), се правят следните изменения и допълнения:</p>
+            <p>1. В чл. 14:</p>
+            <p>а) в ал. 1 думата “изключване” се заличава и се създава изречение второ: “Заявленията за изключване или за промяна в обстоятелствата, вписани в позитивния лекарствен списък на Република България, се подават до комисията от притежателя на разрешението за употреба на съответния лекарствен продукт или от упълномощен негов представител по чл. 17, ал. 5 ЗЛАХМ до 31 юли на съответната календарна година.”;</p>
+            <p>б) в ал. 3 след думата “изключване” се поставя запетая и се добавя “промяна в обстоятелствата, вписани в позитивния лекарствен списък на Република България”.</p>
+            <p>2. В наименованието на приложението към чл. 14, ал. 4 след думата “изключване” се поставя запетая и се добавя “промяна в обстоятелствата, вписани в позитивния лекарствен списък на Република България”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

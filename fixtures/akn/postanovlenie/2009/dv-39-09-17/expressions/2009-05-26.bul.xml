@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-17"/>
+          <FRBRalias value="Постановление № 116 от 15 май 2009 г. за изменение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 116 от 15 май 2009 г. за изменение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2009/dv-39-09-17"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-17/bul@2009-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-17/bul@2009-05-26"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-39-09-17/bul@2009-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-39-09-17/bul@2009-05-26.xml"/>
+          <FRBRdate date="2009-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-26" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 116 от 15 май 2009 г. за изменение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 18 от 1994 г.; изм. и доп., бр. 99 от 1994 г., бр. 86 от 1996 г., бр. 18 и 100 от 1997 г., бр. 60 и 114 от 1999 г., бр. 62, 78 и 96 от 2001 г., бр. 3 от 2003 г., бр. 69 и 71 от 2004 г., бр. 78 и 100 от 2005 г., бр. 83 от 2006 г. и бр. 26 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 52 от Правилника за прилагане на Закона за тютюна и тютюневите изделия, приет с Постановление № 39 на Министерския съвет от 1994 г. (обн., ДВ, бр. 18 от 1994 г.; изм. и доп., бр. 99 от 1994 г., бр. 86 от 1996 г., бр. 18 и 100 от 1997 г., бр. 60 и 114 от 1999 г., бр. 62, 78 и 96 от 2001 г., бр. 3 от 2003 г., бр. 69 и 71 от 2004 г., бр. 78 и 100 от 2005 г., бр. 83 от 2006 г. и бр. 26 от 2008 г.), се правят следните изменения:</p>
+            <p>1. В ал. 1 т. 2 се изменя така:</p>
+            <p>“2. производителят и вносителят, ако тютюневото изделие е от внос;”.</p>
+            <p>2. Алинея 3 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 2 от Наредбата за изискванията за етикетиране на нехранителни стоки, приета с Постановление № 131 на Министерския съвет от 1999 г. (ДВ, бр. 60 от 1999 г.), т. 3 се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наличните към датата на влизане в сила на постановлението тютюневи изделия, които са предназначени за реализация на вътрешния пазар и не са етикетирани съгласно изискванията му, могат да се продават до изчерпване на количествата, но не по-късно от 31 декември 2009 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

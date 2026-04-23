@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-1-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-1-12-3"/>
+          <FRBRalias value="Постановление № 376 ОТ 30 ДЕКЕМВРИ 2011 Г. за приемане на Наредба за реда и начина за" name="short"/>
+          <FRBRalias value="Постановление № 376 ОТ 30 ДЕКЕМВРИ 2011 Г. за приемане на Наредба за реда и начина за" name="eli" other="/eli/bg/postanovlenie/2012/dv-1-12-3"/>
+          <FRBRdate date="2012-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-1-12-3/bul@2012-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-1-12-3/bul@2012-01-03"/>
+          <FRBRdate date="2012-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-1-12-3/bul@2012-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-1-12-3/bul@2012-01-03.xml"/>
+          <FRBRdate date="2012-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 376 ОТ 30 ДЕКЕМВРИ 2011 Г. за приемане на Наредба за реда и начина за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 376 ОТ 30 ДЕКЕМВРИ 2011 Г. за приемане на Наредба за реда и начина за ограничаване на производството, употреба- та или пускането на пазара на определени опасни химични вещества, смеси и изделия от Приложение XVII на Регламент (ЕО) № 1907/2006 (REACH) МИНИСТЕРСКИЯТ СЪВЕТ П О С ТА Н О В И : Член единствен. Приема Наредба за реда и начина за ограничаване на производство- то, употребата или пускането на пазара на определени опасни химични вещества, смеси и изделия от Приложение XVII на Регламент (ЕО) № 1907/2006 (REACH).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

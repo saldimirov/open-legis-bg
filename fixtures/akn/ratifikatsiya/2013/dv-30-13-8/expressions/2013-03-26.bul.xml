@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-8/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-8"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="eli" other="/eli/bg/ratifikatsiya/2013/dv-30-13-8"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-8/bul@2013-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-8/bul@2013-03-26"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-8/bul@2013-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-8/bul@2013-03-26.xml"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-26" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>доставяне на консултантски услуги между Агенция „Пътна инфраструктура“ и Междуна­ родната банка за възстановяване и развитие Член единствен. Ратифицира Споразумени­ ето за предоставяне на консултантски услуги между Агенция „Пътна инфраструктура“ и Международната банка за възстановяване и развитие, подписано на 25 октомври 2012 г. Заключителна разпоредба Параграф единствен. Споразумението влиза в сила от 25 октомври 2012 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

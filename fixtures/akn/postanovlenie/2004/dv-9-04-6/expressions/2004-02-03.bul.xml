@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-6/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-6"/>
+          <FRBRalias value="Постановление № 16 от 23 януари 2004 г. за увеличаване на щатната численост на Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Постановление № 16 от 23 януари 2004 г. за увеличаване на щатната численост на Министерството на вътрешните работи" name="eli" other="/eli/bg/postanovlenie/2004/dv-9-04-6"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-6/bul@2004-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-6/bul@2004-02-03"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-6/bul@2004-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-6/bul@2004-02-03.xml"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-03" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 16 от 23 януари 2004 г. за увеличаване на щатната численост на Министерството на вътрешните работи</p>
+      <p>(обн., ДВ, бр. 113 от 1998 г.; изм. и доп., бр. 37 от 1999 г.; Решение № 4049 от 19 юли 1999 г. и Решение № 4209 от 23 юли 1999 г. на Върховния административен съд - бр. 70 от 1999 г.; изм. и доп., бр. 62 и 92 от 2000 г., бр. 4 от 2001 г., бр. 8 и 28 от 2002 г. и бр. 39 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 107, ал. 1 от Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановление № 212 на Министерския съвет от 1998 г. (обн., ДВ, бр. 113 от 1998 г.; изм. и доп., бр. 37 от 1999 г.; Решение № 4049 от 19 юли 1999 г. и Решение № 4209 от 23 юли 1999 г. на Върховния административен съд - бр. 70 от 1999 г.; изм. и доп., бр. 62 и 92 от 2000 г., бр. 4 от 2001 г., бр. 8 и 28 от 2002 г. и бр. 39 от 2003 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Необходимите средства за изпълнение на постановлението се осигуряват в рамките на утвърдения бюджет на Министерството на вътрешните работи.</p>
+            <p>За министър-председател:</p>
+            <p>Николай Василев</p>
+            <p>Главен секретар на Министерския съвет:</p>
+            <p>Севдалин Мавров</p>
+            <p>3968</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

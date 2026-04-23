@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-106-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-106-07-2"/>
+          <FRBRalias value="Постановление № 297 от 5 декември 2007 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за електронните съобщения" name="short"/>
+          <FRBRalias value="Постановление № 297 от 5 декември 2007 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за електронните съобщения" name="eli" other="/eli/bg/postanovlenie/2007/dv-106-07-2"/>
+          <FRBRdate date="2007-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-106-07-2/bul@2007-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-106-07-2/bul@2007-12-14"/>
+          <FRBRdate date="2007-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-106-07-2/bul@2007-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-106-07-2/bul@2007-12-14.xml"/>
+          <FRBRdate date="2007-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-14" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 297 от 5 декември 2007 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за електронните съобщения</p>
+      <p>(обн., ДВ, бр. 31 от 2004 г.; изм. и доп., бр. 89 от 2004 г. и бр. 61, 86 и 90 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за далекосъобщенията, приета с Постановление № 71 на Министерския съвет от 2004 г. (обн., ДВ, бр. 31 от 2004 г.; изм. и доп., бр. 89 от 2004 г. и бр. 61, 86 и 90 от 2006 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

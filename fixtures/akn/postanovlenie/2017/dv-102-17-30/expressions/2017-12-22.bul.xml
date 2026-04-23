@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-30/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-30"/>
+          <FRBRalias value="Постановление № 322 ОТ 20 ДЕКЕМВРИ 2017 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 322 ОТ 20 ДЕКЕМВРИ 2017 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2017/dv-102-17-30"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-30/bul@2017-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-30/bul@2017-12-22"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-30/bul@2017-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-30/bul@2017-12-22.xml"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 322 ОТ 20 ДЕКЕМВРИ 2017 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 19 от 2002 г.; изм. и доп., бр. 74 от 2002 г., бр. 19 от 2004 г., бр. 15 от 2007 г., бр. 13 и 67 от 2009 г., бр. 2 от 2010 г., бр. 13 от 2011 г., бр. 16 от 2012 г., бр. 33 от 2013 г., бр. 17 и 55 от 2014 г., бр. 20 от 2015 г., бр. 17 от 2016 г. и бр. 29 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 3 т. 4 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5, ал. 3 се създава изречение второ: „Разпореждането за изменяне размера на паричното обезщетение за безработица във връзка с определен нов минимален и/или максимален дневен размер по чл. 54б, ал. 2 КСО се връчва при поискване на лицето, като срокът за обжалването му тече от датата на връчването.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложение № 3 към чл. 1, ал. 3 в раздел „ПРИЛАГАМ следните документи“ се правят следните изменения: 1. Точка 4 „Копие от удостоверението за сключен граждански брак“ се отменя. 2. Точка 5 „Оригинал (за справка) и копие на удостоверение за настоящ/постоянен адрес за лицата (съпругите/съпрузите на военнослу- жещите, които са ги последвали при премест- ването им в друго населено място)“ се отменя. 3. Досегашната т. 6 „Други ……“ става т. 4. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

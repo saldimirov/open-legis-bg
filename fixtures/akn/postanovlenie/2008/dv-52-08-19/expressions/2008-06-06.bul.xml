@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-52-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-52-08-19"/>
+          <FRBRalias value="Постановление № 116 от 30 май 2008 г. за изменение на Единния класификатор на длъжностите в администрацията, приет с Постановление № 47 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 116 от 30 май 2008 г. за изменение на Единния класификатор на длъжностите в администрацията, приет с Постановление № 47 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-52-08-19"/>
+          <FRBRdate date="2008-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-52-08-19/bul@2008-06-06/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-52-08-19/bul@2008-06-06"/>
+          <FRBRdate date="2008-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-52-08-19/bul@2008-06-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-52-08-19/bul@2008-06-06.xml"/>
+          <FRBRdate date="2008-06-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-06-06" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 116 от 30 май 2008 г. за изменение на Единния класификатор на длъжностите в администрацията, приет с Постановление № 47 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 18 от 2004 г.; изм. и доп., бр. 46 от 2004 г., бр. 58, 74 и 78 от 2005 г., бр. 24, 40 и 46 от 2006 г., бр. 11, 46, 61, 88 и 100 от 2007 г. и бр. 3, 34 и 37 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В длъжностно ниво Б6, колона 3 “Минимална образователна степен, необходима за заемане на длъжността”, ред 6 думата “специалист” се заменя с “професионален бакалавър по ...”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В длъжностно ниво Б7, колона 3 “Минимална образователна степен, необходима за заемане на длъжността”, ред 6 думата “специалист” се заменя с “професионален бакалавър по ...”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В длъжностно ниво Б9, колона 3 “Минимална образователна степен, необходима за заемане на длъжността”, ред 1 думата “специалист” се заменя с “професионален бакалавър по...”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В длъжностно ниво Б10, колона 3 “Минимална образователна степен, необходима за заемане на длъжността”, редове 1 и 2 думата “специалист” се заменя с “професионален бакалавър по ...”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В длъжностно ниво Б11, колона 3 “Минимална образователна степен, необходима за заемане на длъжността” думата “специалист” се заменя с “професионален бакалавър по ...”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-2"/>
+          <FRBRalias value="Закон за изменение на Закона за опазване на зе­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за опазване на зе­" name="eli" other="/eli/bg/zid/2012/dv-22-12-2"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-2/bul@2012-03-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-2/bul@2012-03-16"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-2/bul@2012-03-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-2/bul@2012-03-16.xml"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-16" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за опазване на зе­</p>
+      <p>(обн., ДВ, бр. 35 от 1996 г.; изм., бр. 14 и 26 от 2000 г., бр. 28 от 2001 г., бр. 112 от 2003 г., бр. 18, 29 и 30 от 2006 г., бр. 13 и 64 от 2007 г., бр. 36 и 43 от 2008 г., бр. 10 и 103 от 2009 г., бр. 87 от 2010 г., бр. 19 и 39 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 24, ал. 4 думата „държавната“ се заличава.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В преходните и заключителните разпо­ редби на Закона за изменение и допълнение на Закона за опазване на земеделските земи (ДВ, бр. 39 от 2011 г.) в § 27, ал. 3, т. 1 и 2 думите „влизането му в сила“ се заменят с „влизането в сила на този закон“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Разпоредбата на § 2 влиза в сила от 24 май 2011 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-1/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-1"/>
+          <FRBRalias value="Постановление № 88 от 18 април 2003 г. за изменение на Плана за организационното изграждане на Въоръжените сили на Република България до 2004 г., приет с Постановление № 200 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 88 от 18 април 2003 г. за изменение на Плана за организационното изграждане на Въоръжените сили на Република България до 2004 г., приет с Постановление № 200 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-40-03-1"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-1/bul@2003-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-1/bul@2003-04-29"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-1/bul@2003-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-1/bul@2003-04-29.xml"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-04-29" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 88 от 18 април 2003 г. за изменение на Плана за организационното изграждане на Въоръжените сили на Република България до 2004 г., приет с Постановление № 200 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 98 от 1999 г.; изм. и доп., бр. 16 от 2000 г. и бр. 25 и 111 от 2001 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

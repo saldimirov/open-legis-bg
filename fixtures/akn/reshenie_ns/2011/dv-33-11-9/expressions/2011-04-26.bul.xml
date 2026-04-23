@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-9/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-9"/>
+          <FRBRalias value="Решение за изменение и  допълнение на Правилника за организацията и дейността на Народното" name="short"/>
+          <FRBRalias value="Решение за изменение и  допълнение на Правилника за организацията и дейността на Народното" name="eli" other="/eli/bg/reshenie_ns/2011/dv-33-11-9"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-9/bul@2011-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-9/bul@2011-04-26"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-9/bul@2011-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-9/bul@2011-04-26.xml"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение и  допълнение на Правилника за организацията и дейността на Народното</p>
+      <p>(обн., ДВ, бр. 58 от 2009 г.; изм., бр. 60 от 2009 г., Решение № 11 на Консти- туционния съд на Република България от 3.12.2009 г. – бр. 98 от 2009 г.; доп., бр. 100 от 2009 г.; изм. и доп., бр. 43 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 20, ал. 2 думите „две последова- телни сесии“ се заменят с „три последователни сесии“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 65 се правят следните допълнения: 1. В ал. 2 след думата „поправките“ се до- бавя „по ал. 1“. 2. Създават се ал. 3, 4 и 5: „</p>
+            <p>(3) Поправки на фактически грешки в об- народваните актове на Народното събрание се извършват само по нареждане на председателя на Народното събрание, с писмено искане до „Държавен вестник“.</p>
+            <p>(4) Председателят на Народното събрание обявява поправките по ал. 3 пред Народното събрание на първото заседание след устано- вяването им.</p>
+            <p>(5) Когато поправката по ал. 3 е в обнародван закон, председателят на Народното събрание уведомява и Президента на Република България.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 73 се правят следните изменения и допълнения: 1. Създават се нова ал. 2 и ал. 3: МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

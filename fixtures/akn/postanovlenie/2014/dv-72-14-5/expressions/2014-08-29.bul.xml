@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-5/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-5"/>
+          <FRBRalias value="Постановление № 255 ОТ 22 АВГУСТ 2014 Г. за допълнение на Наредбата относно реда за" name="short"/>
+          <FRBRalias value="Постановление № 255 ОТ 22 АВГУСТ 2014 Г. за допълнение на Наредбата относно реда за" name="eli" other="/eli/bg/postanovlenie/2014/dv-72-14-5"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-5/bul@2014-08-29/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-5/bul@2014-08-29"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-5/bul@2014-08-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-5/bul@2014-08-29.xml"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-08-29" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 255 ОТ 22 АВГУСТ 2014 Г. за допълнение на Наредбата относно реда за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 4а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 4а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>В срок до един месец след изтичане на четиригодишен срок от назна­ чаването му, както и след изтичане на всеки четиригодишен период от изпълнение на функциите му, почетното (нещатно) консулско длъжностно лице представя на министъра на външните работи отчет за дейността си през предходните четири години.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Министърът на външните работи внася в Министерския съвет предложение за осво­ бождаване на почетното (нещатно) консулско длъжностно лице в случай на отрицателна оценка за дейността му или при непредставяне на отчета по ал. 1.“ Преходна разпоредба</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Почетните (нещатни) консулски длъж­ ностни лица, по отношение на които четири­ годишният срок по чл. 4а, ал. 1 е изтекъл към датата на влизане в сила на постановлението, следва да представят отчет за дейността си по смисъла на чл. 4а, ал. 1 в срок до една година от влизането в сила на постановлението.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

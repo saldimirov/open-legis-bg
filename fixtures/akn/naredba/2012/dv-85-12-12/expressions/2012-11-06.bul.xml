@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-12"/>
+          <FRBRalias value="Наредба за документите, необходими за издаване на" name="short"/>
+          <FRBRalias value="Наредба за документите, необходими за издаване на" name="eli" other="/eli/bg/naredba/2012/dv-85-12-12"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-12/bul@2012-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-12/bul@2012-11-06"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-12/bul@2012-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-12/bul@2012-11-06.xml"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-06" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за документите, необходими за издаване на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С наредбата се определят документите, необходими за издаване на лицензи по Закона за хазарта (ЗХ) и за даване на разрешения за извършване на промени в тях от Държавната комисия по хазарта (ДКХ).</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>За издаване на лиценз за органи­ зиране на хазартни игри и за организиране на дейности по производство, разпространение и сервиз и по внос, разпространение и сервиз на игрално оборудване, както и за промени във вече издадени лицензи се подава писмено иска­ не по образец до ДКХ, към което се прилагат предвидените в наредбата документи.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Председателят на ДКХ със заповед ут­ върждава образци на предвидените в наредбата писмени искания и декларации.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Всички документи, подавани по наредбата, следва да бъдат на български език. В случай че някой от документите е представен на език, различен от български, същият следва да бъде придружен от официален превод на български език.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Когато се подават документи от лица, които не са граждани на или не са регистри­ рани в Република България, тези документи се предоставят във форма и със съдържание, съответни на националното законодателство на лицето. Ако съответното национално за­ конодателство не предвижда издаването на необходимия документ от компетентен дър­ жавен орган, това се удостоверява в изрична нотариално заверена декларация на лицето, в която то декларира и наличието или липсата на обстоятелствата, за които се изисква пред­ ставянето на документа.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Всички документи, за които в наред­ бата не е посочено изрично, че се представят в оригинал, могат да се представят и като официално заверени преписи. Нотариални</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

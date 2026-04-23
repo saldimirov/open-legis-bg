@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-4/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-4"/>
+          <FRBRalias value="Закон за изменение на Закона за измерванията" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за измерванията" name="eli" other="/eli/bg/zid/2018/dv-12-18-4"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-4/bul@2018-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-4/bul@2018-02-06"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-4/bul@2018-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-4/bul@2018-02-06.xml"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-06" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за измерванията</p>
+      <p>(обн., ДВ, бр. 46 от 2002 г.; изм., бр. 88, 95 и 99 от 2005 г., бр. 36 от 2008 г., бр. 82 от 2009 г., бр. 39 от 2011 г., бр. 38 и 77 от 2012 г., бр. 15 и 66 от 2013 г., бр. 98 от 2014 г., бр. 14 от 2015 г. и бр. 58 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В глава шеста в наименованието на раздел III думите „и уведомяване от лицата, които произвеждат или внасят предварително опаковани продукти“ се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 67 се правят следните изменения: 1. В ал. 1 думите „или внасят“ се заличават. 2. В ал. 2: а) в т. 1 думите „и видът на дейността, която извършва – производство или внос“ се заличават; б) в т. 3 думите „или внася“ се заличават. 3. В ал. 3 думите „а вносителят – графично изображение на поставения от производите- ля на бутилката идентификационен знак“ се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Член 69 се отменя.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 90 думите „или вносител“ се заличават.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

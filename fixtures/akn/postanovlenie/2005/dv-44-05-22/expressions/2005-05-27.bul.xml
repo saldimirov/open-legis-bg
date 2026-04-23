@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-44-05-22/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-44-05-22"/>
+          <FRBRalias value="Постановление № 89 от 16 май 2005 г. за въвеждане на автономна мярка за внос на сурова захар от захарна тръстика" name="short"/>
+          <FRBRalias value="Постановление № 89 от 16 май 2005 г. за въвеждане на автономна мярка за внос на сурова захар от захарна тръстика" name="eli" other="/eli/bg/postanovlenie/2005/dv-44-05-22"/>
+          <FRBRdate date="2005-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-44-05-22/bul@2005-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-44-05-22/bul@2005-05-27"/>
+          <FRBRdate date="2005-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-44-05-22/bul@2005-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-44-05-22/bul@2005-05-27.xml"/>
+          <FRBRdate date="2005-05-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-27" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 89 от 16 май 2005 г. за въвеждане на автономна мярка за внос на сурова захар от захарна тръстика</p>
+      <p>(обн., ДВ, бр. 1 от 2004 г.; изм. и доп., бр. 115 от 2004 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Въвежда се автономна мярка за внос на сурова захар от захарна тръстика, както следва:</p>
+          <p>Код по              Описание на стоката                  Количество и</p>
+          <p>КН                                                              ставка на митото</p>
+          <p>1701 11       Сурова захар от захарна                50 000 тона</p>
+          <p>тръстика                                        5 %</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Периодът на действие на автономната мярка по чл. 1 е от 1 юли до 31 декември 2005 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Вносът на сурова захар от захарна тръстика по автономната мярка по чл. 1 се извършва по реда на Наредба № 11 от 2003 г. за управление на тарифните квоти (обн., ДВ, бр. 1 от 2004 г.; изм. и доп., бр. 115 от 2004 г.).</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

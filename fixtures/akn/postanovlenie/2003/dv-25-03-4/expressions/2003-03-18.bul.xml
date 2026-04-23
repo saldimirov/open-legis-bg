@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-25-03-4/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-25-03-4"/>
+          <FRBRalias value="Постановление № 58 от 7 март 2003 г. за одобряване на Тарифа за таксите, които се събират в системата на Министерството на околната среда и водите" name="short"/>
+          <FRBRalias value="Постановление № 58 от 7 март 2003 г. за одобряване на Тарифа за таксите, които се събират в системата на Министерството на околната среда и водите" name="eli" other="/eli/bg/postanovlenie/2003/dv-25-03-4"/>
+          <FRBRdate date="2003-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-25-03-4/bul@2003-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-25-03-4/bul@2003-03-18"/>
+          <FRBRdate date="2003-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-25-03-4/bul@2003-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-25-03-4/bul@2003-03-18.xml"/>
+          <FRBRdate date="2003-03-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-18" name="Държавен вестник" number="25" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 58 от 7 март 2003 г. за одобряване на Тарифа за таксите, които се събират в системата на Министерството на околната среда и водите</p>
+      <p>(обн., ДВ, бр. 137 от 1998 г.; изм. и доп., бр. 52 от 2000г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се:</p>
+            <p>1.        Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите, одобрена с Постановление № 110 на Министерския съвет от 2000 г. (ДВ, бр. 52 от 2000 г.).</p>
+            <p>2.        Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите и от общините за издаване на разрешения по Закона за ограничаване на вредното въздействие на отпадъците върху околната сре-да-приложение към чл. 1 от Постановление № 249 на Министерския съвет от 1998 г. (обн., ДВ, бр. 137 от 1998 г.; изм. и доп., бр. 52 от 2000г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 72 от Закона за опазване на околната среда, чл. 16, ал. 1, чл. 19, ал. 3, чл. 82, ал. 3 и чл. 85 от Закона за подземните богатства, чл. 50, ал. 2, чл. 184, ал. 2 и чл. 195, ал. 1 от Закона за водите и чл. 56 от Закона за ограничаване на вредното въздействие на отпадъците върху околната среда.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

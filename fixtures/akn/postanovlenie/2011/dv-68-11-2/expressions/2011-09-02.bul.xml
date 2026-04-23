@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-2"/>
+          <FRBRalias value="Постановление № 243 ОТ 25 АВГУСТ 2011 Г. за изменение на Постановление № 86 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 243 ОТ 25 АВГУСТ 2011 Г. за изменение на Постановление № 86 на Ми­" name="eli" other="/eli/bg/postanovlenie/2011/dv-68-11-2"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-2/bul@2011-09-02/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-2/bul@2011-09-02"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-68-11-2/bul@2011-09-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-68-11-2/bul@2011-09-02.xml"/>
+          <FRBRdate date="2011-09-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-02" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 243 ОТ 25 АВГУСТ 2011 Г. за изменение на Постановление № 86 на Ми­</p>
+      <p>(обн., ДВ, бр. 36 от 2010 г.; изм. и доп., бр. 50 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Навсякъде в приложение № 6 към чл. 2, ал. 5 числата „240“, „254“ и „266“ се заменят с „270“. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Необходимите средства за изпълнение на постановлението за периода от 1 септември до 31 декември 2011 г. се осигуряват в рамките на одобрените със Закона за държавния бюджет на Република България за 2011 г. средства по бюджета на Министерството на отбраната и трансфера от републиканския бюджет по съответния самостоятелен бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

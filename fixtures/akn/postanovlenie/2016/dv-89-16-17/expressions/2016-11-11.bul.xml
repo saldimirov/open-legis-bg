@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-89-16-17/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-89-16-17"/>
+          <FRBRalias value="Постановление № 286 ОТ 4 НОЕМВРИ 2016 Г. за приемане на Наредба за приобщаващото" name="short"/>
+          <FRBRalias value="Постановление № 286 ОТ 4 НОЕМВРИ 2016 Г. за приемане на Наредба за приобщаващото" name="eli" other="/eli/bg/postanovlenie/2016/dv-89-16-17"/>
+          <FRBRdate date="2016-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-89-16-17/bul@2016-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-89-16-17/bul@2016-11-11"/>
+          <FRBRdate date="2016-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-89-16-17/bul@2016-11-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-89-16-17/bul@2016-11-11.xml"/>
+          <FRBRdate date="2016-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-11" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 286 ОТ 4 НОЕМВРИ 2016 Г. за приемане на Наредба за приобщаващото</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>образование МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за при­ общаващото образование.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

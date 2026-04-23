@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-56-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-56-12-13"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен" name="eli" other="/eli/bg/reshenie_ns/2012/dv-56-12-13"/>
+          <FRBRdate date="2012-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-56-12-13/bul@2012-07-24/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-56-12-13/bul@2012-07-24"/>
+          <FRBRdate date="2012-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-56-12-13/bul@2012-07-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-56-12-13/bul@2012-07-24.xml"/>
+          <FRBRdate date="2012-07-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-24" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>представител Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Репуб­ лика България Р Е Ш И : Прекратява пълномощията на Димитър Иванов Аврамов като народен представи­ тел от 12. многомандатен избирателен ра­ йон – Монтана. Решението е прието от 41-ото Народно съб­рание на 19 юли 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-85-15-1/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-85-15-1"/>
+          <FRBRalias value="Постановление № 290 ОТ 29 ОКТОМВРИ 2015 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 290 ОТ 29 ОКТОМВРИ 2015 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2015/dv-85-15-1"/>
+          <FRBRdate date="2015-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-85-15-1/bul@2015-11-03/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-85-15-1/bul@2015-11-03"/>
+          <FRBRdate date="2015-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-85-15-1/bul@2015-11-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-85-15-1/bul@2015-11-03.xml"/>
+          <FRBRdate date="2015-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-11-03" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 290 ОТ 29 ОКТОМВРИ 2015 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. Редове 13 и 14 се заличават. 2. На ред 6, в колона „Дейност“ думите „по българо-турската и по черноморската граница“ се заменят с „външните и временно външни граници на Република България“. 3. На ред 17, в колона „Дейност“ след думата „София“ се добавя „и настройки на телефон- ната централа“. 4. Създават се редове 18, 19 и 20: „ № по ред Дейност Изпълнител Стойност (в лв.) 18. Доставка на про- жектори за гра- нично-полицей- ските наряди МВР 22 000 19. Доставка на гуми тип „off road/all terrain“ за патрул- ните автомобили с висока прохо- димост МВР 78 000 20. Ремонт, обслуж- ване и доставка на акумулаторни батерии за тех- нически средства за граничен кон- трол МВР 100 000 “ Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

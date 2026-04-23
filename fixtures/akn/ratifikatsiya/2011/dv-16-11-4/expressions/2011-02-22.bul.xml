@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-4"/>
+          <FRBRalias value="Закон за ратифициране на Конвенцията по касе­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Конвенцията по касе­" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-16-11-4"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-4/bul@2011-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-4/bul@2011-02-22"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-4/bul@2011-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-4/bul@2011-02-22.xml"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-22" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Конвенцията по касе­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>тъчните боеприпаси Член единствен. Ратифицира Конвенцията по касетъчните боеприпаси, приета на 30 май 2008 г. в Дъблин, Ирландия, и подписана от Република България на 3 декември 2008 г. в Осло, Норвегия.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

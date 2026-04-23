@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-97-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-97-09-9"/>
+          <FRBRalias value="Постановление № 283 ОТ 27 НОЕМВРИ 2009 Г. за приемане на Правилник за организацията на дейността на Съвета за административ­" name="short"/>
+          <FRBRalias value="Постановление № 283 ОТ 27 НОЕМВРИ 2009 Г. за приемане на Правилник за организацията на дейността на Съвета за административ­" name="eli" other="/eli/bg/postanovlenie/2009/dv-97-09-9"/>
+          <FRBRdate date="2009-12-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-97-09-9/bul@2009-12-08/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-97-09-9/bul@2009-12-08"/>
+          <FRBRdate date="2009-12-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-97-09-9/bul@2009-12-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-97-09-9/bul@2009-12-08.xml"/>
+          <FRBRdate date="2009-12-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-08" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 283 ОТ 27 НОЕМВРИ 2009 Г. за приемане на Правилник за организацията на дейността на Съвета за административ­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Постановление № 192 на Министер­ ския съвет от 2009 г. за създаване на Съвет за административната реформа (ДВ, бр. 64 от 2009 г.): 1. В чл. 1, ал. 2 се създават т. 5 и 6: „5. предлага методологии, концепции и стан­ дарти, свързани с административната реформа; 6. приема и представя в Министерския съвет годишен отчет за дейността си в срок до 31 март на следващата година.“ 2. В чл. 2 ал. 2 се изменя така: „</p>
+            <p>(2) Членове на съвета са заместник-ми­ нистър на финансите, на регионалното раз­ витие и благоустройството, на правосъдието, на земеделието и храните, на икономиката, енергетиката и туризма, на околната среда и водите, на транспорта, информационните технологии и съобщенията, на вътрешните работи, на отбраната, на външните работи, на здравеопазването, на образованието, младежта и науката, на културата и на физическото въз­ питание и спорта.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

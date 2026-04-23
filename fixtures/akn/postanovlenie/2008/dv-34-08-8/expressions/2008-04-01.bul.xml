@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-34-08-8/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-34-08-8"/>
+          <FRBRalias value="Постановление № 65 от 28 март 2008 г. за изменение на Постановление № 43 на Министерския съвет от 2006 г. за приемане на Устройствен правилник на Министерството на здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 65 от 28 март 2008 г. за изменение на Постановление № 43 на Министерския съвет от 2006 г. за приемане на Устройствен правилник на Министерството на здравеопазването" name="eli" other="/eli/bg/postanovlenie/2008/dv-34-08-8"/>
+          <FRBRdate date="2008-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-34-08-8/bul@2008-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-34-08-8/bul@2008-04-01"/>
+          <FRBRdate date="2008-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-34-08-8/bul@2008-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-34-08-8/bul@2008-04-01.xml"/>
+          <FRBRdate date="2008-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-01" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 65 от 28 март 2008 г. за изменение на Постановление № 43 на Министерския съвет от 2006 г. за приемане на Устройствен правилник на Министерството на здравеопазването</p>
+      <p>(обн., ДВ, бр. 22 от 2006 г.; изм. и доп., бр. 39 и 93 от 2006 г., бр. 75 и 76 от 2007 г. и бр. 24 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложението към чл. 2, ал. 2, т. 6 и ал. 3 се изменя така:</p>
+            <p>“Численост на персонала във второстепенните разпоредители с бюджетни кредити към министъра на здравеопазването</p>
+            <p>№ по                    Наименование                      Численост на</p>
+            <p>ред                                                                         персонала</p>
+            <p>1.       Изпълнителна агенция по лекар-</p>
+            <p>ствата                                                              145</p>
+            <p>2.       Изпълнителна агенция по</p>
+            <p>трансплантация                                                35</p>
+            <p>3.       Регионални центрове по здраве-</p>
+            <p>опазване                                                           607</p>
+            <p>4.       Регионални инспекции за опазване</p>
+            <p>и контрол на общественото здраве             3341</p>
+            <p>5.       Център “Фонд за лечение на деца”                  3</p>
+            <p>6.       Национален център по заразни и</p>
+            <p>паразитни болести                                          256</p>
+            <p>7.       Национален център по здравна</p>
+            <p>информация                                                      68</p>
+            <p>8.       Национален център по наркомании                20</p>
+            <p>9.       Национален център по опазване на</p>
+            <p>общественото здраве                                     244</p>
+            <p>10.     Национален център по радио-</p>
+            <p>биология и радиационна защита                    122</p>
+            <p>11.     Национален медицински коорди-</p>
+            <p>национен център                                              28</p>
+            <p>12.     Национална експертна лекарска</p>
+            <p>комисия                                                             48</p>
+            <p>13.     Центрове за спешна медицинска</p>
+            <p>помощ                                                              7130</p>
+            <p>14.     Национален център по трансфу-</p>
+            <p>зионна хематология - София                          196</p>
+            <p>15.     Районни центрове по трансфузионна</p>
+            <p>хематология                                                     315</p>
+            <p>16.     Държавни психиатрични болници                1435</p>
+            <p>17.     Домове за медико-социални грижи</p>
+            <p>за деца                                                             2916</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В срок един месец от приемането на постановлението министърът на здравеопазването да измени Правилника за устройството и дейността на регионалните инспекции за опазване и контрол на общественото здраве (обн., ДВ, бр. 16 от 2005 г.; изм. и доп., бр. 56 от 2006 г. и бр. 39 от 2007 г.) и Правилника за устройството и дейността на регионалните центрове по здравеопазване (ДВ, бр. 20 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

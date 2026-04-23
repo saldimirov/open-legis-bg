@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-22"/>
+          <FRBRalias value="Постановление № 262 ОТ 5 НОЕМВРИ 2010 Г. за определяне размера на линията на бедност за страната за 2011 г." name="short"/>
+          <FRBRalias value="Постановление № 262 ОТ 5 НОЕМВРИ 2010 Г. за определяне размера на линията на бедност за страната за 2011 г." name="eli" other="/eli/bg/postanovlenie/2010/dv-88-10-22"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-22/bul@2010-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-22/bul@2010-11-09"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-22/bul@2010-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-22/bul@2010-11-09.xml"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-09" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 262 ОТ 5 НОЕМВРИ 2010 Г. за определяне размера на линията на бедност за страната за 2011 г.</p>
+      <p>(обн., ДВ, бр. 106 от 2006 г.; изм., бр. 89 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа­ ние чл. 9, ал. 1 от Методиката за определяне и актуализиране на линията на бедност за страната, приета с Постановление № 345 на Министерския съвет от 2006 г. (обн., ДВ, бр. 106 от 2006 г.; изм., бр. 89 от 2007 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на труда и социалната политика и на председателя на Националния статистически институт.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

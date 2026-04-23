@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-10/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-10"/>
+          <FRBRalias value="Постановление № 191 ОТ 10 ЮЛИ 2014 Г. за създаване на Национален контратерорис­" name="short"/>
+          <FRBRalias value="Постановление № 191 ОТ 10 ЮЛИ 2014 Г. за създаване на Национален контратерорис­" name="eli" other="/eli/bg/postanovlenie/2014/dv-59-14-10"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-10/bul@2014-07-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-10/bul@2014-07-18"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-10/bul@2014-07-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-10/bul@2014-07-18.xml"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-07-18" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 191 ОТ 10 ЮЛИ 2014 Г. за създаване на Национален контратерорис­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Създава Национален контрате­ рористичен център, разположен в Държавна агенция „Национална сигурност“ (ДАНС).</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Националният контратерористичен център, наричан по-нататък „центъра“, е единна национална платформа за събиране и обработка на информация с оглед иденти­ фикация на лица и организации, свързани с тероризъм.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Центърът предоставя информация в непрекъснат денонощен режим на всички реагиращи структури от сектора за сигурност</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

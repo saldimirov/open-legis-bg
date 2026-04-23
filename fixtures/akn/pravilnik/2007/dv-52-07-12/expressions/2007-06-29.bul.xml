@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-52-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-52-07-12"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”" name="eli" other="/eli/bg/pravilnik/2007/dv-52-07-12"/>
+          <FRBRdate date="2007-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-52-07-12/bul@2007-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-52-07-12/bul@2007-06-29"/>
+          <FRBRdate date="2007-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-52-07-12/bul@2007-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-52-07-12/bul@2007-06-29.xml"/>
+          <FRBRdate date="2007-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-29" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”</p>
+      <p>(обн., ДВ, бр. 103 от 2003 г.;  изм., бр. 77 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 29, ал. 1 се създават т. 11 и 12:</p>
+            <p>“11. специализирано поделение “ГУСВ - АВТОТРАНСПОРТ И МЕХАНИЗАЦИЯ”, със седалище София;</p>
+            <p>12. специализирано поделение “ГУСВ - БЕТОН”, със седалище София.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 31 т. 1 се изменя така:</p>
+            <p>“1. за поделенията по чл. 29, ал. 1: “поделение”, съответно: София - Горубляне, Благоевград, Враца, Плевен, Варна, Бургас, Стара Загора, Пловдив, Челопеч, ГУСВ - АВТОТРАНСПОРТ И МЕХАНИЗАЦИЯ - София, и ГУСВ - БЕТОН - София;”.</p>
+            <p>Министър:  А. Гагаузов</p>
+            <p>32308</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

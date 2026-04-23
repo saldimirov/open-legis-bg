@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-4"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата за социал­ на сигурност между Република България и" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата за социал­ на сигурност между Република България и" name="eli" other="/eli/bg/ratifikatsiya/2013/dv-14-13-4"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-4/bul@2013-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-4/bul@2013-02-12"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-4/bul@2013-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-4/bul@2013-02-12.xml"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-12" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Спогодбата за социал­ на сигурност между Република България и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Канада Член единствен. Ратифицира Спогодбата за социална сигурност между Република България и Канада, подписана на 5 октомври 2012 г. в Отава.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

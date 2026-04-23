@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-2"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантираните" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за гарантираните" name="eli" other="/eli/bg/zid/2013/dv-84-13-2"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-2/bul@2013-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-2/bul@2013-09-27"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-2/bul@2013-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-2/bul@2013-09-27.xml"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-27" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за гарантираните</p>
+      <p>(обн., ДВ, бр. 37 от 2004 г.; изм., бр. 104 и 105 от 2005 г., бр. 30, 34, 48, 80 и 105 от 2006 г., бр. 53 от 2007 г., бр. 12 и 32 от 2009 г., бр. 18 от 2011 г., бр. 94 от 2012 г. и бр. 15 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 4 ал. 2 се изменя така: „(2) Лицата по ал. 1 могат да ползват права по този закон, при условие че работодателят е осъществявал дейност най-малко 12 месеца преди началната дата на неплатежоспособност­ та, съответно свръхзадължеността, посочена в решението по чл. 6.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 22, ал. 1 т. 1 се изменя така: „1. последните шест начислени, но неиз­ платени месечни трудови възнаграждения и парични обезщетения през последните 12 ка­ лендарни месеца, предхождащи месеца, в който е вписано решението по чл. 6, но месечно не повече от определения за тези случаи макси­ мален размер на гарантираните вземания, ако работникът или служителят е бил в трудово правоотношение със същия работодател не по-малко от три месеца;“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 23 ал. 1 се изменя така: „(1) Гарантираните вземания на работни­ ците и служителите по чл. 4, ал. 1, т. 2 са в размер на последните до шест начислени, но неизплатени месечни трудови възнаграждения и парични обезщетения през последните 12 ка­ лендарни месеца преди месеца на прекратяване на трудовото правоотношение, но месечно не повече от определения за тези случаи макси­ мален размер на гарантираните вземания, ако са били в трудово правоотношение със същия работодател не по-малко от три месеца.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 25 думата „30-дневен“ се заменя с „двумесечен“. Заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>В Закона за бюджета на Държавното обществено осигуряване за 2013 г. (обн., ДВ, бр. 99 от 2012 г.; попр., бр. 102 от 2012 г.; изм., бр. 57 от 2013 г.) в чл. 15, ал. 2 думите „1000 лв.“ се заменят с „1200 лв.“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_6" name="modification">
+        <num>§ 6.</num>
+        <content>
+          <p>Законът влиза в сила от 1 октомври 2013 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-41-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-41-10-19"/>
+          <FRBRalias value="Постановление № 100 ОТ 21 МАЙ 2010 Г. за изменение на Постановление № 188 на" name="short"/>
+          <FRBRalias value="Постановление № 100 ОТ 21 МАЙ 2010 Г. за изменение на Постановление № 188 на" name="eli" other="/eli/bg/postanovlenie/2010/dv-41-10-19"/>
+          <FRBRdate date="2010-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-41-10-19/bul@2010-06-01/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-41-10-19/bul@2010-06-01"/>
+          <FRBRdate date="2010-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-41-10-19/bul@2010-06-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-41-10-19/bul@2010-06-01.xml"/>
+          <FRBRdate date="2010-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-01" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 100 ОТ 21 МАЙ 2010 Г. за изменение на Постановление № 188 на</p>
+      <p>(обн., ДВ, бр. 34 от 1991 г.; изм. и доп., бр. 60 и 80 от 1991 г., бр. 34 от 1992 г., бр. 8, 72 и 87 от 1993 г., бр. 2 и 100 от 1994 г.; попр., бр. 103 от 1994 г.; изм. и доп., бр. 5, 48 и 95 от 1995 г., бр. 28 от 1997 г.; попр., бр. 43 от 1997 г.; изм. и доп., бр. 57, 61, 112 и 122 от 1997 г., бр. 18 от 1998 г., бр. 18 и 113 от 1999 г., бр. 41 и 44 от 2001 г., бр. 31 от 2003 г., бр. 69 и 86 от 2004 г., бр. 75 от 2006 г.; попр., бр. 17 от 2007 г.; изм. и доп., бр. 45 от 2008 г. и бр. 62 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Параграф 22 от допълнителната разпо­ редба се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Симеон Дянков За главен секретар на Министерския съвет: Галина Маринска 4477</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-3-08-8/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-3-08-8"/>
+          <FRBRalias value="Постановление № 337 от 28 декември 2007 г. за допълнение на Единния класификатор на длъжностите в администрацията, приет с Постановление  № 47 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 337 от 28 декември 2007 г. за допълнение на Единния класификатор на длъжностите в администрацията, приет с Постановление  № 47 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-3-08-8"/>
+          <FRBRdate date="2008-01-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-3-08-8/bul@2008-01-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-3-08-8/bul@2008-01-11"/>
+          <FRBRdate date="2008-01-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-3-08-8/bul@2008-01-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-3-08-8/bul@2008-01-11.xml"/>
+          <FRBRdate date="2008-01-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-01-11" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 337 от 28 декември 2007 г. за допълнение на Единния класификатор на длъжностите в администрацията, приет с Постановление  № 47 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 18 от 2004 г.; изм. и доп., бр. 46 от 2004 г., бр. 58, 74 и 78 от 2005 г., бр. 24, 40 и 46 от 2006 г. и бр. 11, 46, 61, 88 и 100 от 2007 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

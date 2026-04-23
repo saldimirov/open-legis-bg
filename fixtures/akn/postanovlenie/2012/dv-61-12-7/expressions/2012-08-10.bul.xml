@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-7/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-7"/>
+          <FRBRalias value="Постановление № 173 ОТ 6 АВГУСТ 2012 Г. за изменение и допълнение на Постановле­" name="short"/>
+          <FRBRalias value="Постановление № 173 ОТ 6 АВГУСТ 2012 Г. за изменение и допълнение на Постановле­" name="eli" other="/eli/bg/postanovlenie/2012/dv-61-12-7"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-7/bul@2012-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-7/bul@2012-08-10"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-7/bul@2012-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-7/bul@2012-08-10.xml"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-10" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 173 ОТ 6 АВГУСТ 2012 Г. за изменение и допълнение на Постановле­</p>
+      <p>(обн., ДВ, бр. 34 от 2012 г.; изм., бр. 41 и 44 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, т. 1 в раз­ дел А „Програма/обекти“ се правят следните изменения и допълнения: 1. На ред 1 числото „42 700 000“ се заменя с „35 196 259“. 2. На ред 1.1 числото „14 000 000“ се заменя с „10 496 259“. 3. На ред 1.2 числото „14 700 000“ се заменя с „10 700 000“. 4. На ред 7 числото „8 716 000“ се заменя с „16 219 741“. 5. На ред 7.1 думите „до 61 + 629,18 = 0 + 000“ се заменят с „до км 60+550“. 6. Създава се ред 7.2: „7.2. Придобиване на земя за обект „Софий­ ски околовръстен път (СОП) – Западна дъга“ от км 60+550 до км 61+629,18 7 503 741“. 7. Досегашните редове 7.2 и 7.3 стават съ­ ответно 7.3 и 7.4. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 ав­ густ 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

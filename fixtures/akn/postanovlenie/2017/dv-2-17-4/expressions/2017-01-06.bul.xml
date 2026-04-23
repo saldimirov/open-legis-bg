@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-4/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-4"/>
+          <FRBRalias value="Постановление № 380 ОТ 28 ДЕКЕМВРИ 2016 Г. за изменение на Наредбата за условията, пра-" name="short"/>
+          <FRBRalias value="Постановление № 380 ОТ 28 ДЕКЕМВРИ 2016 Г. за изменение на Наредбата за условията, пра-" name="eli" other="/eli/bg/postanovlenie/2017/dv-2-17-4"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-4/bul@2017-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-4/bul@2017-01-06"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-2-17-4/bul@2017-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-2-17-4/bul@2017-01-06.xml"/>
+          <FRBRdate date="2017-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 380 ОТ 28 ДЕКЕМВРИ 2016 Г. за изменение на Наредбата за условията, пра-</p>
+      <p>(обн., ДВ, бр. 40 от 2013 г.; изм и доп., бр. 66, 92 и 107 от 2014 г., бр. 92 от 2015 г., бр. 3, 14 и 32 от 2016 г.; Решение № 13049 на Върховния административен съд от 2015 г. – бр. 32 от 2016 г.; изм. и доп., бр. 62 и 74 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5 ал. 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 9а от преходните и заключител- ните разпоредби думите „5, ал. 5 и чл. 8, ал. 5 се прилагат“ се заменят с „8, ал. 5 се прилага“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2017 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

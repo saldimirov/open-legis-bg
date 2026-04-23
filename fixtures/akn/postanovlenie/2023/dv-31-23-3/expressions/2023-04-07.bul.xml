@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-31-23-3/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-31-23-3"/>
+          <FRBRalias value="Постановление № 49 ОТ 5 АПРИЛ 2023 Г. за изменение на Правилника за легализациите," name="short"/>
+          <FRBRalias value="Постановление № 49 ОТ 5 АПРИЛ 2023 Г. за изменение на Правилника за легализациите," name="eli" other="/eli/bg/postanovlenie/2023/dv-31-23-3"/>
+          <FRBRdate date="2023-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-31-23-3/bul@2023-04-07/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-31-23-3/bul@2023-04-07"/>
+          <FRBRdate date="2023-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-31-23-3/bul@2023-04-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-31-23-3/bul@2023-04-07.xml"/>
+          <FRBRdate date="2023-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-04-07" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 49 ОТ 5 АПРИЛ 2023 Г. за изменение на Правилника за легализациите,</p>
+      <p>(обн., ДВ, бр. 73 от 1958 г.; изм. и доп., бр. 10 от 1964 г., бр. 77 от 1976 г., бр. 96 от 1982 г., бр. 77 от 1983 г., бр. 103 от 1990 г., бр. 95 от 2017 г., бр. 7 и бр. 41 от 2019 г. и бр. 39 от 2020 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 11.</num>
+        <content>
+          <p>Всяко дипломатическо и консулско представителство на Република България ле­ гализира документи и други книжа, издадени в чужди страни, само ако документите са вече заверени: 1. от Министерството на външните работи на приемащата страна; 2. от регионални служби на Министер­ ството на външните работи на приемащата страна, или 3. от други изрично оправомощени съгласно местното законодателство компетентни ор­ гани, при условие че съответното българско дипломатическо и консулско представител­ ство е било официално уведомено за това от Министерството на външните работи на приемащата страна; и разполага с образци от подписите и печатите на длъжностните лица, извършили заверката.“</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

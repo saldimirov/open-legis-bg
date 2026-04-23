@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-7/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-7"/>
+          <FRBRalias value="Постановление № 40 от 26 февруари 2004 г. за изменение и допълнение на Постановление № 30 на Министерския съвет от 2004 г. за изпълнението на държавния бюджет на Република България за 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 40 от 26 февруари 2004 г. за изменение и допълнение на Постановление № 30 на Министерския съвет от 2004 г. за изпълнението на държавния бюджет на Република България за 2004 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-16-04-7"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-7/bul@2004-02-27/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-7/bul@2004-02-27"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-16-04-7/bul@2004-02-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-16-04-7/bul@2004-02-27.xml"/>
+          <FRBRdate date="2004-02-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-27" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 40 от 26 февруари 2004 г. за изменение и допълнение на Постановление № 30 на Министерския съвет от 2004 г. за изпълнението на държавния бюджет на Република България за 2004 г.</p>
+      <p>(обн., ДВ, бр. 13 от  2004 г  .; попр., бр. 14 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нов § 10:</p>
+            <p>“§ 10. (1) “Българска телекомуникационна компания” -ЕАД, да отчисли допълнително дивидент за държавата от печалбата след данъчното облагане за финансовата 2002 г. в размер 68 454 050 лв.</p>
+            <p>(2) “Българска телекомуникационна компания” -ЕАД, да внесе дивидента по ал. 1 до 3 март 2004 г.”</p>
+            <p>2. Досегашният § 10 става § 11.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:</p>
+            <p>Пламен Панайотов</p>
+            <p>Главен секретар на Министерския съвет:</p>
+            <p>Севдалин Мавров</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-8/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-8"/>
+          <FRBRalias value="Постановление № 287 от 23 ноември 2007 г. за изменение на Наредбата за условията и реда за събиране на винетни такси за платено ползване на определени републикански пътища за определен срок, приета с Постановление № 57 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 287 от 23 ноември 2007 г. за изменение на Наредбата за условията и реда за събиране на винетни такси за платено ползване на определени републикански пътища за определен срок, приета с Постановление № 57 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-101-07-8"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-8/bul@2007-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-8/bul@2007-12-04"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-101-07-8/bul@2007-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-101-07-8/bul@2007-12-04.xml"/>
+          <FRBRdate date="2007-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-04" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 287 от 23 ноември 2007 г. за изменение на Наредбата за условията и реда за събиране на винетни такси за платено ползване на определени републикански пътища за определен срок, приета с Постановление № 57 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 24 от 2004 г.; Решение № 9513 на Върховния административен съд от 2005 г. - бр. 89 от  2005 г  .; изм. и доп., бр. 93 и 108 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7 ал. 3 се изменя така:</p>
+            <p>“(3) Годишната винетка е с валидност от 1 януари до 31 декември на текущата година.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Годишната винетка за 2007 г. запазва валидността си до 31 януари 2008 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

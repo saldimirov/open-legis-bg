@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-9"/>
+          <FRBRalias value="Постановление № 292 ОТ 3 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 292 ОТ 3 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2009/dv-98-09-9"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-9/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-9/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-9/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-9/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 292 ОТ 3 ДЕКЕМВРИ 2009 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 64 от 2009 г.; изм. и доп., бр. 73 и 78 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5 се правят следните изменения и допълнения: 1. Създава се нова ал. 2: „</p>
+            <p>(2) Дължимите обезщетения по чл. 222, ал. 1 от Кодекса на труда и по чл. 106, ал. 2 от Закона за държавния служител на служите­ лите от закритото Министерство на държавната администрация и административната реформа, чиито трудови или служебни правоотношения са прекратени, се изплащат чрез бюджета на Министерството на финансите по предложение на председателя на ликвидационната комисия.“ 2. Досегашната ал. 2 става ал. 3. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 2 но­ ември 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

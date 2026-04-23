@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-74-15-6/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-74-15-6"/>
+          <FRBRalias value="Закон за изменение на Закона за Българската телег­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за Българската телег­" name="eli" other="/eli/bg/zid/2015/dv-74-15-6"/>
+          <FRBRdate date="2015-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-74-15-6/bul@2015-09-26/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-74-15-6/bul@2015-09-26"/>
+          <FRBRdate date="2015-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-74-15-6/bul@2015-09-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-74-15-6/bul@2015-09-26.xml"/>
+          <FRBRdate date="2015-09-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-26" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за Българската телег­</p>
+      <p>(обн., ДВ, бр. 99 от 2011 г.; бр. 78 от 2012 г. – Решение № 11 на Конститу­ ционния съд от 2012 г.; изм., бр. 15 от 2013 г. и бр. 19 от 2014 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-49-07-21/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-49-07-21"/>
+          <FRBRalias value="Постановление № 132 от 12 юни 2007 г. за разпределение на средствата по т. 22 от приложение № 4 към чл. 8, ал. 1 от Закона за държавния бюджет на Република България за 2007 г." name="short"/>
+          <FRBRalias value="Постановление № 132 от 12 юни 2007 г. за разпределение на средствата по т. 22 от приложение № 4 към чл. 8, ал. 1 от Закона за държавния бюджет на Република България за 2007 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-49-07-21"/>
+          <FRBRdate date="2007-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-49-07-21/bul@2007-06-19/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-49-07-21/bul@2007-06-19"/>
+          <FRBRdate date="2007-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-49-07-21/bul@2007-06-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-49-07-21/bul@2007-06-19.xml"/>
+          <FRBRdate date="2007-06-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-06-19" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 132 от 12 юни 2007 г. за разпределение на средствата по т. 22 от приложение № 4 към чл. 8, ал. 1 от Закона за държавния бюджет на Република България за 2007 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Разпределя средствата по т. 22 от приложение № 4 към чл. 8, ал. 1 от Закона за държавния бюджет на Република България за 2007 г. за юридическите лица с нестопанска цел в обществена полза, вписани в централния регистър по чл. 45 от Закона за юридическите лица с нестопанска цел, съгласно приложението.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Средствата по чл. 1 се предоставят на основата на заявка пред Министерството на финансите.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата се предоставят, разходват и отчитат по отделно открита за целта сметка на лицата по приложението към чл. 1.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Лицата по приложението към чл. 1 представят ежемесечно в Министерството на финансите и за всяко тримесечие в Сметната палата отчет за разходваните средства по елементите, посочени в приложението към чл. 1. Към отчетите се прилагат и заверени от лицата копия на първични счетоводни и други документи, доказващи разходите.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

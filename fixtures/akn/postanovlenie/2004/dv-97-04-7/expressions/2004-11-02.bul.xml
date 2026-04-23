@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-97-04-7/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-97-04-7"/>
+          <FRBRalias value="Постановление № 285 от 22 октомври 2004 г. за предоставяне на допълнителни средства от републиканския бюджет за 2004 г. за финансиране на дейностите по подготовката, организацията и координацията на българското национално участие в “ЕКСПО 2005” в Аичи, Япония" name="short"/>
+          <FRBRalias value="Постановление № 285 от 22 октомври 2004 г. за предоставяне на допълнителни средства от републиканския бюджет за 2004 г. за финансиране на дейностите по подготовката, организацията и координацията на българското национално участие в “ЕКСПО 2005” в Аичи, Япония" name="eli" other="/eli/bg/postanovlenie/2004/dv-97-04-7"/>
+          <FRBRdate date="2004-11-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-97-04-7/bul@2004-11-02/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-97-04-7/bul@2004-11-02"/>
+          <FRBRdate date="2004-11-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-97-04-7/bul@2004-11-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-97-04-7/bul@2004-11-02.xml"/>
+          <FRBRdate date="2004-11-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-11-02" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 285 от 22 октомври 2004 г. за предоставяне на допълнителни средства от републиканския бюджет за 2004 г. за финансиране на дейностите по подготовката, организацията и координацията на българското национално участие в “ЕКСПО 2005” в Аичи, Япония</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Министърът на финансите да предостави по реда на чл. 34, ал. 1 и/или на чл. 35, ал. 2 от Закона за устройството на държавния бюджет допълнителни средства от републиканския бюджет за 2004 г. в размер 1 000 000 лв. чрез бюджета на Министерството на икономиката на “Международен панаир” - ЕАД, Пловдив, за финансиране на дейностите по подготовката, организацията и координацията на българското национално участие в “ЕКСПО 2005” в Аичи, Япония.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят от икономии на разходите и/или от преизпълнение на приходите по републиканския бюджет за 2004 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Неизразходваните средства по ал. 1 да се възстановят в бюджета на Министерството на икономиката до 31 декември 2004 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по бюджета на Министерството на икономиката за 2004 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на икономиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

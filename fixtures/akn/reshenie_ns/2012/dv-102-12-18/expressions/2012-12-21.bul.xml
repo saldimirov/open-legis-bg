@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-18"/>
+          <FRBRalias value="Решение за избор на генерален директор на Българ­" name="short"/>
+          <FRBRalias value="Решение за избор на генерален директор на Българ­" name="eli" other="/eli/bg/reshenie_ns/2012/dv-102-12-18"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-18/bul@2012-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-18/bul@2012-12-21"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-18/bul@2012-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-18/bul@2012-12-21.xml"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-21" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на генерален директор на Българ­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ската телеграфна агенция Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Ре­ публика България и във връзка с чл. 10 от Закона за Българската телеграфна агенция Р Е Ш И : Избира Максим Христов Минчев за гене­ рален директор на Българската телеграфна агенция с мандат 5 години, считано от деня на обнародване на решението в „Държавен вестник“. Решението е прието от 41-то Народно съ­ брание на 19 декември 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

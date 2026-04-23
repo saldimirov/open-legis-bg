@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-10"/>
+          <FRBRalias value="Закон за изменение на Закона за достъп и раз-" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за достъп и раз-" name="eli" other="/eli/bg/zid/2012/dv-25-12-10"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-10/bul@2012-03-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-10/bul@2012-03-27"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-25-12-10/bul@2012-03-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-25-12-10/bul@2012-03-27.xml"/>
+          <FRBRdate date="2012-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-27" name="Държавен вестник" number="25" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за достъп и раз-</p>
+      <p>(обн., ДВ, бр. 102 от 2006 г.; изм., бр. 41, 57 и 109 от 2007 г., бр. 69 от 2008 г., бр. 25, 35, 42, 82 и 93 от 2009 г., бр. 18, 54 и 97 от 2010 г., бр. 23, 32 и 48 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 5, ал. 4, т. 1 думите „независи- мо от реабилитацията“ се заменят с „освен ако присъдата им е отменена по съдебен ред или са реабилитирани по реда на Закона за политическа и гражданска реабилитация на репресирани лица“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна- родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

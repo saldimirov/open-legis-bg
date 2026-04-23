@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-14/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-14"/>
+          <FRBRalias value="Постановление № 228 ОТ 2 СЕПТЕМВРИ 2016 Г. за одобряване на допълнителни трансфери за" name="short"/>
+          <FRBRalias value="Постановление № 228 ОТ 2 СЕПТЕМВРИ 2016 Г. за одобряване на допълнителни трансфери за" name="eli" other="/eli/bg/postanovlenie/2016/dv-71-16-14"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-14/bul@2016-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-14/bul@2016-09-13"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-14/bul@2016-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-14/bul@2016-09-13.xml"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 228 ОТ 2 СЕПТЕМВРИ 2016 Г. за одобряване на допълнителни трансфери за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни трансфери в размер 14 143 735 лв., разпределени по об­ щини съгласно приложението, за финансово осигуряване на дейности по националните програми „Оптимизация на училищната мрежа“, „Осигуряване на съвременна об­ разователна среда“ и „Без свободен час в училище“, одобрени с Решение № 271 на Министерския съвет от 2016 г. за одобрява­ не на национални програми за развитие на средното образование. СТР. 8 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 71 на национални програми за развитие на средното образование.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и науката и на кметовете на общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-19-08-4/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-19-08-4"/>
+          <FRBRalias value="Закон за изменение на Закона за лекарствените продукти в хуманната медицина" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за лекарствените продукти в хуманната медицина" name="eli" other="/eli/bg/zid/2008/dv-19-08-4"/>
+          <FRBRdate date="2008-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-19-08-4/bul@2008-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-19-08-4/bul@2008-02-22"/>
+          <FRBRdate date="2008-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-19-08-4/bul@2008-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-19-08-4/bul@2008-02-22.xml"/>
+          <FRBRdate date="2008-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-02-22" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за лекарствените продукти в хуманната медицина</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

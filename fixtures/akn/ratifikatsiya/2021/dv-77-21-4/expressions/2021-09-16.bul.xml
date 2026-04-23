@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-77-21-4/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-77-21-4"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="eli" other="/eli/bg/ratifikatsiya/2021/dv-77-21-4"/>
+          <FRBRdate date="2021-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-77-21-4/bul@2021-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-77-21-4/bul@2021-09-16"/>
+          <FRBRdate date="2021-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-77-21-4/bul@2021-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-77-21-4/bul@2021-09-16.xml"/>
+          <FRBRdate date="2021-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-09-16" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението между</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Швейцарския федерален технологически институт в Цюрих, Швейцарския федерален политехнически институт в Лозана, Софий­ ски университет „Св. Климент Охридски“ и правителството на Република България Член единствен. Ратифицира Споразуме­ нието между Швейцарския федерален техно­ логически институт в Цюрих, Швейцарския федерален политехнически институт в Ло­ зана, Софийски университет „Св. Климент Охридски“ и правителството на Република България.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

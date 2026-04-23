@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-16"/>
+          <FRBRalias value="Постановление № 38 от 20 февруари 2007 г. за изменение и допълнение на Устройствения правилник на Министерството на отбраната, приет с Постановление № 162 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 38 от 20 февруари 2007 г. за изменение и допълнение на Устройствения правилник на Министерството на отбраната, приет с Постановление № 162 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-19-07-16"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-16/bul@2007-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-16/bul@2007-03-02"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-16/bul@2007-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-16/bul@2007-03-02.xml"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 38 от 20 февруари 2007 г. за изменение и допълнение на Устройствения правилник на Министерството на отбраната, приет с Постановление № 162 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 72 от 1999 г.; изм. и доп., бр. 98 от 1999 г., бр. 14, 39 и 56 от 2000 г., бр. 25, 64 и 87 от 2001 г., бр. 68 и 117 от 2002 г., бр. 75 от 2003 г., бр. 9 и 100 от 2004 г.,  бр. 51, 78 и 83 от 2005 г. и бр. 48 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 19 т. 5 се изменя така:</p>
+            <p>“5. осигурява в правно отношение дейността по възлагане на обществени поръчки и предоставяне на концесии, като съгласува необходимите документи, участва в комисии и при воденето на преговори и сключването на договори, по които страна е Министерството на отбраната или подготвителните действия по които се извършват от министъра на отбраната, съгласно чл. 19, ал. 1, т. 1 - 3 от Закона за концесиите.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 31 се създава т. 14:</p>
+            <p>“14. подготвя необходимите документи и участва в комисии за провеждане на процедури за предоставяне на концесии за недвижими имоти - публична държавна собственост, предоставени за изпълнение на функциите на Министерството на отбраната.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

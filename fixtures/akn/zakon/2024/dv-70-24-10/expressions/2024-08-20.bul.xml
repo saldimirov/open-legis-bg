@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-10/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-10"/>
+          <FRBRalias value="Закон за въвеждане на еврото в Република България" name="short"/>
+          <FRBRalias value="Закон за въвеждане на еврото в Република България" name="eli" other="/eli/bg/zakon/2024/dv-70-24-10"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-10/bul@2024-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-10/bul@2024-08-20"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-10/bul@2024-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-10/bul@2024-08-20.xml"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-08-20" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за въвеждане на еврото в Република България</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Международен договор (LOA) BU-B-UCR „Придобиване на боеприпаси за машини „Страйкър“, подписан на 22 май 2024 г. в Съединените американски щати и на 25 юли 2024 г. в София, Република България. Чл. 2. Договорът по чл. 1 да не се обнародва в „Държавен вестник“. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

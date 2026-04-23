@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-5/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-5"/>
+          <FRBRalias value="Постановление № 387 ОТ 17 НОЕМВРИ 2021 Г. за допълнение на Постановление № 304 на" name="short"/>
+          <FRBRalias value="Постановление № 387 ОТ 17 НОЕМВРИ 2021 Г. за допълнение на Постановление № 304 на" name="eli" other="/eli/bg/postanovlenie/2021/dv-97-21-5"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-5/bul@2021-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-5/bul@2021-11-19"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-5/bul@2021-11-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-5/bul@2021-11-19.xml"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-11-19" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 387 ОТ 17 НОЕМВРИ 2021 Г. за допълнение на Постановление № 304 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 3а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 3а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За извършването на плащанията по чл. 1, ал. 1 може да се използва сметка за чужди средства на Министерството на културата.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Преведените до 31 декември 2021 г. по сметката по ал. 1 суми се отразяват в изпъл­ нението на съответните разходни показатели по бюджета на Министерството на културата за 2021 г. по чл. 2 и 3.“ Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

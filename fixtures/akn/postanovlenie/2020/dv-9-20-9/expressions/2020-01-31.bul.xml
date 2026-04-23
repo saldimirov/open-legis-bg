@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-9-20-9/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-9-20-9"/>
+          <FRBRalias value="Постановление № 8 ОТ 27 ЯНУАРИ 2020 Г. за закриване на Координационния съвет по" name="short"/>
+          <FRBRalias value="Постановление № 8 ОТ 27 ЯНУАРИ 2020 Г. за закриване на Координационния съвет по" name="eli" other="/eli/bg/postanovlenie/2020/dv-9-20-9"/>
+          <FRBRdate date="2020-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-9-20-9/bul@2020-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-9-20-9/bul@2020-01-31"/>
+          <FRBRdate date="2020-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-9-20-9/bul@2020-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-9-20-9/bul@2020-01-31.xml"/>
+          <FRBRdate date="2020-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 8 ОТ 27 ЯНУАРИ 2020 Г. за закриване на Координационния съвет по</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>От 1 януари 2020 г. участието на Ре- публика България в отделните дейности и инициативи на Съвета на Европа се поема от съответните заинтересовани министерства и ведомства в рамките на утвърдените им бюджети за съответната година.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Средствата, свързани с реално извър- шени дейности и проекти в изпълнение на одобрената с решение по т. 1 от Протокол № 50 от заседанието на Министерския съвет на 19 декември 2018 г. Национална програма за участие на Република България в меж- дуправителствените дейности на Съвета на Европа през 2018 и 2019 г., се преразпределят чрез трансфер от Министерството на външ- ните работи по бюджетите на съответните заинтересовани министерства и ведомства за 2020 г. на основание чл. 110, ал. 4 от Закона за публичните финанси, а за след- ващите години се планират по бюджета на заинтересованите министерства и ведомства съгласно бюджетната процедура. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Отменя се Решение № 5 на Министер- ския съвет от 7 януари 1992 г. за създаване на Координационен съвет по участието на Република България в дейността на Съвета на Европа.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на ос- нование чл. 22а, ал. 1 от Закона за адми- нистрацията.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

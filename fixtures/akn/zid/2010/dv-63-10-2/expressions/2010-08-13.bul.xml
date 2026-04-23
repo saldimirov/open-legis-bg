@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-2"/>
+          <FRBRalias value="Закон за изменение на Закона за управление на" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за управление на" name="eli" other="/eli/bg/zid/2010/dv-63-10-2"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-2/bul@2010-08-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-2/bul@2010-08-13"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-2/bul@2010-08-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-2/bul@2010-08-13.xml"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-13" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за управление на</p>
+      <p>(обн., ДВ, бр. 86 от 2003 г.; изм., бр. 70 от 2004 г., бр. 77, 87, 88, 95 и 105 от 2005 г., бр. 30, 34, 63 и 80 от 2006 г., бр. 53 от 2007 г., бр. 36 и 70 от 2008 г., бр. 82 и 95 от 2009 г. и бр. 41 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 51, ал. 4 думите „се извършват дейностите“ се заменят с „е седалището на лицето“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 52, ал. 1 думите „се извършват дейностите“ се заменят с „е седалището на лицето“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 114, ал. 2 думите „ал. 1“ се за­ личават.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

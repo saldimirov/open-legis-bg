@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-77-07-10/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-77-07-10"/>
+          <FRBRalias value="Постановление № 227 от 15 септември 2007 г. за приемане на тарифа, по която партиите, коалициите на партии и инициативните комитети заплащат диспутите, клиповете и предизборните хроники, излъчени по Българската национална телевизия, Българското национално радио и техните регионални центрове" name="short"/>
+          <FRBRalias value="Постановление № 227 от 15 септември 2007 г. за приемане на тарифа, по която партиите, коалициите на партии и инициативните комитети заплащат диспутите, клиповете и предизборните хроники, излъчени по Българската национална телевизия, Българското национално радио и техните регионални центрове" name="eli" other="/eli/bg/postanovlenie/2007/dv-77-07-10"/>
+          <FRBRdate date="2007-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-77-07-10/bul@2007-09-25/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-77-07-10/bul@2007-09-25"/>
+          <FRBRdate date="2007-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-77-07-10/bul@2007-09-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-77-07-10/bul@2007-09-25.xml"/>
+          <FRBRdate date="2007-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-09-25" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 227 от 15 септември 2007 г. за приемане на тарифа, по която партиите, коалициите на партии и инициативните комитети заплащат диспутите, клиповете и предизборните хроники, излъчени по Българската национална телевизия, Българското национално радио и техните регионални центрове</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 58 от Закона за местните избори.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 17 септември 2007 г.</p>
+            <p>За министър-председател:  Ивайло Калфин</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>51748</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

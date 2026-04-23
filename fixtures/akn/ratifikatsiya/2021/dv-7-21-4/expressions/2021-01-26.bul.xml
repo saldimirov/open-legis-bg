@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-4/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-4"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между Ре­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между Ре­" name="eli" other="/eli/bg/ratifikatsiya/2021/dv-7-21-4"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-4/bul@2021-01-26/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-4/bul@2021-01-26"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-4/bul@2021-01-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-4/bul@2021-01-26.xml"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-26" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Спогодбата между Ре­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>публика България и Кралство Нидерландия за избягване на двойното данъчно облагане с данъци на доходите и предотвратяване на отклонението и заобикалянето на данъчно облагане Член единствен. Ратифицира Спогодбата между Република България и Кралство Ни- дерландия за избягване на двойното данъчно облагане с данъци на доходите и предотвра- тяване на отклонението и заобикалянето на данъчно облагане, подписана на 14 септември 2020 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

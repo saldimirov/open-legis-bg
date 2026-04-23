@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-5"/>
+          <FRBRalias value="Постановление № 12 от 22 януари 2007 г. за изменение и допълнение на Устройствения правилник на Агенцията за хората с увреждания, приет с Постановление № 337 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 12 от 22 януари 2007 г. за изменение и допълнение на Устройствения правилник на Агенцията за хората с увреждания, приет с Постановление № 337 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-11-07-5"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-5/bul@2007-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-5/bul@2007-02-02"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-5/bul@2007-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-5/bul@2007-02-02.xml"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-02-02" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 12 от 22 януари 2007 г. за изменение и допълнение на Устройствения правилник на Агенцията за хората с увреждания, приет с Постановление № 337 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 112 от  2004 г  .; изм., бр. 83 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 4а:</p>
+            <p>“Чл. 4а. (1) В дейността си изпълнителният директор се подпомага от заместник изпълнителен директор.</p>
+            <p>(2) Трудовото правоотношение със заместник изпълнителния директор се сключва, изменя и прекратява от изпълнителния директор съгласувано с министъра на труда и социалната политика.</p>
+            <p>(3) Със заповед изпълнителният директор определя функции и делегира правомощия на своя заместник.</p>
+            <p>(4) Функциите на изпълнителния директор в негово отсъствие поради командировка или ползване на законоустановения отпуск се изпълняват от заместник изпълнителния директор.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 ал. 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложението към чл. 7, ал. 2 се изменя така:</p>
+            <p>“Приложение  към чл. 7, ал. 2</p>
+            <p>Численост на персонала на Агенцията за хората с увреждания - 25 щатни бройки</p>
+            <p>Изпълнителен директор                                                                                                                                                      1</p>
+            <p>Заместник изпълнителен директор                                                                                                                                       1</p>
+            <p>Главен секретар                                                                                                                                                                1</p>
+            <p>Обща администрация                                                                                                                                                          8</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Административно-правно,  финансово и информационно обслужване”</p>
+            <p>Специализирана администрация                                                                                                                                        14</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Интеграция на хората с  увреждания”.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

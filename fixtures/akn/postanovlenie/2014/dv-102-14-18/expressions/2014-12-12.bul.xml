@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-18"/>
+          <FRBRalias value="Постановление № 391 ОТ 11 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 391 ОТ 11 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2014/dv-102-14-18"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-18/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-18/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-18/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-18/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 391 ОТ 11 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики по бюджета на Министерството на външните работи за 2014 г., както следва: 1. намалява утвърдените разходи по „Поли­ тика в областта на развитието на ефективна дипломатическа служба“, бюджетна програма „Управление на задграничните представител­ ства и подкрепа на българските граждани в чужбина“ с 61 800 лв.; 2. увеличава утвърдените разходи по „По­ литика в областта на публичната дипломация“ с 61 800 лв., като от тях: 2.1. по бюджетна програма „Публични дейности“ – с 39 600 лв.; 2.2. по бюджетна програма „Културна дип­ ломация“ – с 22 200 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на външните работи да извърши съответните промени по бюджета на Министерството на външните работи за 2014 г. и да уведоми за това министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на външните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 10 декември 2014 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-85-13-11/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-85-13-11"/>
+          <FRBRalias value="Постановление № 218 ОТ 26 СЕПТЕМВРИ 2013 Г. за изменение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани" name="short"/>
+          <FRBRalias value="Постановление № 218 ОТ 26 СЕПТЕМВРИ 2013 Г. за изменение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани" name="eli" other="/eli/bg/postanovlenie/2013/dv-85-13-11"/>
+          <FRBRdate date="2013-09-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-85-13-11/bul@2013-09-28/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-85-13-11/bul@2013-09-28"/>
+          <FRBRdate date="2013-09-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-85-13-11/bul@2013-09-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-85-13-11/bul@2013-09-28.xml"/>
+          <FRBRdate date="2013-09-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-28" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 218 ОТ 26 СЕПТЕМВРИ 2013 Г. за изменение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани</p>
+      <p>(обн., ДВ, бр. 54 от 2006 г.; изм. и доп., бр. 56 от 2007 г. и бр. 43 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения: 1. В ал. 1 числото „60“ се заменя с „30“. 2. В ал. 2 цифрата „6“ се заменя с „12“. 3. Алинея 3 се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

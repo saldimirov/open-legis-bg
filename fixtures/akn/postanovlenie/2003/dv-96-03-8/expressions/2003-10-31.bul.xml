@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-8"/>
+          <FRBRalias value="Постановление № 237 от 24 октомври 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговски дружества" name="short"/>
+          <FRBRalias value="Постановление № 237 от 24 октомври 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговски дружества" name="eli" other="/eli/bg/postanovlenie/2003/dv-96-03-8"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-8/bul@2003-10-31/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-8/bul@2003-10-31"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-96-03-8/bul@2003-10-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-96-03-8/bul@2003-10-31.xml"/>
+          <FRBRdate date="2003-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-31" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 237 от 24 октомври 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговски дружества</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Министърът на финансите да предостави средства в размер 900 хил. лв. от централния бюджет за 2003 г. за осигуряване работата на еднолични топлофикационни търговски дружества със 100 на сто държавно участие през отоплителния сезон 2003 — 2004 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 се предоставят като еднократна субсидия от определените средства по чл. 1, ал. 2, т. 1.7 от Закона за държавния бюджет на Република България за 2003 г. на следните топлофикационни дружества с държавно участие от системата на енергетиката:</p>
+            <p>2.1.       „Топлофикация — Ловеч&amp;quot;, ЕАД — 400 хил. лв.;</p>
+            <p>2.2.       „Топлофикация—Ямбол&amp;quot;,  ЕАД— 400 хил. лв.;</p>
+            <p>2.3.       „Топлофикация-Лозница&amp;quot;,  ЕАД-70 хил. лв.;</p>
+            <p>2.4.       „Топлофикация-Самоков&amp;quot;,  ЕАД-30 хил. лв.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се използват от търговските дружества за погасяване на задълженията им за гориво и на погашенията по държавно гарантирани заеми.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на енергетиката и енергийните ресурси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-4/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-4"/>
+          <FRBRalias value="Закон за изменение на Закона за морските прос­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за морските прос­" name="eli" other="/eli/bg/zid/2016/dv-26-16-4"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-4/bul@2016-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-4/bul@2016-04-01"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-4/bul@2016-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-4/bul@2016-04-01.xml"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-01" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за морските прос­</p>
+      <p>(обн., ДВ, бр. 12 от 2000 г.; изм., бр. 111 от 2001 г., бр. 24 и 70 от 2004 г., бр. 11 от 2005 г.; Решение № 5 на Конституционния съд от 2005 г. – бр. 45 от 2005 г.; изм., бр. 87, 88, 94, 102 и 104 от 2005 г., бр. 30, 36, 43, 65, 99 и 108 от 2006 г., бр. 41, 54 и 109 от 2007 г., бр. 67, 71, 98 и 108 от 2008 г., бр. 47 и 81 от 2009 г., бр. 61 и 88 от 2010 г., бр. 23 от 2011 г., бр. 32 и 53 от 2012 г., бр. 15, 28, 66 и 109 от 2013 г.; Решение № 3 на Конституционния съд от 2014 г. – бр. 24 от 2014 г.; изм., бр. 98 от 2014 г. и бр. 14 и 52 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 103в, ал. 4 думите „по ал. 2 и 3“ се заменят с „по ал. 2, 3 и ал. 5, изречение първо“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна- родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

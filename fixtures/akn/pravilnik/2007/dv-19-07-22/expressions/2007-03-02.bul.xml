@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-22"/>
+          <FRBRalias value="Правилник за дейността на Националния институт за обучение на директори" name="short"/>
+          <FRBRalias value="Правилник за дейността на Националния институт за обучение на директори" name="eli" other="/eli/bg/pravilnik/2007/dv-19-07-22"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-22/bul@2007-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-22/bul@2007-03-02"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-22/bul@2007-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-22/bul@2007-03-02.xml"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за дейността на Националния институт за обучение на директори</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С този правилник се уреждат дейността, управлението, структурата и организацията на работа на Националния институт за обучение на директори, наричан по-нататък “института”.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Институтът е държавно обслужващо научно-информационно звено в системата на народната просвета.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Институтът е юридическо лице със седалище и адрес на управление Банкя, ул. Княз Борис I № 7.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Институтът е второстепенен разпоредител с бюджетни кредити към министъра на образованието и науката.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Институтът е с обща численост на персонала 20 щатни бройки.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Институтът организира и провежда дейностите по обучение на директори и други лица в системата на училищното образование с цел подобряване на качеството и ефективността на управленския процес.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <intro>
+            <p>Институтът се финансира със средства от:</p>
+          </intro>
+          <point eId="chap_1__art_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>държавния бюджет;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>собствени приходи.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_1__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Институтът работи по годишен план, утвърден от министъра на образованието и науката.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Министърът на образованието и науката осъществява контрол върху дейността на института.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>ДЕЙНОСТИ</heading>
+        <article eId="chap_2__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="chap_2__art_7__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Институтът осъществява следните дейности:</p>
+            </intro>
+            <point eId="chap_2__art_7__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>първоначално обучение на новоназначени директори;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>периодично обучение на директори за осъвременяване и повишаване на управленските, организационните и финансовите им компетентности;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>обучение за използване на ИКТ в процеса на управление;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>обучение за разработване и управление на проекти;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>проучване и анализиране на потребностите от обучение;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>разработване на програми за обучение;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_7">
+              <num>7.</num>
+              <content>
+                <p>разработване на учебно-методически и информационни материали;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_8">
+              <num>8.</num>
+              <content>
+                <p>извършване на мониторинг и оценка на качеството на проведените обучения;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_9">
+              <num>9.</num>
+              <content>
+                <p>участие в разработването на национална система за квалификация на директорите;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_10">
+              <num>10.</num>
+              <content>
+                <p>проучване, обсъждане и подпомагане на въвеждането на иновации в управлението на образованието;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_11">
+              <num>11.</num>
+              <content>
+                <p>консултиране на директори по въпроси, свързани с управленската им дейност;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_12">
+              <num>12.</num>
+              <content>
+                <p>поддържане на регистър с информация за преминалите обучение, включително в електронен вид;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_13">
+              <num>13.</num>
+              <content>
+                <p>поддържане на регистър на издадените сертификати и удостоверения, включително в електронен вид;</p>
+              </content>
+            </point>
+            <point eId="chap_2__art_7__al_1__pt_14">
+              <num>14.</num>
+              <content>
+                <p>сътрудничество с български и международни институции и организации по въпроси, свързани с дейността на института.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Институтът осъществява и други дейности, свързани с дейностите по ал. 1.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>УПРАВЛЕНИЕ И СТРУКТУРА</heading>
+        <article eId="chap_3__art_8">
+          <num>Чл. 8.</num>
+          <paragraph eId="chap_3__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Институтът се ръководи и представлява от директор, който се назначава от министъра на образованието и науката.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_8__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Директорът:</p>
+            </intro>
+            <point eId="chap_3__art_8__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>организира, контролира и отговаря за цялостната дейност на института;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>изготвя и представя за утвърждаване на министъра на образованието и науката годишен план за дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>изготвя и предоставя на министъра на образованието и науката годишен доклад-анализ за дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>утвърждава програмите за обучение;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_5">
+              <num>5.</num>
+              <content>
+                <p>издава сертификати и удостоверения за завършени курсове на обучение;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_6">
+              <num>6.</num>
+              <content>
+                <p>съставя бюджет и отговаря за законосъобразното, целесъобразното и икономично разпореждане с бюджетни средства;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_7">
+              <num>7.</num>
+              <content>
+                <p>изпълнява функциите на работодател по отношение на работниците и служителите на института;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_8">
+              <num>8.</num>
+              <content>
+                <p>утвърждава длъжностното разписание и длъжностните характеристики;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_9">
+              <num>9.</num>
+              <content>
+                <p>утвърждава правилник за вътрешния ред на института, както и правила за документооборота;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_10">
+              <num>10.</num>
+              <content>
+                <p>сключва договори, свързани с дейността на института;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_8__al_2__pt_11">
+              <num>11.</num>
+              <content>
+                <p>организира и контролира поддържането на актуална информация на интернет страницата на института.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_3__art_8__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Директорът осъществява контакти и взаимодействие с национални и международни институции и организации.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_3__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Дейността на института е структурирана в две направления: програмна и административно-стопанска дейност.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Направленията се ръководят от координатори-експерти, които се назначават и освобождават от директора на института.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_9__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Всеки от координаторите-експерти може да ръководи и представлява института при отсъствие на директора въз основа на изрична заповед.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_3__art_10">
+          <num>Чл. 10.</num>
+          <intro>
+            <p>Координаторът-експерт по програмната дейност:</p>
+          </intro>
+          <point eId="chap_3__art_10__pt_1">
+            <num>1.</num>
+            <content>
+              <p>организира изготвянето на анализи за потребностите от обучение;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_2">
+            <num>2.</num>
+            <content>
+              <p>организира проучването и обсъждането на въвеждането на иновации в управлението на училищното образование;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_3">
+            <num>3.</num>
+            <content>
+              <p>планира, ръководи и контролира учебната дейност на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_4">
+            <num>4.</num>
+            <content>
+              <p>организира разработването и изпълнението на програмите за обучение и проектите на курсове за обучение;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_5">
+            <num>5.</num>
+            <content>
+              <p>организира разработването и актуализирането на учебните материали;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_6">
+            <num>6.</num>
+            <content>
+              <p>планира и организира подбора на преподаватели;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_7">
+            <num>7.</num>
+            <content>
+              <p>изготвя отчет за учебната дейност и прави предложения за подобряването й;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_8">
+            <num>8.</num>
+            <content>
+              <p>организира поддържането на регистър с информация за преминалите обучение и на регистър на издадените сертификати и удостоверения;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_10__pt_9">
+            <num>9.</num>
+            <content>
+              <p>организира участието на института в разработването и изпълнението на национални и международни програми и проекти.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_3__art_11">
+          <num>Чл. 11.</num>
+          <intro>
+            <p>Координаторът-експерт по административно-стопанската дейност:</p>
+          </intro>
+          <point eId="chap_3__art_11__pt_1">
+            <num>1.</num>
+            <content>
+              <p>съставя проекта на бюджет на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_2">
+            <num>2.</num>
+            <content>
+              <p>организира и контролира финансовата и счетоводната дейност на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_3">
+            <num>3.</num>
+            <content>
+              <p>изготвя отчет за изпълнението на бюджета на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_4">
+            <num>4.</num>
+            <content>
+              <p>организира и контролира деловодната дейност на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_5">
+            <num>5.</num>
+            <content>
+              <p>разработва проект на правилник за вътрешния ред и проекти на длъжностно разписание и длъжностни характеристики;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_6">
+            <num>6.</num>
+            <content>
+              <p>изготвя проекти на актове за възникване, изменение и прекратяване на трудовите правоотношения;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_7">
+            <num>7.</num>
+            <content>
+              <p>изготвя проекти на договори, свързани с дейността на института;</p>
+            </content>
+          </point>
+          <point eId="chap_3__art_11__pt_8">
+            <num>8.</num>
+            <content>
+              <p>организира снабдяването, съхраняването, стопанисването и използването на стоково-материални ценности.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_3__art_12">
+          <num>Чл. 12.</num>
+          <content>
+            <p>Координаторите-експерти изпълняват и други функции, възложени им със заповед на директора на института.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава четвърта</num>
+        <heading>ОРГАНИЗАЦИЯ НА РАБОТА</heading>
+        <article eId="chap_4__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="chap_4__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Работното време на служителите е от 9 до 17,30 ч. с почивка от 12 до 12,30 ч. при 5-дневна работна седмица.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В зависимост от учебните програми директорът със заповед може да определи за отделни служители различно от посоченото в ал. 1 разпределение на работното време и почивките.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_4__art_14">
+          <num>Чл. 14.</num>
+          <content>
+            <p>Работниците и служителите на института изпълняват възложените им задачи съобразно утвърдените длъжностни характеристики.</p>
+          </content>
+        </article>
+        <article eId="chap_4__art_15">
+          <num>Чл. 15.</num>
+          <paragraph eId="chap_4__art_15__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>В института се води следната задължителна документация:</p>
+            </intro>
+            <point eId="chap_4__art_15__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>входящ дневник;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>изходящ дневник;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>учебна документация;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_4">
+              <num>4.</num>
+              <content>
+                <p>счетоводна документация;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_5">
+              <num>5.</num>
+              <content>
+                <p>заповедна книга;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_6">
+              <num>6.</num>
+              <content>
+                <p>книга за регистриране на договорите;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_7">
+              <num>7.</num>
+              <content>
+                <p>книга за регистриране на даренията;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_8">
+              <num>8.</num>
+              <content>
+                <p>регистър на издадените сертификати и удостоверения;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_9">
+              <num>9.</num>
+              <content>
+                <p>регистър на преминалите обучение;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_10">
+              <num>10.</num>
+              <content>
+                <p>книга за контролната дейност;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_11">
+              <num>11.</num>
+              <content>
+                <p>книга за регистриране на ползвателите на легловата база на института;</p>
+              </content>
+            </point>
+            <point eId="chap_4__art_15__al_1__pt_12">
+              <num>12.</num>
+              <content>
+                <p>инвентарна книга.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_4__art_15__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Документите се изготвят и съхраняват съобразно изискванията на нормативните актове и вътрешните правила, утвърдени от директора.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_15__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Задължителната документация се номерира, прошнурова и подпечатва с печата на института.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

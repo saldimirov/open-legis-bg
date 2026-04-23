@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-92-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-92-11-6"/>
+          <FRBRalias value="Закон за ратифициране на Международната конвен­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Международната конвен­" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-92-11-6"/>
+          <FRBRdate date="2011-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-92-11-6/bul@2011-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-92-11-6/bul@2011-11-22"/>
+          <FRBRdate date="2011-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-92-11-6/bul@2011-11-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-92-11-6/bul@2011-11-22.xml"/>
+          <FRBRdate date="2011-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-22" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Международната конвен­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ция от Найроби за изваждане на потънало имущество, 2007 Член единствен. Ратифицира Международ­ ната конвенция за изваждане на потънало имущество от Найроби, 2007, приета от Меж­ дународната морска организация на диплома­ тическа конференция, проведена в периода от 14 до 18 май 2007 г., със следната декларация по член 3, алинея 2 от конвенцията: „Република България декларира, че раз­ ширява приложното поле на Международ­ ната конвенция за изваждане на потънало имущество от Найроби, 2007, към потънало имущество, намиращо се на нейна територия, включително в териториалното море, съгласно член 4, параграф 4 от конвенцията.“</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

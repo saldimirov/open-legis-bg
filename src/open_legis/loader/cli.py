@@ -130,7 +130,11 @@ def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
     )
     session.flush()
 
+    _MAX_TEXT = 200_000  # tsvector limit is ~1 MB; cap each element well below it
     for e in p.elements:
+        text = e.text
+        if text and len(text) > _MAX_TEXT:
+            text = text[:_MAX_TEXT]
         session.add(
             m.Element(
                 expression_id=expr.id,
@@ -139,7 +143,7 @@ def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
                 element_type=m.ElementType(e.element_type),
                 num=e.num,
                 heading=e.heading,
-                text=e.text,
+                text=text,
                 sequence=e.sequence,
             )
         )

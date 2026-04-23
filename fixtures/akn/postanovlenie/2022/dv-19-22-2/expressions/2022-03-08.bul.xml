@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-19-22-2/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-19-22-2"/>
+          <FRBRalias value="Постановление № 22 ОТ 2 МАРТ 2022 Г. за изменение на Списъка на държавите с" name="short"/>
+          <FRBRalias value="Постановление № 22 ОТ 2 МАРТ 2022 Г. за изменение на Списъка на държавите с" name="eli" other="/eli/bg/postanovlenie/2022/dv-19-22-2"/>
+          <FRBRdate date="2022-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-19-22-2/bul@2022-03-08/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-19-22-2/bul@2022-03-08"/>
+          <FRBRdate date="2022-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-19-22-2/bul@2022-03-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-19-22-2/bul@2022-03-08.xml"/>
+          <FRBRdate date="2022-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-03-08" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 22 ОТ 2 МАРТ 2022 Г. за изменение на Списъка на държавите с</p>
+      <p>(обн., ДВ, бр. 46 от 2007 г.; изм. и доп., бр. 93 от 2013 г., бр. 78 от 2015 г., бр. 50 от 2020 г. и бр. 28 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Забележката в края на Списъка на държавите с пазарен риск по чл. 5, ал. 1 от Закона за експортното застраховане – прило­ жение към член единствен от Постановление № 124 на Министерския съвет от 2007 г., се изменя така: „Всички търговски и политически рискове, свързани с износ за държавите, изброени по- горе, се разглеждат като временно непазарни в периода 27 март 2020 г. – 31 март 2022 г. във връзка със Съобщение на Комисията за изменение на приложението към Съобщение на Комисията до държавите членки относно прилагането на членове 107 и 108 от Договора за функционирането на Европейския съюз към застраховането на краткосрочни експортни кре­ дити (OB, С 101 от 28 март 2020 г., изменено).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

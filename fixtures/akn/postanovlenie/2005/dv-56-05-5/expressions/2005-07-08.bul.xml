@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-5"/>
+          <FRBRalias value="Постановление № 134 от 29 юни 2005 г. за осигуряване на средства във връзка с увеличаване капитала на “Болгарпродукт” - АД, Хасково" name="short"/>
+          <FRBRalias value="Постановление № 134 от 29 юни 2005 г. за осигуряване на средства във връзка с увеличаване капитала на “Болгарпродукт” - АД, Хасково" name="eli" other="/eli/bg/postanovlenie/2005/dv-56-05-5"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-5/bul@2005-07-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-5/bul@2005-07-08"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-56-05-5/bul@2005-07-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-56-05-5/bul@2005-07-08.xml"/>
+          <FRBRdate date="2005-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-08" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 134 от 29 юни 2005 г. за осигуряване на средства във връзка с увеличаване капитала на “Болгарпродукт” - АД, Хасково</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Дава съгласие за придобиване от страна на държавата чрез бюджета на Министерството на земеделието и горите на акции от капитала на “Болгарпродукт” - АД, Хасково, на стойност 1 500 000 лв. във връзка с увеличаване капитала на дружеството.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 се осигуряват след приемането от общото събрание на акционерите на “Болгарпродукт” - АД, Хасково, на решение за увеличаване капитала на дружеството.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>“Болгарпродукт” - АД, Хасково, да използва осигурените чрез увеличаване на капитала средства в размер 1 500 000 лв. за финансиране на маркетингово проучване и изработване на идеен проект, задание за проектиране и работен (технически) проект за изграждане на Дистрибуционен център за търговия с български храни и напитки в гр. Подолск, Московска област.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят чрез преструктуриране на разходите по бюджета на Министерството на земеделието и горите за 2005 г.</p>
+        </content>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Министърът на земеделието и горите да извърши корекциите по бюджетните сметки на второстепенните разпоредители с бюджетни кредити.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 във връзка с чл. 34, ал. 3 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на земеделието и горите и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-93-18-6/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-93-18-6"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="eli" other="/eli/bg/ratifikatsiya/2018/dv-93-18-6"/>
+          <FRBRdate date="2018-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-93-18-6/bul@2018-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-93-18-6/bul@2018-11-09"/>
+          <FRBRdate date="2018-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-93-18-6/bul@2018-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-93-18-6/bul@2018-11-09.xml"/>
+          <FRBRdate date="2018-11-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-11-09" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението между</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>правителството на Република България и кабинета на министрите на Украйна за съ- трудничество при бедствия Член единствен. Ратифицира Споразумени- ето между правителството на Република Бъл- гария и кабинета на министрите на Украйна за сътрудничество при бедствия, подписано в София на 30 юни 2016 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

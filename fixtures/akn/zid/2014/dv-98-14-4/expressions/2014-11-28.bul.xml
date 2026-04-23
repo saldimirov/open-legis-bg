@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-98-14-4/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-98-14-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2014/dv-98-14-4"/>
+          <FRBRdate date="2014-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-98-14-4/bul@2014-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-98-14-4/bul@2014-11-28"/>
+          <FRBRdate date="2014-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-98-14-4/bul@2014-11-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-98-14-4/bul@2014-11-28.xml"/>
+          <FRBRdate date="2014-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-28" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 109 от 2013 г.; Решение № 13 на Конституционния съд от 2014 г. – бр. 65 от 2014 г.; изм., бр. 67 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 1 се правят следните изменения и допълнения: 1. Алинея 1 се изменя така: „(1) Приема държавния бюджет за 2014 г. по приходите, помощите и даренията, както следва:</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

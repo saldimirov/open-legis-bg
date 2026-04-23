@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-4"/>
+          <FRBRalias value="Закон за ратифициране на Договора за присъеди­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Договора за присъеди­" name="eli" other="/eli/bg/ratifikatsiya/2012/dv-18-12-4"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-4/bul@2012-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-4/bul@2012-03-02"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-4/bul@2012-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-4/bul@2012-03-02.xml"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-02" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Договора за присъеди­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>няване на Република Хърватия към Евро­ пейския съюз Член единствен. Ратифицира Договора между Кралство Белгия, Република Бълга­ рия, Чешката република, Кралство Дания, Федерална република Германия, Републи­ ка Естония, Ирландия, Република Гърция, Кралство Испания, Френската република, Италианската република, Република Кипър, Република Латвия, Република Литва, Великото херцогство Люксембург, Република Унгария, Република Малта, Кралство Нидерландия, Република Австрия, Република Полша, Пор­ тугалската република, Румъния, Република Словения, Словашката република, Република Финландия, Кралство Швеция и Обединеното кралство Великобритания и Северна Ирландия (държави – членки на Европейския съюз) и Република Хърватия за присъединяване на Република Хърватия към Европейския съюз, подписан на 9 декември 2011 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

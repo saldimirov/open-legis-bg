@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-2-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-2-10-4"/>
+          <FRBRalias value="Постановление № 327 ОТ 30 ДЕКЕМВРИ 2009 Г. за изменение на Тарифата за инфраструк-" name="short"/>
+          <FRBRalias value="Постановление № 327 ОТ 30 ДЕКЕМВРИ 2009 Г. за изменение на Тарифата за инфраструк-" name="eli" other="/eli/bg/postanovlenie/2010/dv-2-10-4"/>
+          <FRBRdate date="2010-01-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-2-10-4/bul@2010-01-08/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-2-10-4/bul@2010-01-08"/>
+          <FRBRdate date="2010-01-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-2-10-4/bul@2010-01-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-2-10-4/bul@2010-01-08.xml"/>
+          <FRBRdate date="2010-01-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-08" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 327 ОТ 30 ДЕКЕМВРИ 2009 Г. за изменение на Тарифата за инфраструк-</p>
+      <p>(обн., ДВ, бр. 1 от 2002 г.; изм. и доп., бр. 49 от 2002 г., бр. 71 от 2004 г. и бр. 105 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 се правят следните из- менения: 1. В т. 3 думите „1,1335 лв.“ се заменят с „от 0,9045 лв. до 0,9997 лв.“. 2. В т. 4 думите „0,7935 лв.“ се заменят с „от 0,6331 лв. до 0,6998 лв.“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения: 1. В ал. 1: а) в буква „а“ думите „от 0,0037 лв. до 0,0039 лв.“ се заменят с „от 0,0029 лв. до 0,0033 лв.“; б) в буква „б“ думите „от 0,5304 лв. до 0,5600 лв.“ се заменят с „от 0,4232 лв. до 0,4678 лв.“; в) в буква „в“ думите „от 0,4159 лв. до 0,4390 лв.“ се заменят с „от 0,3318 лв. до 0,3668 лв.“; г) в буква „г“ думите „от 2,3283 лв. до 2,4576 лв.“ се заменят с „от 1,8579 лв. до 2,0534 лв.“. 2. В ал. 2: а) в буква „а“ думите „от 0,0026 лв. до 0,0027 лв.“ се заменят с „от 0,0021 лв. до 0,0023 лв.“; б) в буква „б“ думите „от 0,3713 лв. до 0,3920 лв.“ се заменят с „от 0,2963 лв. до 0,3275 лв.“; в) в буква „в“ думите „от 0,2911 лв. до 0,3073 лв.“ се заменят с „от 0,2322 лв. до 0,2567 лв.“; г) в буква „г“ думите „от 1,6298 лв. до 1,7203 лв.“ се заменят с „от 1,3005 лв. до 1,4375 лв.“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2010 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

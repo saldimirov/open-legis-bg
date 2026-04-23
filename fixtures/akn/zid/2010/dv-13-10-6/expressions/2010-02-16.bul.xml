@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-6"/>
+          <FRBRalias value="Закон за допълнение на Закона за закрила и развитие на културата (обн., ДВ, бр. 50 от 1999 г.; изм.," name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за закрила и развитие на културата (обн., ДВ, бр. 50 от 1999 г.; изм.," name="eli" other="/eli/bg/zid/2010/dv-13-10-6"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-6/bul@2010-02-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-6/bul@2010-02-16"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-6/bul@2010-02-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-6/bul@2010-02-16.xml"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-16" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за закрила и развитие на културата (обн., ДВ, бр. 50 от 1999 г.; изм.,</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 17, ал. 5 накрая се добавя „за срок от три години“. Преходни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Заварените към влизането в сила на този закон трудови правоотношения за неопределено време на директорите на държавни културни институти, включително тези, възникнали въз основа на конкурс съгласно Кодекса на труда, се запазват до обявяването на конкурс за съответ­ ната длъжност при условията и по реда на чл. 5, ал. 3, чл. 7, ал. 4 и чл. 17, ал. 3, но не повече от 6 месеца от влизането в сила на този закон.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Заварените към влизането в сила на този закон трудови правоотношения на работ­ ниците и служителите в българските културни институти в чужбина се запазват до изтичане на сроковете им.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

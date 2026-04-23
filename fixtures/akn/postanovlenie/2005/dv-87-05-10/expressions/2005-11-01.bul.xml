@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-87-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-87-05-10"/>
+          <FRBRalias value="Постановление № 223 от 21 октомври 2005 г. за изменение и допълнение на Наредбата за държавните изисквания за придобиване на висше образование по специалността “Ветеринарна медицина”, приета с Постановление № 136 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 223 от 21 октомври 2005 г. за изменение и допълнение на Наредбата за държавните изисквания за придобиване на висше образование по специалността “Ветеринарна медицина”, приета с Постановление № 136 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-87-05-10"/>
+          <FRBRdate date="2005-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-87-05-10/bul@2005-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-87-05-10/bul@2005-11-01"/>
+          <FRBRdate date="2005-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-87-05-10/bul@2005-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-87-05-10/bul@2005-11-01.xml"/>
+          <FRBRdate date="2005-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-01" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 223 от 21 октомври 2005 г. за изменение и допълнение на Наредбата за държавните изисквания за придобиване на висше образование по специалността “Ветеринарна медицина”, приета с Постановление № 136 на Министерския съвет от 2004 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 думата “Животновъдство” се заменя с “Ветеринарна медицина”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4, ал. 2 се правят следните изменения:</p>
+            <p>1. В т. 16 думите “Епидемиология и превантивна медицина” се заменят с “Превантивна медицина”.</p>
+            <p>2. В т. 17 думите “Акушерство и гинекология (включително андрология и изкуствено осеменяване)” се заменят с “Акушерство, репродукция и репродуктивни нарушения”.</p>
+            <p>3. В т. 26 думите “Образна диагностика” се заменят с “Радиология”.</p>
+            <p>4. В т. 27 думите “Управление на ветеринарномедицинската дейност” се заменят с “Държавна ветеринарна медицина и обществено здраве”.</p>
+            <p>5. В т. 32 след думата “Хранене” се поставя запетая и думите “(включително фуражно производство)” се заменят с “агрономия”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7, ал. 1 се правят следните изменения:</p>
+            <p>1. В т. 1 след думата “акушерство” се поставя запетая и думите “и гинекология” се заменят с “репродукция и репродуктивни нарушения”.</p>
+            <p>2. Точка 2 се изменя така:</p>
+            <p>“2. хигиена, технология, контрол на храните от животински произход, инфекциозни болести и паразитология.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 8 се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1.</p>
+            <p>2. Създава се ал. 2:</p>
+            <p>“(2) Лицата, получили диплома за висше образование по специалността “Ветеринарна медицина” и професионална квалификация “ветеринарен лекар”, могат да упражняват ветеринарномедицинска професия при условията и по реда на Закона за ветеринарномедицинската дейност.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Отменя се Наредбата за единните държавни изисквания за придобиване на висше образование по специалността “Ветеринарна медицина” на образователно-квалификационна степен “магистър” с професионална квалификация “ветеринарен лекар” , приета с Постановление № 130 на Министерския съвет от 1996 г. (ДВ, бр. 52 от 1996 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

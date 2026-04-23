@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-9-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-9-10-2"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между пра­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между пра­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-9-10-2"/>
+          <FRBRdate date="2010-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-9-10-2/bul@2010-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-9-10-2/bul@2010-02-02"/>
+          <FRBRdate date="2010-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-9-10-2/bul@2010-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-9-10-2/bul@2010-02-02.xml"/>
+          <FRBRdate date="2010-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-02" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Спогодбата между пра­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>вителството на Република България и прави­ телството на Държавата Катар за въздушни съобщения Член единствен. Ратифицира Спогодбата между правителството на Република Бълга­ рия и правителството на Държавата Катар за въздушни съобщения, подписана на 14 април 2009 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

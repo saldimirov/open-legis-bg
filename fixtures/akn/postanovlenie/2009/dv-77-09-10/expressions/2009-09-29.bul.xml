@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-77-09-10/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-77-09-10"/>
+          <FRBRalias value="Постановление № 224 ОТ 16 СЕПТЕМВРИ 2009 Г. за изменение на Постановление № 71 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 224 ОТ 16 СЕПТЕМВРИ 2009 Г. за изменение на Постановление № 71 на Ми­" name="eli" other="/eli/bg/postanovlenie/2009/dv-77-09-10"/>
+          <FRBRdate date="2009-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-77-09-10/bul@2009-09-29/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-77-09-10/bul@2009-09-29"/>
+          <FRBRdate date="2009-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-77-09-10/bul@2009-09-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-77-09-10/bul@2009-09-29.xml"/>
+          <FRBRdate date="2009-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-29" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 224 ОТ 16 СЕПТЕМВРИ 2009 Г. за изменение на Постановление № 71 на Ми­</p>
+      <p>(обн., ДВ, бр. 36 от 2005 г.; изм. и доп., бр. 78 от 2005 г., бр. 26 от 2006 г., бр. 34, 44, 53 и 64 от 2008 г. и бр. 71 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения: 1. В ал. 3 думите „заместник министър-пред­ седателят и министър на вътрешните работи“ се заменят с „министърът на външните работи“. 2. В ал. 6 думите „началника на Генерал­ ния щаб на Българската армия“ се заменят с „началника на отбраната“, а след думите „Ми­ нистерството на отбраната“ се поставя точка и текстът до края се заличава. 3. В ал. 7 думите „Комисията по външна политика, отбрана и сигурност“ се заменят с „Комисията по външна политика и отбрана“ и запетаята след тях се заменя със съюза „и“, а думите „и Комисията по европейска интегра­ ция“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 3 от преходните и заключителните разпоредби думите „заместник министър-пред­ седателя“ се заменят с „министъра на външните работи“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

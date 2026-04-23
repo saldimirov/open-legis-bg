@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-11"/>
+          <FRBRalias value="Постановление № 205 ОТ 15 ЮЛИ 2011 Г. за приемане на Правилник за прилагане на" name="short"/>
+          <FRBRalias value="Постановление № 205 ОТ 15 ЮЛИ 2011 Г. за приемане на Правилник за прилагане на" name="eli" other="/eli/bg/postanovlenie/2011/dv-57-11-11"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-11/bul@2011-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-11/bul@2011-07-26"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-11/bul@2011-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-11/bul@2011-07-26.xml"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-26" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 205 ОТ 15 ЮЛИ 2011 Г. за приемане на Правилник за прилагане на</p>
+      <p>(обн., ДВ, бр. 32 от 2007 г.; попр., бр. 39 от 2007 г.; изм. и доп., бр. 44 от 2008 г., бр. 93 от 2009 г. и бр. 31 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се считано от 30 юни 2012 г.: 1. Правилникът за прилагане на Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба, приет с По­ становление № 72 на Министерския съвет от 2007 г. (обн., ДВ, бр. 32 от 2007 г.; попр., бр. 39 от 2007 г.; изм. и доп., бр. 44 от 2008 г., бр. 93 от 2009 г. и бр. 31 от 2010 г.). 2. Член 1 от Постановление № 72 на Минис­ терския съвет от 2007 г. за приемане на Пра­ вилник за прилагане на Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба и за одобряване на Тарифа за таксите, които се събират по Закона за експорт­ ния контрол на оръжия и изделия и технологии с двойна употреба (ДВ, бр. 32 от 2007 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 30 юни 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

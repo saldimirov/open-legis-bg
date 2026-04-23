@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-4"/>
+          <FRBRalias value="Постановление № 174 ОТ 16 АВГУСТ 2013 Г. за изменение на Наредбата за условията и" name="short"/>
+          <FRBRalias value="Постановление № 174 ОТ 16 АВГУСТ 2013 Г. за изменение на Наредбата за условията и" name="eli" other="/eli/bg/postanovlenie/2013/dv-74-13-4"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-4/bul@2013-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-4/bul@2013-08-23"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-4/bul@2013-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-4/bul@2013-08-23.xml"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-23" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 174 ОТ 16 АВГУСТ 2013 Г. за изменение на Наредбата за условията и</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните раз­ поредби се правят следните изменения: 1. В § 3 думите „30 юни 2013 г.“ се заменят с „30 юни 2014 г.“. 2. В § 4 думите „1 август 2013 г.“ се заменят с „1 август 2014 г.“. 3. В § 5 думите „1 септември 2013 г.“ се заменят с „1 септември 2014 г.“. 4. В § 6 думите „1 юли 2013 г.“ се заменят с „1 юли 2014 г.“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юли 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

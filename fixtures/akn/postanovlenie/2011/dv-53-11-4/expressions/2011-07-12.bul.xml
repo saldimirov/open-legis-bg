@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-4"/>
+          <FRBRalias value="Постановление № 189 ОТ 4 ЮЛИ 2011 Г. за приемане на Правилник за устройството и" name="short"/>
+          <FRBRalias value="Постановление № 189 ОТ 4 ЮЛИ 2011 Г. за приемане на Правилник за устройството и" name="eli" other="/eli/bg/postanovlenie/2011/dv-53-11-4"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-4/bul@2011-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-4/bul@2011-07-12"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-4/bul@2011-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-4/bul@2011-07-12.xml"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-12" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 189 ОТ 4 ЮЛИ 2011 Г. за приемане на Правилник за устройството и</p>
+      <p>(обн., ДВ, бр. 97 от 2001 г.; изм., бр. 78 от 2005 г., бр. 101 от 2007 г. и бр. 93 от 2009 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Правилник за устройството и дейността на Държавно предприятие „Българо- германски център за професионално обучение“. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Постановление № 255 на Министерския съвет от 2001 г. за преобразуване на български държавни професионални училища с герман­ ско участие в българо-германски центрове за професионално обучение (обн., ДВ, бр. 97 от 2001 г.; изм., бр. 78 от 2005 г., бр. 101 от 2007 г. и бр. 93 от 2009 г.). 2. Постановление № 283 на Министерския съвет от 2007 г. за създаване на Българо-гер­ мански център за професионално обучение в Смолян (ДВ, бр. 101 от 2007 г.). 3. Постановление № 30 на Министерския съ­ вет от 2009 г. за създаване на Българо-германски център за професионално обучение – Царево (ДВ, бр. 14 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 32, т. 6 от Устройствения правил­ ник на Министерството на труда и социалната политика, приет с Постановление № 266 на Министерския съвет от 2009 г. (обн., ДВ, бр. 91 от 2009 г.; изм. и доп., бр. 2 от 2010 г.; попр., бр. 3 от 2010 г.; изм. и доп., бр. 18, 57 и 74 от 2010 г. и бр. 38 от 2011 г.), думите „българо-гер­ манските центрове за професионално обучение“ се заменят с „Държавно предприятие „Българо- германски център за професионално обучение“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В тримесечен срок от влизането в сила на постановлението министърът на труда и социалната политика да внесе в Министерския съвет проекти на актове за промени в норма­ тивната уредба, произтичащи от създаването на Държавно предприятие „Българо-германски център за професионално обучение“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юли 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

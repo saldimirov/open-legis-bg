@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-98-04-3/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-98-04-3"/>
+          <FRBRalias value="Постановление № 293 от 2 ноември 2004 г. за изменение на Постановление № 262 на Министерския съвет от 2004 г. за изпълнение от 1 октомври 2004 г. на задълженията на Република България, произтичащи от новите търговски договорености със страните - членки на Европейския съюз, за преработени селскостопански стоки" name="short"/>
+          <FRBRalias value="Постановление № 293 от 2 ноември 2004 г. за изменение на Постановление № 262 на Министерския съвет от 2004 г. за изпълнение от 1 октомври 2004 г. на задълженията на Република България, произтичащи от новите търговски договорености със страните - членки на Европейския съюз, за преработени селскостопански стоки" name="eli" other="/eli/bg/postanovlenie/2004/dv-98-04-3"/>
+          <FRBRdate date="2004-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-98-04-3/bul@2004-11-05/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-98-04-3/bul@2004-11-05"/>
+          <FRBRdate date="2004-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-98-04-3/bul@2004-11-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-98-04-3/bul@2004-11-05.xml"/>
+          <FRBRdate date="2004-11-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-11-05" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 293 от 2 ноември 2004 г. за изменение на Постановление № 262 на Министерския съвет от 2004 г. за изпълнение от 1 октомври 2004 г. на задълженията на Република България, произтичащи от новите търговски договорености със страните - членки на Европейския съюз, за преработени селскостопански стоки</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 ал. 2  се изменя така:</p>
+            <p>“(2) За доказване изпълнението на условието по ал. 1 при извършване на митническите формалности по вноса вносителят представя пред съответното митническо учреждение копие от износната митническа декларация (единен административен документ), заверена от митническите власти на страната - членка на Европейския съюз, съдържаща следното указание в клетка 44: “Експортни субсидии: Евро 0/Регламент на Съвета № 1676/2004”, изписано на един от официалните езици на Общността.</p>
+            <p>Забележка на редакцията:    виж точното изписване в PDF-а на броя</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 октомври 2004 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

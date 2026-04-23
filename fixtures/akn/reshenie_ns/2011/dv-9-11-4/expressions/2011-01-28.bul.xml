@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-4"/>
+          <FRBRalias value="Решение за избиране на председател на Сметната палата" name="short"/>
+          <FRBRalias value="Решение за избиране на председател на Сметната палата" name="eli" other="/eli/bg/reshenie_ns/2011/dv-9-11-4"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-4/bul@2011-01-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-4/bul@2011-01-28"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-4/bul@2011-01-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-4/bul@2011-01-28.xml"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-28" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на председател на Сметната палата</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 8 и чл. 86 от Конституцията на Републи­ ка България и чл. 12 и чл. 13 от Закона за Сметната палата Р Е Ш И : Избира за председател на Сметната палата Валери Георгиев Димитров. Решението е прието от 41-ото Народно събрание на 19 януари 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

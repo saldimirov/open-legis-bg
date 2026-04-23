@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-6-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-6-03-8"/>
+          <FRBRalias value="Постановление № 6 от 17 януари 2003 г. за определяне на горна граница на продажната цена на топлинната енергия за битови нужди, доставяна от топлопреносните предприятия, които получават субсидии от държавния бюджет" name="short"/>
+          <FRBRalias value="Постановление № 6 от 17 януари 2003 г. за определяне на горна граница на продажната цена на топлинната енергия за битови нужди, доставяна от топлопреносните предприятия, които получават субсидии от държавния бюджет" name="eli" other="/eli/bg/postanovlenie/2003/dv-6-03-8"/>
+          <FRBRdate date="2003-01-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-6-03-8/bul@2003-01-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-6-03-8/bul@2003-01-21"/>
+          <FRBRdate date="2003-01-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-6-03-8/bul@2003-01-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-6-03-8/bul@2003-01-21.xml"/>
+          <FRBRdate date="2003-01-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-21" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 6 от 17 януари 2003 г. за определяне на горна граница на продажната цена на топлинната енергия за битови нужди, доставяна от топлопреносните предприятия, които получават субсидии от държавния бюджет</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Приема горна граница на двете компоненти - цена за мощност и цена за енергия, в рамките на общата продажна цена на топлинната енергия за битови нужди, доставяна от топлопреносните предприятия, които получават субсидии от държавния бюджет, в размер съответно на:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>цена за мощност - 0,05 лв. за кубически метър за отопляем обем по проект с включен данък върху добавената стойност;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>цена за енергия - 37,45 лв. за мегаватчас с включен данък върху добавената стойност.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <intro>
+          <p>Цената за енергия по чл. 1, т. 2 се заплаща по тарифи, определени в зависимост от размера на потребеното месечно количество топлинна енергия, както следва:</p>
+        </intro>
+        <point eId="art_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>до 250 киловатчаса месечно - 34,05 лв. за мегаватчас с включен данък върху добавената стойност;</p>
+          </content>
+        </point>
+        <point eId="art_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>над 250 киловатчаса месечно - 37,94 лв. за мегаватчас с включен данък върху добавената стойност.</p>
+          </content>
+        </point>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 141 на Министерския съвет от 2002 г. за определяне на горна граница на двукомпонентна продажна цена на топлинната енергия за битови нужди, доставяна от топлопреносните предприятия, които получават субсидии от държавния бюджет (ДВ, бр. 68 от 2002 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание § 14, ал. 4 от преходните и заключителните разпоредби на Закона за енергетиката и енергийната ефективност.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

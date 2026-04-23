@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-11"/>
+          <FRBRalias value="Правилник за отмяна на Правилника по безопасността на труда при строителните и монтажните работи - Д-02-001" name="short"/>
+          <FRBRalias value="Правилник за отмяна на Правилника по безопасността на труда при строителните и монтажните работи - Д-02-001" name="eli" other="/eli/bg/pravilnik/2004/dv-63-04-11"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-11/bul@2004-07-20/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-11/bul@2004-07-20"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-11/bul@2004-07-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-11/bul@2004-07-20.xml"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-20" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за отмяна на Правилника по безопасността на труда при строителните и монтажните работи - Д-02-001</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

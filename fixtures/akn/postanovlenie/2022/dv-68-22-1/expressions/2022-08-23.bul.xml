@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-68-22-1/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-68-22-1"/>
+          <FRBRalias value="Постановление № 246 ОТ 17 АВГУСТ 2022 Г. за допълнение на Постановление № 283 на" name="short"/>
+          <FRBRalias value="Постановление № 246 ОТ 17 АВГУСТ 2022 Г. за допълнение на Постановление № 283 на" name="eli" other="/eli/bg/postanovlenie/2022/dv-68-22-1"/>
+          <FRBRdate date="2022-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-68-22-1/bul@2022-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-68-22-1/bul@2022-08-23"/>
+          <FRBRdate date="2022-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-68-22-1/bul@2022-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-68-22-1/bul@2022-08-23.xml"/>
+          <FRBRdate date="2022-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-08-23" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 246 ОТ 17 АВГУСТ 2022 Г. за допълнение на Постановление № 283 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, т. II „Защитени специалности“ ред 17 се изменя така: „ 17. Металургия – на ОКС „бакалавър“ – на ОКС „магистър“ след придобита ОКС „бакалавър“ 5.9. Металургия “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от пър­ вия семестър на учебната 2022 – 2023 година.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

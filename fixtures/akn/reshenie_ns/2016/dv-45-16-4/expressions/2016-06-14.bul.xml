@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-4/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-4"/>
+          <FRBRalias value="Решение за предложение до Президента на Република" name="short"/>
+          <FRBRalias value="Решение за предложение до Президента на Република" name="eli" other="/eli/bg/reshenie_ns/2016/dv-45-16-4"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-4/bul@2016-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-4/bul@2016-06-14"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-4/bul@2016-06-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-4/bul@2016-06-14.xml"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-06-14" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за предложение до Президента на Република</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>България за награждаване с орден „Св. св. Кирил и Методий“ първа степен Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бълга- рия и чл. 11, ал. 2 във връзка с чл. 5, ал. 1 и ал. 3, т. 2 от Закона за ордените и медалите на Република България Р Е Ш И : Предлага на Президента на Република България да награди академик чл.-кор. проф. д-р Николай Иванов Попов, д.м.н., с орден „Св. св. Кирил и Методий“ първа степен за големите му заслуги към Република България в областта на денталната медицина. Решението е прието от 43-то Народно събрание на 8 юни 2016 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-66-15-10/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-66-15-10"/>
+          <FRBRalias value="Постановление № 226 ОТ 21 АВГУСТ 2015 Г. за допълнение на Постановление № 187 на" name="short"/>
+          <FRBRalias value="Постановление № 226 ОТ 21 АВГУСТ 2015 Г. за допълнение на Постановление № 187 на" name="eli" other="/eli/bg/postanovlenie/2015/dv-66-15-10"/>
+          <FRBRdate date="2015-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-66-15-10/bul@2015-08-28/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-66-15-10/bul@2015-08-28"/>
+          <FRBRdate date="2015-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-66-15-10/bul@2015-08-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-66-15-10/bul@2015-08-28.xml"/>
+          <FRBRdate date="2015-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-28" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 226 ОТ 21 АВГУСТ 2015 Г. за допълнение на Постановление № 187 на</p>
+      <p>(обн., ДВ, бр. 12 от 2014 г.; попр., бр. 14 от 2014 г.; изм. и доп., бр. 45, 79, 88, 103, 106 и 108 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 се правят следните до- пълнения: 1. В т. 4 след думата „пътна“ се добавя „и общинска улична“. 2. В т. 8 след думите „съоръжения към тях“ се поставя запетая и се добавя „за реа- лизиране на проекти по оперативна програма „Регионално развитие“ и Програмата за раз- витие на селските райони за 2007 – 2013 г.; за проект „Гласът на скалата“, финансиран чрез Инструмента на предприсъединителната помощ България – Турция; за ремонт на чи- талище „Братолюбие – 1884“ – гр. Любимец; за изготвяне на инвестиционен проект „За- криване и рекултивация на общинско депо за твърди битови отпадъци“ и за изработване на горскостопански план“. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постъпилите по бюджетите на разпо- редителите с бюджет средства съгласно чл. 2, ал. 5 и 6 от Постановление № 19 на Министер- ския съвет от 2014 г. за одобряване на средства от резерва по чл. 1, ал. 2, раздел ІІ, т. 4.1.2 от Закона за държавния бюджет на Република България за 2014 г. (обн., ДВ, бр. 12 от 2014 г.; попр., бр. 14 от 2014 г.; изм. и доп., бр. 45, 79, 88, 103, 106 и 108 от 2014 г.) се разходват за същата цел до 30 ноември 2015 г. като при остатък – той се възстановява в държавния бюджет в същия срок.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

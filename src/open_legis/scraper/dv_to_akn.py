@@ -212,12 +212,41 @@ def parse_body_text(text: str, act_type: str) -> list[ParsedSection]:
     return _parse_structured(text)
 
 
+_COLLAPSED_THRESHOLD = 200  # chars per newline — below this, text is RTF-collapsed
+
+
+def _normalize_collapsed(text: str) -> str:
+    """Inject newlines before structural markers in RTF-collapsed single-line text."""
+    # Articles: Чл. 1. / Чл. 1а.
+    text = re.sub(r"(?<!\n)(Чл\.\s+\d+[а-я]?\.)", r"\n\1", text)
+    # Numbered paragraphs: (1) (12)
+    text = re.sub(r"(?<!\n)(\(\d+\)\s)", r"\n\1", text)
+    # § paragraphs
+    text = re.sub(r"(?<!\n)(§\s*\d+\.)", r"\n\1", text)
+    # Chapter/section headings
+    for pat in (r"(ГЛАВА\s+[ИВХЛЦМДЕЖ\d]+)", r"(РАЗДЕЛ\s+[ИВХЛЦМДЕЖ\d]+)"):
+        text = re.sub(rf"(?<!\n)({pat})", r"\n\1", text)
+    return text
+
+
 def _clean_text(text: str) -> str:
+    # Detect RTF-collapsed text (no/few newlines)
+    newline_ratio = text.count("\n") / max(len(text), 1)
+    collapsed = newline_ratio < 1 / _COLLAPSED_THRESHOLD
+
     for marker in ("ЗАКОН", "КОДЕКС", "НАРЕДБА", "ПОСТАНОВЛЕНИЕ", "ПРАВИЛНИК"):
-        m = re.search(rf"(?m)^{marker}\b", text)
+        pattern = rf"(?m)^{marker}\b" if not collapsed else rf"{marker}\b"
+        m = re.search(pattern, text)
         if m:
             text = text[m.start():]
             break
+    else:
+        # No act-type marker — fall back to first article
+        if collapsed:
+            m = re.search(r"Чл\.\s+1\.", text)
+            if m:
+                text = text[m.start():]
+
     for end_marker in (
         "Законът е приет от",
         "Постановлението е прието от",
@@ -230,6 +259,10 @@ def _clean_text(text: str) -> str:
         if idx >= 0:
             text = text[:idx]
             break
+
+    if collapsed:
+        text = _normalize_collapsed(text)
+
     return text.strip()
 
 
@@ -620,6 +653,17 @@ def _parse_structured(text: str) -> list[ParsedSection]:
 
         i += 1
 
+    # Fallback: no structural elements found but text exists (e.g. reshenie_ns prose)
+    if not root and lines:
+        root.append(ParsedSection(
+            e_id="sec_1",
+            tag="section",
+            num=None,
+            name=None,
+            heading=None,
+            paragraphs=lines,
+        ))
+
     return root
 
 
@@ -628,7 +672,11 @@ def _parse_structured(text: str) -> list[ParsedSection]:
 _AKN_NS = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 
 
+_XML_INVALID_CHARS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
 def _x(s: str) -> str:
+    s = _XML_INVALID_CHARS.sub("", s)
     return (
         s.replace("&", "&amp;")
         .replace("<", "&lt;")
@@ -644,7 +692,8 @@ def _render_section(sec: ParsedSection, depth: int = 3) -> list[str]:
     if sec.name:
         attrs += f' name="{sec.name}"'
     lines.append(f"{pad}<{sec.tag} {attrs}>")
-    lines.append(f"{pad}  <num>{_x(sec.num)}</num>")
+    if sec.num is not None:
+        lines.append(f"{pad}  <num>{_x(sec.num)}</num>")
     if sec.heading:
         lines.append(f"{pad}  <heading>{_x(sec.heading)}</heading>")
     if sec.children:

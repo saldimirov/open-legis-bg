@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-81-08-7/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-81-08-7"/>
+          <FRBRalias value="Постановление № 222 от 8 септември 2008 г. за изменение и допълнение на Постановление № 121 на Министерския съвет от 2007 г. за определяне на реда за предоставяне на безвъзмездна финансова помощ по оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз, и по Програма ФАР на Европейския съюз" name="short"/>
+          <FRBRalias value="Постановление № 222 от 8 септември 2008 г. за изменение и допълнение на Постановление № 121 на Министерския съвет от 2007 г. за определяне на реда за предоставяне на безвъзмездна финансова помощ по оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз, и по Програма ФАР на Европейския съюз" name="eli" other="/eli/bg/postanovlenie/2008/dv-81-08-7"/>
+          <FRBRdate date="2008-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-81-08-7/bul@2008-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-81-08-7/bul@2008-09-16"/>
+          <FRBRdate date="2008-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-81-08-7/bul@2008-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-81-08-7/bul@2008-09-16.xml"/>
+          <FRBRdate date="2008-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-09-16" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 222 от 8 септември 2008 г. за изменение и допълнение на Постановление № 121 на Министерския съвет от 2007 г. за определяне на реда за предоставяне на безвъзмездна финансова помощ по оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз, и по Програма ФАР на Европейския съюз</p>
+      <p>(обн., ДВ, бр. 45 от 2007 г.; изм. и доп., бр. 38 и 61 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 11 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 2 накрая се добавя “и проекта на закон за държавния бюджет за следващата година”.</p>
+            <p>2. Създава се нова ал. 4:</p>
+            <p>“(4) Индикативната годишна работна програма по ал. 3 се изготвя от договарящия орган съгласно образец, утвърден от министъра на финансите.”</p>
+            <p>3. Досегашната ал. 4 става ал. 5.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 20, ал. 2, в основния текст след думата “предложения” се добавя “се извършва в срок до 3 месеца и”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В тримесечен срок от влизането в сила на постановлението министърът на финансите утвърждава образец на индикативна годишна работна програма по чл. 11, ал. 4.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

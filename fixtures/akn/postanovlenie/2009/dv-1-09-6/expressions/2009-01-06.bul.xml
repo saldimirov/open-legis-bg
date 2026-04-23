@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-6/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-6"/>
+          <FRBRalias value="Постановление № 324 от 19 декември 2008 г. за изменение на Наредбата за осъществяване правото на достъп до медицинска помощ, приета с Постановление № 119 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 324 от 19 декември 2008 г. за изменение на Наредбата за осъществяване правото на достъп до медицинска помощ, приета с Постановление № 119 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-1-09-6"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-6/bul@2009-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-6/bul@2009-01-06"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-6/bul@2009-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-6/bul@2009-01-06.xml"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-01-06" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 324 от 19 декември 2008 г. за изменение на Наредбата за осъществяване правото на достъп до медицинска помощ, приета с Постановление № 119 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 45 от 2006 г.; изм., бр. 57 от 2007 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

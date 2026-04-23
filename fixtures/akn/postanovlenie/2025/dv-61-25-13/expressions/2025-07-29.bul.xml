@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-13/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-13"/>
+          <FRBRalias value="Постановление № 135 от 24 юли 2025 г. за одобряване на допълнителни трансфери по бюджетите на общините за 2025 г. за финансово подпомагане на общините за опазване и поддържане на военни паметници" name="short"/>
+          <FRBRalias value="Постановление № 135 от 24 юли 2025 г. за одобряване на допълнителни трансфери по бюджетите на общините за 2025 г. за финансово подпомагане на общините за опазване и поддържане на военни паметници" name="eli" other="/eli/bg/postanovlenie/2025/dv-61-25-13"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-13/bul@2025-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-13/bul@2025-07-29"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-13/bul@2025-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-13/bul@2025-07-29.xml"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-07-29" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 135 от 24 юли 2025 г. за одобряване на допълнителни трансфери по бюджетите на общините за 2025 г. за финансово подпомагане на общините за опазване и поддържане на военни паметници</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни трансфери за други целеви разходи за 2025 г. в размер 419 817 лв. за опазване и поддържане на военни паметници, разпределени по общини съгласно приложението.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят за сметка на предвидените разходи по централния бюджет за 2025 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по централния бюджет, включително на бюджетните взаимоотношения на общините с централния бюджет за 2025 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 55а и чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

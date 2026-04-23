@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-6/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-6"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за под­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за под­" name="eli" other="/eli/bg/ratifikatsiya/2012/dv-42-12-6"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-6/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-6/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-6/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-6/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за под­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>крепа на проекта между Република България и „Набуко Газ Пайплайн Интернешънъл“ ГМБХ и „Набуко Газ Пайплайн България“ – ЕООД, във връзка с тръбопроводната система Набуко Член единствен. Ратифицира Споразумени­ ето за подкрепа на проекта между Република България и „Набуко Газ Пайплайн Интерне­ шънъл“ ГМБХ и „Набуко Газ Пайплайн Бъл­ гария“ – ЕООД, във връзка с тръбопроводната система Набуко, подписано на 8 юни 2011 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

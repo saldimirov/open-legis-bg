@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-4"/>
+          <FRBRalias value="Постановление № 169 от 23 юли 2007 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 169 от 23 юли 2007 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2007/dv-62-07-4"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-4/bul@2007-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-4/bul@2007-07-31"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-4/bul@2007-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-4/bul@2007-07-31.xml"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-31" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 169 от 23 юли 2007 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към Разпореждане № 19 на Министерския съвет от 1993 г. за утвърждаване на задания за усвояване производството (ремонта) на военни изделия, създаване и съхраняване на мобилизационно-производствени мощности за военно време и за отменяне на Разпореждане № 45 на Бюрото на Министерския съвет от 1985 г. (необнародвано), изменено и допълнено с Постановление № 339 на Министерския съвет от 1994 г. (ДВ, бр. 6 от 1995 г.), с Постановление № 69 на Министерския съвет от 1998 г. (ДВ, бр. 37 от 1998 г.), с Постановление № 282 на Министерския съвет от 2000 г. (ДВ, бр. 2 от 2001 г.) и с Постановление № 159 на Министерския съвет от 2004 г., се правят изменения и допълнение съгласно приложението (секретно).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Министерството на отбраната да уведоми писмено Министерството на земеделието и продоволствието и областните администрации за извършените изменения и допълнения съгласно приложението.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>(1) В двумесечен срок след обнародването на постановлението в “Държавен вестник” Министерството на земеделието и продоволствието, областните администрации, в чиято област се намират съответните търговски дружества, да актуализират военновременните си планове в съответствие с направените промени съгласно приложението.</p>
+            <p>(2) В едномесечен срок след актуализирането на военновременните планове по ал. 1 Министерството на земеделието и продоволствието да внесе в Съвета за държавните резерви и военновременните запаси към Междуведомствения съвет по въпросите на военнопромишления комплекс и мобилизационната готовност на страната предложения за освобождаване на отпадналите от потребност военновременни запаси от суровини, материали и резервни части.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 105, ал. 2 от Конституцията на Република България и чл. 23, ал. 2 от Закона за отбраната и въоръжените сили на Република България.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-102-24-1/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-102-24-1"/>
+          <FRBRalias value="Постановление № 409 от 28 ноември 2024 г. за изменение и допълнение на Постановление № 253 на Министерския съвет от 2024 г. за одобряване на допълнителни разходи/трансфери по бюджетите на първостепенни разпоредители с бюджет за 2024 г." name="short"/>
+          <FRBRalias value="Постановление № 409 от 28 ноември 2024 г. за изменение и допълнение на Постановление № 253 на Министерския съвет от 2024 г. за одобряване на допълнителни разходи/трансфери по бюджетите на първостепенни разпоредители с бюджет за 2024 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-102-24-1"/>
+          <FRBRdate date="2024-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-102-24-1/bul@2024-12-03/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-102-24-1/bul@2024-12-03"/>
+          <FRBRdate date="2024-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-102-24-1/bul@2024-12-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-102-24-1/bul@2024-12-03.xml"/>
+          <FRBRdate date="2024-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-12-03" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 409 от 28 ноември 2024 г. за изменение и допълнение на Постановление № 253 на Министерския съвет от 2024 г. за одобряване на допълнителни разходи/трансфери по бюджетите на първостепенни разпоредители с бюджет за 2024 г.</p>
+      <p>(обн., ДВ, бр. 62 от 2024 г.; изм., бр. 77 от 2024 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. В пореден номер 5.1, в колона 6 числото „662 000“ се заменя със „140 782“. 2. Създават се редове с поредни номера 5.8 – 5.10: „ 5.8.|||Доставка на автомобили и оборудване за ремонт и поддръжка на МПС|Доставка на автомобили и оборудване за ремонт и поддръжка на МПС|116 938| 5.9.|||Доставка на техника за алтернативно електрозахранване и климатизация|Доставка на дизелов агрегат и климатични системи|88 280| 5.10.|||Доставка на специално оборудване |Доставка на специално оборудване за прилагане на СРС|316 000| “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

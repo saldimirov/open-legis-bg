@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-72-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-72-12-13"/>
+          <FRBRalias value="Постановление № 220 ОТ 14 СЕПТЕМВРИ 2012 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 220 ОТ 14 СЕПТЕМВРИ 2012 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2012/dv-72-12-13"/>
+          <FRBRdate date="2012-09-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-72-12-13/bul@2012-09-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-72-12-13/bul@2012-09-21"/>
+          <FRBRdate date="2012-09-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-72-12-13/bul@2012-09-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-72-12-13/bul@2012-09-21.xml"/>
+          <FRBRdate date="2012-09-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-09-21" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 220 ОТ 14 СЕПТЕМВРИ 2012 Г. за изменение и допълнение на нормативни</p>
+      <p>(обн., ДВ, бр. 26 от 2005 г.; изм. и доп., бр. 51 от 2005 г., бр. 98 от 2007 г. и бр. 93 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 1, т. 10 от допълнителните раз­ поредби на Наредбата за категоризиране на плажовете, приета с Постановление № 42 на Министерския съвет от 2005 г. (обн., ДВ, бр. 26 от 2005 г.; изм. и доп., бр. 51 от 2005 г., бр. 98 от 2007 г. и бр. 93 от 2009 г.), накрая се поставя запетая и се добавя „а за морския плаж това е периодът от време не по-късно от 1 юни и не по-рано от 30 септември“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Наредбата за водноспасителната дейност и обезопасяването на водните площи, приета с Постановление № 182 на Министер­ ския съвет от 1996 г. (обн., ДВ, бр. 65 от 1996 г.; изм., бр. 60 от 2012 г.), се създава чл. 17а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 17а.</num>
+          <content>
+            <p>Концесионерите и наемателите на морските плажове са длъжни да осигуряват осъществяването на дейностите по водно спасяване, по обезопасяване на прилежащата акватория, здравното и медицинското обслуж­ ване и санитарно-хигиенното поддържане на плажовете в периода от време не по-късно от 1 юни и не по-рано от 30 септември.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на приемането му.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

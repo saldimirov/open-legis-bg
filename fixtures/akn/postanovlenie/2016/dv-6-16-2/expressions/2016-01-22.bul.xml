@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-6-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-6-16-2"/>
+          <FRBRalias value="Постановление № 8 ОТ 18 ЯНУАРИ 2016 Г. за приемане на Наредба за регулиране на" name="short"/>
+          <FRBRalias value="Постановление № 8 ОТ 18 ЯНУАРИ 2016 Г. за приемане на Наредба за регулиране на" name="eli" other="/eli/bg/postanovlenie/2016/dv-6-16-2"/>
+          <FRBRdate date="2016-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-6-16-2/bul@2016-01-22/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-6-16-2/bul@2016-01-22"/>
+          <FRBRdate date="2016-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-6-16-2/bul@2016-01-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-6-16-2/bul@2016-01-22.xml"/>
+          <FRBRdate date="2016-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-22" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 8 ОТ 18 ЯНУАРИ 2016 Г. за приемане на Наредба за регулиране на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Приема Наредба за регулиране на качеството на водоснабдителните и кана- лизационните услуги.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Наредбата по ал. 1 се прилага за регула- торния период, започващ от 1 януари 2017 г., както и за следващи регулаторни периоди.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Приема Наредба за регулиране на цените на водоснабдителните и канализа- ционните услуги.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Наредбата по ал. 1 се прилага за регула- торния период, започващ от 1 януари 2017 г., както и за следващи регулаторни периоди. Преходни и заключителни разпоредби</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>(1) Отменя се Наредбата за дългосроч- ните нива, условията и реда за формиране на годишните целеви нива на показателите за качество на водоснабдителните и канали- зационните услуги, приета с Постановление № 73 на Министерския съвет от 2006 г. (ДВ, бр. 32 от 2006 г.).</p>
+            <p>(2) За настоящия регулаторен период про- дължава да се прилага наредбата по ал. 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>(1) Отменя се Наредбата за регулиране на цените на водоснабдителните и канали- зационните услуги, приета с Постановление № 73 на Министерския съвет от 2006 г. (ДВ, бр. 32 от 2006 г.).</p>
+            <p>(2) За настоящия регулаторен период про- дължава да се прилага наредбата по ал. 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

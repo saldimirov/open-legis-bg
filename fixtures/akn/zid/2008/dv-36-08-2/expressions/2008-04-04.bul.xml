@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-36-08-2/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-36-08-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за мерките срещу изпирането на пари" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за мерките срещу изпирането на пари" name="eli" other="/eli/bg/zid/2008/dv-36-08-2"/>
+          <FRBRdate date="2008-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-36-08-2/bul@2008-04-04/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-36-08-2/bul@2008-04-04"/>
+          <FRBRdate date="2008-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-36-08-2/bul@2008-04-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-36-08-2/bul@2008-04-04.xml"/>
+          <FRBRdate date="2008-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-04" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за мерките срещу изпирането на пари</p>
+      <p>(обн., ДВ, бр. 85 от 1998 г.; изм., бр. 1 от 2001 г., бр. 31 от 2003 г., бр. 103 и 105 от 2005 г., бр. 30, 54, 59, 82 и 108 от 2006 г., бр. 52, 92 и 109 от 2007 г. и  бр. 16 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 12, ал. 4 думите “сигурност и обществен ред” се заменят със “сигурност или обществен ред”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 13, ал. 2 думите “от лице по чл. 3, ал. 2 и 3” се заличават.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 17 се правят следните изменения и допълнения:</p>
+          <p>1. Досегашният текст става ал. 1.</p>
+          <p>2. Създава се ал. 2:</p>
+          <p>“(2) При изпълнение на функциите си по закона органите на Министерството на финансите и на Държавна агенция “Национална сигурност” си взаимодействат по ред, определен със съвместна инструкция на министъра на финансите и на председателя на агенцията.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В чл. 18 се правят следните изменения и допълнения:</p>
+          <p>1. Досегашният текст става ал. 1.</p>
+          <p>2. Създава се ал. 2:</p>
+          <p>“(2) Дирекция “Финансово разузнаване” на Държавна агенция “Национална сигурност” по своя инициатива и при запитване обменя информация по случаи, свързани със съмнение за изпиране на пари, със съответните международни органи, органи на Европейския съюз и с органи на други държави въз основа на международни договори и при условията на взаимност.”</p>
+          <p>Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>В Закона за мерките срещу финансирането на тероризма (обн., ДВ, бр. 16 от 2003 г.; изм., бр. 31 от 2003 г., бр. 19 от 2005 г., бр. 59 от 2006 г., бр. 92 и 109 от 2007 г. и бр. 28 от 2008 г.) в чл. 9, ал. 3 след думите “да уведомят и” се добавя “дирекция “Финансово разузнаване” на”, а думите “17 и 22” се заменят с “и 18”.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

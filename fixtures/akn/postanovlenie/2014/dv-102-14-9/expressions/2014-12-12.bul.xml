@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-9/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-9"/>
+          <FRBRalias value="Постановление № 383 ОТ 4 ДЕКЕМВРИ 2014 Г. за приемане на Наредба за изискванията за" name="short"/>
+          <FRBRalias value="Постановление № 383 ОТ 4 ДЕКЕМВРИ 2014 Г. за приемане на Наредба за изискванията за" name="eli" other="/eli/bg/postanovlenie/2014/dv-102-14-9"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-9/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-9/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-9/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-9/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 383 ОТ 4 ДЕКЕМВРИ 2014 Г. за приемане на Наредба за изискванията за</p>
+      <p>(обн., ДВ, бр. 62 от 2000 г.; изм. и доп., бр. 40 от 2002 г., бр. 19 и 100 от 2003 г., бр. 98 от 2004 г., бр. 82 от 2005 г., бр. 20 от 2006 г., бр. 75 от 2007 г., бр. 48 от 2008 г., бр. 47 от 2010 г., бр. 42 от 2012 г. и бр. 84 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Наредбата за изискванията за етикетирането и представянето на храните, приета с Постановление № 136 на Минис­ терския съвет от 2000 г. (обн., ДВ, бр. 62 от 2000 г.; изм. и доп., бр. 40 от 2002 г., бр. 19 и 100 от 2003 г., бр. 98 от 2004 г., бр. 82 от 2005 г., бр. 20 от 2006 г., бр. 75 от 2007 г., бр. 48 от 2008 г., бр. 47 от 2010 г., бр. 42 от 2012 г. и бр. 84 от 2013 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 13 декември 2014 г. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

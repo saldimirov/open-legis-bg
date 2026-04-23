@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-7"/>
+          <FRBRalias value="Постановление № 1 ОТ 6 ЯНУАРИ 2017 Г. за изменение и допълнение на Тарифата за" name="short"/>
+          <FRBRalias value="Постановление № 1 ОТ 6 ЯНУАРИ 2017 Г. за изменение и допълнение на Тарифата за" name="eli" other="/eli/bg/postanovlenie/2017/dv-3-17-7"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-7/bul@2017-01-10/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-7/bul@2017-01-10"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-7/bul@2017-01-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-7/bul@2017-01-10.xml"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-10" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 1 ОТ 6 ЯНУАРИ 2017 Г. за изменение и допълнение на Тарифата за</p>
+      <p>(обн., ДВ, бр. 107 от 2011 г.; изм. и доп., бр. 103 от 2012 г., бр. 27 от 2014 г., бр. 27 от 2015 г. и бр. 7 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 7 думите „ЕЦ – единич- ната цена на Hz/kHz по чл. 4“ се заменят с „ЕЦ – единичната цена на Hz/kHz от таблицата по чл. 4, ал. 1“ и думите „С – броят на използ- ваните честотни обхвати по чл. 4“ се заменят с „С – броят на използваните честотни обхвати от таблицата по чл. 4, ал. 1“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4, ал. 1 в таблицата се съз­- да­ва т. 9: „ 9. В обхват 800 MHz – за всеки 1 Hz за всяка една година, за която ще се ползва, от срока на разрешението 0,24 “</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7, ал. 1 в таблицата се правят следните изменения и допълнения: 1. Създава се нова т. 2.7: „ 2.7. в обхват 800 MHz 100 000 “ 2. Досегашната т. 2.7 става т. 2.8. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

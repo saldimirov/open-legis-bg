@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-6/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-6"/>
+          <FRBRalias value="Закон за ратифициране на международен договор" name="short"/>
+          <FRBRalias value="Закон за ратифициране на международен договор" name="eli" other="/eli/bg/ratifikatsiya/2019/dv-100-19-6"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-6/bul@2019-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-6/bul@2019-12-20"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-6/bul@2019-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-6/bul@2019-12-20.xml"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на международен договор</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>(LOA) BU-B-UCB, „Материали, доставка на оборудване, софтуерни актуализации, услуги и обучение за поддръжка на Комплектомобилна производствена линия за метални конструкции (Material, Supply Equipment, Software Updates, Services and Training to support the Ultimate Building Machine)“ Член единствен. Ратифицира международен договор (LOA) BU-B-UCB, „Материали, дос- тавка на оборудване, софтуерни актуализации, услуги и обучение за поддръжка на Комплек- томобилна производствена линия за метал- ни конструкции (Material, Supply Equipment, Software Updates, Services and Training to support the Ultimate Building Machine)“, подписан на 16 август 2019 г. в САЩ и на 27 ноември 2019 г. в Република България. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

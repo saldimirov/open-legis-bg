@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-3-23-5/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-3-23-5"/>
+          <FRBRalias value="Постановление № 2 ОТ 4 ЯНУАРИ 2023 Г. за откриване на филиал в структурата на Софийския университет „Св. Климент" name="short"/>
+          <FRBRalias value="Постановление № 2 ОТ 4 ЯНУАРИ 2023 Г. за откриване на филиал в структурата на Софийския университет „Св. Климент" name="eli" other="/eli/bg/postanovlenie/2023/dv-3-23-5"/>
+          <FRBRdate date="2023-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-3-23-5/bul@2023-01-10/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-3-23-5/bul@2023-01-10"/>
+          <FRBRdate date="2023-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-3-23-5/bul@2023-01-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-3-23-5/bul@2023-01-10.xml"/>
+          <FRBRdate date="2023-01-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-01-10" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 2 ОТ 4 ЯНУАРИ 2023 Г. за откриване на филиал в структурата на Софийския университет „Св. Климент</p>
+      <p>(обн., ДВ, бр. 5 от 2005 г.; отм., бр. 92 от 2022 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 2 ОТ 4 ЯНУАРИ 2023 Г. за откриване на филиал в структурата на Софийския университет „Св. Климент Охридски“ в гр. Бургас МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Открива филиал в струк- турата на Софийския университет „Св. Кли- мент Охридски“ в гр. Бургас за обучение на студенти по специалности от професионални направления „Религия и теология“ и „Музи- кално и танцово изкуство“. Заключителна разпоредба Параграф единствен. Постановлението се приема на основание чл. 9, ал. 3, т. 3, буква „а“ от Закона за висшето образование.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

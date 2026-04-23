@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-8"/>
+          <FRBRalias value="Закон за ратифициране на Договора между прави­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Договора между прави­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-19-10-8"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-8/bul@2010-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-8/bul@2010-03-09"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-8/bul@2010-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-8/bul@2010-03-09.xml"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-09" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Договора между прави­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>телството на Република България и правител­ ството на Кралство Бахрейн за насърчаване и защита на инвестициите Член единствен. Ратифицира Договора между правителството на Република България и правителството на Кралство Бахрейн за на­ сърчаване и защита на инвестициите, подписан на 26 юни 2009 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

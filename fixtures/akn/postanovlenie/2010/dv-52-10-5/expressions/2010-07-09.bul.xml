@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-52-10-5/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-52-10-5"/>
+          <FRBRalias value="Постановление № 131 ОТ 2 ЮЛИ 2010 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 131 ОТ 2 ЮЛИ 2010 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2010/dv-52-10-5"/>
+          <FRBRdate date="2010-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-52-10-5/bul@2010-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-52-10-5/bul@2010-07-09"/>
+          <FRBRdate date="2010-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-52-10-5/bul@2010-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-52-10-5/bul@2010-07-09.xml"/>
+          <FRBRdate date="2010-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-09" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 131 ОТ 2 ЮЛИ 2010 Г. за изменение и допълнение на нормативни</p>
+      <p>(обн., ДВ, бр. 90 от 2009 г.; изм. и доп., бр. 4 и 41 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Устройствения правилник на Минис­ терството на земеделието и храните, приет с Постановление № 265 на Министерския съвет от 2009 г. (обн., ДВ, бр. 90 от 2009 г.; изм. и доп., бр. 4 и 41 от 2010 г.), в чл. 41, ал. 2 се правят следните изменения: 1. Точка 1 се отменя. 2. Досегашните т. 2 – 13 стават съответно т. 1 – 12.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Устройствения правилник на Из­ пълнителна агенция „Одит на средствата от Европейския съюз“ към министъра на финансите, приет с Постановление № 346 на Министерския съвет от 2008 г. (обн., ДВ, бр. 5 от 2009 г.; изм. и доп., бр. 34 от 2009 г. и бр. 34 от 2010 г.), в чл. 21, т. 1 след думите „Техническа помощ“ се поставя запетая и се добавя „Оперативна програма за развитие на сектор „Рибарство“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

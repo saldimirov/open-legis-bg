@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-7"/>
+          <FRBRalias value="Постановление № 241 от 28 октомври 2003 г. за изменение и допълнение на Постановление № 230 на Министерския съвет от 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 241 от 28 октомври 2003 г. за изменение и допълнение на Постановление № 230 на Министерския съвет от 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването" name="eli" other="/eli/bg/postanovlenie/2003/dv-97-03-7"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-7/bul@2003-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-7/bul@2003-11-04"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-7/bul@2003-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-7/bul@2003-11-04.xml"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-04" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 241 от 28 октомври 2003 г. за изменение и допълнение на Постановление № 230 на Министерския съвет от 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието накрая се добавя „и на Министерския съвет&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 1 се изменя така:</p>
+            <p>„Чл. 1. Министърът на финансите да предостави по реда на чл. 34, ал. 1 и/или чл. 35, ал. 2 от Закона за устройството на държавния бюджет допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването и на Министерския съвет в размер 40 000 хил. лв., както следва:</p>
+            <p>1.  по бюджета на Министерството на здравеопазването:</p>
+            <p>а) за уреждане на задължения на лечебните и здравните заведения и за централни доставки на лекарства - 32 000 хил. лв.;</p>
+            <p>б) за капиталови разходи-3000 хил. лв.;</p>
+            <p>2.  по бюджета на Министерския съвет за издръжка на болница „Лозенец&amp;quot;-5000 хил. лв.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 3 се изменя така:</p>
+            <p>„Чл. 3. Министърът на финансите по предложение на министъра на здравеопазването и на министъра на държавната администрация да извърши налагащите се промени по бюджета на Министерството на здравеопазването и на Министерския съвет за 2003 г.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В § 2 след думите „министъра на здравеопазването&amp;quot; се поставя запетая и се добавя „министъра на държавната администрация&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

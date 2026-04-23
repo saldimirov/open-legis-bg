@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-30-15-8/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-30-15-8"/>
+          <FRBRalias value="Постановление № 96 ОТ 17 АПРИЛ 2015 Г. за приемане на Тарифа за таксите, които" name="short"/>
+          <FRBRalias value="Постановление № 96 ОТ 17 АПРИЛ 2015 Г. за приемане на Тарифа за таксите, които" name="eli" other="/eli/bg/postanovlenie/2015/dv-30-15-8"/>
+          <FRBRdate date="2015-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-30-15-8/bul@2015-04-24/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-30-15-8/bul@2015-04-24"/>
+          <FRBRdate date="2015-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-30-15-8/bul@2015-04-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-30-15-8/bul@2015-04-24.xml"/>
+          <FRBRdate date="2015-04-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-24" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 96 ОТ 17 АПРИЛ 2015 Г. за приемане на Тарифа за таксите, които</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, които се събират от Изпълнителната агенция по сортоизпитване, апробация и семеконтрол по Закона за закрила на новите сортове растения и породи животни и по Закона за посевния и посадъчния материал, приета с Постановление № 310 на Министерския съвет от 2004 г. (ДВ, бр. 104 от 2004 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

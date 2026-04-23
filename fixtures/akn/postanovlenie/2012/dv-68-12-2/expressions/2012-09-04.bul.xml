@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-2"/>
+          <FRBRalias value="Постановление № 194 ОТ 28 АВГУСТ 2012 Г. за предоставяне на средства от централния" name="short"/>
+          <FRBRalias value="Постановление № 194 ОТ 28 АВГУСТ 2012 Г. за предоставяне на средства от централния" name="eli" other="/eli/bg/postanovlenie/2012/dv-68-12-2"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-2/bul@2012-09-04/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-2/bul@2012-09-04"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-2/bul@2012-09-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-2/bul@2012-09-04.xml"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-09-04" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 194 ОТ 28 АВГУСТ 2012 Г. за предоставяне на средства от централния</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да пре­ достави от централния бюджет за 2012 г. по бюджета на Министерството на външните работи допълнителни средства в размер до 170 000 лв. за заплащане на разходите за завръщане на изпадналите в беда български граждани от Швеция в България.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 са за сметка на предвидените в централния бюджет за 2012 г. средства за оказване помощ на изпаднали в беда български граждани в чужбина.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да из­ върши налагащите се промени по бюджета на Министерството на външните работи за 2012 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет въз основа на фактически извършени разходи. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет. ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

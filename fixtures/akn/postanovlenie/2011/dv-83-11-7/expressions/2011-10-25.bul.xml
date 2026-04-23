@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-7/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-7"/>
+          <FRBRalias value="Постановление № 284 ОТ 17 ОКТОМВРИ 2011 Г. за одобряване на Тарифа за таксите, които" name="short"/>
+          <FRBRalias value="Постановление № 284 ОТ 17 ОКТОМВРИ 2011 Г. за одобряване на Тарифа за таксите, които" name="eli" other="/eli/bg/postanovlenie/2011/dv-83-11-7"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-7/bul@2011-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-7/bul@2011-10-25"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-7/bul@2011-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-7/bul@2011-10-25.xml"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-25" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 284 ОТ 17 ОКТОМВРИ 2011 Г. за одобряване на Тарифа за таксите, които</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Тарифа за таксите, които се събират при подаване на заявления за издаване на разрешения за търсене и/или проучване и за предоставяне на концесии за добив на под­ земни богатства, одобрена с Постановление № 125 на Министерския съвет от 1999 г. (ДВ, бр. 57 от 1999 г.). 2. Тарифа за годишните такси за площ, които се събират от титулярите на разреше­ ния за търсене и/или проучване на подземни богатства, одобрена с Постановление № 125 на Министерския съвет от 1999 г. (ДВ, бр. 57 от 1999 г.). 3. Постановление № 125 на Министерския съвет от 1999 г. за одобряване на Тарифа за таксите, които се събират при подаване на заявления за издаване на разрешения за тър­ сене и/или проучване и за предоставяне на концесии за добив на подземни богатства и на Тарифа за годишните такси за площ, които се събират от титулярите на разрешения за търсене и/или проучване на подземни богат­ ства (ДВ, бр. 57 от 1999 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

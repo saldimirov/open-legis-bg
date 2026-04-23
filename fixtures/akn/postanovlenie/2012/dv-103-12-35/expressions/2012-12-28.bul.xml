@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-35/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-35"/>
+          <FRBRalias value="Постановление № 338 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 338 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2012/dv-103-12-35"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-35/bul@2012-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-35/bul@2012-12-28"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-35/bul@2012-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-35/bul@2012-12-28.xml"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-28" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 338 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 34 от 2012 г.; изм. и доп., бр. 41, 44, 61, 68, 79, 87 и 99 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1, раз­ дел Б. „Обекти и дейности за финансиране при освобождаване на средства от раздел А“ се правят следните изменения и допълнения: 1. На ред 10 числото „3 000 000“ се заменя с „6 000 000“. 2. На ред 27 числото „3 000 000“ се заменя със „7 000 000“. 3. На ред „Общо“ числото „114 743 731“ се заменя със „121 743 731“. 4. На ред „Всичко А+Б“ числото „242 743 731“ се заменя с „249 743 731“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

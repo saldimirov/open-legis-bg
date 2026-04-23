@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-82-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-82-06-15"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация" name="eli" other="/eli/bg/pravilnik/2006/dv-82-06-15"/>
+          <FRBRdate date="2006-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-82-06-15/bul@2006-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-82-06-15/bul@2006-10-10"/>
+          <FRBRdate date="2006-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-82-06-15/bul@2006-10-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-82-06-15/bul@2006-10-10.xml"/>
+          <FRBRdate date="2006-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-10" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация</p>
+      <p>(обн., ДВ, бр. 9 от 2003 г.; изм., бр. 15  от 2003 г., бр. 40 от 2006 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

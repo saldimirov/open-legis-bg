@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-87-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-87-13-5"/>
+          <FRBRalias value="Постановление № 223 ОТ 30 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 223 ОТ 30 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Ми­" name="eli" other="/eli/bg/postanovlenie/2013/dv-87-13-5"/>
+          <FRBRdate date="2013-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-87-13-5/bul@2013-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-87-13-5/bul@2013-10-04"/>
+          <FRBRdate date="2013-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-87-13-5/bul@2013-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-87-13-5/bul@2013-10-04.xml"/>
+          <FRBRdate date="2013-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-04" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 223 ОТ 30 СЕПТЕМВРИ 2013 Г. за изменение на Постановление № 1 на Ми­</p>
+      <p>(обн., ДВ, бр. 6 от 2013 г.; изм. и доп., бр. 9, 24, 38, 59, 62, 63, 67, 70, 76, 78 и 83 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 6 към чл. 16 „Разходи за заплати, възнаграждения и задължителни осигурителни вноски на лицата по трудови, извънтрудови и служебни правоотношения (разходи за персонал) на първостепенни раз­ поредители с бюджетни кредити по чл. 5 и чл. 6, ал. 1 от Закона за държавния бюджет на Република България за 2013 г.“ на ред 14 се правят следните изменения: 1. В колона 9 числото „8 683 786“ се заменя с „11 008 786“. 2. В колона 10 числото „8 683 787“ се за­ меня с „11 008 787“. 3. В колона 11 числото „8 683 786“ се за­ меня с „11 008 786“. 4. В колона 12 числото „8 683 786“ се за­ меня с „11 008 786“. 5. В колона 13 числото „104 205 436“ се заменя със „113 505 436“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

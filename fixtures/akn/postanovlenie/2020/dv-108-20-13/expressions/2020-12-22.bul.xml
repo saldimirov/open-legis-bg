@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-13/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-13"/>
+          <FRBRalias value="Постановление № 365 ОТ 17 ДЕКЕМВРИ 2020 Г. за извършване на промени на утвърдените със" name="short"/>
+          <FRBRalias value="Постановление № 365 ОТ 17 ДЕКЕМВРИ 2020 Г. за извършване на промени на утвърдените със" name="eli" other="/eli/bg/postanovlenie/2020/dv-108-20-13"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-13/bul@2020-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-13/bul@2020-12-22"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-13/bul@2020-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-13/bul@2020-12-22.xml"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-22" name="Държавен вестник" number="108" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 365 ОТ 17 ДЕКЕМВРИ 2020 Г. за извършване на промени на утвърдените със</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдените с чл. 23, ал. 3 от Закона за държавния бюджет на Република</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

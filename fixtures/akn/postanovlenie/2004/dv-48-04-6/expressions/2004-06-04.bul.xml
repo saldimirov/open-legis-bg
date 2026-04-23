@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-48-04-6/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-48-04-6"/>
+          <FRBRalias value="Постановление № 105 от 26 май 2004 г. за приемане на Правилник за организацията и дейността на Националния съвет за научни изследвания" name="short"/>
+          <FRBRalias value="Постановление № 105 от 26 май 2004 г. за приемане на Правилник за организацията и дейността на Националния съвет за научни изследвания" name="eli" other="/eli/bg/postanovlenie/2004/dv-48-04-6"/>
+          <FRBRdate date="2004-06-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-48-04-6/bul@2004-06-04/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-48-04-6/bul@2004-06-04"/>
+          <FRBRdate date="2004-06-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-48-04-6/bul@2004-06-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-48-04-6/bul@2004-06-04.xml"/>
+          <FRBRdate date="2004-06-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-06-04" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 105 от 26 май 2004 г. за приемане на Правилник за организацията и дейността на Националния съвет за научни изследвания</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

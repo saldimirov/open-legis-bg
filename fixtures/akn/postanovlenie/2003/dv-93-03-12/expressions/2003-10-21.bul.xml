@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-12"/>
+          <FRBRalias value="Постановление № 230 от 15 октомври 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването" name="short"/>
+          <FRBRalias value="Постановление № 230 от 15 октомври 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването" name="eli" other="/eli/bg/postanovlenie/2003/dv-93-03-12"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-12/bul@2003-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-12/bul@2003-10-21"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-93-03-12/bul@2003-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-93-03-12/bul@2003-10-21.xml"/>
+          <FRBRdate date="2003-10-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-21" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 230 от 15 октомври 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Министърът на финансите да предостави по реда на чл. 34, ал. 1 и/или чл. 35, ал. 2 от Закона за устройството на държавния бюджет допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на здравеопазването в размер 35 000 хил. лв., разпределени, както следва:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>за уреждане задължения на лечебните и здравните заведения и за централни доставки на лекарства — 32 000 хил. лв.;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>за капиталови разходи — 3 000 хил. лв.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят от</p>
+          <p>икономии на разходите и/или от преизпълнение на приходите по централния бюджет за 2003 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по предложение на министъра на здравеопазването да извърши налагащите се промени по бюджета на Министерството на здравеопазването за 2003 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на здравеопазването и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

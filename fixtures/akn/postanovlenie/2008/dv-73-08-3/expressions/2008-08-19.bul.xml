@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-73-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-73-08-3"/>
+          <FRBRalias value="Постановление № 199 от 11 август 2008 г. за изменение и допълнение на Постановление № 180 на Министерския съвет от 2008 г. за одобряване на целеви средства по бюджета на Министерството на регионалното развитие и благоустройството" name="short"/>
+          <FRBRalias value="Постановление № 199 от 11 август 2008 г. за изменение и допълнение на Постановление № 180 на Министерския съвет от 2008 г. за одобряване на целеви средства по бюджета на Министерството на регионалното развитие и благоустройството" name="eli" other="/eli/bg/postanovlenie/2008/dv-73-08-3"/>
+          <FRBRdate date="2008-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-73-08-3/bul@2008-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-73-08-3/bul@2008-08-19"/>
+          <FRBRdate date="2008-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-73-08-3/bul@2008-08-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-73-08-3/bul@2008-08-19.xml"/>
+          <FRBRdate date="2008-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-08-19" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 199 от 11 август 2008 г. за изменение и допълнение на Постановление № 180 на Министерския съвет от 2008 г. за одобряване на целеви средства по бюджета на Министерството на регионалното развитие и благоустройството</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 1 числото “26 355 534” се заменя с “46 848 334”.</p>
+            <p>2. В ал. 2 накрая се поставя запетая и се добавя “и на обекти, изпълнявани по Програма ФАР, за които временно е преустановено финансирането за сметка на средства по Програма ФАР и кореспондиращо национално съфинансиране съгласно приложимите финансови меморандуми”.</p>
+            <p>3. В ал. 3 накрая се добавя “и приложение № 2”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 3 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 6 думите “и чл. 3, ал. 1” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 2 думите “към чл. 3, ал. 2” се заменят с “към чл. 1, ал. 3”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от 7 август 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

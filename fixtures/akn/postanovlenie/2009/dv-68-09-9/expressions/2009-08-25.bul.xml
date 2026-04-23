@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-9"/>
+          <FRBRalias value="Постановление № 206 ОТ 19 АВГУСТ 2009 Г. за изменение и допълнение на Правилника за" name="short"/>
+          <FRBRalias value="Постановление № 206 ОТ 19 АВГУСТ 2009 Г. за изменение и допълнение на Правилника за" name="eli" other="/eli/bg/postanovlenie/2009/dv-68-09-9"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-9/bul@2009-08-25/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-9/bul@2009-08-25"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-9/bul@2009-08-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-9/bul@2009-08-25.xml"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-25" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 206 ОТ 19 АВГУСТ 2009 Г. за изменение и допълнение на Правилника за</p>
+      <p>(обн., ДВ, бр. 47 от 2006 г.; изм. и доп., бр. 24 от 2007 г., бр. 44 и 91 от 2008 г. и бр. 1 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 93 се правят следните изменения и допълнения: 1. В ал. 3 накрая се поставя запетая и се добавя „освен в случаите по ал. 4“. 2. Създава се нова ал. 4: „</p>
+            <p>(4) Справките по ал. 3 не са задължителни за следните лица: 1. гражданите на Европейския съюз по смисъла на член 17, параграф 1 от Договора за създаване на Европейската общност и гражданите на тре­ ти страни, които са членове на семейството на гражданин на Съюза, които упражняват своето право на свободно движение и по отношение на които се прилага Директива 2004/38/ЕО; 2. гражданите на трети страни и членовете на техните семейства, независимо от тяхната националност, които по силата на споразуме­ ния с Общността и нейните държави членки, от една страна, и същите трети страни, от друга страна, се ползват с правото на свободно движение, което е равностойно на правото на гражданите на Съюза.“ 3. Досегашните ал. 4 и 5 стават съответно ал. 5 и 6. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-3/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-3"/>
+          <FRBRalias value="Постановление № 201 от 17 септември 2005 г. за изменение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика" name="short"/>
+          <FRBRalias value="Постановление № 201 от 17 септември 2005 г. за изменение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика" name="eli" other="/eli/bg/postanovlenie/2005/dv-78-05-3"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-3/bul@2005-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-3/bul@2005-09-30"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-3/bul@2005-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-3/bul@2005-09-30.xml"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-30" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 201 от 17 септември 2005 г. за изменение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика</p>
+      <p>(обн., ДВ, бр. 28 от 2002 г.; изм. и доп., бр. 2 от 2004 г.,   бр. 27 и 29 от 2005 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

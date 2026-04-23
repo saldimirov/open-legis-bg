@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-65-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-65-06-8"/>
+          <FRBRalias value="Постановление № 196 от 1 август 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на регионалното развитие и благоустройството, приет с Постановление № 68 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 196 от 1 август 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на регионалното развитие и благоустройството, приет с Постановление № 68 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-65-06-8"/>
+          <FRBRdate date="2006-08-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-65-06-8/bul@2006-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-65-06-8/bul@2006-08-11"/>
+          <FRBRdate date="2006-08-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-65-06-8/bul@2006-08-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-65-06-8/bul@2006-08-11.xml"/>
+          <FRBRdate date="2006-08-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-11" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 196 от 1 август 2006 г. за изменение и допълнение на Устройствения правилник на Министерството на регионалното развитие и благоустройството, приет с Постановление № 68 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 28 от 2006 г.; изм., бр. 40 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 12 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 1 думите “се назначават съгласно Закона за държавния вътрешен финансов контрол (ЗДВФК) и” се заличават, а след думите “на министъра” се добавя “с изключение на финансовия контрольор за дирекция “Изпълнителна агенция - Програма ФАР”.</p>
+            <p>2. Алинея 2 се изменя така:</p>
+            <p>“(2) Финансовите контрольори осъществяват предварителен контрол за законосъобразността на всички документи и действия в министерството съгласно Закона за финансовото управление и контрол в публичния сектор.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 8, ал. 3 се правят следните изменения:</p>
+            <p>1. На ред “Финансови контрольори” цифрата “3” се заменя с “2”.</p>
+            <p>2. На ред “Звено за вътрешен одит” цифрата “5” се заменя със “7”.</p>
+            <p>3. На ред “Специализирана администрация” числото “444” се заменя с “443”.</p>
+            <p>4. На ред “дирекция “Регионална политика и системи за управление” числото “17” се заменя с “16”.</p>
+            <p>5. На ред “дирекция “Изпълнителна агенция - Програма ФАР” числото “53” се заменя с “56”.</p>
+            <p>6. На ред “дирекция “Комплексни анализи, експертизи и проекти” числото “10” се заменя с “9”.</p>
+            <p>7. На ред “дирекция “Устройство на територията” числото “10” се заменя с “9”.</p>
+            <p>8. На ред “дирекция “Благоустройство, инженерна инфраструктура и ландшафт” числото “18” се заменя със “17”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 17 юли 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

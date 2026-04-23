@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-19/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-19"/>
+          <FRBRalias value="Постановление № 75 ОТ 30 МАРТ 2015 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 75 ОТ 30 МАРТ 2015 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2015/dv-26-15-19"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-19/bul@2015-04-07/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-19/bul@2015-04-07"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-19/bul@2015-04-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-19/bul@2015-04-07.xml"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-07" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 75 ОТ 30 МАРТ 2015 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 37 от 2010 г.; изм. и доп., бр. 58 от 2010 г., бр. 70 и 102 от 2011 г. и бр. 62 и 74 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения:</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

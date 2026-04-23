@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-8"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за из­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за из­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-62-10-8"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-8/bul@2010-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-8/bul@2010-08-10"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-8/bul@2010-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-8/bul@2010-08-10.xml"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-10" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за из­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>менение и допълнение на Споразумението за предоставяне на безвъзмездна помощ по Програма „Подобряване на контрола на ту­ беркулозата в България“ между Глобалния фонд за борба срещу СПИН, туберкулоза и малария и Министерството на здравеопазва­ нето на Република България Член единствен. Ратифицира Споразумени­ ето за изменение и допълнение на Споразуме­ нието за предоставяне на безвъзмездна помощ по Програма „Подобряване на контрола на туберкулозата в България“ между Глобалния фонд за борба срещу СПИН, туберкулоза и малария и Министерството на здравеопазва­ нето на Република България, подписано на 23 април 2010 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

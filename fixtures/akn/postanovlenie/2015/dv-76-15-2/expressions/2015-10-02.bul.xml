@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-76-15-2/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-76-15-2"/>
+          <FRBRalias value="Постановление № 260 ОТ 24 СЕПТЕМВРИ 2015 Г. за определяне районите на действие на об-" name="short"/>
+          <FRBRalias value="Постановление № 260 ОТ 24 СЕПТЕМВРИ 2015 Г. за определяне районите на действие на об-" name="eli" other="/eli/bg/postanovlenie/2015/dv-76-15-2"/>
+          <FRBRdate date="2015-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-76-15-2/bul@2015-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-76-15-2/bul@2015-10-02"/>
+          <FRBRdate date="2015-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-76-15-2/bul@2015-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-76-15-2/bul@2015-10-02.xml"/>
+          <FRBRdate date="2015-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-02" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 260 ОТ 24 СЕПТЕМВРИ 2015 Г. за определяне районите на действие на об-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 42, ал. 1 от Закона за Министерството на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Постановление № 109 на Министерския съвет от 2007 г. за определя- не районите на действие и седалищата на областните дирекции „Полиция“ на Нацио- нална служба „Полиция“ на Министерството на вътрешните работи (ДВ, бр. 41 от 2007 г.). За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 6379</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

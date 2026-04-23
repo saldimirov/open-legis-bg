@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-97-18-11/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-97-18-11"/>
+          <FRBRalias value="Кодекс за прилагане на задължителните инструменти на ИМО (ІІІ Code)" name="short"/>
+          <FRBRalias value="Кодекс за прилагане на задължителните инструменти на ИМО (ІІІ Code)" name="eli" other="/eli/bg/_other/2018/dv-97-18-11"/>
+          <FRBRdate date="2018-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-97-18-11/bul@2018-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-97-18-11/bul@2018-11-23"/>
+          <FRBRdate date="2018-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-97-18-11/bul@2018-11-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-97-18-11/bul@2018-11-23.xml"/>
+          <FRBRdate date="2018-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-11-23" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Кодекс за прилагане на задължителните инструменти на ИМО (ІІІ Code)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 23.</num>
+          <content>
+            <p>В Класификатора на длъжностите в Служба „Военна информация“ по чл. 56, ал. 1 от Закона за военното разузнаване, приет с Постановление № 170 на Министерския съвет от 2016 г. (ДВ, бр. 54 от 2016 г.), приложението (поверително) към т. I се изменя съгласно приложение № 2 (поверително).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 24.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на отбраната и на директора на Служба „Военна информация“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 25.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

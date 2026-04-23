@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-15"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавно предприятие “Транспортно строителство и възстановяване”" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавно предприятие “Транспортно строителство и възстановяване”" name="eli" other="/eli/bg/pravilnik/2005/dv-91-05-15"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-15/bul@2005-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-15/bul@2005-11-15"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-15/bul@2005-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-15/bul@2005-11-15.xml"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-15" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за дейността и структурата на държавно предприятие “Транспортно строителство и възстановяване”</p>
+      <p>(обн., ДВ, бр. 13 от  2002 г  .; изм. и доп., бр. 63 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 41в се създава т. 5:</p>
+            <p>“т. 5 “хотел “Лозенец” - Лозенец”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 41д ал. 1 се изменя така:</p>
+            <p>“(1) Хотел “Дряново” - Дряново, хотел “Копривки” - Пловдив, хотел “Роса” - Варна, и хотел “Лозенец” - Лозенец, се ръководят от управители на хотели.”</p>
+            <p>Министър:  П. Мутафчиев</p>
+            <p>10943</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

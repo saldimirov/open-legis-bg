@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-2"/>
+          <FRBRalias value="Закон за ратифициране на Договора за лиценз" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Договора за лиценз" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-102-11-2"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-2/bul@2011-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-2/bul@2011-12-22"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-2/bul@2011-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-2/bul@2011-12-22.xml"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Договора за лиценз</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>между Австралийския съюз, представля­ ван от Департамента по здравеопазване и застаряване, и Република България, пред­ ставлявана от Министерството на здраве­ опазването, относно определени права на използване на Класификационната система AR-DRG Член единствен. Ратифицира Договора за лиценз между Австралийския съюз, представ­ ляван от Департамента по здравеопазване и застаряване, и Република България, представ­ лявана от Министерството на здравеопазване­ то, относно определени права на използване на Класификационната система AR-DRG, сключен на 4 ноември 2011 г. Заключителна разпоредба Параграф единствен. Схемата на договоре­ ностите – приложение към договора по член единствен (поверителна), да не се обнародва в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

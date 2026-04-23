@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-4"/>
+          <FRBRalias value="Закон за ратифициране на Меморандума за разби-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Меморандума за разби-" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-39-11-4"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-4/bul@2011-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-4/bul@2011-05-20"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-4/bul@2011-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-4/bul@2011-05-20.xml"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-20" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Меморандума за разби-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>рателство за сътрудничество и подкрепа по отношение на Секретариата на Конвенцията за полицейско сътрудничество в Югоизточна Европа Член единствен. Ратифицира Меморан- дума за разбирателство за сътрудничество и подкрепа по отношение на Секретариата на Конвенцията за полицейско сътрудничество в Югоизточна Европа, подписан на 21 май 2010 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

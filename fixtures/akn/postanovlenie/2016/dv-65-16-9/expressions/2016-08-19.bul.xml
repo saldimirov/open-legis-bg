@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-9"/>
+          <FRBRalias value="Постановление № 208 ОТ 12 АВГУСТ 2016 Г. за приемане на Наредба за условията и ре-" name="short"/>
+          <FRBRalias value="Постановление № 208 ОТ 12 АВГУСТ 2016 Г. за приемане на Наредба за условията и ре-" name="eli" other="/eli/bg/postanovlenie/2016/dv-65-16-9"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-9/bul@2016-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-9/bul@2016-08-19"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-9/bul@2016-08-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-9/bul@2016-08-19.xml"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-19" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 208 ОТ 12 АВГУСТ 2016 Г. за приемане на Наредба за условията и ре-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните раз­ поредби от Постановление № 167 на Минис­ терския съвет от 2016 г. за определяне на реда за предоставяне на безвъзмездна финансова помощ по фонд „Убежище, миграция и ин­ теграция“ и фонд „Вътрешна сигурност“ за периода 2014 – 2020 г. (ДВ, бр. 54 от 2016 г.) се създава § 3а: „§ 3а. Редът по това постановление не се прилага за предоставяне на безвъзмездна фи­ нансова помощ за дейности за преместване и презаселване на граждани на трети страни.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

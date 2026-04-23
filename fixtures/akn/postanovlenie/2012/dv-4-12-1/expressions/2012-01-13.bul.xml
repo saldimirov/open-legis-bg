@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-4-12-1/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-4-12-1"/>
+          <FRBRalias value="Постановление № 1 ОТ 5 ЯНУАРИ 2012 Г. за приемане на Методика за определяне на" name="short"/>
+          <FRBRalias value="Постановление № 1 ОТ 5 ЯНУАРИ 2012 Г. за приемане на Методика за определяне на" name="eli" other="/eli/bg/postanovlenie/2012/dv-4-12-1"/>
+          <FRBRdate date="2012-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-4-12-1/bul@2012-01-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-4-12-1/bul@2012-01-13"/>
+          <FRBRdate date="2012-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-4-12-1/bul@2012-01-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-4-12-1/bul@2012-01-13.xml"/>
+          <FRBRdate date="2012-01-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-13" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 1 ОТ 5 ЯНУАРИ 2012 Г. за приемане на Методика за определяне на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>До 30 септември 2012 г. администра­ тивните органи по смисъла на § 1, т. 1 от допълнителната разпоредба на Закона за огра­ ничаване на административното регулиране и административния контрол върху стопан­ ската дейност внасят в Министерския съвет проекти на нормативни актове за промени в тарифите в съответствие с методиката, в които предвиждат влизането им в сила от 1 януари 2013 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Указания по прилагането на методиката дава министърът на икономиката, енергети­ ката и туризма.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

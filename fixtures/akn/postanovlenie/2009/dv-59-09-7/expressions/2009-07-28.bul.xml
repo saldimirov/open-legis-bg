@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-7/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-7"/>
+          <FRBRalias value="Постановление № 185 от 21 юли 2009 г. за приемане на Правилник за структурата и организацията на дейността на служба “Военна полиция” и Класификатор на длъжностите на военнослужещите от служба “Военна полиция”" name="short"/>
+          <FRBRalias value="Постановление № 185 от 21 юли 2009 г. за приемане на Правилник за структурата и организацията на дейността на служба “Военна полиция” и Класификатор на длъжностите на военнослужещите от служба “Военна полиция”" name="eli" other="/eli/bg/postanovlenie/2009/dv-59-09-7"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-7/bul@2009-07-28/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-7/bul@2009-07-28"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-7/bul@2009-07-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-7/bul@2009-07-28.xml"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-07-28" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 185 от 21 юли 2009 г. за приемане на Правилник за структурата и организацията на дейността на служба “Военна полиция” и Класификатор на длъжностите на военнослужещите от служба “Военна полиция”</p>
+      <p>(обн., ДВ, бр. 80 от 2004 г.; изм. и доп., бр. 78 от 2005 г., бр. 7 от 2007 г. и бр. 83 от 2008 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Правилник за структурата и организацията на дейността на служба “Военна полиция” съгласно приложение № 1.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Приема Класификатор на длъжностите на военнослужещите от служба “Военна полиция” съгласно приложение № 2 (поверително).</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-60-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-60-13-1"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на на­" name="short"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на на­" name="eli" other="/eli/bg/reshenie_ns/2013/dv-60-13-1"/>
+          <FRBRdate date="2013-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-60-13-1/bul@2013-07-06/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-60-13-1/bul@2013-07-06"/>
+          <FRBRdate date="2013-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-60-13-1/bul@2013-07-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-60-13-1/bul@2013-07-06.xml"/>
+          <FRBRdate date="2013-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-06" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване на пълномощията на на­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>роден представител Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Ре­ публика България Р Е Ш И : Прекратява пълномощията на Явор Или­ ев Гечев като народен представител от 8. многомандатен изборен район – Добрички. Решението е прието от 42-то Народно събрание на 3 юли 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

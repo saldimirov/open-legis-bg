@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-14"/>
+          <FRBRalias value="Постановление № 306 от 11 декември 2008 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми" name="short"/>
+          <FRBRalias value="Постановление № 306 от 11 декември 2008 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми" name="eli" other="/eli/bg/postanovlenie/2008/dv-108-08-14"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-14/bul@2008-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-14/bul@2008-12-19"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-108-08-14/bul@2008-12-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-108-08-14/bul@2008-12-19.xml"/>
+          <FRBRdate date="2008-12-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-19" name="Държавен вестник" number="108" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 306 от 11 декември 2008 г. за разрешаване на бюджетни кредити за сметка на държавни инвестиционни заеми</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Министърът на финансите на основание чл. 34, ал. 1 и 2 от Закона за устройството на държавния бюджет и § 24, ал. 1 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2008 г. да предостави:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>бюджетни кредити по бюджета за 2008 г. на Министерството на транспорта в размер 5 000 000 лв. за развитие и разширение на летище Пловдив;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>капиталов трансфер и текуща поддръжка в размер 25 000 000 лв. за Национална компания “Железопътна инфраструктура”.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 се осигуряват за сметка на неусвоените средства по държавните инвестиционни заеми за 2008 г., планирани по централния бюджет.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по предложение на министъра на транспорта да извърши налагащите се промени по бюджета на Министерството на транспорта.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет и § 24, ал. 1 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2008 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на транспорта.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:  Меглена Плугчиева</p>
+            <p>За главен секретар на Министерския съвет:  Веселин Даков</p>
+            <p>7271</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

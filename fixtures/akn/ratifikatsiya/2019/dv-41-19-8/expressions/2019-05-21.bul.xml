@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-41-19-8/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-41-19-8"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="eli" other="/eli/bg/ratifikatsiya/2019/dv-41-19-8"/>
+          <FRBRdate date="2019-05-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-41-19-8/bul@2019-05-21/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-41-19-8/bul@2019-05-21"/>
+          <FRBRdate date="2019-05-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-41-19-8/bul@2019-05-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-41-19-8/bul@2019-05-21.xml"/>
+          <FRBRdate date="2019-05-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-21" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>извършване на Икономически преглед на Република България между Република Бъл- гария, от една страна, и Организацията за икономическо сътрудничество и развитие (ОИСР), от друга страна Член единствен. Ратифицира Споразумени- ето за извършване на Икономически преглед на Република България между Република България, от една страна, и Организацията за икономическо сътрудничество и развитие (ОИСР), от друга страна, сключено чрез размяна на писма, подписани на 31 януари 2019 г. в София и на 26 март 2019 г. в Париж. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-15-11-9/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-15-11-9"/>
+          <FRBRalias value="Постановление № 32 ОТ 10 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 32 ОТ 10 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2011/dv-15-11-9"/>
+          <FRBRdate date="2011-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-15-11-9/bul@2011-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-15-11-9/bul@2011-02-18"/>
+          <FRBRdate date="2011-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-15-11-9/bul@2011-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-15-11-9/bul@2011-02-18.xml"/>
+          <FRBRdate date="2011-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-18" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 32 ОТ 10 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 1 от 2011 г.; изм., бр. 9 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. Точка 4.2 се отменя. 2. Създават се т. 4.3, 4.4 и 4.5: „ 4.3. Отстраняване на повреди по съществу­ ващата и доизграждане на липсваща ограда за разделяне на пътни­ те потоци и на път­ на сигнализация на ГКПП – Калотина. Областният уп­ равител на об­ ласт София 31 000 4.4. Изграждане на 6 оборудвани кабини за извършване на гранич­ ни проверки и митниче­ ски контрол и на съпът­ стващата инфраструкту­ ра на ГКПП – Малко Търново. Областният уп­ равител на об­ ласт Бургас 74 000 4.5. Изграждане на ограда за разделяне на товарния от лекия и на входящия от изходящия автомобилен поток на ГКПП – Лесово. Областният уп­ равител на об­ ласт Ямбол 130 000 “ 3. В т. 6 числото „31 000“ се заменя с „16 000“. 4. Точка 13 се изменя така: „ 13.1. Ремонт на кабината за пътни такси и разрешителни на ГКПП – Малко Търново. МФ – АМ 5000 13.2. Ремонт на пътните плат­ на около системите автомо­ билни везни и обезопасяване на везната на изходящото трасе за товарни автомобили на ГКПП – Лесово. МФ – АМ 25 000 13.3. Доставка и монтаж на система автомобилни везни на трасето за изходящ тежък трафик на ГКПП – Калотина. МФ – АМ 60 000 13.4. Преместване на система автомобилни везни от РО-РО терминала в Русе на трасето за изходящ тежък трафик на ГКПП – Калотина. МФ – АМ 10 000 “ 5. Създава се т. 21: „ 21. Почистване и ремонт на отводнителен канал за ГКПП – Капитан Андрее­ во, и ОПС „Капитан Ан­ дреево 1“. Министер­ ството на земеделието и храните 50 000 “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

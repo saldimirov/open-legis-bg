@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-93-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-93-08-5"/>
+          <FRBRalias value="Постановление № 252 от 17 октомври 2008 г. за предоставяне на допълнителни средства за тържественото отбелязване на 150-ата годишнина на Болградската гимназия “Г. С. Раковски”, Болград, Одеска област, Украйна" name="short"/>
+          <FRBRalias value="Постановление № 252 от 17 октомври 2008 г. за предоставяне на допълнителни средства за тържественото отбелязване на 150-ата годишнина на Болградската гимназия “Г. С. Раковски”, Болград, Одеска област, Украйна" name="eli" other="/eli/bg/postanovlenie/2008/dv-93-08-5"/>
+          <FRBRdate date="2008-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-93-08-5/bul@2008-10-28/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-93-08-5/bul@2008-10-28"/>
+          <FRBRdate date="2008-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-93-08-5/bul@2008-10-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-93-08-5/bul@2008-10-28.xml"/>
+          <FRBRdate date="2008-10-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-10-28" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 252 от 17 октомври 2008 г. за предоставяне на допълнителни средства за тържественото отбелязване на 150-ата годишнина на Болградската гимназия “Г. С. Раковски”, Болград, Одеска област, Украйна</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Министърът на финансите да предостави допълнителни средства от централния бюджет за 2008 г. в размер 252 674 лв. за тържественото отбелязване на 150-ата годишнина на Болградската гимназия “Г. С. Раковски”, както следва:</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>по бюджета на Министерството на образованието и науката - 236 500 лв.;</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>чрез бюджета на Министерството на образованието и науката на Софийския университет “Св. Климент Охридски” - 16 174 лв.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <intro>
+          <p>Средствата по чл. 1 да се осигурят чрез преструктуриране на централния бюджет за 2008 г., както следва:</p>
+        </intro>
+        <point eId="art_2__pt_1">
+          <num>1.</num>
+          <content>
+            <p>за сметка на целевите разходи по функция “Образование” - 52 674 лв.;</p>
+          </content>
+        </point>
+        <point eId="art_2__pt_2">
+          <num>2.</num>
+          <content>
+            <p>за сметка на целевите разходи, предвидени за официална помощ за развитие - 200 000 лв.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите при съставянето на проекта на държавен бюджет за 2009 г. да предвиди необходимите 165 800 лв. за изпълнението на програмата на проявите, свързани с отбелязване на 150-ата годишнина на Болградската гимназия “Г. С. Раковски”.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и науката и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

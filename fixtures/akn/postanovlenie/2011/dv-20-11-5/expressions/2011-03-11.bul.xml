@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-5"/>
+          <FRBRalias value="Постановление № 51 ОТ 7 МАРТ 2011 Г. за изменение и допълнение на Тарифа­" name="short"/>
+          <FRBRalias value="Постановление № 51 ОТ 7 МАРТ 2011 Г. за изменение и допълнение на Тарифа­" name="eli" other="/eli/bg/postanovlenie/2011/dv-20-11-5"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-5/bul@2011-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-5/bul@2011-03-11"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-5/bul@2011-03-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-5/bul@2011-03-11.xml"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-11" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 51 ОТ 7 МАРТ 2011 Г. за изменение и допълнение на Тарифа­</p>
+      <p>(обн., ДВ, бр. 1 от 2002 г.; изм. и доп., бр. 49 от 2002 г., бр. 71 от 2004 г., бр. 105 от 2006 г. и бр. 2 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 се правят следните изме­ нения и допълнения: 1. Точка 4 се изменя така: „4. за превози на контейнери с блок-влакове независимо от категорията на железопътната линия – от 0,6331 лв. до 0,6998 лв. за влак­ километър;“. 2. Създава се т. 5: „5. за превози на товарни автомобили с блок-влакове независимо от категорията на же­ лезопътната линия – от 0,3392 лв. до 0,3749 лв. за влаккилометър.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения: 1. В ал. 2 думите „и/или товарни автомо­ били“ се заличават. 2. Създава се ал. 3: „</p>
+            <p>(3) За превози на товарни автомобили с блок-влакове независимо от категорията на жп линията се заплащат следните такси: а) за железен път – от 0,0011 лв. до 0,0013 лв. за брутотонкилометър; б) за електрически инсталации – от 0,1587 лв. до 0,1754 лв. за влаккилометър; в) за контактна мрежа – от 0,1244 лв. до 0,1376 лв. за влаккилометър; г) за управление на движението – от 0,6968 лв. до 0,77 лв. за влаккилометър.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 4а се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Член 5 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Таксите по чл. 3 и 4 се заплащат на управителя на инфраструктурата до 15-о число на месеца, следващ месеца, за който се дължат.“</p>
+          </content>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

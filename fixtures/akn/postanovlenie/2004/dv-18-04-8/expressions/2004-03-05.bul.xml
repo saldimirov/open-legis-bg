@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-18-04-8/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-18-04-8"/>
+          <FRBRalias value="Постановление № 39 от 25 февруари 2004 г. за изменение на Устройствения правилник на Министерството на правосъдието, приет с Постановление № 192 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 39 от 25 февруари 2004 г. за изменение на Устройствения правилник на Министерството на правосъдието, приет с Постановление № 192 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-18-04-8"/>
+          <FRBRdate date="2004-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-18-04-8/bul@2004-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-18-04-8/bul@2004-03-05"/>
+          <FRBRdate date="2004-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-18-04-8/bul@2004-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-18-04-8/bul@2004-03-05.xml"/>
+          <FRBRdate date="2004-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-03-05" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 39 от 25 февруари 2004 г. за изменение на Устройствения правилник на Министерството на правосъдието, приет с Постановление № 192 на Министерския съвет от 2002 г.</p>
+      <p>(обн., ДВ, бр. 83 от 2002 г.; изм. и доп., бр. 21, 48, 53 и 69 от 2003 г. и бр. 11 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 13, ал. 3 числото “747” се заменя с “1053”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 13, ал. 4 се правят следните изменения:</p>
+            <p>1. В заглавието числото “747” се заменя с “1053”.</p>
+            <p>2. На ред “Дирекция “Правна” числото “30” се заменя с “29”.</p>
+            <p>3. На ред “Дирекция “Международно правно сътрудничество и международна правна помощ” числото “23” се заменя с “24”.</p>
+            <p>4. На ред “Главна дирекция “Охрана”, в т.ч. териториалните звена на Главна дирекция “Охрана”, числото “503” се заменя с “809”, а числото “372” се заменя със “742”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложение № 2 към чл. 3, ал. 3 от Постановление № 205 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на правосъдието (обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 2 и 14 от 2000 г., бр. 88 от 2001 г., бр. 83 от 2002 г. и бр. 21, 48 и 69 от 2003 г.) в т. 4 числото “4582” се заменя с “4376”, а числото “4454” се заменя с “4265”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

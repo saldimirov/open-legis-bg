@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-61-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-61-03-7"/>
+          <FRBRalias value="Постановление № 141 от 27 юни 2003 г. за изпълнение на Резолюция 1483 (2003) на Съвета за сигурност на ООН от 22 май 2003 г." name="short"/>
+          <FRBRalias value="Постановление № 141 от 27 юни 2003 г. за изпълнение на Резолюция 1483 (2003) на Съвета за сигурност на ООН от 22 май 2003 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-61-03-7"/>
+          <FRBRdate date="2003-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-61-03-7/bul@2003-07-08/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-61-03-7/bul@2003-07-08"/>
+          <FRBRdate date="2003-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-61-03-7/bul@2003-07-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-61-03-7/bul@2003-07-08.xml"/>
+          <FRBRdate date="2003-07-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-07-08" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 141 от 27 юни 2003 г. за изпълнение на Резолюция 1483 (2003) на Съвета за сигурност на ООН от 22 май 2003 г.</p>
+      <p>(обн., ДВ, бр. 81 от 1991 г.; изм., бр. 4 от 2001 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>Блокират се:</p>
+          </intro>
+          <point eId="art_1__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>финансовите средства и други финансови и икономически ресурси, принадлежащи на предишното иракско правителство или на държавни органи, предприятия или обществени институции, които са се намирали извън Ирак към датата на приемане на Резолюция 1483 (2003) на Съвета за сигурност на ООН;</p>
+            </content>
+          </point>
+          <point eId="art_1__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>финансовите средства и други финансови или икономически ресурси, изнесени от Ирак или придобити от Саддам Хюсейн или от други висши отговорни лица от бившия режим или техни близки роднини, включително от юридически лица, притежавани или контролирани пряко или косвено от тях или от други лица, действащи от тяхно име или по техни указания.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>физическите и юридическите лица, спрямо които се прилага мярката по ал. 1, т. 2, се определят от Комитета, създаден с Резолюция 661 (1990) на Съвета за сигурност на ООН.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Алинея 1 не се прилага за финансови средства или за финансови или икономически ресурси, които са предмет на съдебни, административни или арбитражни мерки или решения.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_4">
+          <num>(4)</num>
+          <content>
+            <p>Средствата по ал. 1 се превеждат незабавно във фонда за развитие на Ирак към Централната банка на Ирак.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Контролът по изпълнението на постановлението се възлага на министъра на финансите и на управителя на Българската народна банка.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Постановление № 90 на Министерския съвет от 1990 г. за изпълнение от Народна република България на Резолюцията на Съвета за сигурност на Организацията на обединените нации от 7 август 1990 г. (ДВ, бр. 67 от 1990 г.) чл. 1, 2, 3, 4, 5 и 7 се отменят.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 от Постановление № 188 на Министерския съвет от 1991 г. за изпълнение от Република България на § 24, 25 и 27 от Резолюция № 687 на Съвета за сигурност на ООН от 3 април 1991 г. (обн., ДВ, бр. 81 от 1991 г.; изм., бр. 4 от 2001 г.) думите „Правителствената комисия за регулиране и контрол на режима за производство и търговия с военна и специална продукция&amp;quot; се заменят с „Междуведомствената комисия за експортен контрол и неразпространение на оръжията за масово унищожение&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В Списъка на държавите и организациите, спрямо които Република България прилага забрана или ограничения върху продажбата и доставките на въоръжение и свързано с него оборудване, в съответствие с резолюции на Съвета за сигурност на ООН и решения на Европейския съюз и на Организацията за сигурност и сътрудничество в Европа, утвърден с Постановление № 91 на Министерския съвет от г. (обн., ДВ, бр. 37 от 2001 г.; изм., бр. 70 от г. и бр. 22 от 2003 г.), т. 7 в частта за наложените от ООН санкции се изменя така:</p>
+            <p>Виж в    PDF   -а на броя</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

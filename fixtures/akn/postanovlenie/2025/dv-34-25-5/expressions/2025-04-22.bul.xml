@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-34-25-5/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-34-25-5"/>
+          <FRBRalias value="Постановление № 30 от 17 април 2025 г. за допълнение на Тарифа № 1 към Закона за държавните такси за таксите, събирани от съдилищата, прокуратурата, следствените служби и Министерството на правосъдието, одобрена с Постановление № 167 на Министерския съвет от 1992 г." name="short"/>
+          <FRBRalias value="Постановление № 30 от 17 април 2025 г. за допълнение на Тарифа № 1 към Закона за държавните такси за таксите, събирани от съдилищата, прокуратурата, следствените служби и Министерството на правосъдието, одобрена с Постановление № 167 на Министерския съвет от 1992 г." name="eli" other="/eli/bg/postanovlenie/2025/dv-34-25-5"/>
+          <FRBRdate date="2025-04-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-34-25-5/bul@2025-04-22/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-34-25-5/bul@2025-04-22"/>
+          <FRBRdate date="2025-04-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-34-25-5/bul@2025-04-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-34-25-5/bul@2025-04-22.xml"/>
+          <FRBRdate date="2025-04-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-04-22" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 30 от 17 април 2025 г. за допълнение на Тарифа № 1 към Закона за държавните такси за таксите, събирани от съдилищата, прокуратурата, следствените служби и Министерството на правосъдието, одобрена с Постановление № 167 на Министерския съвет от 1992 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В раздел Г „Такси, събирани от Министерството на правосъдието“ се създава т. 62ц: „62ц. По заявления за предоставяне на административни услуги от регистъра по несъстоятелност по чл. 760е от Търговския закон: а) за вписване и обявяване на актове – 26 лв., а когато заявлението е подадено по електронен път – 20 лв.; б) за издаване на удостоверение – 17 лв., а когато заявлението е подадено и удостоверението е получено по електронен път – 11 лв.; в) за извършване на писмена справка за вписани обстоятелства – 17 лв., а когато заявлението е подадено по електронен път – 13 лв.; г) за издаване на заверено копие на хартиен носител от електронен образ на заявление или приложения към него – 18 лв., а когато заявлението е подадено по електронен път – 14 лв.“ Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Таксите по чл. 62ц, букви „б“ – „г“ се събират след издаване на заповедта по § 2 от заключителните разпоредби на Наредбата за условията и реда за водене, съхраняване и достъп до регистъра по несъстоятелност по чл. 760е от Търговския закон.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 май 2025 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

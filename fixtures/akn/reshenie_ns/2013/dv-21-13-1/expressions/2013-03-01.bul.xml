@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-1"/>
+          <FRBRalias value="Решение за изменение на Решение за приемане на" name="short"/>
+          <FRBRalias value="Решение за изменение на Решение за приемане на" name="eli" other="/eli/bg/reshenie_ns/2013/dv-21-13-1"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-1/bul@2013-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-1/bul@2013-03-01"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-1/bul@2013-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-1/bul@2013-03-01.xml"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-01" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение на Решение за приемане на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Процедурни правила за издигане на кандида­ тури, представяне и публично оповестяване на документи, изслушване на кандидати и подготовка за избор на съдия в Конституци­ онния съд на Република България от квотата на Народното събрание (ДВ, бр. 10 от 2013 г.) Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бълга­ рия и § 2 от допълнителните разпоредби на Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. В раздел II, т. 4 думите „25 февруари“ се заменят с „момента на изслушването на 21 февруари“. 2. В раздел III, т. 1 числото „27“ се заменя с „21“. 3. В раздел IV, т. 1 думите „6 март“ се заменят с „22 февруари“. Решението е прието от 41-ото Народно съ­ брание на 21 февруари 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

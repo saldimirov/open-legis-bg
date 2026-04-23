@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-4/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-4"/>
+          <FRBRalias value="Постановление № 257 от 27 октомври 2008 г. за промени в структурата на Тракийския университет - Стара Загора" name="short"/>
+          <FRBRalias value="Постановление № 257 от 27 октомври 2008 г. за промени в структурата на Тракийския университет - Стара Загора" name="eli" other="/eli/bg/postanovlenie/2008/dv-95-08-4"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-4/bul@2008-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-4/bul@2008-11-04"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-95-08-4/bul@2008-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-95-08-4/bul@2008-11-04.xml"/>
+          <FRBRdate date="2008-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-04" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 257 от 27 октомври 2008 г. за промени в структурата на Тракийския университет - Стара Загора</p>
+      <p>(обн., ДВ, бр. 29 от 1996 г.; изм. и доп., бр. 67 от 2002 г. и бр. 15 от 2007 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Открива Стопански факултет в структурата на Тракийския университет - Стара Загора.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Закрива Българо-германския аграрен колеж в структурата на Тракийския университет - Стара Загора.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Студентите от закрития Българо-германски аграрен колеж продължават обучението си в Аграрния факултет в структурата на Тракийския университет - Стара Загора, по специалността “Животновъдство” или “Агрономство” за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Движимото имущество и архивът на закрития Българо-германски аграрен колеж се предоставят на Тракийския университет - Стара Загора.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 2, ал. 1 от Постановление № 62 на Министерския съвет от 1996 г. за определяне факултетската структура на Тракийския университет - Стара Загора (обн., ДВ, бр. 29 от 1996 г.; изм. и доп., бр. 67 от 2002 г. и бр. 15 от 2007 г.), се създава т. 8:</p>
+            <p>“8. Стопански факултет”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-4"/>
+          <FRBRalias value="Постановление № 235 от 24 септември 2007 г. за допълнение на Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите, одобрена с Постановление № 253 на Министерския  съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 235 от 24 септември 2007 г. за допълнение на Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите, одобрена с Постановление № 253 на Министерския  съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-79-07-4"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-4/bul@2007-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-4/bul@2007-10-02"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-79-07-4/bul@2007-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-79-07-4/bul@2007-10-02.xml"/>
+          <FRBRdate date="2007-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-02" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 235 от 24 септември 2007 г. за допълнение на Тарифата за таксите, които се събират в системата на Министерството на околната среда и водите, одобрена с Постановление № 253 на Министерския  съвет от 2004 г.</p>
+      <p>(обн., ДВ., бр. 86 от 2004 г.; изм. и доп.,  бр. 22 от 2006 г. и бр. 20 и 39 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 5а:</p>
+            <p>“ ч л. 5а. (1) За издаване на решение по оценка за съвместимостта на планове, програми, проекти и инвестиционни предложения с предмета и целите на опазване на защитените зони се събира такса в размер 280 лв.</p>
+            <p>(2) При издаване на решение по ал. 1 в рамките на процедури по ОВОС и по екологична оценка таксата е сбор от таксата по ал. 1 и съответната такса по чл. 5, ал. 1, 2, 3 или 6.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 2 от заключителната разпоредба след думите “околната среда” се поставя запетая и се добавя “чл. 31, ал. 19 от Закона за биологичното разнообразие”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

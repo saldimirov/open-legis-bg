@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-8"/>
+          <FRBRalias value="Постановление № 64 ОТ 21 МАРТ 2014 Г. за одобряване на допълнителни разходи по" name="short"/>
+          <FRBRalias value="Постановление № 64 ОТ 21 МАРТ 2014 Г. за одобряване на допълнителни разходи по" name="eli" other="/eli/bg/postanovlenie/2014/dv-30-14-8"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-8/bul@2014-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-8/bul@2014-04-01"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-8/bul@2014-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-8/bul@2014-04-01.xml"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-01" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 64 ОТ 21 МАРТ 2014 Г. за одобряване на допълнителни разходи по</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни разходи по бюджета на Министерския съвет за 2014 г. в размер 4 635 000 лв. за разплащането на неотложни разходи за нормативно регла­ ментирани дейности на администрацията на Министерския съвет и на областните администрации.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Със сумата 772 000 лв. да се увеличат разходите по област „Осигуряване дейността и организацията на работата на Министерския съвет“, бюджетна програма „Министерски съвет и организация на дей­ ността му“.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Със сумата 3 863 000 лв. да се увели­ чат разходите по „Политика в областта на осъществяването на държавните функции на територията на областите в България“, бюджетна програма „Осъществяване на дър­ жавната политика на областно ниво“. Решението е прието от 42-то Народно съб­ рание на 26 март 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

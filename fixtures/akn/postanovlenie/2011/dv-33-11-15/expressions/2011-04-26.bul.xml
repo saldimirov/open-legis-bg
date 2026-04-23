@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-15"/>
+          <FRBRalias value="Постановление № 102 ОТ 15 АПРИЛ 2011 Г. за одобряване на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 102 ОТ 15 АПРИЛ 2011 Г. за одобряване на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2011/dv-33-11-15"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-15/bul@2011-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-15/bul@2011-04-26"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-15/bul@2011-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-15/bul@2011-04-26.xml"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 102 ОТ 15 АПРИЛ 2011 Г. за одобряване на допълнителни бюджетни</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни бюджетни кредити по бюджета на Министерския съвет за 2011 г. в размер до 20 000 лв. за провеждане на кандидатстудентска борса за българите в чужбина от 25 до 29 април 2011 г. в София.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят за сметка на преструктуриране на разходите по централния бюджет за 2011 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по пред- ложение на главния секретар на Министерския съвет да извърши произтичащите от чл. 1 про- мени по централния бюджет и по бюджета на Министерския съвет за 2011 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на глав- ния секретар на Министерския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

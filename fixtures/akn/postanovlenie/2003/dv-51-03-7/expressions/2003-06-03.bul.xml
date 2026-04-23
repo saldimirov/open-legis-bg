@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-7"/>
+          <FRBRalias value="Постановление № 111 от 23 май 2003 г. за определяне нов размер на социалната пенсия за старост" name="short"/>
+          <FRBRalias value="Постановление № 111 от 23 май 2003 г. за определяне нов размер на социалната пенсия за старост" name="eli" other="/eli/bg/postanovlenie/2003/dv-51-03-7"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-7/bul@2003-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-7/bul@2003-06-03"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-51-03-7/bul@2003-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-51-03-7/bul@2003-06-03.xml"/>
+          <FRBRdate date="2003-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-06-03" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 111 от 23 май 2003 г. за определяне нов размер на социалната пенсия за старост</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 89, ал. 2 във връзка с чл. 100 от Кодекса за задължително обществено осигуряване.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В размера на социалната пенсия за старост, определен с член единствен, е включено и осъвременяването й за 2003 г. по чл. 100 от Кодекса за задължително обществено осигуряване.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на управителя на Националния осигурителен институт.</p>
+            <p>За министър-председател:    Николай Василев</p>
+            <p>Главен секретар на Министерския съвет:    Севдалин Мавров</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

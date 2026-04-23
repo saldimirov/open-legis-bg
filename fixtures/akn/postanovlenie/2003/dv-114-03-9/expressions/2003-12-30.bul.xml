@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-9/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-9"/>
+          <FRBRalias value="Постановление № 312 от 19 декември 2003 г. за предоставяне на допълнителни средства за компенсиране стойността на нормативно регламентираните пътувания с ценови облекчения във вътрешноградския и междуселищния транспорт в страната" name="short"/>
+          <FRBRalias value="Постановление № 312 от 19 декември 2003 г. за предоставяне на допълнителни средства за компенсиране стойността на нормативно регламентираните пътувания с ценови облекчения във вътрешноградския и междуселищния транспорт в страната" name="eli" other="/eli/bg/postanovlenie/2003/dv-114-03-9"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-9/bul@2003-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-9/bul@2003-12-30"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-114-03-9/bul@2003-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-114-03-9/bul@2003-12-30.xml"/>
+          <FRBRdate date="2003-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-30" name="Държавен вестник" number="114" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 312 от 19 декември 2003 г. за предоставяне на допълнителни средства за компенсиране стойността на нормативно регламентираните пътувания с ценови облекчения във вътрешноградския и междуселищния транспорт в страната</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <intro>
+            <p>Министърът на финансите да предостави от републиканския бюджет за 2003 г. допълнителни средства за компенсиране стойността на нормативно регламентираните пътувания с ценови облекчения в размер до 16 000 хил. лв., както следва:</p>
+          </intro>
+          <point eId="art_1__al_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>до 12 000 хил.  лв.—за „Столична компания за градски транспорт—София&amp;quot;—ЕООД;</p>
+            </content>
+          </point>
+          <point eId="art_1__al_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>до 4000 хил. лв. — за вътрешноградския и междуселищния транспорт в страната.</p>
+            </content>
+          </point>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Министърът на финансите по предложение на министъра на транспорта и съобщенията да разпредели средствата по ал.1, т. 2 по общини въз основа на данните за недостига на средства до стойността на фактически издадените превозни документи с ценови облекчения.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят от преизпълнение на приходите и/или от икономии на разходите по републиканския бюджет за 2003 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Неусвоените в края на годината средства по чл. 1 се възстановяват по сметката, от която са получени.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2003 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-11/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-11"/>
+          <FRBRalias value="Постановление № 270 ОТ 27 ОКТОМВРИ 2016 Г. за изменение на Постановление № 149 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 270 ОТ 27 ОКТОМВРИ 2016 Г. за изменение на Постановление № 149 на Ми­" name="eli" other="/eli/bg/postanovlenie/2016/dv-86-16-11"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-11/bul@2016-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-11/bul@2016-11-01"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-11/bul@2016-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-11/bul@2016-11-01.xml"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-01" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 270 ОТ 27 ОКТОМВРИ 2016 Г. за изменение на Постановление № 149 на Ми­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 т. 1 се изменя така: „1. по бюджета на Министерството на младежта и спорта за капиталови разходи – 3 000 000 лв. за строително-монтажни работи за затревяване и осветление на футболни тере- ни, разпределени, както следва: 1 000 000 лв. за стадион „Тича“ в гр. Варна, 998 000 лв. за градски стадион в гр. Русе и 851 000 лв. за градски стадион в гр. Горна Оряховица, както и 151 000 лв. за обновяване и ремонт на тренировъчна зала за футбол в спортен комплекс „Миньор“ в гр. Перник;“. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на младежта и спорта.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

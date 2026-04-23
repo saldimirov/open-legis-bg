@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-101-19-22/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-101-19-22"/>
+          <FRBRalias value="Постановление № 353 ОТ 19 ДЕКЕМВРИ 2019 Г. за извършване на промени на утвърдените" name="short"/>
+          <FRBRalias value="Постановление № 353 ОТ 19 ДЕКЕМВРИ 2019 Г. за извършване на промени на утвърдените" name="eli" other="/eli/bg/postanovlenie/2019/dv-101-19-22"/>
+          <FRBRdate date="2019-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-101-19-22/bul@2019-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-101-19-22/bul@2019-12-27"/>
+          <FRBRdate date="2019-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-101-19-22/bul@2019-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-101-19-22/bul@2019-12-27.xml"/>
+          <FRBRdate date="2019-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-12-27" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 353 ОТ 19 ДЕКЕМВРИ 2019 Г. за извършване на промени на утвърдените</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдените с чл. 23, ал. 3 от Закона за държавния бюджет на Република България за 2019 г. показатели по бюджета на Министерството на земеделието, храните и горите, както следва: 1. Максимален размер на ангажиментите за разходи, които могат да бъдат поети през 2019 г. – със сумата 20 000 000 лв. 2. Максимален размер на новите задълже- ния за разходи, които могат да бъдат натрупани през 2019 г. – със сумата 9 938 000 лв. БРОЙ 101 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 23</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на земеделието, храните и горите да извърши съответните промени по бюджета на Министерството на земеделието, храните и горите за 2019 г. и да уведоми ми- нистъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 76 от Закона за държавния бюджет на Република България за 2019 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на земеделието, хра- ните и горите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 18 декември 2019 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

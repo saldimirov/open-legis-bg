@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-29-09-5/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-29-09-5"/>
+          <FRBRalias value="Постановление № 83 от 6 април 2009 г. за изменение и допълнение на Наредбата за дългосрочните командировки в чужбина, приета с Постановление № 252 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 83 от 6 април 2009 г. за изменение и допълнение на Наредбата за дългосрочните командировки в чужбина, приета с Постановление № 252 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-29-09-5"/>
+          <FRBRdate date="2009-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-29-09-5/bul@2009-04-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-29-09-5/bul@2009-04-17"/>
+          <FRBRdate date="2009-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-29-09-5/bul@2009-04-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-29-09-5/bul@2009-04-17.xml"/>
+          <FRBRdate date="2009-04-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-04-17" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 83 от 6 април 2009 г. за изменение и допълнение на Наредбата за дългосрочните командировки в чужбина, приета с Постановление № 252 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 100 от 2000 г.; изм. и доп., бр. 44 от 2001 г.; попр., бр. 51 от 2001 г.; изм. и доп., бр. 93 от 2001 г., бр. 5 от 2002 г., бр. 50, 80 и 86 от 2004 г., бр. 43, 55 и 78 от 2005 г., бр. 14 от 2006 г. и бр. 3, 20 и 70 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 31 се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1.</p>
+            <p>2. Създава сеал. 2:</p>
+            <p>“(2) За времето на участие в операции и мисии на НАТО във или извън териториите на нейните държави членки военнослужещите, назначени на длъжности в щабове и органи на НАТО, получават:</p>
+            <p>1. допълнително възнаграждение за служба в зона на непосредствен риск в размер 50 на сто от основното месечно възнаграждение в левове в съответствие с присвоеното им военно звание;</p>
+            <p>2. командировъчни дневни пари в съответствие с присвоеното им военно звание съгласно приложение № 2а в случаите, когато НАТО не поема финансовото осигуряване на военнослужещите.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се приложение № 2а към чл. 31, ал. 2, т. 2:</p>
+            <p>“Приложение № 2а към чл. 31, ал. 2, т. 2</p>
+            <p>Командировъчни дневни пари в съответствие с присвоеното военно звание</p>
+            <p>Войнишки звания: редник, ефрейтор (матрос)                                                                                                            13 евро</p>
+            <p>Сержантски звания: младши сержант, сержант, старши сержант, старшина, офицерски кандидат                    14 евро</p>
+            <p>Младши офицерски звания: младши лейтенант, лейтенант, старши лейтенант, капитан                                     15 евро</p>
+            <p>Старши офицерски звания: майор, подполковник, полковник                                                                                 16 евро</p>
+            <p>Висши офицерски звания: бригаден генерал, генерал-майор (адмирал)                                                                17 евро</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

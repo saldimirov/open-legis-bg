@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-4/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-4"/>
+          <FRBRalias value="Закон за допълнение на Закона за политическите" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за политическите" name="eli" other="/eli/bg/zid/2015/dv-32-15-4"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-4/bul@2015-05-05/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-4/bul@2015-05-05"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-4/bul@2015-05-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-4/bul@2015-05-05.xml"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-05" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за политическите</p>
+      <p>(обн., ДВ, бр. 28 от 2005 г.; изм., бр. 102 от 2005 г., бр. 17 и 73 от 2006 г., бр. 59 и 78 от 2007 г., бр. 6 от 2009 г., бр. 54 и 99 от 2010 г., бр. 9 и 99 от 2011 г., бр. 30, 68 и 71 от 2013 г. и бр. 19 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 14 се създава ал. 3: „(3) Не се допуска повтаряне на наимено- ванието или абревиатурата на коалиция, реги- стрирана в Централната избирателна комисия за участие в последните избори за народни представители, или на наименованието на съществуваща парламентарна група, както и прибавянето към тях на думи, букви, цифри, числа или други знаци. Тази забрана не се прилага при наличие на съгласие в писмена форма с нотариална заверка на подписите на лицата, представляващи коалицията или на ръководството на парламентарната група.“ СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 32 ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

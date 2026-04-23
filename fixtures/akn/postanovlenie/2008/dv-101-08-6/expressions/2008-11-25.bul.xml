@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-101-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-101-08-6"/>
+          <FRBRalias value="Постановление № 277 от 17 ноември 2008 г. за изменение на Наредбата за служебното положение на държавните служители, приета с Постановление № 34 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 277 от 17 ноември 2008 г. за изменение на Наредбата за служебното положение на държавните служители, приета с Постановление № 34 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-101-08-6"/>
+          <FRBRdate date="2008-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-101-08-6/bul@2008-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-101-08-6/bul@2008-11-25"/>
+          <FRBRdate date="2008-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-101-08-6/bul@2008-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-101-08-6/bul@2008-11-25.xml"/>
+          <FRBRdate date="2008-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-25" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 277 от 17 ноември 2008 г. за изменение на Наредбата за служебното положение на държавните служители, приета с Постановление № 34 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 23 от 2000 г.; попр., бр. 47 от 2000 г.; изм. и доп., бр. 53, 62, 89 и 90 от 2000 г., бр. 28, 35, 54 и 108 от 2001 г., бр. 14, 15, 67 и 115 от 2002 г., бр. 17, 59 и 109 от 2003 г., бр. 18 от 2004 г., бр. 50 и 83 от 2005 г., бр. 2 и 46 от  2006 г  . и бр. 46, 64 и 92 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 28, ал. 1 се правят следните изменения:</p>
+            <p>1. В т. 1 числото “300” се заменя с “450”.</p>
+            <p>2. В т. 2 числото “150” се заменя с “250”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

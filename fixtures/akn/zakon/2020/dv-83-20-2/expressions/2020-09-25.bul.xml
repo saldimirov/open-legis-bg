@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-83-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-83-20-2"/>
+          <FRBRalias value="Закон за оттегляне на резервата, направена от" name="short"/>
+          <FRBRalias value="Закон за оттегляне на резервата, направена от" name="eli" other="/eli/bg/zakon/2020/dv-83-20-2"/>
+          <FRBRdate date="2020-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-83-20-2/bul@2020-09-25/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-83-20-2/bul@2020-09-25"/>
+          <FRBRdate date="2020-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-83-20-2/bul@2020-09-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-83-20-2/bul@2020-09-25.xml"/>
+          <FRBRdate date="2020-09-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-09-25" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за оттегляне на резервата, направена от</p>
+      <p>(обн., ДВ, бр. 60 от 7 август 2012 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Република България по чл. 31 от Конвенци- ята за статута на лицата без гражданство, приета в Ню Йорк на 28 септември 1954 г. (обн., ДВ, бр. 60 от 7 август 2012 г.) Член единствен. Република България оттег- ля резервата, направена по чл. 31 от Конвен- цията за статута на лицата без гражданство, приета в Ню Йорк на 28 септември 1954 г. (ДВ, бр. 60 от 2012 г.), ратифицирана със закон на 25 януари 2012 г. (ДВ, бр. 11 от 2012 г.). Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

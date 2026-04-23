@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-101-20-8/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-101-20-8"/>
+          <FRBRalias value="Постановление № 317 ОТ 23 НОЕМВРИ 2020 Г. за одобряване на вътрешнокомпенсира-" name="short"/>
+          <FRBRalias value="Постановление № 317 ОТ 23 НОЕМВРИ 2020 Г. за одобряване на вътрешнокомпенсира-" name="eli" other="/eli/bg/postanovlenie/2020/dv-101-20-8"/>
+          <FRBRdate date="2020-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-101-20-8/bul@2020-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-101-20-8/bul@2020-11-27"/>
+          <FRBRdate date="2020-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-101-20-8/bul@2020-11-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-101-20-8/bul@2020-11-27.xml"/>
+          <FRBRdate date="2020-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-11-27" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 317 ОТ 23 НОЕМВРИ 2020 Г. за одобряване на вътрешнокомпенсира-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдени разходи по области на политики/бюджетни програми по бю- джета на Министерството на икономиката за 2020 г., както следва: 1. намалява утвърдените разходи по „По- литика в областта на устойчивото иконо- мическо развитие и конкурентоспособност“ със 177 000 лв., в т.ч.: а) бюджетна програма „Облекчаване на регулации, опростяване на процедури по предоставяне на административни услуги“ със 140 000 лв., в т.ч. показател „Персонал“ със 140 000 лв.; б) бюджетна програма „Управление на програми и проекти, съфинансирани от ЕС“ с 37 000 лв., в т.ч. показател „Персонал“ с 37 000 лв.; 2. увеличава утвърдените разходи по: а) „Политика в областта на ефективното външноикономическо сътрудничество“ със 170 000 лв., бюджетна програма „Реализа- ция на експортния потенциал и участие в търговската политика на Европейския съюз“ със 170 000 лв., в т.ч. показател „Персонал“ със 170 000 лв.; б) бюджетна програма „Администрация“ със 7000 лв., в т.ч. показател „Персонал“ със 7000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на икономиката да извърши съответните промени по бюджета на Министерството на икономиката за 2020 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

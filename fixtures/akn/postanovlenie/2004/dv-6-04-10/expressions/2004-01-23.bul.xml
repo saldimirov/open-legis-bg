@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-10"/>
+          <FRBRalias value="Постановление № 9 от 19 януари 2004 г. за допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар" name="short"/>
+          <FRBRalias value="Постановление № 9 от 19 януари 2004 г. за допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар" name="eli" other="/eli/bg/postanovlenie/2004/dv-6-04-10"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-10/bul@2004-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-10/bul@2004-01-23"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-6-04-10/bul@2004-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-6-04-10/bul@2004-01-23.xml"/>
+          <FRBRdate date="2004-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-01-23" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 9 от 19 януари 2004 г. за допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар</p>
+      <p>(обн., ДВ, бр. 112 от 2001 г.; изм. и доп., бр. 24 и 76 от 2002 г., бр. 19, 82 и 112 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 2 след думите “по ал. 1” се добавя “намалена с данъка върху добавената стойност”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

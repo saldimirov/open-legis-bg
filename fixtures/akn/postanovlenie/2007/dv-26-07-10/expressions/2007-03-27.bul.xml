@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-26-07-10/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-26-07-10"/>
+          <FRBRalias value="Постановление № 60 от 19 март 2007 г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет с Постановление № 254 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 60 от 19 март 2007 г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет с Постановление № 254 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-26-07-10"/>
+          <FRBRdate date="2007-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-26-07-10/bul@2007-03-27/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-26-07-10/bul@2007-03-27"/>
+          <FRBRdate date="2007-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-26-07-10/bul@2007-03-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-26-07-10/bul@2007-03-27.xml"/>
+          <FRBRdate date="2007-03-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-27" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 60 от 19 март 2007 г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет с Постановление № 254 на Министерския съвет от 2006 г.</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

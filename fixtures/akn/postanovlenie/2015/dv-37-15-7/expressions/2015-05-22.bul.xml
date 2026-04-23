@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-37-15-7/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-37-15-7"/>
+          <FRBRalias value="Постановление № 122" name="short"/>
+          <FRBRalias value="Постановление № 122" name="eli" other="/eli/bg/postanovlenie/2015/dv-37-15-7"/>
+          <FRBRdate date="2015-05-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-37-15-7/bul@2015-05-22/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-37-15-7/bul@2015-05-22"/>
+          <FRBRdate date="2015-05-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-37-15-7/bul@2015-05-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-37-15-7/bul@2015-05-22.xml"/>
+          <FRBRdate date="2015-05-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-22" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 122</p>
+      <p>(обн., ДВ, бр. 72 от 2012 г.; изм., бр. 14 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Навсякъде в правилника думите „ми­ нистъра на икономиката и енергетиката“ и „Министерството на икономиката и енерге­ тиката“ се заменят съответно с „министъра на енергетиката“ и „Министерството на енергетиката“. СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 37</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложението към чл. 7, ал. 3 се изменя така: „Приложение към чл. 7, ал. 3 Численост на персонала на Агенцията за устой­ чиво енергийно развитие – 60 щатни бройки Изпълнителен директор 1 Главен секретар 1 Финансов контрольор 1 Служител по сигурността на информацията 1 Обща администрация 16 в т.ч.: дирекция „Обща администрация“ 16 Специализирана администрация 40 в т.ч.: дирекция „Контрол и информация“ 23 Главна дирекция „Координация и управле­ ние на енергийна ефективност и възобно­ вяеми източници на енергия“ 17 в т.ч.: териториални звена 6“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

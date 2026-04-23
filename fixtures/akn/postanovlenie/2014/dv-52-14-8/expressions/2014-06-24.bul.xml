@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-8"/>
+          <FRBRalias value="Постановление № 163 ОТ 19 ЮНИ 2014 Г. за одобряване на промени на утвърдените" name="short"/>
+          <FRBRalias value="Постановление № 163 ОТ 19 ЮНИ 2014 Г. за одобряване на промени на утвърдените" name="eli" other="/eli/bg/postanovlenie/2014/dv-52-14-8"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-8/bul@2014-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-8/bul@2014-06-24"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-8/bul@2014-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-8/bul@2014-06-24.xml"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-24" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 163 ОТ 19 ЮНИ 2014 Г. за одобряване на промени на утвърдените</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява промени на утвърдените разходи по области на политики и по други бюджетни програми по бюджета на Минис- терството на регионалното развитие за 2014 г., както следва: 1. намаление на утвърдените разходи по „Политика в областта на подобряване инфра- структурната свързаност на регионите – из- граждане и модернизиране на пътната и ВиК инфраструктура“, бюджетна програма „Рехаби- литация и изграждане на пътна инфраструктура“ с 2 817 939 лв.; 2. увеличение на утвърдените разходи по „По- литика в областта на развитието на регионите в страната и намаляване на различията, ефек- тивното и ефикасно използване на публичните финанси за подобряване качеството на жизне- ната среда и създаването на работни места“, бюджетна програма „Стратегическо планиране на регионалното и пространственото развитие, децентрализация и управление на финансовите инструменти за регионално и местно развитие и териториално сътрудничество“ с 40 000 лв.; 3. увеличение на утвърдените разходи по други бюджетни програми: по бюджетна про- грама „Ефективно управление на държавната собственост, държавното участие в търговските дружества и държавни предприятия и развитие на публично-частното партньорство и концеси- онирането“ с 50 000 лв., по бюджетна програма „Гражданска регистрация и административно обслужване на населението“ с 200 000 лв. и по бюджетна програма „Ефективна администрация и координация“ с 2 527 939 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на регионалното развитие да извърши съответните промени по бюджета на Министерството на регионалното развитие за 2014 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на регионалното развитие.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

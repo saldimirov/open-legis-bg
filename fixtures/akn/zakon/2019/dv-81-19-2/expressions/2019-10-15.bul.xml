@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-2"/>
+          <FRBRalias value="Закон за денонсиране на Европейската конвенция за насилието и лошото поведение на зрители" name="short"/>
+          <FRBRalias value="Закон за денонсиране на Европейската конвенция за насилието и лошото поведение на зрители" name="eli" other="/eli/bg/zakon/2019/dv-81-19-2"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-2/bul@2019-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-2/bul@2019-10-15"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-81-19-2/bul@2019-10-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-81-19-2/bul@2019-10-15.xml"/>
+          <FRBRdate date="2019-10-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-10-15" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за денонсиране на Европейската конвенция за насилието и лошото поведение на зрители</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Денонсира Европейската конвенция за насилието и лошото поведение на зрители при спортни прояви и в частност на футболни срещи.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Конвенцията на Съвета на Европа за интегриран подход към безопасност, сигурност и обслужване по време на футболни мачове и други спортни мероприятия, подпи- сана на 3 юли 2016 г. в гр. Сен Дени, Франция.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-36-20-1/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-36-20-1"/>
+          <FRBRalias value="Постановление № 64 ОТ 9 АПРИЛ 2020 Г. за допълнение на Постановление № 31 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 64 ОТ 9 АПРИЛ 2020 Г. за допълнение на Постановление № 31 на Ми­" name="eli" other="/eli/bg/postanovlenie/2020/dv-36-20-1"/>
+          <FRBRdate date="2020-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-36-20-1/bul@2020-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-36-20-1/bul@2020-04-14"/>
+          <FRBRdate date="2020-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-36-20-1/bul@2020-04-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-36-20-1/bul@2020-04-14.xml"/>
+          <FRBRdate date="2020-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-04-14" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 64 ОТ 9 АПРИЛ 2020 Г. за допълнение на Постановление № 31 на Ми­</p>
+      <p>(обн., ДВ, бр. 14 от 2016 г.; изм. и доп., бр. 34 от 2016 г. и бр. 84 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните раз­ поредби се създава § 1а: „§ 1а.</p>
+            <p>(1) За времето на извънредното по­ ложение, обявено с Решение на Народното събрание от 13 март 2020 г., не се извършва преизчисление на полагаемата субсидия по реда на чл. 23а, ал. 2 от Закона за закрила и развитие на културата.</p>
+            <p>(2) За времето на извънредното положение и след неговата отмяна на държавните кул­ турни институти, осъществяващи дейности в областта на сценичните изкуства, се предоставя субсидия за изплащане на средства по допъл­ нителен компонент за ограничена дейност при извънредно положение в размер на брутните трудови възнаграждения и за начисляване на дължимите осигурителни вноски, считано от 13 март 2020 г. до месеца, в който се достигне нивото на приходи за бюджетна програма „Сценични изкуства“ за същия период на миналата година за всеки държавен културен институт, но за не повече от 6 месеца.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

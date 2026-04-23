@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-8/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-8"/>
+          <FRBRalias value="Постановление № 390 ОТ 17 НОЕМВРИ 2021 Г. за изменение на Наредбата за служебните" name="short"/>
+          <FRBRalias value="Постановление № 390 ОТ 17 НОЕМВРИ 2021 Г. за изменение на Наредбата за служебните" name="eli" other="/eli/bg/postanovlenie/2021/dv-97-21-8"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-8/bul@2021-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-8/bul@2021-11-19"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-97-21-8/bul@2021-11-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-97-21-8/bul@2021-11-19.xml"/>
+          <FRBRdate date="2021-11-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-11-19" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 390 ОТ 17 НОЕМВРИ 2021 Г. за изменение на Наредбата за служебните</p>
+      <p>(обн., ДВ, бр. 50 от 2004 г.; изм. и доп., бр. 80 и 86 от 2004 г., бр. 36 и 96 от 2005 г., бр. 2 от 2006 г., бр. 23 и 98 от 2007 г., бр. 64 от 2008 г., бр. 10 от 2009 г., бр. 73 от 2010 г., бр. 19, 105 и 106 от 2011 г., бр. 61 от 2012 г., бр. 51 и 57 от 2015 г., бр. 27 от 2016 г., бр. 2 от 2017 г., бр. 18 от 2020 г. и бр. 11 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 3 към чл. 31, ал. 1, на ред 1 числото „27“ се заменя с „50“ и числото „21“ се заменя с „45“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

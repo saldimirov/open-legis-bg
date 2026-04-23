@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-10"/>
+          <FRBRalias value="Закон за ратифициране на Допълнителния протокол" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Допълнителния протокол" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-39-11-10"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-10/bul@2011-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-10/bul@2011-05-20"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-10/bul@2011-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-10/bul@2011-05-20.xml"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-20" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Допълнителния протокол</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>към Договора между правителството на Репуб- лика България и правителството на Кралство Мароко за взаимно насърчаване и защита на инвестициите Член единствен. Ратифицира Допълнителния протокол към Договора между правителството на Република България и правителството на Кралство Мароко за взаимно насърчаване и защита на инвестициите, подписан на 28 сеп- тември 2010 г. в Рабат.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

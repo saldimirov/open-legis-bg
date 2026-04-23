@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-100-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-100-03-7"/>
+          <FRBRalias value="Постановление № 255 от 7 ноември 2003 г. за изменение и допълнение на Наредбата за ползване на студентските общежития и столове, приета с Постановление № 327 на Министерския съвет от 1997 г." name="short"/>
+          <FRBRalias value="Постановление № 255 от 7 ноември 2003 г. за изменение и допълнение на Наредбата за ползване на студентските общежития и столове, приета с Постановление № 327 на Министерския съвет от 1997 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-100-03-7"/>
+          <FRBRdate date="2003-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-100-03-7/bul@2003-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-100-03-7/bul@2003-11-14"/>
+          <FRBRdate date="2003-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-100-03-7/bul@2003-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-100-03-7/bul@2003-11-14.xml"/>
+          <FRBRdate date="2003-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-14" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 255 от 7 ноември 2003 г. за изменение и допълнение на Наредбата за ползване на студентските общежития и столове, приета с Постановление № 327 на Министерския съвет от 1997 г.</p>
+      <p>(обн., ДВ, бр. 70 от 1997 г.; изм. и доп., бр. 3 от 1999 г. и бр. 83 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 19а се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 2:</p>
+            <p>„(2) По предложение на министъра на образованието и науката министърът на финансите може да разреши парична помощ по ал. 1 да получават и студентите, настанени в общежития, временно предоставени за ползване на търговци по смисъла на Търговския закон, въз основа на договор за наем или за съвместна дейност с организациите по чл. 1, ал. 3.&amp;quot;</p>
+            <p>2. Досегашната ал. 2 става ал. 3.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава § 5а:</p>
+            <p>„§ 5а. Правата по чл. 17а, т. 1 имат и ученици от професионалните училища от системата на народната просвета, финансирани чрез държавни висши училища, при ползването на ученическо общежитие до промяната на реда на финансирането им.&amp;quot;</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>През 2003 г. необходимите средства по  §1 и 2 са за сметка на осигурените за тази цел средства със Закона за държавния бюджет на Република България за 2003 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+            <p>За министър-председател:    Лидия Шулева</p>
+            <p>Главен секретар на Министерския съвет:      Севдалин Мавров</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

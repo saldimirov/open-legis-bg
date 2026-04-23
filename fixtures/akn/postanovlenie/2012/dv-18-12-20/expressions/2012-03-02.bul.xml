@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-20"/>
+          <FRBRalias value="Постановление № 42 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение на Постановление № 72 на" name="short"/>
+          <FRBRalias value="Постановление № 42 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение на Постановление № 72 на" name="eli" other="/eli/bg/postanovlenie/2012/dv-18-12-20"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-20/bul@2012-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-20/bul@2012-03-02"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-20/bul@2012-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-20/bul@2012-03-02.xml"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-02" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 42 ОТ 23 ФЕВРУАРИ 2012 Г. за изменение на Постановление № 72 на</p>
+      <p>(обн., ДВ, бр. 26 от 2009 г.; изм., бр. 53 от 2009 г. и бр. 12 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, в раздел „Област Хасково“ ред „Община Харманли“ се изменя така: „Община Харманли Преустройство и реконструкция на ритуалната зала в Културния цен­ тър и на библиотеката, Харманли 2 851 549 Благоустрояване 300 000 Възстановяване на щетите от наводненията, причинени на водопроводи, улици и колек­ тор в с. Бисер, с. Лешница и гр. Харманли 1 108 451“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 22 февруари 2012 г. За министър-председател: Симеон Дянков Главен секретар на Министерския съвет: Росен Желязков 2214</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

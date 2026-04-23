@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-2-14-1/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-2-14-1"/>
+          <FRBRalias value="Постановление № 303 ОТ 21 ДЕКЕМВРИ 2013 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 303 ОТ 21 ДЕКЕМВРИ 2013 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2014/dv-2-14-1"/>
+          <FRBRdate date="2014-01-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-2-14-1/bul@2014-01-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-2-14-1/bul@2014-01-07"/>
+          <FRBRdate date="2014-01-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-2-14-1/bul@2014-01-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-2-14-1/bul@2014-01-07.xml"/>
+          <FRBRdate date="2014-01-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-07" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 303 ОТ 21 ДЕКЕМВРИ 2013 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 39 от 1998 г.; изм. и доп., бр. 48 от 2000 г., бр. 78 от 2005 г., бр. 108 от 2007 г., бр. 93 от 2009 г. и бр. 47 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 4 се създава изречение второ: „Собственикът или ползвателят е длъжен да осигурява на „Екоинженеринг – РМ“ – ЕООД, достъп до мониторинговите пунктове и сонда- жи за тяхното обслужване и експлоатиране.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4, ал. 1 се създава т. 7: „7. разходи за управление на дейността на „Екоинженеринг – РМ“ – ЕООД.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 8, ал. 5 след думите „Приходите от продажбата“ се добавя „на придобитите със средства от държавния бюджет специ- ализирани дълготрайни материални активи по чл. 4, ал. 1, т. 5 и“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Навсякъде в постановлението думите „Министерството на икономиката, енергети- ката и туризма“ се заменят с „Министерство- то на икономиката и енергетиката“, думите „Министърът на икономиката, енергетиката и туризма“ се заменят с „Министърът на иконо- миката и енергетиката“ и думите „министъра на икономиката, енергетиката и туризма“ се заменят с „министъра на икономиката и енергетиката“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

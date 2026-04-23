@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-77-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-77-04-4"/>
+          <FRBRalias value="Постановление № 222 от 25 август 2004 г. за изменение на Наредбата за изискванията за етикетиране на битови уреди по отношение на консумацията на енергия и други ресурси, приета с Постановление № 224 на Министерския съвет от 2003 г." name="short"/>
+          <FRBRalias value="Постановление № 222 от 25 август 2004 г. за изменение на Наредбата за изискванията за етикетиране на битови уреди по отношение на консумацията на енергия и други ресурси, приета с Постановление № 224 на Министерския съвет от 2003 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-77-04-4"/>
+          <FRBRdate date="2004-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-77-04-4/bul@2004-09-03/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-77-04-4/bul@2004-09-03"/>
+          <FRBRdate date="2004-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-77-04-4/bul@2004-09-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-77-04-4/bul@2004-09-03.xml"/>
+          <FRBRdate date="2004-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-03" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 222 от 25 август 2004 г. за изменение на Наредбата за изискванията за етикетиране на битови уреди по отношение на консумацията на енергия и други ресурси, приета с Постановление № 224 на Министерския съвет от 2003 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 2 към чл. 9, ал. 3 се правят следните изменения:</p>
+            <p>1. В част I - Хладилни уреди, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>2. В част II - Перални машини, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>3. В част III - Сушилни машини, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>4. В част IV - Комбинирани перални/сушилни машини, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>5. В част V - Миялни машини, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>6. В част VII - Въздушни климатизатори, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следните графични изображения:</p>
+            <p>Етикет за уреди само за охлаждане - етикет 1</p>
+            <p>Етикет за уреди за охлаждане/отопление - етикет 2</p>
+            <p>7. В част VIII - Електрически фурни, т. 1 се изменя така:</p>
+            <p>“1. Етикетът е в съответствие със следното графично изображение:</p>
+            <p>Забележка на редакцията:      виж фигурите в     PDF    -а на броя</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 3 към чл. 10, част I - Хладилни уреди, в т. 6 думите “Реалната консумация зависи от начина на ползване на уреда и от местоположението му.” се заменят с “Дей&amp;shy;ствителната консумация на енергия ще зависи от това, как се използва уредът и къде е раз&amp;shy;положен.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

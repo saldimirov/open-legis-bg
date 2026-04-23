@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-62-17-2/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-62-17-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2017/dv-62-17-2"/>
+          <FRBRdate date="2017-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-62-17-2/bul@2017-08-01/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-62-17-2/bul@2017-08-01"/>
+          <FRBRdate date="2017-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-62-17-2/bul@2017-08-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-62-17-2/bul@2017-08-01.xml"/>
+          <FRBRdate date="2017-08-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-08-01" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 13 от 2008 г.; изм., бр. 19 и 92 от 2009 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

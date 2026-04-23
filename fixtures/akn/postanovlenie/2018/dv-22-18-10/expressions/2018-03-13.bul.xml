@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-22-18-10/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-22-18-10"/>
+          <FRBRalias value="Постановление № 33 ОТ 8 МАРТ 2018 Г. за одобряване на допълнителни разходи по" name="short"/>
+          <FRBRalias value="Постановление № 33 ОТ 8 МАРТ 2018 Г. за одобряване на допълнителни разходи по" name="eli" other="/eli/bg/postanovlenie/2018/dv-22-18-10"/>
+          <FRBRdate date="2018-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-22-18-10/bul@2018-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-22-18-10/bul@2018-03-13"/>
+          <FRBRdate date="2018-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-22-18-10/bul@2018-03-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-22-18-10/bul@2018-03-13.xml"/>
+          <FRBRdate date="2018-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-03-13" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 33 ОТ 8 МАРТ 2018 Г. за одобряване на допълнителни разходи по</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни разходи по бюджета на Министерството на младежта и спорта за 2018 г. в размер 1 662 455 лв. за финансово подпомагане на организирането и провеждането на Световния шампионат по СТР. 8 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 22</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

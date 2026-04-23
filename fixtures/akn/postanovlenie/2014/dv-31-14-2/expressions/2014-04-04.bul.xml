@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-31-14-2/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-31-14-2"/>
+          <FRBRalias value="Постановление № 71 ОТ 28 МАРТ 2014 Г. за утвърждаване на Стандарти за вътрешен" name="short"/>
+          <FRBRalias value="Постановление № 71 ОТ 28 МАРТ 2014 Г. за утвърждаване на Стандарти за вътрешен" name="eli" other="/eli/bg/postanovlenie/2014/dv-31-14-2"/>
+          <FRBRdate date="2014-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-31-14-2/bul@2014-04-04/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-31-14-2/bul@2014-04-04"/>
+          <FRBRdate date="2014-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-31-14-2/bul@2014-04-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-31-14-2/bul@2014-04-04.xml"/>
+          <FRBRdate date="2014-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-04" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 71 ОТ 28 МАРТ 2014 Г. за утвърждаване на Стандарти за вътрешен</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 165 на Министерския съвет от 2006 г. за утвържда- ване на Стандарти за вътрешен одит в пуб­ личния сектор (ДВ, бр. 56 от 2006 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 48, ал. 1 от Закона за вътрешния одит в публичния сектор.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

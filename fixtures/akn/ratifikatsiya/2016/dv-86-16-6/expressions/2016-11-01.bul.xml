@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-6/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-6"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението от Париж" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението от Париж" name="eli" other="/eli/bg/ratifikatsiya/2016/dv-86-16-6"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-6/bul@2016-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-6/bul@2016-11-01"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-6/bul@2016-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-6/bul@2016-11-01.xml"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-01" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението от Париж</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Споразумението от Па- риж към Рамковата конвенция на Обединените нации по изменение на климата, подписано на 22 април 2016 г. в Ню Йорк, САЩ.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Приема следната декларация по чл. 9, параграф 1 от Споразумението от Париж: БРОЙ 86 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 9 „Република България приема, че в съответ- ствие с чл. 9, параграф 1 от Споразумението от Париж развитите страни ще предоставят финансови ресурси за подпомагане на развива- щите се страни по отношение на смекчаването и адаптацията в продължение на съществува- щите им задължения съгласно Конвенцията. В този контекст Република България обръща внимание, че като страна по Рамковата кон- венция на Обединените нации по изменение на климата не е включена в Анекс II.“</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

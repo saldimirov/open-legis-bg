@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-60-12-26/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-60-12-26"/>
+          <FRBRalias value="Постановление № 167 ОТ 30 ЮЛИ 2012 Г. за приемане на Наредба за военния отчет на" name="short"/>
+          <FRBRalias value="Постановление № 167 ОТ 30 ЮЛИ 2012 Г. за приемане на Наредба за военния отчет на" name="eli" other="/eli/bg/postanovlenie/2012/dv-60-12-26"/>
+          <FRBRdate date="2012-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-60-12-26/bul@2012-08-07/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-60-12-26/bul@2012-08-07"/>
+          <FRBRdate date="2012-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-60-12-26/bul@2012-08-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-60-12-26/bul@2012-08-07.xml"/>
+          <FRBRdate date="2012-08-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-07" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 167 ОТ 30 ЮЛИ 2012 Г. за приемане на Наредба за военния отчет на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Наредба за военния отчет на български граждани и техника за мирно и военно време.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Одобрява Тарифа за таксите, съ­ бирани от Централното военно окръжие и подчинените му териториални структури по Закона за резерва на въоръжените сили на Република България. Заключителна разпоредба Параграф единствен. Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

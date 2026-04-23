@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-109-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-109-04-4"/>
+          <FRBRalias value="Постановление № 325 от 7 декември 2004 г. за приемане на Тарифа за таксите, които се събират от Агенцията по енергийна ефективност за издаване на удостоверения за вписване в съответния регистър на лицата, извършващи сертифициране на сгради и обследване за енергийна ефективност" name="short"/>
+          <FRBRalias value="Постановление № 325 от 7 декември 2004 г. за приемане на Тарифа за таксите, които се събират от Агенцията по енергийна ефективност за издаване на удостоверения за вписване в съответния регистър на лицата, извършващи сертифициране на сгради и обследване за енергийна ефективност" name="eli" other="/eli/bg/postanovlenie/2004/dv-109-04-4"/>
+          <FRBRdate date="2004-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-109-04-4/bul@2004-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-109-04-4/bul@2004-12-14"/>
+          <FRBRdate date="2004-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-109-04-4/bul@2004-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-109-04-4/bul@2004-12-14.xml"/>
+          <FRBRdate date="2004-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-12-14" name="Държавен вестник" number="109" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 325 от 7 декември 2004 г. за приемане на Тарифа за таксите, които се събират от Агенцията по енергийна ефективност за издаване на удостоверения за вписване в съответния регистър на лицата, извършващи сертифициране на сгради и обследване за енергийна ефективност</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-15"/>
+          <FRBRalias value="Постановление № 120 от 25 май 2009 г. за преобразуване на Транспортния колеж в структурата на Висшето транспортно училище “Тодор Каблешков” във факултет “Техника и строителни технологии в транспорта”" name="short"/>
+          <FRBRalias value="Постановление № 120 от 25 май 2009 г. за преобразуване на Транспортния колеж в структурата на Висшето транспортно училище “Тодор Каблешков” във факултет “Техника и строителни технологии в транспорта”" name="eli" other="/eli/bg/postanovlenie/2009/dv-42-09-15"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-15/bul@2009-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-15/bul@2009-06-05"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-15/bul@2009-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-15/bul@2009-06-05.xml"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 120 от 25 май 2009 г. за преобразуване на Транспортния колеж в структурата на Висшето транспортно училище “Тодор Каблешков” във факултет “Техника и строителни технологии в транспорта”</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Студентите от преобразувания колеж по специалностите “Транспортна техника”, “Технология и управление на транспорта”, “Транспортно строителство”, “Комуникационна и осигурителна техника”, “Инженерна логистика и строителна техника” и “Електроенергетика и електрообзавеждане” могат да продължат обучението си по същата специалност във факултетите на Висшето транспортно училище “Тодор Каблешков” за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование. Студентите по специалността “Счетоводство и контрол” могат да продължат обучението си за придобиване на образователно-квалификационна степен “бакалавър” по чл. 42, ал. 1, т. 1, буква “б” от Закона за висшето образование по специалността “Икономика на транспорта” във факултет “Техника, технология и управление в транспорта”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

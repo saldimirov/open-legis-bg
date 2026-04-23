@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-89-22-5/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-89-22-5"/>
+          <FRBRalias value="Решение за приемане на Проект за инвестиционен" name="short"/>
+          <FRBRalias value="Решение за приемане на Проект за инвестиционен" name="eli" other="/eli/bg/reshenie_ns/2022/dv-89-22-5"/>
+          <FRBRdate date="2022-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-89-22-5/bul@2022-11-08/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-89-22-5/bul@2022-11-08"/>
+          <FRBRdate date="2022-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-89-22-5/bul@2022-11-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-89-22-5/bul@2022-11-08.xml"/>
+          <FRBRdate date="2022-11-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-11-08" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Проект за инвестиционен</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да из­ върши произтичащите от чл. 1 промени по централния бюджет за 2022 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 109, ал. 3 от Закона за публичните финанси във връзка с чл. 16 от Закона за военноинвалидите и военнопострадалите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на управителя на Националния осигурителен институт.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 1, ал. 2 от Постановление № 346 на Министерския съвет от 2022 г. за одобря­ ване на допълнителни разходи по бюджета на Министерството на труда и социалната политика за 2022 г. (ДВ, бр. 86 от 2022 г.) думите „преструктуриране на разходите и/ или трансферите“ се заменят с „предвидените разходи“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Иван Демерджиев Главен секретар на Министерския съвет: Красимир Божанов 7083</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

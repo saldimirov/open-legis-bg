@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-107-14-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-107-14-23"/>
+          <FRBRalias value="Постановление № 445 ОТ 22 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 445 ОТ 22 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2014/dv-107-14-23"/>
+          <FRBRdate date="2014-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-107-14-23/bul@2014-12-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-107-14-23/bul@2014-12-24"/>
+          <FRBRdate date="2014-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-107-14-23/bul@2014-12-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-107-14-23/bul@2014-12-24.xml"/>
+          <FRBRdate date="2014-12-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-24" name="Държавен вестник" number="107" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 445 ОТ 22 ДЕКЕМВРИ 2014 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерския съвет за 2014 г., както следва: 1. намаление на утвърдените разходи по: а) област „Осигуряване дейността и органи- зацията на работата на Министерския съвет“, бюджетна програма „Министерски съвет и организация на дейността му“ с 247 000 лв. и бюджетна програма „Координация и монито- ринг на хоризонтални политики“ с 26 000 лв.; б) „Политика в областта на управлението на средствата от ЕС“, бюджетна програма „Координация при управление на средствата от ЕС“ с 240 000 лв.; в) „Политика в областта на архивното дело“, бюджетна програма „Национален архивен фонд“ с 90 000 лв.; г) бюджетна програма „Администрация“ с 3 371 000 лв.; д) бюджетна програма „Други дейности и услуги“ с 258 000 лв.; 2. увеличение на утвърдените разходи по: а) „Политика в областта на осъществява- нето на държавните функции на територията на областите в България“, бюджетна програма „Осъществяване на държавната политика на областно ниво“ с 4 215 000 лв.; б) „Политика в областта на правото на вероизповедание“, бюджетна програма „Ве- роизповедания“ със 17 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Главният секретар на Министерския съвет да извърши налагащите се промени по бюджета на Министерския съвет за 2014 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси и чл. 78, ал. 1 от Закона за държав- ния бюджет на Република България за 2014 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на главния секретар на Министер- ския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 22 декември 2014 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

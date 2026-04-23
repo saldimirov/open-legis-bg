@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-4/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-4"/>
+          <FRBRalias value="Постановление № 196 от 5 септември 2003 г. за изменение и допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар" name="short"/>
+          <FRBRalias value="Постановление № 196 от 5 септември 2003 г. за изменение и допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар" name="eli" other="/eli/bg/postanovlenie/2003/dv-82-03-4"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-4/bul@2003-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-4/bul@2003-09-16"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-4/bul@2003-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-4/bul@2003-09-16.xml"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 196 от 5 септември 2003 г. за изменение и допълнение на Постановление № 307 на Министерския съвет от 2001 г. за определяне на цени на тютюневите изделия от местно производство и от внос за вътрешния пазар</p>
+      <p>(обн., ДВ, бр. 112 от 2001 г.; изм., бр. 24 и 76 от 2002 г. и бр. 19 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложение № 1 към чл. 1, ал. 1, т. 1 се изменя така:</p>
+            <p>„Приложение № 1 към чл. 1, ал. 1, т. 1</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 2 към чл. 1, ал. 1, т. 2 се изменя така:</p>
+            <p>„Приложение № 2 към чл. 1, ал. 1, т. 2</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложение № 3 към чл. 1, ал. 1, т. 3 се изменя така:</p>
+            <p>„Приложение № 3 към чл. 1, ал. 1, т. 3</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

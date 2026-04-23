@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-97-08-5/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-97-08-5"/>
+          <FRBRalias value="Постановление № 269 от 3 ноември 2008 г. за изменение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 269 от 3 ноември 2008 г. за изменение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2008/dv-97-08-5"/>
+          <FRBRdate date="2008-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-97-08-5/bul@2008-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-97-08-5/bul@2008-11-11"/>
+          <FRBRdate date="2008-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-97-08-5/bul@2008-11-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-97-08-5/bul@2008-11-11.xml"/>
+          <FRBRdate date="2008-11-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-11-11" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 269 от 3 ноември 2008 г. за изменение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 77 от 2004 г.; изм. и доп., бр. 24 и 28 от 2006 г. и бр. 37 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 2 от преходните и заключителните разпоредби на Наредбата за съществените изисквания и оценяване съответствието на баласти за луминесцентни лампи по отношение на изискванията за енергийна ефективност, приета с Постановление № 223 на Министерския съвет от 2004 г. (обн., ДВ, бр. 77 от 2004 г.; изм. и доп., бр. 24 и 28 от 2006 г. и бр. 37 от 2007 г.), думите “чл. 7, ал. 1” се заменят с “чл. 26а, ал. 2”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В § 2 от преходните и заключителните разпоредби на Наредбата за съществените изисквания и оценяване съответствието на котли за гореща вода, предназначени за работа с течни или газообразни горива, по отношение на коефициента на полезно действие, приета с Постановление № 138 на Министерския съвет от 2004 г. (обн., ДВ, бр. 56 от 2004 г.; изм. и доп., бр. 24, 28 и 40 от 2006 г. и бр. 37 от 2007 г.), думите “чл. 7, ал. 1” се заменят с “чл. 26а, ал. 2”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 2 от преходните и заключителните разпоредби на Наредбата за съществените изисквания и оценяване съответствието на домашни електрически хладилници, замразители, уреди за съхраняване на замразени хранителни продукти и комбинации между тях, приета с Постановление № 193 на Министерския съвет от 2002 г. (обн., ДВ, бр. 84 от 2002 г.; изм. и доп., бр. 24 и 28 от 2006 г. и бр. 37 от 2007 г.), думите “чл. 7, ал. 1” се заменят с “чл. 26а, ал. 2”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

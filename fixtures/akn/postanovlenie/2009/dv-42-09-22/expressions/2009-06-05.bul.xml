@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-22"/>
+          <FRBRalias value="Постановление № 127 от 25 май 2009 г. за изменение и допълнение на Постановление № 84 на Министерския съвет от 2007 г. за определяне на реда за управление и наблюдение на Инструмента за подобряване на бюджетните парични потоци и за подпомагане изпълнението на Шенгенското споразумение" name="short"/>
+          <FRBRalias value="Постановление № 127 от 25 май 2009 г. за изменение и допълнение на Постановление № 84 на Министерския съвет от 2007 г. за определяне на реда за управление и наблюдение на Инструмента за подобряване на бюджетните парични потоци и за подпомагане изпълнението на Шенгенското споразумение" name="eli" other="/eli/bg/postanovlenie/2009/dv-42-09-22"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-22/bul@2009-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-22/bul@2009-06-05"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-22/bul@2009-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-22/bul@2009-06-05.xml"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 127 от 25 май 2009 г. за изменение и допълнение на Постановление № 84 на Министерския съвет от 2007 г. за определяне на реда за управление и наблюдение на Инструмента за подобряване на бюджетните парични потоци и за подпомагане изпълнението на Шенгенското споразумение</p>
+      <p>(обн., ДВ, бр. 35 от 2007 г.; изм. и доп.,      бр. 86 и 108 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 2:</p>
+            <p>“(2) При необходимост комитетът може да изменя годишните индикативни програми и да прехвърля средства от една цел, съответно мярка и дейност, в друга, както и от една годишна програма в друга, при условие че изменението е в съответствие с целите и приоритетите, определени в Националната индикативна програма за 2007 - 2009 г., и не надвишава размера на помощта, предоставена от Европейския съюз по Инструмента Шенген.”</p>
+            <p>2. Досегашната ал. 2 става ал. 3.</p>
+            <p>3. Досегашната ал. 3 става ал. 4 и се изменя така:</p>
+            <p>“(4) Функциите на секретариат към комитета се изпълняват от дирекция “Международни проекти” на Министерството на вътрешните работи.”</p>
+            <p>З  аключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

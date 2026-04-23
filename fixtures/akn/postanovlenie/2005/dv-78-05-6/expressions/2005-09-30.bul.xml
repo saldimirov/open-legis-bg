@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-6"/>
+          <FRBRalias value="Постановление № 204 от 20 септември 2005 г. за изменение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 204 от 20 септември 2005 г. за изменение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2005/dv-78-05-6"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-6/bul@2005-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-6/bul@2005-09-30"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-78-05-6/bul@2005-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-78-05-6/bul@2005-09-30.xml"/>
+          <FRBRdate date="2005-09-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-30" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 204 от 20 септември 2005 г. за изменение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 77 и 94 от 2001 г., бр. 46 от 2003 г. и бр. 109 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Устройствения правилник на Министерството на образованието и науката, приет с Постановление № 216 на Министерския съвет от 1999 г. (обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 77 и 94 от 2001 г., бр. 46 от 2003 г. и бр. 109 от 2004 г.), се правят следните изменения:</p>
+            <p>1. В чл. 4, ал. 1 думата “трима” се заменя с “четирима”.</p>
+            <p>2. В чл. 13, ал. 2 числото “357” се заменя с “362”.</p>
+            <p>3. В приложението към чл. 13, ал. 3 се правят следните изменения:</p>
+            <p>а) в наименованието числото “357” се заменя с “362”;</p>
+            <p>б) на ред “Политически кабинет” числото “12” се заменя със “17”;</p>
+            <p>в) на ред “експертни сътрудници към политическия кабинет” цифрата “7” се заменя с “11”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 5 към чл. 5, ал. 3 от Постановление № 216 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на образованието и науката (обн., ДВ, бр. 104 от 1999 г.; попр., бр. 106 от 1999 г.; изм. и доп., бр. 28 от 2000 г., бр. 59 и 94 от 2001 г., бр. 46, 82 и 110 от 2003 г., бр. 49, 89 и 109 от 2004 г. и бр. 7, 19, 27 и 49 от 2005 г.) в т. 2 числото “3351” се заменя с “3340”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила считано от 1 септември 2005 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

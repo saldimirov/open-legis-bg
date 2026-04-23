@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-21-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-21-12-2"/>
+          <FRBRalias value="Закон за ратифициране на Изменение № 2 към" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Изменение № 2 към" name="eli" other="/eli/bg/ratifikatsiya/2012/dv-21-12-2"/>
+          <FRBRdate date="2012-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-21-12-2/bul@2012-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-21-12-2/bul@2012-03-13"/>
+          <FRBRdate date="2012-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-21-12-2/bul@2012-03-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-21-12-2/bul@2012-03-13.xml"/>
+          <FRBRdate date="2012-03-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-13" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Изменение № 2 към</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Финансовия договор между Република Бъл- гария и Европейската инвестиционна банка („България – проект Дунав мост“) и на Изменение № 1 към Финансовия договор между Република България и Европейската инвестиционна банка („България – проект Дунав мост – Б“) Член единствен. Ратифицира Изменение № 2 към Финансовия договор между Републи- ка България и Европейската инвестиционна банка („България – проект Дунав мост“) и Изменение № 1 към Финансовия договор между Република България и Европейската инвестиционна банка („България – проект Дунав мост – Б“).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

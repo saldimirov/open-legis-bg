@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-5"/>
+          <FRBRalias value="Постановление № 14 от 31 януари 2005 г. за одобряване на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето" name="short"/>
+          <FRBRalias value="Постановление № 14 от 31 януари 2005 г. за одобряване на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето" name="eli" other="/eli/bg/postanovlenie/2005/dv-13-05-5"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-5/bul@2005-02-08/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-5/bul@2005-02-08"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-13-05-5/bul@2005-02-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-13-05-5/bul@2005-02-08.xml"/>
+          <FRBRdate date="2005-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-08" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 14 от 31 януари 2005 г. за одобряване на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето</p>
+      <p>(обн., ДВ, бр. 13 от 1975 г.; изм. и доп., бр. 58 от 1983 г., бр. 27 от 1991 г., бр. 90 от 1992 г., бр. 44 от 1994 г., бр. 8, 75 и 104 от 1995 г., бр. 12 от 1996 г., бр. 118 от 1997 г. и бр. 83 и 94 от 1999 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Таксите по тарифата се събират при подаването на молбата (заявлението) за издаване на документа и са за един екземпляр от съответния документ.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>При прекратяване на производството по издаване на документа внесената такса не се възстановява.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>т аксите за издадените документи от регионалните инспекции за опазване и контрол на общественото здраве (РИОКОЗ) постъпват в приход по бюджета на съответната регионална инспекция.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>т аксите за издадените документи от другите органи за държавен здравен контрол по чл. 12, ал. 1 от Закона за здравето постъпват в приход на бюджета на Министерството на здравеопазването.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

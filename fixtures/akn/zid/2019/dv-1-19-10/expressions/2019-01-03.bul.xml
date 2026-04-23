@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-10/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-10"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2019/dv-1-19-10"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-10/bul@2019-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-10/bul@2019-01-03"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-10/bul@2019-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-10/bul@2019-01-03.xml"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 7 от 2018 г.; изм., бр. 20, 21, 41 и 98 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 153 се създава ал. 6: „(6) Не съставляват законова пречка за съществуването и надлежното упражняване правото на иск за отнемане на незаконно придобитото имущество в полза на държа- вата прекратяването на наказателното про- изводство или влизането в сила на присъда, с която подсъдимият е признат за невинен за престъпления, посочени в разпоредбата на чл. 108, ал. 1 от закона.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В § 5 от преходните и заключителните разпоредби се правят следните изменения и допълнения: 1. Алинея 1 се изменя така: „(1) Неприключилите до влизането в сила на този закон проверки и производства пред съда във връзка с отменения Закон за отнемане в полза на държавата на имущество, придобито от престъпна дейност, както и производства по установяване на конфликт на интереси и налагане на административни наказания, се довършват по досегашния ред от Комисията.“ 2. Създава се нова ал. 2: „(2) Неприключилите проверки и произ- водства пред съда по отменения Закон за отнемане в полза на държавата на незаконно придобито имущество се довършват по реда на този закон.“ 3. Досегашните ал. 2 и 3 стават съответно ал. 3 и 4.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

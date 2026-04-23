@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-100-09-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-100-09-11"/>
+          <FRBRalias value="Постановление № 302 ОТ 15 ДЕКЕМВРИ 2009 Г. за приемане на Устройствен правилник на" name="short"/>
+          <FRBRalias value="Постановление № 302 ОТ 15 ДЕКЕМВРИ 2009 Г. за приемане на Устройствен правилник на" name="eli" other="/eli/bg/postanovlenie/2009/dv-100-09-11"/>
+          <FRBRdate date="2009-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-100-09-11/bul@2009-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-100-09-11/bul@2009-12-15"/>
+          <FRBRdate date="2009-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-100-09-11/bul@2009-12-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-100-09-11/bul@2009-12-15.xml"/>
+          <FRBRdate date="2009-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-15" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 302 ОТ 15 ДЕКЕМВРИ 2009 Г. за приемане на Устройствен правилник на</p>
+      <p>(обн., ДВ, бр. 4 от 2001 г.; изм. и доп., бр. 28 и 73 от 2001 г., бр. 97 от 2002 г., бр. 64 и 106 от 2004 г., бр. 3 от 2005 г., бр. 37, 48 и 65 от 2006 г., бр. 11 и 87 от 2007 г., бр. 61 от 2008 г. и бр. 4, 81 и 90 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Постановление № 1 на Министерския съвет от 2001 г. за приемане на Устройствен правилник на Агенция „Митници“ (ДВ, бр. 4 от 2001 г.). 2. Устройственият правилник на Агенция „Митници“, приет с Постановление № 1 на Министерския съвет от 2001 г. (обн., ДВ, бр. 4 от 2001 г.; изм. и доп., бр. 28 и 73 от 2001 г., бр. 97 от 2002 г., бр. 64 и 106 от 2004 г., бр. 3 от 2005 г., бр. 37, 48 и 65 от 2006 г., бр. 11 и 87 от 2007 г., бр. 61 от 2008 г. и бр. 4, 81 и 90 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 2 към чл. 4, ал. 3 от Постановление № 215 на Министерския съвет от 1999 г. за приемане на Устройствен пра­ вилник на Министерството на финансите и за преобразуване и закриване на административни структури към министъра на финансите (обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 112 от 1999 г., бр. 30 от 2000 г., бр. 4, 16, 17, 55 и 87 от 2001 г., бр. 9 и 79 от 2002 г., бр. 42, 49 и 102 от 2003 г., бр. 8, 64 и 106 от 2004 г., бр. 27, 56, 76, 90 и 103 от 2005 г., бр. 2, 37, 48, 56, 65, 77, 90 и 93 от 2006 г., бр. 11, 26, 53 и 84 от 2007 г., бр. 37, 61, 79 и 108 от 2008 г. и бр. 81, 85 и 90 от 2009 г.) в т. 2 числото „3899“ се заменя с „3370“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

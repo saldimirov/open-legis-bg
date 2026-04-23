@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-27/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-27"/>
+          <FRBRalias value="Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порци-" name="short"/>
+          <FRBRalias value="Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порци-" name="eli" other="/eli/bg/naredba/2014/dv-106-14-27"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-27/bul@2014-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-27/bul@2014-12-23"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-27/bul@2014-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-27/bul@2014-12-23.xml"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-23" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № 8121з-995 от 13 декември 2014 г. за условията и реда за предоставяне на порци-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>На служителите на Министерството на вътрешните работи (МВР) се изплащат ежемесечно порционни пари. Чл. 2 Размерът на порционните пари се определя ежегодно със заповед на министъра на вътрешните работи.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Порционните пари се изплащат за действително отработено време.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>При неотработен пълен месец порцион- ните пари се изчисляват пропорционално на отработеното време.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 4.</num>
+        <content>
+          <p>При изчисляване на индивидуалния месечен размер на порционните пари за отра- ботено време се зачита: БРОЙ 106 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 39</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

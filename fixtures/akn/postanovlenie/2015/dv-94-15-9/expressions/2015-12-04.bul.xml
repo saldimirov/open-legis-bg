@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-94-15-9/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-94-15-9"/>
+          <FRBRalias value="Постановление № 330 ОТ 30 НОЕМВРИ 2015 Г. за отменяне на Постановление № 214 на Ми-" name="short"/>
+          <FRBRalias value="Постановление № 330 ОТ 30 НОЕМВРИ 2015 Г. за отменяне на Постановление № 214 на Ми-" name="eli" other="/eli/bg/postanovlenie/2015/dv-94-15-9"/>
+          <FRBRdate date="2015-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-94-15-9/bul@2015-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-94-15-9/bul@2015-12-04"/>
+          <FRBRdate date="2015-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-94-15-9/bul@2015-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-94-15-9/bul@2015-12-04.xml"/>
+          <FRBRdate date="2015-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-04" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 330 ОТ 30 НОЕМВРИ 2015 Г. за отменяне на Постановление № 214 на Ми-</p>
+      <p>(обн., ДВ, бр. 76 от 2010 г.; изм. и доп., бр. 13 от 2011 г.; попр., бр. 15 от 2011 г.; изм. и доп., бр. 84 от 2014 г. и бр. 37 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя Постановление № 214 на Ми- нистерския съвет от 2010 г. за създаване на процедура за провеждане на избор на кандидат за съдия и за генерален адвокат в Съда на Европейския съюз, и за съдия в Общия съд. БРОЙ 94 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 45 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-5/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-5"/>
+          <FRBRalias value="Постановление № 20 от 29 януари 2026 г. за изменение и допълнение на Постановление № 283 на Министерския съвет от 2021 г. за приемане на Списък на професионални направления и защитени специалности по чл. 95, ал. 7, т. 8 от Закона за висшето образование" name="short"/>
+          <FRBRalias value="Постановление № 20 от 29 януари 2026 г. за изменение и допълнение на Постановление № 283 на Министерския съвет от 2021 г. за приемане на Списък на професионални направления и защитени специалности по чл. 95, ал. 7, т. 8 от Закона за висшето образование" name="eli" other="/eli/bg/postanovlenie/2026/dv-13-26-5"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-5/bul@2026-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-5/bul@2026-02-03"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-13-26-5/bul@2026-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-13-26-5/bul@2026-02-03.xml"/>
+          <FRBRdate date="2026-02-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-03" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 20 от 29 януари 2026 г. за изменение и допълнение на Постановление № 283 на Министерския съвет от 2021 г. за приемане на Списък на професионални направления и защитени специалности по чл. 95, ал. 7, т. 8 от Закона за висшето образование</p>
+      <p>(обн., ДВ, бр. 70 от 2021 г.; изм. и доп., бр. 68 от 2022 г. и бр. 47 от 2025 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1 се правят следните изменения и допълнения: 1. В т. I „Професионални направления“ се добавя ред 8: „ 8.|5.9|Металургия| “ 2. В т. II „Защитени специалности“ ред 25 „Металургия – на ОКС „бакалавър“ и на ОКС „магистър“ след придобита ОКС „бакалавър“ се заличава. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 1 се прилага за студентите, приети в първи курс от учебната 2025/2026 година в рамките на броя по чл. 9, ал. 3, т. 6, буква „а“ от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Студентите, приети за обучение преди учебната 2025/2026 година, продължават да се обучават по досегашните условия и ред.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

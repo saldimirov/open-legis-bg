@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-9/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-9"/>
+          <FRBRalias value="Постановление № 133 ОТ 17 ЮНИ 2022 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 133 ОТ 17 ЮНИ 2022 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2022/dv-47-22-9"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-9/bul@2022-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-9/bul@2022-06-24"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-9/bul@2022-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-9/bul@2022-06-24.xml"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-24" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 133 ОТ 17 ЮНИ 2022 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 110 от 2021 г.; доп., бр. 31 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1а, в т. 2.3 след думите „за 2019 г.“ се добавя „или кои- то са претърпели загуби поради пандемията COVID-19 през 2020 г. или 2021 г.“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби на Постановление № 51 на Ми- нистерския съвет от 2022 г. за допълнение на Постановление № 454 на Министерския съвет от 2021 г. за одобряване на допълни- телни разходи по бюджета на Министер- за взаимно насърчаване и защита на ин- вестициите, подписан на 22 януари 1997 г. в София, приет от 47-ото Народно събрание на 9 юни 2022 г. Издаден в София на 17 юни 2022 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Надежда Йорданова</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

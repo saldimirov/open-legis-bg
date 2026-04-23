@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-89-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-89-04-14"/>
+          <FRBRalias value="Постановление № 266 от 4 октомври 2004 г. за одобряване на Тарифа за таксите, които се събират от Държавната комисия за енергийно регулиране по Закона за енергетиката" name="short"/>
+          <FRBRalias value="Постановление № 266 от 4 октомври 2004 г. за одобряване на Тарифа за таксите, които се събират от Държавната комисия за енергийно регулиране по Закона за енергетиката" name="eli" other="/eli/bg/postanovlenie/2004/dv-89-04-14"/>
+          <FRBRdate date="2004-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-89-04-14/bul@2004-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-89-04-14/bul@2004-10-12"/>
+          <FRBRdate date="2004-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-89-04-14/bul@2004-10-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-89-04-14/bul@2004-10-12.xml"/>
+          <FRBRdate date="2004-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-12" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 266 от 4 октомври 2004 г. за одобряване на Тарифа за таксите, които се събират от Държавната комисия за енергийно регулиране по Закона за енергетиката</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на председателя на Държавната комисия за енергийно регулиране.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, които се събират от Държавната комисия за енергийно регулиране за издаване на разрешения и лицензии по Закона за енергетиката и енергийната ефективност, приета с Постановление № 188 на Министерския съвет от 2000 г. (ДВ, бр. 80 от 2000 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

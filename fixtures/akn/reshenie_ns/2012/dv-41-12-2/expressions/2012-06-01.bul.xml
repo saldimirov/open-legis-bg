@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-2"/>
+          <FRBRalias value="Решение за приемане на Годишния отчет за дейността на Комисията за защита на личните данни за 2011 г." name="short"/>
+          <FRBRalias value="Решение за приемане на Годишния отчет за дейността на Комисията за защита на личните данни за 2011 г." name="eli" other="/eli/bg/reshenie_ns/2012/dv-41-12-2"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-2/bul@2012-06-01/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-2/bul@2012-06-01"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-41-12-2/bul@2012-06-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-41-12-2/bul@2012-06-01.xml"/>
+          <FRBRdate date="2012-06-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-01" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Годишния отчет за дейността на Комисията за защита на личните данни за 2011 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Приема Годишния отчет за дейността на Комисията за защита на личните данни за 2011 г. Решението е прието от 41-ото Народно събрание на 22 май 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

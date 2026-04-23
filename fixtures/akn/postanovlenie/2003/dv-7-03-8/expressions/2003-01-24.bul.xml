@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-8"/>
+          <FRBRalias value="Постановление № 10 от 20 януари 2003 г. за изменение и допълнение на Постановление № 293 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 10 от 20 януари 2003 г. за изменение и допълнение на Постановление № 293 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-7-03-8"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-8/bul@2003-01-24/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-8/bul@2003-01-24"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-7-03-8/bul@2003-01-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-7-03-8/bul@2003-01-24.xml"/>
+          <FRBRdate date="2003-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-24" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 10 от 20 януари 2003 г. за изменение и допълнение на Постановление № 293 на Министерския съвет от 2002 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 3:</p>
+            <p>„Чл. 3. Определя размерите на основното месечно възнаграждение за военно звание на кадровите военнослужещи от Националната разузнавателна служба съгласно приложение № 3 (секретно).&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В заключителните разпоредби се правят следните изменения и допълнения:</p>
+            <p>1.    В § 2 след думите „Министерството на отбраната&amp;quot; съюзът „и&amp;quot; се заменя със запетая, а след думите „Министерството на вътрешните работи&amp;quot; се добавя „и Националната разузнавателна служба&amp;quot;.</p>
+            <p>2.    В § 4 след думите „министъра на вътрешните работи&amp;quot; се поставя запетая и се добавя „директора на Националната разузнавателна служба&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

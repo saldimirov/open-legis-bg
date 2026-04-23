@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-2-18-2/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-2-18-2"/>
+          <FRBRalias value="Закон за изменение на Закона за обществените" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за обществените" name="eli" other="/eli/bg/zid/2018/dv-2-18-2"/>
+          <FRBRdate date="2018-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-2-18-2/bul@2018-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-2-18-2/bul@2018-01-03"/>
+          <FRBRdate date="2018-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-2-18-2/bul@2018-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-2-18-2/bul@2018-01-03.xml"/>
+          <FRBRdate date="2018-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-01-03" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за обществените</p>
+      <p>(обн., ДВ, бр. 42 от 2009 г.; изм., бр. 74 от 2009 г., бр. 38 от 2010 г. и бр. 15 и 68 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Член 10 се изменя така: „Чл. 10. (1) В Министерството на културата се създава и поддържа публичен регистър на обществените библиотеки по ред, определен с наредба на министъра на културата. Регистърът е публичен и се поддържа в електронен вид. (2) За вписване в регистъра по ал. 1 се подава заявление, което включва данни, определени с наредбата по ал. 1, относно из­ пълнение на изискванията на чл. 8, ал. 1 и 2. (3) Заявлението с приложените към него документи се изпраща по електронен път или се представя на електронен носител. В случаите, когато заявлението се подава по електронен път, се спазват изискванията на Закона за електронния документ и електрон­ ните удостоверителни услуги. (4) Министърът на културата или оправо­ мощено от него длъжностно лице в 14-дневен срок от датата на подаване на заявлението по ал. 2 извършва вписване и издава удосто­ верение за вписване или мотивирано отказва вписване, като уведомява писмено заявителя в същия срок. (5) Отказът по ал. 4 подлежи на обжалване по реда на Административнопроцесуалния кодекс.“ Заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В срок три месеца от влизането в сила на този закон министърът на културата издава наредбата по чл. 10, ал. 1.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В едногодишен срок от влизането в сила на този закон Министерството на културата осигурява условия за приемане на документи и заявления, подавани за вписване в регистъра по чл. 10, по електронен път.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

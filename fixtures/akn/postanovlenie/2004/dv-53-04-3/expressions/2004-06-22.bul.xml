@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-53-04-3/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-53-04-3"/>
+          <FRBRalias value="Постановление № 125  от 11 юни 2004 г. за приемане на Устройствен правилник на Агенцията по заетостта" name="short"/>
+          <FRBRalias value="Постановление № 125  от 11 юни 2004 г. за приемане на Устройствен правилник на Агенцията по заетостта" name="eli" other="/eli/bg/postanovlenie/2004/dv-53-04-3"/>
+          <FRBRdate date="2004-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-53-04-3/bul@2004-06-22/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-53-04-3/bul@2004-06-22"/>
+          <FRBRdate date="2004-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-53-04-3/bul@2004-06-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-53-04-3/bul@2004-06-22.xml"/>
+          <FRBRdate date="2004-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-06-22" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 125  от 11 юни 2004 г. за приемане на Устройствен правилник на Агенцията по заетостта</p>
+      <p>(обн., ДВ, бр. 83 от 2002 г.; изм. и доп., бр. 53 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Агенцията по заетостта, приет с Постановление № 186 на Министерския съвет от 2002 г. (обн., ДВ, бр. 83 от 2002 г.; изм. и доп., бр. 53 от 2003 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Точка 2 от приложение № 2 към чл. 2, ал. 3 от Постановление № 213 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на труда и социалната политика (обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 112 от 1999 г., бр. 26, 65 и 90 от 2000 г., бр. 35, 87 и 97 от 2001 г., бр. 19 и 64 от 2002 г., бр. 15 от 2003 г.; попр., бр. 18 от 2003 г.; изм. и доп., бр. 32 от 2003 г. и бр. 36 от 2004 г.) се изменя така:</p>
+            <p>“2. Агенция по заетостта - 3141”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

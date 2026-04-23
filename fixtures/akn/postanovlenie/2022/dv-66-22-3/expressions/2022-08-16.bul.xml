@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-66-22-3/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-66-22-3"/>
+          <FRBRalias value="Постановление № 245 ОТ 11 АВГУСТ 2022 Г. за одобряване на допълнителни плащания по" name="short"/>
+          <FRBRalias value="Постановление № 245 ОТ 11 АВГУСТ 2022 Г. за одобряване на допълнителни плащания по" name="eli" other="/eli/bg/postanovlenie/2022/dv-66-22-3"/>
+          <FRBRdate date="2022-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-66-22-3/bul@2022-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-66-22-3/bul@2022-08-16"/>
+          <FRBRdate date="2022-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-66-22-3/bul@2022-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-66-22-3/bul@2022-08-16.xml"/>
+          <FRBRdate date="2022-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-08-16" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 245 ОТ 11 АВГУСТ 2022 Г. за одобряване на допълнителни плащания по</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни плаща- ния по бюджета на Министерството на енер- Заключителни разпоредби</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 109, ал. 2 и 3 от Закона за публичните финанси и чл. 77, ал. 2 от Закона за държавния бюджет на Република България за 2022 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на правосъдието.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

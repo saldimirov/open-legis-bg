@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-91-13-10/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-91-13-10"/>
+          <FRBRalias value="Закон за ратифициране на Евро-средиземноморското" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Евро-средиземноморското" name="eli" other="/eli/bg/ratifikatsiya/2013/dv-91-13-10"/>
+          <FRBRdate date="2013-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-91-13-10/bul@2013-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-91-13-10/bul@2013-10-18"/>
+          <FRBRdate date="2013-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-91-13-10/bul@2013-10-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-91-13-10/bul@2013-10-18.xml"/>
+          <FRBRdate date="2013-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-18" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Евро-средиземноморското</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>споразумение в областта на въздухоплаването между Европейския съюз и неговите държави членки, от една страна, и правителството на Държавата Израел, от друга страна Член единствен. Ратифицира Евро-среди­ земноморското споразумение в областта на въздухоплаването между Европейския съюз и неговите държави членки, от една страна, и правителството на Държавата Израел, от друга страна, подписано на 10 юни 2013 г. в Люксембург. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

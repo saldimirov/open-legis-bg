@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-59-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-59-05-13"/>
+          <FRBRalias value="Постановление № 150 от 11 юли 2005 г. за изменение и допълнение на Устройствения правилник на Българския спортен тотализатор, приет с Постановление № 163 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 150 от 11 юли 2005 г. за изменение и допълнение на Устройствения правилник на Българския спортен тотализатор, приет с Постановление № 163 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-59-05-13"/>
+          <FRBRdate date="2005-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-59-05-13/bul@2005-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-59-05-13/bul@2005-07-19"/>
+          <FRBRdate date="2005-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-59-05-13/bul@2005-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-59-05-13/bul@2005-07-19.xml"/>
+          <FRBRdate date="2005-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-19" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 150 от 11 юли 2005 г. за изменение и допълнение на Устройствения правилник на Българския спортен тотализатор, приет с Постановление № 163 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 65 от 2000 г.; изм. и доп., бр. 17 и 54 от 2001 г., бр. 9 и 74 от 2002 г. и бр. 32 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 30 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 2 накрая се добавя “и за обслужване на публичните задължения на Българския спортен тотализатор”.</p>
+            <p>2. Алинея 3 се изменя така:</p>
+            <p>“(3) Средствата по ал. 2 се разпределят от министъра на младежта и спорта по предложение на управителния съвет на Българския спортен тотализатор.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 31, ал. 1 думата “ежегодно” се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 38 думите “министъра на финансите” се заменят с “министъра на младежта и спорта”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

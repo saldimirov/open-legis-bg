@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-39-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-39-20-2"/>
+          <FRBRalias value="Постановление № 75 ОТ 23 АПРИЛ 2020 Г. за допълнение на Постановление № 381 на" name="short"/>
+          <FRBRalias value="Постановление № 75 ОТ 23 АПРИЛ 2020 Г. за допълнение на Постановление № 381 на" name="eli" other="/eli/bg/postanovlenie/2020/dv-39-20-2"/>
+          <FRBRdate date="2020-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-39-20-2/bul@2020-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-39-20-2/bul@2020-04-28"/>
+          <FRBRdate date="2020-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-39-20-2/bul@2020-04-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-39-20-2/bul@2020-04-28.xml"/>
+          <FRBRdate date="2020-04-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-04-28" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 75 ОТ 23 АПРИЛ 2020 Г. за допълнение на Постановление № 381 на</p>
+      <p>(обн., ДВ, бр. 2 от 2020 г.; изм., бр. 20 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 57, ал. 1 и 3 след думите „Мет­ рополитен“ – ЕАД“ се поставя запетая и се добавя „Фонд мениджър на финансови ин­ струменти в България“ – ЕАД“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 57а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 57а.</num>
+          <content>
+            <p>Въз основа на мотивирано пред­ ложение от управляващ орган временни без­ лихвени заеми може да се предоставят чрез сметката за средства от Европейския съюз на Националния фонд по реда на чл. 142 от Закона за публичните финанси за финансиране на авансови и други плащания по оперативни програми за дейности и операции, обявени за справяне с пандемията от коронавируса, след решение на Комитета за наблюдение на програмата за одобряване на съответната процедура.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

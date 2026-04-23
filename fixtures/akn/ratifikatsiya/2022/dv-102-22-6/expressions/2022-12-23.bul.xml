@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-102-22-6/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-102-22-6"/>
+          <FRBRalias value="Закон за ратифициране на Рамковото споразуме­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Рамковото споразуме­" name="eli" other="/eli/bg/ratifikatsiya/2022/dv-102-22-6"/>
+          <FRBRdate date="2022-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-102-22-6/bul@2022-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-102-22-6/bul@2022-12-23"/>
+          <FRBRdate date="2022-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-102-22-6/bul@2022-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-102-22-6/bul@2022-12-23.xml"/>
+          <FRBRdate date="2022-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-12-23" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Рамковото споразуме­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ние между правителството на Република България и Федералния съвет на Конфе­ дерация Швейцария относно изпълнението на Втория швейцарски принос към избрани държави – членки на Европейския съюз, за намаляване на икономическите и социалните различия в Европейския съюз Член единствен. Ратифицира Рамковото споразумение между правителството на Репу- блика България и Федералния съвет на Кон- федерация Швейцария относно изпълнението на Втория швейцарски принос към избрани държави – членки на Европейския съюз, за намаляване на икономическите и социалните различия в Европейския съюз, подписано на 20 септември 2022 г. в гр. София. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-72-19-3/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-72-19-3"/>
+          <FRBRalias value="Постановление № 218 ОТ 5 СЕПТЕМВРИ 2019 Г. за изменение на Правилника за организация­" name="short"/>
+          <FRBRalias value="Постановление № 218 ОТ 5 СЕПТЕМВРИ 2019 Г. за изменение на Правилника за организация­" name="eli" other="/eli/bg/postanovlenie/2019/dv-72-19-3"/>
+          <FRBRdate date="2019-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-72-19-3/bul@2019-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-72-19-3/bul@2019-09-13"/>
+          <FRBRdate date="2019-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-72-19-3/bul@2019-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-72-19-3/bul@2019-09-13.xml"/>
+          <FRBRdate date="2019-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-09-13" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 218 ОТ 5 СЕПТЕМВРИ 2019 Г. за изменение на Правилника за организация­</p>
+      <p>(обн., ДВ, бр. 19 от 2004 г.; изм. и доп., бр. 39 от 2007 г., бр. 60 от 2008 г. и бр. 22 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5, ал. 2 числото „9“ се заменя с „11“. БРОЙ 72 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Правилника за устройството, орга- низацията и дейността на Централната ко- мисия за борба срещу противообществените прояви на малолетните и непълнолетните към Министерския съвет, приет с Постановление № 228 на Министерския съвет от 2012 г. (ДВ, бр. 75 от 2012 г.), в чл. 4, ал. 2 числото „8“ се заменя с „6“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

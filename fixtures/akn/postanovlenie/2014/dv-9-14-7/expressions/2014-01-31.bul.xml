@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-7/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-7"/>
+          <FRBRalias value="Постановление № 6 ОТ 21 ЯНУАРИ 2014 Г. за изменение на Наредбата за условията," name="short"/>
+          <FRBRalias value="Постановление № 6 ОТ 21 ЯНУАРИ 2014 Г. за изменение на Наредбата за условията," name="eli" other="/eli/bg/postanovlenie/2014/dv-9-14-7"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-7/bul@2014-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-7/bul@2014-01-31"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-7/bul@2014-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-7/bul@2014-01-31.xml"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 6 ОТ 21 ЯНУАРИ 2014 Г. за изменение на Наредбата за условията,</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, т. 1 думите „министърът на регионалното развитие и благоустройството“ се заменят с „министърът на регионалното развитие“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 2 от преходните и заключи- телните разпоредби се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Анализът и оценката на рисковете по чл. 1, ал. 2 се извършват в срок до 31 декември 2015 г.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 3 от преходните и заключи- телните разпоредби се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Картографирането на рисковете от бедствия се извършва в срок до 31 декември 2016 г. с изключение на картографирането на риска по чл. 1, ал. 2, т. 2, което се извършва в срок до 22 декември 2015 г.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_6" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

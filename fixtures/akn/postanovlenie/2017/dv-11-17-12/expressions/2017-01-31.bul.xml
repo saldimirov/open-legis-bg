@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-12/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-12"/>
+          <FRBRalias value="Постановление № 25 ОТ 26 ЯНУАРИ 2017 Г. за одобряване на допълнителен трансфер за" name="short"/>
+          <FRBRalias value="Постановление № 25 ОТ 26 ЯНУАРИ 2017 Г. за одобряване на допълнителен трансфер за" name="eli" other="/eli/bg/postanovlenie/2017/dv-11-17-12"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-12/bul@2017-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-12/bul@2017-01-31"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-12/bul@2017-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-12/bul@2017-01-31.xml"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-31" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 25 ОТ 26 ЯНУАРИ 2017 Г. за одобряване на допълнителен трансфер за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителен трансфер в размер 5 000 000 лв. за Българската наци- онална телевизия за 2017 г. за заплащане на електронни съобщителни услуги за разпрос- транение на телевизионни програми чрез наземно цифрово радиоразпръскване.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Сумата по ал. 1 да се осигури за смет- ка на преструктуриране на разходи и/или трансфери по централния бюджет за 2017 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Със сумата по чл. 1, ал. 1 да се увеличи бюджетното взаимоотношение на централния бюджет с бюджета на Българската национална телевизия за 2017 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Генералният директор на Българска- та национална телевизия да извърши налага- щите се промени по бюджета си за 2017 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на финансите да из- върши произтичащите от чл. 1 промени по централния бюджет за 2017 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на генералния директор на Българ- ската национална телевизия.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

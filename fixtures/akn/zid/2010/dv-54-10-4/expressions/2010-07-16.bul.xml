@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-4"/>
+          <FRBRalias value="Закон за допълнение на Закона за политическите" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за политическите" name="eli" other="/eli/bg/zid/2010/dv-54-10-4"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-4/bul@2010-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-4/bul@2010-07-16"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-4/bul@2010-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-4/bul@2010-07-16.xml"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-16" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за политическите</p>
+      <p>(обн., ДВ, бр. 28 от 2005 г.; изм., бр. 102 от 2005 г., бр. 17 и 73 от 2006 г., бр. 59 и 78 от 2007 г. и бр. 6 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В преходните и заключителните разпо­ редби се създава § 2а: „§ 2а. (1) Годишната държавна субсидия за 2010 г., определена по реда на чл. 27, ал. 1, се предоставя на политическите партии и коалиции в размер 85 на сто от общата сума по Закона за държавния бюджет на Република България за 2010 г. (2) Намалението на годишната субсидия е за сметка на оставащите до края на 2010 г. траншове.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

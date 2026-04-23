@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-8/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-8"/>
+          <FRBRalias value="Постановление № 110 от 26 май 2008 г. за изменение на Тарифата за таксите, събирани по Закона за рибарството и аквакултурите, приета с Постановление № 133 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 110 от 26 май 2008 г. за изменение на Тарифата за таксите, събирани по Закона за рибарството и аквакултурите, приета с Постановление № 133 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-50-08-8"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-8/bul@2008-05-30/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-8/bul@2008-05-30"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-50-08-8/bul@2008-05-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-50-08-8/bul@2008-05-30.xml"/>
+          <FRBRdate date="2008-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-30" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 110 от 26 май 2008 г. за изменение на Тарифата за таксите, събирани по Закона за рибарството и аквакултурите, приета с Постановление № 133 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 48 от 2006 г.;   изм. и доп., бр. 30 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 3 се изменя така:</p>
+            <p>“Чл. 3. За усвояване на ресурс от определен вид риба във водите на Черно море в рамките на определена квота се събира такса, както следва:</p>
+            <p>1. за есетрови риби - 1,00 лв. за килограм;</p>
+            <p>2. за калкан, лефер, лаврак - 0,20 лв. за килограм;</p>
+            <p>3. за карагьоз, акула, морски кефал, паламуд - 0,30 лв. за килограм;</p>
+            <p>4. за сафрид, копърка, хамсия - 1,00 лв. за тон.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 9 числото “20” се заменя с “5”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 11 думата “годишен” се заличава, а цифрата “4” се заменя с “2”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

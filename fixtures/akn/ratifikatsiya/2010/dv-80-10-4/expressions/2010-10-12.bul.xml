@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-4"/>
+          <FRBRalias value="Закон за ратифициране на Протокола за изменение на Протокола относно преходните разпоредби," name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протокола за изменение на Протокола относно преходните разпоредби," name="eli" other="/eli/bg/ratifikatsiya/2010/dv-80-10-4"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-4/bul@2010-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-4/bul@2010-10-12"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-80-10-4/bul@2010-10-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-80-10-4/bul@2010-10-12.xml"/>
+          <FRBRdate date="2010-10-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-12" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протокола за изменение на Протокола относно преходните разпоредби,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>приложен към Договора за Европейския съюз, към Договора за функционирането на Евро­ пейския съюз и към Договора за създаване на Европейската общност за атомна енергия Член единствен. Ратифицира Протокола за изменение на Протокола относно преходните разпоредби, приложен към Договора за Евро­ пейския съюз, към Договора за функционира­ нето на Европейския съюз и към Договора за създаване на Европейската общност за атомна енергия, подписан на 23 юни 2010 г. в Брюксел. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

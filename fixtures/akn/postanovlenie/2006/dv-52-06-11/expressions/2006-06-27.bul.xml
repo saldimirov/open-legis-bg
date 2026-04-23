@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-52-06-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-52-06-11"/>
+          <FRBRalias value="Постановление № 148 от 19 юни 2006 г. за приемане на Устройствен правилник на Министерството на образованието и науката" name="short"/>
+          <FRBRalias value="Постановление № 148 от 19 юни 2006 г. за приемане на Устройствен правилник на Министерството на образованието и науката" name="eli" other="/eli/bg/postanovlenie/2006/dv-52-06-11"/>
+          <FRBRdate date="2006-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-52-06-11/bul@2006-06-27/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-52-06-11/bul@2006-06-27"/>
+          <FRBRdate date="2006-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-52-06-11/bul@2006-06-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-52-06-11/bul@2006-06-27.xml"/>
+          <FRBRdate date="2006-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-06-27" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 148 от 19 юни 2006 г. за приемане на Устройствен правилник на Министерството на образованието и науката</p>
+      <p>(обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 77 и 94 от 2001 г., бр. 46 от 2003 г., бр. 109 от 2004 г. и бр. 78 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Министерството на образованието и науката, приет с Постановление № 216 на Министерския съвет от 1999 г. (обн., ДВ, бр. 104 от 1999 г.; изм. и доп., бр. 77 и 94 от 2001 г., бр. 46 от 2003 г., бр. 109 от 2004 г. и бр. 78 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 216 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на образованието и науката (обн., ДВ, бр. 104 от 1999 г.; попр., бр. 106 от 1999 г.; изм. и доп., бр. 28 от 2000 г., бр. 59 и 94 от 2001 г., бр. 46, 82 и 110 от 2003 г., бр. 49, 89 и 109 от 2004 г., бр. 7, 19, 27, 49 и 78 от 2005 г. и бр. 48 от 2006 г.) се правят следните изменения и допълнения:</p>
+            <p>1. Член 1 се отменя.</p>
+            <p>2. В приложение № 5 към чл. 5, ал. 3:</p>
+            <p>а) в т. 1 числото “29 556” се заменя с “28 912”;</p>
+            <p>б) в т. 2 числото “3335” се заменя с “2950”;</p>
+            <p>в) в т. 8 числото “36” се заменя с “32”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

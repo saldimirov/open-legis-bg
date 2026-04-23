@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-21/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-21"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Центъра за развитие на човешките ресурси и регионални инициативи" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Устройствения правилник на Центъра за развитие на човешките ресурси и регионални инициативи" name="eli" other="/eli/bg/pravilnik/2009/dv-20-09-21"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-21/bul@2009-03-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-21/bul@2009-03-17"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-21/bul@2009-03-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-21/bul@2009-03-17.xml"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-03-17" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Устройствения правилник на Центъра за развитие на човешките ресурси и регионални инициативи</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 2:</p>
+            <p>“(2) В своята работа директорът се подпомага от заместник-директор, като функциите му се определят със заповед на директора.”</p>
+            <p>2. Досегашната ал. 2 става ал. 3 и се изменя така:</p>
+            <p>“(3) При отсъствие на директора неговите правомощия се упражняват от заместник-директора.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 9 се правят следните изменения и допълнения:</p>
+            <p>1. След ред “Директор   1 ”се създава нов ред: “Заместник-директор   1”.</p>
+            <p>2. На ред “Специализирана администрация” числото “12” се заменя с “11”.</p>
+            <p>3. На ред “отдел “Професионално обучение” цифрата “4” се заменя с “3”.</p>
+            <p>Министър:  Ем. Масларова</p>
+            <p>3617</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

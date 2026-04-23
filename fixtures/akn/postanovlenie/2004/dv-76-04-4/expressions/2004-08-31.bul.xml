@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-4"/>
+          <FRBRalias value="Постановление № 219 от 23 август 2004 г. за допълнение на Постановление № 152 на Министерския съвет от 2004 г. за създаване на Организационен комитет и Оперативно бюро за подготовка и провеждане на срещата на Съвета на министрите на ОССЕ, 6 - 7 декември 2004 г., София" name="short"/>
+          <FRBRalias value="Постановление № 219 от 23 август 2004 г. за допълнение на Постановление № 152 на Министерския съвет от 2004 г. за създаване на Организационен комитет и Оперативно бюро за подготовка и провеждане на срещата на Съвета на министрите на ОССЕ, 6 - 7 декември 2004 г., София" name="eli" other="/eli/bg/postanovlenie/2004/dv-76-04-4"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-4/bul@2004-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-4/bul@2004-08-31"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-4/bul@2004-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-4/bul@2004-08-31.xml"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-08-31" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 219 от 23 август 2004 г. за допълнение на Постановление № 152 на Министерския съвет от 2004 г. за създаване на Организационен комитет и Оперативно бюро за подготовка и провеждане на срещата на Съвета на министрите на ОССЕ, 6 - 7 декември 2004 г., София</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 след думите “министърът на вътрешните работи” се добавя:</p>
+            <p>“ - министърът на финансите</p>
+            <p>- министърът на държавната администрация”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 1 след думите “заместник-министър на транспорта и съобщенията” се добавя:</p>
+            <p>“ - заместник-министър на финансите</p>
+            <p>- представител на министъра на държавната администрация</p>
+            <p>- представител на Българската народна банка”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

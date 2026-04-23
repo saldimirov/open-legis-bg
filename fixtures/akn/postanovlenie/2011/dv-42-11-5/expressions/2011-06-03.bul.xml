@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-42-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-42-11-5"/>
+          <FRBRalias value="Постановление № 146 ОТ 26 МАЙ 2011 Г. за предоставяне на средства на Българския" name="short"/>
+          <FRBRalias value="Постановление № 146 ОТ 26 МАЙ 2011 Г. за предоставяне на средства на Българския" name="eli" other="/eli/bg/postanovlenie/2011/dv-42-11-5"/>
+          <FRBRdate date="2011-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-42-11-5/bul@2011-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-42-11-5/bul@2011-06-03"/>
+          <FRBRdate date="2011-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-42-11-5/bul@2011-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-42-11-5/bul@2011-06-03.xml"/>
+          <FRBRdate date="2011-06-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-03" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 146 ОТ 26 МАЙ 2011 Г. за предоставяне на средства на Българския</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Предоставя на Българския Червен кръст средства от централния бюджет за 2011 г. в размер 700 000 лв. за транспортни и административни разходи в изпълнение на Регламент (ЕС) № 945/2010 на Европейската комисия от 21 октомври 2010 г. за приемане на план относно разпределението между държа­ вите членки на ресурси, начислими към 2011 бюджетна година, за снабдяването с храна от интервенционните складове в полза на най- нуждаещите се лица в Европейския съюз и дерогация от някои разпоредби на Регламент (ЕС) № 807/2010.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата за изпълнение на постанов­ лението да се осигурят за сметка на целевите разходи, планирани в Закона за държавния бюджет на Република България за 2011 г. Заключителна разпоредба Параграф единствен. Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет. За министър-председател: Симеон Дянков Главен секретар на Министерския съвет: Росен Желязков 6420 ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

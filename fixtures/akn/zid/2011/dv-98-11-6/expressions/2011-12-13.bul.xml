@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-6"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за вете­" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за вете­" name="eli" other="/eli/bg/zid/2011/dv-98-11-6"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-6/bul@2011-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-6/bul@2011-12-13"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-98-11-6/bul@2011-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-98-11-6/bul@2011-12-13.xml"/>
+          <FRBRdate date="2011-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-13" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за вете­</p>
+      <p>(обн., ДВ, бр. 152 от 1998 г.; изм., бр. 49 от 2000 г., бр. 40 и 57 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 4 се правят следните изменения и допълнения: 1. Създава се нова т. 2: „2. медицинска и дентална помощ за всички дейности извън обхвата на основния пакет от здравни дейности, гарантиран от бюджета на Националната здравноосигурителна каса, по ред и списък, утвърдени от министъра на здравеопазването. Средствата са за сметка на държавния бюджет.“ 2. Досегашните т. 2, 3, 4, 5 и 6 стават съ­ ответно т. 3, 4, 5, 6 и 7.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Създава се чл. 7: „Чл. 7. (1) При смърт на ветеран от войните наследниците имат право на еднократна целе­ ва помощ за погребение в размер на 500 лв. (2) Помощта по ал. 1 е за сметка на дър­ жавния бюджет.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила от 1 юли 2012 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

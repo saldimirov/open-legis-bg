@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-6/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-6"/>
+          <FRBRalias value="Постановление № 180 ОТ 24 АВГУСТ 2018 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 180 ОТ 24 АВГУСТ 2018 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2018/dv-72-18-6"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-6/bul@2018-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-6/bul@2018-08-31"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-6/bul@2018-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-6/bul@2018-08-31.xml"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-31" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 180 ОТ 24 АВГУСТ 2018 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по „Поли- тика в областта на опазване на движимото и недвижимото културно наследство“, бюджетна програма „Опазване на недвижимото културно наследство“, по бюджета на Министерството на културата за 2018 г., като намалява разхо- дите за издръжка и увеличава разходите за „Персонал“, в т. ч. Персонал без делегирани бюджети, със 150 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Със сумата по чл. 1 да се намалят показателите по чл. 17, ал. 3 от Закона за държавния бюджет на Република България за 2018 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на културата да из- върши съответните промени по бюджета на Министерството на културата за 2018 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси във връзка с чл. 78, ал. 2 от Закона за държавния бюджет на Република България за 2018 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на културата.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

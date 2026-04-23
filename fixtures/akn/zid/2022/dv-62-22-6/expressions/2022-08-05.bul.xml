@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-62-22-6/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-62-22-6"/>
+          <FRBRalias value="Закон за допълнение на Закона за лекарствените" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за лекарствените" name="eli" other="/eli/bg/zid/2022/dv-62-22-6"/>
+          <FRBRdate date="2022-08-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-62-22-6/bul@2022-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-62-22-6/bul@2022-08-05"/>
+          <FRBRdate date="2022-08-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-62-22-6/bul@2022-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-62-22-6/bul@2022-08-05.xml"/>
+          <FRBRdate date="2022-08-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-08-05" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за лекарствените</p>
+      <p>(обн., ДВ, бр. 31 от 2007 г.; изм., бр. 19 от 2008 г.; Решение № 5 на Конституционния съд от 2008 г. – бр. 65 от 2008 г.; изм., бр. 71 от 2008 г., бр. 10, 23, 41, 88 и 102 от 2009 г., бр. 59 и 98 от 2010 г., бр. 9, 12, 60 и 61 от 2011 г., бр. 38, 60 и 102 от 2012 г., бр. 15 от 2013 г., бр. 1 и 18 от 2014 г.; Решение № 1 на Конституционния съд от 2015 г. – бр. 12 от 2015 г.; изм., бр. 48 от 2015 г., бр. 43 от 2016 г., бр. 85 и 103 от 2017 г., бр. 84, 91 и 102 от 2018 г., бр. 17 и 64 от 2019 г. и бр. 17, 52, 67, 103 и 105 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 266б, ал. 7 накрая се добавя „с изключение на случаите по чл. 82, ал. 3 от Закона за здравето, определени в наредбата по чл. 82, ал. 6 от Закона за здравето“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

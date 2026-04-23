@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-20-21-13/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-20-21-13"/>
+          <FRBRalias value="Постановление № 75 ОТ 5 МАРТ 2021 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 75 ОТ 5 МАРТ 2021 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2021/dv-20-21-13"/>
+          <FRBRdate date="2021-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-20-21-13/bul@2021-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-20-21-13/bul@2021-03-09"/>
+          <FRBRdate date="2021-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-20-21-13/bul@2021-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-20-21-13/bul@2021-03-09.xml"/>
+          <FRBRdate date="2021-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-03-09" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 75 ОТ 5 МАРТ 2021 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 90 от 2009 г.; изм. и доп., бр. 47 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се създава т. 4: „4. редът и начинът за определяне и пуб- ликуване на информацията по чл. 384, ал. 4 от Закона за съдебната власт.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 2 след думите „Българския институт“ предлогът „по“ се заменя със „за“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7 се създават ал. 3, 4 и 5: „</p>
+            <p>(3) Междуведомственият съвет приема типа, структурата и съдържанието на об- ществената информация, която се съдържа в ЕИСПП, достъпът до която не е ограничен и която следва да бъде публикувана на портала за отворени данни.</p>
+            <p>(4) Прокуратурата публикува информаци- ята по ал. 3 след определяне на нейния тип, структура и съдържание от Междуведомстве- ния съвет при спазване на реда и условията на Наредбата за стандартните условия за повторно използване на информация от об- ществения сектор и за нейното публикуване в отворен формат (обн., ДВ, бр. 48 от 2016 г.; изм. и доп., бр. 60 от 2020 г.).</p>
+            <p>(5) Държавна агенция „Електронно уп- равление“ може да отправя предложения по ал. 3 до Междуведомствения съвет относно структурата и съдържанието на наборите от данни за публикуване.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 8 се правят следните изменения и допълнения: СТР. 100 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 20 1. В ал. 1 т. 8 се отменя. 2. В ал. 2 се създава т. 5: „5. продължително пребиваващи чужден­ ци и граждани на Европейския съюз – от Министерството на вътрешните работи чрез Автоматизирана информационна система „Единен регистър на чужденците“, достъпна чрез RegiX.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 10, ал. 2 след думите „Българския институт“ предлогът „по“ се заменя със „за“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

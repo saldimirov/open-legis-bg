@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-16"/>
+          <FRBRalias value="Постановление № 272 ОТ 29 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Постановле­" name="short"/>
+          <FRBRalias value="Постановление № 272 ОТ 29 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Постановле­" name="eli" other="/eli/bg/postanovlenie/2011/dv-77-11-16"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-16/bul@2011-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-16/bul@2011-10-04"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-16/bul@2011-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-16/bul@2011-10-04.xml"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-04" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 272 ОТ 29 СЕПТЕМВРИ 2011 Г. за изменение и допълнение на Постановле­</p>
+      <p>(обн., ДВ, бр. 25 от 2011 г.; изм., бр. 71 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 числото „50 000 000“ се заменя с „50 500 000“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. Създава се т. 7: „7. Обекти „Текущ ремонт“ 500 000“ Ремонт на „Път І-І Монтана – Враца – Мез- дра, участък от км 147+121 до км 151+003,78 с дължина 3,882 км, в регулацията на гр. Враца“. 2. На ред „Всичко“ числото „50 000 000“ се заменя с „50 500 000“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 28 септември 2011 г. За министър-председател: Симеон Дянков Главен секретар на Министерския съвет: Росен Желязков 10937</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

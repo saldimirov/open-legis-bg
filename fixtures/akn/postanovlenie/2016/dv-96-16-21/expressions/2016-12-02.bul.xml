@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-96-16-21/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-96-16-21"/>
+          <FRBRalias value="Постановление № 326 ОТ 29 НОЕМВРИ 2016 Г. за изменение на Устройствения правилник на Министерството на младежта и спорта," name="short"/>
+          <FRBRalias value="Постановление № 326 ОТ 29 НОЕМВРИ 2016 Г. за изменение на Устройствения правилник на Министерството на младежта и спорта," name="eli" other="/eli/bg/postanovlenie/2016/dv-96-16-21"/>
+          <FRBRdate date="2016-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-96-16-21/bul@2016-12-02/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-96-16-21/bul@2016-12-02"/>
+          <FRBRdate date="2016-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-96-16-21/bul@2016-12-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-96-16-21/bul@2016-12-02.xml"/>
+          <FRBRdate date="2016-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-02" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 326 ОТ 29 НОЕМВРИ 2016 Г. за изменение на Устройствения правилник на Министерството на младежта и спорта,</p>
+      <p>(обн., ДВ, бр. 62 от 2013 г.; изм. и доп., бр. 97 от 2013 г. и бр. 50 и 102 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 15, ал. 2 се правят следните изменения: 1. На ред „Инспекторат по чл. 64а от Закона за физическото възпитание и спорта“ числото „8“ се заменя с „6“. 2. На ред „Обща администрация“ числото „46“ се заменя с „48“. СТР. 98 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 96 3. На ред „Дирекция „Административно- правно и нормативно обслужване“ числото „18“ се заменя с „20“. 4. На ред „Дирекция „Спорт за всички и регионална координация“ числото „24“ се заменя с „25“. 5. На ред „Дирекция „Координация и кон- трол на спортната подготовка“ числото „11“ се заменя с „14“. 6. На ред „Дирекция „Младежки политики“ числото „22“ се заменя с „18“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

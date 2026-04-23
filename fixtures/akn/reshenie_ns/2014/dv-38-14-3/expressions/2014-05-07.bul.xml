@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-38-14-3/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-38-14-3"/>
+          <FRBRalias value="Решение за избор на председател на Сметната палата на Република България" name="short"/>
+          <FRBRalias value="Решение за избор на председател на Сметната палата на Република България" name="eli" other="/eli/bg/reshenie_ns/2014/dv-38-14-3"/>
+          <FRBRdate date="2014-05-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-38-14-3/bul@2014-05-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-38-14-3/bul@2014-05-07"/>
+          <FRBRdate date="2014-05-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-38-14-3/bul@2014-05-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-38-14-3/bul@2014-05-07.xml"/>
+          <FRBRdate date="2014-05-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-07" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на председател на Сметната палата на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 8 от Конституцията на Република Бълга­ рия и чл. 5 във връзка с § 3 от преходните и заключителните разпоредби на Закона за Сметната палата Р Е Ш И : Избира Лидия Петкова Руменова за пред­ седател на Сметната палата на Република България. Решението е прието от 42-то Народно съб- рание на 30 април 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

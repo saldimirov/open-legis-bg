@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-6/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-6"/>
+          <FRBRalias value="Постановление № 290 от 28 ноември 2008 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 290 от 28 ноември 2008 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-105-08-6"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-6/bul@2008-12-09/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-6/bul@2008-12-09"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-105-08-6/bul@2008-12-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-105-08-6/bul@2008-12-09.xml"/>
+          <FRBRdate date="2008-12-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-09" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 290 от 28 ноември 2008 г. за изменение и допълнение на Правилника за прилагане на Закона за контрол над взривните вещества, огнестрелните оръжия и боеприпасите, приет с Постановление № 169 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 78 от 1999 г.; изм. и доп., бр. 58 от 2001 г., бр. 1 и 115 от 2002 г., бр. 24 и 111 от 2003 г.; Решение № 963 на Върховния административен съд от 2004 г. - бр. 12 от 2004 г.; изм. и доп., бр. 15, 78 и 96 от 2005 г., бр. 66 от 2006 г.; попр., бр. 68 от  2006 г  .; изм. и доп., бр. 16 и 32 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 30 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 2:</p>
+            <p>“(2) Юридически лица - изпълнители по договор с Министерството на отбраната за извършване на утилизация на боеприпаси съгласно Наредбата за условията и реда за осъществяване на дейностите, свързани с взривните вещества, огнестрелните оръжия и боеприпасите, и контрола над тях в Министерството на отбраната, приета с Постановление № 217 на Министерския съвет от 2008 г. (ДВ, бр. 80 от 2008 г.), могат да придобиват собствеността върху остатъчните взривни вещества.”</p>
+            <p>2. Досегашната ал. 2 става ал. 3 и в нея след думите “ал. 1” се добавя “и 2”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

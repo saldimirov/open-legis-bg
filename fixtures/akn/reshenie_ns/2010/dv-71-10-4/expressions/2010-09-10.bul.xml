@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-71-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-71-10-4"/>
+          <FRBRalias value="Решение за промяна в ръководството на Комисията" name="short"/>
+          <FRBRalias value="Решение за промяна в ръководството на Комисията" name="eli" other="/eli/bg/reshenie_ns/2010/dv-71-10-4"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-71-10-4/bul@2010-09-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-71-10-4/bul@2010-09-10"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-71-10-4/bul@2010-09-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-71-10-4/bul@2010-09-10.xml"/>
+          <FRBRdate date="2010-09-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-10" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промяна в ръководството на Комисията</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>по външна политика и отбрана Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република Бълга­ рия и чл. 20, ал. 4 във връзка с ал. 3 и чл. 18, ал. 2, т. 5 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Освобождава Живко Веселинов Тодоров като председател на Комисията по външна политика и отбрана. 2. Избира Доброслав Дилянов Димитров за председател на Комисията по външна по­ литика и отбрана. Решението е прието от 41-ото Народно съб­ рание на 2 септември 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

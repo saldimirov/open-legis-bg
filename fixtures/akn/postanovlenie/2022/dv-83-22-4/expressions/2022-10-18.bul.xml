@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-83-22-4/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-83-22-4"/>
+          <FRBRalias value="Постановление № 324 ОТ 12 ОКТОМВРИ 2022 Г. за допълнение на Постановление № 208 на" name="short"/>
+          <FRBRalias value="Постановление № 324 ОТ 12 ОКТОМВРИ 2022 Г. за допълнение на Постановление № 208 на" name="eli" other="/eli/bg/postanovlenie/2022/dv-83-22-4"/>
+          <FRBRdate date="2022-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-83-22-4/bul@2022-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-83-22-4/bul@2022-10-18"/>
+          <FRBRdate date="2022-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-83-22-4/bul@2022-10-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-83-22-4/bul@2022-10-18.xml"/>
+          <FRBRdate date="2022-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-10-18" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 324 ОТ 12 ОКТОМВРИ 2022 Г. за допълнение на Постановление № 208 на</p>
+      <p>(обн., ДВ, бр. 80 от 2017 г.; изм. и доп., бр. 23 от 2019 г., бр. 54 от 2020 г. и бр. 17 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се правят следните допълнения: 1. В ал. 2 се създава т. 5: „5. генералният директор на Националния институт по метеорология и хидрология.“ 2. В ал. 3 след абревиатурата „БД“ се добавя „и генералният директор на НИМХ“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 2, ал. 4 се създава т. 5: „5. Национален институт по метеорология и хидрология със седалище гр. София 724.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

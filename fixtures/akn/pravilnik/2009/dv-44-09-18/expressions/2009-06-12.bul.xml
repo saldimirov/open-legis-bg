@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-18/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-18"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията" name="short"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията" name="eli" other="/eli/bg/pravilnik/2009/dv-44-09-18"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-18/bul@2009-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-18/bul@2009-06-12"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-44-09-18/bul@2009-06-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-44-09-18/bul@2009-06-12.xml"/>
+          <FRBRdate date="2009-06-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-12" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение на Устройствения правилник на Комисията за защита на конкуренцията</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 18 “Численост на персонала в организационната структура и административните звена на комисията - 130 щатни бройки” се правят следните изменения:</p>
+            <p>1. В т. V.4 цифрата “9” се заменя с “8”.</p>
+            <p>2. В т. V.3 числото “17” се заменя с “18”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът е приет с решение на Комисията за защита на конкуренцията от 28.V.2009 г. и влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>Председател:  П. Николов</p>
+            <p>8160</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

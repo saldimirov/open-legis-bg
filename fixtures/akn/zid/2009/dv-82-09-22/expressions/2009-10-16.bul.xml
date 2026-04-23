@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-22"/>
+          <FRBRalias value="Закон за изменение на Закона за задължителното" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за задължителното" name="eli" other="/eli/bg/zid/2009/dv-82-09-22"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-22/bul@2009-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-22/bul@2009-10-16"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-22/bul@2009-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-22/bul@2009-10-16.xml"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за задължителното</p>
+      <p>(обн., ДВ, бр. 108 от 2000 г.; изм., бр. 28, 88 и 94 от 2005 г., бр. 57 от 2007 г. и бр. 42 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 9, т. 5 думите „Държавната агенция за информационни технологии и съ­ общения“ се заменят с „Министерството на транспорта, информационните технологии и съобщенията“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 18 се правят следните изменения: 1. В ал. 1 думите „Държавната агенция за информационни технологии и съобщения“ се заменят с „Министерството на транспорта, информационните технологии и съобщенията“. 2. В ал. 2 думите „председателя на Държав­ ната агенция за информационни технологии и съобщения“ се заменят с „министъра на транспорта, информационните технологии и съобщенията“. Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Издадените до влизането в сила на този закон подзаконови нормативни актове запазват действието си, доколкото не му противоречат.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

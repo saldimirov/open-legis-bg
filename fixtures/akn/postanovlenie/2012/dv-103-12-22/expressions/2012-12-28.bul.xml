@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-22"/>
+          <FRBRalias value="Постановление № 327 ОТ 20 ДЕКЕМВРИ 2012 Г. за допълнение на Постановление № 6 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 327 ОТ 20 ДЕКЕМВРИ 2012 Г. за допълнение на Постановление № 6 на Ми­" name="eli" other="/eli/bg/postanovlenie/2012/dv-103-12-22"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-22/bul@2012-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-22/bul@2012-12-28"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-22/bul@2012-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-22/bul@2012-12-28.xml"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-28" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 327 ОТ 20 ДЕКЕМВРИ 2012 Г. за допълнение на Постановление № 6 на Ми­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 накрая се добавя „с изключение на случаите по чл. 4, т. 2 от същия закон“. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет и § 4, ал. 4, т. 2 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2012 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на транспорта, информационните технологии и съобщенията.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

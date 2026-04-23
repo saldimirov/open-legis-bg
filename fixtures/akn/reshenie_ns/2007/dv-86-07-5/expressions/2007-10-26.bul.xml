@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-5/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-5"/>
+          <FRBRalias value="Решение за приемане на  Годишния доклад за младежта за 2006 г." name="short"/>
+          <FRBRalias value="Решение за приемане на  Годишния доклад за младежта за 2006 г." name="eli" other="/eli/bg/reshenie_ns/2007/dv-86-07-5"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-5/bul@2007-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-5/bul@2007-10-26"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-86-07-5/bul@2007-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-86-07-5/bul@2007-10-26.xml"/>
+          <FRBRdate date="2007-10-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-26" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на  Годишния доклад за младежта за 2006 г.</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

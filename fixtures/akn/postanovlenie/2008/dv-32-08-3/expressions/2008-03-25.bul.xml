@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-3"/>
+          <FRBRalias value="Постановление № 49 от 13 март 2008 г. за изменение и допълнение на Постановление № 27 на Министерския съвет от 2007 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на образованието и науката" name="short"/>
+          <FRBRalias value="Постановление № 49 от 13 март 2008 г. за изменение и допълнение на Постановление № 27 на Министерския съвет от 2007 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на образованието и науката" name="eli" other="/eli/bg/postanovlenie/2008/dv-32-08-3"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-3/bul@2008-03-25/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-3/bul@2008-03-25"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-32-08-3/bul@2008-03-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-32-08-3/bul@2008-03-25.xml"/>
+          <FRBRdate date="2008-03-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-25" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 49 от 13 март 2008 г. за изменение и допълнение на Постановление № 27 на Министерския съвет от 2007 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на образованието и науката</p>
+      <p>(обн., ДВ, бр. 52 от 2006 г.; изм., бр. 15 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 се създава т. 13:</p>
+            <p>“13. управителят на Фонд “Научни изследвания”.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 2 към чл. 2, ал. 2 се правят следните изменения и допълнения:</p>
+            <p>1. В т. 1 “Държавни обслужващи звена” числото “458” се заменя с “448”.</p>
+            <p>2. Създава се т. 10:</p>
+            <p>“10. Фонд “Научни изследвания”                              10”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 48 от Устройствения правилник на Министерството на образованието и науката, приет с Постановление № 148 на Министерския съвет от 2006 г. (обн., ДВ, бр. 52 от 2006 г.; изм., бр. 15 от 2007 г.), се правят следните изменения и допълнения:</p>
+            <p>1. Точка 19 се изменя така:</p>
+            <p>“19. съгласувано с министъра организира дейността на Национален съвет “Научни изследвания” и подготвя документите, свързани с работата му;”.</p>
+            <p>2. Създава се т. 22:</p>
+            <p>“22. организира и подпомага дейности, свързани с осъществяване на политиката за насърчаване на научните изследвания, включително чрез подпомагане дейността на Фонд “Научни изследвания”.”</p>
+            <p>За министър-председател:  Емел Етем</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>12688</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

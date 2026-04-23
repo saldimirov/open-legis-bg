@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-11"/>
+          <FRBRalias value="Постановление № 259 ОТ 7 СЕПТЕМВРИ 2011 Г. за приемане на Наредба за изискванията" name="short"/>
+          <FRBRalias value="Постановление № 259 ОТ 7 СЕПТЕМВРИ 2011 Г. за приемане на Наредба за изискванията" name="eli" other="/eli/bg/postanovlenie/2011/dv-71-11-11"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-11/bul@2011-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-11/bul@2011-09-13"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-11/bul@2011-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-11/bul@2011-09-13.xml"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 259 ОТ 7 СЕПТЕМВРИ 2011 Г. за приемане на Наредба за изискванията</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 259 ОТ 7 СЕПТЕМВРИ 2011 Г. за приемане на Наредба за изискванията към алгоритмите за създаване и проверка на квалифициран електронен подпис МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за из­ искванията към алгоритмите за създаване и проверка на квалифициран електронен подпис. Заключителна разпоредба Параграф единствен. Отменя се Наред­ бата за изискванията към алгоритмите за усъвършенстван електронен подпис, приета с Постановление № 17 на Министерския съвет от 2002 г. (ДВ, бр. 15 от 2002 г.).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

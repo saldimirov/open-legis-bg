@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-105-18-30/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-105-18-30"/>
+          <FRBRalias value="Постановление № 304 ОТ 13 ДЕКЕМВРИ 2018 Г. за изменение на Постановление № 226 на" name="short"/>
+          <FRBRalias value="Постановление № 304 ОТ 13 ДЕКЕМВРИ 2018 Г. за изменение на Постановление № 226 на" name="eli" other="/eli/bg/postanovlenie/2018/dv-105-18-30"/>
+          <FRBRdate date="2018-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-105-18-30/bul@2018-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-105-18-30/bul@2018-12-18"/>
+          <FRBRdate date="2018-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-105-18-30/bul@2018-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-105-18-30/bul@2018-12-18.xml"/>
+          <FRBRdate date="2018-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-12-18" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 304 ОТ 13 ДЕКЕМВРИ 2018 Г. за изменение на Постановление № 226 на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява промени по бюджета на Министерството на младежта и спорта за 2018 г. за допълнителни плащания в частта на финансирането на бюджетното салдо за сметка на централния бюджет в размер 3 663 000 лв. за увеличаване на капитала на „Национална спортна база“ – ЕАД.“</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В § 1 от заключителните разпоредби думите „ал. 3“ се заменят с „ал. 4, т. 1“. БРОЙ 105 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 65 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила на 12 декември 2018 г. За министър-председател: Томислав Дончев Главен секретар на Министерския съвет: Веселин Даков 11045</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

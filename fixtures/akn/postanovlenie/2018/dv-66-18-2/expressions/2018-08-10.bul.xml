@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-2/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-2"/>
+          <FRBRalias value="Постановление № 162 ОТ 6 АВГУСТ 2018 Г. за изменение на Наредбата за условия­" name="short"/>
+          <FRBRalias value="Постановление № 162 ОТ 6 АВГУСТ 2018 Г. за изменение на Наредбата за условия­" name="eli" other="/eli/bg/postanovlenie/2018/dv-66-18-2"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-2/bul@2018-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-2/bul@2018-08-10"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-2/bul@2018-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-2/bul@2018-08-10.xml"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-10" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 162 ОТ 6 АВГУСТ 2018 Г. за изменение на Наредбата за условия­</p>
+      <p>(обн., ДВ, бр. 101 от 1994 г.; изм. и доп., бр. 38 от 1995 г., бр. 73 от 1998 г., бр. 8 от 2001 г., бр. 54 от 2008 г., бр. 22 от 2011 г. и бр. 60 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 22 думите „с допълнителни за­ щити – собственост на Министерството на финансите“ и запетаята след тях се заменят с „или друг материал, с допълнителни защити“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 36 ал. 1 се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

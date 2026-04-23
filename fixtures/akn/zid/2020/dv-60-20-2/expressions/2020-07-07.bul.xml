@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-60-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-60-20-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2020/dv-60-20-2"/>
+          <FRBRdate date="2020-07-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-60-20-2/bul@2020-07-07/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-60-20-2/bul@2020-07-07"/>
+          <FRBRdate date="2020-07-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-60-20-2/bul@2020-07-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-60-20-2/bul@2020-07-07.xml"/>
+          <FRBRdate date="2020-07-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-07-07" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 53 от 2014 г.; изм., бр. 98 и 107 от 2014 г., бр. 14, 24, 56 и 61 от 2015 г., бр. 81, 97, 98 и 103 от 2016 г., бр. 13 от 2017 г.; Решение № 4 на Конституционния съд от 2017 г. – бр. 26 от 2017 г.; изм., бр. 58, 97 и 103 от 2017 г., бр. 7 и 10 от 2018 г.; Решение № 10 на Конституционния съд от 2018 г. – бр. 48 от 2018 г.; изм., бр. 55 и 77 от 2018 г. и бр. 7, 17, 34 и 58 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 14 се правят следните допълнения: 1. В ал. 2 се създава т. 10: „10. охрана на лица.“</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-4"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между Ре­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Спогодбата между Ре­" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-8-11-4"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-4/bul@2011-01-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-4/bul@2011-01-25"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-4/bul@2011-01-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-4/bul@2011-01-25.xml"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-25" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Спогодбата между Ре­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>публика България и Република Австрия за избягване на двойното данъчно облагане на доходите и имуществото и на протокола към нея Член единствен. Ратифицира Спогодбата между Република България и Република Австрия за избягване на двойното данъчно облагане на доходите и имуществото и про­ токола към нея, подписани на 20 юли 2010 г. във Виена.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-44-22-12/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-44-22-12"/>
+          <FRBRalias value="Постановление № 119 ОТ 9 ЮНИ 2022 Г. за изменение на Постановление № 31 на Ми-" name="short"/>
+          <FRBRalias value="Постановление № 119 ОТ 9 ЮНИ 2022 Г. за изменение на Постановление № 31 на Ми-" name="eli" other="/eli/bg/postanovlenie/2022/dv-44-22-12"/>
+          <FRBRdate date="2022-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-44-22-12/bul@2022-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-44-22-12/bul@2022-06-14"/>
+          <FRBRdate date="2022-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-44-22-12/bul@2022-06-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-44-22-12/bul@2022-06-14.xml"/>
+          <FRBRdate date="2022-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-14" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 119 ОТ 9 ЮНИ 2022 Г. за изменение на Постановление № 31 на Ми-</p>
+      <p>(обн., ДВ, бр. 14 от 2016 г.; изм. и доп., бр. 34 от 2016 г., бр. 84 от 2019 г., бр. 36 и 102 от 2020 г. и бр. 38 и 85 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 1а, ал. 2 от преходните и заключи- телните разпоредби след думите „за периода на обявена извънредна епидемична обстанов- ка“ се добавя „и до три месеца след нейната отмяна“, а думите „31 март 2022 г.“ се заменят с „30 юни 2022 г.“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 ап- рил 2022 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

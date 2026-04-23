@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-10"/>
+          <FRBRalias value="Постановление № 189 от 16 август 2005 г. за изменение и допълнение на Наредбата за представителите по индустриална собственост, приета с Постановление № 137 на Министерския съвет от 1993 г." name="short"/>
+          <FRBRalias value="Постановление № 189 от 16 август 2005 г. за изменение и допълнение на Наредбата за представителите по индустриална собственост, приета с Постановление № 137 на Министерския съвет от 1993 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-69-05-10"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-10/bul@2005-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-10/bul@2005-08-23"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-10/bul@2005-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-10/bul@2005-08-23.xml"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-08-23" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 189 от 16 август 2005 г. за изменение и допълнение на Наредбата за представителите по индустриална собственост, приета с Постановление № 137 на Министерския съвет от 1993 г.</p>
+      <p>(обн., ДВ, бр. 65 от 1993 г.; изм. и доп., бр. 86 от 1994 г., бр. 41 от 1997 г. и бр. 32 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 т. 3 се изменя така:</p>
+            <p>“3. официално призната в страната диплома за завършено висше техническо, природонаучно, икономическо в областта на интелектуалната собственост или юридическо образование.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5а се създава т. 5:</p>
+            <p>“5. специалисти със следдипломна квалификация в областта на индустриалната собственост и с най-малко 10-годишен стаж в индустрията като такива, придобит след влизането в сила на Закона за патентите.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

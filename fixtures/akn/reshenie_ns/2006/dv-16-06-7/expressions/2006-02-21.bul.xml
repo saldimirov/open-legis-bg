@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-7/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-7"/>
+          <FRBRalias value="Решение за изменение и допълнение на Решение за приемане на Правила за процедурата относно законопроекта за изменение и допълнение на Конституцията на Република България, прието на 25 януари 2006 г." name="short"/>
+          <FRBRalias value="Решение за изменение и допълнение на Решение за приемане на Правила за процедурата относно законопроекта за изменение и допълнение на Конституцията на Република България, прието на 25 януари 2006 г." name="eli" other="/eli/bg/reshenie_ns/2006/dv-16-06-7"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-7/bul@2006-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-7/bul@2006-02-21"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-16-06-7/bul@2006-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-16-06-7/bul@2006-02-21.xml"/>
+          <FRBRdate date="2006-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-21" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение и допълнение на Решение за приемане на Правила за процедурата относно законопроекта за изменение и допълнение на Конституцията на Република България, прието на 25 януари 2006 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се създава ал. 5:</p>
+            <p>“(5) Процедурата по ал. 4 се отнася и за текстовете от законопроекта, които на второ гласуване са получили по-малко от три четвърти, но не по-малко от две трети от гласовете на всички народни представители.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения:</p>
+            <p>1. В ал. 1 думите “7-дневен” се заменят с “14-дневен”.</p>
+            <p>2. В ал. 2 думите “В 7-дневен срок от изтичането на срока по ал. 1” се заличават.</p>
+            <p>3. Алинея 4 се изменя така:</p>
+            <p>“(4) В случая по чл. 3, ал. 3 за приети на второ гласуване се смятат тези текстове, за които са гласували три четвърти от всички народни представители. Текстовете, които не са подкрепени от три четвърти от всички народни представители, но са подкрепени от две трети от тях, се разглеждат по реда на чл. 3, ал. 4. Текстовете, които са получили по-малко от две трети от гласовете на всички народни представители, се смятат за отхвърлени.”</p>
+            <p>4. Алинея 6 се отменя.</p>
+            <p>Решението е прието от 40-то Народно събрание на 10 февруари 2006 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

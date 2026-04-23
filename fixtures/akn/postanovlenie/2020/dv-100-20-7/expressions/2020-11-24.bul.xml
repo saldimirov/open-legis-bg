@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-7/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-7"/>
+          <FRBRalias value="Постановление № 313 ОТ 20 НОЕМВРИ 2020 Г. за извършване на промени на утвърдените със" name="short"/>
+          <FRBRalias value="Постановление № 313 ОТ 20 НОЕМВРИ 2020 Г. за извършване на промени на утвърдените със" name="eli" other="/eli/bg/postanovlenie/2020/dv-100-20-7"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-7/bul@2020-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-7/bul@2020-11-24"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-100-20-7/bul@2020-11-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-100-20-7/bul@2020-11-24.xml"/>
+          <FRBRdate date="2020-11-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-11-24" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 313 ОТ 20 НОЕМВРИ 2020 Г. за извършване на промени на утвърдените със</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдения с чл. 47, ал. 3 от Закона за държавния бюджет на Република България за 2020 г. показател по бюджета на Държавна агенция „Електронно управление“ максимален размер на ангажиментите за раз­ ходи, които могат да бъдат поети за 2020 г., със сумата в размер 10 520 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Председателят на Държавна агенция „Електронно управление“ да извърши съот­ ветните промени по бюджета на Държавна агенция „Електронно управление“ за 2020 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 75 от Закона за държавния бюджет на Република България за 2020 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на председателя на Държавна агенция „Електронно управление“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-79-16-14/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-79-16-14"/>
+          <FRBRalias value="Постановление № 257 ОТ 30 СЕПТЕМВРИ 2016 Г. за допълнение на Наредбата за прилагане на Класификатора на длъжностите в адми­" name="short"/>
+          <FRBRalias value="Постановление № 257 ОТ 30 СЕПТЕМВРИ 2016 Г. за допълнение на Наредбата за прилагане на Класификатора на длъжностите в адми­" name="eli" other="/eli/bg/postanovlenie/2016/dv-79-16-14"/>
+          <FRBRdate date="2016-10-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-79-16-14/bul@2016-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-79-16-14/bul@2016-10-07"/>
+          <FRBRdate date="2016-10-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-79-16-14/bul@2016-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-79-16-14/bul@2016-10-07.xml"/>
+          <FRBRdate date="2016-10-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-07" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 257 ОТ 30 СЕПТЕМВРИ 2016 Г. за допълнение на Наредбата за прилагане на Класификатора на длъжностите в адми­</p>
+      <p>(обн., ДВ, бр. 49 от 2012 г.; попр., бр. 75 от 2012 г.; изм. и доп., бр. 80 и 103 от 2012 г., бр. 30 и 37 от 2015 г. и бр. 27 и 36 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се създава ал. 8: „</p>
+            <p>(8) Длъжността „държавен експерт“ се заема от служители в специализираната ад­ министрация.“ Преходни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В едномесечен срок от влизането в сила на постановлението ръководителите на администрации утвърждават промени в длъж­ ностните разписания, като трансформират длъжностите „държавен експерт“ в общата администрация в „главен експерт“ в общата администрация.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Служителите, заемащи длъжност „държавен експерт“ в общата администрация към датата на влизането в сила на поста­ новлението, се преназначават на длъжност „главен експерт“ в общата администрация при запазване на определения индивидуален размер на основната месечна заплата.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

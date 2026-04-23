@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-66-06-9/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-66-06-9"/>
+          <FRBRalias value="Постановление № 206 от 7 август 2006 г. за изменение и допълнение на Наредбата за маркировката за съответствие, приета с Постановление № 191 на Министерския съвет от 2005 г." name="short"/>
+          <FRBRalias value="Постановление № 206 от 7 август 2006 г. за изменение и допълнение на Наредбата за маркировката за съответствие, приета с Постановление № 191 на Министерския съвет от 2005 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-66-06-9"/>
+          <FRBRdate date="2006-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-66-06-9/bul@2006-08-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-66-06-9/bul@2006-08-15"/>
+          <FRBRdate date="2006-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-66-06-9/bul@2006-08-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-66-06-9/bul@2006-08-15.xml"/>
+          <FRBRdate date="2006-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-15" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 206 от 7 август 2006 г. за изменение и допълнение на Наредбата за маркировката за съответствие, приета с Постановление № 191 на Министерския съвет от 2005 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се създава ал. 4:</p>
+            <p>“(4) От датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз маркировката за съответствие на транспортируеми съоръжения под налягане, вентили или друга арматура, пряко свързани с безопасността им, се състои от инициала “p” и има графично изображение съгласно приложение № 3.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се правят следните изменения и допълнения:</p>
+            <p>1. В § 2 думите “и/или пуснатите в действие” се заличават.</p>
+            <p>2. Създава се § 2а:</p>
+            <p>“§ 2а. От датата на влизане в сила на  д оговора за присъединяване на Република България към Европейския съюз пуснатите на българския пазар продукти с нанесена маркировка за съответствие “СО” отговарят на изискванията на наредбата до изчерпване на наличните количества.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се приложение № 3 към чл. 4, ал. 4:</p>
+            <p>“Приложение № 3  към чл. 4, ал. 4</p>
+            <p>Графично изображение на маркировката за съответствие на транспортируеми съоръжения под налягане, вентили или друга арматура, пряко свързани с безопасността им</p>
+            <p>(виж     PDF-а на броя)</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

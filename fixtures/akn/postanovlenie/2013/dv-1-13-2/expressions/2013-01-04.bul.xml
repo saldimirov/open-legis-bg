@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-1-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-1-13-2"/>
+          <FRBRalias value="Постановление № 348 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 367 на" name="short"/>
+          <FRBRalias value="Постановление № 348 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 367 на" name="eli" other="/eli/bg/postanovlenie/2013/dv-1-13-2"/>
+          <FRBRdate date="2013-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-1-13-2/bul@2013-01-04/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-1-13-2/bul@2013-01-04"/>
+          <FRBRdate date="2013-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-1-13-2/bul@2013-01-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-1-13-2/bul@2013-01-04.xml"/>
+          <FRBRdate date="2013-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-01-04" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 348 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 367 на</p>
+      <p>(обн., ДВ, бр. 106 от 2011 г.; изм. и доп., бр. 30, 45, 52, 61, 71, 72, 80, 82, 94, 98 и 99 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 6 към чл. 16 „Разходи за заплати, възнаграждения и задължителни осигурителни вноски на лицата по трудови, извънтрудови и служебни правоотношения (разходи за персонал) на първостепенни разпоредители с бюджетни кредити по чл. 6, ал. 1 от Закона за държавния бюджет на Република България за 2012 г.“ на ред 14 се правят следните изменения: 1. В колона 11 числото „9 534 158“ се за­ меня с „10 474 358“. 2. В колона 12 числото „9 534 162“ се за­ меня с „10 474 362“. 3. В колона 13 числото „105 906 180“ се заменя със „107 786 580“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

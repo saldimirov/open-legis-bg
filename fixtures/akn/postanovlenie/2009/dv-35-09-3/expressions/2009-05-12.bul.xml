@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-35-09-3/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-35-09-3"/>
+          <FRBRalias value="Постановление № 100 от 24 април 2009 г. за изменение и допълнение на Тарифа № 3 за таксите, които се събират за консулско обслужване в системата на Министерството на външните работи по Закона за държавните такси, приета с Постановление № 333 на Министерския съвет от 2007 г." name="short"/>
+          <FRBRalias value="Постановление № 100 от 24 април 2009 г. за изменение и допълнение на Тарифа № 3 за таксите, които се събират за консулско обслужване в системата на Министерството на външните работи по Закона за държавните такси, приета с Постановление № 333 на Министерския съвет от 2007 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-35-09-3"/>
+          <FRBRdate date="2009-05-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-35-09-3/bul@2009-05-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-35-09-3/bul@2009-05-12"/>
+          <FRBRdate date="2009-05-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-35-09-3/bul@2009-05-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-35-09-3/bul@2009-05-12.xml"/>
+          <FRBRdate date="2009-05-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-12" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 100 от 24 април 2009 г. за изменение и допълнение на Тарифа № 3 за таксите, които се събират за консулско обслужване в системата на Министерството на външните работи по Закона за държавните такси, приета с Постановление № 333 на Министерския съвет от 2007 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 9 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 5:</p>
+            <p>“(5) С акт на Министерския съвет може да бъде упълномощен министърът на външните работи или упълномощено от него длъжностно лице да сключи договор за определен срок за извършването на консулски услуги по приемане на молби за издаване на визи с външен изпълнител от друга държава, като възнаграждението на външния изпълнител да бъде за сметка на таксата по ал. 1.”</p>
+            <p>2. Досегашната ал. 5 става ал. 6.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 1 от Закона за държавните такси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 23 април 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-24-07-14/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-24-07-14"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на центровете за трансфузионна хематология" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на центровете за трансфузионна хематология" name="eli" other="/eli/bg/pravilnik/2007/dv-24-07-14"/>
+          <FRBRdate date="2007-03-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-24-07-14/bul@2007-03-20/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-24-07-14/bul@2007-03-20"/>
+          <FRBRdate date="2007-03-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-24-07-14/bul@2007-03-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-24-07-14/bul@2007-03-20.xml"/>
+          <FRBRdate date="2007-03-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-20" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на центровете за трансфузионна хематология</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 думите “кръводаряването и кръвопреливането” се заменят с “кръвта, кръводаряването и кръвопреливането”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 16а:</p>
+            <p>“Чл. 16а. (1) Директорът на центъра определя лице от персонала, което организира, контролира и носи отговорност за:</p>
+            <p>1. вземането, диагностиката, преработката, етикетирането, съхраняването и разпределението на кръвта и кръвните съставки;</p>
+            <p>2. провеждането на обучението на персонала;</p>
+            <p>3. спазването на изискванията за добра лабораторна и производствена практика;</p>
+            <p>4. воденето на документацията и регистрирането на информацията;</p>
+            <p>5. възможността за проследяване на кръвта или кръвните съставки от донора до реципиента и обратно;</p>
+            <p>6. съобщаването на сериозните нежелани реакции и сериозни инциденти.</p>
+            <p>(2) Лицето по ал. 1 трябва да има призната специалност трансфузионна хематология и не по- малко от две години стаж в център по трансфузионна хематология.</p>
+            <p>(3) Центровете в 7-дневен срок уведомяват Изпълнителната агенция по лекарствата за името, образованието и продължителността на стажа на лицето по ал. 1, както и при заместването му, за лицето, което го замества, неговата квалификация, началната дата и срока на заместването.”</p>
+            <p>Министър:  Р. Гайдарски</p>
+            <p>7392</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

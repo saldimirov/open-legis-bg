@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-73-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-73-04-4"/>
+          <FRBRalias value="Постановление № 205 от 5 август 2004 г. за подготовката, организацията и провеждането на Европейската година на демократичното гражданство чрез образование (2005), обявена от Съвета на Европа, както и на Международна конференция на министрите на образованието от европейските страни" name="short"/>
+          <FRBRalias value="Постановление № 205 от 5 август 2004 г. за подготовката, организацията и провеждането на Европейската година на демократичното гражданство чрез образование (2005), обявена от Съвета на Европа, както и на Международна конференция на министрите на образованието от европейските страни" name="eli" other="/eli/bg/postanovlenie/2004/dv-73-04-4"/>
+          <FRBRdate date="2004-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-73-04-4/bul@2004-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-73-04-4/bul@2004-08-20"/>
+          <FRBRdate date="2004-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-73-04-4/bul@2004-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-73-04-4/bul@2004-08-20.xml"/>
+          <FRBRdate date="2004-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-08-20" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 205 от 5 август 2004 г. за подготовката, организацията и провеждането на Европейската година на демократичното гражданство чрез образование (2005), обявена от Съвета на Европа, както и на Международна конференция на министрите на образованието от европейските страни</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Да се създаде национален комитет от представители на правителствени и неправителствени институции, който да извърши необходимите дейности във връзка с подготовката, организацията и провеждането на Европейската година на демократичното гражданство чрез образование (2005), обявена от Съвета на Европа, както и на Международна конференция на министрите на образованието от европейските страни.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министерството на образованието и науката да финансира дейностите по чл. 1 в размер 130 000 лв. съгласно приложението в рамките на бюджета си за 2004 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министерството на образованието и науката да предвиди средства в размер 70 000 лв. по бюджета си за 2005 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и науката.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

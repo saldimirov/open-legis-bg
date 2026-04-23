@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-13-16-8/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-13-16-8"/>
+          <FRBRalias value="Постановление № 29 ОТ 11 ФЕВРУАРИ 2016 Г. за одобряване на допълнителни трансфери за 2016 г." name="short"/>
+          <FRBRalias value="Постановление № 29 ОТ 11 ФЕВРУАРИ 2016 Г. за одобряване на допълнителни трансфери за 2016 г." name="eli" other="/eli/bg/postanovlenie/2016/dv-13-16-8"/>
+          <FRBRdate date="2016-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-13-16-8/bul@2016-02-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-13-16-8/bul@2016-02-16"/>
+          <FRBRdate date="2016-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-13-16-8/bul@2016-02-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-13-16-8/bul@2016-02-16.xml"/>
+          <FRBRdate date="2016-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-16" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 29 ОТ 11 ФЕВРУАРИ 2016 Г. за одобряване на допълнителни трансфери за 2016 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни транс­ фери за 2016 г. в общ размер 300 000 лв. по бюджета на Община Карлово за ремонт на мемориалния комплекс „Христо Ботев“ в гр. Калофер.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят за сметка на преструктуриране на разходи по централния бюджет за 2016 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да извър­ ши налагащите се промени по централния бюджет, включително на бюджетните взаимо­ отношения на Община Карлово с централния бюджет, за 2016 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 109, ал. 3 от Закона за публичните финанси и чл. 90, ал. 2 от Закона за държав­ ния бюджет на Република България за 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на кмета на община Карлово.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-5-22-2/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-5-22-2"/>
+          <FRBRalias value="Постановление № 4 ОТ 13 ЯНУАРИ 2022 Г. за изменение на Устройствения правилник на Министерството на енергетиката, приет с" name="short"/>
+          <FRBRalias value="Постановление № 4 ОТ 13 ЯНУАРИ 2022 Г. за изменение на Устройствения правилник на Министерството на енергетиката, приет с" name="eli" other="/eli/bg/postanovlenie/2022/dv-5-22-2"/>
+          <FRBRdate date="2022-01-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-5-22-2/bul@2022-01-18/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-5-22-2/bul@2022-01-18"/>
+          <FRBRdate date="2022-01-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-5-22-2/bul@2022-01-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-5-22-2/bul@2022-01-18.xml"/>
+          <FRBRdate date="2022-01-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-01-18" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 4 ОТ 13 ЯНУАРИ 2022 Г. за изменение на Устройствения правилник на Министерството на енергетиката, приет с</p>
+      <p>(обн., ДВ, бр. 100 от 2015 г.; изм. и доп., бр. 70 от 2018 г. и бр. 29 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думата „трима“ се заменя с „четирима“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 6, ал. 8 и чл. 11, ал. 3 на ред „съветници, експертни и технически сътрудници“ числото „5“ се заменя с „4“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 14 януари 2022 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-9/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-9"/>
+          <FRBRalias value="Постановление № 128 ОТ 25 ЮНИ 2010 Г. за изменение и допълнение на Постановле­" name="short"/>
+          <FRBRalias value="Постановление № 128 ОТ 25 ЮНИ 2010 Г. за изменение и допълнение на Постановле­" name="eli" other="/eli/bg/postanovlenie/2010/dv-50-10-9"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-9/bul@2010-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-9/bul@2010-07-02"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-9/bul@2010-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-9/bul@2010-07-02.xml"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-02" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 128 ОТ 25 ЮНИ 2010 Г. за изменение и допълнение на Постановле­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения: 1. В ал. 1 числото „56 568 401“ се заменя „56 818 401“. 2. В ал. 3 числото „27 603 334“ се заменя с „27 853 334“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 2 след думите „Министерството на външните работи“ се поставя запетая и съюзът „и“ се заличава, а след думите „Министерството на финансите“ се добавя „и Държавна агенция „Национална сигурност“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 2 от заключителните разпоредби след думите „министъра на вътрешните работи“ се поставя запетая и съюзът „и“ се заличава, а накрая се добавя „и на председателя на Дър- жавна агенция „Национална сигурност“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 2 към чл. 1, ал. 3 се правят следните изменения и допълнения: 1. В раздел І, т. 3 колона 2 се изменя така: „Инфраструктура и техническо оборудване на територията на Главна дирекция „Гранична полиция“ и на регионалните дирекции „Гранична полиция на външни граници“.“ 2. В раздел IV се създава т. 6: „ 1 2 3 4 6. Дейности по транспорт, инсталация и настройка на радиокомуникационно оборудване в консулски- те и дипломатическите представител­ства на Ре- публика България ДАНС 250 000 “ 3. На ред „Обща стойност на проектите“ числото „27 603 334“ се заменя с „27 853 334“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

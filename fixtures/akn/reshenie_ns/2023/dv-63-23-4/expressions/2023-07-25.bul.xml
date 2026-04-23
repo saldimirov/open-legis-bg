@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-63-23-4/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-63-23-4"/>
+          <FRBRalias value="Решение за допълнително предоставяне на военно-техническа подкрепа за Украйна" name="short"/>
+          <FRBRalias value="Решение за допълнително предоставяне на военно-техническа подкрепа за Украйна" name="eli" other="/eli/bg/reshenie_ns/2023/dv-63-23-4"/>
+          <FRBRdate date="2023-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-63-23-4/bul@2023-07-25/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-63-23-4/bul@2023-07-25"/>
+          <FRBRdate date="2023-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-63-23-4/bul@2023-07-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-63-23-4/bul@2023-07-25.xml"/>
+          <FRBRdate date="2023-07-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-07-25" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за допълнително предоставяне на военно-техническа подкрепа за Украйна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България РЕШИ: Министерският съвет на Република България да предприеме необходимите действия съобразно своите правомощия да придобие и предостави на Конституционния съд сградата на Българската банка за развитие, находяща се на бул. „Цар Освободител“ № 2. Решението е прието от 49-ото Народно събрание на 21 юли 2023 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

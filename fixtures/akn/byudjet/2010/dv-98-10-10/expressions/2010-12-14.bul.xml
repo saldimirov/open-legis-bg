@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-10"/>
+          <FRBRalias value="Закон за бюджета на Националната здравноосигу­" name="short"/>
+          <FRBRalias value="Закон за бюджета на Националната здравноосигу­" name="eli" other="/eli/bg/byudjet/2010/dv-98-10-10"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-10/bul@2010-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-10/bul@2010-12-14"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-10/bul@2010-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-10/bul@2010-12-14.xml"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за бюджета на Националната здравноосигу­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Приема бюджета на Национал­ ната здравноосигурителна каса за 2011 г. по приходите и трансферите на обща сума 2 633 730 хил. лв., както следва: № по ред Показатели Сума (в хил. лв.) 1 2 3 I. ПРИХОДИ И ТРАНСФЕ­ РИ – ВСИЧКО 2 633 730 1. Здравноосигурителни при­ ходи 2 602 679 1.1. Здравноосигурителни вноски 1 661 553 1.2. Трансфери за здравно осигу­ ряване 941 126 2. Приходи и доходи от соб­ ственост 1 521 3. Глоби, санкции и наказател­ ни лихви 12 000 4. Други неданъчни приходи 30 5. Получени трансфери от Министерството на здраве­ опазването за финансиране на разходите за акушерска помощ по чл. 82, ал. 1, т. 2 от Закона за здравето (+) и за заплащане на сумите по чл. 37, ал. 5 от Закона за здравното осигуряване: 17 500</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Приема бюджета на Националната здрав­ ноосигурителна каса за 2011 г. по разходите и трансферите на обща сума 2 633 730 хил. лв., както следва: № по ред Показатели Сума (в хил. лв.) 1 2 3 II. РАЗХОДИ И ТРАНСФЕ­ РИ – ВСИЧКО 2 633 730 1. Текущи разходи 2 023 372 1.1. Заплати и възнаграждения за персонала, нает по тру­ дови и служебни правоот­ ношения 21 665 1.2. Други възнаграждения и плащания за персонала 1 076 1.3. Задължителни осигурител­ ни вноски от работодатели 3 999 1.4. Издръжка на администра­ тивните дейности 22 111 1.5. Здравноосигурителни пла­ щания 1 974 520 1.5.1. здравноосигурителни плащания за първична извънболнична медицинска помощ 169 000 1.5.2. здравноосигурителни пла­ щания за специализирана извънболнична медицинска помощ 171 000</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

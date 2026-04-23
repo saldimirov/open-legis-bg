@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-30-24-25/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-30-24-25"/>
+          <FRBRalias value="Постановление № 92 от 4 април 2024 г. за изменение на Наредбата за паричните обезщетения и помощи от държавното обществено осигуряване, приета с Постановление № 188 на Министерския съвет от 2015 г." name="short"/>
+          <FRBRalias value="Постановление № 92 от 4 април 2024 г. за изменение на Наредбата за паричните обезщетения и помощи от държавното обществено осигуряване, приета с Постановление № 188 на Министерския съвет от 2015 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-30-24-25"/>
+          <FRBRdate date="2024-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-30-24-25/bul@2024-04-05/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-30-24-25/bul@2024-04-05"/>
+          <FRBRdate date="2024-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-30-24-25/bul@2024-04-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-30-24-25/bul@2024-04-05.xml"/>
+          <FRBRdate date="2024-04-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-04-05" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 92 от 4 април 2024 г. за изменение на Наредбата за паричните обезщетения и помощи от държавното обществено осигуряване, приета с Постановление № 188 на Министерския съвет от 2015 г.</p>
+      <p>(обн., ДВ, бр. 57 от 2015 г.; изм. и доп., бр. 17 от 2016 г., бр. 30 от 2017 г., бр. 57 от 2018 г., бр. 40 от 2019 г., бр. 72 от 2020 г., бр. 78 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 27, ал. 3, изречение първо думите „ако не са представени от заявителите“ и запетаята пред тях се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 18 към чл. 27 се правят следните изменения: 1. Думите „(временна неработоспособност/трудоустрояване/бременност и раждане/осиновяване на дете до 5-годишна възраст/отглеждане на малко дете/парична помощ за инвалидност поради общо заболяване)“ се заменят с „(временна неработоспособност/трудоустрояване/бременност и раждане/осиновяване на дете до 5-годишна възраст/отглеждане на дете до 2-годишна възраст/отглеждане на дете до 8-годишна възраст от бащата (осиновителя)/парична помощ за инвалидност поради общо заболяване)“. 2. Раздел „Прилагам следните документи“ се изменя така: „Прилагам следните документи: 1. Документ за самоличност (за справка). 2. Други ................................................................ Забележка. С ограждане на съответната цифра се отбелязва кои от изброените документи са приложени.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 31 март 2024 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

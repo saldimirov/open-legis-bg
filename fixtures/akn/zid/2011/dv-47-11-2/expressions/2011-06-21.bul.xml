@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2011/dv-47-11-2"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-2/bul@2011-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-2/bul@2011-06-21"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-2/bul@2011-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-2/bul@2011-06-21.xml"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-21" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+      <p>(обн., ДВ, бр. 17 от 2006 г.; изм., бр. 30, 102 и 105 от 2006 г., бр. 11, 31, 41, 46, 57, 64 и 109 от 2007 г., бр. 28, 43, 69, 94 и 98 от 2008 г., бр. 27, 42, 74, 82 и 93 от 2009 г., бр. 88 от 2010 г. и бр. 9 и 23 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 213 се правят следните изменения и допълнения: 1. В ал. 1 думите „за работа във вредни за здравето условия“ се заменят със „за работа при специфични условия и рискове за живота и здравето, които не могат да бъдат отстране­ ни, ограничени или намалени, независимо от предприетите мерки“. 2. Създава се ал. 3: „(3) Министърът на вътрешните работи може да определя за държавните служители по-благоприятни размери на отпуска за работа при специфични условия и рискове за живота и здравето, които не могат да бъдат отстране­ ни, ограничени или намалени, независимо от предприетите мерки.“</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 256, ал. 1, т. 2 след думите „про­ дължителна служба“ се добавя „за специфични служебни дейности“ и се поставя запетая. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

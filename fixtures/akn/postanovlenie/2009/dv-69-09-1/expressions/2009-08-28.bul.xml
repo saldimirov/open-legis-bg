@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-69-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-69-09-1"/>
+          <FRBRalias value="Постановление № 210 ОТ 20 АВГУСТ 2009 Г. за изменение на Устройствения правилник на" name="short"/>
+          <FRBRalias value="Постановление № 210 ОТ 20 АВГУСТ 2009 Г. за изменение на Устройствения правилник на" name="eli" other="/eli/bg/postanovlenie/2009/dv-69-09-1"/>
+          <FRBRdate date="2009-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-69-09-1/bul@2009-08-28/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-69-09-1/bul@2009-08-28"/>
+          <FRBRdate date="2009-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-69-09-1/bul@2009-08-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-69-09-1/bul@2009-08-28.xml"/>
+          <FRBRdate date="2009-08-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-28" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 210 ОТ 20 АВГУСТ 2009 Г. за изменение на Устройствения правилник на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 11, ал. 3 се правят следните изменения: 1. На ред „дирекция „Анализи на лекарстве­ ните продукти“ числото „27“ се заменя с „16“. 2. На ред „дирекция „Контрол на лекарстве­ ната употреба“ числото „16“ се заменя с „27“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 10 юли 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

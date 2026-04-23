@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-73-10-3/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-73-10-3"/>
+          <FRBRalias value="Постановление № 192 ОТ 8 СЕПТЕМВРИ 2010 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 192 ОТ 8 СЕПТЕМВРИ 2010 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2010/dv-73-10-3"/>
+          <FRBRdate date="2010-09-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-73-10-3/bul@2010-09-17/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-73-10-3/bul@2010-09-17"/>
+          <FRBRdate date="2010-09-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-73-10-3/bul@2010-09-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-73-10-3/bul@2010-09-17.xml"/>
+          <FRBRdate date="2010-09-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-17" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 192 ОТ 8 СЕПТЕМВРИ 2010 Г. за изменение и допълнение на нормативни</p>
+      <p>(обн., ДВ, бр. 102 от 1993 г.; изм. и доп., бр. 48 от 2006 г. и бр. 10, 16 и 67 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Наредбата за трудовата книжка и трудовия стаж, приета с Постановление № 227 на Министерския съвет от 1993 г. (обн., ДВ, бр. 102 от 1993 г.; изм. и доп., бр. 48 от 2006 г. и бр. 10, 16 и 67 от 2009 г.), се създава чл. 13: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 13.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Трудовият стаж на лицата по чл. 351, ал. 2, чл. 352, ал. 2, чл. 353 и чл. 354, ал. 2 от Кодекса на труда, придобит в друга държава – членка на Европейския съюз, в друга държава – страна по Споразумението за Европейското икономическо пространство, или в Конфедерация Швейцария, както и вре­ мето на заемане на длъжност в институция на Европейския съюз се признава от работо­ дателя, при който лицето работи по трудово правоотношение.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Лицата по ал. 1 подават заявление до работодателя, към което прилагат акт за възникване и за прекратяване на правоотно­ шението и/или документи, издадени от рабо­ тодателя и/или от компетентната институция съгласно законодателството на съответната държава, за обстоятелствата или за някои от тях, които дават основание за признаване на трудов стаж. БРОЙ 73 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 49</p>
+            </content>
+          </paragraph>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

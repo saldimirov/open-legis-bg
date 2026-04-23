@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-4/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-4"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре­" name="eli" other="/eli/bg/ratifikatsiya/2018/dv-64-18-4"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-4/bul@2018-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-4/bul@2018-08-03"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-64-18-4/bul@2018-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-64-18-4/bul@2018-08-03.xml"/>
+          <FRBRdate date="2018-08-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-03" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за пре­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>доставяне на помощни услуги в подкрепа на изготвянето на Планове за управление на речните басейни и на Планове за управление на риска от наводнения за Република Бъл­ гария между Министерството на околната среда и водите и Международната банка за възстановяване и развитие Член единствен. Ратифицира Споразуме­ нието за предоставяне на помощни услуги в подкрепа на изготвянето на Планове за управление на речните басейни и на Планове за управление на риска от наводнения за Ре­ публика България между Министерството на околната среда и водите и Международната банка за възстановяване и развитие. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

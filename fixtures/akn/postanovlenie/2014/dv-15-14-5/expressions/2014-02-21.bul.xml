@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-5/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-5"/>
+          <FRBRalias value="Постановление № 26 ОТ 14 ФЕВРУАРИ 2014 Г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет" name="short"/>
+          <FRBRalias value="Постановление № 26 ОТ 14 ФЕВРУАРИ 2014 Г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет" name="eli" other="/eli/bg/postanovlenie/2014/dv-15-14-5"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-5/bul@2014-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-5/bul@2014-02-21"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-5/bul@2014-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-5/bul@2014-02-21.xml"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-21" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 26 ОТ 14 ФЕВРУАРИ 2014 Г. за изменение на Правилника за прилагане на Закона за държавната собственост, приет</p>
+      <p>(обн., ДВ, бр. 78 от 2006 г.; изм. и доп., бр. 26 и 51 от 2007 г., бр. 64, 80 и 91 от 2008 г., бр. 7, 25, 62 и 93 от 2009 г., бр. 31, 52, 58 и 69 от 2010 г., бр. 61, 80 и 105 от 2011 г., бр. 24 и 47 от 2012 г. и бр. 62, 80 и 87 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 88 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 88.</num>
+          <content>
+            <p>При провеждане на търгове за продажба на имоти – държавна собственост, първоначалната цена не може да бъде по-ниска от данъчната оценка, увеличена с 10 на сто, и балансовата стойност на съоръженията, трайно прикрепени към имотите, които не подлежат на данъчно деклариране, увеличена с 10 на сто.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

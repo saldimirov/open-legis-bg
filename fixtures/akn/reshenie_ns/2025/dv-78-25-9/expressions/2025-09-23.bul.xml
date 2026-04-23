@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-78-25-9/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-78-25-9"/>
+          <FRBRalias value="Решение за гласуване на недоверие на Министерския съвет на Република България с министър-председател Росен Желязков" name="short"/>
+          <FRBRalias value="Решение за гласуване на недоверие на Министерския съвет на Република България с министър-председател Росен Желязков" name="eli" other="/eli/bg/reshenie_ns/2025/dv-78-25-9"/>
+          <FRBRdate date="2025-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-78-25-9/bul@2025-09-23/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-78-25-9/bul@2025-09-23"/>
+          <FRBRdate date="2025-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-78-25-9/bul@2025-09-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-78-25-9/bul@2025-09-23.xml"/>
+          <FRBRdate date="2025-09-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-09-23" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за гласуване на недоверие на Министерския съвет на Република България с министър-председател Росен Желязков</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 и чл. 89 от Конституцията на Република България РЕШИ: Отхвърля предложението за гласуване на недоверие на Министерския съвет с министър-председател на Република България Росен Желязков във връзка с провала на правителството в секторите „Вътрешна сигурност“ и „Правосъдие“, водещ до задълбочаване на проблема със завладяната държава, до липса на справедливост и до обедняване на българските граждани. Решението е прието от 51-вото Народно събрание на 18 септември 2025 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

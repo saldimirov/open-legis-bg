@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-51-17-2/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-51-17-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за енергетиката" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за енергетиката" name="eli" other="/eli/bg/zid/2017/dv-51-17-2"/>
+          <FRBRdate date="2017-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-51-17-2/bul@2017-06-27/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-51-17-2/bul@2017-06-27"/>
+          <FRBRdate date="2017-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-51-17-2/bul@2017-06-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-51-17-2/bul@2017-06-27.xml"/>
+          <FRBRdate date="2017-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-06-27" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за енергетиката</p>
+      <p>(обн., ДВ, бр. 107 от 2003 г.; изм., бр. 18 от 2004 г., бр. 18 и 95 от 2005 г., бр. 30, 65 и 74 от 2006 г., бр. 49, 55 и 59 от 2007 г., бр. 36, 43 и 98 от 2008 г., бр. 35, 41, 42, 82 и 103 от 2009 г., бр. 54 и 97 от 2010 г., бр. 35 и 47 от 2011 г., бр. 38, 54 и 82 от 2012 г., бр. 15, 20, 23, 59 и 66 от 2013 г., бр. 98 от 2014 г., бр. 14, 17, 35, 48 и 56 от 2015 г. и бр. 42, 47 и 105 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 30, ал. 4 след думата „използват“ се добавя „100 на сто от“. Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Започнатите до влизането в сила на този закон производства за регулиране на цените за продажба на топлинна енергия и за определяне на цени по чл. 33, ал. 1 се прекратяват при наличие на условията по чл. 30, ал. 4.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

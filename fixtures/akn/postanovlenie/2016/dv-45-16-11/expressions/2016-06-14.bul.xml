@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-11/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-11"/>
+          <FRBRalias value="Постановление № 139 ОТ 10 ЮНИ 2016 Г. за изменение на Правилника за условията и реда за работа на Комисията по прозрач-" name="short"/>
+          <FRBRalias value="Постановление № 139 ОТ 10 ЮНИ 2016 Г. за изменение на Правилника за условията и реда за работа на Комисията по прозрач-" name="eli" other="/eli/bg/postanovlenie/2016/dv-45-16-11"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-11/bul@2016-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-11/bul@2016-06-14"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-45-16-11/bul@2016-06-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-45-16-11/bul@2016-06-14.xml"/>
+          <FRBRdate date="2016-06-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-06-14" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 139 ОТ 10 ЮНИ 2016 Г. за изменение на Правилника за условията и реда за работа на Комисията по прозрач-</p>
+      <p>(обн., ДВ, бр. 108 от 2007 г.; изм и доп., бр. 47 и 67 от 2012 г. и бр. 84 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 ал. 4 – 6 се отменят.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 3а се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 3а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Член на комисията може да бъде освободен с решение на Министерския съвет: 1. по негова молба, подадена чрез минис- търа на здравеопазването; 2. по искане на предложилия го – чрез министъра на здравеопазването; 3. по предложение на министъра на здра- веопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При освобождаване на член на коми- сията Министерският съвет определя друг член по предложение на министъра на здра- веопазването.“</p>
+            </content>
+          </paragraph>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

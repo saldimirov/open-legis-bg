@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-4"/>
+          <FRBRalias value="Постановление № 92 от 21 април 2009 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Одит на средствата от Европейския съюз” към министъра на финансите, приет с Постановление № 346 на Министерския съвет от 2008 г." name="short"/>
+          <FRBRalias value="Постановление № 92 от 21 април 2009 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Одит на средствата от Европейския съюз” към министъра на финансите, приет с Постановление № 346 на Министерския съвет от 2008 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-34-09-4"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-4/bul@2009-05-08/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-4/bul@2009-05-08"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-34-09-4/bul@2009-05-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-34-09-4/bul@2009-05-08.xml"/>
+          <FRBRdate date="2009-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-08" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 92 от 21 април 2009 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Одит на средствата от Европейския съюз” към министъра на финансите, приет с Постановление № 346 на Министерския съвет от 2008 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 2:</p>
+            <p>“(2) Изпълнителният директор може да назначава за сметка на агенцията вещи лица по въпроси, които изискват специални знания и опит.”</p>
+            <p>2. Досегашната ал. 2 става ал. 3.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10 се правят следните изменения:</p>
+            <p>1. Алинея 3 се изменя така:</p>
+            <p>“(3) Министърът на финансите назначава и освобождава председателя и членовете, определя възнагражденията им и утвърждава правилата за работа на Одитния комитет.”</p>
+            <p>2. Алинея 5 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 11 се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1 и в нея т. 6 се отменя.</p>
+            <p>2. Създава се ал. 2:</p>
+            <p>“(2) В рамките на компетентността на Одитния комитет министърът на финансите може да възлага на председателя и на членовете изпълнението и на други функции и задачи по отношение на дейността по одита на средствата от Европейския съюз.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

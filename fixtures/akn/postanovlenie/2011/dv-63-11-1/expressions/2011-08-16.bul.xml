@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-1/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-1"/>
+          <FRBRalias value="Постановление № 236 ОТ 3 АВГУСТ 2011 Г. за приемане на Наредба за оценка на позем-" name="short"/>
+          <FRBRalias value="Постановление № 236 ОТ 3 АВГУСТ 2011 Г. за приемане на Наредба за оценка на позем-" name="eli" other="/eli/bg/postanovlenie/2011/dv-63-11-1"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-1/bul@2011-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-1/bul@2011-08-16"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-1/bul@2011-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-1/bul@2011-08-16.xml"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-16" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 236 ОТ 3 АВГУСТ 2011 Г. за приемане на Наредба за оценка на позем-</p>
+      <p>(обн., ДВ, бр. 101 от 2003 г.; изм. и доп., бр. 39 от 2004 г., бр. 6 от 2005 г., бр. 1 и 62 от 2007 г., бр. 71 от 2008 г., бр. 38 от 2010 г. и бр. 19 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Наредбата за определяне на базисни цени, цени за изключените площи и учредяване право на ползване и сервитути върху гори и земи от горския фонд, приета с Постановление № 252 на Министерския съвет от 2003 г. (обн., ДВ, бр. 101 от 2003 г.; изм. и доп., бр. 39 от 2004 г., бр. 6 от 2005 г., бр. 1 и 62 от 2007 г., бр. 71 от 2008 г., бр. 38 от 2010 г. и бр. 19 от 2011 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

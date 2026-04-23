@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-9/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-9"/>
+          <FRBRalias value="Постановление № 44 ОТ 27 ФЕВРУАРИ 2014 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 44 ОТ 27 ФЕВРУАРИ 2014 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2014/dv-20-14-9"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-9/bul@2014-03-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-9/bul@2014-03-07"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-9/bul@2014-03-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-9/bul@2014-03-07.xml"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-07" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 44 ОТ 27 ФЕВРУАРИ 2014 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 2 от 2011 г.; изм. и доп., бр. 39 и 104 от 2011 г., бр. 50 от 2012 г., бр. 24 от 2013 г. и бр. 8 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1 в раздел XI „Дислокация и инфраструктура“ се правят следните изменения и допълнения: 1. В абзац трети: а) числото „76“ се заменя със „75“; б) създава се изречение трето: „Инфра- структурните съоръжения (сгради и складове) с отпаднала необходимост за Сухопътни войски са разположени в с. Мусачево.“ 2. В абзац осми: a) в изречение първо думите „238 595 кв. м“ се заменят с „281 305 кв. м“; б) в изречение четвърто думите „24,7 на сто“ се заменят с „21 на сто“, думите „45,7 на сто“ се заменят с „39 на сто“ и думите „15 на сто“ се заменят с „20 на сто“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 2 (поверително) към чл. 2 се правят изменения и допълнения съгласно приложението (поверително). Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

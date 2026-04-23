@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-15-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-15-13-6"/>
+          <FRBRalias value="Постановление № 26 ОТ 6 ФЕВРУАРИ 2013 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 26 ОТ 6 ФЕВРУАРИ 2013 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2013/dv-15-13-6"/>
+          <FRBRdate date="2013-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-15-13-6/bul@2013-02-15/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-15-13-6/bul@2013-02-15"/>
+          <FRBRdate date="2013-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-15-13-6/bul@2013-02-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-15-13-6/bul@2013-02-15.xml"/>
+          <FRBRdate date="2013-02-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-15" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 26 ОТ 6 ФЕВРУАРИ 2013 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 123 от 1998 г.; изм. и доп., бр. 114 от 1999 г., бр. 79 от 2000 г., бр. 64 от 2001 г. и бр. 13 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се правят следните изменения и допълнения: 1. В т. 1, буква „б“ думата „хидротехничес­ ки“ се заличава. 2. Създава се т. 1а: „1а. работници и инженерно-технически специалисти, заети на работа под земята в подземните хидротехнически обекти, без включените в раздел І;“. 3. Точка 22 се изменя така: „22. работници и инженерно-технически специалисти, заети в експлоатацията на со- фийското метро.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

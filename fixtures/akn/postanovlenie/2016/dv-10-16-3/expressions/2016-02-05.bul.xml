@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-3/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-3"/>
+          <FRBRalias value="Постановление № 22 ОТ 2 ФЕВРУАРИ 2016 Г. за изменение и допълнение на Устройствения" name="short"/>
+          <FRBRalias value="Постановление № 22 ОТ 2 ФЕВРУАРИ 2016 Г. за изменение и допълнение на Устройствения" name="eli" other="/eli/bg/postanovlenie/2016/dv-10-16-3"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-3/bul@2016-02-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-3/bul@2016-02-05"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-3/bul@2016-02-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-3/bul@2016-02-05.xml"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-05" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 22 ОТ 2 ФЕВРУАРИ 2016 Г. за изменение и допълнение на Устройствения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 37 се правят следните изменения и допълнения: 1. Създава се нова т. 26: „26. подпомага министъра при упражня- ване на правомощията му по провеждане на обществени поръчки в качеството му на Централен орган за възлагане на обществени поръчки в сектор „Здравеопазване“ съгласно Постановление № 146 на Министерския съвет от 2015 г. за създаване на Централен орган за възлагане на обществени поръчки в сектор „Здравеопазване“ (ДВ, бр. 44 от 2015 г.);“. 2. Досегашната т. 26 става т. 27. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 146 на Министер- ския съвет от 2015 г. за създаване на Централен орган за възлагане на обществени поръчки в сектор „Здравеопазване“ се правят следните изменения и допълнения: 1. В чл. 2, ал. 3 думите „Централно звено за договаряне и администриране“ се залича- ват, накрая се поставя запетая и се добавя „определена в Устройствения правилник на Министерството на здравеопазването“. 2. В § 4 от преходните и заключителните разпоредби думата „икономиката“ се заменя с „финансите“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

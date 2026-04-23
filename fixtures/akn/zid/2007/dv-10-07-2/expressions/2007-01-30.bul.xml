@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-10-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-10-07-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за радиото и телевизията" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за радиото и телевизията" name="eli" other="/eli/bg/zid/2007/dv-10-07-2"/>
+          <FRBRdate date="2007-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-10-07-2/bul@2007-01-30/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-10-07-2/bul@2007-01-30"/>
+          <FRBRdate date="2007-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-10-07-2/bul@2007-01-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-10-07-2/bul@2007-01-30.xml"/>
+          <FRBRdate date="2007-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-01-30" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за радиото и телевизията</p>
+      <p>(обн., ДВ, бр. 138 от 1998 г., бр. 60 от 1999 г. - Решение № 10 на Конституционния съд от 1999 г.; изм., бр. 81 от 1999 г., бр. 79 от 2000 г., бр. 96 от 2001 г., бр. 77 и 120 от 2002 г., бр. 99 и 114 от 2003 г., бр. 99 и 115 от 2004 г., бр. 88, 93 и 105 от 2005 г., бр. 21, 34, 70, 105 и 108 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 105 се правят следните изменения:</p>
+          <p>1. Алинея 2 се изменя така:</p>
+          <p>“(2) За лицензия могат да кандидатстват:</p>
+          <p>1. физически лица - еднолични търговци, и юридически лица, регистрирани по българското законодателство;</p>
+          <p>2. чуждестранни физически и юридически лица, регистрирани като търговци по законодателството на държава - членка на Европейския съюз, или на друга държава - страна по  с поразумението за Европейското икономическо пространство.”</p>
+          <p>2. В ал. 6 думите “чл. 105” се заменят с “този член” и т. 1 се изменя така:</p>
+          <p>“1. удостоверение за актуално състояние, а чуждестранните лица - съответния документ, издадени не по-рано от един месец преди датата на подаване на заявлението по чл. 111;”.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В чл. 111 се правят следните изменения и допълнения:</p>
+          <p>1. Досегашният текст става ал. 1.</p>
+          <p>2. Създава се ал. 2:</p>
+          <p>“(2) Заявлението и документите по ал. 1 се подават на български език.”</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В § 1, т. 24 от допълнителната разпоредба след думите “регистриран по Търговския закон” се добавя “или по законодателството на държава - членка на Европейския съюз, или на друга държава - страна по  с поразумението за Европейското икономическо пространство”.</p>
+          <p>Преходни и заключителни разпоредби</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>Процедурите за издаване на лицензия по чл. 105, започнали преди влизането в сила на този закон, се приключват по досегашния ред.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_5" name="modification">
+        <num>§ 5.</num>
+        <content>
+          <p>Законът влиза в сила от датата на влизане в сила на Договора за присъединяване на Република България към Европейския съюз.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

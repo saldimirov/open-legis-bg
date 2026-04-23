@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-4"/>
+          <FRBRalias value="Решение за избиране на управител на Националната" name="short"/>
+          <FRBRalias value="Решение за избиране на управител на Националната" name="eli" other="/eli/bg/reshenie_ns/2013/dv-62-13-4"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-4/bul@2013-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-4/bul@2013-07-12"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-4/bul@2013-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-4/bul@2013-07-12.xml"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-12" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на управител на Националната</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>здравноосигурителна каса Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Репуб­ лика България и чл. 19, ал. 1, 2 и 3 и чл. 21 от Закона за здравното осигуряване Р Е Ш И : 1. Избира Румяна Малинова Тодорова за управител на Националната здравноосигури- телна каса с мандат до 12 февруари 2015 г. 2. Решението влиза в сила от деня на об- народването му в „Държавен вестник“. Решението е прието от 42-то Народно събрание на 10 юли 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

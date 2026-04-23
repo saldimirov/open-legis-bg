@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-1"/>
+          <FRBRalias value="Решение за изменение и допълнение на Правилника за организацията и дейността на Народното събрание" name="short"/>
+          <FRBRalias value="Решение за изменение и допълнение на Правилника за организацията и дейността на Народното събрание" name="eli" other="/eli/bg/reshenie_ns/2009/dv-20-09-1"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-1/bul@2009-03-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-1/bul@2009-03-17"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-20-09-1/bul@2009-03-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-20-09-1/bul@2009-03-17.xml"/>
+          <FRBRdate date="2009-03-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-03-17" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение и допълнение на Правилника за организацията и дейността на Народното събрание</p>
+      <p>(обн., ДВ, бр. 69 от 2005 г.; изм. и доп., бр. 74 от 2005 г., бр. 101 от 2006 г., бр. 18, 26 и 107 от 2007 г., бр. 85, 99, 107 и бр. 110 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 25 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 3:</p>
+            <p>“(3) Представители на граждански, синдикални, съсловни и браншови организации по тяхна инициатива имат право да присъстват на заседанията на комисиите, да представят свои писмени становища и да вземат участия в разисквания по разглежданите проекти за актове на Народното събрание, отнасящи се до предмета им на дейност, при спазване режима на достъп до Народното събрание.”</p>
+            <p>2. Досегашните ал. 3, 4, 5, 6, 7 и 8 стават съответно ал. 4, 5, 6, 7, 8 и 9.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 от Финансовите правила по бюджета на Народното събрание - приложение към правилника, се създава ал. 6:</p>
+            <p>“(6) В бюджета на Народното събрание ежегодно се предвиждат средства за Програма “Студентска програма за законодателни проучвания в Народното събрание”.”</p>
+            <p>Решението е прието от 40-то Народно събрание на 6 март 2009 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

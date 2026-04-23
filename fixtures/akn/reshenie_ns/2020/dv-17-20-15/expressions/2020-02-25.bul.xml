@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-17-20-15/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-17-20-15"/>
+          <FRBRalias value="Решение за избиране на член на Комисията за регу­" name="short"/>
+          <FRBRalias value="Решение за избиране на член на Комисията за регу­" name="eli" other="/eli/bg/reshenie_ns/2020/dv-17-20-15"/>
+          <FRBRdate date="2020-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-17-20-15/bul@2020-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-17-20-15/bul@2020-02-25"/>
+          <FRBRdate date="2020-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-17-20-15/bul@2020-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-17-20-15/bul@2020-02-25.xml"/>
+          <FRBRdate date="2020-02-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-02-25" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на член на Комисията за регу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>лиране на съобщенията Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Ре­ публика България и чл. 22, ал. 4 от Закона за електронните съобщения Р Е Ш И : Избира Анна Вълчева Хаджиева за член на Комисията за регулиране на съобщенията. Решението е прието от 44-то Народно съб- рание на 21 февруари 2020 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

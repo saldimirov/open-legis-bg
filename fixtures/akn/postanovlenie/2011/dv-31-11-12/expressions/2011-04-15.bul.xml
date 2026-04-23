@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-12"/>
+          <FRBRalias value="Постановление № 88 ОТ 7 АПРИЛ 2011 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 88 ОТ 7 АПРИЛ 2011 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2011/dv-31-11-12"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-12/bul@2011-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-12/bul@2011-04-15"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-12/bul@2011-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-12/bul@2011-04-15.xml"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-15" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 88 ОТ 7 АПРИЛ 2011 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 след думите „по ал. 1“ се поставя запетая, добавя се „за демонтира­ нето на съоръженията, от които се състоят железопътните линии, и за извършването на всички действия, свързани с демонтирането (технически, юридически, екологични и други действия)“ и се поставя запетая.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създават се чл. 3 – 5: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Министърът на финансите да оси­ гури допълнителна субсидия за Национална компания „Железопътна инфраструктура“ за демонтиране на съоръженията, от които се състоят железопътните линии по чл. 1 и 2, както и за извършване на възстановителни, рекултивационни и други дейности.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_2">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Условията, редът и сроковете за предоставяне на средствата по чл. 3, както и контролът по тяхното разходване се уреждат с договора по чл. 25, ал. 1 от Закона за же­ лезопътния транспорт.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_3">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Генералният директор на Национална компания „Железопътна инфраструктура“ да утвърди проектите за демонтаж, възстанови­ телни, рекултивационни и други дейности, свързани със закриването, след получаване на положително становище от министъра на финансите, министъра на транспорта, ин­ формационните технологии и съобщенията, министъра на земеделието и храните, минис­ търа на околната среда и водите и министъра на икономиката, енергетиката и туризма и след осигуряване на необходимите средства по чл. 4.“</p>
+          </content>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

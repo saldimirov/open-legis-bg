@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-18/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-18"/>
+          <FRBRalias value="Постановление № 304 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 274 на" name="short"/>
+          <FRBRalias value="Постановление № 304 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 274 на" name="eli" other="/eli/bg/postanovlenie/2009/dv-102-09-18"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-18/bul@2009-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-18/bul@2009-12-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-18/bul@2009-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-18/bul@2009-12-22.xml"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 304 ОТ 15 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 274 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 5 думите „с центрове – Перник, София, Благоевград, Враца и Монтана“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 2, ал. 4 т. 2 се изменя така: „2. Регионални инспекции по околната среда и водите със седалище: а) Пловдив 40 б) Благоевград 36 в) Смолян 30 г) Велико Търново 36 д) Монтана 30 е) Стара Загора 41 ж) Пазарджик 38 з) Враца 25 и) Бургас 52 к) Плевен 38 л) Шумен 33 м) Хасково 39 н) Русе 45 о) София 45 п) Варна 50 р) Перник 26.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 де­ кември 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

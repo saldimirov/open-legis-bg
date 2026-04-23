@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-91-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-91-11-16"/>
+          <FRBRalias value="Постановление № 301 ОТ 10 НОЕМВРИ 2011 Г. за изменение на Наредбата за отговорност­" name="short"/>
+          <FRBRalias value="Постановление № 301 ОТ 10 НОЕМВРИ 2011 Г. за изменение на Наредбата за отговорност­" name="eli" other="/eli/bg/postanovlenie/2011/dv-91-11-16"/>
+          <FRBRdate date="2011-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-91-11-16/bul@2011-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-91-11-16/bul@2011-11-18"/>
+          <FRBRdate date="2011-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-91-11-16/bul@2011-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-91-11-16/bul@2011-11-18.xml"/>
+          <FRBRdate date="2011-11-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-18" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 301 ОТ 10 НОЕМВРИ 2011 Г. за изменение на Наредбата за отговорност­</p>
+      <p>(обн., ДВ, бр. 3 от 2008 г.; изм., бр. 5 от 2010 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 16.</num>
+        <content>
+          <p>Когато е задържан чужденец, из­ вършил опит за незаконно преминаване на държавната граница на Република България и заявил, че желае да получи статут, длъж­ ностните лица от Главна дирекция „Гранична полиция“ – МВР: 1. извършват действията, предвидени при задържане на чужденец, извършил опит за незаконно преминаване на държавната гра­ ница на Република България; 2. незабавно изпращат копие от молбата за закрила по електронна поща, факс или с писмо до Държавната агенция за бежанците и уточняват датата, мястото и часа на пре­ даване на чужденеца; 3. предават чужденеца на Държавната аген­ ция за бежанците заедно с всички документи, необходими за определяне на държавата член­ ка, компетентна да разгледа молбата за статут (заповед за задържане, заповеди за налагане на принудителни административни мерки, протокол за обиск, обстоятелствен протокол) и такива, удостоверяващи здравословното му състояние.“</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

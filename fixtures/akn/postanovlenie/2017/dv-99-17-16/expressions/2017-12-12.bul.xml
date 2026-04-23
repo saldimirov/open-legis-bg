@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-16/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-16"/>
+          <FRBRalias value="Постановление № 276 ОТ 8 ДЕКЕМВРИ 2017 Г. за допълнение на Наредбата за допълнител-" name="short"/>
+          <FRBRalias value="Постановление № 276 ОТ 8 ДЕКЕМВРИ 2017 Г. за допълнение на Наредбата за допълнител-" name="eli" other="/eli/bg/postanovlenie/2017/dv-99-17-16"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-16/bul@2017-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-16/bul@2017-12-12"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-16/bul@2017-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-16/bul@2017-12-12.xml"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-12" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 276 ОТ 8 ДЕКЕМВРИ 2017 Г. за допълнение на Наредбата за допълнител-</p>
+      <p>(обн., ДВ, бр. 14 от 2015 г.; изм. и доп., бр. 35 от 2016 г. и бр. 87 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 се създава т. 28: „28. Член 4 на Регламент (ЕС) 2016/2281 на Комисията от 30 ноември 2016 г. за изпъл- нение на Директива 2009/125/ЕО на Евро- пейския парламент и на Съвета за създаване на рамка за определяне на изискванията за екопроектиране към продукти, свързани с енергопотреблението, по отношение на изискванията за екопроектиране на въздухо­ отоплителни продукти, охладителни продукти, високотемпературни технологични охладители на течности и вентилаторни конвектори (ОВ, L 346/1 от 20 декември 2016 г.).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

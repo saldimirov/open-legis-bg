@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-102-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-102-03-11"/>
+          <FRBRalias value="Постановление № 265 от 12 ноември 2003 г. за приемане на Наредба за изискванията към екстрактите от кафе и цикория" name="short"/>
+          <FRBRalias value="Постановление № 265 от 12 ноември 2003 г. за приемане на Наредба за изискванията към екстрактите от кафе и цикория" name="eli" other="/eli/bg/postanovlenie/2003/dv-102-03-11"/>
+          <FRBRdate date="2003-11-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-102-03-11/bul@2003-11-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-102-03-11/bul@2003-11-21"/>
+          <FRBRdate date="2003-11-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-102-03-11/bul@2003-11-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-102-03-11/bul@2003-11-21.xml"/>
+          <FRBRdate date="2003-11-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-21" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 265 от 12 ноември 2003 г. за приемане на Наредба за изискванията към екстрактите от кафе и цикория</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>С наредбата се определят изискванията към наименованията, характеристиките, състава, етикетирането, методите за вземане на проби и методите за анализ на екстрактите от кафе и екстрактите от цикория.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Наредбата не се прилага за разтворимо кафе тип „торефакто&amp;quot;   (cafe torrefacto soluble).</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Наименованията, под които екстрактите от кафе се предлагат на пазара, са: „екстракт от кафе&amp;quot;, „разтворим екстракт от кафе&amp;quot;, „разтворимо кафе&amp;quot; или „инстантно кафе&amp;quot;.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Наименованията по ал. 1 се използват за концентриран продукт, получен чрез екстракция от печено кафе на зърна посредством използване само на вода като екстракционно средство и без прилагане на процес на хидролиза, включващ киселина или основа.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Наименованията, под които екстрактите от цикория се предлагат на пазара, са: „екстракт от цикория&amp;quot;, „разтворима цикория&amp;quot; или „инстантна цикория&amp;quot;.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Наименованията по ал. 1 се използват за концентриран продукт, получен чрез екстракция от печена цикория посредством използване само на вода като екстракционно средство и без прилагане на процес на хидролиза, включващ киселина или основа.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <intro>
+          <p>Към наименованието на продуктите по чл. 2 и 3:</p>
+        </intro>
+        <point eId="art_4__pt_1">
+          <num>1.</num>
+          <content>
+            <p>се добавят според случая думите „кондензиран&amp;quot; или „в пастообразна форма&amp;quot; и „течен&amp;quot; или „в течна форма&amp;quot;;</p>
+          </content>
+        </point>
+        <point eId="art_4__pt_2">
+          <num>2.</num>
+          <content>
+            <p>се допуска добавянето на пояснителната дума „концентриран&amp;quot;, ако съдържанието на сухо вещество е над 25 тегловни процента за продуктите по чл. 6, т. 3 или 45 тегловни процента за продуктите по чл. 9, т. 3.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Продуктите по чл. 2 трябва да съдържат само разтворимите и ароматните съставки на кафето, неразтворимите вещества, които е технологично невъзможно да се отстранят, и неразтворимите мазнини, извлечени от кафето.</p>
+        </content>
+      </article>
+      <article eId="art_6">
+        <num>Чл. 6.</num>
+        <intro>
+          <p>Съдържанието на сухото вещество, извлечено от кафето, в продуктите по чл. 2 следва да е:</p>
+        </intro>
+        <point eId="art_6__pt_1">
+          <num>1.</num>
+          <content>
+            <p>не по-малко от 95 тегловни процента за изсушен екстракт от кафе в твърда форма;</p>
+          </content>
+        </point>
+        <point eId="art_6__pt_2">
+          <num>2.</num>
+          <content>
+            <p>от 70 до 85 тегловни процента за „кондензиран екстракт от кафе&amp;quot; или за „екстракт от кафе в пастообразна форма&amp;quot;;</p>
+          </content>
+        </point>
+        <point eId="art_6__pt_3">
+          <num>3.</num>
+          <content>
+            <p>от 15 до 55 тегловни процента за „течен екстракт от кафе&amp;quot; или за „екстракт от кафе в течна форма&amp;quot;.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_7">
+        <num>Чл. 7.</num>
+        <content>
+          <p>Екстрактите от кафе в твърда или кондензирана форма съдържат само вещества, получени чрез екстракция на кафе.</p>
+        </content>
+      </article>
+      <article eId="art_8">
+        <num>Чл. 8.</num>
+        <paragraph eId="art_8__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Екстрактите от кафе в течна форма могат да съдържат и захари, предназначени за консумация от човека, но не повече от 12 тегловни процента.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_8__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Захарите по ал. 1 могат да бъдат изпечени с кафето или добавени след изпичането му.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_9">
+        <num>Чл. 9.</num>
+        <intro>
+          <p>Съдържанието на сухото вещество, извлечено от цикория, в продуктите по чл. 3 следва да е:</p>
+        </intro>
+        <point eId="art_9__pt_1">
+          <num>1.</num>
+          <content>
+            <p>не по-малко от 95 тегловни процента за изсушен екстракт от цикория в твърда форма;</p>
+          </content>
+        </point>
+        <point eId="art_9__pt_2">
+          <num>2.</num>
+          <content>
+            <p>от 70 до 85 тегловни процента за „кондензиран екстракт от цикория&amp;quot; или за „екстракт от цикория в пастообразна форма&amp;quot;;</p>
+          </content>
+        </point>
+        <point eId="art_9__pt_3">
+          <num>3.</num>
+          <content>
+            <p>от 25 до 55 тегловни процента за „течен екстракт от цикория&amp;quot; или за „екстракт от цикория в течна форма&amp;quot;.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_10">
+        <num>Чл. 10.</num>
+        <content>
+          <p>Екстрактите от цикория в твърда или кондензирана форма могат да съдържат не повече от един тегловен процент вещества, които не се извличат от цикория.</p>
+        </content>
+      </article>
+      <article eId="art_11">
+        <num>Чл. 11.</num>
+        <paragraph eId="art_11__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Екстрактите от цикория в течна форма могат да съдържат и захари, предназначени за консумация от човека, но не повече от 35 тегловни процента.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_11__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Захарите по ал. 1 могат да бъдат изпечени с цикорията или добавени след изпичането й.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_12">
+        <num>Чл. 12.</num>
+        <content>
+          <p>При етикетирането на екстракти от кафе и екстракти от цикория се спазват изискванията на Наредбата за изискванията за етикетирането и представянето на храните, приета с Постановление № 136 на Министерския съвет от 2000 г. (ДВ, бр. 62 от 2000 г.).</p>
+          <p>Чл. 13   . При етикетирането на продукти по чл. 6,  т.2 и 3 и чл. 9,  т.2  и 3 задължително се изписва минималното съдържание на сухо вещество, извлечено съответно от кафе или от цикория, изразено в тегловни проценти от крайния продукт.</p>
+        </content>
+      </article>
+      <article eId="art_13">
+        <num>Чл. 14.</num>
+        <paragraph eId="art_13__al_1">
+          <num>(1)</num>
+          <content>
+            <p>За продуктите по чл. 6,  т.3 и чл. 9, т. 3, които съдържат захари, етикетът трябва да включва някой от изразите „с „с добавена „консервиран с ...&amp;quot; или „изпечен с следван от името (имената) на видовете използвана захар (захари).</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_13__al_2">
+          <num>(2)</num>
+          <content>
+            <p>При етикетирането на продукти по чл. 2 се включва изразът „без кофеин&amp;quot;, ако съдържанието на кофеин е не повече от 0,3 тегловни процента, на база сухо вещество.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_13__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Изразите по ал. 1 и 2 се изписват в същото визуално поле, в което е посочено търговското наименование на продуктите.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_14">
+        <num>Чл. 15.</num>
+        <content>
+          <p>Вземането на проби от екстракти от кафе и екстракти от цикория в насипно състояние се извършва съгласно метод, описан в БДС   ISO   6670, при спазване изискванията на Наредба № 22 от 2003 г. за условията и реда за вземане на проби от храни (ДВ, бр. 93 от 2003 г.).</p>
+        </content>
+      </article>
+      <article eId="art_15">
+        <num>Чл. 16.</num>
+        <intro>
+          <p>За целите на държавния санитарен контрол продуктите се анализират по следните методи:</p>
+        </intro>
+        <point eId="art_15__pt_1">
+          <num>1.</num>
+          <content>
+            <p>определяне съдържанието на сухо вещество съгласно БДС   ISO   3726;</p>
+          </content>
+        </point>
+        <point eId="art_15__pt_2">
+          <num>2.</num>
+          <content>
+            <p>определяне съдържанието на кофеин съгласно БДС   ISO   4052 и БДС   ISO   10095;</p>
+          </content>
+        </point>
+        <point eId="art_15__pt_3">
+          <num>3.</num>
+          <content>
+            <p>определяне съдържанието на общи и свободни въглехидрати съгласно БДС   ISO   11292.</p>
+          </content>
+        </point>
+      </article>
+      <hcontainer eId="sec_add" name="additional-provisions">
+        <num>Допълнителна разпоредба</num>
+        <hcontainer eId="sec_add__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>По смисъла на наредбата „цикория&amp;quot; са корените на растението Цикориум интибус   (Cichorium intybus L.),   подходящо почистени, изсушени и изпечени, които не се използват за получаване на цикория за бланширане.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата се приема на основание чл. 4 от Закона за храните.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Екстрактите от кафе и екстрактите от цикория, които се намират на пазара и са били етикетирани преди 1 юни 2004 г., могат да се продават до изчерпване на наличните количества, но не по-късно от 31 декември 2004 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Контролът по изпълнението на наредбата се осъществява от органите на държавния санитарен контрол.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 юни 2004 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-48-15-2/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-48-15-2"/>
+          <FRBRalias value="Закон за изменение на Закона за Българската на­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за Българската на­" name="eli" other="/eli/bg/zid/2015/dv-48-15-2"/>
+          <FRBRdate date="2015-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-48-15-2/bul@2015-06-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-48-15-2/bul@2015-06-27"/>
+          <FRBRdate date="2015-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-48-15-2/bul@2015-06-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-48-15-2/bul@2015-06-27.xml"/>
+          <FRBRdate date="2015-06-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-27" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за Българската на­</p>
+      <p>(обн., ДВ, бр. 46 от 1997 г.; изм., бр. 49 и 153 от 1998 г., бр. 20 и 54 от 1999 г., бр. 109 от 2001 г., бр. 45 от 2002 г., бр. 10 и 39 от 2005 г., бр. 37, 59 и 108 от 2006 г., бр. 52 и 59 от 2007 г., бр. 24, 42 и 44 от 2009 г., бр. 97 и 101 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 14 ал. 2 се отменя. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

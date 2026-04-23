@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-7/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-7"/>
+          <FRBRalias value="Постановление № 172 от 23 юли 2007 г. за допълнение на Наредбата за реда за определяне на цени на земеделските земи, приета с Постановление № 118 на Министерския съвет от 1998 г." name="short"/>
+          <FRBRalias value="Постановление № 172 от 23 юли 2007 г. за допълнение на Наредбата за реда за определяне на цени на земеделските земи, приета с Постановление № 118 на Министерския съвет от 1998 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-62-07-7"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-7/bul@2007-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-7/bul@2007-07-31"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-7/bul@2007-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-7/bul@2007-07-31.xml"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-31" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 172 от 23 юли 2007 г. за допълнение на Наредбата за реда за определяне на цени на земеделските земи, приета с Постановление № 118 на Министерския съвет от 1998 г.</p>
+      <p>(обн., ДВ, бр. 64 от 1998 г.; изм. и доп., бр. 63 от 1999 г., бр. 98 от 2000 г., бр. 41 и 44 от 2001 г., бр. 96 от 2002 г., бр. 31 от 2003 г., бр. 59 от 2005 г. и бр. 75 и 78 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава § 6:</p>
+            <p>“§ 6. При определянето на цените на земите по чл. 27, ал. 6 ЗСПЗЗ и на земите, незаети със сгради и съоръжения, или на прилежащи площи към тях, но негодни за земеделско ползване и неподлежащи на възстановяване, разположени в обектите на организациите по § 12 от преходните и заключителните разпоредби от ЗСПЗЗ, намиращи се извън урбанизирани територии (населени места и селищни образувания), коефициентът за местоположение по чл. 7, ал. 2, т. 2 се образува, както следва:</p>
+            <p>1. По преписките, постъпили в Министерството на земеделието и горите след 1 януари 2007 г. до влизането в сила на това постановление, които са придружени с извършени преди 1 януари 2007 г. оценки, към константата 0,5 се прибавя коефициентът по чл. 6, ал. 1, т. 3 - таблица № 4, колонка “селскостопански” за неблагоприятно разположение от приложение № 2 към Закона за местните данъци и такси, в размера, определен преди изменението му, обнародвано в “Държавен вестник” - бр. 105 от 2006 г.</p>
+            <p>2. По преписките, постъпили за първи път в Министерството на земеделието и горите след 1 януари 2007 г., които са придружени с извършени след тази дата оценки, към константата 0,5 се прибавя коефициентът по чл. 6, ал. 1, т. 3 - таблица № 4, колонка “селскостопански” за неблагоприятно разположение от приложение № 2 към Закона за местните данъци и такси, в размера, определен след изменението му, обнародвано в “Държавен вестник” - бр. 105 от 2006 г.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

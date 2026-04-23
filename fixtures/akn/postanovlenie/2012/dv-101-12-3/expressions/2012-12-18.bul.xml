@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-3"/>
+          <FRBRalias value="Постановление № 324 ОТ 14 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 256 на" name="short"/>
+          <FRBRalias value="Постановление № 324 ОТ 14 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 256 на" name="eli" other="/eli/bg/postanovlenie/2012/dv-101-12-3"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-3/bul@2012-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-3/bul@2012-12-18"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-3/bul@2012-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-3/bul@2012-12-18.xml"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-18" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 324 ОТ 14 ДЕКЕМВРИ 2012 Г. за изменение на Постановление № 256 на</p>
+      <p>(обн., ДВ, бр. 88 от 2009 г.; изм., бр. 98 от 2009 г., бр. 27 и 64 от 2010 г. и бр. 2, 5, 15, 38, 41 и 59 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 2, ал. 2, т. 9 и ал. 3, на ред № 20 числото „2888“ се заменя с „2426“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В срок два месеца от влизането в сила на постановлението директорите на домовете за медико-социални грижи за деца изготвят и министърът на здравеопазването утвърж­ дава длъжностните разписания на лечебните заведения. За министър-председател: Цветан Цветанов Главен секретар на Министерския съвет: Росен Желязков 11414</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

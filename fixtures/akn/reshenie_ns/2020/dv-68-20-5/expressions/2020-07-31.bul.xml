@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-68-20-5/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-68-20-5"/>
+          <FRBRalias value="Решение за избиране на подуправител на Националния" name="short"/>
+          <FRBRalias value="Решение за избиране на подуправител на Националния" name="eli" other="/eli/bg/reshenie_ns/2020/dv-68-20-5"/>
+          <FRBRdate date="2020-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-68-20-5/bul@2020-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-68-20-5/bul@2020-07-31"/>
+          <FRBRdate date="2020-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-68-20-5/bul@2020-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-68-20-5/bul@2020-07-31.xml"/>
+          <FRBRdate date="2020-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-07-31" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на подуправител на Националния</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>осигурителен институт Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Репуб­ лика България във връзка с чл. 37, ал. 1 от Кодекса за социалното осигуряване Р Е Ш И : Избира Весела Николова Караиванова- Начева за подуправител на Националния осигурителен институт. БРОЙ 68 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 КОНСТИТУЦИОНЕН СЪД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

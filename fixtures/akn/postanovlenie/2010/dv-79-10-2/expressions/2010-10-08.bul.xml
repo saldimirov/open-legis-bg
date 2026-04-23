@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-2"/>
+          <FRBRalias value="Постановление № 216 ОТ 30 СЕПТЕМВРИ 2010 Г. за приемане на Списък на оръжията и на" name="short"/>
+          <FRBRalias value="Постановление № 216 ОТ 30 СЕПТЕМВРИ 2010 Г. за приемане на Списък на оръжията и на" name="eli" other="/eli/bg/postanovlenie/2010/dv-79-10-2"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-2/bul@2010-10-08/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-2/bul@2010-10-08"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-2/bul@2010-10-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-2/bul@2010-10-08.xml"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-08" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 216 ОТ 30 СЕПТЕМВРИ 2010 Г. за приемане на Списък на оръжията и на</p>
+      <p>(обн., ДВ, бр. 80 от 2009 г.; изм., бр. 98 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се чл. 1, приложение № 1 „Спи­ сък на оръжията“ и приложение № 2 „Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос“ от Пос­ тановление № 289 на Министерския съвет от ОФИЦИАЛЕН РАЗДЕЛ СТР. 2 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 79 2009 г. за приемане на Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос, и за одобряване на Тарифа за таксите, които се събират от Министерството на икономиката, енергетиката и туризма по Закона за изпълне­ ние на Регламент на Съвета (ЕО) № 1236/2005 относно търговията с някои стоки, които биха могли да бъдат използвани с цел прилагане на смъртно наказание, изтезания или други форми на жестоко, нечовешко или унизително отнасяне или наказание (ДВ, бр. 98 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се чл. 1 от Постановление № 213 на Министерския съвет от 2008 г. за приемане на Списък на оръжията и Списък на изделията и технологиите с двойна употреба, които под­ лежат на контрол при внос, и за одобряване на Тарифа за таксите, които се събират по Закона за забрана на химическото оръжие и за контрол на токсичните химически вещества и техните прекурсори (обн., ДВ, бр. 80 от 2009 г.; изм., бр. 98 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 2, ал. 1 от Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката, енер­ гетиката и туризма.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

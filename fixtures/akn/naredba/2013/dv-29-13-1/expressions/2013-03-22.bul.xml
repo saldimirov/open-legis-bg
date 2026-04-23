@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-29-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-29-13-1"/>
+          <FRBRalias value="Наредба № Із-553 от 12 март 2013 г. за реда за организиране и осъществяване на" name="short"/>
+          <FRBRalias value="Наредба № Із-553 от 12 март 2013 г. за реда за организиране и осъществяване на" name="eli" other="/eli/bg/naredba/2013/dv-29-13-1"/>
+          <FRBRdate date="2013-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-29-13-1/bul@2013-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-29-13-1/bul@2013-03-22"/>
+          <FRBRdate date="2013-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-29-13-1/bul@2013-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-29-13-1/bul@2013-03-22.xml"/>
+          <FRBRdate date="2013-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-22" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба № Із-553 от 12 март 2013 г. за реда за организиране и осъществяване на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С тази наредба се определя редът за организиране и осъществяване на превантивния контрол (ПК) от органите за пожарна безо­ пасност и защита на населението (ПБЗН) на Министерството на вътрешните работи (МВР) при изпълнение на задачата за осигуряване на защитата при бедствия.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Главна дирекция „Пожарна без­ опасност и защита на населението“ (ГДПБЗН): 1. организира осъществяването на ПК на територията на цялата страна; 2. ръководи, контролира и оценява дейността на Столичното и областните управления „Пожарна безопасност и защита на населението“ (СУПБЗН/ ОУПБЗН) по осъществяването на ПК; 3. осъществява ПК на територията на цялата страна при извършване на проверки, разпоре­ дени от министъра на вътрешните работи, от главния секретар на МВР или от директора на ГДПБЗН – МВР; 4. осъществява ПК на обектите, строежите и инвестиционните проекти, водени на отчет в ГДПБЗН – МВР, съгласно чл. 2, ал. 1, т. 4 от Наредба № Із-1919 от 2011 г. за реда за осъщест­ вяване на държавен противопожарен контрол (ДВ, бр. 61 от 2011 г.), на инфраструктурните строежи, които се изграждат на територията на две и повече области в страната, както и в случаите, определени с друг нормативен акт; 5. осъществява методическа помощ на СУПБЗН/ОУПБЗН при осъществяване на ПК; 6. взаимодейства с органите на държавната власт, юридически лица и еднолични търговци при осъществяването на ПК.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Столичното и областните управления ПБЗН: 1. организират и осъществяват ПК на тери­ торията на определения им район на действие; 2. осъществяват ПК на територията на опре­ деления им район на действие при извършване на проверки, разпоредени от директора на ГДПБЗН или от началника на СУПБЗН/ ОУПБЗН; ОФИЦИАЛЕН РАЗДЕЛ ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

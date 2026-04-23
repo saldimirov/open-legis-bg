@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-57-16-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-57-16-10"/>
+          <FRBRalias value="Постановление № 173 ОТ 13 ЮЛИ 2016 Г. за приемане на Наредба за администриране на нередности по Европейските структурни и инвестиционни фондове" name="short"/>
+          <FRBRalias value="Постановление № 173 ОТ 13 ЮЛИ 2016 Г. за приемане на Наредба за администриране на нередности по Европейските структурни и инвестиционни фондове" name="eli" other="/eli/bg/postanovlenie/2016/dv-57-16-10"/>
+          <FRBRdate date="2016-07-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-57-16-10/bul@2016-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-57-16-10/bul@2016-07-22"/>
+          <FRBRdate date="2016-07-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-57-16-10/bul@2016-07-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-57-16-10/bul@2016-07-22.xml"/>
+          <FRBRdate date="2016-07-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-22" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 173 ОТ 13 ЮЛИ 2016 Г. за приемане на Наредба за администриране на нередности по Европейските структурни и инвестиционни фондове</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Приема Наредба за адми- нистриране на нередности по Европейските структурни и инвестиционни фондове.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

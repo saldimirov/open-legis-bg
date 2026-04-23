@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-5/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-5"/>
+          <FRBRalias value="Постановление № 71 ОТ 15 АПРИЛ 2010 Г. за изменение на Наредбата за изискванията за етикетиране на нови пътнически авто-" name="short"/>
+          <FRBRalias value="Постановление № 71 ОТ 15 АПРИЛ 2010 Г. за изменение на Наредбата за изискванията за етикетиране на нови пътнически авто-" name="eli" other="/eli/bg/postanovlenie/2010/dv-31-10-5"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-5/bul@2010-04-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-5/bul@2010-04-23"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-5/bul@2010-04-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-5/bul@2010-04-23.xml"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-23" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 71 ОТ 15 АПРИЛ 2010 Г. за изменение на Наредбата за изискванията за етикетиране на нови пътнически авто-</p>
+      <p>(обн., ДВ, бр. 76 от 2006 г.; изм., бр. 93 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 2 към чл. 11, ал. 1 се правят следните изменения: 1. В т. 1 думите „164 g/km“ се заменят със „153,5 g/km“. 2. В т. 2 таблицата се изменя така: Клас на енер- гийна ефек- тив- ност Граници на емисиите на СО2 спрямо средната стой- ност на емиси- ите на СО2 на регистрираните нови пътниче- ски автомоби- ли в ЕС (в %) Граници на емисиите на СО2 спрямо средната стой- ност на емиси- ите на СО2 на регистрираните нови пътниче- ски автомобили в ЕС (g/km) А -25% и по-мал- ко СО2≤115 B -15% – -25% 115&lt;СО2≤130 C -5% – -15% 130&lt;СО2≤146 D -5% – +5% 146&lt;СО2&lt;161 E +5% – +15% 161&lt;СО2&lt;177 F +15% – +25% 177≤СО2&lt;192 G +25% и повече СО2≥192 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юли 2010 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

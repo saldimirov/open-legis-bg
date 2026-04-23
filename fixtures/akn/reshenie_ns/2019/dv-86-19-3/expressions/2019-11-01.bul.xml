@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-86-19-3/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-86-19-3"/>
+          <FRBRalias value="Решение за работата на Народното събрание през" name="short"/>
+          <FRBRalias value="Решение за работата на Народното събрание през" name="eli" other="/eli/bg/reshenie_ns/2019/dv-86-19-3"/>
+          <FRBRdate date="2019-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-86-19-3/bul@2019-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-86-19-3/bul@2019-11-01"/>
+          <FRBRdate date="2019-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-86-19-3/bul@2019-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-86-19-3/bul@2019-11-01.xml"/>
+          <FRBRdate date="2019-11-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-11-01" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за работата на Народното събрание през</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>октомври и ноември 2019 г. Народното събрание на основание чл. 74 и чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : 1. Народното събрание не провежда пле­ нарни заседания на 31 октомври и 1 ноември 2019 г. 2. В дните по т. 1 се провеждат заседания на парламентарните комисии. 3. За дните по т. 1 на народните предста­ вители се признават транспортни разходи, извършени само по повод участие в заседания на парламентарните комисии. Решението е прието от 44-то Народно съб­ рание на 30 октомври 2019 г. и е подпечатано с официалния печат на Народното събрание. За председател на Народното събрание: Емил Христов 8314</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

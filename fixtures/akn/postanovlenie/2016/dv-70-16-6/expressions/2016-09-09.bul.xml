@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-70-16-6/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-70-16-6"/>
+          <FRBRalias value="Постановление № 227 ОТ 1 СЕПТЕМВРИ 2016 Г. за допълнение на Постановление № 380 на" name="short"/>
+          <FRBRalias value="Постановление № 227 ОТ 1 СЕПТЕМВРИ 2016 Г. за допълнение на Постановление № 380 на" name="eli" other="/eli/bg/postanovlenie/2016/dv-70-16-6"/>
+          <FRBRdate date="2016-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-70-16-6/bul@2016-09-09/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-70-16-6/bul@2016-09-09"/>
+          <FRBRdate date="2016-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-70-16-6/bul@2016-09-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-70-16-6/bul@2016-09-09.xml"/>
+          <FRBRdate date="2016-09-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-09-09" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 227 ОТ 1 СЕПТЕМВРИ 2016 Г. за допълнение на Постановление № 380 на</p>
+      <p>(обн., ДВ, бр. 3 от 2016 г.; доп., бр. 34 от 2016 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 76 се създават ал. 9 – 11: „</p>
+            <p>(9) Агенция „Митници“ възстановява частта от стойността на акциза по схемата за държавна помощ по реда на чл. 47ж от Закона за подпомагане на земеделските про­ изводители за сметка на централния бюджет чрез Държавен фонд „Земеделие“ до размера по чл. 57 от Закона за държавния бюджет на Република България за 2016 г.</p>
+            <p>(10) Индивидуалните размери на помощ­ та по ал. 9 се изплащат от Държавен фонд „Земеделие“ след превеждането от Агенция „Митници“ по негова сметка на средствата по ал. 9 и след извършени проверки по чл. 37 и при спазване на глава четвърта „а“ и на инструкцията по чл. 47д от Закона за подпо­ магане на земеделските производители. СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 70</p>
+            <p>(11) Заповедта по чл. 47б, ал. 5 от Закона за подпомагане на земеделските произво­ дители се публикува на интернет страни­ цата на Министерството на земеделието и храните.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на получаване на окончателен номер на схемата за държавна помощ в регистъра на държавните помощи на Европейската комисия.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

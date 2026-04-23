@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-1/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-1"/>
+          <FRBRalias value="Решение за освобождаване от длъжност на инспектор" name="short"/>
+          <FRBRalias value="Решение за освобождаване от длъжност на инспектор" name="eli" other="/eli/bg/reshenie_ns/2016/dv-5-16-1"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-1/bul@2016-01-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-1/bul@2016-01-19"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-1/bul@2016-01-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-1/bul@2016-01-19.xml"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-19" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за освобождаване от длъжност на инспектор</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>в Инспектората към Висшия съдебен съвет Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 48, ал. 1, т. 1 от Закона за съдебната власт Р Е Ш И : Освобождава от длъжност като инспектор в Инспектората към Висшия съдебен съвет Моника Георгиева Малинова. Решението е прието от 43-то Народно съб­ рание на 14 януари 2016 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

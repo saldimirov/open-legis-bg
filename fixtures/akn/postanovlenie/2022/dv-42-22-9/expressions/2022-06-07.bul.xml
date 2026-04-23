@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-9/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-9"/>
+          <FRBRalias value="Постановление № 112 ОТ 2 ЮНИ 2022 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 112 ОТ 2 ЮНИ 2022 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2022/dv-42-22-9"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-9/bul@2022-06-07/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-9/bul@2022-06-07"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-9/bul@2022-06-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-9/bul@2022-06-07.xml"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-07" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 112 ОТ 2 ЮНИ 2022 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 48 от 2014 г.; изм. и доп., бр. 55 от 2017 г., бр. 21 от 2019 г., бр. 70 от 2020 г. и бр. 36 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 7 се правят следните изменения и допълнения: 1. В ал. 2 думите „заместник минис- тър-председателят по икономическата и демографската политика“ се заменят с „ми- нистърът на труда и социалната политика“. 2. В ал. 3 думите „министърът на труда и социалната политика“ се заменят със „за- местник-министърът на труда и социалната политика, който е член на съвета“. 3. В ал. 4, т. 1 след думата „икономиката“ се добавя „и индустрията“, думите „земе- делието, храните и горите“ се заменят със „земеделието“ и накрая се поставят точка и запетая и се добавя „иновациите и растежа; електронното управление“. СТР. 14 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 42 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Калина Константинова За главен секретар на Министерския съвет: Росен Кожухаров 3389</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

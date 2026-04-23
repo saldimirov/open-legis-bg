@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-11"/>
+          <FRBRalias value="Постановление № 84 ОТ 25 АПРИЛ 2012 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 84 ОТ 25 АПРИЛ 2012 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2012/dv-34-12-11"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-11/bul@2012-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-11/bul@2012-05-04"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-11/bul@2012-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-11/bul@2012-05-04.xml"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-04" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 84 ОТ 25 АПРИЛ 2012 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1 накрая се добавя „или друго безвъзмездно финансиране, предоста­ вено чрез Предприятието за управление на дейностите по опазване на околната среда“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 10 се правят следните изменения и допълнения: 1. В ал. 1 накрая се добавя „или друго безвъзмездно финансиране, предоставено чрез Предприятието за управление на дейностите по опазване на околната среда“. 2. Създава се нова ал. 2: „</p>
+            <p>(2) Предприятието за управление на дейностите по опазване на околната среда предоставя средствата към общините чрез трансфер в размер, ненадвишаващ сумите, определени в програмата по чл. 8, ал. 1 за всяка община, след провеждане на процедури по реда на Закона за обществените поръчки за избор на изпълнител.“ 3. Досегашната ал. 2 става ал. 3 и в нея думата „трансфери“ се заменя със „средства по ал. 1“. 4. Създава се ал. 4: „</p>
+            <p>(4) Министърът на финансите може да предоставя временни безлихвени заеми на основание чл. 33 от Закона за устройството на държавния бюджет по бюджета на Ми­ нистерството на околната среда и водите за изпълнение на програмата по чл. 8, ал. 1 от Предприятието за управление на дейностите по опазване на околната среда.“ СТР. 6 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 34 Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В едноседмичен срок от влизането в сила на постановлението общините, получили трансфери през 2010 и 2011 г., възстановяват получените средства по сметка на централния бюджет, в случай че към същата дата все още нямат сключени договори с изпълнители на проектите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

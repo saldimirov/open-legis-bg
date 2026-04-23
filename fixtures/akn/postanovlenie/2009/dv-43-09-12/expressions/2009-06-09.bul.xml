@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-12"/>
+          <FRBRalias value="Постановление № 136 ОТ 29 МАЙ 2009 Г. за изменение и допълнение на Правилника за организацията и дейността на Междуве­" name="short"/>
+          <FRBRalias value="Постановление № 136 ОТ 29 МАЙ 2009 Г. за изменение и допълнение на Правилника за организацията и дейността на Междуве­" name="eli" other="/eli/bg/postanovlenie/2009/dv-43-09-12"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-12/bul@2009-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-12/bul@2009-06-09"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-12/bul@2009-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-12/bul@2009-06-09.xml"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-09" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 136 ОТ 29 МАЙ 2009 Г. за изменение и допълнение на Правилника за организацията и дейността на Междуве­</p>
+      <p>(обн., ДВ, бр. 40 от 2007 г.; изм. и доп., бр. 53 и 65 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 20 се правят следните изменения и допълнения: 1. Създава се нова ал. 2: „</p>
+            <p>(2) Областните управители внасят искания за имоти – държавна собственост, които те уп­ равляват, включително при условията на чл. 18, ал. 1 от Закона за държавната собственост.“ 2. Досегашната ал. 2 става ал. 3. 3. Създава се ал. 4: „</p>
+            <p>(4) Искания в случаите по ал. 3 могат да внасят и съответните областни управители.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 25 се правят следните изменения и допълнения: 1. Досегашният текст става ал. 1. 2. Създава се ал. 2: „</p>
+            <p>(2) В случаите по чл. 20, ал. 2 и 4 средствата се предоставят на областните управители чрез министъра на държавната администрация и административната реформа.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

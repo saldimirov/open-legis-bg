@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-32-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-32-11-14"/>
+          <FRBRalias value="Постановление № 95 ОТ 11 АПРИЛ 2011 Г. за изменение на Постановление № 44 на" name="short"/>
+          <FRBRalias value="Постановление № 95 ОТ 11 АПРИЛ 2011 Г. за изменение на Постановление № 44 на" name="eli" other="/eli/bg/postanovlenie/2011/dv-32-11-14"/>
+          <FRBRdate date="2011-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-32-11-14/bul@2011-04-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-32-11-14/bul@2011-04-19"/>
+          <FRBRdate date="2011-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-32-11-14/bul@2011-04-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-32-11-14/bul@2011-04-19.xml"/>
+          <FRBRdate date="2011-04-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-19" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 95 ОТ 11 АПРИЛ 2011 Г. за изменение на Постановление № 44 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 след думата „суверени­ тет“ се поставя запетая и думите „и полети за търсене и спасяване“ се заменят със „за търсене и спасяване, медицинска евакуация, антитерористични операции и свързаните с тях тренировъчни мисии и учения“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 12 април 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

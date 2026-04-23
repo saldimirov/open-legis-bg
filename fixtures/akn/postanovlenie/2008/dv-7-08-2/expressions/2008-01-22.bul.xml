@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-2/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-2"/>
+          <FRBRalias value="Постановление № 3 от 15 януари 2008 г. за изменение на Наредбата за условията, на които трябва да отговарят качествените вина, произведени в определен район, реда и начина за тяхното утвърждаване, приета с Постановление № 53 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 3 от 15 януари 2008 г. за изменение на Наредбата за условията, на които трябва да отговарят качествените вина, произведени в определен район, реда и начина за тяхното утвърждаване, приета с Постановление № 53 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-7-08-2"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-2/bul@2008-01-22/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-2/bul@2008-01-22"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-7-08-2/bul@2008-01-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-7-08-2/bul@2008-01-22.xml"/>
+          <FRBRdate date="2008-01-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-01-22" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 3 от 15 януари 2008 г. за изменение на Наредбата за условията, на които трябва да отговарят качествените вина, произведени в определен район, реда и начина за тяхното утвърждаване, приета с Постановление № 53 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 31 от 2000 г.; изм. и доп., бр. 82 от 2001 г., бр. 8 от 2002 г., бр. 31 от 2003 г. и бр. 23 и 78 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 46, ал. 3 думите “Наредбата за вземане на проби и методите за анализ за установяване на състава на продуктите по чл. 34, ал. 4 от Закона за виното и спиртните напитки” се заменят с “Наредбата за контрола и координацията на контрола върху вината, спирта, дестилатите и спиртните напитки, приета с Постановление № 232 на Министерския съвет от 2005 г. (обн., ДВ, бр. 99 от 2005 г.; изм. и доп., бр. 110 от 2007 г.)”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 59б, ал. 2 т. 1 се изменя така:</p>
+            <p>“1. анализно свидетелство за извършен анализ на проба от качественото вино, издадено от лабораториите на ИАЛВ, съгласно изискванията на Наредбата за контрола и координацията на контрола върху вината, спирта, дестилатите и спиртните напитки; пробите се вземат от производителя в присъствието на представител на ИАЛВ;”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

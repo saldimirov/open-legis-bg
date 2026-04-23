@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-56-22-20/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-56-22-20"/>
+          <FRBRalias value="Постановление № 176 ОТ 14 ЮЛИ 2022 Г. за одобряване на допълнителни трансфери за" name="short"/>
+          <FRBRalias value="Постановление № 176 ОТ 14 ЮЛИ 2022 Г. за одобряване на допълнителни трансфери за" name="eli" other="/eli/bg/postanovlenie/2022/dv-56-22-20"/>
+          <FRBRdate date="2022-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-56-22-20/bul@2022-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-56-22-20/bul@2022-07-19"/>
+          <FRBRdate date="2022-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-56-22-20/bul@2022-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-56-22-20/bul@2022-07-19.xml"/>
+          <FRBRdate date="2022-07-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-07-19" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 176 ОТ 14 ЮЛИ 2022 Г. за одобряване на допълнителни трансфери за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни транс- фери в размер на 5 500 000 лв. чрез бюджета на Министерството на земеделието за 2022 г. за Селскостопанската академия за увеличение на трудовите възнаграждения на работещите в Селскостопанската академия за изпълнение на научно-приложната, иновативната и образо- вателната дейност в областта на земеделието и храните.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят за сметка на предвидените разходи по централния бюджет за 2022 г. за изпълнение на политики по чл. 1, ал. 5, т. 1.3 от Закона за държавния бюджет на Република България за 2022 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на земеделието да из- върши съответните промени по бюджета на Министерството на земеделието за 2022 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да из- върши произтичащите от чл. 1 промени по централния бюджет за 2022 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 3 от Закона за публичните финанси и чл. 1, ал. 5, т. 1.3 от Закона за държавния бюджет на Република България за 2022 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на земеделието и на председателя на Селскостопанската академия.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

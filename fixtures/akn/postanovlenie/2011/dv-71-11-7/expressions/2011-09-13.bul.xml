@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-7/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-7"/>
+          <FRBRalias value="Постановление № 255 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Тарифата за таксите, които се" name="short"/>
+          <FRBRalias value="Постановление № 255 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Тарифата за таксите, които се" name="eli" other="/eli/bg/postanovlenie/2011/dv-71-11-7"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-7/bul@2011-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-7/bul@2011-09-13"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-7/bul@2011-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-7/bul@2011-09-13.xml"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 255 ОТ 7 СЕПТЕМВРИ 2011 Г. за изменение на Тарифата за таксите, които се</p>
+      <p>(обн., ДВ, бр. 69 от 2003 г.; изм. и доп., бр. 55 от 2004 г., бр. 56 и 65 от 2005 г., бр. 105 от 2006 г., бр. 110 от 2007 г., бр. 71 от 2008 г. и бр. 65 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на тарифата думите „и фуражите“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения: 1. В т. 3: а) в буква „а“ числото „118“ се заменя със „110“; б) буква „б“ се отменя. 2. Точка 4 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 8, т. 1 буква „к“ се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В параграф единствен от заключителната разпоредба думите „и чл. 17, ал. 4 от Закона за фуражите“ се заличават.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

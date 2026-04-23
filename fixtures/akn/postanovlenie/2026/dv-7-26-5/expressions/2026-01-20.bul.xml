@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-7-26-5/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-7-26-5"/>
+          <FRBRalias value="Постановление № 10 от 15 януари 2026 г. за изменение и допълнение на Постановление № 138 на Министерския съвет от 2014 г. за създаване на Национален съвет по демографска политика към Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 10 от 15 януари 2026 г. за изменение и допълнение на Постановление № 138 на Министерския съвет от 2014 г. за създаване на Национален съвет по демографска политика към Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2026/dv-7-26-5"/>
+          <FRBRdate date="2026-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-7-26-5/bul@2026-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-7-26-5/bul@2026-01-20"/>
+          <FRBRdate date="2026-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-7-26-5/bul@2026-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-7-26-5/bul@2026-01-20.xml"/>
+          <FRBRdate date="2026-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-01-20" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 10 от 15 януари 2026 г. за изменение и допълнение на Постановление № 138 на Министерския съвет от 2014 г. за създаване на Национален съвет по демографска политика към Министерския съвет</p>
+      <p>(обн., ДВ, бр. 48 от 2014 г.; изм. и доп., бр. 55 от 2017 г., бр. 21 от 2019 г., бр. 70 от 2020 г. и бр. 36 и 42 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, т. 2 думите „Националната концепция за насърчаване на активния живот на възрастните хора (2012 – 2030 г.)“ се заменят с „Националната стратегия за активен живот на възрастните хора в България (2019 – 2030 г.)“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 7, ал. 4, т. 1 след думата „земеделието“ се добавя „и храните“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

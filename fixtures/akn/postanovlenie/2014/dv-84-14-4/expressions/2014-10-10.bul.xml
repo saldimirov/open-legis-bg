@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-84-14-4/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-84-14-4"/>
+          <FRBRalias value="Постановление № 310 ОТ 2 ОКТОМВРИ 2014 Г. за изменение и допълнение на Постановле­" name="short"/>
+          <FRBRalias value="Постановление № 310 ОТ 2 ОКТОМВРИ 2014 Г. за изменение и допълнение на Постановле­" name="eli" other="/eli/bg/postanovlenie/2014/dv-84-14-4"/>
+          <FRBRdate date="2014-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-84-14-4/bul@2014-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-84-14-4/bul@2014-10-10"/>
+          <FRBRdate date="2014-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-84-14-4/bul@2014-10-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-84-14-4/bul@2014-10-10.xml"/>
+          <FRBRdate date="2014-10-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-10-10" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 310 ОТ 2 ОКТОМВРИ 2014 Г. за изменение и допълнение на Постановле­</p>
+      <p>(обн., ДВ, бр. 15 от 2014 г.; изм., бр. 61 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. Точки 3, 4, 6 и 13 се изменят така: „ 3. Доставка на периметрови сигнално-охранителни сис­ теми (ПСОС) за наблюдение на чувствителни участъци от зелена граница. Изграждане на система за получаване на картина от всички ПСОС в ре­ гионалните координацион­ни центрове (РКЦ) и национал­ ния координационен център (НКЦ) МВР 410 000 4. Следгаранционна поддръжка на радиационни портални монитори МВР 255 200 6. Доставка на гуми за патрулни автомобили на Главна дирек­ ция „Гранична полиция“ МВР 200 000 13. Придобиване, ремонт, обза­ веждане и оборудване на ад­ министративни сгради за гра­ нични полицейски участъци и групи за охрана на държавната граница по българо-турската и по черноморската граница МВР 700 380 “ 2. Създават се т. 19, 20 и 21: „ 19. Доставка на акумулаторни батерии за носими термови­ зионни камери за наблюдение на зелена граница МВР 70 000 20. Доставка на халогенни про­ жекторни станции и генера­ тори за тях за наблюдение на рискови участъци от българо- турската граница МВР 30 000 21. Машинна обработка с херби­ циди на сервитута на изграде­ ната интегрирана система за наблюдение на българо-тур­ ската граница против трева и ниска растителност МВР 40 000 “ Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Министърът на вътрешните работи може да извършва компенсирани промени между отделните дейности по приложението към чл. 1, ал. 1, за които Министерството на вътрешните работи е определено за отго­ ворно ведомство, в рамките на одобрените му с постановлението допълнителни разходи за 2014 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

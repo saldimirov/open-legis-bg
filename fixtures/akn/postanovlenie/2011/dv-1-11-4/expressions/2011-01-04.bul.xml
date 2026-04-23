@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-1-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-1-11-4"/>
+          <FRBRalias value="Постановление № 320 ОТ 27 ДЕКЕМВРИ 2010 Г. за одобряване финансирането на проекти," name="short"/>
+          <FRBRalias value="Постановление № 320 ОТ 27 ДЕКЕМВРИ 2010 Г. за одобряване финансирането на проекти," name="eli" other="/eli/bg/postanovlenie/2011/dv-1-11-4"/>
+          <FRBRdate date="2011-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-1-11-4/bul@2011-01-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-1-11-4/bul@2011-01-04"/>
+          <FRBRdate date="2011-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-1-11-4/bul@2011-01-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-1-11-4/bul@2011-01-04.xml"/>
+          <FRBRdate date="2011-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-04" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 320 ОТ 27 ДЕКЕМВРИ 2010 Г. за одобряване финансирането на проекти,</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява финансирането на про- екти, свързани с изпълнението на неотложни мерки за присъединяването на Република Бъл- гария към Шенгенското пространство, на обща стойност 10 946 220 лв. съгласно приложението.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата за изпълнението на проектите по ал. 1 да се осигурят чрез преструктуриране на разходите по централния бюджет за 2011 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по предло- жение на съответните разпоредители с бюджетни кредити да извършва текущо компенсирани про- мени между централния бюджет и бюджетите на Министерския съвет, Министерството на вътреш- ните работи, Министерството на финансите и Ми- нистерството на транспорта, информационните технологии и съобщенията за 2011 г. на базата на действително извършените разходи до размера по чл. 1, ал. 1. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите, на ми- нистъра на вътрешните работи, на министъра на транспорта, информационните технологии и съобщенията и на главния секретар на Ми- нистерския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

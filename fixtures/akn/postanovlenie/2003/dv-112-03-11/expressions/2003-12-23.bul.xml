@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-112-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-112-03-11"/>
+          <FRBRalias value="Постановление № 306 от 19 декември 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на отбраната" name="short"/>
+          <FRBRalias value="Постановление № 306 от 19 декември 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на отбраната" name="eli" other="/eli/bg/postanovlenie/2003/dv-112-03-11"/>
+          <FRBRdate date="2003-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-112-03-11/bul@2003-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-112-03-11/bul@2003-12-23"/>
+          <FRBRdate date="2003-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-112-03-11/bul@2003-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-112-03-11/bul@2003-12-23.xml"/>
+          <FRBRdate date="2003-12-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-23" name="Държавен вестник" number="112" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 306 от 19 декември 2003 г. за предоставяне на допълнителни средства от централния бюджет за 2003 г. по бюджета на Министерството на отбраната</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да предостави от централния бюджет за 2003 г. по бюджета на Министерството на отбраната допълнителни средства в размер до 90 000 000 лв. за изплащане на еднократни парични обезщетения на кадровите военнослужещи, срокът на предизвестие на които изтича през декември 2003 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят от икономии на разходите и/или от преизпълнение на приходите по републиканския бюджет за 2003 г. по реда на чл. 34, ал. 1 и/или чл. 35, ал. 2 от Закона за устройството на държавния бюджет.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по бюджета на Министерството на отбраната за 2003 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на отбраната.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2003 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-12"/>
+          <FRBRalias value="Постановление № 347 от 18 декември 2006 г. за изменение на Постановление № 20 на Министерския съвет от 2000 г. за определяне на лечебните заведения по чл. 5, ал. 1 от Закона за лечебните заведения и на техните специфични функции" name="short"/>
+          <FRBRalias value="Постановление № 347 от 18 декември 2006 г. за изменение на Постановление № 20 на Министерския съвет от 2000 г. за определяне на лечебните заведения по чл. 5, ал. 1 от Закона за лечебните заведения и на техните специфични функции" name="eli" other="/eli/bg/postanovlenie/2006/dv-106-06-12"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-12/bul@2006-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-12/bul@2006-12-27"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-12/bul@2006-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-12/bul@2006-12-27.xml"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-27" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 347 от 18 декември 2006 г. за изменение на Постановление № 20 на Министерския съвет от 2000 г. за определяне на лечебните заведения по чл. 5, ал. 1 от Закона за лечебните заведения и на техните специфични функции</p>
+      <p>(обн., ДВ, бр. 17 от 2000 г.; доп., бр. 84 от 2000 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

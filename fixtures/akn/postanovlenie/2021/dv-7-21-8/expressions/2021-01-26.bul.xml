@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-8/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-8"/>
+          <FRBRalias value="Постановление № 13 ОТ 21 ЯНУАРИ 2021 Г. за приемане на актуализиран Списък на" name="short"/>
+          <FRBRalias value="Постановление № 13 ОТ 21 ЯНУАРИ 2021 Г. за приемане на актуализиран Списък на" name="eli" other="/eli/bg/postanovlenie/2021/dv-7-21-8"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-8/bul@2021-01-26/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-8/bul@2021-01-26"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-8/bul@2021-01-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-8/bul@2021-01-26.xml"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-26" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 13 ОТ 21 ЯНУАРИ 2021 Г. за приемане на актуализиран Списък на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема актуализиран Списък на защитените от държавата специалности от професии за учебната 2021/2022 година съг­ ласно приложение № 1.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Приема актуализиран Списък със специалности от професии, по които е налице очакван недостиг от специалисти на пазара на труда, за учебната 2021/2022 година съгласно приложение № 2. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Списъците по чл. 1 и 2 се прилагат от учебната 2021/2022 година за учениците, приети в VIII клас по държавния прием.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 6а, ал. 5 от Закона за професионалното образование и обучение.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

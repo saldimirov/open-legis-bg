@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-2/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-2"/>
+          <FRBRalias value="Постановление № 182 от 31 юли 2007 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 149 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 182 от 31 юли 2007 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 149 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-65-07-2"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-2/bul@2007-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-2/bul@2007-08-10"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-65-07-2/bul@2007-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-65-07-2/bul@2007-08-10.xml"/>
+          <FRBRdate date="2007-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-08-10" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 182 от 31 юли 2007 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 149 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 52 от 2006 г.; изм. и доп.,  бр. 3 и 22 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 14, ал. 2 числото “173” се заменя със “174”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 14, ал. 3 се правят следните изменения:</p>
+            <p>1. На ред “Численост на персонала в организационните структури и административните звена в Министерството на културата” числото “173” се заменя със “174”.</p>
+            <p>2. На ред “Специализирана администрация” числото “105” се заменя със “106”.</p>
+            <p>3. На ред “дирекция “Европейска интеграция и международно сътрудничество” числото “15” се заменя с “16”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

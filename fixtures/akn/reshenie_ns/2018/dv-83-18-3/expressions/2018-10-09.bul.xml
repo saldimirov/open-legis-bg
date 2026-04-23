@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-3/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-3"/>
+          <FRBRalias value="Решение за избиране на съдия в Конституционния съд на Република България" name="short"/>
+          <FRBRalias value="Решение за избиране на съдия в Конституционния съд на Република България" name="eli" other="/eli/bg/reshenie_ns/2018/dv-83-18-3"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-3/bul@2018-10-09/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-3/bul@2018-10-09"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-3/bul@2018-10-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-3/bul@2018-10-09.xml"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-10-09" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на съдия в Конституционния съд на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 във връзка с чл. 147, ал. 1, 2 и 3, чл. 148, ал. 1, т. 1 от Конституцията на Република Бъл- гария и чл. 4 от Закона за Конституционен съд Р Е Ш И : Избира Красимир Красимиров Влахов за съдия в Конституционния съд на Република България. Решението е прието от 44-то Народно съб- рание на 5 октомври 2018 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

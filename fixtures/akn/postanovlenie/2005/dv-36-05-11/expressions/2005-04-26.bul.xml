@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-36-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-36-05-11"/>
+          <FRBRalias value="Постановление № 69 от 19 април 2005 г. за утвърждаване числеността на военнослужещите от въоръжените сили в обхвата на едно военно звание" name="short"/>
+          <FRBRalias value="Постановление № 69 от 19 април 2005 г. за утвърждаване числеността на военнослужещите от въоръжените сили в обхвата на едно военно звание" name="eli" other="/eli/bg/postanovlenie/2005/dv-36-05-11"/>
+          <FRBRdate date="2005-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-36-05-11/bul@2005-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-36-05-11/bul@2005-04-26"/>
+          <FRBRdate date="2005-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-36-05-11/bul@2005-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-36-05-11/bul@2005-04-26.xml"/>
+          <FRBRdate date="2005-04-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-26" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 69 от 19 април 2005 г. за утвърждаване числеността на военнослужещите от въоръжените сили в обхвата на едно военно звание</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-2/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-2"/>
+          <FRBRalias value="Постановление № 186 от 21 август 2003 г. за приемане на Устройствен правилник на Министерството на външните работи" name="short"/>
+          <FRBRalias value="Постановление № 186 от 21 август 2003 г. за приемане на Устройствен правилник на Министерството на външните работи" name="eli" other="/eli/bg/postanovlenie/2003/dv-76-03-2"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-2/bul@2003-08-29/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-2/bul@2003-08-29"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-2/bul@2003-08-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-2/bul@2003-08-29.xml"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-08-29" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 186 от 21 август 2003 г. за приемане на Устройствен правилник на Министерството на външните работи</p>
+      <p>(обн., ДВ, бр. 1 от 2002 г.; попр., бр. 7 от 2002 г.; изм. и доп., бр. 85 и 119 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 294 на Министерския съвет от 2001 г. за приемане на Ус-тройствен правилник на Министерството на вътрешните работи (обн., ДВ, бр. 1 от 2002 г.; попр., бр. 7 от 2002 г.; изм. и доп., бр. 85 и 119 от 2002 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5, ал. 2, т. 3 от Постановление № 221 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на външните работи и за преобразуване и закриване на административни структури към министъра на външните работи (обн., ДВ, бр. 105 от 1999 г.; изм. и доп., бр. 7, 12 и 16 от 2000 г., бр. 97 от 2001 г. и бр. 85 от 2002 г.) след думата „дипломатическите&amp;quot; се добавя „и консулските&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot; с изключение на чл. 45 от устройствения правилник, който влиза в сила от 1 януари 2003 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

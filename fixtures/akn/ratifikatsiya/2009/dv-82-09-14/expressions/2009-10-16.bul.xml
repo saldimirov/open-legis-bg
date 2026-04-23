@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-14"/>
+          <FRBRalias value="Закон за ратифициране на Учредителния договор на" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Учредителния договор на" name="eli" other="/eli/bg/ratifikatsiya/2009/dv-82-09-14"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-14/bul@2009-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-14/bul@2009-10-16"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-14/bul@2009-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-14/bul@2009-10-16.xml"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Учредителния договор на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Международната банка за възстановяване и развитие (с измененията, в сила към 16 фев­ руари 1989 г.) заедно с неговото изменение, прието с Решение № 596 на Управителния съвет на банката от 30 януари 2009 г. Член единствен. Ратифицира Учредителния договор на Международната банка за въз­ становяване и развитие (с измененията към него, в сила към 16 февруари 1989 г.) заедно с неговото изменение, прието с Решение № 596 на Управителния съвет на Междуна­ родната банка за възстановяване и развитие от 30 януари 2009 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

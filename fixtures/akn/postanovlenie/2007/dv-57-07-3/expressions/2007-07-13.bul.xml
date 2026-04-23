@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-3/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-3"/>
+          <FRBRalias value="Постановление № 156 от 4 юли 2007 г. за допълнение на Наредбата относно съдържанието, структурата, условията и реда за предоставяне на информацията, предвидена в правото на Европейските общности в областта на енергетиката, на институции на Европейските общности, приета с Постановление № 332 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 156 от 4 юли 2007 г. за допълнение на Наредбата относно съдържанието, структурата, условията и реда за предоставяне на информацията, предвидена в правото на Европейските общности в областта на енергетиката, на институции на Европейските общности, приета с Постановление № 332 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-57-07-3"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-3/bul@2007-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-3/bul@2007-07-13"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-57-07-3/bul@2007-07-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-57-07-3/bul@2007-07-13.xml"/>
+          <FRBRdate date="2007-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-13" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 156 от 4 юли 2007 г. за допълнение на Наредбата относно съдържанието, структурата, условията и реда за предоставяне на информацията, предвидена в правото на Европейските общности в областта на енергетиката, на институции на Европейските общности, приета с Постановление № 332 на Министерския съвет от 2006 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 6б.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Производителите, вносителите, лицата, осъществяващи доставки от държави - членки на Европейския съюз, преработвателите и търговците на нефт и нефтопродукти предоставят на министъра на икономика и енергетиката дължимата информация съгласно Решение № 1999/280/ЕО на Съвета относно процедура на Общността за информиране и консултиране за доставните цени на суровия нефт и потребителски цени на нефтопродуктите и Решение № 1999/566/ЕО на Съвета за прилагане на Решение 1999/280/ЕО на Съвета в указания в решенията табличен формат и при спазване на указанията за попълване на таблиците.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Информацията по ал. 1 се предоставя ежемесечно до 20-о число на съответния месец с изключение на информацията за потребителските цени на нефтопродуктите, без мита и такси, които са в сила всеки понеделник, която се предоставя всеки понеделник в срок до 14,00 ч.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Министърът на икономиката и енергетиката предоставя на Европейската комисия информацията по ал. 1 по съответния ред и в сроковете, посочени в решенията по ал. 1.”</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

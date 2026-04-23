@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-8"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за съз­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за съз­" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-57-11-8"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-8/bul@2011-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-8/bul@2011-07-26"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-57-11-8/bul@2011-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-57-11-8/bul@2011-07-26.xml"/>
+          <FRBRdate date="2011-07-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-26" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за съз­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>даване на Международна академия по проти­ водействие на корупцията като международна организация Член единствен. Ратифицира Споразумение­ то за създаване на Международна академия по противодействие на корупцията като междуна­ родна организация, подписано на 2 септември 2010 г. във Виена.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

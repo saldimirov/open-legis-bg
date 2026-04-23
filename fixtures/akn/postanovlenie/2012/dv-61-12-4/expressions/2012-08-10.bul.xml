@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-4"/>
+          <FRBRalias value="Постановление № 170 ОТ 2 АВГУСТ 2012 г. за предоставяне на средства на Българския" name="short"/>
+          <FRBRalias value="Постановление № 170 ОТ 2 АВГУСТ 2012 г. за предоставяне на средства на Българския" name="eli" other="/eli/bg/postanovlenie/2012/dv-61-12-4"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-4/bul@2012-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-4/bul@2012-08-10"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-4/bul@2012-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-4/bul@2012-08-10.xml"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-10" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 170 ОТ 2 АВГУСТ 2012 г. за предоставяне на средства на Българския</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Предоставя на Българския Червен кръст средства от централния бюджет за 2012 г. в размер 700 000 лв. за транспортни и административни разходи в изпълнение на Регламент за изпълнение № 208/2012 на Европейската комисия от 9 март 2012 г. за изменение на Регламент за изпълнение (ЕС) № 562/2011 за приемане на план относно разпределянето между държавите членки на ресурси, начислими към бюджетната 2012 г., за снабдяването с храна от интервенционните складове в полза на най-нуждаещите се лица в Европейския съюз и за дерогация от някои разпоредби на Регламент (ЕС) № 807/2010 (ОВ, L 72 от 10.03.2012 г.).</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата за изпълнение на пос­ тановлението да се осигурят за сметка на целевите разходи, планирани в централния бюджет на Република България за 2012 г., съгласно чл. 34, ал. 1 от Закона за устрой­ ството на държавния бюджет. Заключителна разпоредба Параграф единствен. Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

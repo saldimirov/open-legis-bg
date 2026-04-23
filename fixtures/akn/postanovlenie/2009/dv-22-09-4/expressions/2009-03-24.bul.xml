@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-22-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-22-09-4"/>
+          <FRBRalias value="Постановление № 56 от 14 март 2009 г. за изменение и допълнение на Постановление № 182 на Министерския съвет от 2006 г. за създаване на комитети за наблюдение на Националната стратегическа референтна рамка и оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз" name="short"/>
+          <FRBRalias value="Постановление № 56 от 14 март 2009 г. за изменение и допълнение на Постановление № 182 на Министерския съвет от 2006 г. за създаване на комитети за наблюдение на Националната стратегическа референтна рамка и оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз" name="eli" other="/eli/bg/postanovlenie/2009/dv-22-09-4"/>
+          <FRBRdate date="2009-03-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-22-09-4/bul@2009-03-24/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-22-09-4/bul@2009-03-24"/>
+          <FRBRdate date="2009-03-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-22-09-4/bul@2009-03-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-22-09-4/bul@2009-03-24.xml"/>
+          <FRBRdate date="2009-03-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-03-24" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 56 от 14 март 2009 г. за изменение и допълнение на Постановление № 182 на Министерския съвет от 2006 г. за създаване на комитети за наблюдение на Националната стратегическа референтна рамка и оперативните програми, съфинансирани от Структурните фондове и Кохезионния фонд на Европейския съюз</p>
+      <p>(обн., ДВ, бр. 62 от 2006 г.; изм. и доп., бр. 90 от 2006 г., бр. 78 от 2007 г. и  бр. 29, 66, 80 и 103 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 3, т. 1 думите “ръководителят на сертифициращия орган и” се заличават.</p>
+            <p>2. В ал. 11 след думите “ръководителят на одитния орган” се поставя запетая и се добавя “ръководителят на сертифициращия орган или определени от него служители на дирекция “Национален фонд”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

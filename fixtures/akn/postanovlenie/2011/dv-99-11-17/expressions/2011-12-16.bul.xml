@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-17/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-17"/>
+          <FRBRalias value="Постановление № 333 ОТ 7 ДЕКЕМВРИ 2011 Г. за изменение на Устройствения правилник на" name="short"/>
+          <FRBRalias value="Постановление № 333 ОТ 7 ДЕКЕМВРИ 2011 Г. за изменение на Устройствения правилник на" name="eli" other="/eli/bg/postanovlenie/2011/dv-99-11-17"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-17/bul@2011-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-17/bul@2011-12-16"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-17/bul@2011-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-17/bul@2011-12-16.xml"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-16" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 333 ОТ 7 ДЕКЕМВРИ 2011 Г. за изменение на Устройствения правилник на</p>
+      <p>(обн., ДВ, бр. 93 от 2009 г.; попр., бр. 95 от 2009 г.; изм. и доп., бр. 73, 74 и 96 от 2010 г. и бр. 16, 33, 52 и 78 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думата „трима“ се заменя с „четирима“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 11, ал. 2 числото „686“ се заменя с „687“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложението към чл. 6, ал. 8 и чл. 11, ал. 3 се правят следните изменения: 1. В наименованието числото „686“ се за­ меня с „687“. 2. На ред „Политически кабинет“ числото „12“ се заменя с „13“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

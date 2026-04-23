@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-7/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-7"/>
+          <FRBRalias value="Решение  за  изменение и допълнение на Правилника за организацията и дейността на Народното събрание" name="short"/>
+          <FRBRalias value="Решение  за  изменение и допълнение на Правилника за организацията и дейността на Народното събрание" name="eli" other="/eli/bg/pravilnik/2008/dv-110-08-7"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-7/bul@2008-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-7/bul@2008-12-30"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-110-08-7/bul@2008-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-110-08-7/bul@2008-12-30.xml"/>
+          <FRBRdate date="2008-12-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-30" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение  за  изменение и допълнение на Правилника за организацията и дейността на Народното събрание</p>
+      <p>(обн., ДВ, бр. 69 от 2005 г.; изм. и доп., бр. 74 от 2005 г., бр. 101 от 2006 г., бр. 18, 26 и 107 от 2007 г., бр. 85 и бр. 99 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 от Финансовите правила по бюджета на Народното събрание - приложение към правилника, се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 4:</p>
+            <p>“(4) От бюджета на Народното събрание могат да се финансират и конкретни проекти и програми, свързани с формиране на демократична гражданска култура, лидерски умения и демократични практики в процеса на вземане на решения, както и курсове за квалификация на народни представители и лидери от всички парламентарно представени политически сили с оглед членството на Република България в Европейския съюз.”</p>
+            <p>2. Досегашната ал. 4 става ал. 5.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 2 от Финансовите правила по бюджета на Народното събрание - приложение към правилника, се прилага от 1 януари 2008 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Решението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>Решението е прието от 40-то Народно събрание на 19 декември 2008 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

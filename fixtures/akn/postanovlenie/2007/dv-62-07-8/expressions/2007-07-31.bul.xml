@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-8/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-8"/>
+          <FRBRalias value="Постановление № 173 от 23 юли 2007 г. за изменение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 173 от 23 юли 2007 г. за изменение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2007/dv-62-07-8"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-8/bul@2007-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-8/bul@2007-07-31"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-62-07-8/bul@2007-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-62-07-8/bul@2007-07-31.xml"/>
+          <FRBRdate date="2007-07-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-31" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 173 от 23 юли 2007 г. за изменение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 47 от 2006 г.; изм., бр. 24 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В член единствен от Постановление № 96 на Министерския съвет от 1999 г. за увеличаване щатната численост на Министерството на вътрешните работи (ДВ, бр. 48 от 1999 г.) числото “2600” се заменя с “2500”, думите “230 офицерски” се заменят със “190 за държавни служители от категории А, Б, В и Г”, думите “1670 сержантски” се заменят с “1610 за държавни служители от категории Д и Е” и думите “700 бройки гражданска администрация” се заменят със “700 бройки за лица, работещи по трудово правоотношение”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 128 на Министерския съвет от 2000 г. за намаляване на числения състав на военнослужещите на наборна военна служба в Министерството на вътрешните работи и за увеличаване на щатната численост на Министерството на вътрешните работи (ДВ, бр. 58 от 2000 г.) се правят следните изменения:</p>
+            <p>1. В чл. 3 числото “1737” се заменя с “1437”, думите “80 офицерски” се заменят с “80 за държавни служители от категории А, Б, В и Г” и думите “1641 сержантски” се заменят с “1341 за държавни служители от категории Д и Е”.</p>
+            <p>2. В § 2 от преходните и заключителните разпоредби числото “1262” се заменя с “962”, думите “62 офицерски” се заменят с “62 за държавни служители от категории А, Б, В и Г”, думите “1184 сержантски” се заменят с “884 за държавни служители от категории Д и Е” и думите “чл. 81а от Закона за Министерството на вътрешните работи” се заменят с “чл. 76, ал. 1 от Закона за Министерството на вътрешните работи”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 151, ал. 1 от Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановление № 126 на Министерския съвет от 2006 г. (обн., ДВ, бр. 47 от 2006 г.; изм., бр. 24 от 2007 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_3" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-5"/>
+          <FRBRalias value="Постановление № 175 ОТ 16 АВГУСТ 2013 Г. за изменение на Устройствения правилник на" name="short"/>
+          <FRBRalias value="Постановление № 175 ОТ 16 АВГУСТ 2013 Г. за изменение на Устройствения правилник на" name="eli" other="/eli/bg/postanovlenie/2013/dv-74-13-5"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-5/bul@2013-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-5/bul@2013-08-23"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-74-13-5/bul@2013-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-74-13-5/bul@2013-08-23.xml"/>
+          <FRBRdate date="2013-08-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-23" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 175 ОТ 16 АВГУСТ 2013 Г. за изменение на Устройствения правилник на</p>
+      <p>(обн., ДВ, бр. 12 от 2010 г.; изм. и доп., бр. 56, 74 и 102 от 2010 г., бр. 33, 48 и 77 от 2011 г., бр. 22 от 2012 г. и бр. 62 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 27, ал. 2 числото „454“ се заменя с „451“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 27, ал. 3 се правят следните изменения: 1. В наименованието числото „454“ се заменя с „451“. 2. На ред „Специализирана администрация“ числото „333“ се заменя с „330“. 3. На ред „дирекция „Достъп до образова­ ние и подкрепа на развитието“ числото „23“ се заменя с „22“. 4. На ред „дирекция „Образователни про­ грами и образователно съдържание“ числото „35“ се заменя с „34“. 5. На ред „Главна дирекция „Структурни фондове и международни образователни про­ грами“ числото „90“ се заменя с „89“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

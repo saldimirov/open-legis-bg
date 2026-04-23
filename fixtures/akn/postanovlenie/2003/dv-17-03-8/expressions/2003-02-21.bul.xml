@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-8/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-8"/>
+          <FRBRalias value="Постановление № 33 от 12 февруари 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 33 от 12 февруари 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-17-03-8"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-8/bul@2003-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-8/bul@2003-02-21"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-8/bul@2003-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-8/bul@2003-02-21.xml"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-21" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 33 от 12 февруари 2003 г. за допълнение на Наредбата за прилагане на Единния класификатор на длъжностите в администрацията, приета с Постановление № 35 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 23 от 2000 г.; изм. и доп., бр. 53, 56, 62, 63 и 89 от 2000 г., бр. 10, 16, 17, 28, 35, 48, 54, 62 и 108 от 2001 г., бр. 9, 56, 71, 83, 86, 115, 118 и 119 от 2002 г. и бр. 4 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

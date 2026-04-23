@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-30-06-17/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-30-06-17"/>
+          <FRBRalias value="Постановление № 70 от 3 април 2006 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 58 на Министерския съвет от 2005 г." name="short"/>
+          <FRBRalias value="Постановление № 70 от 3 април 2006 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 58 на Министерския съвет от 2005 г." name="eli" other="/eli/bg/postanovlenie/2006/dv-30-06-17"/>
+          <FRBRdate date="2006-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-30-06-17/bul@2006-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-30-06-17/bul@2006-04-11"/>
+          <FRBRdate date="2006-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-30-06-17/bul@2006-04-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-30-06-17/bul@2006-04-11.xml"/>
+          <FRBRdate date="2006-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-11" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 70 от 3 април 2006 г. за изменение на Устройствения правилник на Министерството на културата, приет с Постановление № 58 на Министерския съвет от 2005 г.</p>
+      <p>(обн., ДВ, бр. 29 от 2005 г.; изм., бр. 78  от 2005 г. и бр. 20 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 14, ал. 2 числото “126” се заменя със “114”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложението към чл. 14, ал. 3 се изменя така:</p>
+            <p>“Приложение към чл. 14, ал. 3</p>
+            <p>Численост на персонала в организационните структури и административните звена в Министерството на културата - 114 щатни бройки</p>
+            <p>Политически кабинет                                                                                                                                                       6</p>
+            <p>Финансов контрольор                                                                                                                                                      1</p>
+            <p>Инспекторат                                                                                                                                                                   2</p>
+            <p>Служител по сигурността на информацията                                                                                                                      1</p>
+            <p>Главен секретар                                                                                                                                                             1</p>
+            <p>Обща администрация                                                                                                                                                     32</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Административно обслужване”                                                                                                                  13</p>
+            <p>дирекция “Човешки ресурси и финансово-счетоводни дейности”                                                                                  19</p>
+            <p>Специализирана администрация                                                                                                                                     71</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Правна”                                                                                                                                                   13</p>
+            <p>дирекция “Авторско право и сродните му права”                                                                                                        13</p>
+            <p>дирекция “Културна политика”                                                                                                                                   10</p>
+            <p>дирекция “Опазване на паметниците на културата”                                                                                                     10</p>
+            <p>дирекция “Евроинтеграция и международно сътрудничество”                                                                                      14</p>
+            <p>дирекция “Културно-информационна   политика”                                                                                                      11”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

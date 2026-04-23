@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-39-19-7/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-39-19-7"/>
+          <FRBRalias value="Постановление № 111 ОТ 9 МАЙ 2019 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 111 ОТ 9 МАЙ 2019 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2019/dv-39-19-7"/>
+          <FRBRdate date="2019-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-39-19-7/bul@2019-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-39-19-7/bul@2019-05-14"/>
+          <FRBRdate date="2019-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-39-19-7/bul@2019-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-39-19-7/bul@2019-05-14.xml"/>
+          <FRBRdate date="2019-05-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-14" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 111 ОТ 9 МАЙ 2019 Г. за изменение и допълнение на нормативни</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Постановление № 52 на Министерския съвет от 2019 г. за приемане на план-сметка за разходите по подготовката и произвеждането на изборите за членове на Европейския парла- мент от Република България през 2019 г. (ДВ, бр. 26 от 2019 г.) се правят следните изменения и допълнения: 1. В чл. 1, ал. 1 числото „32 400,0“ се заменя с „41 400,0“. 2. В чл. 2: а) в ал. 1 числото „7 036,0“ се заменя с „16 036,0“; б) в ал. 2 числото „6 686,0“ се заменя с „15 686,0“. 3. В приложението към чл. 1: а) в пореден № 1, в колона 3 числото „7 036,0“ се заменя с „16 036,0“; б) в пореден № 1.2, в колона 2 накрая се добавя „и за машинно гласуване“, а в колона 3 числото „5 186,0“ се заменя с „14 186,0“; в) на ред „ОБЩО“ числото „32 400,0“ се заменя с „41 400,0“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 78 на Министерския съвет от 2019 г. за одобряване на допълнител- ни разходи по бюджета на Министерството на здравеопазването за 2019 г. (ДВ, бр. 31 от 2019 г.) в чл. 1, ал. 1 числото „50 000 000“ се заменя с „6 000 000“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 8 май 2019 г. За министър-председател: Томислав Дончев Главен секретар на Министерския съвет: Веселин Даков 3585</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

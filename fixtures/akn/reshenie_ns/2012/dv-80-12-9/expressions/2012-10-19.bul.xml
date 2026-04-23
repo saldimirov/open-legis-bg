@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-9/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-9"/>
+          <FRBRalias value="Решение за вземане на акт от Конвенцията относно" name="short"/>
+          <FRBRalias value="Решение за вземане на акт от Конвенцията относно" name="eli" other="/eli/bg/reshenie_ns/2012/dv-80-12-9"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-9/bul@2012-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-9/bul@2012-10-19"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-9/bul@2012-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-9/bul@2012-10-19.xml"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-19" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за вземане на акт от Конвенцията относно</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>домашните работници (№ 189) и от Препоръ­ ката относно домашните работници (№ 201) Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и в съответствие с чл. 19, ал. 5, буква „б“ и чл. 19, ал. 6, буква „б“ от Устава на Между­ народната организация на труда Р Е Ш И : Взема акт от Конвенцията относно домаш­ ните работници (№ 189) и от Препоръката относно домашните работници (№ 201), приети на 100-ата сесия на Международната конфе­ ренция на труда на 16 юни 2011 г. в Женева. Решението е прието от 41-ото Народно съб­ рание на 11 октомври 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-31"/>
+          <FRBRalias value="Постановление № 234 ОТ 27 СЕПТЕМВРИ 2012 Г. за определяне на първостепенния и вто­" name="short"/>
+          <FRBRalias value="Постановление № 234 ОТ 27 СЕПТЕМВРИ 2012 Г. за определяне на първостепенния и вто­" name="eli" other="/eli/bg/postanovlenie/2012/dv-75-12-31"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-31/bul@2012-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-31/bul@2012-10-02"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-31/bul@2012-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-31/bul@2012-10-02.xml"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-02" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 234 ОТ 27 СЕПТЕМВРИ 2012 Г. за определяне на първостепенния и вто­</p>
+      <p>(обн., ДВ, бр. 64 от 2009 г.; изм. и доп., бр. 82 от 2010 г. и бр. 50 от 2012 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на физическото възпи­ тание и спорта е първостепенен разпоредител с бюджетни кредити.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Второстепенните разпоредители с бюджетни кредити към министъра на физи­ ческото възпитание и спорта са: 1. Антидопинговият център – София; 2. Спортно училище „Генерал Владимир Стойчев“ – София; 3. Спортно училище „Георги Бенков­ ски“ – Плевен; 4. Спортно училище „Майор Атанас Узу­ нов“ – Русе; 5. Спортно училище „Георги Бенков­ ски“ – Варна; 6. С пор т но у ч и л и ще „Ю ри й Га га­ рин“ – Бургас. Преходни и заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се чл. 3 от Постановление № 195 на Министерския съвет от 2009 г. за закриване на Държавната агенция за младеж­та и спорта и за приемане на Устройствен правилник на Министерството на физическото възпитание и спорта (обн., ДВ, бр. 64 от 2009 г.; изм. и доп., бр. 82 от 2010 г. и бр. 50 от 2012 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 6, ал. 2 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

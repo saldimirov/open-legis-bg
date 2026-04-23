@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-3/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-3"/>
+          <FRBRalias value="Решение за приемане на Стратегия за създаване на" name="short"/>
+          <FRBRalias value="Решение за приемане на Стратегия за създаване на" name="eli" other="/eli/bg/reshenie_ns/2010/dv-61-10-3"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-3/bul@2010-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-3/bul@2010-08-06"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-61-10-3/bul@2010-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-61-10-3/bul@2010-08-06.xml"/>
+          <FRBRdate date="2010-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-06" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Стратегия за създаване на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Българска агенция по безопасност на храните и Център за оценка на риска Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Приема Стратегията за създаване на Бъл­ гарска агенция по безопасност на храните и Център за оценка на риска. Решението е прието от 41-ото Народно събрание на 27 юли 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

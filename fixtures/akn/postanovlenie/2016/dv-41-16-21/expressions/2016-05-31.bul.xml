@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-21/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-21"/>
+          <FRBRalias value="Постановление № 127 ОТ 20 МАЙ 2016 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 127 ОТ 20 МАЙ 2016 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2016/dv-41-16-21"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-21/bul@2016-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-21/bul@2016-05-31"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-21/bul@2016-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-21/bul@2016-05-31.xml"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-31" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 127 ОТ 20 МАЙ 2016 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 61 от 2011 г.; изм. и доп., бр. 6 и 62 от 2013 г. и бр. 40 и 97 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5 се правят следните изменения и допълнения: 1. В ал. 2 се създава т. 3: „3. участие с доброволни вноски към Европейския съюз или международни орга- низации, включени в Приложение 2 към Ука- занията на Организацията за икономическо сътрудничество и развитие за докладване на предоставената помощ.“ 2. В ал. 4: а) създава се нова т. 5: „5. доброволни вноски към Европейския съюз или международни организации, включени в Приложение 2 към Указанията на Организаци- ята за икономическо сътрудничество и развитие за докладване на предоставената помощ;“ б) досегашната т. 5 става т. 6.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 22 се изменя така: БРОЙ 41 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 7 „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 22.</num>
+          <content>
+            <p>Министерството на външните ра- боти и другите ресорни министерства могат при необходимост да сключват меморандуми за разбирателство със съответните министер- ства или ведомства в страните, определени като приоритетни получатели на българска помощ за развитие.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

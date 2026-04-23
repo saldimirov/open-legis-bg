@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-47-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-47-10-4"/>
+          <FRBRalias value="Закон за изменение на Закона за народните читали­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за народните читали­" name="eli" other="/eli/bg/zid/2010/dv-47-10-4"/>
+          <FRBRdate date="2010-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-47-10-4/bul@2010-06-22/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-47-10-4/bul@2010-06-22"/>
+          <FRBRdate date="2010-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-47-10-4/bul@2010-06-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-47-10-4/bul@2010-06-22.xml"/>
+          <FRBRdate date="2010-06-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-22" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за народните читали­</p>
+      <p>(обн., ДВ, бр. 89 от 1996 г.; изм., бр. 95 от 1997 г., бр. 90 от 1999 г., бр. 28 и 94 от 2005 г., бр. 108 от 2006 г. и бр. 42 и 74 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 9б, ал. 1 думите „не по-малко от две трети“ се заменят с „повече от половината“.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>В § 34 от преходните и заключител­ ните разпоредби на Закона за изменение и допълнение на Закона за народните читалища (ДВ, бр. 42 от 2009 г.) думата „едногодишен“ се заменя с „двугодишен“. Преходна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>(1) В едногодишен срок от влизането в сила на този закон управителният орган на Съюза на народните читалища свиква конгреса на Съюза на народните читалища за избор на органите по чл. 9б, ал. 2. (2) Ако не бъде свикан конгресът по ал. 1, той се свиква от министъра на културата в три­ месечен срок от изтичането на срока по ал. 1.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

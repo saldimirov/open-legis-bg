@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-1"/>
+          <FRBRalias value="Решение за изменение и допълнение на Правилника за организацията и дейността на Народното" name="short"/>
+          <FRBRalias value="Решение за изменение и допълнение на Правилника за организацията и дейността на Народното" name="eli" other="/eli/bg/reshenie_ns/2013/dv-62-13-1"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-1/bul@2013-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-1/bul@2013-07-12"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-1/bul@2013-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-1/bul@2013-07-12.xml"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-12" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение и допълнение на Правилника за организацията и дейността на Народното</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 15 се правят следните изменения и допълнения: 1. В ал. 2: а) точка 19 се изменя така: „19. Комисия по правата на човека и жал- бите на гражданите;“ б) точка 20 се изменя така: „20. Комисия за борба с корупцията и конфликт на интереси;“ в) създава се т. 23: „23. Комисия по вероизповеданията и пар- ламентарна етика.“ 2. В ал. 4 думите „Комисията по правата на човека, вероизповеданията и жалбите на гражданите“ се заменят с „Комисията по правата на човека и жалбите на гражданите“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 17 думите „и парламентарна етика“ се заличават. ОФИЦИАЛЕН РАЗДЕЛ СТР. 2 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 62</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

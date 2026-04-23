@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-7/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-7"/>
+          <FRBRalias value="Постановление № 227 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на корнишони и сладки пиперки" name="short"/>
+          <FRBRalias value="Постановление № 227 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на корнишони и сладки пиперки" name="eli" other="/eli/bg/postanovlenie/2005/dv-88-05-7"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-7/bul@2005-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-7/bul@2005-11-04"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-7/bul@2005-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-7/bul@2005-11-04.xml"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-04" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 227 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на корнишони и сладки пиперки</p>
+      <p>(обн., ДВ, бр. 42 от 2002 г.; изм. и доп., бр. 111 от 2004 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Въвеждат се автономни мерки за суспендиране на митата за 2005 г., както следва:</p>
+          <p>№     Код по КН                 Описание                       Количество,</p>
+          <p>по                                   на стоката                        ставка на</p>
+          <p>ред                                                                        митото и период</p>
+          <p>на действие</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>от 0707 00 90 3        корнишони                           1000 t за преработка                          0 до 31.12.2005 г.</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>от 0709 60 10 1        сладки пиперки                    4500 t от 0709 60 10 2        за преработка*                         0 до 31.12.2005 г. * Придружени със сертификат за преработка, издаден съгласно приложение № 5 към чл. 20, ал. 1 от Наредба № 9 от 2002 г., за изискванията за качество и контрол на съответствие на пресни плодове и зеленчуци (обн., ДВ, бр. 42 от 2002 г.; изм. и доп., бр. 111 от 2004 г.).</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Автономните мерки по чл. 1 обхващат всички стоки, които се класират в тарифните номера, посочени в колона “Код по КН”. Когато пред тарифния номер е отбелязано “от”, автономните мерки се прилагат само за стоките, чието описание съвпада с посоченото.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 26, ал. 1, т. 6 от Закона за митниците.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:  Ивайло Калфин</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>105495</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

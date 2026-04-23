@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за местните данъци и" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за местните данъци и" name="eli" other="/eli/bg/zid/2013/dv-61-13-2"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-2/bul@2013-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-2/bul@2013-07-09"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-2/bul@2013-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-2/bul@2013-07-09.xml"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-09" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за местните данъци и</p>
+      <p>(обн., ДВ, бр. 117 от 1997 г.; изм., бр. 71, 83, 105 и 153 от 1998 г., бр. 103 от 1999 г., бр. 34 и 102 от 2000 г., бр. 109 от 2001 г., бр. 28, 45, 56 и 119 от 2002 г., бр. 84 и 112 от 2003 г., бр. 6, 18, 36, 70 и 106 от 2004 г., бр. 87, 94, 100, 103 и 105 от 2005 г., бр. 30, 36 и 105 от 2006 г., бр. 55 и 110 от 2007 г., бр. 70 и 105 от 2008 г., бр. 12, 19, 41 и 95 от 2009 г., бр. 98 от 2010 г. и бр. 19, 28, 31, 35 и 39 от 2011 г.; Решение № 5 на Конституционния съд от 2012 г. – бр. 30 от 2012 г.; изм., бр. 53, 54 и 102 от 2012 г., бр. 24 и 30 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 10 се създава нова ал. 4: „(4) Не се облагат с данък недвижимите имо­ ти с данъчна оценка до 1680 лв. включително.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от 1 януари 2014 г.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

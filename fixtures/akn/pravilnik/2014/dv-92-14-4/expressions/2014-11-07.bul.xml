@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-92-14-4/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-92-14-4"/>
+          <FRBRalias value="Правилник" name="short"/>
+          <FRBRalias value="Правилник" name="eli" other="/eli/bg/pravilnik/2014/dv-92-14-4"/>
+          <FRBRdate date="2014-11-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-92-14-4/bul@2014-11-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-92-14-4/bul@2014-11-07"/>
+          <FRBRdate date="2014-11-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-92-14-4/bul@2014-11-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-92-14-4/bul@2014-11-07.xml"/>
+          <FRBRdate date="2014-11-07" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-07" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник</p>
+      <p>(обн., ДВ, бр. 75 от 2010 г.; изм. и доп., бр. 19 от 2011 г., бр. 9 от 2012 г., бр. 62 от 2013 г. и бр. 60 от 2014 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

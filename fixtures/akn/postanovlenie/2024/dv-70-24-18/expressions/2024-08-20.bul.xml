@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-18/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-18"/>
+          <FRBRalias value="Постановление № 287 от 14 август 2024 г. за допълнение на Постановление № 181 на Министерския съвет от 2009 г. за определяне на стратегическите обекти и дейности, които са от значение за националната сигурност" name="short"/>
+          <FRBRalias value="Постановление № 287 от 14 август 2024 г. за допълнение на Постановление № 181 на Министерския съвет от 2009 г. за определяне на стратегическите обекти и дейности, които са от значение за националната сигурност" name="eli" other="/eli/bg/postanovlenie/2024/dv-70-24-18"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-18/bul@2024-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-18/bul@2024-08-20"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-18/bul@2024-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-18/bul@2024-08-20.xml"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-08-20" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 287 от 14 август 2024 г. за допълнение на Постановление № 181 на Министерския съвет от 2009 г. за определяне на стратегическите обекти и дейности, които са от значение за националната сигурност</p>
+      <p>(обн., ДВ, бр. 59 от 2009 г.; изм. и доп., бр. 71 и 77 от 2011 г., бр. 67 от 2012 г., бр. 5 и 21 от 2013 г., бр. 107 от 2014 г., бр. 28 и 57 от 2015 г., бр. 22, 27 и 51 от 2016 г., бр. 86 от 2017 г., бр. 9 и 81 от 2019 г., бр. 33 и 87 от 2021 г., бр. 41, 47, 83 и 97 от 2022 г. и бр. 100 от 2023 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В раздел ІХ, т. 2 от приложението към чл. 1, ал. 1 се създава подточка 2.11: „2.11. Сметната палата на Република България.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

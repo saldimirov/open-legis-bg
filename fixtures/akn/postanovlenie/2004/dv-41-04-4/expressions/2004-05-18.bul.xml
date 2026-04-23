@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-4"/>
+          <FRBRalias value="Постановление № 90 от 3 май 2004 г.   за отменяне на Наредбата за гражданското състояние, приета с Постановление № 117 на Министерския съвет от 1975 г." name="short"/>
+          <FRBRalias value="Постановление № 90 от 3 май 2004 г.   за отменяне на Наредбата за гражданското състояние, приета с Постановление № 117 на Министерския съвет от 1975 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-41-04-4"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-4/bul@2004-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-4/bul@2004-05-18"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-4/bul@2004-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-4/bul@2004-05-18.xml"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-18" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 90 от 3 май 2004 г.   за отменяне на Наредбата за гражданското състояние, приета с Постановление № 117 на Министерския съвет от 1975 г.</p>
+      <p>(обн., ДВ, бр. 75 от 1975 г.; изм. и доп., бр. 28 от 1977 г., бр. 52 от 1979 г., бр. 43 от 1980 г., бр. 38 от 1986 г., бр. 33  от 1988 г. и бр. 48 от 1989 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

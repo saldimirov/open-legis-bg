@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-45-14-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-45-14-18"/>
+          <FRBRalias value="Постановление № 130 ОТ 22 МАЙ 2014 Г. за изменение на Постановление № 3 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 130 ОТ 22 МАЙ 2014 Г. за изменение на Постановление № 3 на Ми­" name="eli" other="/eli/bg/postanovlenie/2014/dv-45-14-18"/>
+          <FRBRdate date="2014-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-45-14-18/bul@2014-05-30/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-45-14-18/bul@2014-05-30"/>
+          <FRBRdate date="2014-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-45-14-18/bul@2014-05-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-45-14-18/bul@2014-05-30.xml"/>
+          <FRBRdate date="2014-05-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-30" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 130 ОТ 22 МАЙ 2014 Г. за изменение на Постановление № 3 на Ми­</p>
+      <p>(обн., ДВ, бр. 8 от 2014 г.; изм. и доп., бр. 18, 25, 30, 31, 34, 36 и 37 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 5 към чл. 5 от Поста­ новление № 3 на Министерския съвет от 2014 г. в колона 3 се правят следните изменения: 1. В пореден № 8 числото „770 500 000“ се заменя със „770 750 000“. 2. В пореден № 11 числото „83 948 500“ се заменя с „83 956 500“. 3. В пореден № 17 числото „29 968 700“ се заменя с „29 978 700“. 4. В пореден № 19 числото „33 802 267“ се заменя с „33 835 267“. 5. В пореден № 22 числото „103 233 500“ се заменя със „103 241 500“. 6. В пореден № 28 числото „12 008 300“ се заменя с „12 008 800“. 7. В пореден № 35 числото „6 381 200“ се заменя с „6 382 200“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

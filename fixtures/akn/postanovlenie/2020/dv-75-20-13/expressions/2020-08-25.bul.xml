@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-75-20-13/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-75-20-13"/>
+          <FRBRalias value="Постановление № 224 ОТ 20 АВГУСТ 2020 Г. за приемане на Наредба за енергийното" name="short"/>
+          <FRBRalias value="Постановление № 224 ОТ 20 АВГУСТ 2020 Г. за приемане на Наредба за енергийното" name="eli" other="/eli/bg/postanovlenie/2020/dv-75-20-13"/>
+          <FRBRdate date="2020-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-75-20-13/bul@2020-08-25/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-75-20-13/bul@2020-08-25"/>
+          <FRBRdate date="2020-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-75-20-13/bul@2020-08-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-75-20-13/bul@2020-08-25.xml"/>
+          <FRBRdate date="2020-08-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-08-25" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 224 ОТ 20 АВГУСТ 2020 Г. за приемане на Наредба за енергийното</p>
+      <p>(обн., ДВ, бр. 41 от 2011 г.; изм. и доп., бр. 93 от 2011 г., бр. 43 от 2013 г., бр. 17 от 2014 г., бр. 1 и 40 от 2015 г., бр. 19 от 2016 г. и бр. 73 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Наредбата за изискванията за етикетира­ не и предоставяне на стандартна информация за продукти, свързани с енергопотреблението, по отношение на консумацията на енергия и на други ресурси, приета с Постановление № 140 на Министерския съвет от 2011 г. (обн., ДВ, бр. 41 от 2011 г.; изм. и доп., бр. 93 от 2011 г., бр. 43 от 2013 г., бр. 17 от 2014 г., бр. 1 и 40 от 2015 г., бр. 19 от 2016 г. и бр. 73 от 2018 г.). 2. Постановление № 140 на Министерския съвет от 2011 г. (ДВ, бр. 41 от 2011 г.) за приема­ не на Наредба за изискванията за етикетиране и предоставяне на стандартна информация за продукти, свързани с енергопотреблението, по отношение на консумацията на енергия и на други ресурси. 3. Наредбата за изискванията за етикети­ ране на битови уреди по отношение на шума, излъчван от тях във въздуха, приета с Поста­ новление № 186 на Министерския съвет от 2006 г. (обн., ДВ, бр. 65 от 2006 г.; изм., бр. 93 от 2009 г., бр. 41 от 2011 г. и бр. 40 от 2015 г.). 4. Постановление № 186 на Министер­ ския съвет от 2006 г. (ДВ, бр. 65 от 2006 г.) за приемане на Наредба за изискванията за етикетиране на битови уреди по отношение на шума, излъчван от тях във въздуха.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 1 влиза в сила от 1 март 2021 г. с изключение на отменянето на чл. 4, ал. 1, т. 7 от Наредбата по § 1, т. 1, която влиза в сила от 1 септември 2021 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

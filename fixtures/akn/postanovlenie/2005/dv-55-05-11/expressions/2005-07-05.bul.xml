@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-55-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-55-05-11"/>
+          <FRBRalias value="Постановление № 129 от 27 юни 2005 г. за предоставяне на средства от републиканския бюджет за 2005 г. по бюджета на Министерството на икономиката" name="short"/>
+          <FRBRalias value="Постановление № 129 от 27 юни 2005 г. за предоставяне на средства от републиканския бюджет за 2005 г. по бюджета на Министерството на икономиката" name="eli" other="/eli/bg/postanovlenie/2005/dv-55-05-11"/>
+          <FRBRdate date="2005-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-55-05-11/bul@2005-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-55-05-11/bul@2005-07-05"/>
+          <FRBRdate date="2005-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-55-05-11/bul@2005-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-55-05-11/bul@2005-07-05.xml"/>
+          <FRBRdate date="2005-07-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-05" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 129 от 27 юни 2005 г. за предоставяне на средства от републиканския бюджет за 2005 г. по бюджета на Министерството на икономиката</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да предостави от републиканския бюджет за 2005 г. средства в размер 3 960 000 лв. чрез бюджета на Министерството на икономиката на Българската агенция за инвестиции за изпълнение на договора, сключен между Република България, от една страна, и “Бизнес Парк София” - ЕООД, и “Линднер” - АД, Декен, Боден, Тренвандзистеме, от друга страна, за изграждане на нови и/или реконструкция на съществуващи елементи от техническата инфраструктура, необходима за реализацията на инвестиционния план на “Бизнес Парк София” - ЕООД, за инвестиции на “Линднер Холдинг” - Германия, в Столичната община, район “Младост” и район “Витоша”, определен с Решение № 482 на Министерския съвет от 2005 г. за определяне на инвестиционен план за насърчаване по реда на Закона за насърчаване на инвестициите.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят от резерва за непредвидени и неотложни разходи, предвиден за структурни реформи по чл. 1, ал. 2, т. 4 от Закона за държавния бюджет на Република България за 2005 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по бюджета на Министерството на икономиката за 2005 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 11, ал. 3 от Закона за устройството на държавния бюджет и § 4 от преходните и заключителните разпоредби на Закона за държавния бюджет на Република България за 2005 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Възлага на изпълнителния директор на Българската агенция за инвестиции контрола по изпълнението на договора по чл. 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

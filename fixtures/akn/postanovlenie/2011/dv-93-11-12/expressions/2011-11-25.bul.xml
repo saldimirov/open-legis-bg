@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-12"/>
+          <FRBRalias value="Постановление № 309 ОТ 17 НОЕМВРИ 2011 Г. за изменение на Постановление № 322 на" name="short"/>
+          <FRBRalias value="Постановление № 309 ОТ 17 НОЕМВРИ 2011 Г. за изменение на Постановление № 322 на" name="eli" other="/eli/bg/postanovlenie/2011/dv-93-11-12"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-12/bul@2011-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-12/bul@2011-11-25"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-12/bul@2011-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-12/bul@2011-11-25.xml"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-25" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 309 ОТ 17 НОЕМВРИ 2011 Г. за изменение на Постановление № 322 на</p>
+      <p>(обн., ДВ, бр. 1 от 2009 г.; изм. и доп., бр. 11, 79 и 93 от 2009 г. и бр. 31 и 95 от 2010 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 6.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Техническото администриране и поддържане на системата се извършва от специализираните звена на администрацията на Министерския съвет.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Звената по ал. 1 са отговорни за сигур­ ността на информацията в системата. Осигу­ ряването є се извършва съгласно утвърдените от главния секретар на Министерския съвет политика, процедури и правила.“</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

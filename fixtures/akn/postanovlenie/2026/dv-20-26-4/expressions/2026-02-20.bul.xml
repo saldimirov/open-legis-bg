@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-4/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-4"/>
+          <FRBRalias value="Постановление № 37 от 18 февруари 2026 г. за изменение и допълнение на Правилника за устройството и дейността на Министерството на вътрешните работи, приет с Постановление № 207 на Министерския съвет от 2014 г." name="short"/>
+          <FRBRalias value="Постановление № 37 от 18 февруари 2026 г. за изменение и допълнение на Правилника за устройството и дейността на Министерството на вътрешните работи, приет с Постановление № 207 на Министерския съвет от 2014 г." name="eli" other="/eli/bg/postanovlenie/2026/dv-20-26-4"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-4/bul@2026-02-20/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-4/bul@2026-02-20"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-4/bul@2026-02-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-4/bul@2026-02-20.xml"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-20" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 37 от 18 февруари 2026 г. за изменение и допълнение на Правилника за устройството и дейността на Министерството на вътрешните работи, приет с Постановление № 207 на Министерския съвет от 2014 г.</p>
+      <p>(обн., ДВ, бр. 60 от 2014 г.; изм. и доп., бр. 28, 67, 75 и 85 от 2015 г., бр. 2, 9, 86 и 90 от 2016 г., бр. 4, 9, 19, 22 и 33 от 2017 г., бр. 70 и 97 от 2018 г., бр. 12, 47 и 85 от 2019 г., бр. 48 и 99 от 2020 г., бр. 20, 27 и 31 от 2021 г., бр. 13 и 71 от 2023 г., бр. 58 от 2024 г. и бр. 36, 56 и 64 от 2025 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 104, ал. 1 числото „51 518“ се заменя с „51 565“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

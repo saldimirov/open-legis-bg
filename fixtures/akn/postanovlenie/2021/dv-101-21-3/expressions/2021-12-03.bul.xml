@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-101-21-3/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-101-21-3"/>
+          <FRBRalias value="Постановление № 408 ОТ 29 НОЕМВРИ 2021 Г. за изменение и допълнение на Устройствения" name="short"/>
+          <FRBRalias value="Постановление № 408 ОТ 29 НОЕМВРИ 2021 Г. за изменение и допълнение на Устройствения" name="eli" other="/eli/bg/postanovlenie/2021/dv-101-21-3"/>
+          <FRBRdate date="2021-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-101-21-3/bul@2021-12-03/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-101-21-3/bul@2021-12-03"/>
+          <FRBRdate date="2021-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-101-21-3/bul@2021-12-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-101-21-3/bul@2021-12-03.xml"/>
+          <FRBRdate date="2021-12-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-12-03" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 408 ОТ 29 НОЕМВРИ 2021 Г. за изменение и допълнение на Устройствения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се създава изречение второ: „Бюджетът на Академията е със статут на бюджет на първостепенен разпоредител по смисъла на Закона за публичните финанси.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 1 се правят следните из- менения и допълнения: 1. Точка 1 се изменя така: „1. организира и извършва научни, науч- но-приложни изследвания, експериментално- производствени, иновативни и внедрителски дейности в областта на земеделието и храните и реализира продукцията от тази дейност, както и продуктите и правата, които са обект на интелектуална собственост;“. 2. Точка 3 се изменя така: „3. извършва дейности, които са възложени от МЗХГ, Министерството на околната сре- да и водите, други ведомства и учреждения, местните и регионалните власти с научна експертиза в областта на: растениевъдството; животновъдството; рибарството и аквакул- турите; храните и хранителната промиш- леност; аграрната икономика; опазването и рационалното използване на природните ресурси – почви, растителни и животински генетични ресурси, водни басейни и рибни ресурси; екологията и опазването на околната среда и др.;“. 3. В т. 4 думата „разработването“ се за- меня с „подготовката“, а думата „аграрната“ се заличава. 4. В т. 5 думите „аграрния сектор“ се заменят със „земеделието, рибарството и аквакултурите“. 5. В т. 6 думите „аграрния сектор“ се заменят със „земеделието, рибарството и аквакултурите“. 6. В т. 7 след абревиатурата „ЗРАСРБ“ се поставя точка и запетая и текстът до края се заличава. МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

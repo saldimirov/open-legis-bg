@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-17/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-17"/>
+          <FRBRalias value="Постановление № 146 ОТ 23 ЮЛИ 2010 Г. за осигуряване охраната на обекти от наци­" name="short"/>
+          <FRBRalias value="Постановление № 146 ОТ 23 ЮЛИ 2010 Г. за осигуряване охраната на обекти от наци­" name="eli" other="/eli/bg/postanovlenie/2010/dv-58-10-17"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-17/bul@2010-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-17/bul@2010-07-30"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-17/bul@2010-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-17/bul@2010-07-30.xml"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-30" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 146 ОТ 23 ЮЛИ 2010 Г. за осигуряване охраната на обекти от наци­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министерството на вътрешните ра­ боти осигурява охраната на Национален музей „Шипка – Бузлуджа“, Националния исторически музей – София, и Националната галерия за чуждестранно изкуство – София, представля­ ващи обекти с национално значение.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Охраната на обектите по чл. 1 се осъществява в рамките на определената обща численост и бюджета на Министерството на вътрешните работи. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 7, т. 7 от Закона за Министерството на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

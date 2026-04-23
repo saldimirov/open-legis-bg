@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-100-22-10/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-100-22-10"/>
+          <FRBRalias value="Постановление № 420 ОТ 14 ДЕКЕМВРИ 2022 Г. за изменение и допълнение на Постановле-" name="short"/>
+          <FRBRalias value="Постановление № 420 ОТ 14 ДЕКЕМВРИ 2022 Г. за изменение и допълнение на Постановле-" name="eli" other="/eli/bg/postanovlenie/2022/dv-100-22-10"/>
+          <FRBRdate date="2022-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-100-22-10/bul@2022-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-100-22-10/bul@2022-12-16"/>
+          <FRBRdate date="2022-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-100-22-10/bul@2022-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-100-22-10/bul@2022-12-16.xml"/>
+          <FRBRdate date="2022-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-12-16" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 420 ОТ 14 ДЕКЕМВРИ 2022 Г. за изменение и допълнение на Постановле-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 предлогът „до“ се заличава.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3 думата „извършва“ се заменя с „извърши“, думите „на базата на фактически извършените разходи“ се заличават, а думата „уведомява“ се заменя с „уведоми“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създават се чл. 3а и 3б: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 3а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Неусвоените средства по чл. 1, ал. 1 може да се превеждат от бюджета на Министерството на вътрешните работи за 2022 г. по банкова сметка за чужди средства на Министерството на вътрешните работи, за финансово обезпечаване управлението на инженерно съоръжение от възпрепятстващ тип по българо-турската граница.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Преведените средства по сметката за чужди средства по ал. 1 се отразяват в изпъл- нението на съответните разходни показатели по бюджета на Министерството на вътрешните работи за 2022 г.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_final__art_2">
+          <num>Чл. 3б.</num>
+          <content>
+            <p>Икономията в показателите по чл. 2, ал. 2 не може да се използва за поемането на нови ангажименти и задължения за разходи за други цели.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 4 думата „извършва“ се заменя с „извърши“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от 16 декември 2022 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

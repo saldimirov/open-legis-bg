@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-8/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-8"/>
+          <FRBRalias value="Постановление № 6 от 23 януари 2008 г. за допълнение на Постановление № 26 на Министерския съвет от 2004 г. за процесуалното представителство на Република България пред Европейския съд по правата на човека" name="short"/>
+          <FRBRalias value="Постановление № 6 от 23 януари 2008 г. за допълнение на Постановление № 26 на Министерския съвет от 2004 г. за процесуалното представителство на Република България пред Европейския съд по правата на човека" name="eli" other="/eli/bg/postanovlenie/2008/dv-10-08-8"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-8/bul@2008-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-8/bul@2008-02-01"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-8/bul@2008-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-8/bul@2008-02-01.xml"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-02-01" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 6 от 23 януари 2008 г. за допълнение на Постановление № 26 на Министерския съвет от 2004 г. за процесуалното представителство на Република България пред Европейския съд по правата на човека</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се чл. 4а:</p>
+            <p>“Чл. 4а. (1) На правителствените агенти и на държавните служители, които подпомагат тяхната дейност, в звено “Процесуално представителство на Република България пред Европейския съд по правата на човека” в Министерството на правосъдието се изплаща месечно допълнително възнаграждение до размера на основната заплата за съответния служител съгласно списъци, утвърдени от министъра на финансите.</p>
+            <p>(2) Начисляването и изплащането на допълнителното възнаграждение по ал. 1 се извършват на базата на действително отработените дни.</p>
+            <p>(3) За незаетите длъжности се посочва основната месечна заплата, определена до размера на средната основна месечна заплата, изчислена въз основа на минималния и максималния размер на основната месечна заплата за съответната длъжност, освен в случаите на временно преместване на държавен служител по чл. 81б от Закона за държавния служител.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

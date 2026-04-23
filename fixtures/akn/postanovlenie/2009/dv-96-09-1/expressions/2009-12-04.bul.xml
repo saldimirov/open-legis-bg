@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-1"/>
+          <FRBRalias value="Постановление № 276 ОТ 26 НОЕМВРИ 2009 Г. за изменение на Постановление № 54 на" name="short"/>
+          <FRBRalias value="Постановление № 276 ОТ 26 НОЕМВРИ 2009 Г. за изменение на Постановление № 54 на" name="eli" other="/eli/bg/postanovlenie/2009/dv-96-09-1"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-1/bul@2009-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-1/bul@2009-12-04"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-96-09-1/bul@2009-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-96-09-1/bul@2009-12-04.xml"/>
+          <FRBRdate date="2009-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-04" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 276 ОТ 26 НОЕМВРИ 2009 Г. за изменение на Постановление № 54 на</p>
+      <p>(обн., ДВ, бр. 103 от 2004 г.; изм. и доп., бр. 50 от 2006 г. и бр. 26 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Навсякъде в Актуализирания план за организационно изграждане и модернизация на въоръжените сили на основата на Плана за организационно изграждане и модернизация на въоръжените сили до 2015 г., приет с По- становление № 54 на Министерския съвет от 2008 г. (обн., ДВ, бр. 33 от 2008 г.; изм. и доп., бр. 54 от 2008 г. и бр. 43 и 59 от 2009 г.), и в приложение № 2 към чл. 2 от постановлението числеността на личния състав, въоръжението и бойната техника в Министерството на от- браната, в това число и в Българската армия, да се счита за горна граница, а не като задъл- жително ниво за постигане. Това не се отнася до формированията, които са декларирани за колективната система на сигурност на НАТО и за нуждите на Европейската политика за сигурност и отбрана. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 22, ал. 2, т. 6 от Закона за отбраната и въоръжените сили на Република България. СТР. 2 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 96</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на отбраната.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

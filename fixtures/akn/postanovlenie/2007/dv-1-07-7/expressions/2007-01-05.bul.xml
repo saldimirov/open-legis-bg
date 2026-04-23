@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-1-07-7/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-1-07-7"/>
+          <FRBRalias value="Постановление № 366 от 27 декември 2006 г. за изменение на Постановление № 150 на Министерския съвет от 1992 г. за утвърждаване на военновременните потребности за производство на основна военна и гражданска продукция на страната за 1992 г." name="short"/>
+          <FRBRalias value="Постановление № 366 от 27 декември 2006 г. за изменение на Постановление № 150 на Министерския съвет от 1992 г. за утвърждаване на военновременните потребности за производство на основна военна и гражданска продукция на страната за 1992 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-1-07-7"/>
+          <FRBRdate date="2007-01-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-1-07-7/bul@2007-01-05/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-1-07-7/bul@2007-01-05"/>
+          <FRBRdate date="2007-01-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-1-07-7/bul@2007-01-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-1-07-7/bul@2007-01-05.xml"/>
+          <FRBRdate date="2007-01-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-01-05" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 366 от 27 декември 2006 г. за изменение на Постановление № 150 на Министерския съвет от 1992 г. за утвърждаване на военновременните потребности за производство на основна военна и гражданска продукция на страната за 1992 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Навсякъде в постановлението думите “за 1992 г.” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 1 към чл. 1 (строго секретно) се изменя съгласно приложението (секретно).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Министърът на отбраната в срок 9 месеца от влизането в сила на постановлението да изготви проект на нов акт на Министерския съвет за утвърждаване на потребностите за производство на основна военна и гражданска продукция на страната.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 105, ал. 2 от Конституцията на Република България и чл. 32, т. 6 и 20 от Закона за отбраната и въоръжените сили на Република България.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

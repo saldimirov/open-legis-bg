@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-49-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-49-16-2"/>
+          <FRBRalias value="Закон за ратифициране на Протокола от Нагоя за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протокола от Нагоя за" name="eli" other="/eli/bg/ratifikatsiya/2016/dv-49-16-2"/>
+          <FRBRdate date="2016-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-49-16-2/bul@2016-06-28/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-49-16-2/bul@2016-06-28"/>
+          <FRBRdate date="2016-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-49-16-2/bul@2016-06-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-49-16-2/bul@2016-06-28.xml"/>
+          <FRBRdate date="2016-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-06-28" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протокола от Нагоя за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>достъп до генетични ресурси и справедливо и равноправно разпределение на ползите, произтичащи от тяхното използване, към Конвенцията за биологичното разнообразие Член единствен. Ратифицира Протокола от Нагоя за достъп до генетични ресурси и справедливо и равноправно разпределение на ползите, произтичащи от тяхното използване, към Конвенцията за биологичното разнообра­ зие, подписан от името на Република България на 23 юни 2011 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

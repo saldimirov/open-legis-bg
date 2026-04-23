@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-53-10-3/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-53-10-3"/>
+          <FRBRalias value="Постановление № 134 ОТ 5 ЮЛИ 2010 Г. за приемане на Методология за определяне на финансови корекции, които се прилагат" name="short"/>
+          <FRBRalias value="Постановление № 134 ОТ 5 ЮЛИ 2010 Г. за приемане на Методология за определяне на финансови корекции, които се прилагат" name="eli" other="/eli/bg/postanovlenie/2010/dv-53-10-3"/>
+          <FRBRdate date="2010-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-53-10-3/bul@2010-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-53-10-3/bul@2010-07-13"/>
+          <FRBRdate date="2010-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-53-10-3/bul@2010-07-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-53-10-3/bul@2010-07-13.xml"/>
+          <FRBRdate date="2010-07-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-13" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 134 ОТ 5 ЮЛИ 2010 Г. за приемане на Методология за определяне на финансови корекции, които се прилагат</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 7а от Закона за нормативните актове във връзка с чл. 98 от Регламент (ЕО) № 1083/2006 на Съвета относно определянето на общи разпоредби за Европейския регионален фонд, Европейския социален фонд и Кохезионния фонд и за отмяна на Регламент (EO) № 1260/1999.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

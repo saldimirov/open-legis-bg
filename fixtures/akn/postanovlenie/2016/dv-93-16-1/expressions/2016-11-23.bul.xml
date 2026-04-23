@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-93-16-1/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-93-16-1"/>
+          <FRBRalias value="Постановление № 302 ОТ 15 НОЕМВРИ 2016 Г. за приемане на Правилник за устройството," name="short"/>
+          <FRBRalias value="Постановление № 302 ОТ 15 НОЕМВРИ 2016 Г. за приемане на Правилник за устройството," name="eli" other="/eli/bg/postanovlenie/2016/dv-93-16-1"/>
+          <FRBRdate date="2016-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-93-16-1/bul@2016-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-93-16-1/bul@2016-11-23"/>
+          <FRBRdate date="2016-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-93-16-1/bul@2016-11-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-93-16-1/bul@2016-11-23.xml"/>
+          <FRBRdate date="2016-11-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-23" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 302 ОТ 15 НОЕМВРИ 2016 Г. за приемане на Правилник за устройството,</p>
+      <p>(обн., ДВ, бр. 104 от 2004 г.; изм. и доп., бр. 78, 83, 89, 94 и 96 от 2005 г., бр. 53 от 2008 г., бр. 93 от 2009 г., бр. 58 от 2010 г., бр. 42 от 2014 г. и бр. 22 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Правилникът за устройство­ то и организацията на работа на Национал­ ния съвет по равнопоставеността на жените и мъжете към Министерския съвет, приет с Постановление № 313 на Министерския съвет от 2004 г. (обн., ДВ, бр. 104 от 2004 г.; изм. и доп., бр. 78, 83, 89, 94 и 96 от 2005 г., бр. 53 от 2008 г., бр. 93 от 2009 г., бр. 58 от 2010 г., бр. 42 от 2014 г. и бр. 22 от 2015 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

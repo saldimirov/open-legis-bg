@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-21-19-7/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-21-19-7"/>
+          <FRBRalias value="Постановление № 42 ОТ 7 МАРТ 2019 Г. за изменение на Постановление № 138 на Ми-" name="short"/>
+          <FRBRalias value="Постановление № 42 ОТ 7 МАРТ 2019 Г. за изменение на Постановление № 138 на Ми-" name="eli" other="/eli/bg/postanovlenie/2019/dv-21-19-7"/>
+          <FRBRdate date="2019-03-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-21-19-7/bul@2019-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-21-19-7/bul@2019-03-12"/>
+          <FRBRdate date="2019-03-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-21-19-7/bul@2019-03-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-21-19-7/bul@2019-03-12.xml"/>
+          <FRBRdate date="2019-03-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-03-12" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 42 ОТ 7 МАРТ 2019 Г. за изменение на Постановление № 138 на Ми-</p>
+      <p>(обн., ДВ, бр. 48 от 2014 г.; изм. и доп., бр. 55 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 10, ал. 2 и в чл. 11, ал. 2 думите „Стратегическо планиране и демографска по- литика“ се заменят с „Жизнено равнище, де- мографска политика и социални инвестиции“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

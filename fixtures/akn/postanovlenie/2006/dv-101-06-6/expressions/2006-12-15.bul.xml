@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-6"/>
+          <FRBRalias value="Постановление № 324 от 6 декември 2006 г. за определяне нов размер на минималната работна заплата за страната" name="short"/>
+          <FRBRalias value="Постановление № 324 от 6 декември 2006 г. за определяне нов размер на минималната работна заплата за страната" name="eli" other="/eli/bg/postanovlenie/2006/dv-101-06-6"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-6/bul@2006-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-6/bul@2006-12-15"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-101-06-6/bul@2006-12-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-101-06-6/bul@2006-12-15.xml"/>
+          <FRBRdate date="2006-12-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-15" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 324 от 6 декември 2006 г. за определяне нов размер на минималната работна заплата за страната</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>До приемането на Националния план за действие по заетостта за 2007 г. субсидираното от държавния бюджет трудово възнаграждение на лицата, наети по програми и мерки за заетост по Закона за насърчаване на заетостта, се определя от 1 януари 2007 г. в размер 180 лв. за пълен работен месец при 8-часов работен ден и 1,07 лв. часова работна заплата.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Необходимите за 2007 г. средства за изпълнение на постановлението в бюджетните организации и дейности се осигуряват в рамките на средствата по бюджетите на държавните органи, министерствата и другите бюджетни организации, трансфера от републиканския бюджет за самостоятелните бюджети и от извънбюджетни сметки, от собствени приходи на общините и от извънбюджетни средства.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Министърът на труда и социалната политика и министърът на финансите дават указания по изпълнението на постановлението и решават в рамките на своята компетентност възникнали специфични въпроси по прилагането му.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 244, т. 1 от Кодекса на труда.</p>
+            <p>За министър-председател:  Даниел Вълчев</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>76209</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

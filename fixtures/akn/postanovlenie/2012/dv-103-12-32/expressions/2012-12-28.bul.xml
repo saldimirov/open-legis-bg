@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-32/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-32"/>
+          <FRBRalias value="Постановление № 336 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Наредбата за заплатите на" name="short"/>
+          <FRBRalias value="Постановление № 336 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Наредбата за заплатите на" name="eli" other="/eli/bg/postanovlenie/2012/dv-103-12-32"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-32/bul@2012-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-32/bul@2012-12-28"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-32/bul@2012-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-32/bul@2012-12-28.xml"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-28" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 336 ОТ 20 ДЕКЕМВРИ 2012 Г. за изменение на Наредбата за заплатите на</p>
+      <p>(обн., ДВ, бр. 49 от 2012 г.; изм. и доп., бр. 80 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 3, ал. 2 се правят следните изменения: 1. В колона „Нива на основните месечни заплати“, на ред 25, степен 1, колона 1 „ми­ нимална“ числото „305“ се заменя с „310“. 2. В колона „Нива на основните месечни заплати“, на ред 26: а) в степен 1, колона 1 „минимална“ чис­ лото „300“ се заменя с „310“; б) в степен 2, колона 1 „минимална“ чис­ лото „305“ се заменя с „310“. 3. В колона „Нива на основните месечни заплати“, на ред 27: а) в степен 1, колона 1 „минимална“ чис­ лото „295“ се заменя с „310“; б) в степен 2, колона 1 „минимална“ чис­ лото „300“ се заменя с „310“. 4. В колона „Нива на основните месечни заплати“, на ред 28: а) в степен 1, колона 1 „минимална“ чис­ лото „290“ се заменя с „310“; б) в степен 2, колона 1 „минимална“ чис­ лото „295“ се заменя с „310“; в) в степен 3, колона 1 „минимална“ чис­ лото „300“ се заменя с „310“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

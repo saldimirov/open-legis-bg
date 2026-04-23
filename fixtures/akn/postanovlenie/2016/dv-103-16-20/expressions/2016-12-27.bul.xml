@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-103-16-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-103-16-20"/>
+          <FRBRalias value="Постановление № 368 ОТ 22 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 368 ОТ 22 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2016/dv-103-16-20"/>
+          <FRBRdate date="2016-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-103-16-20/bul@2016-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-103-16-20/bul@2016-12-27"/>
+          <FRBRdate date="2016-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-103-16-20/bul@2016-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-103-16-20/bul@2016-12-27.xml"/>
+          <FRBRdate date="2016-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-27" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 368 ОТ 22 ДЕКЕМВРИ 2016 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерския съвет за 2016 г., както следва: 1. намалява утвърдените разходи по бюджет- на програма „Администрация“ с 2 770 750 лв.; 2. увеличава утвърдените разходи по: а) Област „Осигуряване дейността и органи- зацията на работата на Министерския съвет“ с 874 000 лв., в т.ч. бюджетна програма „Ми- нистерски съвет и организация на дейността му“ – с 582 000 лв., и бюджетна програма „Координация и мониторинг на хоризонтални политики“ – с 292 000 лв.; б) „Политика в областта на управлението на средствата от ЕС“, бюджетна програма „Коор- динация при управление на средствата от ЕС“ с 49 000 лв.; в) „Политика в областта на правото на вероизповедание“, бюджетна програма „Ве- роизповедания“ – с 535 000 лв.; г) „Политика в областта на архивното дело“, бюджетна програма „Национален архивен фонд“ – с 270 000 лв.; д) бюджетна програма „Други дейности и услуги“ – със 787 750 лв.; е) бюджетна програма „Убежище и бежан­ ци“ – с 255 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Главният секретар на Министерския съвет да извърши съответните промени по бюджета на Министерския съвет за 2016 г. и да уведоми министъра на финансите. БРОЙ 103 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 63 Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси и чл. 78, ал. 1 от Закона за държав- ния бюджет на Република България за 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на главния секретар на Министер- ския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2016 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

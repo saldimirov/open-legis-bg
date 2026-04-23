@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-77-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-77-06-12"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”" name="eli" other="/eli/bg/pravilnik/2006/dv-77-06-12"/>
+          <FRBRdate date="2006-09-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-77-06-12/bul@2006-09-19/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-77-06-12/bul@2006-09-19"/>
+          <FRBRdate date="2006-09-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-77-06-12/bul@2006-09-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-77-06-12/bul@2006-09-19.xml"/>
+          <FRBRdate date="2006-09-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-09-19" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за дейността и структурата на държавното предприятие “Строителство и възстановяване”</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 12 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова т. 14:</p>
+            <p>“14. избира експерт-счетоводител за извършване на независим финансов одит на годишния финансов отчет;”.</p>
+            <p>2. Сегашната т. 14 става т. 15.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 15, ал. 1 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова т. 22:</p>
+            <p>“22. сключва договор с избрания от управителния съвет експерт-счетоводител за извършване на независим финансов одит на годишния финансов отчет на държавното предприятие;”.</p>
+            <p>2. Сегашната т. 22 става т. 23.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 29 се правят следните изменения:</p>
+            <p>1. В ал. 1 т. 2 се отменя.</p>
+            <p>2. В ал. 2 т. 4, 5 и 6 се отменят.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 31 се правят следните изменения:</p>
+            <p>1. В т. 1 след израза “София - Горубляне;” се заличава думата “София”.</p>
+            <p>2. В т. 2 думата “балнеохотел” в скобите и изразът “Варна, Хисаря, Велинград” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Навсякъде в правилника се заличават думите “балнеохотела” и “балнеохотели” и изразът “и балнеохотелите”.</p>
+            <p>Министър:  А. Гагаузов</p>
+            <p>60760</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

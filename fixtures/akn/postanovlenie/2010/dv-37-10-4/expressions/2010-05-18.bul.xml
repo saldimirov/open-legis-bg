@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-37-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-37-10-4"/>
+          <FRBRalias value="Постановление № 89 ОТ 11 МАЙ 2010 Г. за предоставяне на допълнителни средства за субсидирана заетост към Националния" name="short"/>
+          <FRBRalias value="Постановление № 89 ОТ 11 МАЙ 2010 Г. за предоставяне на допълнителни средства за субсидирана заетост към Националния" name="eli" other="/eli/bg/postanovlenie/2010/dv-37-10-4"/>
+          <FRBRdate date="2010-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-37-10-4/bul@2010-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-37-10-4/bul@2010-05-18"/>
+          <FRBRdate date="2010-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-37-10-4/bul@2010-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-37-10-4/bul@2010-05-18.xml"/>
+          <FRBRdate date="2010-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-18" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 89 ОТ 11 МАЙ 2010 Г. за предоставяне на допълнителни средства за субсидирана заетост към Националния</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни бюджетни кредити по бюджета на Министерството на труда и социалната политика в размер 10 000 000 лв. в изпълнение на т. 43 от Решение № 180 на БРОЙ 37 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 5 „ Министерския съвет от 2010 г. за финансиране на Национална програма „От социални помо­ щи към осигуряване на заетост“, одобрена от Министерския съвет с Протоколно решение № 38 от 26 септември 2002 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят за сметка на преструктуриране на разходите по централния бюджет за 2010 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Изразходването на средствата по чл. 1, ал. 1 се извършва при условията, по реда и в размерите, определени в Националния план за действие по заетостта през 2010 г., приет от Министерския съвет с Протоколно решение № 51 от 30 декември 2009 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по пред­ ложение на министъра на труда и социалната политика да извърши налагащите се промени по бюджета на Министерството на труда и социалната политика за 2010 г. в рамките на средствата по чл. 1, ал. 1. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на труда и социалната политика и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

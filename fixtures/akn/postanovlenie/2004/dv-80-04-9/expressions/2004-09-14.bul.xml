@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-80-04-9/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-80-04-9"/>
+          <FRBRalias value="Постановление № 236 от 3 септември 2004 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 236 от 3 септември 2004 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2004/dv-80-04-9"/>
+          <FRBRdate date="2004-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-80-04-9/bul@2004-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-80-04-9/bul@2004-09-14"/>
+          <FRBRdate date="2004-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-80-04-9/bul@2004-09-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-80-04-9/bul@2004-09-14.xml"/>
+          <FRBRdate date="2004-09-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 236 от 3 септември 2004 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 100 от 2000 г.; изм. и доп., бр. 44 от 2001 г.; попр., бр. 51 от 2001 г.; изм. и доп., бр. 93 от 2001 г., бр. 5 от 2002 г. и бр. 50 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 1 към чл. 11, ал. 2 и чл. 16 от Наредбата за служебните командировки и специализации в чужбина, приета с Постановление № 115 на Министерския съвет от 2004 г. (ДВ, бр. 50 от 2004 г.), се правят следните допълнения:</p>
+            <p>1. В раздел I, т. 5 след думите “Комисията за защита от дискриминация” се поставя запетая и се добавя “Държавната комисия по сигурността на информацията”.</p>
+            <p>2. В раздел II, т. 3 след думите “Комисията за регулиране на съобщенията” се поставя запетая и се добавя “Държавната комисия по сигурността на информацията”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 11, т. 1 от Наредбата за условията и реда за дългосрочно командироване в чужбина на служители в дипломатическите и консулските представителства на Република България и на служители в други бюджетни организации, приета с Постановление № 252 на Министер&amp;shy;ския съвет от 2000 г. (обн., ДВ, бр. 100 от 2000 г.; изм. и доп., бр. 44 от 2001 г.; попр., бр. 51 от 2001 г.; изм. и доп., бр. 93 от 2001 г., бр. 5 от 2002 г. и бр. 50 от 2004 г.), думата “само” се заличава.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 1 влиза в сила от 1 септември 2004 г., а § 2 - от деня на обнародването на постановлението в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

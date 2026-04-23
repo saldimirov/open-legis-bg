@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-12"/>
+          <FRBRalias value="Постановление № 13 ОТ 21 ЯНУАРИ 2011 Г. за приемане на Устройствен правилник на" name="short"/>
+          <FRBRalias value="Постановление № 13 ОТ 21 ЯНУАРИ 2011 Г. за приемане на Устройствен правилник на" name="eli" other="/eli/bg/postanovlenie/2011/dv-9-11-12"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-12/bul@2011-01-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-12/bul@2011-01-28"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-9-11-12/bul@2011-01-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-9-11-12/bul@2011-01-28.xml"/>
+          <FRBRdate date="2011-01-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-28" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 13 ОТ 21 ЯНУАРИ 2011 Г. за приемане на Устройствен правилник на</p>
+      <p>(обн., ДВ, бр. 80 от 2002 г.; изм. и доп., бр. 48 от 2006 г. и бр. 76 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Изпълнителната агенция по селекция и репродукция в животновъдството към ми­ нистъра на земеделието и храните, приет с Постановление № 176 на Министерския съвет от 2002 г. (обн., ДВ, бр. 80 от 2002 г.; изм. и доп., бр. 48 от 2006 г. и бр. 76 от 2008 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 2, ал. 3 от Постановление № 125 на Министерския съвет от 2006 г. за приемане на Устройствен пра­ вилник на Министерството на земеделието и храните (обн., ДВ, бр. 48 от 2006 г.; изм. и доп., бр. 15, 62 и 77 от 2007 г., бр. 76 и 83 от 2008 г., бр. 3, 42, 84 и 90 от 2009 г. и бр. 4, 22, 41, 84 и 101 от 2010 г.) в т. 9 числото „162“ се заменя със „141“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В срок до един месец от приемането на устройствения правилник изпълнителни­ ят директор на Изпълнителната агенция по селекция и репродукция в животновъдството утвърждава длъжностното разписание на служителите в администрацията.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

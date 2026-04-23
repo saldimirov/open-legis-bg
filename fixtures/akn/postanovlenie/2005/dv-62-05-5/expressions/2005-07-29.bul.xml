@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-5/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-5"/>
+          <FRBRalias value="Постановление № 169 от 20 юли 2005 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Морска администрация”, приет с Постановление № 74 на Министерския съвет от 2000 г." name="short"/>
+          <FRBRalias value="Постановление № 169 от 20 юли 2005 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Морска администрация”, приет с Постановление № 74 на Министерския съвет от 2000 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-62-05-5"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-5/bul@2005-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-5/bul@2005-07-29"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-62-05-5/bul@2005-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-62-05-5/bul@2005-07-29.xml"/>
+          <FRBRdate date="2005-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-29" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 169 от 20 юли 2005 г. за изменение и допълнение на Устройствения правилник на Изпълнителна агенция “Морска администрация”, приет с Постановление № 74 на Министерския съвет от 2000 г.</p>
+      <p>(обн., ДВ, бр. 39 от 2000 г.; изм. и доп., бр. 87 от 2001 г., бр. 15, 73 и 82 от 2003 г. и бр. 53 и 110 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 4:</p>
+            <p>“(4) Агенцията осъществява функция на междинно звено за Секторна оперативна програма “Транспорт” 2007 - 2013 г. Агенцията осъществява функции, определени от управляващия орган по програмата.”</p>
+            <p>2. Досегашната ал. 4 става ал. 5.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 17, ал. 1 запетаята се заменя с точка и думите “назначен от изпълнителния директор за срок 5 години” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 22 се създава т. 13:</p>
+            <p>“13. осъществява дейностите на агенцията, свързани с изпълнение на функциите й на междинно звено за Секторна оперативна програма “Транспорт” 2007 - 2013 г.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

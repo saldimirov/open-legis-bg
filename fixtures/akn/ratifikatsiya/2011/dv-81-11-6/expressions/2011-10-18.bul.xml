@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-81-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-81-11-6"/>
+          <FRBRalias value="Закон за ратифициране на Допълнителното спора­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Допълнителното спора­" name="eli" other="/eli/bg/ratifikatsiya/2011/dv-81-11-6"/>
+          <FRBRdate date="2011-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-81-11-6/bul@2011-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-81-11-6/bul@2011-10-18"/>
+          <FRBRdate date="2011-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-81-11-6/bul@2011-10-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-81-11-6/bul@2011-10-18.xml"/>
+          <FRBRdate date="2011-10-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-18" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Допълнителното спора­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>зумение, изменящо Договора между прави­ телството на Република България и прави­ телството на Република Ливан за взаимно насърчаване и защита на инвестициите Член единствен. Ратифицира Допълни­ телното споразумение, изменящо Договора между правителството на Република България и правителството на Република Ливан за вза­ имно насърчаване и защита на инвестициите, подписано на 21 декември 2010 г. в Бейрут.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

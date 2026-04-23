@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-10"/>
+          <FRBRalias value="Постановление № 198 ОТ 28 АВГУСТ 2012 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 198 ОТ 28 АВГУСТ 2012 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2012/dv-68-12-10"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-10/bul@2012-09-04/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-10/bul@2012-09-04"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-68-12-10/bul@2012-09-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-68-12-10/bul@2012-09-04.xml"/>
+          <FRBRdate date="2012-09-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-09-04" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 198 ОТ 28 АВГУСТ 2012 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 34 от 2012 г.; изм. и доп., бр. 41, 44 и 61 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 числото „85 000“ се за­ меня със „103 000“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 1, т. 1 се правят следните изменения и допълнения: 1. В раздел А. „Програма/обекти“: а) създава се ред 2.3: „2.3. Път І-9, участък (край обход Поморие) – квартал Сарафово, от км 222+849 до км 225+522 5 500 000“; б) ред 6.2 се изменя така: „6.2. Път ІІІ-9901 Царево – Резово (участък I от км 2+997 до км 11+000 и II участък от км 20+600 до км 30+238) 8 448 000“; в) създават се редове 6.3 и 6.4: „6.3. Път III-559 Светлина – Тополов­ град от км 4+500 до км 23+520 и от км 35+160 до км 39+450 – I етап 3 000 000 6.4. Път І-7 Окоп – Елхово – ГКПП – Лесово, от км 266+060- 270+000 до км 282+000-296+200 4 200 000“; г) на ред „Общо“ числото „85 000 000“ се заменя със „103 000 000“. 2. В раздел Б. „Обекти и дейности за фи­ нансиране при освобождаване на средства от раздел А“: а) на ред 9 числото „7 770 360“ се заменя с „37 770 360“; б) ред 10 се изменя така: „10. Автомагистрала „Хемус“, учас­ тък Белокопитово – Каспичан от км 337+300 до км 342+200 – I етап 3 000 000“; в) ред 21 се изменя така: „21. Път ІІІ-761 Срем – Устрем от км 11+000 до км 13+528 550 000“; г) създава се нов ред 25: „25. Път ІІ-76 Тополовград – Хля­ бово от 24+400 до км 29+000 1 500 000“; д) досегашният ред 25 става ред 26; е) на ред „Общо“ числото „80 228 960“ се заменя със „106 778 960“; ж) на ред „Всичко А+Б“ числото „165 228 960“ се заменя със „109 778 960“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 22 август 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-5"/>
+          <FRBRalias value="Постановление № 271 ОТ 29 НОЕМВРИ 2013 Г. за допълнение на Наредбата за допълнител-" name="short"/>
+          <FRBRalias value="Постановление № 271 ОТ 29 НОЕМВРИ 2013 Г. за допълнение на Наредбата за допълнител-" name="eli" other="/eli/bg/postanovlenie/2013/dv-105-13-5"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-5/bul@2013-12-06/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-5/bul@2013-12-06"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-5/bul@2013-12-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-5/bul@2013-12-06.xml"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-12-06" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 271 ОТ 29 НОЕМВРИ 2013 Г. за допълнение на Наредбата за допълнител-</p>
+      <p>(обн., ДВ, бр. 41 от 2010 г.; изм. и доп., бр. 58 от 2011 г. и бр. 43 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се създават т. 17 – 20: „17. Член 6 от Регламент (ЕС) № 617/2013 на Комисията от 26 юни 2013 г. за прилагане на Директива 2009/125/ЕО на Европейския парламент и на Съвета по отношение на изискванията за екопроектиране на компю- три и компютърни сървъри (ОВ, L 175/13 от 27.06.2013 г.). 18. Член 4, параграф 1 от Регламент (ЕС) № 666/2013 на Комисията от 8 юли 2013 г. за прилагане на Директива 2009/125/ЕО на Европейския парламент и на Съвета по отношение на изискванията за екопроек- тиране на прахосмукачки (ОВ, L 192/24 от 13.07.2013 г.). 19. Член 4, параграф 1 от Регламент (ЕС) № 813/2013 на Комисията от 2 август 2013 г. за прилагане на Директива 2009/125/ЕО на Европейския парламент и на Съвета по отношение на изискванията за екопроек- тиране на отоплителни топлоизточници и комбинирани топлоизточници (ОВ, L 239/136 от 6.09.2013 г.). 20. Член 4, параграф 1 от Регламент (ЕС) № 814/2013 на Комисията от 2 август 2013 г. за прилагане на Директива 2009/125/ЕО на Европейския парламент и на Съвета по от- ношение на изискванията за екопроектиране на водоподгреватели и топлоакумулиращи резервоари за гореща вода (ОВ, L 239/162 от 6.09.2013 г.).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

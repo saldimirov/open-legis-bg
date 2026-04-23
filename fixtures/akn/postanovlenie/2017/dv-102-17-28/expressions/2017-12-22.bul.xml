@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-28"/>
+          <FRBRalias value="Постановление № 320 ОТ 20 ДЕКЕМВРИ 2017 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 320 ОТ 20 ДЕКЕМВРИ 2017 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2017/dv-102-17-28"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-28/bul@2017-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-28/bul@2017-12-22"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-102-17-28/bul@2017-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-102-17-28/bul@2017-12-22.xml"/>
+          <FRBRdate date="2017-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 320 ОТ 20 ДЕКЕМВРИ 2017 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерския съвет за 2017 г., както следва: 1. намаляване на утвърдените разходи по: а) бюджетна програма „Администрация“ с 3 578 000 лв.; б) бюджетна програма „Убежище и бежан­ ци“ с 1 390 000 лв.; 2. увеличаване на утвърдените разходи по: а) област „Осигуряване дейността и ор- ганизацията на работата на Министерския съвет“ с 1 320 000 лв., в т.ч. бюджетна про- грама „Министерски съвет и организация на дейността му“ с 641 000 лв. и бюджетна програма „Координация и мониторинг на хоризонтални политики“ с 679 000 лв.; б) „Политика в областта на управлението на средствата от ЕС“, бюджетна програма „Координация при управление на средствата от ЕС“ с 90 000 лв.; в) „Политика в областта на осъществява- нето на държавните функции на територията на областите в България“, бюджетна програма „Осъществяване на държавната политика на областно ниво“ със 171 000 лв.; г) „Политика в областта на правото на вероизповедание“, бюджетна програма „Ве- роизповедания“ с 21 000 лв.; д) „Политика в областта на архивното дело“, бюджетна програма „Национален архивен фонд“ с 299 000 лв.; е) бюджетна програма „Други дейности и услуги“ с 3 067 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Главният секретар на Министерския съвет да извърши налагащите се промени по бюджета на Министерския съвет за 2017 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на главния секретар на Министер- ския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 20 декември 2017 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

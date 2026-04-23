@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-15-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-15-07-22"/>
+          <FRBRalias value="Постановление № 26 от 6 февруари 2007 г. за изменение и допълнение на Наредбата за изискванията към храните със специално предназначение, приета с Постановление № 249 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 26 от 6 февруари 2007 г. за изменение и допълнение на Наредбата за изискванията към храните със специално предназначение, приета с Постановление № 249 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-15-07-22"/>
+          <FRBRdate date="2007-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-15-07-22/bul@2007-02-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-15-07-22/bul@2007-02-16"/>
+          <FRBRdate date="2007-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-15-07-22/bul@2007-02-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-15-07-22/bul@2007-02-16.xml"/>
+          <FRBRdate date="2007-02-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-02-16" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 26 от 6 февруари 2007 г. за изменение и допълнение на Наредбата за изискванията към храните със специално предназначение, приета с Постановление № 249 на Министерския съвет от 2002 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 2 към чл. 5, ал. 1 се правят следните изменения и допълнения:</p>
+            <p>1. В категория 1. Витамини:</p>
+            <p>а) заглавието “Фолиева киселина” се заменя с “Фолат”;</p>
+            <p>б) в категория 1. Витамини, Фолат накрая се добавя:</p>
+            <p>“</p>
+            <p>Вещество                          Условия за употреба</p>
+            <p>всички          ДХСМЦ</p>
+            <p>ХСП</p>
+            <p>- калциев-L-метилфолат                                 х</p>
+            <p>”</p>
+            <p>2. В категория 2. Минерални вещества, Магнезий накрая се добавя:</p>
+            <p>“</p>
+            <p>Вещество                         Условия за употреба</p>
+            <p>Всички          ДХСМЦ</p>
+            <p>ХСП</p>
+            <p>- магнезиев-L-аспартат                                  х</p>
+            <p>”</p>
+            <p>3. В категория 2. Минерални вещества, Желязо накрая се добавя:</p>
+            <p>“</p>
+            <p>Вещество                        Условия за употреба</p>
+            <p>Всички          ДХСМЦ</p>
+            <p>ХСП</p>
+            <p>- железен бисглицинат                                   х</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>С постановлението се въвеждат изискванията на Директива 2006/34/ЕС относно изменение на приложението на Директива 2001/15/ЕС за включване на някои вещества в храните със специално предназначение.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

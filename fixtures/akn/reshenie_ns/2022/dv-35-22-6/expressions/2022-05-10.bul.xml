@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-35-22-6/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-35-22-6"/>
+          <FRBRalias value="Решение за избиране на член на Съвета за електронни" name="short"/>
+          <FRBRalias value="Решение за избиране на член на Съвета за електронни" name="eli" other="/eli/bg/reshenie_ns/2022/dv-35-22-6"/>
+          <FRBRdate date="2022-05-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-35-22-6/bul@2022-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-35-22-6/bul@2022-05-10"/>
+          <FRBRdate date="2022-05-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-35-22-6/bul@2022-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-35-22-6/bul@2022-05-10.xml"/>
+          <FRBRdate date="2022-05-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-05-10" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на член на Съвета за електронни</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>медии Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и във връзка с чл. 24, ал. 1 и чл. 29, ал. 1 от Закона за радиото и телевизията Р Е Ш И : 1. Избира Симона Здравчева Велева-Стой- нова за член на Съвета за електронни медии. 2. Когато в рамките на процедурата по из- бор на двама членове на Съвета за електронни медии Народното събрание избере само един член на СЕМ, в деня на избора Комисията по култура и медии провежда жребий по нароч- но приети от нея правила, с който определя на мястото на кой член с изтекъл мандат от квотата на Народното събрание встъпва избраният кандидат. Решението е прието от 47-ото Народно събрание на 5 май 2022 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

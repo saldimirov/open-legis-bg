@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-3/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-3"/>
+          <FRBRalias value="Постановление № 20 ОТ 14 ФЕВРУАРИ 2018 Г. за приемане на Наредба за радиационна" name="short"/>
+          <FRBRalias value="Постановление № 20 ОТ 14 ФЕВРУАРИ 2018 Г. за приемане на Наредба за радиационна" name="eli" other="/eli/bg/postanovlenie/2018/dv-16-18-3"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-3/bul@2018-02-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-3/bul@2018-02-20"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-3/bul@2018-02-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-3/bul@2018-02-20.xml"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-20" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 20 ОТ 14 ФЕВРУАРИ 2018 Г. за приемане на Наредба за радиационна</p>
+      <p>(обн., ДВ, бр. 74 от 2004 г.; изм. и доп., бр. 74 от 2006 г., бр. 46 от 2007 г., бр. 5 от 2010 г., бр. 7 от 2011 г. и бр. 76 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Наредбата за основни норми за радиаци- онна защита, приета с Постановление № 229 на Министерския съвет от 2012 г. (ДВ, бр. 76 от 2012 г.). 2. Наредбата за радиационна защита при дейности с източници на йонизиращи лъчения, приета с Постановление № 200 на Минис- терския съвет от 2004 г. (обн., ДВ, бр. 74 от 2004 г.; изм. и доп., бр. 74 от 2006 г., бр. 46 от 2007 г., бр. 5 от 2010 г., бр. 7 от 2011 г. и бр. 76 от 2012 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

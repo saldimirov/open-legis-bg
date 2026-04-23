@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-92-15-5/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-92-15-5"/>
+          <FRBRalias value="Постановление № 318 ОТ 20 НОЕМВРИ 2015 Г. за одобряване на промени по бюджета на" name="short"/>
+          <FRBRalias value="Постановление № 318 ОТ 20 НОЕМВРИ 2015 Г. за одобряване на промени по бюджета на" name="eli" other="/eli/bg/postanovlenie/2015/dv-92-15-5"/>
+          <FRBRdate date="2015-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-92-15-5/bul@2015-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-92-15-5/bul@2015-11-27"/>
+          <FRBRdate date="2015-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-92-15-5/bul@2015-11-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-92-15-5/bul@2015-11-27.xml"/>
+          <FRBRdate date="2015-11-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-11-27" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 318 ОТ 20 НОЕМВРИ 2015 Г. за одобряване на промени по бюджета на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдените разходи за персонал по бюджета на Сметната палата за 2015 г. за сметка на намаление на утвърдените текущи разходи за издръжка и други текущи разходи за 2015 г. със сумата 180 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Председателят на Сметната палата да извърши налагащите се от чл. 1 промени по бюджета на Сметната палата за 2015 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Със сумата по чл. 1 да се намалят показателите по чл. 4, ал. 2 от Закона за държавния бюджет на Република България за 2015 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 2 от Закона за публичните финанси и чл. 80, ал. 2 от Закона за държав- ния бюджет на Република България за 2015 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на председателя на Сметната палата.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

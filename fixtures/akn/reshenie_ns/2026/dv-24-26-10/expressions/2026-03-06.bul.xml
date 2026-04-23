@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-24-26-10/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-24-26-10"/>
+          <FRBRalias value="Решение за попълване състава и ръководството на Комисията по образованието и науката" name="short"/>
+          <FRBRalias value="Решение за попълване състава и ръководството на Комисията по образованието и науката" name="eli" other="/eli/bg/reshenie_ns/2026/dv-24-26-10"/>
+          <FRBRdate date="2026-03-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-24-26-10/bul@2026-03-06/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-24-26-10/bul@2026-03-06"/>
+          <FRBRdate date="2026-03-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-24-26-10/bul@2026-03-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-24-26-10/bul@2026-03-06.xml"/>
+          <FRBRdate date="2026-03-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-03-06" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за попълване състава и ръководството на Комисията по образованието и науката</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 18, ал. 3 от Правилника за организацията и дейността на Народното събрание РЕШИ: 1. Избира Силви Кирилов Петров за член и председател на Комисията по образованието и науката. 2. Избира Красимир Георгиев Вълчев за член на Комисията по образованието и науката. Решението е прието от 51-вото Народно събрание на 25 февруари 2026 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

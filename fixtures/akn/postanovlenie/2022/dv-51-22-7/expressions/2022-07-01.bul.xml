@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-51-22-7/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-51-22-7"/>
+          <FRBRalias value="Постановление № 145 ОТ 29 ЮНИ 2022 Г. за приемане на Наредба за изискванията към" name="short"/>
+          <FRBRalias value="Постановление № 145 ОТ 29 ЮНИ 2022 Г. за приемане на Наредба за изискванията към" name="eli" other="/eli/bg/postanovlenie/2022/dv-51-22-7"/>
+          <FRBRdate date="2022-07-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-51-22-7/bul@2022-07-01/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-51-22-7/bul@2022-07-01"/>
+          <FRBRdate date="2022-07-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-51-22-7/bul@2022-07-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-51-22-7/bul@2022-07-01.xml"/>
+          <FRBRdate date="2022-07-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-07-01" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 145 ОТ 29 ЮНИ 2022 Г. за приемане на Наредба за изискванията към</p>
+      <p>(обн., ДВ, бр. 27 от 2003 г.; изм. и доп., бр. 55 от 2004 г. и бр. 17 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Наредбата за изискванията към храните на зърнена основа и към детските храни, пред­ назначени за кърмачета и малки деца, приета с Постановление № 66 на Министерския съвет от 2003 г. (обн., ДВ, бр. 27 от 2003 г.; изм. и доп., бр. 55 от 2004 г. и бр. 17 от 2018 г.). 2. Наредбата за изискванията към диетич­ ните храни за специални медицински цели, приета с Постановление № 248 на Минис­ терския съвет от 2002 г. (обн., ДВ, бр. 107 от 2002 г.; изм. и доп., бр. 75 от 2007 г., бр. 84 от 2013 г. и бр. 17 от 2018 г.). 3. Наредбата за изискванията към храните за нискоенергийни диети за намаляване на телесното тегло, приета с Постановление № 252 на Министерския съвет от 2002 г. (обн., ДВ, бр. 107 от 2002 г.; изм. и доп., бр. 75 от 2007 г. и бр. 17 от 2018 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила в 14-дневен срок от деня на обнародването му в „Държавен вестник“ с изключение на § 1, т. 3, която влиза в сила от 27 октомври 2022 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

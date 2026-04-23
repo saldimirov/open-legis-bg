@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-3/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-3"/>
+          <FRBRalias value="Постановление № 10 от 22 януари 2007 г. за закриване на медицински колежи в структурата на Медицинския университет -­ Плевен" name="short"/>
+          <FRBRalias value="Постановление № 10 от 22 януари 2007 г. за закриване на медицински колежи в структурата на Медицинския университет -­ Плевен" name="eli" other="/eli/bg/postanovlenie/2007/dv-11-07-3"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-3/bul@2007-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-3/bul@2007-02-02"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-11-07-3/bul@2007-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-11-07-3/bul@2007-02-02.xml"/>
+          <FRBRdate date="2007-02-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-02-02" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 10 от 22 януари 2007 г. за закриване на медицински колежи в структурата на Медицинския университет -­ Плевен</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Закрива Медицинския колеж - Русе, в структурата на Медицинския университет - Плевен.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Закрива Медицинския колеж - Велико Търново, в структурата на Медицинския университет - Плевен.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>От учебната 2007 - 2008 г. студентите от закритите колежи по чл. 1 и 2 продължават обучението си по същите специалности в Медицинския колеж - Плевен, в структурата на Медицинския университет - Плевен.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Движимото имущество и архивът на закритите колежи се предоставят на Медицинския университет - Плевен.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 9, ал. 3, т. 3 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2007 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

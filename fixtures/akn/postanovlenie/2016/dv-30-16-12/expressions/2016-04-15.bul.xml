@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-30-16-12/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-30-16-12"/>
+          <FRBRalias value="Постановление № 78 ОТ 12 АПРИЛ 2016 Г. за одобряване на Тарифа за определяне на" name="short"/>
+          <FRBRalias value="Постановление № 78 ОТ 12 АПРИЛ 2016 Г. за одобряване на Тарифа за определяне на" name="eli" other="/eli/bg/postanovlenie/2016/dv-30-16-12"/>
+          <FRBRdate date="2016-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-30-16-12/bul@2016-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-30-16-12/bul@2016-04-15"/>
+          <FRBRdate date="2016-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-30-16-12/bul@2016-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-30-16-12/bul@2016-04-15.xml"/>
+          <FRBRdate date="2016-04-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-15" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 78 ОТ 12 АПРИЛ 2016 Г. за одобряване на Тарифа за определяне на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 78 ОТ 12 АПРИЛ 2016 Г. за одобряване на Тарифа за определяне на цените, които се заплащат за изпълнението на мерките по програмата за профилактика, надзор, контрол и ликвидиране на болести по животните и зоонози МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Одобрява Тарифа за оп­ ределяне на цените, които се заплащат за изпълнението на мерките по програмата за профилактика, надзор, контрол и ликвидиране на болести по животните и зоонози. Заключителна разпоредба Параграф единствен. Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

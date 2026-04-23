@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-22-03-5/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-22-03-5"/>
+          <FRBRalias value="Постановление № 53 от 4 март 2003 г. за актуализиране на Списъка на държавите и организациите, спрямо които Република България прилага забрана или ограничения върху продажбата и доставките на въоръжение и на свързано с него оборудване, в съответствие с резолюции на Съвета за сигурност на ООН и с решения на Европейския съюз и на Организацията за сигурност и сътрудничество в Европа, утвърден с Постановление № 91 на Министерския съвет от 2001 г." name="short"/>
+          <FRBRalias value="Постановление № 53 от 4 март 2003 г. за актуализиране на Списъка на държавите и организациите, спрямо които Република България прилага забрана или ограничения върху продажбата и доставките на въоръжение и на свързано с него оборудване, в съответствие с резолюции на Съвета за сигурност на ООН и с решения на Европейския съюз и на Организацията за сигурност и сътрудничество в Европа, утвърден с Постановление № 91 на Министерския съвет от 2001 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-22-03-5"/>
+          <FRBRdate date="2003-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-22-03-5/bul@2003-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-22-03-5/bul@2003-03-11"/>
+          <FRBRdate date="2003-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-22-03-5/bul@2003-03-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-22-03-5/bul@2003-03-11.xml"/>
+          <FRBRdate date="2003-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-11" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 53 от 4 март 2003 г. за актуализиране на Списъка на държавите и организациите, спрямо които Република България прилага забрана или ограничения върху продажбата и доставките на въоръжение и на свързано с него оборудване, в съответствие с резолюции на Съвета за сигурност на ООН и с решения на Европейския съюз и на Организацията за сигурност и сътрудничество в Европа, утвърден с Постановление № 91 на Министерския съвет от 2001 г.</p>
+      <p>(обн., ДВ, бр. 37 от 2001 г.; изм., бр. 70 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложението към чл. 1 от Постановление № 91 на Министерския съвет от 2001 г. се заменя с приложението към това постановление.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се издава на основание чл. 4, ал. 2 от Закона за контрол на външнотърговската дейност с оръжие и със стоки и технологии с възможна двойна употреба.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§   3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

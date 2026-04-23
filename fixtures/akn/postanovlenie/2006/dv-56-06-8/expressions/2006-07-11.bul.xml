@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-8"/>
+          <FRBRalias value="Постановление № 165 от 30 юни 2006 г. за утвърждаване на Стандарти за вътрешен одит в публичния сектор" name="short"/>
+          <FRBRalias value="Постановление № 165 от 30 юни 2006 г. за утвърждаване на Стандарти за вътрешен одит в публичния сектор" name="eli" other="/eli/bg/postanovlenie/2006/dv-56-06-8"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-8/bul@2006-07-11/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-8/bul@2006-07-11"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-56-06-8/bul@2006-07-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-56-06-8/bul@2006-07-11.xml"/>
+          <FRBRdate date="2006-07-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-07-11" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 165 от 30 юни 2006 г. за утвърждаване на Стандарти за вътрешен одит в публичния сектор</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 48, ал. 1 от Закона за вътрешния одит в публичния сектор.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юли 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

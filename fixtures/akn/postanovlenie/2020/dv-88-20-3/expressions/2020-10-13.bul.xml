@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-3/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-3"/>
+          <FRBRalias value="Постановление № 275 ОТ 8 ОКТОМВРИ 2020 Г. за изменение и допълнение на Постановле-" name="short"/>
+          <FRBRalias value="Постановление № 275 ОТ 8 ОКТОМВРИ 2020 Г. за изменение и допълнение на Постановле-" name="eli" other="/eli/bg/postanovlenie/2020/dv-88-20-3"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-3/bul@2020-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-3/bul@2020-10-13"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-3/bul@2020-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-3/bul@2020-10-13.xml"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-10-13" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 275 ОТ 8 ОКТОМВРИ 2020 Г. за изменение и допълнение на Постановле-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на постановлението накрая се добавя „и във връзка с увеличаване капитала на търговско дружество“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения: 1. В ал. 1: а) в основния текст числото „100 000 000“ се заменя с „68 000 000“; б) в т. 1 числото „98 000 000“ се заменя с „66 000 000“, а след думата „общежития“ се поставя запетая и се добавя „предоставени за управление на държавните висши училища“ и се поставя запетая. 2. Създава се ал. 3: „</p>
+            <p>(3) Одобрява промени по бюджета на Министерството на образованието и нау- ката за 2020 г. за допълнителни плащания в частта на финансирането на бюджетното салдо за сметка на централния бюджет в размер 32 000 000 лв. за увеличаване капитала на „Студентски столове и обще- жития“ – ЕАД.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 3 се изменя така: ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

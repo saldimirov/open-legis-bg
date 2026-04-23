@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-107-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-107-08-10"/>
+          <FRBRalias value="Постановление № 300  от 8 декември 2008 г. за изменение и допълнение на Постановление № 209 на Министерския съвет от 2008 г. за приемане на Национална програма за отбелязване на 100-годишнината от независимостта на България" name="short"/>
+          <FRBRalias value="Постановление № 300  от 8 декември 2008 г. за изменение и допълнение на Постановление № 209 на Министерския съвет от 2008 г. за приемане на Национална програма за отбелязване на 100-годишнината от независимостта на България" name="eli" other="/eli/bg/postanovlenie/2008/dv-107-08-10"/>
+          <FRBRdate date="2008-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-107-08-10/bul@2008-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-107-08-10/bul@2008-12-16"/>
+          <FRBRdate date="2008-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-107-08-10/bul@2008-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-107-08-10/bul@2008-12-16.xml"/>
+          <FRBRdate date="2008-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-12-16" name="Държавен вестник" number="107" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 300  от 8 декември 2008 г. за изменение и допълнение на Постановление № 209 на Министерския съвет от 2008 г. за приемане на Национална програма за отбелязване на 100-годишнината от независимостта на България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 числото “7 500 420” се заменя с “4 867 754”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 числото “2 183 050” се заменя с “5 261 078”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Приложението към чл. 1 се изменя така:</p>
+            <p>“Приложение към чл. 1</p>
+            <p>НАЦИОНАЛНА ПРОГРАМА ЗА ОТБЕЛЯЗВАНЕ НА 100-ГОДИШНИНАТА ОТ НЕЗАВИСИМОСТТА НА БЪЛГАРИЯ</p>
+            <p>ЧАСТ А</p>
+            <p>Дейности, средства и финансиране по министерства, ведомства и други организации - без общините</p>
+            <p>Забележка на редакцията:    виж в PDF-а на броя.</p>
+            <p>”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

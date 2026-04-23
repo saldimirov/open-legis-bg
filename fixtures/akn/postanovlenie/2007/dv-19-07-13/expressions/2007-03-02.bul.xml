@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-13"/>
+          <FRBRalias value="Постановление № 35 от 19 февруари 2007 г. за изменение и допълнение на Наредбата за реда и начина за нотифициране на нови химични вещества, приета с Постановление № 327 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 35 от 19 февруари 2007 г. за изменение и допълнение на Наредбата за реда и начина за нотифициране на нови химични вещества, приета с Постановление № 327 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-19-07-13"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-13/bul@2007-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-13/bul@2007-03-02"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-19-07-13/bul@2007-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-19-07-13/bul@2007-03-02.xml"/>
+          <FRBRdate date="2007-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 35 от 19 февруари 2007 г. за изменение и допълнение на Наредбата за реда и начина за нотифициране на нови химични вещества, приета с Постановление № 327 на Министерския съвет от 2004 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 12, ал. 2 думите “територията на Република България” се заменят с “територията на Европейския съюз (ЕС)”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 19а:</p>
+            <p>“Чл. 19а. (1) Когато за вещества, произведени от един и същ производител извън територията на ЕС, има издадено повече от едно удостоверение за регистрация на нотифицирано вещество, министърът на околната среда и водите съвместно с Европейската комисия (ЕК) изчислява годишните и общите количества на веществата, пуснати на пазара на ЕС, въз основа на информацията, предоставена съгласно чл. 11 и 12.</p>
+            <p>(2) В случаите по ал. 1 при достигане на количествата по чл. 13 - 18 министърът на околната среда и водите уведомява всеки нотификатор за идентичността (името и адреса) на другите нотификатори.</p>
+            <p>(3) В случаите по ал. 2 задължението за извършване на допълнителни изследвания съгласно приложение № 11 се поема колективно от всички нотификатори.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 25а:</p>
+            <p>“Чл. 25а. (1) Министърът на околната среда и водите след получаване на технически досиета съгласно приложения № 1 - 4 или на допълнителна информация по чл. 13 - 19 изпраща резюме или копие на тази документация до ЕК.</p>
+            <p>(2) Министърът на околната среда и водите при получаване на информация по чл. 10в ЗЗВВХВП уведомява ЕК за избраните методи за изследване, причините за техния избор, резултатите от изследванията и оценката на резултатите, ако има направена такава.</p>
+            <p>(3) Министърът на околната среда и водите при получаване на информация по чл. 8, ал. 8 - 11 ЗЗВВХВП и по чл. 9, ал. 2 - 4 от наредбата я изпраща до ЕК.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

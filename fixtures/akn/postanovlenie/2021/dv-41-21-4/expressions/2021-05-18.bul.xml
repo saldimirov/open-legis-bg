@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-41-21-4/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-41-21-4"/>
+          <FRBRalias value="Постановление № 187 ОТ 13 МАЙ 2021 Г. за изменение на Устройствения правилник на Министерството на културата, приет с" name="short"/>
+          <FRBRalias value="Постановление № 187 ОТ 13 МАЙ 2021 Г. за изменение на Устройствения правилник на Министерството на културата, приет с" name="eli" other="/eli/bg/postanovlenie/2021/dv-41-21-4"/>
+          <FRBRdate date="2021-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-41-21-4/bul@2021-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-41-21-4/bul@2021-05-18"/>
+          <FRBRdate date="2021-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-41-21-4/bul@2021-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-41-21-4/bul@2021-05-18.xml"/>
+          <FRBRdate date="2021-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-05-18" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 187 ОТ 13 МАЙ 2021 Г. за изменение на Устройствения правилник на Министерството на културата, приет с</p>
+      <p>(обн., ДВ, бр. 98 от 2017 г.; изм. и доп., бр. 80 от 2019 г. и бр. 70 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думите „двама замест- ник-министри“ се заменят с „трима замест- ник-министри“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

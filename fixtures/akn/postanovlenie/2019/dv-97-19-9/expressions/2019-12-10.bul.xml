@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-97-19-9/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-97-19-9"/>
+          <FRBRalias value="Постановление № 310 ОТ 5 ДЕКЕМВРИ 2019 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 310 ОТ 5 ДЕКЕМВРИ 2019 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2019/dv-97-19-9"/>
+          <FRBRdate date="2019-12-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-97-19-9/bul@2019-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-97-19-9/bul@2019-12-10"/>
+          <FRBRdate date="2019-12-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-97-19-9/bul@2019-12-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-97-19-9/bul@2019-12-10.xml"/>
+          <FRBRdate date="2019-12-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-12-10" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 310 ОТ 5 ДЕКЕМВРИ 2019 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерството на вътрешните работи за 2019 г., както следва: 1. намалява утвърдените разходи по: а) „Политика в областта на пожарната безопасност и защитата на населението при извънредни ситуации“, бюджетна програма „Пожарна безопасност и защита на населе- нието при пожари, бедствия и извънредни ситуации“, с 1914,0 хил. лв.; б) „Политика в областта на управлението и развитието на системата на Министерството на вътрешните работи“, в т. ч. по бюджетна програма „Информационно осигуряване и ад- министративно обслужване“, с 11 002,0 хил. лв.; 2. увеличава утвърдените разходи по: а) „Политика в областта на противо- действието на престъпността и опазването на обществения ред“, бюджетна програма „Противодействие на престъпността, опаз- ване на обществения ред и превенция“, с 11 866,0 хил. лв.; б) „Политика в областта на управлението и развитието на системата на Министерството на вътрешните работи“, в т. ч. по бюджетна програма „Научни изследвания и разработки, обучение и квалификация“, с 1050,0 хил. лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на вътрешните работи да извърши налагащите се от чл. 1 промени по бюджета на Министерството на вътрешните работи за 2019 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

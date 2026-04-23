@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-56-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-56-07-12"/>
+          <FRBRalias value="Постановление № 151 от 29 юни 2007 г. за допълнение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани алкохолни напитки, приета с Постановление № 157 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 151 от 29 юни 2007 г. за допълнение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани алкохолни напитки, приета с Постановление № 157 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-56-07-12"/>
+          <FRBRdate date="2007-07-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-56-07-12/bul@2007-07-10/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-56-07-12/bul@2007-07-10"/>
+          <FRBRdate date="2007-07-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-56-07-12/bul@2007-07-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-56-07-12/bul@2007-07-10.xml"/>
+          <FRBRdate date="2007-07-10" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-07-10" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 151 от 29 юни 2007 г. за допълнение на Наредбата за реда и начина за въвеждане на бандеролите за бутилирани алкохолни напитки, приета с Постановление № 157 на Министерския съвет от 2006 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 се правят следните допълнения:</p>
+            <p>1. В ал. 1 след думата “складодържатели” се поставя запетая и се добавя “лицата, които въвеждат на територията на страната бутилирани алкохолни напитки от друга държава членка”.</p>
+            <p>2. Създава се ал. 3:</p>
+            <p>“(3) При необходимост министърът на финансите може със заповед да удължи срока по ал. 2, но с не повече от 6 месеца. Заповедта се обнародва в “Държавен вестник”.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 7 се правят следните допълнения:</p>
+            <p>1. В ал. 1 след думата “износ” се добавя “или за друга държава членка”.</p>
+            <p>2. В ал. 2 след думата “износ” се добавя “или изпращане до друга държава членка”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

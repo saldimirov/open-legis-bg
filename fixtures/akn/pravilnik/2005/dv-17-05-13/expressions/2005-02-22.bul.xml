@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-17-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-17-05-13"/>
+          <FRBRalias value="Правилник за устройството и дейността на Националния педагогически център" name="short"/>
+          <FRBRalias value="Правилник за устройството и дейността на Националния педагогически център" name="eli" other="/eli/bg/pravilnik/2005/dv-17-05-13"/>
+          <FRBRdate date="2005-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-17-05-13/bul@2005-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-17-05-13/bul@2005-02-22"/>
+          <FRBRdate date="2005-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-17-05-13/bul@2005-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-17-05-13/bul@2005-02-22.xml"/>
+          <FRBRdate date="2005-02-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-22" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за устройството и дейността на Националния педагогически център</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I</num>
+        <heading>Общи положения</heading>
+        <article eId="sec_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С този правилник се уреждат структурата, дейността и организацията на работа на Националния педагогически център.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="sec_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Националният педагогически център, наричан по-нататък “центърът”, е държавно обслужващо звено - извънучилищно педагогическо учреждение по смисъла на чл. 33а, ал. 1, т. 2 от Закона за народната просвета (ЗНП).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Центърът е юридическо лице със седалище София и официален адрес бул. Александър Стамболийски 82.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_2__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Центърът е второстепенен разпоредител с бюджетни кредити по бюджета на Министерството на образованието и науката (МОН).</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_2__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Центърът има собствен печат и банкови сметки.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_1__art_3">
+          <num>Чл. 3.</num>
+          <intro>
+            <p>Финансирането на центъра се осигурява със средства от:</p>
+          </intro>
+          <point eId="sec_1__art_3__pt_1">
+            <num>1.</num>
+            <content>
+              <p>държавния бюджет чрез бюджета на МОН;</p>
+            </content>
+          </point>
+          <point eId="sec_1__art_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>собствени приходи от източници по чл. 44, ал. 2 ЗНП.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_1__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="sec_1__art_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Центърът организира и координира дейностите за провеждане на национално и регионално ниво политиката на МОН, свързана с педагогическата подкрепа и консултирането на ученици, учители и родители.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Центърът работи по годишен план, утвърден от министъра на образованието и науката.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел II</num>
+        <heading>Структура и управление</heading>
+        <article eId="sec_2__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="sec_2__art_5__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Структурата на центъра включва централно управление и регионални центрове, като:</p>
+            </intro>
+            <point eId="sec_2__art_5__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>централното управление е съставено от служители на ръководни, експертни и технически длъжности;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_5__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>регионалните центрове са съставени от служители на експертни длъжности.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="sec_2__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Регионалните центрове са териториални поделения на центъра, имат самостоятелен баланс и не са юридически лица.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_5__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Центърът се ръководи от директор, а в регионалния център дейността се организира от експерт с ръководни функции.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Разпределението на общата численост на персонала, съответно в централното управление и в регионалните центрове, е посочено в приложението.</p>
+          </content>
+        </article>
+        <article eId="sec_2__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="sec_2__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Директорът се назначава от министъра на образованието и науката въз основа на конкурс в съответствие с чл. 37, ал. 6 ЗНП.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_2__art_7__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Служителите на центъра се назначават по трудов договор.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_2__art_8">
+          <num>Чл. 8.</num>
+          <intro>
+            <p>Директорът:</p>
+          </intro>
+          <point eId="sec_2__art_8__pt_1">
+            <num>1.</num>
+            <content>
+              <p>представлява центъра, ръководи, координира, контролира и отговаря за цялостната му дейност;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_2">
+            <num>2.</num>
+            <content>
+              <p>разработва и представя за утвърждаване на министъра на образованието и науката годишен план;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_3">
+            <num>3.</num>
+            <content>
+              <p>изготвя и представя на министъра на образованието и науката ежегоден отчет за дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_4">
+            <num>4.</num>
+            <content>
+              <p>утвърждава годишни планове на регионалните центрове;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_5">
+            <num>5.</num>
+            <content>
+              <p>утвърждава правила за вътрешния ред на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_6">
+            <num>6.</num>
+            <content>
+              <p>съставя и представя на министъра на образованието и науката за утвърждаване бюджет на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_7">
+            <num>7.</num>
+            <content>
+              <p>е разпоредител с бюджета на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_8">
+            <num>8.</num>
+            <content>
+              <p>планира, разпределя и контролира използването на предоставените на центъра финансови и материални ресурси;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_9">
+            <num>9.</num>
+            <content>
+              <p>управлява и ползва предоставените на центъра недвижими имоти и движими вещи;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_10">
+            <num>10.</num>
+            <content>
+              <p>утвърждава длъжностното разписание на центъра след съгласуване с МОН;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_11">
+            <num>11.</num>
+            <content>
+              <p>утвърждава поименното разписание на длъжностите;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_12">
+            <num>12.</num>
+            <content>
+              <p>сключва, изменя и прекратява трудовите договори на служителите на центъра и утвърждава длъжностните им характеристики;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_13">
+            <num>13.</num>
+            <content>
+              <p>издава заповеди за отпуски и командировки на служителите на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_14">
+            <num>14.</num>
+            <content>
+              <p>подписва изходящите документи и издава заповеди в съответствие с нормативно установените му правомощия;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_15">
+            <num>15.</num>
+            <content>
+              <p>контролира и отговаря за воденето и съхранението на задължителната документация на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_16">
+            <num>16.</num>
+            <content>
+              <p>осигурява условия за повишаване квалификацията на служителите на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_17">
+            <num>17.</num>
+            <content>
+              <p>сключва с юридически и физически лица договори, свързани с дейността на центъра, в съответствие с предоставените му правомощия;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_18">
+            <num>18.</num>
+            <content>
+              <p>може да сформира екипи и работни групи за изпълнение на задачи на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_19">
+            <num>19.</num>
+            <content>
+              <p>спазва и прилага държавните образователни изисквания, свързани с дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_20">
+            <num>20.</num>
+            <content>
+              <p>може да делегира правомощия на експерти от централно управление и от регионални центрове съобразно действащи законови и подзаконови актове;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_8__pt_21">
+            <num>21.</num>
+            <content>
+              <p>изпълнява и други функции, възложени му с нормативни и административни актове.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_2__art_9">
+          <num>Чл. 9.</num>
+          <content>
+            <p>Експертът с ръководни функции организира и контролира дейността на служителите в регионалния център.</p>
+          </content>
+        </article>
+      </section>
+      <section eId="sec_3">
+        <num>Раздел III</num>
+        <heading>Функции и дейности</heading>
+        <article eId="sec_3__art_10">
+          <num>Чл. 10.</num>
+          <intro>
+            <p>Основните функции на центъра са организиране и осигуряване на педагогическа подкрепа и консултиране на ученици, учители и родители по отношение на:</p>
+          </intro>
+          <point eId="sec_3__art_10__pt_1">
+            <num>1.</num>
+            <content>
+              <p>квалификацията на педагогическите кадри;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_10__pt_2">
+            <num>2.</num>
+            <content>
+              <p>задържането на учениците в училище и превенция на отпадането им;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_10__pt_3">
+            <num>3.</num>
+            <content>
+              <p>професионално ориентиране и консултиране.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_11">
+          <num>Чл. 11.</num>
+          <intro>
+            <p>Дейностите за осъществяване на функциите по чл. 10 са:</p>
+          </intro>
+          <point eId="sec_3__art_11__pt_1">
+            <num>1.</num>
+            <content>
+              <p>провеждане на семинари, обучение и квалификационни курсове;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_2">
+            <num>2.</num>
+            <content>
+              <p>организиране и оказване на педагогическа и психологическа помощ на отпаднали от училище и застрашени от отпадане ученици и на техните родители;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_3">
+            <num>3.</num>
+            <content>
+              <p>предоставяне на информация и консултации, свързани с избора на образование, обучение и условия за кариерно развитие;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_4">
+            <num>4.</num>
+            <content>
+              <p>осъществяване на педагогически и психологически консултации;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_5">
+            <num>5.</num>
+            <content>
+              <p>разработване и предоставяне на училищата на информационни, справочни и други материали, свързани с дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_6">
+            <num>6.</num>
+            <content>
+              <p>подпомагане процеса на общуване в училищната общност;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_7">
+            <num>7.</num>
+            <content>
+              <p>разработване и участие в осъществяване на национални и международни проекти, свързани с дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_11__pt_8">
+            <num>8.</num>
+            <content>
+              <p>популяризиране на модели на ефективна педагогическа практика.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_12">
+          <num>Чл. 12.</num>
+          <intro>
+            <p>Централното управление:</p>
+          </intro>
+          <point eId="sec_3__art_12__pt_1">
+            <num>1.</num>
+            <content>
+              <p>планира и организира финансовото и ресурсното осигуряване и координацията на цялостната дейност на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_12__pt_2">
+            <num>2.</num>
+            <content>
+              <p>разработва методически указания във връзка с дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_12__pt_3">
+            <num>3.</num>
+            <content>
+              <p>извършва финансово-счетоводно обслужване и организира дейностите по управление и стопанисване на предоставените на центъра недвижими имоти и движими вещи;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_12__pt_4">
+            <num>4.</num>
+            <content>
+              <p>осъществява финансирането, контрола и финансово-счетоводното отчитане на регионалните центрове.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="sec_3__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Регионалните центрове провеждат на регионално ниво политиката на МОН, свързана с педагогическата подкрепа и консултирането на ученици, учители и родители.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Регионалните центрове осъществяват дейността си в съответствие с този правилник и по годишен план, утвърден от директора на центъра.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_4">
+        <num>Раздел IV</num>
+        <heading>Организация на работата</heading>
+        <article eId="sec_4__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="sec_4__art_14__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Организацията на работа в центъра се осъществява в съответствие с разпоредбите на този правилник и на правилата за вътрешния ред.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>За изпълнение на конкретни задачи със заповед на директора на центъра се сформират екипи и работни групи.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_4__art_15">
+          <num>Чл. 15.</num>
+          <content>
+            <p>Служителите на центъра изпълняват задълженията си в съответствие с длъжностните им характеристики.</p>
+          </content>
+        </article>
+        <article eId="sec_4__art_16">
+          <num>Чл. 16.</num>
+          <paragraph eId="sec_4__art_16__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Входящите документи се регистрират във входящ дневник.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_16__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Изходящите документи се регистрират в изходящ дневник.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_4__art_17">
+          <num>Чл. 17.</num>
+          <paragraph eId="sec_4__art_17__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За всеки служител се води лично трудово дело, което съдържа лични данни и документи, отразяващи възникването, изменението и прекратяването на трудовото правоотношение.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_17__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Личните трудови дела на служителите в центъра се съхраняват в централното управление.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_4__art_18">
+          <num>Чл. 18.</num>
+          <intro>
+            <p>В центъра се води следната документация:</p>
+          </intro>
+          <point eId="sec_4__art_18__pt_1">
+            <num>1.</num>
+            <content>
+              <p>книга за регистриране на заповедите на директора и приложените заповеди към нея;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_2">
+            <num>2.</num>
+            <content>
+              <p>входящ дневник;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_3">
+            <num>3.</num>
+            <content>
+              <p>изходящ дневник;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_4">
+            <num>4.</num>
+            <content>
+              <p>книга за контролната дейност;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_5">
+            <num>5.</num>
+            <content>
+              <p>инвентарна книга;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_6">
+            <num>6.</num>
+            <content>
+              <p>отчетни форми и счетоводни регистри;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_7">
+            <num>7.</num>
+            <content>
+              <p>книга за регистриране на даренията;</p>
+            </content>
+          </point>
+          <point eId="sec_4__art_18__pt_8">
+            <num>8.</num>
+            <content>
+              <p>регистър на договорите.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_4__art_19">
+          <num>Чл. 19.</num>
+          <content>
+            <p>Центърът осъществява взаимодействие и координация по предмета на дейността си с регионалните инспекторати по образованието, институциите в системата на народната просвета, с областните и общинските администрации, ръководствата на регионалните структури на представителните организации на работниците и служителите и на работодателите, с неправителствени организации, фондации и др.</p>
+          </content>
+        </article>
+        <article eId="sec_4__art_20">
+          <num>Чл. 20.</num>
+          <content>
+            <p>Работното време на служителите на центъра е от 9 до 17 ч. и 30 мин. с 30-минутна обедна почивка от 12 до 12 ч. и 30 мин., 40 часа седмично, при петдневна работна седмица.</p>
+          </content>
+        </article>
+      </section>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

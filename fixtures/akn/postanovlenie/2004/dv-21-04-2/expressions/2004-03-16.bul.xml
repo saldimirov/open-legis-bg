@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-21-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-21-04-2"/>
+          <FRBRalias value="Постановление № 51 от 5 март 2004 г. за изменение и допълнение на Устройствения правилник на Министерския съвет и на неговата администрация, приет с Постановление № 209 на Министерския съвет от 1999 г." name="short"/>
+          <FRBRalias value="Постановление № 51 от 5 март 2004 г. за изменение и допълнение на Устройствения правилник на Министерския съвет и на неговата администрация, приет с Постановление № 209 на Министерския съвет от 1999 г." name="eli" other="/eli/bg/postanovlenie/2004/dv-21-04-2"/>
+          <FRBRdate date="2004-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-21-04-2/bul@2004-03-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-21-04-2/bul@2004-03-16"/>
+          <FRBRdate date="2004-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-21-04-2/bul@2004-03-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-21-04-2/bul@2004-03-16.xml"/>
+          <FRBRdate date="2004-03-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-03-16" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 51 от 5 март 2004 г. за изменение и допълнение на Устройствения правилник на Министерския съвет и на неговата администрация, приет с Постановление № 209 на Министерския съвет от 1999 г.</p>
+      <p>(обн., ДВ, бр. 103 от 1999 г.; изм. и доп., бр. 4 и 26 от 2000 г.; попр., бр. 27 от 2000 г.; изм. и доп., бр. 44, 74 и 87 от 2001 г., бр. 81 от 2002 г. и бр. 20 и 75 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 58 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се ал. 4:</p>
+            <p>“(4) Вносителят задължително съгласува със Съвета за модернизиране на държавната администрация въпросите и проектите на актове, които са свързани със създаване, преобразуване и закриване на административни структури, както и с увеличаване на числеността им.”</p>
+            <p>2. Досегашните ал. 4, 5 и 6 стават съответно ал. 5, 6 и 7.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 59, ал. 1 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се т. 5:</p>
+            <p>“5. решение на Съвета за модернизиране на държавната администрация, отразяващо становището му по проектите на актове, които са свързани със създаване, преобразуване и закриване на административни структури, както и с увеличаване на числеността им;”.</p>
+            <p>2. Досегашните т. 5, 6 и 7 стават съответно т. 6, 7 и 8.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

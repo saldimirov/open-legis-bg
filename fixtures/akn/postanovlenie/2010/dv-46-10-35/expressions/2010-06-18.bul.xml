@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-46-10-35/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-46-10-35"/>
+          <FRBRalias value="Постановление № 116 ОТ 10 ЮНИ 2010 Г. за изменение на Устройствения правилник на Министерството на културата, приет с" name="short"/>
+          <FRBRalias value="Постановление № 116 ОТ 10 ЮНИ 2010 Г. за изменение на Устройствения правилник на Министерството на културата, приет с" name="eli" other="/eli/bg/postanovlenie/2010/dv-46-10-35"/>
+          <FRBRdate date="2010-06-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-46-10-35/bul@2010-06-18/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-46-10-35/bul@2010-06-18"/>
+          <FRBRdate date="2010-06-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-46-10-35/bul@2010-06-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-46-10-35/bul@2010-06-18.xml"/>
+          <FRBRdate date="2010-06-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-18" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 116 ОТ 10 ЮНИ 2010 Г. за изменение на Устройствения правилник на Министерството на културата, приет с</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думата „двама“ се заменя с „трима“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 10, ал. 3 се правят следните изменения: 1. На ред „Политически кабинет“ цифрата „7“ се заменя с „8“. 2. На ред „Специализирана администрация“ числото „93“ се заменя с „92“. 3. На ред „дирекция „Културна политика“ числото „15“ се заменя с „14“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“ .</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-19/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-19"/>
+          <FRBRalias value="Правилник за отменяне на Правилника по безопасността на труда при експлоатация на електрическите уредби и съоръжения Д-01-008 от 1986 г." name="short"/>
+          <FRBRalias value="Правилник за отменяне на Правилника по безопасността на труда при експлоатация на електрическите уредби и съоръжения Д-01-008 от 1986 г." name="eli" other="/eli/bg/pravilnik/2005/dv-19-05-19"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-19/bul@2005-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-19/bul@2005-03-01"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-19-05-19/bul@2005-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-19-05-19/bul@2005-03-01.xml"/>
+          <FRBRdate date="2005-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-03-01" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за отменяне на Правилника по безопасността на труда при експлоатация на електрическите уредби и съоръжения Д-01-008 от 1986 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Правилникът по безопасността на труда при експлоатация на електрическите уредби и съоръжения Д-01-008, издаден от председателя на Комитета по труда и социалното дело през 1986 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходна разпоредба</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Потребителите на електрическа енергия, които експлоатират електрообзавеждане с напрежение до 1000 V, продължават да прилагат разпоредбите на отменения с § 1 Правилник по безопасността на труда при експлоатация на електрическите уредби и съоръжения Д-01-008 до 1.VI.2005 г.</p>
+            <p>За министър:  Ив. Христова</p>
+            <p>8101</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

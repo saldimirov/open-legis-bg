@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-5/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-5"/>
+          <FRBRalias value="Постановление № 34 от 21 февруари 2006 г. за приемане на Устройствен правилник на Министерството на външните работи" name="short"/>
+          <FRBRalias value="Постановление № 34 от 21 февруари 2006 г. за приемане на Устройствен правилник на Министерството на външните работи" name="eli" other="/eli/bg/postanovlenie/2006/dv-19-06-5"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-5/bul@2006-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-5/bul@2006-03-02"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-5/bul@2006-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-5/bul@2006-03-02.xml"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 34 от 21 февруари 2006 г. за приемане на Устройствен правилник на Министерството на външните работи</p>
+      <p>(обн., ДВ, бр. 76 от 2003 г.; изм. и доп., бр. 25, 34 и 56 от 2004 г. и бр. 58 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Министерството на външните работи, приет с Постановление № 186 на Министерския съвет от 2003 г. (обн., ДВ, бр. 76 от 2003 г.; изм. и доп., бр. 25, 34 и 56 от 2004 г. и бр. 58 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 109 на Министерския съвет от 2005 г. за създаване на Държавен културен институт към министъра на външните работи (ДВ, бр. 49 от 2005 г.) се правят следните изменения и допълнения:</p>
+            <p>1. В чл. 2 след думата “поддържане” съюзът “и” се заличава и се поставя запетая, а след думата “опазване” се добавя “и разширяване”.</p>
+            <p>2. В чл. 3 думите “съгласувано с министъра на културата и туризма” се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложение № 2 към чл. 5, ал. 3 от Постановление № 221 на Министерския съвет от 1999 г. за приемане на Устройствен правилник на Министерството на външните работи и за преобразуване и закриване на административни структури към министъра на външните работи (обн., ДВ, бр. 105 от 1999 г.; изм. и доп., бр. 7, 12 и 16 от 2000 г., бр. 97 от 2001 г., бр. 85 от 2002 г., бр. 76 и 86 от 2003 г. и бр. 10, 49 и 84 от 2005 г.) се правят следните изменения:</p>
+            <p>1. В т. 1 числото “19” се заменя с “21”.</p>
+            <p>2. В т. 5 цифрата “5” се заменя с “10”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”, с изключение на чл. 28, ал. 1, т. 3 и 4 и чл. 34, ал. 1, т. 4 и 5 от устройствения правилник, които влизат в сила от 1 юли 2006 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

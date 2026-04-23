@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-4/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-4"/>
+          <FRBRalias value="Постановление № 242 от 8 октомври 2007 г. за приемане на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето" name="short"/>
+          <FRBRalias value="Постановление № 242 от 8 октомври 2007 г. за приемане на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето" name="eli" other="/eli/bg/postanovlenie/2007/dv-83-07-4"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-4/bul@2007-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-4/bul@2007-10-16"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-4/bul@2007-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-4/bul@2007-10-16.xml"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-16" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 242 от 8 октомври 2007 г. за приемане на Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Тарифа за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Таксите по тарифата се събират при подаване на заявлението за издаване на съответния документ.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Таксите по тарифата са за един екземпляр от съответния документ.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>При прекратяване на процедурата по издаване на документа внесената такса не се възстановява.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Таксите за издадените документи от регионалните инспекции за опазване и контрол на общественото здраве постъпват в приход по бюджета на съответната регионална инспекция.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Таксите за издадени документи от другите органи за държавен здравен контрол по чл. 12, ал. 1 от Закона за здравето постъпват в приход по бюджета на Министерството на здравеопазването.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, които се събират от органите на държавния здравен контрол по Закона за здравето, одобрена с Постановление № 14 на Министерския съвет от 2005 г. (ДВ, бр. 13 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>За неразгледаните заявления, по които са събрани такси по отменената тарифа, допълнителни такси не се събират.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

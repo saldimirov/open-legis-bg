@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-84-24-3/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-84-24-3"/>
+          <FRBRalias value="Постановление № 327 от 30 септември 2024 г. за изменение на Наредбата за прилагане на Класификатора на длъжностите в администрацията, приета с Постановление № 129 на Министерския съвет от 2012 г." name="short"/>
+          <FRBRalias value="Постановление № 327 от 30 септември 2024 г. за изменение на Наредбата за прилагане на Класификатора на длъжностите в администрацията, приета с Постановление № 129 на Министерския съвет от 2012 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-84-24-3"/>
+          <FRBRdate date="2024-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-84-24-3/bul@2024-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-84-24-3/bul@2024-10-04"/>
+          <FRBRdate date="2024-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-84-24-3/bul@2024-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-84-24-3/bul@2024-10-04.xml"/>
+          <FRBRdate date="2024-10-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-10-04" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 327 от 30 септември 2024 г. за изменение на Наредбата за прилагане на Класификатора на длъжностите в администрацията, приета с Постановление № 129 на Министерския съвет от 2012 г.</p>
+      <p>(обн., ДВ, бр. 49 от 2012 г.; попр., бр. 75 от 2012 г.; изм. и доп., бр. 80 и 103 от 2012 г., бр. 30 и 37 от 2015 г., бр. 27, 36, 76, 79 и 86 от 2016 г., бр. 9 и 44 от 2017 г., бр. 1, 2, 31 и 93 от 2019 г., бр. 9, 93, 99 и 105 от 2020 г., бр. 21, 60, 62 и 70 от 2022 г., бр. 15, 95 и 106 от 2023 г. и бр. 52 от 2024 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3, ал. 9, т. 3 думите „чл. 38, т. 3 ЗМВР“ се заменят с „чл. 38, т. 4 от ЗМВР“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 7а, ал. 12, т. 2, буква „а“ думите „чл. 38, т. 1, 2, 4 и 5 от ЗМВР и чл. 81, 83, 84, 96 и 100 ПУДМВР“ се заменят с „чл. 38, т. 1, 2, 3, 4 и 5 от ЗМВР и чл. 75, 76, 81, 83, 84, 85а, 86, 96, 97, 100 и 101 от ПУДМВР“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

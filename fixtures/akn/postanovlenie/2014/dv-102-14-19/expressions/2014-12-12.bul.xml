@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-19/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-19"/>
+          <FRBRalias value="Постановление № 392 ОТ 11 ДЕКЕМВРИ 2014 Г. за изменение на Правилника за прилагане на Закона за военноинвалидите и военно­" name="short"/>
+          <FRBRalias value="Постановление № 392 ОТ 11 ДЕКЕМВРИ 2014 Г. за изменение на Правилника за прилагане на Закона за военноинвалидите и военно­" name="eli" other="/eli/bg/postanovlenie/2014/dv-102-14-19"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-19/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-19/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-19/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-19/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 392 ОТ 11 ДЕКЕМВРИ 2014 Г. за изменение на Правилника за прилагане на Закона за военноинвалидите и военно­</p>
+      <p>(обн., ДВ, бр. 20 от 2008 г.; доп., бр. 54 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думата „веднъж“ се за­ меня с „общо два пъти“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5, ал. 1 и 2 думите „бюджетни кредити“ се заменят с „бюджет“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 6, ал. 5 думите „бюджетни кре­ дити“ се заменят с „бюджет“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-15"/>
+          <FRBRalias value="Правилник за дейността на фонд “Условия на труд”" name="short"/>
+          <FRBRalias value="Правилник за дейността на фонд “Условия на труд”" name="eli" other="/eli/bg/pravilnik/2006/dv-28-06-15"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-15/bul@2006-04-04/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-15/bul@2006-04-04"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-15/bul@2006-04-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-15/bul@2006-04-04.xml"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-04" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за дейността на фонд “Условия на труд”</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С правилника се уреждат дейността, структурата, организацията на работа и числеността на персонала на фонд “Условия на труд”, наричан по-нататък “фонда”.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="chap_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Фондът е юридическо лице със седалище в София.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Фондът е второстепенен разпоредител с бюджетни кредити към министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <content>
+            <p>Основната дейност на фонда е финансиране на дейности и мероприятия за подобряване условията на труд.</p>
+          </content>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>УПРАВЛЕНИЕ НА ФОНДА</heading>
+        <article eId="chap_2__art_4">
+          <num>Чл. 4.</num>
+          <intro>
+            <p>Органи за управление на фонда са:</p>
+          </intro>
+          <point eId="chap_2__art_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>управителен съвет;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>управител.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_2__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_2__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Управителният съвет се състои от девет членове, включително управител и подуправител.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_2__art_5__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Дейността на управителния съвет се урежда с правилник, утвърден от министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_2__art_6">
+          <num>Чл. 6.</num>
+          <intro>
+            <p>Управителят:</p>
+          </intro>
+          <point eId="chap_2__art_6__pt_1">
+            <num>1.</num>
+            <content>
+              <p>представлява фонда;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_2">
+            <num>2.</num>
+            <content>
+              <p>организира дейността и ръководи заседанията на управителния съвет;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_3">
+            <num>3.</num>
+            <content>
+              <p>участва в работата на Националния съвет по условия на труд;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_4">
+            <num>4.</num>
+            <content>
+              <p>утвърждава структурата и щата на фонда;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_5">
+            <num>5.</num>
+            <content>
+              <p>назначава и освобождава служителите на фонда;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_6">
+            <num>6.</num>
+            <content>
+              <p>има право да се разпорежда със суми до 3000 лв. месечно в рамките на средствата за текущи разходи, утвърдени с годишния бюджет на фонда;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_7">
+            <num>7.</num>
+            <content>
+              <p>назначава членове на експертни комисии;</p>
+            </content>
+          </point>
+          <point eId="chap_2__art_6__pt_8">
+            <num>8.</num>
+            <content>
+              <p>решава всички останали въпроси, които не са от изключителната компетентност на управителния съвет.</p>
+            </content>
+          </point>
+        </article>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>ПЛАНИРАНЕ И ФИНАНСИРАНЕ ДЕЙНОСТТА НА ФОНДА</heading>
+        <article eId="chap_3__art_7">
+          <num>Чл. 7.</num>
+          <paragraph eId="chap_3__art_7__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Дейността на фонда се осъществява по годишна програма, която се приема от Националния съвет по условия на труд и се утвърждава от министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_7__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Средствата на фонда се формират от:</p>
+            </intro>
+            <point eId="chap_3__art_7__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>целева ежегодна субсидия от държавния бюджет в размер, определян ежегодно със Закона за държавния бюджет на Република България;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>суми от фонд “Трудова злополука и професионална болест” на държавното обществено осигуряване, предвидени по бюджета на фонда за финансиране на дейности за намаляване на честотата и тежестта на осигурените социални рискове “трудова злополука и професионална болест”;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>доброволни вноски, дарения и завещания от български и чуждестранни граждани и от юридически лица;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_2__pt_4">
+              <num>4.</num>
+              <content>
+                <p>приходи от прояви с благотворителна цел;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_2__pt_5">
+              <num>5.</num>
+              <content>
+                <p>рекламна дейност;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_2__pt_6">
+              <num>6.</num>
+              <content>
+                <p>други източници, определени със закон или с акт на Министерския съвет.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_3__art_7__al_3">
+            <num>(3)</num>
+            <intro>
+              <p>Фондът финансира:</p>
+            </intro>
+            <point eId="chap_3__art_7__al_3__pt_1">
+              <num>1.</num>
+              <content>
+                <p>проекти и програми за подобряване на условията на труд с браншова значимост и приложимост на резултатите;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_3__pt_2">
+              <num>2.</num>
+              <content>
+                <p>проекти за подобряване условията на труд в отделни предприятия с конкретна практическа приложимост и висок социален ефект на резултатите на ниво бранш; финансовото участие е в размер до 30 на сто от стойността на проекта;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_3__pt_3">
+              <num>3.</num>
+              <content>
+                <p>разработване на нормативни актове, правила, норми и изисквания;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_3__pt_4">
+              <num>4.</num>
+              <content>
+                <p>организиране и провеждане на специализации в областта на здравословните и безопасните условия на труд;</p>
+              </content>
+            </point>
+            <point eId="chap_3__art_7__al_3__pt_5">
+              <num>5.</num>
+              <content>
+                <p>разработване и издаване на учебни и информационни материали.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_3__art_7__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Средствата на фонда се предоставят по ред, определен с наредба на министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_4">
+        <num>Глава четвърта</num>
+        <heading>АДМИНИСТРАЦИЯ НА ФОНДА</heading>
+        <article eId="chap_4__art_8">
+          <num>Чл. 8.</num>
+          <paragraph eId="chap_4__art_8__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Дейността на фонда се подпомага от неговия административен персонал.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_8__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Общата численост на персонала се определя с постановление на Министерския съвет по предложение на министъра на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_8__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Служителите на фонда се назначават по трудов договор.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_4__art_8__al_4">
+            <num>(4)</num>
+            <content>
+              <p>За изпълнение на отделни задачи или дейности, които имат периодичен или извънреден характер, може да се привличат и извънщатни сътрудници по граждански договор.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_5">
+        <num>Глава пета</num>
+        <heading>ОРГАНИЗАЦИЯ НА РАБОТА</heading>
+        <article eId="chap_5__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="chap_5__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Работното време на служителите при 5-дневна работна седмица е 8 часа дневно.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Началото и краят на работното време са съобразно работното време на Министерството на труда и социалната политика.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_10">
+          <num>Чл. 10.</num>
+          <content>
+            <p>Служителите на фонда изпълняват възложените им задачи съобразно утвърдените длъжностни характеристики.</p>
+          </content>
+        </article>
+        <article eId="chap_5__art_11">
+          <num>Чл. 11.</num>
+          <paragraph eId="chap_5__art_11__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За оценяване и класиране на предложения за финансиране и за приемане изпълнението на сключените договори управителят назначава комисии.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_11__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Управителният съвет на фонда утвърждава списък на специалистите, които могат да бъдат членове на комисии.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_11__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Списъкът по ал. 2 е примерен. При необходимост могат да се включват и специалисти, които не са включени в него.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="chap_5__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Предложения за включване на специалисти в списъка могат да правят членовете на управителния съвет на фонда.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В предложенията се вписват трите имена на специалиста, данните за неговото образование, специалността, местоработата и заеманата длъжност, адресът и телефонът за връзка.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_12__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Обстоятелствата по ал. 2 се удостоверяват със съответните документи, които се прилагат към предложението.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_13">
+          <num>Чл. 13.</num>
+          <intro>
+            <p>Във фонда се води следната задължителна документация:</p>
+          </intro>
+          <point eId="chap_5__art_13__pt_1">
+            <num>1.</num>
+            <content>
+              <p>регистър на предложенията за финансиране на проекти и програми за подобряване условията на труд;</p>
+            </content>
+          </point>
+          <point eId="chap_5__art_13__pt_2">
+            <num>2.</num>
+            <content>
+              <p>регистър на сключените договори;</p>
+            </content>
+          </point>
+          <point eId="chap_5__art_13__pt_3">
+            <num>3.</num>
+            <content>
+              <p>счетоводна документация според законовите изисквания;</p>
+            </content>
+          </point>
+          <point eId="chap_5__art_13__pt_4">
+            <num>4.</num>
+            <content>
+              <p>заповедни книги;</p>
+            </content>
+          </point>
+          <point eId="chap_5__art_13__pt_5">
+            <num>5.</num>
+            <content>
+              <p>дневник на входяща и изходяща кореспонденция.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_5__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="chap_5__art_14__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Документите, изпратени до фонда от държавни органи, юридически или физически лица, ведомства и институции, се завеждат във входящ регистър, като се отбелязва датата на получаването им.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При завеждането на документите се извършва проверка за наличието на всички материали, посочени в тях, и се образува служебна преписка, която се разпределя според адресата и съдържанието й.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_5__art_14__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Управителят на фонда разпределя преписките с резолюция до съответните длъжностни лица на фонда, която съдържа указания, срок за изработване, дата и подпис.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_5__art_15">
+          <num>Чл. 15.</num>
+          <content>
+            <p>Изходящите от фонда документи се съставят в два екземпляра. Вторият екземпляр съдържа имената и подписа на служителя, изготвил документите.</p>
+          </content>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Правилникът се приема на основание чл. 49, т. 1 от Закона за здравословни и безопасни условия на труд.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът влиза в сила от датата на утвърждаването му от министъра на труда и социалната политика.</p>
+            <p>Министър:  Ем. Масларова</p>
+            <p>22369</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

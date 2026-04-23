@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-2"/>
+          <FRBRalias value="Наредба за оценка на поземлени имоти в горски те-" name="short"/>
+          <FRBRalias value="Наредба за оценка на поземлени имоти в горски те-" name="eli" other="/eli/bg/naredba/2011/dv-63-11-2"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-2/bul@2011-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-2/bul@2011-08-16"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-2/bul@2011-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-2/bul@2011-08-16.xml"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-16" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Наредба за оценка на поземлени имоти в горски те-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С наредбата се уреждат условията и редът за определяне на: 1. цени при сделки с поземлени имоти в горски територии – държавна и общинска собственост; 2. цени на отделно стоящи дървета в горски територии и извън тях; 3. цени за учредяване право на строеж върху поземлени имоти в горски територии – дър- жавна и общинска собственост; 4. цени за учредяване право на ползване и сервитути върху поземлените имоти в горски територии; ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

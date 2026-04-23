@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-15/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-15"/>
+          <FRBRalias value="Постановление № 137 от 24 юли 2025 г. за приемане на Единен списък на юридически лица, стратегически и други особено важни обекти, които са от значение за отбраната на страната във военно време" name="short"/>
+          <FRBRalias value="Постановление № 137 от 24 юли 2025 г. за приемане на Единен списък на юридически лица, стратегически и други особено важни обекти, които са от значение за отбраната на страната във военно време" name="eli" other="/eli/bg/postanovlenie/2025/dv-61-25-15"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-15/bul@2025-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-15/bul@2025-07-29"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-61-25-15/bul@2025-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-61-25-15/bul@2025-07-29.xml"/>
+          <FRBRdate date="2025-07-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-07-29" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 137 от 24 юли 2025 г. за приемане на Единен списък на юридически лица, стратегически и други особено важни обекти, които са от значение за отбраната на страната във военно време</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Информацията в приложение № 1 (секретно) и приложение № 2 (секретно) към член единствен в съответния обем да се изпрати по реда на чл. 12 от Наредбата за планиране на граждански ресурси за отбрана, приета с Постановление № 105 на Министерския съвет от 2020 г. (ДВ, бр. 49 от 2020 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 22, ал. 2, т. 22 от Закона за отбраната и въоръжените сили на Република България.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

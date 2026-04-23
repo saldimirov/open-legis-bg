@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-13"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация" name="eli" other="/eli/bg/pravilnik/2007/dv-40-07-13"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-13/bul@2007-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-13/bul@2007-05-18"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-40-07-13/bul@2007-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-40-07-13/bul@2007-05-18.xml"/>
+          <FRBRdate date="2007-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-05-18" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за дейността на Комисията за защита на личните данни и нейната администрация</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 9, ал. 6 текстът “Дневният ред заедно с всички документи за обсъждане се представят на всеки член на комисията не по-късно от два дни преди заседание на председателя” се заменя с “Дневният ред заедно с всички документи за обсъждане се представят на председателя и на всеки член на комисията не по-късно от два дни преди провеждане на заседанието”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 53, ал. 2, т. 5 текстът “право на достъп на физическото лице до данните на лицата, чиито лични данни се предоставят, и възможност за коригиране или заличаване на онези от тях, обработването на които не отговаря на изискванията на ЗЗЛД” се заменя с “право на достъп на физическите лица до техните лични данни, които се предоставят, както и право при необходимост да поискат коригиране или заличаване на същите”.</p>
+            <p>Председател:  И. Стефанов</p>
+            <p>21581</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

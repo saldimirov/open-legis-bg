@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-6/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-6"/>
+          <FRBRalias value="Правилник за дейността и организацията на работа на Център “Фонд за лечение на деца”" name="short"/>
+          <FRBRalias value="Правилник за дейността и организацията на работа на Център “Фонд за лечение на деца”" name="eli" other="/eli/bg/pravilnik/2004/dv-101-04-6"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-6/bul@2004-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-6/bul@2004-11-16"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-101-04-6/bul@2004-11-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-101-04-6/bul@2004-11-16.xml"/>
+          <FRBRdate date="2004-11-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-11-16" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за дейността и организацията на работа на Център “Фонд за лечение на деца”</p>
+    </preface>
+    <body>
+      <chapter eId="chap_1">
+        <num>Глава първа</num>
+        <heading>ОБЩИ ПОЛОЖЕНИЯ. СТАТУТ И ФУНКЦИИ НА ЦЕНТЪРА</heading>
+        <article eId="chap_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С правилника се уреждат дейността и организацията на Центъра “Фонд за лечение на деца”, наричан по-нататък “центъра”.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_2">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Центърът е юридическо лице по чл. 60 от Закона за администрацията със седалище София, пл. Света Неделя 5, и е второстепенен разпоредител с бюджетни кредити към министъра на здравеопазването.</p>
+          </content>
+        </article>
+        <article eId="chap_1__art_3">
+          <num>Чл. 3.</num>
+          <paragraph eId="chap_1__art_3__al_1">
+            <num>(1)</num>
+            <intro>
+              <p>Приходите на центъра се формират от:</p>
+            </intro>
+            <point eId="chap_1__art_3__al_1__pt_1">
+              <num>1.</num>
+              <content>
+                <p>първоначална субсидия от държавния бюджет;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_1__pt_2">
+              <num>2.</num>
+              <content>
+                <p>дарения и помощи;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_1__pt_3">
+              <num>3.</num>
+              <content>
+                <p>други приходи.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Средствата по ал. 1 се разходват за:</p>
+            </intro>
+            <point eId="chap_1__art_3__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>осъществяване на дейност по организа&amp;shy;ционно и финансово подпомагане на български граждани до 18 години, нуждаещи се от диагностични и лечебни процедури, за които няма условия за извършване в България;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_3__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>издръжка на центъра.</p>
+              </content>
+            </point>
+          </paragraph>
+          <paragraph eId="chap_1__art_3__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Разходите по ал. 2, т. 2 за съответната година се определят в бюджета на центъра.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="chap_1__art_4">
+          <num>Чл. 4.</num>
+          <intro>
+            <p>Центърът:</p>
+          </intro>
+          <point eId="chap_1__art_4__pt_1">
+            <num>1.</num>
+            <content>
+              <p>осъществява дейност по организационно и финансово подпомагане на български граждани до 18 години, нуждаещи се от диагностични и лечебни процедури, за които няма условия за извършване в страната;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_2">
+            <num>2.</num>
+            <content>
+              <p>администрира набирането на финансови средства за осъществяване дейността на центъра;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_3">
+            <num>3.</num>
+            <content>
+              <p>приема дарения;</p>
+            </content>
+          </point>
+          <point eId="chap_1__art_4__pt_4">
+            <num>4.</num>
+            <content>
+              <p>подпомага дейността на обществения съвет.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="chap_1__art_5">
+          <num>Чл. 5.</num>
+          <paragraph eId="chap_1__art_5__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Към центъра функционира обще&amp;shy;ствен съвет, който се състои от 11 членове.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_1__art_5__al_2">
+            <num>(2)</num>
+            <intro>
+              <p>Общественият съвет осъществява следните функции:</p>
+            </intro>
+            <point eId="chap_1__art_5__al_2__pt_1">
+              <num>1.</num>
+              <content>
+                <p>изработва, актуализира и оповестява принципи и правила за набиране, изразходване и контрол на финансовите средства, необходими за осъществяване дейността на центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__al_2__pt_2">
+              <num>2.</num>
+              <content>
+                <p>организира и провежда дейности за набиране на финансови средства за осъществяване дейността на центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_1__art_5__al_2__pt_3">
+              <num>3.</num>
+              <content>
+                <p>разглежда молби на граждани, нуждаещи се от диагностични и лечебни процедури, за които няма условия да се извършват в Република България, и взима решение във всеки конкретен случай за изпращане за лечение в чужбина, както и за размера на отпусканата парична сума.</p>
+              </content>
+            </point>
+          </paragraph>
+        </article>
+      </chapter>
+      <chapter eId="chap_2">
+        <num>Глава втора</num>
+        <heading>УПРАВЛЕНИЕ И ОРГАНИЗАЦИЯ НА РАБОТА НА ЦЕНТЪРА</heading>
+        <section eId="chap_2__sec_1">
+          <num>Раздел I</num>
+          <heading>Правомощия на директора на центъра</heading>
+          <article eId="chap_2__sec_1__art_6">
+            <num>Чл. 6.</num>
+            <content>
+              <p>Центърът се управлява и представлява от директор. Директорът се назначава и освобождава от министъра на здравеопазването.</p>
+            </content>
+          </article>
+          <article eId="chap_2__sec_1__art_7">
+            <num>Чл. 7.</num>
+            <intro>
+              <p>Директорът на центъра:</p>
+            </intro>
+            <point eId="chap_2__sec_1__art_7__pt_1">
+              <num>1.</num>
+              <content>
+                <p>организира, ръководи и отговаря за дейността на центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_2">
+              <num>2.</num>
+              <content>
+                <p>представлява центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_3">
+              <num>3.</num>
+              <content>
+                <p>организира изпълнението на решенията на обществения съвет;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_4">
+              <num>4.</num>
+              <content>
+                <p>сключва, изменя и прекратява трудовите договори с лицата, работещи в центъра по трудово правоотношение;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_5">
+              <num>5.</num>
+              <content>
+                <p>утвърждава длъжностното щатно разписание и длъжностните характеристики на работещите в центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_6">
+              <num>6.</num>
+              <content>
+                <p>носи отговорност за законосъобразното разходване на средствата на центъра от бюдже&amp;shy;та и от други източници в съответствие с решенията на обществения съвет;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_7">
+              <num>7.</num>
+              <content>
+                <p>награждава и наказва дисциплинарно служителите на центъра в съответствие със закона и утвърдените вътрешни правила за организацията на работата и работната заплата;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_8">
+              <num>8.</num>
+              <content>
+                <p>предлага на министъра на здравеопазването за утвърждаване разходите за издръжка на центъра;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_9">
+              <num>9.</num>
+              <content>
+                <p>координира и контролира финансово-стопанската дейност;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_10">
+              <num>10.</num>
+              <content>
+                <p>изготвя годишния отчет на центъра и го предлага за одобряване на министъра на здравеопазването;</p>
+              </content>
+            </point>
+            <point eId="chap_2__sec_1__art_7__pt_11">
+              <num>11.</num>
+              <content>
+                <p>осъществява други дейности, непосред&amp;shy;ствено свързани с управлението на центъра и с осъществяването на неговите функции.</p>
+              </content>
+            </point>
+          </article>
+          <article eId="chap_2__sec_1__art_8">
+            <num>Чл. 8.</num>
+            <content>
+              <p>При осъществяването на своите функции директорът на центъра взаимодейства и сътрудничи с държавни органи, организации, физически и юридически лица, както и с органи на местното самоуправление за осъществяване дейностите на центъра.</p>
+            </content>
+          </article>
+        </section>
+        <section eId="chap_2__sec_2">
+          <num>Раздел II</num>
+          <heading>Организация на работата на центъра</heading>
+          <article eId="chap_2__sec_2__art_9">
+            <num>Чл. 9.</num>
+            <paragraph eId="chap_2__sec_2__art_9__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Молбите до центъра за организационно и финансово подпомагане на български граждани до 18 години, нуждаещи се от диагностични и лечебни процедури, за които няма условия в страната, се подават чрез деловодството на Министерството на здравеопазването.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_9__al_2">
+              <num>(2)</num>
+              <intro>
+                <p>Към молбите се прилагат:</p>
+              </intro>
+              <point eId="chap_2__sec_2__art_9__al_2__pt_1">
+                <num>1.</num>
+                <content>
+                  <p>положително становище на Комисията за лечение в чужбина към министъра на здраве&amp;shy;опазването;</p>
+                </content>
+              </point>
+              <point eId="chap_2__sec_2__art_9__al_2__pt_2">
+                <num>2.</num>
+                <content>
+                  <p>предложение на Комисията за лечение в чужбина за избор на лечебно заведение, в което да се осъществят дейностите по ал. 1.</p>
+                </content>
+              </point>
+            </paragraph>
+          </article>
+          <article eId="chap_2__sec_2__art_10">
+            <num>Чл. 10.</num>
+            <content>
+              <p>Центърът може да привлича извънщатни сътрудници и консултанти.</p>
+            </content>
+          </article>
+          <article eId="chap_2__sec_2__art_11">
+            <num>Чл. 11.</num>
+            <paragraph eId="chap_2__sec_2__art_11__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Всяко тримесечие центърът обобщава данните относно лицата, изпратени за лечение в чужбина, и се отчита пред министъра на здравеопазването и обществения съвет.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_2__art_11__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Отчетът по ал. 1 съдържа данни относно брой на болните, лекувани в чужбина по нозологични единици - с подобрение, без промяна, влошени и починали.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+        <section eId="chap_2__sec_3">
+          <num>Раздел III</num>
+          <heading>Организация на работата на обществения съвет</heading>
+          <article eId="chap_2__sec_3__art_12">
+            <num>Чл. 12.</num>
+            <paragraph eId="chap_2__sec_3__art_12__al_1">
+              <num>(1)</num>
+              <content>
+                <p>Заседанията на обществения съвет се свикват най-малко веднъж месечно от неговия председател, а в негово отсъствие - от заместник-председателя.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_3__art_12__al_2">
+              <num>(2)</num>
+              <content>
+                <p>Заседанията на обществения съвет се считат за редовни, ако на тях присъстват повече от 2/3 от членовете му. Решенията се взимат с мнозинство от 2/3 от присъстващите членове.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="chap_2__sec_3__art_12__al_3">
+              <num>(3)</num>
+              <content>
+                <p>Директорът на центъра присъства на заседанията на обществения съвет без право на глас.</p>
+              </content>
+            </paragraph>
+          </article>
+          <article eId="chap_2__sec_3__art_13">
+            <num>Чл. 13.</num>
+            <content>
+              <p>Дневният ред за заседанията на обществения съвет се изготвя от служител на центъра, определен от директора, и се изпраща на членовете му най-малко 5 работни дни преди деня на заседанието.</p>
+            </content>
+          </article>
+          <article eId="chap_2__sec_3__art_14">
+            <num>Чл. 14.</num>
+            <content>
+              <p>За проведените заседания на обществения съвет се съставя протокол и решения, които се подписват от присъствалите членове.</p>
+            </content>
+          </article>
+          <article eId="chap_2__sec_3__art_15">
+            <num>Чл. 15.</num>
+            <content>
+              <p>Общественият съвет изработва критерии и правила за оценка на подадените молби, размера на сумите и реда, по който се предоставят за осъществяването на диагностични и лечебни процедури, за които няма условия в страната.</p>
+            </content>
+          </article>
+        </section>
+      </chapter>
+      <chapter eId="chap_3">
+        <num>Глава трета</num>
+        <heading>КОНТРОЛ ВЪРХУ НАЧИНА НА РАЗХОДВАНЕ СРЕДСТВАТА НА ЦЕНТЪРА</heading>
+        <article eId="chap_3__art_16">
+          <num>Чл. 16.</num>
+          <content>
+            <p>Средствата от бюджета и от други източници се разходват и отчитат в съответствие с действащото в страната законодателство.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_17">
+          <num>Чл. 17.</num>
+          <content>
+            <p>Центърът изготвя месечни и тримесечни отчети за касовото изпълнение на бюдже&amp;shy;та и годишен финансов отчет по образец, утвърден от министъра на финансите, и ги пред&amp;shy;ставя в Министерството на здравеопазването в определените за второстепенните разпоредители с бюджетни кредити срокове.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_18">
+          <num>Чл. 18.</num>
+          <content>
+            <p>След изтичането на всяко тримесечие центърът представя пред обществения съвет информация за финансовото състояние на центъра и изпълнението на решенията на съвета.</p>
+          </content>
+        </article>
+        <article eId="chap_3__art_19">
+          <num>Чл. 19.</num>
+          <paragraph eId="chap_3__art_19__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Центърът изготвя годишен финансов отчет по образец, утвърден от обществения съвет, и го представя пред обществения съвет до 31 март на следващата година.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="chap_3__art_19__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Общественият съвет се произнася по отчета по ал. 1 с решение и при констатирани несъответствия с решенията на съвета уведомява министъра на здравеопазването за предприемане на мерки за реализиране на отговорността на директора на центъра.</p>
+            </content>
+          </paragraph>
+        </article>
+      </chapter>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Правилникът се приема на основание чл. 60, ал. 2 от Закона за администрацията и чл. 7 от Постановление № 280 на Министерския съвет от 18.Х.2004 г. (ДВ, бр. 96 от 2004 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Директорът на центъра в срок до една седмица от влизането в сила на правилника да утвърди щатното разписание и длъжностните характеристики на служителите в центъра.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В триседмичен срок от датата на решението наМинистерския съвет за определянето на състава му общественият съвет изготвя и оповестява принципи и правила за набиране, изразходване и контрол на финансовите средства, необходими за осъществяване дейността на центъра.</p>
+            <p>Министър:  Сл. Богоев</p>
+            <p>52669</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

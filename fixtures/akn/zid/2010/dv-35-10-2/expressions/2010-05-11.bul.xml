@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-2"/>
+          <FRBRalias value="Закон за допълнение на Закона за частната охрани­" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за частната охрани­" name="eli" other="/eli/bg/zid/2010/dv-35-10-2"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-2/bul@2010-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-2/bul@2010-05-11"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-2/bul@2010-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-2/bul@2010-05-11.xml"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-11" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за частната охрани­</p>
+      <p>(обн., ДВ, бр. 15 от 2004 г.; изм., бр. 105 от 2005 г., бр. 30, 34 и 82 от 2006 г., бр. 109 от 2007 г., бр. 69 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>В чл. 41, ал. 1 след думите „Главна дирекция „Охранителна полиция“ се поставя запетая и се добавя „Главна дирекция „Кри­ минална полиция“. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

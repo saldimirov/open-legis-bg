@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-11"/>
+          <FRBRalias value="Постановление № 24 ОТ 25 ФЕВРУАРИ 2010 Г. за изменение на Тарифата за таксите, събирани" name="short"/>
+          <FRBRalias value="Постановление № 24 ОТ 25 ФЕВРУАРИ 2010 Г. за изменение на Тарифата за таксите, събирани" name="eli" other="/eli/bg/postanovlenie/2010/dv-18-10-11"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-11/bul@2010-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-11/bul@2010-03-05"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-11/bul@2010-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-11/bul@2010-03-05.xml"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-05" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 24 ОТ 25 ФЕВРУАРИ 2010 Г. за изменение на Тарифата за таксите, събирани</p>
+      <p>(обн., ДВ, бр. 48 от 2006 г.; изм. и доп., бр. 30 и 62 от 2007 г. и бр. 50 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 3 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 3.</num>
+          <content>
+            <p>За издаване на специално разреши­ телно за улов на калкан във водите на Черно море в рамките на определена квота се събира такса, както следва: 1. с риболовен кораб до 0,99 бруто тона 100 лв.; 2. с риболовен кораб от 1 до 4,99 бруто тона 150 лв.; 3. с риболовен кораб от 5 до 9,99 бруто тона 300 лв.; 4. с риболовен кораб от 10 до 24,99 бруто тона 700 лв.; 5. с риболовен кораб над 25 бруто тона 1200 лв.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Симеон Дянков Главен секретар на Министерския съвет: Росен Желязков 1840</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-13/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-13"/>
+          <FRBRalias value="Постановление № 126 ОТ 22 МАЙ 2019 Г. за изменение на Устройствения правилник на Министерството на икономиката, приет" name="short"/>
+          <FRBRalias value="Постановление № 126 ОТ 22 МАЙ 2019 Г. за изменение на Устройствения правилник на Министерството на икономиката, приет" name="eli" other="/eli/bg/postanovlenie/2019/dv-42-19-13"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-13/bul@2019-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-13/bul@2019-05-28"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-13/bul@2019-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-13/bul@2019-05-28.xml"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-28" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 126 ОТ 22 МАЙ 2019 Г. за изменение на Устройствения правилник на Министерството на икономиката, приет</p>
+      <p>(обн., ДВ, бр. 108 от 2014 г.; изм. и доп., бр. 32 и 100 от 2015 г., бр. 36 и 98 от 2016 г., бр. 49, 65 и 106 от 2018 г. и бр. 18 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 6, ал. 8 и чл. 11, ал. 3 се правят следните изменения: 1. На ред „Инспекторат“ числото „7“ се заменя с „10“. 2. На ред „Обща администрация“ числото „122“ се заменя със „119“. БРОЙ 42 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 19 3. На ред „дирекция „Финанси и управ­ ление на собствеността“ числото „40“ се заменя с „39“. 4. На ред „дирекция „Правна“ числото „25“ се заменя с „24“. 5. На ред „дирекция „Информационно и комуникационно осигуряване и управление при кризисни ситуации“ числото „17“ се за- меня с „16“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юни 2019 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

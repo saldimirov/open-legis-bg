@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-6"/>
+          <FRBRalias value="Постановление № 35 от 21 февруари 2006 г. за осигуряване на средства от централния бюджет за 2006 г. за поемане на разходи, свързани със защитата на петимата подсъдими български граждани по наказателното дело в Либия и свързаните с него граждански дела, както и за защита на гражданските искове на сестрите в наказателното дело срещу либийските офицери" name="short"/>
+          <FRBRalias value="Постановление № 35 от 21 февруари 2006 г. за осигуряване на средства от централния бюджет за 2006 г. за поемане на разходи, свързани със защитата на петимата подсъдими български граждани по наказателното дело в Либия и свързаните с него граждански дела, както и за защита на гражданските искове на сестрите в наказателното дело срещу либийските офицери" name="eli" other="/eli/bg/postanovlenie/2006/dv-19-06-6"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-6/bul@2006-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-6/bul@2006-03-02"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-19-06-6/bul@2006-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-19-06-6/bul@2006-03-02.xml"/>
+          <FRBRdate date="2006-03-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-03-02" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 35 от 21 февруари 2006 г. за осигуряване на средства от централния бюджет за 2006 г. за поемане на разходи, свързани със защитата на петимата подсъдими български граждани по наказателното дело в Либия и свързаните с него граждански дела, както и за защита на гражданските искове на сестрите в наказателното дело срещу либийските офицери</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да предостави от централния бюджет за 2006 г. допълнителни средства по бюджета на Министерството на правосъдието в размер 250 000 лв. за командировъчни, такси, преводи, хонорари и други разходи, свързани със защитата на подсъдимите български граждани по наказателното дело в Либия и свързаните с него граждански дела, както и за защита на гражданските искове на сестрите в наказателното дело срещу либийските офицери.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят чрез преструктуриране на “Други разходи” по централния бюджет за 2006 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по бюджета на Министерството на правосъдието за 2006 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на правосъдието и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

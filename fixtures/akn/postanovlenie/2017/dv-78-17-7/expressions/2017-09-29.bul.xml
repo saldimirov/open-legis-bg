@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-78-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-78-17-7"/>
+          <FRBRalias value="Постановление № 205 ОТ 26 СЕПТЕМВРИ 2017 Г. за допълнение на Постановление № 343 на" name="short"/>
+          <FRBRalias value="Постановление № 205 ОТ 26 СЕПТЕМВРИ 2017 Г. за допълнение на Постановление № 343 на" name="eli" other="/eli/bg/postanovlenie/2017/dv-78-17-7"/>
+          <FRBRdate date="2017-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-78-17-7/bul@2017-09-29/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-78-17-7/bul@2017-09-29"/>
+          <FRBRdate date="2017-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-78-17-7/bul@2017-09-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-78-17-7/bul@2017-09-29.xml"/>
+          <FRBRdate date="2017-09-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-09-29" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 205 ОТ 26 СЕПТЕМВРИ 2017 Г. за допълнение на Постановление № 343 на</p>
+      <p>(обн., ДВ, бр. 102 от 2011 г.; изм. и доп., бр. 9 от 2014 г. и бр. 31 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните допълнения: 1. В ал. 3 след думите „продажба на“ се добавя „широколистна“. 2. Създава се ал. 4: „</p>
+            <p>(4) При продажба на иглолистна дървесина, повредена от абиотични и биотични фактори и въздействия, държавните предприятия по чл. 163 от Закона за горите внасят във фонд „Инвестиции в горите“ по 1 лв. за куб. м дървесина.“ СТР. 12 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 78 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2017 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-8"/>
+          <FRBRalias value="Решение за приемане на Годишен доклад на Държавна­" name="short"/>
+          <FRBRalias value="Решение за приемане на Годишен доклад на Държавна­" name="eli" other="/eli/bg/reshenie_ns/2011/dv-93-11-8"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-8/bul@2011-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-8/bul@2011-11-25"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-8/bul@2011-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-8/bul@2011-11-25.xml"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-25" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Годишен доклад на Държавна­</p>
+      <p>(обн., ДВ, бр. 23 от 1976 г.; отм., бр. 59 от 1994 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>та комисия по сигурността на информацията относно цялостната дейност по състоянието на защитата на класифицираната информация в Република България за 2010 г. Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 7, ал. 2 от Закона за защита на класифи­ цираната информация Р Е Ш И : Приема Годишния доклад на Държавната комисия по сигурността на информацията от­ носно цялостната дейност по състоянието на защитата на класифицираната информация в Република България за 2010 г. Решението е прието от 41-ото Народно съ­ брание на 18 ноември 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-84-15-4/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-84-15-4"/>
+          <FRBRalias value="Постановление № 286 ОТ 21 ОКТОМВРИ 2015 Г. за одобряване на вътрешнокомпенсирани" name="short"/>
+          <FRBRalias value="Постановление № 286 ОТ 21 ОКТОМВРИ 2015 Г. за одобряване на вътрешнокомпенсирани" name="eli" other="/eli/bg/postanovlenie/2015/dv-84-15-4"/>
+          <FRBRdate date="2015-10-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-84-15-4/bul@2015-10-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-84-15-4/bul@2015-10-30"/>
+          <FRBRdate date="2015-10-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-84-15-4/bul@2015-10-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-84-15-4/bul@2015-10-30.xml"/>
+          <FRBRdate date="2015-10-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-30" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 286 ОТ 21 ОКТОМВРИ 2015 Г. за одобряване на вътрешнокомпенсирани</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява вътрешнокомпенсирани промени на утвърдените разходи по области на политики/бюджетни програми по бюджета на Министерството на икономиката за 2015 г., както следва: 1. Намалява утвърдените разходи по: а) Политика в областта на устойчивото икономическо развитие и конкурентоспосо- бност с 462 948 лв., в т.ч.: аа) по бюджетна програма „Инфраструк- тура по качеството в подкрепа развитието на икономиката“ – с 357 400 лв.; бб) по бюджетна програма „Преструктури- ране и ефективно управление на държавната собственост“ – със 105 548 лв.; б) бюджетна програма „Администрация“ с 1 240 384 лв. 2. Увеличава утвърдените разходи по: а) Политика в областта на устойчивото икономическо развитие и конкурентоспосо- бност с 201 823 лв., в т.ч.: аа) по бюджетна програма „Облекчаване на регулации, опростяване на процедури по предоставяне на административни услуги“ – с 2000 лв.; бб) по бюджетна програма „Управление на програми и проекти, съфинансирани от ЕС“ – със 183 823 лв.; вв) по бюджетна програма „Защита на потребителите“ – с 16 000 лв.; б) Политика в областта на ефективното външноикономическо сътрудничество по бю- джетна програма „Реализация на експортния потенциал и участие в търговската политика на Европейския съюз“ с 1 501 509 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на икономиката да извърши налагащите се от чл. 1 промени по бюджета на Министерството на икономи- ката за 2015 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 1 от Закона за публичните финанси и чл. 76, ал. 1 от Закона за държав- ния бюджет на Република България за 2015 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 6955</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

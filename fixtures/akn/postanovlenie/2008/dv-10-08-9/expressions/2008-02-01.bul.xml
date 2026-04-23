@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-9/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-9"/>
+          <FRBRalias value="Постановление № 10 от 28 януари 2008 г. за изменение и допълнение на нормативни актове на Министерския  съвет" name="short"/>
+          <FRBRalias value="Постановление № 10 от 28 януари 2008 г. за изменение и допълнение на нормативни актове на Министерския  съвет" name="eli" other="/eli/bg/postanovlenie/2008/dv-10-08-9"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-9/bul@2008-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-9/bul@2008-02-01"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-10-08-9/bul@2008-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-10-08-9/bul@2008-02-01.xml"/>
+          <FRBRdate date="2008-02-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-02-01" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 10 от 28 януари 2008 г. за изменение и допълнение на нормативни актове на Министерския  съвет</p>
+      <p>(обн., ДВ, бр. 52 от 2006 г.; изм. и доп., бр. 3, 22, 65 и 110 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Устройствения правилник на Министерството на културата, приет с Постановление № 149 на Министерския съвет от 2006 г. за приемане на Устройствен правилник на Министерството на културата и за закриване на националните центрове по изкуствата и културните дейности към министъра на културата (обн., ДВ, бр. 52 от 2006 г.; изм. и доп., бр. 3, 22, 65 и 110 от 2007 г.), се правят следните изменения:</p>
+            <p>1. В чл. 14, ал. 2 числото “174” се заменя със “155”.</p>
+            <p>2. Приложението към чл. 14, ал. 3 се изменя така:</p>
+            <p>“Приложение към чл. 14, ал. 3</p>
+            <p>Численост на персонала в организационните структури и административните звена в Министерството на културата - 155 щатни бройки</p>
+            <p>Политически кабинет                                                                8</p>
+            <p>в т.ч. технически сътрудници                                              2</p>
+            <p>Инспекторат                                                                            1</p>
+            <p>Звено за вътрешен одит                                                           4</p>
+            <p>Служител по сигурността на информацията                               1</p>
+            <p>Главен секретар                                                                      1</p>
+            <p>Обща администрация                                                              44</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Човешки ресурси, политика</p>
+            <p>на доходите и административно-стопан-</p>
+            <p>ски дейности”                                                                    28</p>
+            <p>дирекция “Стратегии и програми, прог-</p>
+            <p>рамно бюджетиране, управление на фи-</p>
+            <p>нансовите ресурси и финансово-счето-</p>
+            <p>водни дейности”                                                                16</p>
+            <p>Специализирана администрация                                              96</p>
+            <p>в т.ч.:</p>
+            <p>дирекция “Театър, вариететно и цирко-</p>
+            <p>во изкуство”                                                                      8</p>
+            <p>дирекция “Музика и танц”                                                     8</p>
+            <p>дирекция “Книга и библиотечно дело”                                    8</p>
+            <p>дирекция “Музеи, галерии и изобразител-</p>
+            <p>ни изкуства”                                                                     12</p>
+            <p>дирекция “Опазване на недвижимите</p>
+            <p>паметници на културата”                                                   10</p>
+            <p>дирекция “Регионални културни</p>
+            <p>дейности”                                                                           8</p>
+            <p>дирекция “Европейски съюз и между-</p>
+            <p>народно сътрудничество”                                                  15</p>
+            <p>дирекция “Авторско право и сродните</p>
+            <p>му права”                                                                         15</p>
+            <p>дирекция “Правна и управление на соб-</p>
+            <p>ствеността”                                                                     12”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, ал. 1, т. 1 от Постановление № 175 на Министерския съвет от 2007 г. за заплатите в бюджетните организации и дейности (обн., ДВ, бр. 61 от 2007 г.; изм. и доп., бр. 78, 80, 100, 101, 104, 108 и 110 от 2007 г.) се правят следните допълнения:</p>
+            <p>1. В пореден № 7, колона 2 се добавя числото “483,74”.</p>
+            <p>2. В пореден № 7.1, колона 2 се добавя числото “670,07”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 февруари 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-2"/>
+          <FRBRalias value="Закон за ратифициране на Шестия допълнителен" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Шестия допълнителен" name="eli" other="/eli/bg/ratifikatsiya/2020/dv-48-20-2"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-2/bul@2020-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-2/bul@2020-05-26"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-2/bul@2020-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-2/bul@2020-05-26.xml"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-05-26" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Шестия допълнителен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>протокол към Споразумението за Многонацио­ налните мирни сили в Югоизточна Европа Член единствен. Ратифицира Шестия до- пълнителен протокол към Споразумението за Многонационалните мирни сили в Югоизточна Европа, подписан на 12 юни 2019 г. в Скопие, Република Северна Македония.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

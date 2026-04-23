@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-37-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-37-08-11"/>
+          <FRBRalias value="Постановление № 69 от 28 март 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 69 от 28 март 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2008/dv-37-08-11"/>
+          <FRBRdate date="2008-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-37-08-11/bul@2008-04-08/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-37-08-11/bul@2008-04-08"/>
+          <FRBRdate date="2008-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-37-08-11/bul@2008-04-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-37-08-11/bul@2008-04-08.xml"/>
+          <FRBRdate date="2008-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-04-08" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 69 от 28 март 2008 г. за изменение и допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 83 от 2005 г.; изм. и доп., бр. 96 от 2005 г., бр. 40 от 2006 г.; Решение № 11975 на Върховния административен съд от 2006 г. - бр. 99 от 2006 г.; изм. и доп., бр. 28 и 108 от 2007 г. и бр. 17 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към § 2 от преходните и заключителните разпоредби на Постановление № 215 на Министерския съвет от 2005 г. за приемане на Устройствен правилник на Министерството на държавната администрация и административната реформа (обн., ДВ, бр. 83 от 2005 г.; изм. и доп., бр. 96 от 2005 г., бр. 40 от 2006 г.; Решение № 11975 на Върховния административен съд от 2006 г. - бр. 99 от 2006 г.; изм. и доп., бр. 28 и 108 от 2007 г. и бр. 17 от 2008 г.) се правят следните изменения:</p>
+            <p>1. В наименованието числото “552” се заменя с “498”.</p>
+            <p>2. Ред осми “Лечебно-възстановителна база “Велинград” се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, ал. 1, т. 1 от Постановление № 175 на Министерския съвет от 2007 г. за заплатите в бюджетните организации и дейности (обн., ДВ, бр. 61 от 2007 г.; изм. и доп., бр. 78, 80, 100, 101, 104, 108 и 110 от 2007 г. и бр. 10, 14, 17, 24 и 32 от 2008 г.) в пореден № 2, колона 4 се добавя числото “661,69”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Трудовите правоотношения на служителите в Лечебно-възстановителна база “Велинград”, предоставена безвъзмездно за управление на Народното събрание, се уреждат при условията и по реда на чл. 123 от Кодекса на труда.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

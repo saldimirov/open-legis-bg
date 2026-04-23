@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-3/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-3"/>
+          <FRBRalias value="Постановление № 194 от 5 септември 2003 г. за отменяне на Постановление № 48 на Министерския съвет от 1986 г. за изграждане на Хидротехническия комплекс „Никопол Турну Мъгуреле&quot; на р. Дунав" name="short"/>
+          <FRBRalias value="Постановление № 194 от 5 септември 2003 г. за отменяне на Постановление № 48 на Министерския съвет от 1986 г. за изграждане на Хидротехническия комплекс „Никопол Турну Мъгуреле&quot; на р. Дунав" name="eli" other="/eli/bg/postanovlenie/2003/dv-82-03-3"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-3/bul@2003-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-3/bul@2003-09-16"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-82-03-3/bul@2003-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-82-03-3/bul@2003-09-16.xml"/>
+          <FRBRdate date="2003-09-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 194 от 5 септември 2003 г. за отменяне на Постановление № 48 на Министерския съвет от 1986 г. за изграждане на Хидротехническия комплекс „Никопол Турну Мъгуреле&quot; на р. Дунав</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

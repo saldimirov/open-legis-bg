@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-18/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-18"/>
+          <FRBRalias value="Постановление № 266 от 27 ноември 2025 г. за изменение на Постановление № 240 на Министерския съвет от 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните" name="short"/>
+          <FRBRalias value="Постановление № 266 от 27 ноември 2025 г. за изменение на Постановление № 240 на Министерския съвет от 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните" name="eli" other="/eli/bg/postanovlenie/2025/dv-102-25-18"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-18/bul@2025-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-18/bul@2025-11-28"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-18/bul@2025-11-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-18/bul@2025-11-28.xml"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-11-28" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 266 от 27 ноември 2025 г. за изменение на Постановление № 240 на Министерския съвет от 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В член единствен „Тарифа за таксите, които се събират от Българската агенция по безопасност на храните“ се заменя с настоящото приложение „Тарифа за таксите, които се събират от Българската агенция по безопасност на храните“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В заключителните разпоредби се правят следните изменения: 1. Параграф 2 се отменя. 2. В § 3 думите „в колона „Евро“ се заменят със „със стойност в „Евро“ с изключение на чл. 32, ал. 1, т. 1 буква „б“ и т. 2, буква „б“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

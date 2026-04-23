@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-51-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-51-10-4"/>
+          <FRBRalias value="Постановление № 129 ОТ 28 ЮНИ 2010 Г. за изменение на нормативни актове на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 129 ОТ 28 ЮНИ 2010 Г. за изменение на нормативни актове на Ми­" name="eli" other="/eli/bg/postanovlenie/2010/dv-51-10-4"/>
+          <FRBRdate date="2010-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-51-10-4/bul@2010-07-06/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-51-10-4/bul@2010-07-06"/>
+          <FRBRdate date="2010-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-51-10-4/bul@2010-07-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-51-10-4/bul@2010-07-06.xml"/>
+          <FRBRdate date="2010-07-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-06" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 129 ОТ 28 ЮНИ 2010 Г. за изменение на нормативни актове на Ми­</p>
+      <p>(обн., ДВ, бр. 38 от 2007 г.; изм., бр. 53 от 2008 г. и бр. 79 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 от Постановление № 99 на Министерския съвет от 2007 г. за създаване на Национален център „Европейски младежки програми и инициативи“ и за приемане на Ус­ тройствен правилник на Националния център „Европейски младежки програми и инициати­ ви“ (обн., ДВ, бр. 38 от 2007 г.; изм., бр. 53 от 2008 г. и бр. 79 от 2009 г.) думите „бул. Васил Левски 75“ се заменят с „бул. Цариградско шосе 125, блок 5“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 2 от Устройствения правилник на Националния център „Европейски младежки програми и инициативи“, приет с Постановле­ ние № 99 на Министерския съвет от 2007 г. (обн., ДВ, бр. 38 от 2007 г.; изм. и доп., бр. 58 от 2008 г., бр. 64 и 79 от 2009 г.) думите „бул. Васил Левски 75“ се заменят с „бул. Цариград­ ско шосе 125, блок 5“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

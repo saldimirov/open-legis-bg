@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-10"/>
+          <FRBRalias value="Постановление № 28 ОТ 2 МАРТ 2010 Г. за изменение и допълнение на нормативни" name="short"/>
+          <FRBRalias value="Постановление № 28 ОТ 2 МАРТ 2010 Г. за изменение и допълнение на нормативни" name="eli" other="/eli/bg/postanovlenie/2010/dv-19-10-10"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-10/bul@2010-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-10/bul@2010-03-09"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-10/bul@2010-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-10/bul@2010-03-09.xml"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-09" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 28 ОТ 2 МАРТ 2010 Г. за изменение и допълнение на нормативни</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Устройствения правилник на Ми­ нистерството на външните работи, приет с Постановление № 340 на Министерския съвет от 2009 г. (ДВ, бр. 4 от 2010 г.), се правят следните изменения и допълнения: 1. В чл. 4 думата „трима“ се заличава. 2. В чл. 7 се създават т. 8 – 10: „8. разработва насоки за информационно- проучвателната и аналитичната дейност на звената в дипломатическата служба; 9. поддържа работни контакти със звена­ та за планиране и анализ в министерствата на външните работи на държавите членки и институциите на ЕС и НАТО и на други меж­ дународни партньори на Република България; 10. поддържа работни контакти, обмен на информация и сътрудничество с държавни ин­ ституции, изследователски центрове, институти и неправителствени организации по въпроси на формирането на външната политика и разработ­ ва теми и основни параметри при възлагането на външни проучвания или други дейности с използването на бюджетни средства.“ 3. В чл. 9 ал. 2 се отменя. 4. В чл. 11: а) досегашният текст става ал. 1; б) създава се ал. 2: „</p>
+            <p>(2) Дейността на говорителя се подпомага от дирекция „Информация и комуникация“.“ 5. В глава втора, в наименованието на раздел VІІ думите „юридически съветник“ се заличават. 6. Член 16 се изменя така: ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

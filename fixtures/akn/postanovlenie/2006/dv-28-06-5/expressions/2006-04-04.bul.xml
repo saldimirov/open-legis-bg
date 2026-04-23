@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-5/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-5"/>
+          <FRBRalias value="Постановление № 64 от 24 март 2006 г. за изменение и допълнение на Постановление № 129 на Министерския съвет от 2000 г. за определяне на минимални диференцирани размери на паричните средства за физическо възпитание и спорт, които се осигуряват от държавния бюджет и от бюджетите на общините" name="short"/>
+          <FRBRalias value="Постановление № 64 от 24 март 2006 г. за изменение и допълнение на Постановление № 129 на Министерския съвет от 2000 г. за определяне на минимални диференцирани размери на паричните средства за физическо възпитание и спорт, които се осигуряват от държавния бюджет и от бюджетите на общините" name="eli" other="/eli/bg/postanovlenie/2006/dv-28-06-5"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-5/bul@2006-04-04/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-5/bul@2006-04-04"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-28-06-5/bul@2006-04-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-28-06-5/bul@2006-04-04.xml"/>
+          <FRBRdate date="2006-04-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-04" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 64 от 24 март 2006 г. за изменение и допълнение на Постановление № 129 на Министерския съвет от 2000 г. за определяне на минимални диференцирани размери на паричните средства за физическо възпитание и спорт, които се осигуряват от държавния бюджет и от бюджетите на общините</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения:</p>
+            <p>1. В т. 1 думите “предучилищните детски заведения” се заменят с “държавните и общинските детски градини”, а цифрата “1” се заменя с “2”.</p>
+            <p>2. Точки 2 и 3 се изменят така:</p>
+            <p>“2. за учениците в държавните и общинските училища в присъствена форма на обучение - 3 лв. на ученик за бюджетна година;</p>
+            <p>3. за студентите редовна форма на обучение във висшите училища - 3 лв. на студент за учебна година;”.</p>
+            <p>3. В т. 4 числото “1,50” се заменя с “3”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 2 се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1.</p>
+            <p>2. Създава се ал. 2:</p>
+            <p>“(2) Не по-малко от 50 на сто от средствата по ал. 1 се разходват за осъществяване на учебно-тренировъчна и/или спортно-състезателна дейност.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2006 г.</p>
+            <p>За министър-председател:  Емел Етем</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>22760</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

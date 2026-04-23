@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-107-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-107-11-6"/>
+          <FRBRalias value="Постановление № 373 ОТ 29 ДЕКЕМВРИ 2011 Г. за одобряване финансирането на проекти," name="short"/>
+          <FRBRalias value="Постановление № 373 ОТ 29 ДЕКЕМВРИ 2011 Г. за одобряване финансирането на проекти," name="eli" other="/eli/bg/postanovlenie/2011/dv-107-11-6"/>
+          <FRBRdate date="2011-12-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-107-11-6/bul@2011-12-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-107-11-6/bul@2011-12-31"/>
+          <FRBRdate date="2011-12-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-107-11-6/bul@2011-12-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-107-11-6/bul@2011-12-31.xml"/>
+          <FRBRdate date="2011-12-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-31" name="Държавен вестник" number="107" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 373 ОТ 29 ДЕКЕМВРИ 2011 Г. за одобряване финансирането на проекти,</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява финансирането на проекти, свързани с изпълнението на неот- ложни мерки за 2012 г. за присъединяването на Република България към Шенгенското пространство, на обща стойност 15 млн. лв. съгласно приложението.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата за изпълнението на про- ектите по ал. 1 да се осигурят за сметка на предвидените средства по централния бюджет за 2012 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по предложение на съответните разпоредители с бюджетни кредити да извършва текущо компенсирани промени между централния бюджет и бюджетите на Министерския съвет и на Министерството на вътрешните работи за 2012 г. на базата на действително извър- шените разходи до размера на средствата по чл. 1, ал. 1. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите, министъра на вътрешните работи и главния секретар на Министерския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 яну- ари 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

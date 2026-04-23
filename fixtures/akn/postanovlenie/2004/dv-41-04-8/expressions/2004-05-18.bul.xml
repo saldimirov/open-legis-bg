@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-8/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-8"/>
+          <FRBRalias value="Постановление № 94 от 4 май 2004 г. за допълнение на Устройствения правилник на Изпълнителна агенция “Сертификация и изпитване”, приет с Постановление № 221 на Министерския съвет от 2002 г. за преобразуване на Главна дирекция “Изпитване и сертификация” в Изпълнителна агенция “Сертификация и изпитване” и за приемане на Устройствен правилник на Изпълнителна агенция “Сертификация и изпитване”" name="short"/>
+          <FRBRalias value="Постановление № 94 от 4 май 2004 г. за допълнение на Устройствения правилник на Изпълнителна агенция “Сертификация и изпитване”, приет с Постановление № 221 на Министерския съвет от 2002 г. за преобразуване на Главна дирекция “Изпитване и сертификация” в Изпълнителна агенция “Сертификация и изпитване” и за приемане на Устройствен правилник на Изпълнителна агенция “Сертификация и изпитване”" name="eli" other="/eli/bg/postanovlenie/2004/dv-41-04-8"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-8/bul@2004-05-18/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-8/bul@2004-05-18"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-41-04-8/bul@2004-05-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-41-04-8/bul@2004-05-18.xml"/>
+          <FRBRdate date="2004-05-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-18" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 94 от 4 май 2004 г. за допълнение на Устройствения правилник на Изпълнителна агенция “Сертификация и изпитване”, приет с Постановление № 221 на Министерския съвет от 2002 г. за преобразуване на Главна дирекция “Изпитване и сертификация” в Изпълнителна агенция “Сертификация и изпитване” и за приемане на Устройствен правилник на Изпълнителна агенция “Сертификация и изпитване”</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1 от Устройствения правилник на Изпълнителна агенция “Сертификация и изпитване”, приет с Постановление № 221 на Министерския съвет от 2002 г., се създават т. 12 и 13:</p>
+            <p>“12. утвърждава ценоразписи на услугите, извършвани от Изпълнителна агенция “Сертификация и изпитване”, за които не се дължат държавни такси;</p>
+            <p>13. може да създава със заповед работни групи и съвети за подпомагане на дейността на агенцията.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

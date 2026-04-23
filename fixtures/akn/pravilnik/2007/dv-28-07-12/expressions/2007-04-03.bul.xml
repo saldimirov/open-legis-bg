@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-28-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-28-07-12"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Комисията за защита от дискриминация" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Комисията за защита от дискриминация" name="eli" other="/eli/bg/pravilnik/2007/dv-28-07-12"/>
+          <FRBRdate date="2007-04-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-28-07-12/bul@2007-04-03/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-28-07-12/bul@2007-04-03"/>
+          <FRBRdate date="2007-04-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-28-07-12/bul@2007-04-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-28-07-12/bul@2007-04-03.xml"/>
+          <FRBRdate date="2007-04-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-04-03" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на Комисията за защита от дискриминация</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 23 се изменя, както следва:</p>
+            <p>“Чл. 23. Комисията има регионални представители, които са част от специализираната администрация на комисията.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложението по чл. 15, ал. 1 се изменя, както следва:</p>
+            <p>“Приложение към чл. 15, ал. 1</p>
+            <p>Комисия за защита от дискриминация</p>
+            <p>Обща численост                                                                                                                                                    52</p>
+            <p>в т.ч.:</p>
+            <p>изборни длъжности съгласно ЗЗДискр.                                                                                                                      9</p>
+            <p>Председател                                                                                                                                                           1</p>
+            <p>Зам.-председател                                                                                                                                                     1</p>
+            <p>Членове                                                                                                                                                                  7</p>
+            <p>главен секретар                                                                                                                                                       1</p>
+            <p>финансов контрольор                                                                                                                                               1</p>
+            <p>специализирана администрация                                                                                                                               17</p>
+            <p>обща администрация                                                                                                                                               24</p>
+            <p>финансово-стопански дейности  и управление на собствеността                                                                             8</p>
+            <p>административно-правно, информационно обслужване и деловодна  дейност                                                         16”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Навсякъде текстът: “Закон за защита срещу дискриминация (ЗЗСД)” се заменят със: “Закон за защита от дискриминация (ЗЗДискр.)”.</p>
+            <p>Председател:  К. Еюп</p>
+            <p>9807</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

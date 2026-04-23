@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-77-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-77-13-5"/>
+          <FRBRalias value="Постановление № 190 ОТ 29 АВГУСТ 2013 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 190 ОТ 29 АВГУСТ 2013 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2013/dv-77-13-5"/>
+          <FRBRdate date="2013-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-77-13-5/bul@2013-09-03/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-77-13-5/bul@2013-09-03"/>
+          <FRBRdate date="2013-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-77-13-5/bul@2013-09-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-77-13-5/bul@2013-09-03.xml"/>
+          <FRBRdate date="2013-09-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-03" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 190 ОТ 29 АВГУСТ 2013 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 64 от 2007 г.; изм. и доп., бр. 79 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 т. 8 се изменя така: „8. изборът на изпълнител да е извършен в съответствие с действащото национално законодателство и по-специално със Закона за обществените поръчки и подзаконовите актове по прилагането му или със: а) Постановление № 55 на Министерския съвет от 2007 г. за условията и реда за опре­ деляне на изпълнител от страна на бенефици­ енти на договорена безвъзмездна финансова помощ от Структурните фондове и Кохезион­ ния фонд на Европейския съюз, Съвместната оперативна програма „Черноморски басейн 2007 – 2013 г.“, Финансовия механизъм на Европейското икономическо пространство и Норвежкия финансов механизъм – за проце­ дурите, обявени преди 1 април 2013 г.; б) Постановление № 69 на Министерския съвет от 2013 г. за условията и реда за опре­ деляне на изпълнител от страна на кандидати за безвъзмездна финансова помощ и бенефи­ циенти на договорена безвъзмездна финансова помощ от Структурните фондове и Кохезион­ ния фонд на Европейския съюз, Съвместната оперативна програма „Черноморски басейн 2007 – 2013 г.“, Финансовия механизъм на Европейското икономическо пространство и Норвежкия финансов механизъм – за проце­ дурите, обявени след 1 април 2013 г.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 4 се правят следните изменения и допълнения: а) в ал. 1, т. 2 накрая се добавя „или съответните нормативни актове на друга държава – членка на Европейския съюз, в случаите, когато не е приложимо българското законодателство“; б) алинея 8 се изменя така: „</p>
+            <p>(8) По договори за безвъзмездна финансова помощ за допустими се считат и разходите съгласно член 1 от Регламент (ЕО) № 396/2009 на Европейския парламент и на Съвета за изменение на Регламент (ЕО) № 1081/2006 относно Европейския социален фонд с оглед разширяване кръга на видовете разходи, до­ пустими за финансиране от ЕСФ (ОВ, L 126/1 от 21.05.2009 г.).“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 1, т. 1 от допълнителната разпоред­ ба думите „§ 1, т. 3“ се заменят с „§ 1, т. 6“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

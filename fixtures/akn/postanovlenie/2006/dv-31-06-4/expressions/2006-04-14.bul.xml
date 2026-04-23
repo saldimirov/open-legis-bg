@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-4/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-4"/>
+          <FRBRalias value="Постановление № 59 от 21 март 2006 г. за приемане на Списък на оръжието и на стоките и технологиите с възможна двойна употреба" name="short"/>
+          <FRBRalias value="Постановление № 59 от 21 март 2006 г. за приемане на Списък на оръжието и на стоките и технологиите с възможна двойна употреба" name="eli" other="/eli/bg/postanovlenie/2006/dv-31-06-4"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-4/bul@2006-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-4/bul@2006-04-14"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-31-06-4/bul@2006-04-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-31-06-4/bul@2006-04-14.xml"/>
+          <FRBRdate date="2006-04-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-04-14" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 59 от 21 март 2006 г. за приемане на Списък на оръжието и на стоките и технологиите с възможна двойна употреба</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Списъкът на оръжието и на стоките и технологиите с възможна двойна употреба, приет с Постановление № 69 на Министерския съвет от 2004 г. (ДВ, бр. 35 от 2004 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание на чл. 1, ал. 3 от Закона за контрол на външнотърговската дейност с оръжие и със стоки и технологии с възможна двойна употреба.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

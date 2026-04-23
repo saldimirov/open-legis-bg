@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-9"/>
+          <FRBRalias value="Постановление № 133 ОТ 29 МАЙ 2009 Г. за изменение на Постановление № 9 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 133 ОТ 29 МАЙ 2009 Г. за изменение на Постановление № 9 на Ми­" name="eli" other="/eli/bg/postanovlenie/2009/dv-43-09-9"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-9/bul@2009-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-9/bul@2009-06-09"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-43-09-9/bul@2009-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-43-09-9/bul@2009-06-09.xml"/>
+          <FRBRdate date="2009-06-09" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-09" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 133 ОТ 29 МАЙ 2009 Г. за изменение на Постановление № 9 на Ми­</p>
+      <p>(обн., ДВ, бр. 10 от 2007 г.; изм. и доп., бр. 44 и 53 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 1 се правят следните из­ менения: 1. В т. 1: а) в буква „б“ след думите „по чл. 23“ се добавя „и чл. 24, ал. 1“; б) буква „в“ се отменя. 2. Точка 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 се правят следните изменения: 1. В ал. 3 след думата „запаси“ се поставя точка и текстът до края се заличава. 2. В ал. 4 думите „да кани представители на администрации от изпълнителната власт“ се заличават. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Вземането на решения по предложения за обновяване и освобождаване на военновре­ менни запаси, направени преди влизането в сила на постановлението, се извършва от Съвета по установения с това постановление ред.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-7/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-7"/>
+          <FRBRalias value="Постановление № 325 от 19 декември 2008 г. за изменение и допълнение на Постановление № 15 на Министерския съвет от 2008 г. за изпълнението на държавния бюджет на Република България за 2008 г." name="short"/>
+          <FRBRalias value="Постановление № 325 от 19 декември 2008 г. за изменение и допълнение на Постановление № 15 на Министерския съвет от 2008 г. за изпълнението на държавния бюджет на Република България за 2008 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-1-09-7"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-7/bul@2009-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-7/bul@2009-01-06"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-1-09-7/bul@2009-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-1-09-7/bul@2009-01-06.xml"/>
+          <FRBRdate date="2009-01-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-01-06" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 325 от 19 декември 2008 г. за изменение и допълнение на Постановление № 15 на Министерския съвет от 2008 г. за изпълнението на държавния бюджет на Република България за 2008 г.</p>
+      <p>(обн., ДВ, бр. 16 от 2008 г.; изм. и доп., бр. 37, 43, 53, 57,  68, 78 и 101 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 36 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 3:</p>
+            <p>“(3) Определя допълнителна субсидия от централния бюджет извън субсидиите по ал. 1 за Държавно предприятие “Транспортно строителство и възстановяване” в размер 387 543 лв. за изплащане на присъдено обезщетение по Решение № 80 от 12 август 2008 г., постановено по гражданско дело № 2326/2007 г. на Софийския апелативен съд. Средствата да се осигурят чрез преструктуриране на разходите по централния бюджет за 2008 г.”</p>
+            <p>2. Досегашната ал. 3 става ал. 4.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Министърът на финансите да извърши налагащите се промени по централния бюджет и субсидиите за нефинансови предприятия в частта за други субсидии и плащания за 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 18 декември 2008 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

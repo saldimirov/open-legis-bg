@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-8"/>
+          <FRBRalias value="Постановление № 346 ОТ 16 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 346 ОТ 16 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2011/dv-102-11-8"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-8/bul@2011-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-8/bul@2011-12-22"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-8/bul@2011-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-8/bul@2011-12-22.xml"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 346 ОТ 16 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 37 от 2010 г.; изм. и доп., бр. 58 от 2010 г. и бр. 70 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 1, изречение второ накрая се добавя „през всеки отчетен период“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 11, ал. 2 т. 10 се изменя така: „10. да предоставят плодовете и зеленчу­ ците по схемата само на включени в групата деца или в класа ученици, които отговарят на изискванията на чл. 7;“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 14 се правят следните изменения и допълнения: 1. В ал. 2 т. 3 и 4 се отменят. 2. В ал. 3 се създават т. 6 – 8: „6. приемо-предавателен протокол за дейст­ вително доставени количества за всеки от месеците от отчетния период на заявката за плащане, подписан от директора на учебното заведение и доставчика, по образец, утвърден от изпълнителния директор на Държавен фонд „Земеделие“; 7. декларация от директора на всяко учеб­ но заведение за общия брой деца и ученици по чл. 7, на които са раздадени плодове и зеленчуци през отчетния период на заявката за плащане; 8. подробно описание на приложените съпътстващи педагогически мерки за всяко учебно заведение, включено в схемата.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

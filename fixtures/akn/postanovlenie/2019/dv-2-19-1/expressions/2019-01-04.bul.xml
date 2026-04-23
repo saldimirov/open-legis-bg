@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-2-19-1/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-2-19-1"/>
+          <FRBRalias value="Постановление № 351 ОТ 31 ДЕКЕМВРИ 2018 Г. за изменение и допълнение на Наредбата за" name="short"/>
+          <FRBRalias value="Постановление № 351 ОТ 31 ДЕКЕМВРИ 2018 Г. за изменение и допълнение на Наредбата за" name="eli" other="/eli/bg/postanovlenie/2019/dv-2-19-1"/>
+          <FRBRdate date="2019-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-2-19-1/bul@2019-01-04/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-2-19-1/bul@2019-01-04"/>
+          <FRBRdate date="2019-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-2-19-1/bul@2019-01-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-2-19-1/bul@2019-01-04.xml"/>
+          <FRBRdate date="2019-01-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-04" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 351 ОТ 31 ДЕКЕМВРИ 2018 Г. за изменение и допълнение на Наредбата за</p>
+      <p>(обн., ДВ, бр. 72 от 2013 г.; изм. и доп., бр. 49 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 6, ал. 2, т. 2 след думите „серти- фикат по ISO/IEC 17025“ се добавя „и прило- жението към него“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 13, ал. 2, т. 1 накрая се поставя запетая и се добавя „който следва да съдържа докладване на обявяване за съответствие на игралното оборудване и игралния софтуер с техническите изисквания, приети от ДКХ на основание чл. 22, ал. 1, т. 7 от ЗХ“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В § 1 от допълнителната разпоредба т. 1 се изменя така: „1. „Официален превод“ е превод, извършен от преводач, включен в списъка по чл. 18, ал. 1 от Правилника за легализациите, заверките и преводите на документи и други книжа, утвър- ден с Постановление № 184 на Министерския съвет от 1958 г. (обн., ДВ, бр. 73 от 1958 г.; изм. и доп., бр. 10 от 1964 г., бр. 77 от 1976 г., бр. 96 от 1982 г., бр. 77 от 1983 г., бр. 103 от 1990 г. и бр. 95 от 2017 г.).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Висящите производства, образувани по заявления, подадени преди влизането в сила на постановлението, се разглеждат по досегашния ред.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

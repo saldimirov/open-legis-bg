@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-22-19-4/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-22-19-4"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за пре-" name="eli" other="/eli/bg/ratifikatsiya/2019/dv-22-19-4"/>
+          <FRBRdate date="2019-03-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-22-19-4/bul@2019-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-22-19-4/bul@2019-03-15"/>
+          <FRBRdate date="2019-03-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-22-19-4/bul@2019-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-22-19-4/bul@2019-03-15.xml"/>
+          <FRBRdate date="2019-03-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-03-15" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за пре-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>глед на многостепенното управление между Министерството на регионалното развитие и благоустройството на Република България и Организацията за икономическо сътрудни- чество и развитие Член единствен. Ратифицира Споразумени- ето за преглед на многостепенното управле- ние между Министерството на регионалното развитие и благоустройството на Република България и Организацията за икономическо сътрудничество и развитие, подписано на 11 декември 2018 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

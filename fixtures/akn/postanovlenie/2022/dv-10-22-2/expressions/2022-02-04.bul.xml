@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-10-22-2/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-10-22-2"/>
+          <FRBRalias value="Постановление № 10 ОТ 1 ФЕВРУАРИ 2022 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 10 ОТ 1 ФЕВРУАРИ 2022 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2022/dv-10-22-2"/>
+          <FRBRdate date="2022-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-10-22-2/bul@2022-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-10-22-2/bul@2022-02-04"/>
+          <FRBRdate date="2022-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-10-22-2/bul@2022-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-10-22-2/bul@2022-02-04.xml"/>
+          <FRBRdate date="2022-02-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-02-04" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 10 ОТ 1 ФЕВРУАРИ 2022 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения: 1. В ал. 1 думите „и за изпълнение на Про­ грамата за компенсиране на небитови крайни клиенти на електрическа енергия, одобрена с Решение № 739 на Министерския съвет от 2021 г. и изменена с решения № 771 и № 885 на Министерския съвет от 2021 г.“ се заменят със „за изпълнение на Програмата за компен­ сиране на небитови крайни клиенти на елек­ трическа енергия, одобрена с Решение № 739 на Министерския съвет от 2021 г. и изменена с решения № 771 и № 885 на Министерския съвет от 2021 г. и Решение № 15 на Министерския съвет от 2022 г., и за изпълнение на Програмата за компенсиране на непредвидените разходи на дружествата от отрасъл ВиК за потребена електрическа енергия за 2021 г.“. 2. Създава се ал. 3: „</p>
+            <p>(3) Плащането на средствата по Програмата за компенсиране на непредвидените разходи на дружествата от отрасъл ВиК за потребена електрическа енергия за 2021 г. се извършва по споразумение между Министерството на регионалното развитие и благоустройството и Министерството на енергетиката.“ Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>(1) При възникване на недостиг на сред­ ства по програмите по чл. 1, ал. 1 средствата се осигуряват по реда на чл. 21, ал. 1, т. 8г от Закона за енергетиката и се изплащат по реда на чл. 36б, ал. 1, т. 4 и ал. 3 от Закона за енергетиката от Фонд „Сигурност на елек­ троенергийната система“.</p>
+            <p>(2) За размера на недостига за съответните програми по чл. 1, ал. 1 Министерството на енергетиката уведомява Фонд „Сигурност на електроенергийната система“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на заместник министър-председателя и министър на регионалното развитие и благо­ устройството и на министъра на енергетиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

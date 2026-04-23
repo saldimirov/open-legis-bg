@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-10/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-10"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението между" name="eli" other="/eli/bg/ratifikatsiya/2013/dv-30-13-10"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-10/bul@2013-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-10/bul@2013-03-26"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-30-13-10/bul@2013-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-30-13-10/bul@2013-03-26.xml"/>
+          <FRBRdate date="2013-03-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-26" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението между</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>правителството на Република България и Университетската агенция на Франкофонията относно седалище за Антена на Бюрото на Университетската агенция на Франкофонията за Централна и Източна Европа в България Член единствен. Ратифицира Споразуме­ нието между правителството на Република България и Университетската агенция на Франкофонията относно седалище за Антена на Университетската агенция на Франко­ фонията за Централна и Източна Европа в България, подписано на 1 октомври 2012 г. в София.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

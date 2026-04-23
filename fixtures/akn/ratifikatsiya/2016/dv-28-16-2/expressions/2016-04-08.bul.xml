@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-2"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="eli" other="/eli/bg/ratifikatsiya/2016/dv-28-16-2"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-2/bul@2016-04-08/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-2/bul@2016-04-08"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-2/bul@2016-04-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-2/bul@2016-04-08.xml"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-08" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>предоставяне на консултантски услуги за разработване на стратегия за финансиране, укрепване на регулаторния капацитет и по­ вишаване ефективността на предоставяните услуги в отрасъл ВиК между Министерството на регионалното развитие и благоустройството и Международната банка за възстановяване и развитие, подписано на 23 февруари 2016 г. Член единствен. Ратифицира Споразу- мението за предоставяне на консултантски услуги за разработване на стратегия за финансиране, укрепване на регулаторния капацитет и повишаване ефективността на предоставяните услуги в отрасъл ВиК между Министерството на регионалното развитие и благоустройството и Международната банка за възстановяване и развитие, подписано на 23 февруари 2016 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

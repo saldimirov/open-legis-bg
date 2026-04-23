@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-95-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-95-07-17"/>
+          <FRBRalias value="Решение № 728 от 12 ноември 2007 г. за откриване на процедура за предоставяне на концесия върху гражданско летище за обществено ползване Русе" name="short"/>
+          <FRBRalias value="Решение № 728 от 12 ноември 2007 г. за откриване на процедура за предоставяне на концесия върху гражданско летище за обществено ползване Русе" name="eli" other="/eli/bg/reshenie_ms/2007/dv-95-07-17"/>
+          <FRBRdate date="2007-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-95-07-17/bul@2007-11-20/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-95-07-17/bul@2007-11-20"/>
+          <FRBRdate date="2007-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-95-07-17/bul@2007-11-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-95-07-17/bul@2007-11-20.xml"/>
+          <FRBRdate date="2007-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-11-20" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 728 от 12 ноември 2007 г. за откриване на процедура за предоставяне на концесия върху гражданско летище за обществено ползване Русе</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

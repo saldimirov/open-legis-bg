@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-76-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-76-05-6"/>
+          <FRBRalias value="Постановление № 199 от 12 септември 2005 г. за изменение и допълнение на Устройствения правилник на Министерството на труда и социалната политика, приет с Постановление № 260 на Министерския съвет от 2002 г." name="short"/>
+          <FRBRalias value="Постановление № 199 от 12 септември 2005 г. за изменение и допълнение на Устройствения правилник на Министерството на труда и социалната политика, приет с Постановление № 260 на Министерския съвет от 2002 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-76-05-6"/>
+          <FRBRdate date="2005-09-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-76-05-6/bul@2005-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-76-05-6/bul@2005-09-20"/>
+          <FRBRdate date="2005-09-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-76-05-6/bul@2005-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-76-05-6/bul@2005-09-20.xml"/>
+          <FRBRdate date="2005-09-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-20" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 199 от 12 септември 2005 г. за изменение и допълнение на Устройствения правилник на Министерството на труда и социалната политика, приет с Постановление № 260 на Министерския съвет от 2002 г.</p>
+      <p>(обн., ДВ, бр. 108 от 2002 г.; изм. и доп., бр. 104 от 2004 г. и бр. 13 и 38 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 думата “трима” се заменя с “петима”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 19, ал. 3 се правят следните изменения и допълнения:</p>
+            <p>1. На ред “Политически кабинет” цифрата “8” се заменя с “10”.</p>
+            <p>2. На ред “Специализирана администрация” числото “220” се заменя с “218”.</p>
+            <p>3. На ред “Дирекция “Европейски фондове, международни програми и проекти” числото “91” се заменя с “89”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2005 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

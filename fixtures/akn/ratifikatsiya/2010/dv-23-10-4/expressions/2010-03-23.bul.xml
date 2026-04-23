@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-4"/>
+          <FRBRalias value="Закон за ратифициране на изменението на Споразу­" name="short"/>
+          <FRBRalias value="Закон за ратифициране на изменението на Споразу­" name="eli" other="/eli/bg/ratifikatsiya/2010/dv-23-10-4"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-4/bul@2010-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-4/bul@2010-03-23"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-4/bul@2010-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-4/bul@2010-03-23.xml"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-23" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на изменението на Споразу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>мението между правителството на Република България и правителството на Конфедерация Швейцария относно оказването на финансова помощ Член единствен. Ратифицира изменението на Споразумението между правителството на Република България и правителството на Кон­ федерация Швейцария относно оказването на финансова помощ, сключено чрез размяна на писма на 12 октомври 2009 г. и на 5 януари 2010 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

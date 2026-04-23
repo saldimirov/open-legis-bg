@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-13-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-13-12-3"/>
+          <FRBRalias value="Постановление № 19 ОТ 8 ФЕВРУАРИ 2012 г. за одобряване на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 19 ОТ 8 ФЕВРУАРИ 2012 г. за одобряване на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2012/dv-13-12-3"/>
+          <FRBRdate date="2012-02-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-13-12-3/bul@2012-02-14/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-13-12-3/bul@2012-02-14"/>
+          <FRBRdate date="2012-02-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-13-12-3/bul@2012-02-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-13-12-3/bul@2012-02-14.xml"/>
+          <FRBRdate date="2012-02-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-14" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 19 ОТ 8 ФЕВРУАРИ 2012 г. за одобряване на допълнителни бюджетни</p>
+      <p>(обн., ДВ, бр. 40 от 2004 г.; изм., бр. 25 и 95 от 2007 г., бр. 68 и 109 от 2008 г., бр. 9 от 2010 г. и бр. 9 от 2011 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни бюджет- ни кредити в размер до 80 000 лв. по бюджета на Министерството на труда и социалната по- литика за 2012 г. за изплащане на еднократна финансова помощ на законните наследници на починалите при наводнението вследствие на обилните валежи на територията на об- ласт Хасково на 6 февруари 2012 г. в размер 10 000 лв. общо за всеки починал.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят по реда на чл. 34, ал. 1 от Закона за устрой- ството на държавния бюджет за сметка на преструктуриране на разходите по централния бюджет за 2012 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по пред- ложение на министъра на труда и социалната политика да извърши налагащите се промени по бюджета на Министерството на труда и социалната политика и по централния бюджет за 2012 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Еднократната финансова помощ се изплаща чрез Агенцията за социално подпома- гане на законните наследници на починалите в размера по чл. 1. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на труда и социалната политика.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 8 февруари 2012 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

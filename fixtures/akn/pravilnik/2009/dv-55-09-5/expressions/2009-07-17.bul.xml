@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-55-09-5/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-55-09-5"/>
+          <FRBRalias value="Решение по прилагането на Правилника за организацията и дейността на Народното събрание" name="short"/>
+          <FRBRalias value="Решение по прилагането на Правилника за организацията и дейността на Народното събрание" name="eli" other="/eli/bg/pravilnik/2009/dv-55-09-5"/>
+          <FRBRdate date="2009-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-55-09-5/bul@2009-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-55-09-5/bul@2009-07-17"/>
+          <FRBRdate date="2009-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-55-09-5/bul@2009-07-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-55-09-5/bul@2009-07-17.xml"/>
+          <FRBRdate date="2009-07-17" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-07-17" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение по прилагането на Правилника за организацията и дейността на Народното събрание</p>
+      <p>(обн., ДВ, бр. 69 от 2005 г.; изм. и доп., бр. 74 от 2005 г., бр. 101 от 2006 г., бр. 18, 26 и 107 от 2007 г., бр. 85, 99, 107 и 110 от 2008 г., бр. 20, 36, 39 и 41 от 2009 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

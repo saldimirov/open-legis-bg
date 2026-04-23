@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-6-09-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-6-09-15"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и дейността на Националния съвет по туризъм" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и дейността на Националния съвет по туризъм" name="eli" other="/eli/bg/pravilnik/2009/dv-6-09-15"/>
+          <FRBRdate date="2009-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-6-09-15/bul@2009-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-6-09-15/bul@2009-01-23"/>
+          <FRBRdate date="2009-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-6-09-15/bul@2009-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-6-09-15/bul@2009-01-23.xml"/>
+          <FRBRdate date="2009-01-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-01-23" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за организацията и дейността на Националния съвет по туризъм</p>
+      <p>(обн., ДВ, бр. 51 от 2006 г.; изм., бр. 75 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 сe правят следните изменения и допълнения:</p>
+            <p>1. В ал. 4:</p>
+            <p>а) в текста числото “40” се заменя с “43”;</p>
+            <p>б) в т. 24 съюзът “и” след думите “Българска асоциация на туристическите агенции” се заменя със запетая, а в края се добавя “и Асоциация на българските туроператори и туристически агенти”;</p>
+            <p>в) създават се т. 35 и 36:</p>
+            <p>“35. един представител на Съюза на инвеститорите в туризма;</p>
+            <p>36. един представител на Софийски туристически район.”</p>
+            <p>2. В ал. 5 думите “33 и 34” се заменят с “33, 34, 35 и 36”.</p>
+            <p>3. Създава се нова ал. 7:</p>
+            <p>“(7) Регионалните туристически организации за управление на 8-те туристически района на страната съгласно концепцията на Държавната агенция по туризъм за туристическо райониране на страната са членове на НСТ по право.”</p>
+            <p>4. Досегашните ал. 7, 8 и 9 стават съответно ал. 8, 9 и 10.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>Председател:  А. Крушкова</p>
+            <p>364</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

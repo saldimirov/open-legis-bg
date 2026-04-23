@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-48-22-1/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-48-22-1"/>
+          <FRBRalias value="Решение за гласуване на недоверие на Министерския" name="short"/>
+          <FRBRalias value="Решение за гласуване на недоверие на Министерския" name="eli" other="/eli/bg/reshenie_ns/2022/dv-48-22-1"/>
+          <FRBRdate date="2022-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-48-22-1/bul@2022-06-28/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-48-22-1/bul@2022-06-28"/>
+          <FRBRdate date="2022-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-48-22-1/bul@2022-06-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-48-22-1/bul@2022-06-28.xml"/>
+          <FRBRdate date="2022-06-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-28" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за гласуване на недоверие на Министерския</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>съвет на Република България с министър- председател Кирил Петков Петков Народното събрание на основание чл. 86, ал. 1 и чл. 89 от Конституцията на Република България Р Е Ш И : Гласува недоверие на Министерския съвет на Република България с министър-предсе­ дател Кирил Петков Петков заради провала на правителството във финансово-икономи­ ческата политика. Решението е прието от 47-ото Народно съб­рание на 22 юни 2022 г. и е подпечатано с официалния печат на Народното събрание. За председател на Народното събрание: Мирослав Иванов Подпечатано с държавния печат. Министър на правосъдието: Надежда Йорданова 3838</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

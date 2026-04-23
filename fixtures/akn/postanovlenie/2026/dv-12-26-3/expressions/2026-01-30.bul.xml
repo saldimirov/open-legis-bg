@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-12-26-3/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-12-26-3"/>
+          <FRBRalias value="Постановление № 17 от 26 януари 2026 г. за приемане на Наредба за правилата и нормите за проектиране, изграждане и премахване на физическа инфраструктура, предназначена за разполагане на електронни съобщителни мрежи и приемно-предавателни станции" name="short"/>
+          <FRBRalias value="Постановление № 17 от 26 януари 2026 г. за приемане на Наредба за правилата и нормите за проектиране, изграждане и премахване на физическа инфраструктура, предназначена за разполагане на електронни съобщителни мрежи и приемно-предавателни станции" name="eli" other="/eli/bg/postanovlenie/2026/dv-12-26-3"/>
+          <FRBRdate date="2026-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-12-26-3/bul@2026-01-30/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-12-26-3/bul@2026-01-30"/>
+          <FRBRdate date="2026-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-12-26-3/bul@2026-01-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-12-26-3/bul@2026-01-30.xml"/>
+          <FRBRdate date="2026-01-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-01-30" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 17 от 26 януари 2026 г. за приемане на Наредба за правилата и нормите за проектиране, изграждане и премахване на физическа инфраструктура, предназначена за разполагане на електронни съобщителни мрежи и приемно-предавателни станции</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Започналите производства по одобряване на инвестиционен проект и издаване на разрешение за строеж преди 29 април 2025 г. се довършват по досегашния ред. За започнато производство по одобряване на инвестиционен проект и издаване на разрешение за строеж се счита датата на внасяне на инвестиционния проект за одобряване от компетентния орган. За започнато производство се счита и наличието на съгласуван идеен инвестиционен проект.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Реконструкцията, преустройството и основният ремонт на въведените в експлоатация преди 29 април 2025 г. строежи, както и строежите по § 1 след въвеждането им в експлоатация, се категоризират и извършват по реда на Закона за устройство на територията, изменен със Закона за изменение и допълнение на Закона за електронните съобщителни мрежи и физическа инфраструктура (ДВ, бр. 35 от 2025 г.), и по реда на Наредбата за правилата и нормите за проектиране, изграждане и премахване на физическа инфраструктура, предназначена за разполагане на електронни съобщителни мрежи и приемно-предавателни станции.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

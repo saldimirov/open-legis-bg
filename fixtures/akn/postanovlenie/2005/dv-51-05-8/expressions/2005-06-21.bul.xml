@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-8/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-8"/>
+          <FRBRalias value="Постановление № 119 от 17 юни 2005 г. за изменение на Постановление № 92 на Министерския съвет от 2005 г. за утвърждаване на план-сметка на разходите по подготовката и произвеждането на изборите за народни представители на 25 юни 2005 г." name="short"/>
+          <FRBRalias value="Постановление № 119 от 17 юни 2005 г. за изменение на Постановление № 92 на Министерския съвет от 2005 г. за утвърждаване на план-сметка на разходите по подготовката и произвеждането на изборите за народни представители на 25 юни 2005 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-51-05-8"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-8/bul@2005-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-8/bul@2005-06-21"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-51-05-8/bul@2005-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-51-05-8/bul@2005-06-21.xml"/>
+          <FRBRdate date="2005-06-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-06-21" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 119 от 17 юни 2005 г. за изменение на Постановление № 92 на Министерския съвет от 2005 г. за утвърждаване на план-сметка на разходите по подготовката и произвеждането на изборите за народни представители на 25 юни 2005 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5 накрая се поставя запетая и се добавя “освен ако броят на подадените в съответната държава заявления за гласуване надхвърля 50 000”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 10 юни 2005 г.</p>
+            <p>За министър-председател:  Пламен Панайотов</p>
+            <p>Главен секретар на Министерския съвет:    Севдалин Мавров</p>
+            <p>37409</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

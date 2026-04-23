@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-17"/>
+          <FRBRalias value="Постановление № 122 от 25 май 2009 г. за предоставяне на допълнителни средства по бюджета на Министерството на земеделието и храните" name="short"/>
+          <FRBRalias value="Постановление № 122 от 25 май 2009 г. за предоставяне на допълнителни средства по бюджета на Министерството на земеделието и храните" name="eli" other="/eli/bg/postanovlenie/2009/dv-42-09-17"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-17/bul@2009-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-17/bul@2009-06-05"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-42-09-17/bul@2009-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-42-09-17/bul@2009-06-05.xml"/>
+          <FRBRdate date="2009-06-05" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 122 от 25 май 2009 г. за предоставяне на допълнителни средства по бюджета на Министерството на земеделието и храните</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Предоставя допълнителни средства в размер 2 500 000 лв. по бюджета на Министерството на земеделието и храните за извършване на дейности, свързани с подпомагането на земеделските стопани по схемите и мерките на Общата селскостопанска политика.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят чрез намаление на извънбюджетната сметка на Държавен фонд “Земеделие” и увеличаване със същата сума на разходите по бюджета на Министерството на земеделието и храните.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по предложение на министъра на земеделието и храните да извърши налагащите се промени по извънбюджетната сметка на Държавен фонд “Земеделие” и по бюджета на Министерството на земеделието и храните за 2009 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на земеделието и храните и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-26-21-6/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-26-21-6"/>
+          <FRBRalias value="Постановление № 104 ОТ 25 МАРТ 2021 Г. за извършване на промяна на утвърдения" name="short"/>
+          <FRBRalias value="Постановление № 104 ОТ 25 МАРТ 2021 Г. за извършване на промяна на утвърдения" name="eli" other="/eli/bg/postanovlenie/2021/dv-26-21-6"/>
+          <FRBRdate date="2021-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-26-21-6/bul@2021-03-30/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-26-21-6/bul@2021-03-30"/>
+          <FRBRdate date="2021-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-26-21-6/bul@2021-03-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-26-21-6/bul@2021-03-30.xml"/>
+          <FRBRdate date="2021-03-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-03-30" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 104 ОТ 25 МАРТ 2021 Г. за извършване на промяна на утвърдения</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдения с чл. 26, ал. 3 от Закона за държавния бюджет на Република България за 2021 г. показател по бюджета на Държавна агенция „Национална сигурност“ максимален размер на ангажиментите за раз- ходи, които могат да бъдат поети през 2021 г., със сума в размер 39 800 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Председателят на Държавна агенция „Национална сигурност“ да извърши съот- ветните промени по бюджета на Държавна агенция „Национална сигурност“ за 2021 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 77 от Закона за държавния бюджет на Република България за 2021 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на председателя на Държавна агенция „Национална сигурност“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

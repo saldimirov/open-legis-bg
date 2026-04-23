@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-62-21-5/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-62-21-5"/>
+          <FRBRalias value="Постановление № 237 ОТ 22 ЮЛИ 2021 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 237 ОТ 22 ЮЛИ 2021 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2021/dv-62-21-5"/>
+          <FRBRdate date="2021-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-62-21-5/bul@2021-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-62-21-5/bul@2021-07-27"/>
+          <FRBRdate date="2021-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-62-21-5/bul@2021-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-62-21-5/bul@2021-07-27.xml"/>
+          <FRBRdate date="2021-07-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-07-27" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 237 ОТ 22 ЮЛИ 2021 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 57 от 2009 г.; изм. и доп., бр. 39 от 2011 г., бр. 92 от 2012 г., бр. 8 и 76 от 2014 г., бр. 37 от 2015 г., бр. 29 от 2017 г., бр. 86 и 101 от 2019 г. и бр. 101 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В член единствен, ал. 2 се правят следните изменения и допълнения: 1. В т. 1 думата „командващият“ се заменя с „командирът на“. 2. В т. 17 думите „Стационарната кому­ никационна и информационна система“ се заменят с „Командването за комуникационно- информационна поддръжка и киберотбрана“. 3. Създава се т. 24: „24. „командирът на Командването за ло­ гистична поддръжка“.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 септември 2021 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

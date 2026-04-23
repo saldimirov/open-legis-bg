@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-100-18-13/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-100-18-13"/>
+          <FRBRalias value="Постановление № 269 ОТ 29 НОЕМВРИ 2018 Г. за структурни промени в системата на здра­" name="short"/>
+          <FRBRalias value="Постановление № 269 ОТ 29 НОЕМВРИ 2018 Г. за структурни промени в системата на здра­" name="eli" other="/eli/bg/postanovlenie/2018/dv-100-18-13"/>
+          <FRBRdate date="2018-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-100-18-13/bul@2018-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-100-18-13/bul@2018-12-04"/>
+          <FRBRdate date="2018-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-100-18-13/bul@2018-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-100-18-13/bul@2018-12-04.xml"/>
+          <FRBRdate date="2018-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-12-04" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 269 ОТ 29 НОЕМВРИ 2018 Г. за структурни промени в системата на здра­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Закрива Дома за медико-социални грижи за деца – Силистра, считано от 3 де­ кември 2018 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Министърът на здравеопазването да определи състава на ликвидационната ко­ мисия и да сключи договор с членовете є до 15 декември 2018 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Ликвидационната комисия по ал. 1 да извърши всички действия по ликвидация на лечебното заведение по чл. 1 до 31 януари 2019 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Трудовите правоотношения с рабо­ тещите в лечебното заведение по чл. 1 да се уредят съгласно чл. 328, ал. 1, т. 1 от Кодекса на труда.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

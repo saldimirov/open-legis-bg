@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-6/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-6"/>
+          <FRBRalias value="Постановление № 112 ОТ 13 МАЙ 2014 Г. за изменение и допълнение на Тарифата за" name="short"/>
+          <FRBRalias value="Постановление № 112 ОТ 13 МАЙ 2014 Г. за изменение и допълнение на Тарифата за" name="eli" other="/eli/bg/postanovlenie/2014/dv-42-14-6"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-6/bul@2014-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-6/bul@2014-05-20"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-6/bul@2014-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-6/bul@2014-05-20.xml"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-20" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 112 ОТ 13 МАЙ 2014 Г. за изменение и допълнение на Тарифата за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създават се чл. 4а – 4д: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 4а.</num>
+          <content>
+            <p>За издаване на разрешение за внос от трети страни на органи, предназначени за трансплантация, се събира такса 10 лв.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_2">
+          <num>Чл. 4б.</num>
+          <content>
+            <p>За издаване на разрешение за из- нос в трети страни на тъкани и/или клетки, предназначени за трансплантация, се събира такса 10 лв.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_3">
+          <num>Чл. 4в.</num>
+          <content>
+            <p>За издаване на разрешение за внос от трети страни на тъкани и/или клетки, предназначени за трансплантация, се събира такса 10 лв.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_4">
+          <num>Чл. 4г.</num>
+          <content>
+            <p>За издаване на разрешение за износ за трети страни на яйцеклетки, сперматозоиди и зиготи се събира такса 10 лв.</p>
+          </content>
+        </article>
+        <article eId="sec_final__art_5">
+          <num>Чл. 4д.</num>
+          <content>
+            <p>За издаване на разрешение за внос от трети страни на яйцеклетки, сперматозоиди и зиготи се събира такса 10 лв.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 думите „по чл. 1 – 4“ се заменят с „по чл. 1 – 4д“, а числото „10“ се заменя с „5“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 6 думите „по чл. 1 – 4“ се заменят с „по чл. 1 – 4д“, а числото „10“ се заменя с „5“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-10"/>
+          <FRBRalias value="Постановление № 12 ОТ 4 ФЕВРУАРИ 2010 Г. за изменение на Постановление № 72 на Ми­" name="short"/>
+          <FRBRalias value="Постановление № 12 ОТ 4 ФЕВРУАРИ 2010 Г. за изменение на Постановление № 72 на Ми­" name="eli" other="/eli/bg/postanovlenie/2010/dv-12-10-10"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-10/bul@2010-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-10/bul@2010-02-12"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-10/bul@2010-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-10/bul@2010-02-12.xml"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-12" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 12 ОТ 4 ФЕВРУАРИ 2010 Г. за изменение на Постановление № 72 на Ми­</p>
+      <p>(обн., ДВ, бр. 26 от 2009 г.; изм., бр. 53 от 2009 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>нистерския съвет от 2009 г. за одобряване на бюджетни кредити по инвестиционната про­ грама за 2009 г. (обн., ДВ, бр. 26 от 2009 г.; изм., бр. 53 от 2009 г.) МИНИСТЕРСКИЯТ СЪВЕТ П О С ТА Н О В И : Параграф единствен. В приложение № 1 към чл. 1, раздел „Столична община“ ред „При­ строяване на училище „В. Левски“, с. Герман“ се изменя така: „Изготвяне на проект за строителство на ново училище в с. Герман 118 000 лв.“</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

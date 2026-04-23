@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-64-03-3/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-64-03-3"/>
+          <FRBRalias value="Постановление № 150 ОТ 11 ЮЛИ 2003 Г. за изменение и допълнение на Наредбата за придружителните документи при превоз на местни и вносни вина, продукти от грозде и вино, спирт, дестилати и спиртни напитки, приета с Постановление № 208 на Министерския съвет от 2001 г." name="short"/>
+          <FRBRalias value="Постановление № 150 ОТ 11 ЮЛИ 2003 Г. за изменение и допълнение на Наредбата за придружителните документи при превоз на местни и вносни вина, продукти от грозде и вино, спирт, дестилати и спиртни напитки, приета с Постановление № 208 на Министерския съвет от 2001 г." name="eli" other="/eli/bg/postanovlenie/2003/dv-64-03-3"/>
+          <FRBRdate date="2003-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-64-03-3/bul@2003-07-18/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-64-03-3/bul@2003-07-18"/>
+          <FRBRdate date="2003-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-64-03-3/bul@2003-07-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-64-03-3/bul@2003-07-18.xml"/>
+          <FRBRdate date="2003-07-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-07-18" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 150 ОТ 11 ЮЛИ 2003 Г. за изменение и допълнение на Наредбата за придружителните документи при превоз на местни и вносни вина, продукти от грозде и вино, спирт, дестилати и спиртни напитки, приета с Постановление № 208 на Министерския съвет от 2001 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В наименованието на наредбата след думите „превоз на&amp;quot; се добавя „грозде&amp;quot; и се поставя запетая.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 1 след думите „на територията на Република България на&amp;quot; се добавя „грозде&amp;quot; и се поставя запетая.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 2, ал. 1, т. 3 числото „60&amp;quot; се заменя с „40&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 3, ал. 1 след думите „при превоз на&amp;quot; се добавя „грозде&amp;quot; и се поставя запетая.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В приложение № 1 към чл. 3, ал. 2 се правят следните изменения и допълнения:</p>
+            <p>1.    В т. 31.3 думата „малцов&amp;quot; и съкращението „дм&amp;quot; се заменят съответно с „плодов&amp;quot; и „дп&amp;quot;.</p>
+            <p>2.    В т. 37 пред думата „Винена&amp;quot; се добавя „Гроздова&amp;quot; и пред съкращението „всн&amp;quot; се добавя „гсн&amp;quot;.</p>
+            <p>3.  Създават се т. 56 и 57:</p>
+            <p>„56. Хвойнова спиртна напитка със съкращение „хсн&amp;quot;;</p>
+            <p>57. Обработена водно-алкохолна смес до 43 об. % със съкращение „овас&amp;quot;.&amp;quot;</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-67-25-10/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-67-25-10"/>
+          <FRBRalias value="Постановление № 157 от 13 август 2025 г. за допълнение на Правилника за устройството и дейността на Държавно предприятие „Кабиюк“ – Шумен, приет с Постановление № 228 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 157 от 13 август 2025 г. за допълнение на Правилника за устройството и дейността на Държавно предприятие „Кабиюк“ – Шумен, приет с Постановление № 228 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2025/dv-67-25-10"/>
+          <FRBRdate date="2025-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-67-25-10/bul@2025-08-15/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-67-25-10/bul@2025-08-15"/>
+          <FRBRdate date="2025-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-67-25-10/bul@2025-08-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-67-25-10/bul@2025-08-15.xml"/>
+          <FRBRdate date="2025-08-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-08-15" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 157 от 13 август 2025 г. за допълнение на Правилника за устройството и дейността на Държавно предприятие „Кабиюк“ – Шумен, приет с Постановление № 228 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 78 от 2004 г.; изм. и доп., бр. 55 от 2017 г., бр. 28 от 2018 г. и бр. 9 от 2024 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 13, ал. 1 след думата „трима“ се добавя „до петима“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

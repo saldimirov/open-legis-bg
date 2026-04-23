@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-58-20-6/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-58-20-6"/>
+          <FRBRalias value="Постановление № 137 ОТ 25 ЮНИ 2020 Г. за приемане на Списък на професионални" name="short"/>
+          <FRBRalias value="Постановление № 137 ОТ 25 ЮНИ 2020 Г. за приемане на Списък на професионални" name="eli" other="/eli/bg/postanovlenie/2020/dv-58-20-6"/>
+          <FRBRdate date="2020-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-58-20-6/bul@2020-06-30/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-58-20-6/bul@2020-06-30"/>
+          <FRBRdate date="2020-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-58-20-6/bul@2020-06-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-58-20-6/bul@2020-06-30.xml"/>
+          <FRBRdate date="2020-06-30" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-06-30" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 137 ОТ 25 ЮНИ 2020 Г. за приемане на Списък на професионални</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Приема Списък на професионалните направления и защитените специалности по чл. 95, ал. 7, т. 8 от Закона за висшето обра­ зование съгласно приложение № 1.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Студентите по специалности от професионалните направления и по защитени­ те специалности, включени в приложението по чл. 1, приети в рамките на броя по чл. 9, ал. 3, т. 6, буква „а“ от Закона за висшето образование през учебната 2020/2021 година, са освободени от заплащане на такси за обу­ чение за целия курс на обучението си.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>За компенсиране на разходите за осво­ бождаване от такси за обучение на студентите по ал. 1 на държавните висши училища се предоставят средства за сметка на пред­ видените разходи за 2020 г. по бюджета на Министерството на образованието и науката съгласно приложение № 2.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на образованието и науката да извърши налагащите се промени по и между бюджета на Министерството на образованието и науката и самостоятелните бюджети на държавните висши училища по реда на чл. 112, ал. 3 от Закона за публичните финанси. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се прилага от учеб­ ната 2020/2021 година за студентите, приети за обучение в първи курс.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 95, ал. 7, т. 8 от Закона за висшето образование.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

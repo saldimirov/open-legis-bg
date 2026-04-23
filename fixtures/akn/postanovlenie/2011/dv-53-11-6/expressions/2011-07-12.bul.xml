@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-6"/>
+          <FRBRalias value="Постановление № 190 ОТ 4 ЮЛИ 2011 Г. за временно прекратяване дейността на зад­" name="short"/>
+          <FRBRalias value="Постановление № 190 ОТ 4 ЮЛИ 2011 Г. за временно прекратяване дейността на зад­" name="eli" other="/eli/bg/postanovlenie/2011/dv-53-11-6"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-6/bul@2011-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-6/bul@2011-07-12"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-53-11-6/bul@2011-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-53-11-6/bul@2011-07-12.xml"/>
+          <FRBRdate date="2011-07-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-12" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 190 ОТ 4 ЮЛИ 2011 Г. за временно прекратяване дейността на зад­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Временно се прекратява дейността на задграничните представителства на Република България в Каракас – Боливарска република Венецуела, Сантяго – Република Чили, Улан Батор – Монголия, Акра – Република Гана, Вилнюс – Република Литва, Талин – Републи­ ка Естония, Ташкент – Република Узбекистан, Бон – Федерална република Германия, и Но­ восибирск – Руската федерация.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на външните работи и министърът на финансите да предприемат не­ обходимите действия за уреждане на въпросите с недвижимите имоти, стоково-материалните ценности и останалото имущество, както и на другите задължения, произтичащи от закрива­ нето на представителствата по чл. 1. Заключителна разпоредба Параграф единствен. Изпълнението на постановлението се възлага на министъра на външните работи.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

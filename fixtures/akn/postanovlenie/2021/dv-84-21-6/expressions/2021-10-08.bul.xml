@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-84-21-6/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-84-21-6"/>
+          <FRBRalias value="Постановление № 313 ОТ 6 ОКТОМВРИ 2021 Г. за изменение на Постановление № 197 на" name="short"/>
+          <FRBRalias value="Постановление № 313 ОТ 6 ОКТОМВРИ 2021 Г. за изменение на Постановление № 197 на" name="eli" other="/eli/bg/postanovlenie/2021/dv-84-21-6"/>
+          <FRBRdate date="2021-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-84-21-6/bul@2021-10-08/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-84-21-6/bul@2021-10-08"/>
+          <FRBRdate date="2021-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-84-21-6/bul@2021-10-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-84-21-6/bul@2021-10-08.xml"/>
+          <FRBRdate date="2021-10-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-10-08" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 313 ОТ 6 ОКТОМВРИ 2021 Г. за изменение на Постановление № 197 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 10 ал. 1 се изменя така: „</p>
+            <p>(1) Туроператорът изплаща на клиентите дължимите суми за неосъществени пътувания в периода 1 март 2020 г. до 31 декември 2020 г. поради COVID-19 в срок до 30 ноември 2021 г.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

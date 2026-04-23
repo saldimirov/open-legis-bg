@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-38-21-4/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-38-21-4"/>
+          <FRBRalias value="Постановление № 181 ОТ 7 МАЙ 2021 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 181 ОТ 7 МАЙ 2021 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2021/dv-38-21-4"/>
+          <FRBRdate date="2021-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-38-21-4/bul@2021-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-38-21-4/bul@2021-05-11"/>
+          <FRBRdate date="2021-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-38-21-4/bul@2021-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-38-21-4/bul@2021-05-11.xml"/>
+          <FRBRdate date="2021-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-05-11" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 181 ОТ 7 МАЙ 2021 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 14 от 2016 г.; изм. и доп., бр. 34 от 2016 г., бр. 84 от 2019 г. и бр. 36 и 102 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения: 1. Създава се т. 4а: „4а. Софийската опера и балет – по 6,50 лв. за 1 лв. приходи;“. 2. В т. 5 думите „Софийската опера и балет“ и запетаята след тях се заличават. СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 38 Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Томислав Дончев и.д. Главен секретар на Министерския съвет: Красимир Божанов 2942</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

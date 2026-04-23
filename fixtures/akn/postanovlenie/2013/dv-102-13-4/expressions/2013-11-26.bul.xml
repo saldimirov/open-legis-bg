@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-102-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-102-13-4"/>
+          <FRBRalias value="Постановление № 261 ОТ 21 НОЕМВРИ 2013 Г. за отменяне на Наредбата за регулиране на" name="short"/>
+          <FRBRalias value="Постановление № 261 ОТ 21 НОЕМВРИ 2013 Г. за отменяне на Наредбата за регулиране на" name="eli" other="/eli/bg/postanovlenie/2013/dv-102-13-4"/>
+          <FRBRdate date="2013-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-102-13-4/bul@2013-11-26/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-102-13-4/bul@2013-11-26"/>
+          <FRBRdate date="2013-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-102-13-4/bul@2013-11-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-102-13-4/bul@2013-11-26.xml"/>
+          <FRBRdate date="2013-11-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-26" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 261 ОТ 21 НОЕМВРИ 2013 Г. за отменяне на Наредбата за регулиране на</p>
+      <p>(обн., ДВ, бр. 55 от 2004 г.; изм. и доп., бр. 61 от 2007 г. и бр. 105 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменят се: 1. Наредбата за регулиране на цените на топлинната енергия, приета с Постановление № 131 на Министерския съвет от 2004 г. (обн., ДВ, бр. 55 от 2004 г.; изм. и доп., бр. 61 от 2007 г. и бр. 105 от 2008 г.). 2. Член 1 от Постановление № 131 на Ми- нистерския съвет от 2004 г. за приемане на Наредба за регулиране на цените на топлинната енергия и Наредба за регулиране на цените на природния газ (обн., ДВ, бр. 55 от 2004 г.; изм., бр. 38 от 2013 г.). Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата на влизане в сила на Наредбата за регулиране на цените на топлинната енергия по чл. 36, ал. 3 от Закона за енергетиката, приета от Държавната комисия за енергийно и водно регулиране.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

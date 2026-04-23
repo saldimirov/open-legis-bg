@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-11"/>
+          <FRBRalias value="Закон за бюджета на държавното обществено" name="short"/>
+          <FRBRalias value="Закон за бюджета на държавното обществено" name="eli" other="/eli/bg/byudjet/2020/dv-103-20-11"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-11/bul@2020-12-04/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-11/bul@2020-12-04"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-103-20-11/bul@2020-12-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-103-20-11/bul@2020-12-04.xml"/>
+          <FRBRdate date="2020-12-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-04" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за бюджета на държавното обществено</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Приема консолидирания бю- джет на държавното обществено осигуряване по приходите и трансферите на обща сума 14 841 255,5 хил. лв., както следва: П О К А З А Т Е Л И Сума (хил. лв.) І. ПРИХОДИ И ТРАНСФЕ- РИ – ВСИЧКО 14 841 255,5 1. Осигурителни приходи 8 392 510,3 1.1. Осигурителни вноски 8 392 510,3 2. Неданъчни приходи 119 730,0 2.1. Приходи и доходи от собстве- ност 5 600,0 2.2. Глоби, санкции и наказателни лихви 23 900,0 2.3. Други приходи 90 230,0 3. Внесени ДДС и други данъци върху продажбите -1 040,0 4. Получени трансфери от централ- ния бюджет за държавното общест- вено осигуряване 178 643,3 5. Получени допълнителни транс- фери от централния/държавния бю- джет за покриване на недостига от средства 6 151 411,9</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Приема консолидирания бюджет на държавното обществено осигуряване по разходите и трансферите на обща сума 14 841 255,5 хил. лв., както следва: І. РАЗХОДИ И ТРАНСФЕ- РИ – ВСИЧКО 14 841 255,5 1. Разходи 14 833 855,5 1.1. Пенсии 12 347 933,4 1.1.1. Пенсии за сметка на държав- ното обществено осигуряване 12 169 140,2 1.1.2. Пенсии за сметка на държав- ния бюджет 177 593,2 1.1.3. Капиталов трансфер за пре- хвърляне на пенсионни права към пенсионните схеми на ЕС, ЕЦБ и ЕИБ 1 200,0 1.2. Социални помощи и обезщете- ния 2 038 654,9 1.3. Програми, дейности и служби по социалното осигуряване, подпо- магане и заетостта 447 075,0 1.3.1. Разходи за персонал 91 747,6</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

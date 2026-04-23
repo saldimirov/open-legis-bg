@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-14/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-14"/>
+          <FRBRalias value="Постановление № 39 ОТ 24 ФЕВРУАРИ 2016 Г. за изменение на Наредбата за осигурителните" name="short"/>
+          <FRBRalias value="Постановление № 39 ОТ 24 ФЕВРУАРИ 2016 Г. за изменение на Наредбата за осигурителните" name="eli" other="/eli/bg/postanovlenie/2016/dv-17-16-14"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-14/bul@2016-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-14/bul@2016-03-01"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-14/bul@2016-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-14/bul@2016-03-01.xml"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-01" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 39 ОТ 24 ФЕВРУАРИ 2016 Г. за изменение на Наредбата за осигурителните</p>
+      <p>(обн., ДВ, бр. 37 от 2001 г.; изм. и доп., бр. 1 от 2006 г., бр. 15 от 2007 г., бр. 2 от 2010 г., бр. 80 от 2012 г., бр. 33 от 2013 г. и бр. 17 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 се правят следните изменения: 1. В ал. 1: а) точка 2 се изменя така: „2. представя в съответното териториално поделение на Националния осигурителен инсти­ тут (ТП на НОИ) необходимите документи за изплащане на паричните обезщетения по реда СТР. 14 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 17 на Наредбата за паричните обезщетения и по­ мощи от държавното обществено осигуряване, приета с Постановление № 188 на Министерския съвет от 2015 г. (ДВ, бр. 57 от 2015 г.);“ б) точка 4 се отменя. 2. В ал. 3 т. 2 се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2016 г. За министър-председател: Ивайло Калфин За главен секретар на Министерския съвет: Веселин Даков 1515</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

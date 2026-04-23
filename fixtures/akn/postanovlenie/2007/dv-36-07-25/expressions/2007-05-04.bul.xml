@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-36-07-25/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-36-07-25"/>
+          <FRBRalias value="Постановление № 91 от 23 април 2007 г. за допълнение на нормативни актове на Министерския съвет" name="short"/>
+          <FRBRalias value="Постановление № 91 от 23 април 2007 г. за допълнение на нормативни актове на Министерския съвет" name="eli" other="/eli/bg/postanovlenie/2007/dv-36-07-25"/>
+          <FRBRdate date="2007-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-36-07-25/bul@2007-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-36-07-25/bul@2007-05-04"/>
+          <FRBRdate date="2007-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-36-07-25/bul@2007-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-36-07-25/bul@2007-05-04.xml"/>
+          <FRBRdate date="2007-05-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-05-04" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 91 от 23 април 2007 г. за допълнение на нормативни актове на Министерския съвет</p>
+      <p>(обн., ДВ, бр. 84 от 2005 г.; изм., бр. 89 от 2005 г.; попр., бр. 92 от 2005 г.; изм. и доп., бр. 19, 48, 54, 55, 71 и 81 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 от Правилника за устройството и дейността на Националния съвет за сътрудничество по етническите и демографските въпроси към Министерския съвет, приет с Постановление № 351 на Министерския съвет от 2006 г. (ДВ, бр. 2 от 2007 г.), се създава т. 15:</p>
+            <p>“15. представя до 31 март в Министерския съвет ежегоден доклад за дейността си.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 107 от Устройствения правилник на Министерския съвет и на неговата администрация, приет с Постановление № 216 на Министерския съвет от 2005 г. (обн., ДВ, бр. 84 от 2005 г.; изм., бр. 89 от 2005 г.; попр., бр. 92 от 2005 г.; изм. и доп., бр. 19, 48, 54, 55, 71 и 81 от 2006 г.), се създава т. 13:</p>
+            <p>“13. представя до 10 март на председателя на Националния съвет за сътрудничество по етническите и демографските въпроси годишен доклад за състоянието на междуетническите отношения, за противодействието на проявите на расизъм и ксенофобия и за развитието на демографските процеси в Република България.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

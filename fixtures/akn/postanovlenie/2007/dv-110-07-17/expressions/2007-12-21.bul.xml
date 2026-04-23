@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-110-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-110-07-17"/>
+          <FRBRalias value="Постановление № 317 от 15 декември 2007 г. за изменение и допълнение на Постановление № 298 на Министерския съвет от 2007 г. за одобряване на допълнителни бюджетни кредити за 2007 г." name="short"/>
+          <FRBRalias value="Постановление № 317 от 15 декември 2007 г. за изменение и допълнение на Постановление № 298 на Министерския съвет от 2007 г. за одобряване на допълнителни бюджетни кредити за 2007 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-110-07-17"/>
+          <FRBRdate date="2007-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-110-07-17/bul@2007-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-110-07-17/bul@2007-12-21"/>
+          <FRBRdate date="2007-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-110-07-17/bul@2007-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-110-07-17/bul@2007-12-21.xml"/>
+          <FRBRdate date="2007-12-21" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-12-21" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 317 от 15 декември 2007 г. за изменение и допълнение на Постановление № 298 на Министерския съвет от 2007 г. за одобряване на допълнителни бюджетни кредити за 2007 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1 се правят следните изменения и допълнения:</p>
+            <p>1. В пореден № 7 числото “46 000” се заменя с “43 500”.</p>
+            <p>2. Създава се пореден № 31:</p>
+            <p>“31. За изграждане на система за видеонаблюдение в гр. Варна, община Варна               2500”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 12 декември 2007 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

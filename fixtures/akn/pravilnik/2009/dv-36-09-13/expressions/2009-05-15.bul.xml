@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-36-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-36-09-13"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Центъра за информационно осигуряване на образованието" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за устройството и дейността на Центъра за информационно осигуряване на образованието" name="eli" other="/eli/bg/pravilnik/2009/dv-36-09-13"/>
+          <FRBRdate date="2009-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-36-09-13/bul@2009-05-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-36-09-13/bul@2009-05-15"/>
+          <FRBRdate date="2009-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-36-09-13/bul@2009-05-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-36-09-13/bul@2009-05-15.xml"/>
+          <FRBRdate date="2009-05-15" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-05-15" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за устройството и дейността на Центъра за информационно осигуряване на образованието</p>
+      <p>(обн., ДВ, бр. 55 от 2005 г.; изм. и доп., бр. 31 от 2007 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

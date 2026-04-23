@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-45-24-12/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-45-24-12"/>
+          <FRBRalias value="Постановление № 177 от 22 май 2024 г. за изменение и допълнение на Наредбата за енергийното етикетиране на продукти, свързани с енергопотреблението, приета с Постановление № 224 на Министерския съвет от 2020 г." name="short"/>
+          <FRBRalias value="Постановление № 177 от 22 май 2024 г. за изменение и допълнение на Наредбата за енергийното етикетиране на продукти, свързани с енергопотреблението, приета с Постановление № 224 на Министерския съвет от 2020 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-45-24-12"/>
+          <FRBRdate date="2024-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-45-24-12/bul@2024-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-45-24-12/bul@2024-05-28"/>
+          <FRBRdate date="2024-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-45-24-12/bul@2024-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-45-24-12/bul@2024-05-28.xml"/>
+          <FRBRdate date="2024-05-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-05-28" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 177 от 22 май 2024 г. за изменение и допълнение на Наредбата за енергийното етикетиране на продукти, свързани с енергопотреблението, приета с Постановление № 224 на Министерския съвет от 2020 г.</p>
+      <p>(обн., ДВ, бр. 75 от 2020 г.; изм., бр. 53 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3, ал. 1 се правят следните изменения и допълнения: 1. Точка 6 се отменя. 2. Създават се т. 16 и 17: „16. Делегиран регламент (ЕС) 2023/1669 на Комисията от 16 юни 2023 година за допълнение на Регламент (ЕС) 2017/1369 на Европейския парламент и на Съвета по отношение на енергийното етикетиране на смартфони и таблети (ОВ, L 214/9 от 31 август 2023 г.); 17. Делегиран регламент (ЕС) 2023/2534 на Комисията от 13 юли 2023 година за допълнение на Регламент (ЕС) 2017/1369 на Европейския парламент и на Съвета по отношение на енергийното етикетиране на битови барабанни сушилни машини и за отмяна на Делегиран регламент (ЕС) № 392/2012 на Комисията (ОВ, L от 22 ноември 2023 г.).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“ с изключение на § 1, т. 1, която влиза в сила от 1 юли 2025 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

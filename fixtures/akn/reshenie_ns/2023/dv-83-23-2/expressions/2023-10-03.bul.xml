@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2"/>
+          <FRBRalias value="Решение за изменение и допълнение на Решение за работата на Народното събрание през септември и октомври 2023 г." name="short"/>
+          <FRBRalias value="Решение за изменение и допълнение на Решение за работата на Народното събрание през септември и октомври 2023 г." name="eli" other="/eli/bg/reshenie_ns/2023/dv-83-23-2"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03.xml"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-10-03" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение и допълнение на Решение за работата на Народното събрание през септември и октомври 2023 г.</p>
+      <p>(обн., ДВ, бр. 39 от 2023 г.; доп., бр. 41 от 2023 г.; попр., бр. 42 от 2023 г.; изм. и доп., бр. 63 от 2023 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 16, ал. 2 се създава т. 26: „26. Комисия за контрол върху управлението на средствата от европейските фондове.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 21 се правят следните изменения: 1. Алинея 5 се отменя. 2. В ал. 6 думите „и подкомисията по ал. 5“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 27, ал. 3 думите „на подкомисията за контрол върху управлението на средствата от европейските фондове“ се заменят с „на Комисията за контрол върху управлението на средствата от европейските фондове“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Решението влиза в сила от деня на обнародването му в „Държавен вестник“. Решението е прието от 49-ото Народно събрание на 29 септември 2023 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

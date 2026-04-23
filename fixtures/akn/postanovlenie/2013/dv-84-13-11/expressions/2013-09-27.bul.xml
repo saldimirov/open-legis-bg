@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-11/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-11"/>
+          <FRBRalias value="Постановление № 215 ОТ 23 СЕПТЕМВРИ 2013 Г. за приемане на Устройствен правилник на" name="short"/>
+          <FRBRalias value="Постановление № 215 ОТ 23 СЕПТЕМВРИ 2013 Г. за приемане на Устройствен правилник на" name="eli" other="/eli/bg/postanovlenie/2013/dv-84-13-11"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-11/bul@2013-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-11/bul@2013-09-27"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-11/bul@2013-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-11/bul@2013-09-27.xml"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-27" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 215 ОТ 23 СЕПТЕМВРИ 2013 Г. за приемане на Устройствен правилник на</p>
+      <p>(обн., ДВ, бр. 56 от 2012 г.; изм. и доп., бр. 103 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Министерството на правосъдието, приет с Постановление № 152 на Министерския съвет от 2012 г. (обн., ДВ, бр. 56 от 2012 г.; изм. и доп., бр. 103 от 2012 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В т. 5 от приложението към чл. 2, ал. 2 на Постановление № 88 на Министерския съвет от 2010 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на правосъдието (обн., ДВ, бр. 37 от 2010 г.; изм. и доп., бр. 63 от 2010 г., бр. 16 и 58 от 2011 г., бр. 56 и 103 от 2012 г. и бр. 13 и 77 от 2013 г.) числото „4599“ се заменя с „4597“ и числото „4488“ се заменя с „4486“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 октомври 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-71-07-7/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-71-07-7"/>
+          <FRBRalias value="Правилник за организацията и дейността на Висшия съвет по фармация" name="short"/>
+          <FRBRalias value="Правилник за организацията и дейността на Висшия съвет по фармация" name="eli" other="/eli/bg/pravilnik/2007/dv-71-07-7"/>
+          <FRBRdate date="2007-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-71-07-7/bul@2007-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-71-07-7/bul@2007-08-31"/>
+          <FRBRdate date="2007-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-71-07-7/bul@2007-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-71-07-7/bul@2007-08-31.xml"/>
+          <FRBRdate date="2007-08-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-08-31" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за организацията и дейността на Висшия съвет по фармация</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I</num>
+        <heading>Общи положения</heading>
+        <article eId="sec_1__art_1">
+          <num>Чл. 1.</num>
+          <content>
+            <p>С този правилник се уреждат организацията и дейността на Висшия съвет по фармация.</p>
+          </content>
+        </article>
+        <article eId="sec_1__art_2">
+          <num>Чл. 2.</num>
+          <paragraph eId="sec_1__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Висшият съвет по фармация е консултативен орган на министъра на здравеопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Съставът му се утвърждава със заповед на министъра на здравеопазването.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел II</num>
+        <heading>Функции</heading>
+        <article eId="sec_2__art_3">
+          <num>Чл. 3.</num>
+          <intro>
+            <p>Висшият съвет по фармация осъществява следните функции:</p>
+          </intro>
+          <point eId="sec_2__art_3__pt_1">
+            <num>1.</num>
+            <intro>
+              <p>обсъжда и дава становища по:</p>
+            </intro>
+            <point eId="sec_2__art_3__pt_1__l_1">
+              <num>а)</num>
+              <content>
+                <p>основните насоки и приоритети в областта на фармацията и лекарствената политика;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_3__pt_1__l_2">
+              <num>б)</num>
+              <content>
+                <p>етични проблеми на фармацията;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_3__pt_1__l_3">
+              <num>в)</num>
+              <content>
+                <p>нормативни актове, свързани с фармацията;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_3__pt_1__l_4">
+              <num>г)</num>
+              <content>
+                <p>научните приоритети в областта на фармацията;</p>
+              </content>
+            </point>
+            <point eId="sec_2__art_3__pt_1__l_5">
+              <num>д)</num>
+              <content>
+                <p>програми за организиране на обществени, образователни кампании в областта на лекарствените продукти;</p>
+              </content>
+            </point>
+          </point>
+          <point eId="sec_2__art_3__pt_2">
+            <num>2.</num>
+            <content>
+              <p>разглежда заявления за търговия на дребно с лекарствени продукти и мотивирано прави предложения за издаване на разрешения или отказ, както и за отнемане на разрешения;</p>
+            </content>
+          </point>
+          <point eId="sec_2__art_3__pt_3">
+            <num>3.</num>
+            <content>
+              <p>прави предложение за издаване или отнемане на лицензия за търговия на дребно и съхраняване на наркотични вещества от приложения № 2 и 3 и техните препарати съгласно Закона за контрол върху наркотичните вещества и прекурсорите.</p>
+            </content>
+          </point>
+        </article>
+      </section>
+      <section eId="sec_3">
+        <num>Раздел III</num>
+        <heading>Структура</heading>
+        <article eId="sec_3__art_4">
+          <num>Чл. 4.</num>
+          <paragraph eId="sec_3__art_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Висшият съвет по фармация се състои от 15 членове - петима представители, определени от министъра на здравеопазването, петима представители на Българския фармацевтичен съюз, двама представители на Националната здравноосигурителна каса и по един представител на фармацевтичните факултети на медицинските висши училища. Министърът на здравеопазването е председател на съвета без право на глас.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В състава на Висшия съвет по фармация задължително се включва най-малко един правоспособен юрист.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_5">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Представителите на Министерството на здравеопазването във Висшия съвет по фармация се определят от министъра на здравеопазването, като в тях се включват представители от Министерството на здравеопазването и от Изпълнителната агенция по лекарствата.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_6">
+          <num>Чл. 6.</num>
+          <content>
+            <p>Представителите на Българския фармацевтичен съюз във Висшия съвет по фармация се избират в съответствие с устава на организацията.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_7">
+          <num>Чл. 7.</num>
+          <content>
+            <p>Представителите на Националната здравноосигурителна каса се избират в съответствие с устройствения правилник на касата.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_8">
+          <num>Чл. 8.</num>
+          <content>
+            <p>Представителите на фармацевтичните факултети на медицинските висши училища във Висшия съвет по фармация се избират в съответствие с устройствените правилници на факултетите.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_9">
+          <num>Чл. 9.</num>
+          <paragraph eId="sec_3__art_9__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Министърът на здравеопазването утвърждава състава на Висшия съвет по фармация за срок 4 години.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_9__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Със заповедта по ал. 1 се определя и секретарят на Висшия съвет по фармация, който е магистър-фармацевт, служител на администрацията на Министерството на здравеопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_9__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Секретарят на Висшия съвет по фармация координира работата на Висшия съвет по фармация и води неговата документация.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_3__art_10">
+          <num>Чл. 10.</num>
+          <intro>
+            <p>По решение на Висшия съвет по фармация:</p>
+          </intro>
+          <point eId="sec_3__art_10__pt_1">
+            <num>1.</num>
+            <content>
+              <p>към него могат да се създават експертни комисии, както и да се привличат експерти;</p>
+            </content>
+          </point>
+          <point eId="sec_3__art_10__pt_2">
+            <num>2.</num>
+            <content>
+              <p>при разглеждане на заявление за търговия на дребно с лекарствени продукти може да бъде поканен и заявителят.</p>
+            </content>
+          </point>
+        </article>
+        <article eId="sec_3__art_11">
+          <num>Чл. 11.</num>
+          <content>
+            <p>Висшият съвет по фармация избира с тайно гласуване и с мнозинство от две трети от членовете си заместник-председател.</p>
+          </content>
+        </article>
+        <article eId="sec_3__art_12">
+          <num>Чл. 12.</num>
+          <paragraph eId="sec_3__art_12__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Работата на Висшия съвет по фармация се подпомага от лица, които не са членове на съвета.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_12__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Лицата по ал. 1 се определят от министъра на здравеопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3__art_12__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Лицата по ал. 1 изготвят писмени уведомления до заявителите, предложенията и разрешенията за откриване на аптека, предложенията и лицензиите за търговия на дребно с наркотични вещества, актовете за закриване на издадени разрешения и лицензии, водят регистрите на издадените разрешения за откриване на аптека и лицензии, архивират досиетата по приключилите преписки.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <section eId="sec_4">
+        <num>Раздел IV</num>
+        <heading>Организация на дейността</heading>
+        <article eId="sec_4__art_13">
+          <num>Чл. 13.</num>
+          <paragraph eId="sec_4__art_13__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Заседанията на Висшия съвет по фармация се свикват най-малко два пъти месечно от неговия председател, а в негово отсъствие - от заместник-председателя.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_13__al_2">
+            <num>(2)</num>
+            <content>
+              <p>За заседанията на Висшия съвет по фармация се изготвят протоколи, които се подписват от юрист и секретаря и се утвърждават от председателя.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_13__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Висшият съвет по фармация представя на министъра на здравеопазването писмено предложение за издаване на разрешение за търговия на дребно с лекарствени продукти, което се подписва от секретаря и юриста на съвета.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_13__al_4">
+            <num>(4)</num>
+            <content>
+              <p>Заседанията се считат за редовни, ако на тях присъстват повече от половината от членовете на съвета. Решенията се взимат с обикновено мнозинство от присъстващите.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_13__al_5">
+            <num>(5)</num>
+            <content>
+              <p>Председателят може да упълномощи със заповед лице от състава на съвета, което да председателства и ръководи заседание за определен срок.</p>
+            </content>
+          </paragraph>
+        </article>
+        <article eId="sec_4__art_14">
+          <num>Чл. 14.</num>
+          <paragraph eId="sec_4__art_14__al_1">
+            <num>(1)</num>
+            <content>
+              <p>За участието си в заседанията на Висшия съвет по фармация неговите членове, секретарят, експертите по чл. 10, т. 1 и лицата по чл. 12 получават възнаграждение, определено със заповед на министъра на здравеопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_14__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Членовете на съвета, които не живеят в столицата, получават командировъчни пари за сметка на Министерството на здравеопазването.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_4__art_14__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Финансовото обезпечаване на работата на Висшия съвет по фармация се осъществява съгласно чл. 22, ал. 2, т. 1 от Закона за лекарствените продукти в хуманната медицина.</p>
+            </content>
+          </paragraph>
+        </article>
+      </section>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

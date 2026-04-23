@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-14-20-7/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-14-20-7"/>
+          <FRBRalias value="Постановление № 21 ОТ 14 ФЕВРУАРИ 2020 Г. за изменение на Постановление № 240 на" name="short"/>
+          <FRBRalias value="Постановление № 21 ОТ 14 ФЕВРУАРИ 2020 Г. за изменение на Постановление № 240 на" name="eli" other="/eli/bg/postanovlenie/2020/dv-14-20-7"/>
+          <FRBRdate date="2020-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-14-20-7/bul@2020-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-14-20-7/bul@2020-02-18"/>
+          <FRBRdate date="2020-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-14-20-7/bul@2020-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-14-20-7/bul@2020-02-18.xml"/>
+          <FRBRdate date="2020-02-18" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-02-18" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 21 ОТ 14 ФЕВРУАРИ 2020 Г. за изменение на Постановление № 240 на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 21 ОТ 14 ФЕВРУАРИ 2020 Г. за изменение на Постановление № 240 на Министерския съвет от 2019 г. за създаване на Национален механизъм за мониторинг на борбата с корупцията и организираната престъпност, съдебната реформа и върховен­ ство на закона и на Съвет за координация и сътрудничество (ДВ, бр. 76 от 2019 г.) МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Параграф единствен. В § 5 от преходните и заключителните разпоредби думите „По­ становлението влиза в сила с“ се заменят със „Съветът започва дейността си при“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

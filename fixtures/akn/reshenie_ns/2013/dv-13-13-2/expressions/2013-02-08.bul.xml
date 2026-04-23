@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-13-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-13-13-2"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie_ns/2013/dv-13-13-2"/>
+          <FRBRdate date="2013-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-13-13-2/bul@2013-02-08/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-13-13-2/bul@2013-02-08"/>
+          <FRBRdate date="2013-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-13-13-2/bul@2013-02-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-13-13-2/bul@2013-02-08.xml"/>
+          <FRBRdate date="2013-02-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-08" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 6 от Конституцията на Република България и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Репу­ блика България от 27 юли 2009 г. (ДВ, бр. 60 от 2009 г.) и Решение на Народното събрание от 19 ноември 2009 г. (ДВ, бр. 93 от 2009 г.) Р Е Ш И : 1. Освобождава Сергей Симеонов Игнатов като министър на образованието, младежта и науката. 2. Избира Стефан Борисов Воденичаров за министър на образованието, младежта и науката. Решението е прието от 41-ото Народно съб­ рание на 6 февруари 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

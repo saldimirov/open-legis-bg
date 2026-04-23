@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-7/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-7"/>
+          <FRBRalias value="Постановление № 253 ОТ 23 ОКТОМВРИ 2009 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 253 ОТ 23 ОКТОМВРИ 2009 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2009/dv-87-09-7"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-7/bul@2009-11-03/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-7/bul@2009-11-03"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-7/bul@2009-11-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-7/bul@2009-11-03.xml"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-03" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 253 ОТ 23 ОКТОМВРИ 2009 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 29 от 2009 г.; изм. и доп., бр. 51 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Създава се като допълнителна разпо­ редба нов § 1: „ДОПЪЛНИТЕЛНА РАЗПОРЕДБА</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>(1) Правото на безплатен транспорт на учениците по чл. 26, ал. 3 от Закона за народ­ ната просвета, които не се обучават в училище, включено в Списъка на средищните училища в Република България, се осъществява по реда на наредбата по § 4, ал. 3 от заключителните разпоредби на Закона за автомобилните пре­ вози, като допълнителните средства за превоз на тези ученици се предоставят по бюджетите на приемащите училища, които отговарят на останалите критерии за средищно училище, но имат по-малко от 10 пътуващи ученици.</p>
+            <p>(2) Министърът на образованието, младежта и науката предоставя на министъра на финан­ сите списък на училищата по ал. 1.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Досегашните § 1 и 2 стават съответно § 2 и 3. Р Е Ш И : Удължава срока на действие на Временната анкетна комисия за проверка на сигналите за опорочаване на изборите за Народно събрание от 5 юли 2009 г. с един месец. Решението е прието от 41-ото Народно съ­ брание на 28 октомври 2009 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-75-06-6/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-75-06-6"/>
+          <FRBRalias value="Постановление № 231 от 4 септември 2006 г. за определяне районите на действие и седалищата на териториалните структури на Национална служба “Сигурност” на Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Постановление № 231 от 4 септември 2006 г. за определяне районите на действие и седалищата на териториалните структури на Национална служба “Сигурност” на Министерството на вътрешните работи" name="eli" other="/eli/bg/postanovlenie/2006/dv-75-06-6"/>
+          <FRBRdate date="2006-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-75-06-6/bul@2006-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-75-06-6/bul@2006-09-12"/>
+          <FRBRdate date="2006-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-75-06-6/bul@2006-09-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-75-06-6/bul@2006-09-12.xml"/>
+          <FRBRdate date="2006-09-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-09-12" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 231 от 4 септември 2006 г. за определяне районите на действие и седалищата на териториалните структури на Национална служба “Сигурност” на Министерството на вътрешните работи</p>
+      <p>(обн., ДВ, бр. 58 от 2003 г.; изм., бр. 83 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Наредбата за реда за прикриване на служители на Министерството на вътрешните работи в държавни органи, организации и юридически лица, приета с Постановление № 133 на Министерския съвет от 2003 г. (обн., ДВ, бр. 58 от 2003 г.; изм., бр. 83 от 2005 г.), се правят следните изменения:</p>
+            <p>1. Навсякъде в наредбата думите “Национална служба “Борба с организираната престъпност” се заменят с “Национална служба “Полиция”, а абревиатурата “НСБОП” се заменя с “НСП”.</p>
+            <p>2. В чл. 1, т. 1 числото “50” се заменя с “44”, а думите “чл. 92, ал. 1, т. 7” се заменят с “чл. 84”.</p>
+            <p>3. В чл. 4 думите “служители-офицери” се заменят със “служители”.</p>
+            <p>4. В чл. 6, ал. 2 числата “44, 46” се заменят с “38, 40”, а думите “89 и 90” се заменят с “чл. 51, ал. 1, т. 3 и чл. 52, ал. 1, т. 4”.</p>
+            <p>5. В чл. 13, ал. 1 думата “офицерска” се заличава, а след думата “длъжност” се добавя “в НСС или в НСП”.</p>
+            <p>6. В чл. 14, ал. 2 думата “офицерската” се заменя със “заеманата”, а след думата “длъжност”се добавя “в НСС или в НСП”.</p>
+            <p>7. В чл. 15 думите “съответната офицерска длъжност” се заменят със “заеманата длъжност в НСС или в НСП”.</p>
+            <p>8. В § 2 от заключителните разпоредби числото “50” се заменя с “44”, а думите “чл. 92, ал. 1, т. 7” се заменя с “чл. 84”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 15 от Закона за Министерството на вътрешните работи.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

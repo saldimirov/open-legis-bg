@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-70-06-9/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-70-06-9"/>
+          <FRBRalias value="Постановление № 216 от 18 август 2006 г. за изменение и допълнение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика" name="short"/>
+          <FRBRalias value="Постановление № 216 от 18 август 2006 г. за изменение и допълнение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика" name="eli" other="/eli/bg/postanovlenie/2006/dv-70-06-9"/>
+          <FRBRdate date="2006-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-70-06-9/bul@2006-08-29/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-70-06-9/bul@2006-08-29"/>
+          <FRBRdate date="2006-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-70-06-9/bul@2006-08-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-70-06-9/bul@2006-08-29.xml"/>
+          <FRBRdate date="2006-08-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-08-29" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 216 от 18 август 2006 г. за изменение и допълнение на Постановление № 58 на Министерския съвет от 2002 г. за създаване на Съвет за икономическа политика</p>
+      <p>(обн., ДВ, бр. 28 от 2002 г.; изм. и доп., бр. 2 от 2004 г. и бр. 27, 29, 78, 83 и 84 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се правят следните изменения и допълнения:</p>
+            <p>1. Създават се нови ал. 2 - 5:</p>
+            <p>“(2) За подпомагане дейностите на съвета по ал. 1, т. 5 и 6 се създава Информационна система за международно сътрудничество. Системата се поддържа от администрацията на Министерския съвет.</p>
+            <p>(3) В информационната система се въвежда информация за планирането, управлението и оценката за изпълнение на проекти и инициативи, които се осъществяват на централно и местно ниво и се финансират със съдействието на международните партньори за развитие. В системата не се въвежда класифицирана информация.</p>
+            <p>(4) С оглед избягване двойното въвеждане на данни информационната система обменя данни с всички необходими информационни системи от и извън структурите на публичната администрация при възникване на техническа и процедурна готовност. Министерствата и ведомствата подпомагат администрацията на Министерския съвет за изготвяне на процедурните правила на обмен на данни между информационните системи.</p>
+            <p>(5) Приема Правила за работа с Информационната система за международно сътрудничество съгласно приложението.”</p>
+            <p>2. Досегашните ал. 2 и 3 стават съответно ал. 6 и 7.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

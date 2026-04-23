@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-5/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-5"/>
+          <FRBRalias value="Постановление № 183 от 20 юли 2009 г. за изменение на Постановление № 54 на Министерския съвет от 2008 г. за приемане на Актуализиран план за организационно изграждане и модернизация на въоръжените сили на основата на Плана за организационно изграждане и модернизация на въоръжените сили до 2015 г., приет с Постановление № 301 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 183 от 20 юли 2009 г. за изменение на Постановление № 54 на Министерския съвет от 2008 г. за приемане на Актуализиран план за организационно изграждане и модернизация на въоръжените сили на основата на Плана за организационно изграждане и модернизация на въоръжените сили до 2015 г., приет с Постановление № 301 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2009/dv-59-09-5"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-5/bul@2009-07-28/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-5/bul@2009-07-28"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-59-09-5/bul@2009-07-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-59-09-5/bul@2009-07-28.xml"/>
+          <FRBRdate date="2009-07-28" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-07-28" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 183 от 20 юли 2009 г. за изменение на Постановление № 54 на Министерския съвет от 2008 г. за приемане на Актуализиран план за организационно изграждане и модернизация на въоръжените сили на основата на Плана за организационно изграждане и модернизация на въоръжените сили до 2015 г., приет с Постановление № 301 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 33 от 2008 г.; изм. и доп., бр. 54 от 2008 г. и бр. 43 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Приложения № 1, 2, 4, 16, 17, 22 и 23 към приложение № 2 към чл. 2 (поверително) се изменят съгласно приложението (поверително).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 22, ал. 2, т. 6 от Закона за отбраната и въоръжените сили на Република България (ДВ, бр. 35 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на отбраната.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_3" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 юли 2009 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-24"/>
+          <FRBRalias value="Постановление № 339 ОТ 9 ДЕКЕМВРИ 2011 Г. за одобряване на Тарифа за таксите, които се" name="short"/>
+          <FRBRalias value="Постановление № 339 ОТ 9 ДЕКЕМВРИ 2011 Г. за одобряване на Тарифа за таксите, които се" name="eli" other="/eli/bg/postanovlenie/2011/dv-99-11-24"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-24/bul@2011-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-24/bul@2011-12-16"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-24/bul@2011-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-24/bul@2011-12-16.xml"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-16" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 339 ОТ 9 ДЕКЕМВРИ 2011 Г. за одобряване на Тарифа за таксите, които се</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЛЕНИЕ № 339 ОТ 9 ДЕКЕМВРИ 2011 Г. за одобряване на Тарифа за таксите, които се събират по Закона за медицинските изделия МИНИСТЕРСКИЯТ СЪВЕТ П О С Т А Н О В И : Член единствен. Одобрява Тарифа за так­ сите, които се събират по Закона за меди­ цинските изделия. Заключителни разпоредби Параграф единствен. Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Цветан Цветанов За главен секретар на Министерския съвет: Галина Маринска</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

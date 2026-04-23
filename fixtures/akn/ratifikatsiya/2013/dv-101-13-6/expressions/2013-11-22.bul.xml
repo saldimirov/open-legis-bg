@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-101-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-101-13-6"/>
+          <FRBRalias value="Закон за ратифициране на договори за прехвърляеми" name="short"/>
+          <FRBRalias value="Закон за ратифициране на договори за прехвърляеми" name="eli" other="/eli/bg/ratifikatsiya/2013/dv-101-13-6"/>
+          <FRBRdate date="2013-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-101-13-6/bul@2013-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-101-13-6/bul@2013-11-22"/>
+          <FRBRdate date="2013-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-101-13-6/bul@2013-11-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-101-13-6/bul@2013-11-22.xml"/>
+          <FRBRdate date="2013-11-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-22" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на договори за прехвърляеми</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>заеми с фиксирани лихвени проценти между Република България в качеството на Креди- тополучател и Дойче Банк Акциенгезелшафт в качеството на Кредитор и Агент по плащанията Член единствен. Ратифицира Договора за прехвърляем заем с фиксиран лихвен процент с падеж 2020 г. между Република България в качеството на Кредитополучател и Дойче Банк Акциенгезелшафт в качеството на Кре- дитор и Агент по плащанията, Договора за прехвърляем заем с фиксиран лихвен процент с падеж 2023 г. между Република България в качеството на Кредитополучател и Дойче Банк Акциенгезелшафт в качеството на Кре- дитор и Агент по плащанията и Договора за прехвърляем заем с фиксиран лихвен процент с падеж 2028 г. между Република България в качеството на Кредитополучател и Дойче Банк Акциенгезелшафт в качеството на Кредитор и Агент по плащанията, подписани на 4 ноември 2013 г., като общият размер на поетия с трите договора дълг е до 360 млн. евро с до 10 на сто годишен лихвен процент.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

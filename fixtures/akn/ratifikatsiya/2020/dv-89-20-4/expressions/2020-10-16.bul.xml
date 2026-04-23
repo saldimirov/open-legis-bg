@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-89-20-4/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-89-20-4"/>
+          <FRBRalias value="Закон за ратифициране на Устава на Междуна-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Устава на Междуна-" name="eli" other="/eli/bg/ratifikatsiya/2020/dv-89-20-4"/>
+          <FRBRdate date="2020-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-89-20-4/bul@2020-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-89-20-4/bul@2020-10-16"/>
+          <FRBRdate date="2020-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-89-20-4/bul@2020-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-89-20-4/bul@2020-10-16.xml"/>
+          <FRBRdate date="2020-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-10-16" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Устава на Междуна-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Устава на Международ­ ната мрежа за малки и средни предприятия от 18 февруари 2004 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Устава на Асоциацията на Европейските организации за насърчаване на търговията от 31 октомври 2018 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

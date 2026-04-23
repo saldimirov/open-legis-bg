@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-27-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-27-08-3"/>
+          <FRBRalias value="Постановление № 41 от 29 февруари 2008 г. за изменение и допълнение на Постановление № 193 на Министерския съвет от 1993 г. за закриване на Правителствената комисия за регулиране и контрол на режима за производство и търговия с военна и специална продукция и на Междуведомствения съвет по отбранително-мобилизационната подготовка на страната и за създаване на Междуведомствен съвет по въпросите на военнопромишления комплекс и мобилизационната готовност на страната" name="short"/>
+          <FRBRalias value="Постановление № 41 от 29 февруари 2008 г. за изменение и допълнение на Постановление № 193 на Министерския съвет от 1993 г. за закриване на Правителствената комисия за регулиране и контрол на режима за производство и търговия с военна и специална продукция и на Междуведомствения съвет по отбранително-мобилизационната подготовка на страната и за създаване на Междуведомствен съвет по въпросите на военнопромишления комплекс и мобилизационната готовност на страната" name="eli" other="/eli/bg/postanovlenie/2008/dv-27-08-3"/>
+          <FRBRdate date="2008-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-27-08-3/bul@2008-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-27-08-3/bul@2008-03-11"/>
+          <FRBRdate date="2008-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-27-08-3/bul@2008-03-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-27-08-3/bul@2008-03-11.xml"/>
+          <FRBRdate date="2008-03-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-03-11" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 41 от 29 февруари 2008 г. за изменение и допълнение на Постановление № 193 на Министерския съвет от 1993 г. за закриване на Правителствената комисия за регулиране и контрол на режима за производство и търговия с военна и специална продукция и на Междуведомствения съвет по отбранително-мобилизационната подготовка на страната и за създаване на Междуведомствен съвет по въпросите на военнопромишления комплекс и мобилизационната готовност на страната</p>
+      <p>(обн., ДВ, бр. 89 от 1993 г.; изм. и доп., бр. 29 от 1994 г., бр. 31 и 97 от 1995 г., бр. 21 и 50 от 1996 г., бр. 2, 4, 6, 21, 24, 59 и 100 от 1997 г., бр. 114 от 1999 г., бр. 96 от 2000 г., бр. 70 от 2001 г., бр. 96 и 115 от 2002 г., бр. 20 от 2003 г., бр. 27, 29, 78 и 96 от 2005 г. и бр. 10 и 34 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3, ал. 1, т. 2, буква “ж” думите “Закона за контрол на външнотърговската дейност с оръжие и със стоки и технологии с възможна двойна употреба” се заменят със “Закона за експортния контрол на оръжия и изделия и технологии с двойна употреба”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 4, ал. 1 “Състав на Междуведомствения съвет по въпросите на военнопромишления комплекс и мобилизационната готовност на страната”, в т. 3 след ред “зам.-министър на държавната политика при бедствия и аварии” се създава нов ред “председателят на Държавна агенция “Национална сигурност”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

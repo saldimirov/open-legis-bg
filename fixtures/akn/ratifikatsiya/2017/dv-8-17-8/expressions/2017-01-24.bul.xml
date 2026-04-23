@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-8-17-8/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-8-17-8"/>
+          <FRBRalias value="Закон за ратифициране на Протоколи за измене-" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Протоколи за измене-" name="eli" other="/eli/bg/ratifikatsiya/2017/dv-8-17-8"/>
+          <FRBRdate date="2017-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-8-17-8/bul@2017-01-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-8-17-8/bul@2017-01-24"/>
+          <FRBRdate date="2017-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-8-17-8/bul@2017-01-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-8-17-8/bul@2017-01-24.xml"/>
+          <FRBRdate date="2017-01-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-24" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Протоколи за измене-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Ратифицира Протокола за измене- ние на Споразумението за основаването на Международната инвестиционна банка и на нейния устав, подписан на 20 декември 1990 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Ратифицира Протокола за внесените изменения в Споразумението за основаването на Международната инвестиционна банка и на нейния устав с приложението към него, подписан от правителството на Република България на 8 май 2014 г.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

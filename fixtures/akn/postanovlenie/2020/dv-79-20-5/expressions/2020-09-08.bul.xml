@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-79-20-5/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-79-20-5"/>
+          <FRBRalias value="Постановление № 241 ОТ 2 СЕПТЕМВРИ 2020 Г. за допълнение на Наредбата за медицинската" name="short"/>
+          <FRBRalias value="Постановление № 241 ОТ 2 СЕПТЕМВРИ 2020 Г. за допълнение на Наредбата за медицинската" name="eli" other="/eli/bg/postanovlenie/2020/dv-79-20-5"/>
+          <FRBRdate date="2020-09-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-79-20-5/bul@2020-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-79-20-5/bul@2020-09-08"/>
+          <FRBRdate date="2020-09-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-79-20-5/bul@2020-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-79-20-5/bul@2020-09-08.xml"/>
+          <FRBRdate date="2020-09-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-09-08" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 241 ОТ 2 СЕПТЕМВРИ 2020 Г. за допълнение на Наредбата за медицинската</p>
+      <p>(обн., ДВ, бр. 51 от 2017 г.; изм. и доп., бр. 62 и 64 от 2018 г., бр. 46 и 84 от 2019 г.; Решение № 1632 на Върховния административен съд от 2020 г. – бр. 63 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложение № 2 към чл. 63, ал. 3 „Методика за прилагане на отправните точки за оценка на трайно намалената работоспо­ собност (вида и степента на увреждане) в проценти“ се създава нова т. III: „III. Когато са налице няколко уврежда­ ния, независимо дали са за заболявания от общ характер, или за заболявания с причин­ на връзка, за всяко от които в отправните точки за оценка на трайно намалената ра­ ботоспособност/вид и степен на увреждане е посочен отделен процент, оценката на трайно намалената работоспособност/вид и степен на увреждане се определя, като се взема най- високият процент по съответната отправна точка на най-тежкото увреждане. Останалите проценти за съпътстващите увреждания не се вземат предвид при оценката, но се изписват в мотивната част на експертното решение.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-3/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-3"/>
+          <FRBRalias value="Постановление № 41 от 27 март 2026 г. за изменение и допълнение на Постановление № 38 на Министерския съвет от 2026 г. за приемане на план-сметка за разходите/трансферите по подготовката и произвеждането на изборите за народни представители на 19 април 2026 г." name="short"/>
+          <FRBRalias value="Постановление № 41 от 27 март 2026 г. за изменение и допълнение на Постановление № 38 на Министерския съвет от 2026 г. за приемане на план-сметка за разходите/трансферите по подготовката и произвеждането на изборите за народни представители на 19 април 2026 г." name="eli" other="/eli/bg/postanovlenie/2026/dv-31-26-3"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-3/bul@2026-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-3/bul@2026-03-31"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-31-26-3/bul@2026-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-31-26-3/bul@2026-03-31.xml"/>
+          <FRBRdate date="2026-03-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-03-31" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 41 от 27 март 2026 г. за изменение и допълнение на Постановление № 38 на Министерския съвет от 2026 г. за приемане на план-сметка за разходите/трансферите по подготовката и произвеждането на изборите за народни представители на 19 април 2026 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1, ал. 1 числото „65 635,3“ се заменя с „66 035,3“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 1 към чл. 1, ал. 1 се правят следните изменения и допълнения: 1. В пореден № 2, в колона 3 числото „5 100.0“ се заменя с „5 500.0“. 2. Създава се пореден № 2.3: „2.3. За изработка и доставка на паравани за гласуване с хартиени бюлетини 400.0.“ 3. На ред „ОБЩО“ числото „65 635.3“ се заменя с „66 035.3“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

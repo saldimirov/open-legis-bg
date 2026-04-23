@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-28-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-28-13-5"/>
+          <FRBRalias value="Постановление № 70 ОТ 12 МАРТ 2013 Г. за одобряване на целева субсидия за капита-" name="short"/>
+          <FRBRalias value="Постановление № 70 ОТ 12 МАРТ 2013 Г. за одобряване на целева субсидия за капита-" name="eli" other="/eli/bg/postanovlenie/2013/dv-28-13-5"/>
+          <FRBRdate date="2013-03-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-28-13-5/bul@2013-03-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-28-13-5/bul@2013-03-19"/>
+          <FRBRdate date="2013-03-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-28-13-5/bul@2013-03-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-28-13-5/bul@2013-03-19.xml"/>
+          <FRBRdate date="2013-03-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-19" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 70 ОТ 12 МАРТ 2013 Г. за одобряване на целева субсидия за капита-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява целева субсидия за капиталови разходи в размер до 300 000 лв. по бюджетите на община Варна и на община Русе за 2013 г., разпределена, както следва: 1. по бюджета на община Варна – до 150 000 лв., за финансиране на реконсерва- ция и реставрация на Римските терми на Одесос – Варна; 2. по бюджета на община Русе – до 150 000 лв., за финансиране на козирка над официалната ложа на Градския стадион в Русе.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да се осигурят чрез преструктуриране на разходите по централния бюджет за 2013 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да из- върши налагащите се от чл. 1 промени на бюджетните взаимоотношения на съответната община с централния бюджет за 2013 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите, на кмета на община Варна и на кмета на община Русе.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 12 март 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-18/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-18"/>
+          <FRBRalias value="Постановление № 413 ОТ 8 ДЕКЕМВРИ 2022 Г. за допълнение на Постановление № 231 на" name="short"/>
+          <FRBRalias value="Постановление № 413 ОТ 8 ДЕКЕМВРИ 2022 Г. за допълнение на Постановление № 231 на" name="eli" other="/eli/bg/postanovlenie/2022/dv-99-22-18"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-18/bul@2022-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-18/bul@2022-12-13"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-99-22-18/bul@2022-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-99-22-18/bul@2022-12-13.xml"/>
+          <FRBRdate date="2022-12-13" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-12-13" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 413 ОТ 8 ДЕКЕМВРИ 2022 Г. за допълнение на Постановление № 231 на</p>
+      <p>(обн., ДВ, бр. 62 от 2022 г.; попр., бр. 69 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните раз- поредби се създава § 2а: „§ 2а.</p>
+            <p>(1) Към исканията за изплащане на компенсации не се изисква представяне на фактура за извършено плащане на такса по договор с частна детска ясла или с частна дет- ска градина с яслена група, когато плащането по договора е извършено преди 1 септември 2022 г. В тези случаи за удостоверяване на извършеното плащане се представя платежно нареждане или фискален бон.</p>
+            <p>(2) В случаите по ал. 1 исканията за изпла- щане на компенсации за септември, октом- ври и ноември 2022 г. се подават в срок до 15 декември 2022 г.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

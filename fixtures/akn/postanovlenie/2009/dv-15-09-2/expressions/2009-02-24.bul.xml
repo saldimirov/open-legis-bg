@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-15-09-2/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-15-09-2"/>
+          <FRBRalias value="Постановление № 32 от 16 февруари 2009 г. за приемане на Устройствен правилник на Агенцията по енергийна ефективност" name="short"/>
+          <FRBRalias value="Постановление № 32 от 16 февруари 2009 г. за приемане на Устройствен правилник на Агенцията по енергийна ефективност" name="eli" other="/eli/bg/postanovlenie/2009/dv-15-09-2"/>
+          <FRBRdate date="2009-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-15-09-2/bul@2009-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-15-09-2/bul@2009-02-24"/>
+          <FRBRdate date="2009-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-15-09-2/bul@2009-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-15-09-2/bul@2009-02-24.xml"/>
+          <FRBRdate date="2009-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-02-24" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 32 от 16 февруари 2009 г. за приемане на Устройствен правилник на Агенцията по енергийна ефективност</p>
+      <p>(обн., ДВ, бр. 29 от 2008 г.; изм., бр. 3 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Устройственият правилник на Агенцията по енергийна ефективност, приет с Постановление № 43 на Министерския съвет от 2008 г. (обн., ДВ, бр. 29 от 2008 г.; изм., бр. 3 от 2009 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложение № 2 към чл. 2, ал. 3 от Постановление № 206 на Министерския съвет от 2005 г. за приемане на Устройствен правилник на Министерството на икономиката и енергетиката (обн., ДВ, бр. 78 от 2005 г.; изм. и доп., бр. 89 от 2005 г., бр. 21, 22, 24, 40 и 48 от 2006 г., бр. 11 и 61 от 2007 г., бр. 29, 53 и 80 от 2008 г. и бр. 3 от 2009 г.) в т. 14 числото “55” се заменя със “70”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-5-09-6/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-5-09-6"/>
+          <FRBRalias value="Постановление № 4 от 10 януари 2009 г. за изменение и допълнение на Постановление № 104 на Министерския съвет от 2003 г. за приемане на Наредба за учебниците и учебните помагала" name="short"/>
+          <FRBRalias value="Постановление № 4 от 10 януари 2009 г. за изменение и допълнение на Постановление № 104 на Министерския съвет от 2003 г. за приемане на Наредба за учебниците и учебните помагала" name="eli" other="/eli/bg/postanovlenie/2009/dv-5-09-6"/>
+          <FRBRdate date="2009-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-5-09-6/bul@2009-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-5-09-6/bul@2009-01-20"/>
+          <FRBRdate date="2009-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-5-09-6/bul@2009-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-5-09-6/bul@2009-01-20.xml"/>
+          <FRBRdate date="2009-01-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-01-20" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 4 от 10 януари 2009 г. за изменение и допълнение на Постановление № 104 на Министерския съвет от 2003 г. за приемане на Наредба за учебниците и учебните помагала</p>
+      <p>(обн., ДВ, бр. 46 от 2003 г.; изм. и доп., бр. 76 от 2004 г., бр. 34 от 2005 г.; попр., бр. 37 от 2005 г.; изм. и доп., бр. 51 от 2005 г., бр. 14 и 89 от 2006 г. и бр. 14 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 3 се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова ал. 3:</p>
+            <p>“(3) По реда на ал. 1 и 2 се осигуряват и средства за закупуване на допълнителни учебници и учебни помагала за следващите години от срока на ползване на учебниците, както следва:</p>
+            <p>1. за втората година на ползване - до 10 на сто от средствата, предоставени за първата година;</p>
+            <p>2. за третата година на ползване - до 15 на сто от средствата, предоставени за първата година.”</p>
+            <p>2. Досегашната ал. 3 става ал. 4.</p>
+            <p>3. Алинея 4 се отменя.</p>
+            <p>4. Създава се нова ал. 8:</p>
+            <p>“(8) Средствата по ал. 7 се индексират ежегодно с допусканията за инфлацията, с които се разработва държавният бюджет за съответната година.”</p>
+            <p>5. Досегашната ал. 8 става ал. 9.</p>
+            <p>6. Досегашната ал. 9 става ал. 10 и в нея думите “ал. 4, 5 и 6” се заменят с “ал. 5 и 6”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 се правят следните изменения и допълнения:</p>
+            <p>1. В ал. 1 думата “април” се заменя с “март”.</p>
+            <p>2. Създават се ал. 3 и 4:</p>
+            <p>“(3) Допълнителните учебници и учебни помагала по чл. 3, ал. 3 се закупуват от първостепенните разпоредители или училищата при възникнала необходимост в случай на увеличаване броя на учениците и/или изхабяване на учебниците.</p>
+            <p>(4) Министърът на образованието и науката ежегодно утвърждава график на дейностите за осигуряване на учебниците и учебните помагала за безвъзмездно ползване от учениците.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

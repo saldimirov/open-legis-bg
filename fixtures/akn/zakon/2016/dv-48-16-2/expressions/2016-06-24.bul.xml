@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-48-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-48-16-2"/>
+          <FRBRalias value="Закон" name="short"/>
+          <FRBRalias value="Закон" name="eli" other="/eli/bg/zakon/2016/dv-48-16-2"/>
+          <FRBRdate date="2016-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-48-16-2/bul@2016-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-48-16-2/bul@2016-06-24"/>
+          <FRBRdate date="2016-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-48-16-2/bul@2016-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-48-16-2/bul@2016-06-24.xml"/>
+          <FRBRdate date="2016-06-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-06-24" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон</p>
+      <p>(обн., ДВ, бр. 15 от 2004 г.; изм., бр. 105 от 2005 г., бр. 30, 34, 80 и 82 от 2006 г., бр. 53 и 109 от 2007 г., бр. 69 от 2008 г., бр. 35, 59 и 73 от 2010 г., бр. 43 от 2011 г., бр. 44 от 2012 г., бр. 53 от 2014 г. и бр. 14 от 2015 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

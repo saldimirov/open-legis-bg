@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-30/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-30"/>
+          <FRBRalias value="Постановление № 299 от 16 август 2024 г. за изменение на Наредбата за критериите за определяне на университетски болници, приета с Постановление № 93 на Министерския съвет от 2019 г." name="short"/>
+          <FRBRalias value="Постановление № 299 от 16 август 2024 г. за изменение на Наредбата за критериите за определяне на университетски болници, приета с Постановление № 93 на Министерския съвет от 2019 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-70-24-30"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-30/bul@2024-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-30/bul@2024-08-20"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-70-24-30/bul@2024-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-70-24-30/bul@2024-08-20.xml"/>
+          <FRBRdate date="2024-08-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-08-20" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 299 от 16 август 2024 г. за изменение на Наредбата за критериите за определяне на университетски болници, приета с Постановление № 93 на Министерския съвет от 2019 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се правят следните изменения: 1. В ал. 1, т. 5 думите „Медицина“, „Дентална медицина“, „Фармация“ се заменят с „Медицина“ и/или „Дентална медицина“, и/или „Фармация“. 2. В ал. 2, т. 2 думите „Медицина“, „Дентална медицина“, „Фармация“ се заменят с „Медицина“ и/или „Дентална медицина“, и/или „Фармация“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 1, т. 2 думите „Медицина“, „Дентална медицина“, „Фармация“ се заменят с „Медицина и/или „Дентална медицина“, и/или „Фармация“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

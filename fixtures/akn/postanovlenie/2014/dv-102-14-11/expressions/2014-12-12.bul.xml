@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-11/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-11"/>
+          <FRBRalias value="Постановление № 384 ОТ 4 ДЕКЕМВРИ 2014 Г. за допълнение на Наредбата за изисквания­" name="short"/>
+          <FRBRalias value="Постановление № 384 ОТ 4 ДЕКЕМВРИ 2014 Г. за допълнение на Наредбата за изисквания­" name="eli" other="/eli/bg/postanovlenie/2014/dv-102-14-11"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-11/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-11/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-11/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-11/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 384 ОТ 4 ДЕКЕМВРИ 2014 Г. за допълнение на Наредбата за изисквания­</p>
+      <p>(обн., ДВ, бр. 94 от 2002 г.; изм., бр. 1 от 2004 г., бр. 12 от 2011 г. и бр. 100 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 14, т. 2 се създава буква „к“: „к) растителни протеини, извлечени от пшеница, грах или картофи, за избистряне.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В допълнителните разпоредби се съз­ дава § 1б: „§ 1б. С наредбата се създават условия за прилагане на Делегиран Регламент (ЕС) № 1040/2014 на Комисията от 25 юли 2014 г. за изменение на Директива 2001/112/ЕО на Съвета относно соковете от плодове и някои сходни продукти, предназначени за консумация от човека, с цел адаптиране на приложение I към техническия прогрес (ОВ, L 288, 02.10.2014 г.).“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 8630</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

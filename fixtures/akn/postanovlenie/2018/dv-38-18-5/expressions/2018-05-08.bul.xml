@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-5/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-5"/>
+          <FRBRalias value="Постановление № 66 ОТ 3 МАЙ 2018 Г. за одобряване на допълнителни трансфери" name="short"/>
+          <FRBRalias value="Постановление № 66 ОТ 3 МАЙ 2018 Г. за одобряване на допълнителни трансфери" name="eli" other="/eli/bg/postanovlenie/2018/dv-38-18-5"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-5/bul@2018-05-08/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-5/bul@2018-05-08"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-5/bul@2018-05-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-5/bul@2018-05-08.xml"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-05-08" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 66 ОТ 3 МАЙ 2018 Г. за одобряване на допълнителни трансфери</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява допълнителни трансфери в размер 2 140 039 лв., разпределени по об- щини съгласно приложението, за издръжка Приложение към чл. 1 Разпределение на допълнителните трансфери за издръжка на дейностите по възпитание и обуче- ние на децата и учениците в частните детски градини и училища и за изплащане на стипендии на учениците в частните училища Община Област Средства за издръжка на дейностите по възпитание и обучение (в лв.) Средства за изпла- щане на стипендии (в лв.) Общо (в лв.) Бургас Бургас 3 219 3 219 Aврен Варна 4 698 4 698 Bарна Варна 714 386 13 398 727 784 Bелико Tърново Bелико Tърново 380 692 12 441 393 133 СТР. 18 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 38 Община Област Средства за издръжка на дейностите по възпитание и обучение (в лв.) Средства за изпла- щане на стипендии (в лв.) Общо (в лв.) Добрич Добрич 344 995 5 220 350 215 Пловдив Пловдив 137 454 17 052 154 506 Pусе Русе 5 220 5 220 Столична София-град 260 183 207 431 467 614 Челопеч София област 12 963 12 963 Cтара Загора Стара Загора 2 262 2 262 Tърговище Търговище 18 425 18 425 Общо: 1 856 135 283 904 2 140 039 4659</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

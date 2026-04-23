@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-88-06-8/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-88-06-8"/>
+          <FRBRalias value="Постановление № 283 от 23 октомври 2006 г. за изменение на Постановление № 289 на Министерския съвет от 1997 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Постановление № 283 от 23 октомври 2006 г. за изменение на Постановление № 289 на Министерския съвет от 1997 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на вътрешните работи" name="eli" other="/eli/bg/postanovlenie/2006/dv-88-06-8"/>
+          <FRBRdate date="2006-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-88-06-8/bul@2006-10-31/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-88-06-8/bul@2006-10-31"/>
+          <FRBRdate date="2006-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-88-06-8/bul@2006-10-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-88-06-8/bul@2006-10-31.xml"/>
+          <FRBRdate date="2006-10-31" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-10-31" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 283 от 23 октомври 2006 г. за изменение на Постановление № 289 на Министерския съвет от 1997 г. за определяне на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на вътрешните работи</p>
+      <p>(обн., ДВ, бр. 57 от 1997 г.; изм. и доп., бр. 113 от 1998 г., бр. 113 от 1999 г., бр. 48 от 2001 г., бр. 51 от 2004 г. и бр. 5 и 71 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В раздел II от приложението към член единствен “Списък на първостепенния и второстепенните разпоредители с бюджетни кредити в Министерството на вътрешните работи” се правят следните изменения:</p>
+            <p>1. Точки 1 и 2 се изменят така:</p>
+            <p>“1. Директорът на Национална служба “Полиция”.</p>
+            <p>2. Директорът на Национална служба “Пожарна безопасност и защита на населението.”</p>
+            <p>2. Точки 3а и 9 - 36 се отменят.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2007 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

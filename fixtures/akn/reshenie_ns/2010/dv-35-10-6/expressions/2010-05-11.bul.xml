@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-6"/>
+          <FRBRalias value="Решение за приемане на Доклада за състоянието на" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклада за състоянието на" name="eli" other="/eli/bg/reshenie_ns/2010/dv-35-10-6"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-6/bul@2010-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-6/bul@2010-05-11"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-35-10-6/bul@2010-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-35-10-6/bul@2010-05-11.xml"/>
+          <FRBRdate date="2010-05-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-11" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклада за състоянието на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 40.</num>
+          <content>
+            <p>В § 1 от допълнителните разпоредби се правят следните изменения: 1. В т. 3 думите „за промишлени“ се заменят с „на промишлените“. 2. В т. 10 думите „като: вътрешна украса и обзавеждане на кухня, вагон-ресторант и други“ се заличават. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 41.</num>
+          <content>
+            <p>(1) Този закон се прилага за заявки за регистрация на промишлени дизайни, които са подадени след влизането му в сила, както и за заявки за регистрация на промишлени дизайни, по които няма влязло в сила решение.</p>
+            <p>(2) Заявките за регистрация на дизайни, които са публикувани до влизането в сила на този закон, се разглеждат по досегашния ред.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 42.</num>
+          <content>
+            <p>Този закон се прилага по отношение на искания за заличаване на регистрацията, по които до влизането му в сила няма влязло в сила решение.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 43.</num>
+          <content>
+            <p>Министерският съвет приема наредбата по чл. 41, ал. 4 в 6-месечен срок от влизането в сила на този закон.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 44.</num>
+          <content>
+            <p>Законът влиза в сила три месеца след обнародването му в „Държавен вестник“ с изключение на § 2, 3, 5, § 14, т. 3, § 15, § 16, т. 1, буква „г“ и т. 2, § 18, § 19, т. 2 и 3, § 20, 21, 24, 27 и 29, които влизат в сила 9 месеца след обнародването на закона.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-2/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-2"/>
+          <FRBRalias value="Постановление № 35 от 17 февруари 2026 г. за изменение на Постановление № 263 на Министерския съвет от 2021 г. за определяне на второстепенните разпоредители с бюджет по бюджета на Министерството на културата" name="short"/>
+          <FRBRalias value="Постановление № 35 от 17 февруари 2026 г. за изменение на Постановление № 263 на Министерския съвет от 2021 г. за определяне на второстепенните разпоредители с бюджет по бюджета на Министерството на културата" name="eli" other="/eli/bg/postanovlenie/2026/dv-20-26-2"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-2/bul@2026-02-20/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-2/bul@2026-02-20"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-20-26-2/bul@2026-02-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-20-26-2/bul@2026-02-20.xml"/>
+          <FRBRdate date="2026-02-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-20" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 35 от 17 февруари 2026 г. за изменение на Постановление № 263 на Министерския съвет от 2021 г. за определяне на второстепенните разпоредители с бюджет по бюджета на Министерството на културата</p>
+      <p>(обн., ДВ, бр. 64 от 2021 г.; изм., бр. 49 от 2023 г. и бр. 58 от 2024 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 2 се правят следните изменения: 1. В т. 5 цифрата „3“ се заменя с „2“. 2. В т. 11 цифрата „2“ се заменя с „3“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

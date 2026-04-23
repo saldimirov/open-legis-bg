@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-18-17-5/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-18-17-5"/>
+          <FRBRalias value="Постановление № 37 ОТ 17 ФЕВРУАРИ 2017 Г. за изменение на Устройствения правилник на Министерството на финансите, приет с" name="short"/>
+          <FRBRalias value="Постановление № 37 ОТ 17 ФЕВРУАРИ 2017 Г. за изменение на Устройствения правилник на Министерството на финансите, приет с" name="eli" other="/eli/bg/postanovlenie/2017/dv-18-17-5"/>
+          <FRBRdate date="2017-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-18-17-5/bul@2017-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-18-17-5/bul@2017-02-24"/>
+          <FRBRdate date="2017-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-18-17-5/bul@2017-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-18-17-5/bul@2017-02-24.xml"/>
+          <FRBRdate date="2017-02-24" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-02-24" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 37 ОТ 17 ФЕВРУАРИ 2017 Г. за изменение на Устройствения правилник на Министерството на финансите, приет с</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 25 т. 16 се изменя така: „16. подпомага министъра на финансите при осъществяване на правомощията му по прилагането на глава осма „а“ от Закона за публичните финанси.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 9, ал. 3 се правят следните изменения: 1. На ред „Инспекторат“ числото „10“ се заменя с „9“. 2. На ред „Обща администрация“ числото „122“ се заменя със „121“. 3. На ред „дирекция „Финанси и управление на собствеността“ числото „68“ се заменя с „67“. 4. На ред „дирекция „Човешки ресурси и административно обслужване“ числото „24“ се заменя с „23“. 5. На ред „дирекция „Информационни сис- теми“ числото „17“ се заменя с „18“. 6. На ред „Специализирана администрация“ числото „418“ се заменя с „420“. 7. На ред „дирекция „Финанси на общините“ числото „20“ се заменя с „22“. 8. На ред „дирекция „Методология на контрола и вътрешен одит“ числото „24“ се заменя с „23“. 9. На ред „дирекция „Централизиранo въз- лагане и обществени поръчки“ числото „23“ се заменя с „24“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

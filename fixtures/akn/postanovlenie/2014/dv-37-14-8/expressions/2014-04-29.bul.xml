@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-8"/>
+          <FRBRalias value="Постановление № 99 ОТ 25 АПРИЛ 2014 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 99 ОТ 25 АПРИЛ 2014 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2014/dv-37-14-8"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-8/bul@2014-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-8/bul@2014-04-29"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-8/bul@2014-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-8/bul@2014-04-29.xml"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-29" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 99 ОТ 25 АПРИЛ 2014 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 8 от 2014 г.; изм. и доп., бр. 18, 25, 30, 31 и 34 от 2014 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 числото „4730,0“ се заменя с „4236,0“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 6 се правят следните изменения: 1. В ал. 1, в колона 3 числото „301,0“ се заменя с „501,0“. 2. В ал. 2, в колона 3 числото „590,0“ се заменя със „790,0“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В приложението към чл. 1 се правят следните изменения и допълнения: 1. В пореден № 1, в колона 3 числото „5 730 000“ се заменя с „5 236 000“. 2. В пореден № 1.4, в колона 3 числото „2 000 000“ се заменя с „1 506 000“. 3. В пореден № 3, в колона 3 числото „700 000“ се заменя с „882 000“. 4. В пореден № 5: а) в колона 2 след думите „Министерство- то на външните работи“ се поставя запетая и се добавя „в т. ч. за организацията на международен пресцентър“; б) в колона 3 числото „700 000“ се заменя с „900 000“. 5. В пореден № 9, в колона 3 числото „270 000“ се заменя с „502 000“. 6. В пореден № 10: а) в колона 2 думите „за организацията на международен пресцентър“ се заличават; б) в колона 3 числото „180 000“ се заменя с „60 000“. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В приложение № 5 към чл. 5 от По- становление № 3 на Министерския съвет от 2014 г. за изпълнението на държавния бюджет на Република България за 2014 г. (обн., ДВ, бр. 8 от 2014 г.; изм. и доп., бр. 18, 25, 30, 31 и 34 от 2014 г.), в пореден № 17, в колона 3 числото „29 786 700“ се заменя с „29 968 700“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

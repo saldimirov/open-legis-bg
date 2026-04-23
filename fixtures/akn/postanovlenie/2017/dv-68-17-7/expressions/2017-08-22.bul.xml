@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-7"/>
+          <FRBRalias value="Постановление № 177 ОТ 17 АВГУСТ 2017 Г. за изменение на Постановление № 67 на Министерския съвет от 2017 г. за одобряване на про­" name="short"/>
+          <FRBRalias value="Постановление № 177 ОТ 17 АВГУСТ 2017 Г. за изменение на Постановление № 67 на Министерския съвет от 2017 г. за одобряване на про­" name="eli" other="/eli/bg/postanovlenie/2017/dv-68-17-7"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-7/bul@2017-08-22/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-7/bul@2017-08-22"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-7/bul@2017-08-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-7/bul@2017-08-22.xml"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-08-22" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 177 ОТ 17 АВГУСТ 2017 Г. за изменение на Постановление № 67 на Министерския съвет от 2017 г. за одобряване на про­</p>
+      <p>(обн., ДВ, бр. 29 от 2017 г.; изм. и доп., бр. 39, 44, 49 и 64 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Пореден № 7 от приложението се изменя така: „ 7. Национална служба за охрана – общо: 1 200 000 1 325 000 2 525 000 Закупуване на оборудване и специализи­ рана техника, включително за проверка на лица и багажи 1 200 000 1 200 000 Наемане на автомобили, включително бронирани и микробуси; гориво, смазочни материали и други разходи, свързани с председателството 1 325 000 1 325 000 “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

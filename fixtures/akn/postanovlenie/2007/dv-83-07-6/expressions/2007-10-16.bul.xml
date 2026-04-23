@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-6/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-6"/>
+          <FRBRalias value="Постановление № 244 от 8 октомври 2007 г. за изменение и допълнение на Наредбата за възлагане на малки обществени поръчки, приета с Постановление № 249 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 244 от 8 октомври 2007 г. за изменение и допълнение на Наредбата за възлагане на малки обществени поръчки, приета с Постановление № 249 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2007/dv-83-07-6"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-6/bul@2007-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-6/bul@2007-10-16"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2007/dv-83-07-6/bul@2007-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2007/dv-83-07-6/bul@2007-10-16.xml"/>
+          <FRBRdate date="2007-10-16" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2007-10-16" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 244 от 8 октомври 2007 г. за изменение и допълнение на Наредбата за възлагане на малки обществени поръчки, приета с Постановление № 249 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 84 от 2004 г.; попр., бр. 93 от 2004 г.; изм. и доп., бр. 59 от  2005 г  . и бр. 53 от 2006 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се правят следните изменения:</p>
+            <p>1. В ал. 1:</p>
+            <p>а) в т. 1 думите “от 90 000 до 200 000 лв.” се заменят с “от 500 000 до 1 500 000 лв.”;</p>
+            <p>б) в т. 2 думите “от 30 000 до 60 000 лв.” се заменят с “от 50 000 до 100 000 лв.”.</p>
+            <p>2. В ал. 2:</p>
+            <p>а) в т. 1 думите “по-малка от 90 000 лв.” се заменят с “по-малка от 500 000 лв.”;</p>
+            <p>б) в т. 2 думите “по-малка от 30 000 лв.” се заменят с “по-малка от 50 000 лв.”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 24 се създава ал. 6:</p>
+            <p>“(6) В случаите по ал. 1, т. 1, когато не е подадена нито една оферта, възложителите по чл. 7, т. 2 ЗОП може да не провеждат процедура за възлагане на малка обществена поръчка, но са длъжни да съберат не по-малко от 3 оферти, които съдържат техническо и финансово предложение.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

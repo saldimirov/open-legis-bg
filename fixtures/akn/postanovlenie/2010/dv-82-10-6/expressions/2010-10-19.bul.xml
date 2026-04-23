@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-6"/>
+          <FRBRalias value="Постановление № 228 ОТ 11 ОКТОМВРИ 2010 Г. за изменение на Тарифата за таксите, които" name="short"/>
+          <FRBRalias value="Постановление № 228 ОТ 11 ОКТОМВРИ 2010 Г. за изменение на Тарифата за таксите, които" name="eli" other="/eli/bg/postanovlenie/2010/dv-82-10-6"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-6/bul@2010-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-6/bul@2010-10-19"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-6/bul@2010-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-6/bul@2010-10-19.xml"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-19" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 228 ОТ 11 ОКТОМВРИ 2010 Г. за изменение на Тарифата за таксите, които</p>
+      <p>(обн., ДВ, бр. 79 от 2008 г.; изм., бр. 101 от 2008 г. и бр. 3, 100 и 102 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се правят следните изменения: 1. Таблицата към т. 2 се изменя така: „ № по ред Превишаване на допустимата максимална височина Евро за 1 км 1. от 0,01 до 0,15 м включително 0,04 2. над 0,15 до 0,30 м включително 0,08 3. над 0,30 до 0,50 м включително 0,25 4. над 0,50 до 1,00 м включително 0,44 5. над 1,00 м 0,44+1,8 за всеки започнат метър над 1,00 м “ 2. Таблицата към т. 3 се изменя така: „ № по ред Превишаване на допустимата максимална дължина Евро за 1 км 1. от 0,01 до 1,00 м включително 0,08 2. над 1,00 до 2,00 м включително 0,15 3. над 2,00 до 3,00 м включително 0,33 4. над 3,00 до 10,00 м включително 0,44 5. над 10,00 до 15,00 м включително 0,81 6. над 15,00 м 1,62 “</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 11 се правят следните изменения: 1. Таблицата към т. 2 се изменя така: „ № по ред Превишаване на допустимата максимална височина Лв. за 1 км 1. от 0,01 до 0,15 м включително 0,08 2. над 0,15 до 0,30 м включително 0,15 3. над 0,30 до 0,50 м включително 0,50 4. над 0,50 до 1,00 м включително 0,86 5. над 1,00 м 0,86+3,52 за всеки започнат метър над 1,00 м “ 2. Таблицата към т. 3 се изменя така: „ № по ред Превишаване на допустимата максимална дължина Лв. за 1 км 1. от 0,01 до 1,00 м включително 0,15 2. над 1,00 до 2,00 м включително 0,30 3. над 2,00 до 3,00 м включително 0,65 4. над 3,00 до 10,00 м включително 0,86 5. над 10,00 до 15,00 м включително 1,58 6. над 15,00 м 3,17 “</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

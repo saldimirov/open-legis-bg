@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-95-23-7/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-95-23-7"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="eli" other="/eli/bg/reshenie_ns/2023/dv-95-23-7"/>
+          <FRBRdate date="2023-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-95-23-7/bul@2023-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-95-23-7/bul@2023-11-14"/>
+          <FRBRdate date="2023-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-95-23-7/bul@2023-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-95-23-7/bul@2023-11-14.xml"/>
+          <FRBRdate date="2023-11-14" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-11-14" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен представител</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Република България РЕШИ: Прекратява пълномощията на Славена Димитрова Точева като народен представител от Трети изборен район – Варненски. Решението е прието от 49-ото Народно събрание на 9 ноември 2023 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

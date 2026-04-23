@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-91-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-91-12-2"/>
+          <FRBRalias value="Закон за отменяне на Закона за приемане на декла­" name="short"/>
+          <FRBRalias value="Закон за отменяне на Закона за приемане на декла­" name="eli" other="/eli/bg/zakon/2012/dv-91-12-2"/>
+          <FRBRdate date="2012-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-91-12-2/bul@2012-11-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-91-12-2/bul@2012-11-20"/>
+          <FRBRdate date="2012-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-91-12-2/bul@2012-11-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-91-12-2/bul@2012-11-20.xml"/>
+          <FRBRdate date="2012-11-20" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-20" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за отменяне на Закона за приемане на декла­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>рация по смисъла на чл. 42, § 1 от Конвен­ цията за международни железопътни превози (COTIF), подписана на 9 май 1980 г. в Берн Член единствен. Законът за приемане на декларация по смисъла на чл. 42, § 1 от Конвенцията за международни железопътни превози (COTIF), подписана на 9 май 1980 г. (ДВ, бр. 95 от 2007 г.) в Берн, се отменя.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

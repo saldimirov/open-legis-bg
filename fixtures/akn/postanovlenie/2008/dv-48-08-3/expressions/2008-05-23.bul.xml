@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-48-08-3/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-48-08-3"/>
+          <FRBRalias value="Постановление № 100 от 16 май 2008 г. за изменение на Устройствения правилник на Държавен фонд “Земеделие”, приет с Постановление № 248 на Министерския съвет от 2006 г." name="short"/>
+          <FRBRalias value="Постановление № 100 от 16 май 2008 г. за изменение на Устройствения правилник на Държавен фонд “Земеделие”, приет с Постановление № 248 на Министерския съвет от 2006 г." name="eli" other="/eli/bg/postanovlenie/2008/dv-48-08-3"/>
+          <FRBRdate date="2008-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-48-08-3/bul@2008-05-23/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-48-08-3/bul@2008-05-23"/>
+          <FRBRdate date="2008-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-48-08-3/bul@2008-05-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-48-08-3/bul@2008-05-23.xml"/>
+          <FRBRdate date="2008-05-23" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-05-23" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 100 от 16 май 2008 г. за изменение на Устройствения правилник на Държавен фонд “Земеделие”, приет с Постановление № 248 на Министерския съвет от 2006 г.</p>
+      <p>(обн., ДВ, бр. 78 от 2006 г.; изм. и доп.,  бр. 3 и 84 от 2007 г. и бр. 29 от 2008 г.)</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

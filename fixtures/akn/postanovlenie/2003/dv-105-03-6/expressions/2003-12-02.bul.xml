@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-6/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-6"/>
+          <FRBRalias value="Постановление № 277 от 24 ноември 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговско дружество" name="short"/>
+          <FRBRalias value="Постановление № 277 от 24 ноември 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговско дружество" name="eli" other="/eli/bg/postanovlenie/2003/dv-105-03-6"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-6/bul@2003-12-02/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-6/bul@2003-12-02"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-105-03-6/bul@2003-12-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-105-03-6/bul@2003-12-02.xml"/>
+          <FRBRdate date="2003-12-02" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-02" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 277 от 24 ноември 2003 г. за предоставяне на еднократна субсидия от централния бюджет за 2003 г. за подпомагане на търговско дружество</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да предостави от централния бюджет за 2003 г. средства в размер 150 хил. лв. за осигуряване дейността през 2003 г. на „Българска нефтена компания&amp;quot; — ЕООД, със 100 на сто държавно участие.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 се предоставят като еднократна субсидия от определените средства по чл. 1, ал. 2, т. 1.7 от Закона за държавния бюджет на Република България за 2003 г.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на икономиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

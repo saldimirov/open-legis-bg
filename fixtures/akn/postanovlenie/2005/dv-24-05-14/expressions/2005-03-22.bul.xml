@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-24-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-24-05-14"/>
+          <FRBRalias value="Постановление № 38 от 11 март 2005 г. за изпълнение на Резолюция 1572 на Съвета за сигурност на ООН от 15 ноември 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 38 от 11 март 2005 г. за изпълнение на Резолюция 1572 на Съвета за сигурност на ООН от 15 ноември 2004 г." name="eli" other="/eli/bg/postanovlenie/2005/dv-24-05-14"/>
+          <FRBRdate date="2005-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-24-05-14/bul@2005-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-24-05-14/bul@2005-03-22"/>
+          <FRBRdate date="2005-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-24-05-14/bul@2005-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-24-05-14/bul@2005-03-22.xml"/>
+          <FRBRdate date="2005-03-22" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-03-22" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 38 от 11 март 2005 г. за изпълнение на Резолюция 1572 на Съвета за сигурност на ООН от 15 ноември 2004 г.</p>
+      <p>(обн., ДВ, бр. 37 от 2001 г.; изм., бр. 70 от 2002 г., бр. 22 и 61 от 2003 г. и бр. 9 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Списъка на държавите и организациите, спрямо които Република България прилага забрана или ограничения върху продажбата и доставките на въоръжение и свързано с него оборудване, в съответствие с резолюции на Съвета за сигурност на ООН и решения на Европейския съюз и на Организацията за сигурност и сътрудничество в Европа, утвърден с Постановление № 91 на Министерския съвет от 2001 г. (обн., ДВ, бр. 37 от 2001 г.; изм., бр. 70 от 2002 г., бр. 22 и 61 от 2003 г. и бр. 9 от 2004 г.), се правят следните изменения и допълнения:</p>
+            <p>1. Създава се нова т. 11:</p>
+            <p>“</p>
+            <p>Държа-                     По как-                Доку-              Ограничи-               Бележки</p>
+            <p>ва/ор-                       ва ли-               мент, с                телни</p>
+            <p>гани-                       ния се                 който                 мерки</p>
+            <p>зация                       налага              се нала-</p>
+            <p>огра-                га огра-</p>
+            <p>ниче-                 ниче-</p>
+            <p>нието                 нието</p>
+            <p>1                              2                       3                        4                           5</p>
+            <p>1                              2                       3                        4                           5</p>
+            <p>”</p>
+            <p>2. Досегашните т. 11 - 16 стават съответно т. 12 - 17.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Контролът по изпълнението на постановлението се възлага на министъра на финансите, министъра на външните работи, министъра на вътрешните работи, министъра на икономиката, министъра на отбраната и на директора на Агенция “Митници”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

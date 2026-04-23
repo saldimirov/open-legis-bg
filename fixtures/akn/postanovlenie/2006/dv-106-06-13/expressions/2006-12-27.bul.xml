@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-13/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-13"/>
+          <FRBRalias value="Постановление № 349 от 20 декември 2006 г. за приемане на Правилник за структурата, организацията и дейността на Националния съвет за закрила на детето" name="short"/>
+          <FRBRalias value="Постановление № 349 от 20 декември 2006 г. за приемане на Правилник за структурата, организацията и дейността на Националния съвет за закрила на детето" name="eli" other="/eli/bg/postanovlenie/2006/dv-106-06-13"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-13/bul@2006-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-13/bul@2006-12-27"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-106-06-13/bul@2006-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-106-06-13/bul@2006-12-27.xml"/>
+          <FRBRdate date="2006-12-27" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-12-27" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 349 от 20 декември 2006 г. за приемане на Правилник за структурата, организацията и дейността на Националния съвет за закрила на детето</p>
+      <p>(обн., ДВ, бр. 17 от 2001 г.; изм., бр. 95 от 2003 г. и бр. 89 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_trans" name="transitional-provisions">
+        <num>Преходни и заключителни разпоредби</num>
+        <hcontainer eId="sec_trans__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Правилникът за структурата, организацията и дейността на Националния съвет за закрила на детето, приет с Постановление № 38 на Министерския съвет от 2001 г. (обн., ДВ, бр. 17 от 2001 г.; изм., бр. 95 от 2003 г. и бр. 89 от 2005 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Поименният състав на Националния съвет за закрила на детето се определя със заповед на председателя на Държавната агенция за закрила на детето по предложение на ръководителите на съответните министерства, ведомства и сдружения в срок 3 месеца от датата на влизане в сила на постановлението.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Настоящите членове на Националния съвет за закрила на детето - представители на юридически лица с нестопанска цел, които имат предмет на дейност закрилата на децата, остават членове до определянето на състава по реда на § 2.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 18, ал. 2 от Закона за закрила на детето.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_trans__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

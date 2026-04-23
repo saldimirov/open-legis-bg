@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-7/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-7"/>
+          <FRBRalias value="Решение за внасяне на доклад от Главния прокурор на Република България" name="short"/>
+          <FRBRalias value="Решение за внасяне на доклад от Главния прокурор на Република България" name="eli" other="/eli/bg/reshenie_ns/2021/dv-65-21-7"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-7/bul@2021-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-7/bul@2021-08-06"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-7/bul@2021-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-7/bul@2021-08-06.xml"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-08-06" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за внасяне на доклад от Главния прокурор на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 във връзка с чл. 84, т. 16 от Конституцията на Република България и чл. 91 във връзка с чл. 90 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Главният прокурор на Република България в 14-дневен срок да внесе за разглеждане в Народното събрание доклад за прилагане на Закона за защита на лица, застрашени във връзка с наказателно производство за периода 1 януари 2020 г. – 30 юни 2021 г. Решението е прието от 46-ото Народно събрание на 4 август 2021 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

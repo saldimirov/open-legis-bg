@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-33-14-2/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-33-14-2"/>
+          <FRBRalias value="Закон за изменение на Закона за енергията от" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за енергията от" name="eli" other="/eli/bg/zid/2014/dv-33-14-2"/>
+          <FRBRdate date="2014-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-33-14-2/bul@2014-04-11/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-33-14-2/bul@2014-04-11"/>
+          <FRBRdate date="2014-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-33-14-2/bul@2014-04-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-33-14-2/bul@2014-04-11.xml"/>
+          <FRBRdate date="2014-04-11" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-11" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за енергията от</p>
+      <p>(обн., ДВ, бр. 35 от 2011 г.; изм., бр. 29 и 54 от 2012 г., бр. 15, 59, 68 и 109 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Членове 20а, 20б, 20в, 20г, 20д и 20е се отменят.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Член 67а се отменя.</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_3" name="modification">
+        <num>§ 3.</num>
+        <content>
+          <p>В чл. 69, ал. 1, т. 4 думите „чл. 67а“ се заличават. Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_4" name="modification">
+        <num>§ 4.</num>
+        <content>
+          <p>В Закона за енергийната ефективност (обн., ДВ, бр. 98 от 2008 г.; изм., бр. 6, 19, 42 и 82 от 2009 г., бр. 15, 52 и 97 от 2010 г., бр. 35 от 2011 г., бр. 38 от 2012 г., бр. 15, 24, 59 и 66 от 2013 г. и бр. 22 от 2014 г.) се правят следните изменения: 1. В чл. 23а, ал. 2 т. 3 се отменя. 2. В чл. 34а, ал. 2 т. 3 се отменя.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

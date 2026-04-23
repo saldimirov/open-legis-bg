@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-18/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-18"/>
+          <FRBRalias value="Постановление № 350 ОТ 28 ДЕКЕМВРИ 2018 Г. за уреждане на правоотношенията във връз-" name="short"/>
+          <FRBRalias value="Постановление № 350 ОТ 28 ДЕКЕМВРИ 2018 Г. за уреждане на правоотношенията във връз-" name="eli" other="/eli/bg/postanovlenie/2019/dv-1-19-18"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-18/bul@2019-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-18/bul@2019-01-03"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-18/bul@2019-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-18/bul@2019-01-03.xml"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 350 ОТ 28 ДЕКЕМВРИ 2018 Г. за уреждане на правоотношенията във връз-</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Създава ликвидационна комисия за извършване ликвидацията на закритото Министерство за Българското председателство на Съвета на Европейския съюз 2018, наричано по-нататък „министерството“.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Председател на ликвидационната ко- мисия по ал. 1 е главният секретар на Ми- нистерския съвет. посланик на Република България в Корейската народно-демократична република със седали- ще в Пекин, Китайската народна република. Изпълнението на указа възлагам на ми- нистъра на външните работи. Издаден в София на 28 декември 2018 г. Президент на Републиката: Румен Радев</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

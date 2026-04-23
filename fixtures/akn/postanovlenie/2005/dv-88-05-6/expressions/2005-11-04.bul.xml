@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-6"/>
+          <FRBRalias value="Постановление № 226 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на червено и бяло грозде за преработка" name="short"/>
+          <FRBRalias value="Постановление № 226 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на червено и бяло грозде за преработка" name="eli" other="/eli/bg/postanovlenie/2005/dv-88-05-6"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-6/bul@2005-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-6/bul@2005-11-04"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-88-05-6/bul@2005-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-88-05-6/bul@2005-11-04.xml"/>
+          <FRBRdate date="2005-11-04" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-04" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 226 от 28 октомври 2005 г. за въвеждане на автономни мерки за суспендиране на митата за внос на червено и бяло грозде за преработка</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>Въвеждат се автономни мерки за суспендиране на митата за 2005 г., както следва:</p>
+          <p>№       Код по КН              Описание                            Количество,</p>
+          <p>по                                    на стоката                            ставка на</p>
+          <p>ред                                                                            митото и период</p>
+          <p>на действие</p>
+        </intro>
+        <point eId="art_1__pt_1">
+          <num>1.</num>
+          <content>
+            <p>от 0806 10 90 2       червено грозде                      10 000 t от 0806 10 90 9       за преработка                            0 до 30.11.2005 г.</p>
+          </content>
+        </point>
+        <point eId="art_1__pt_2">
+          <num>2.</num>
+          <content>
+            <p>от 0806 10 90 2       бяло грозде                             3000 t от 0806 10 90 9       за преработка                           0 до 30.11.2005 г.</p>
+          </content>
+        </point>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Автономните мерки по чл. 1 обхващат всички стоки, които се класират в тарифните номера, посочени в колона “Код по КН”. Когато пред тарифния номер е отбелязано “от”, автономните мерки се прилагат само за стоките, чието описание съвпада с посоченото.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 26, ал. 1, т. 6 от Закона за митниците.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+            <p>За министър-председател:  Ивайло Калфин</p>
+            <p>Главен секретар на Министерския съвет:  Севдалин Мавров</p>
+            <p>105494</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

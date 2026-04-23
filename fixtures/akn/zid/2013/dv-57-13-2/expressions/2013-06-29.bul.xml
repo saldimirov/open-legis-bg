@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-57-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-57-13-2"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на Дър­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за бюджета на Дър­" name="eli" other="/eli/bg/zid/2013/dv-57-13-2"/>
+          <FRBRdate date="2013-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-57-13-2/bul@2013-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-57-13-2/bul@2013-06-29"/>
+          <FRBRdate date="2013-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-57-13-2/bul@2013-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-57-13-2/bul@2013-06-29.xml"/>
+          <FRBRdate date="2013-06-29" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-29" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за бюджета на Дър­</p>
+      <p>(обн., ДВ, бр. 99 от 2012 г.; попр., бр. 102 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="par_1" name="modification">
+        <num>§ 1.</num>
+        <content>
+          <p>Член 11 се изменя така: „Чл. 11. Определя се за 2013 г. размер на паричното обезщетение за отглеждане на малко дете по чл. 53, ал. 1 и 2 от Кодекса за социално осигуряване, както следва: 1. от 1 януари до 30 юни – 240 лв.; 2. от 1 юли до 31 декември – 310 лв.“ Заключителна разпоредба</p>
+        </content>
+      </hcontainer>
+      <hcontainer eId="par_2" name="modification">
+        <num>§ 2.</num>
+        <content>
+          <p>Законът влиза в сила от деня на обна­ родването му в „Държавен вестник“.</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

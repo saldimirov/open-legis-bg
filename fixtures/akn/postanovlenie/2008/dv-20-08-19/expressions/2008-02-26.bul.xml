@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2008/dv-20-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-20-08-19"/>
+          <FRBRalias value="Постановление № 24 от 13 февруари 2008 г. за приемане на Правилник за прилагане на Закона за военноинвалидите и военнопострадалите" name="short"/>
+          <FRBRalias value="Постановление № 24 от 13 февруари 2008 г. за приемане на Правилник за прилагане на Закона за военноинвалидите и военнопострадалите" name="eli" other="/eli/bg/postanovlenie/2008/dv-20-08-19"/>
+          <FRBRdate date="2008-02-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2008/dv-20-08-19/bul@2008-02-26/main"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-20-08-19/bul@2008-02-26"/>
+          <FRBRdate date="2008-02-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2008/dv-20-08-19/bul@2008-02-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2008/dv-20-08-19/bul@2008-02-26.xml"/>
+          <FRBRdate date="2008-02-26" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2008-02-26" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 24 от 13 февруари 2008 г. за приемане на Правилник за прилагане на Закона за военноинвалидите и военнопострадалите</p>
+      <p>(обн., ДВ, бр. 112 от 2001 г.; изм., бр. 13 от 2004 г., бр. 99 от 2005 г. и бр. 84 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 от Постановление № 295 на Министерския съвет от 2001 г. за определяне на групите пътници, ползващи право на безплатни и с намалени цени пътувания при превоз с железопътен транспорт, и за определяне размера на намалението (обн., ДВ, бр. 112 от 2001 г.; изм., бр. 13 от 2004 г., бр. 99 от 2005 г. и бр. 84 от 2007 г.) се правят следните изменения и допълнения:</p>
+            <p>1. Досегашният текст става ал. 1.</p>
+            <p>2. Създава се ал. 2:</p>
+            <p>“(2) Право на безплатно пътуване по ал. 1 имат и лицата по чл. 17, ал. 2 от Закона за военноинвалидите и военнопострадалите.”</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в “Държавен вестник”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-19-11-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-19-11-20"/>
+          <FRBRalias value="Постановление № 48 ОТ 25 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановле­" name="short"/>
+          <FRBRalias value="Постановление № 48 ОТ 25 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановле­" name="eli" other="/eli/bg/postanovlenie/2011/dv-19-11-20"/>
+          <FRBRdate date="2011-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-19-11-20/bul@2011-03-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-19-11-20/bul@2011-03-08"/>
+          <FRBRdate date="2011-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-19-11-20/bul@2011-03-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-19-11-20/bul@2011-03-08.xml"/>
+          <FRBRdate date="2011-03-08" name="Generation"/>
+          <FRBRauthor href="#parliament"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-08" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 48 ОТ 25 ФЕВРУАРИ 2011 Г. за изменение и допълнение на Правилника за прилагане на Закона за Министерството на вътрешните работи, приет с Постановле­</p>
+      <p>(обн., ДВ, бр. 47 от 2006 г.; изм. и доп., бр. 24 от 2007 г., бр. 44 и 91 от 2008 г., бр. 1 и 68 от 2009 г., бр. 5, 8, 40 и 90 от 2010 г. и бр. 7 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 150м думите „Дирекция „Коор­ динация на борбата с измамите със средства на Европейския съюз“ се заменят с „Дирекция „Координация на борбата с правонаруше­ нията, засягащи финансовите интереси на Европейския съюз“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 150ч абревиатурата „ДМОПС“ се заменя с „ДМОС“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>
