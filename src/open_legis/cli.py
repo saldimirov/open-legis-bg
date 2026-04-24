@@ -104,7 +104,7 @@ def scrape_dv(
     idobj: int = typer.Option(..., "--idobj", help="DV issue idObj to scrape"),
     out: str = typer.Option("fixtures/akn", "--out", help="Output fixtures root"),
     load_after: bool = typer.Option(True, "--load/--no-load", help="Load into DB after scrape"),
-    types: str = typer.Option("zakon,zid,kodeks", "--types", help="Comma-separated act types to include"),
+    types: str = typer.Option("all", "--types", help="Comma-separated act types, or 'all'"),
 ) -> None:
     """Scrape laws from a single DV issue and optionally load them."""
     import datetime as _dt
@@ -113,7 +113,7 @@ def scrape_dv(
     from open_legis.scraper.dv_client import get_issue_materials, get_material_text, get_issue_metadata
     from open_legis.scraper.dv_to_akn import detect_act_type, convert_material, LEGISLATIVE_TYPES
 
-    allowed_types = {t.strip() for t in types.split(",")} if types else LEGISLATIVE_TYPES
+    allowed_types = LEGISLATIVE_TYPES if types in ("all", "") else {t.strip() for t in types.split(",")}
     out_root = Path(out)
 
     issue = get_issue_metadata(idobj)
@@ -173,7 +173,7 @@ def scrape_dv_batch(
     out: str = typer.Option("fixtures/akn", "--out"),
     index_file: str = typer.Option(".dv-index.json", "--index-file", help="Issue index cache"),
     load_after: bool = typer.Option(True, "--load/--no-load"),
-    types: str = typer.Option("zakon,zid,byudjet,kodeks,ratifikatsiya", "--types"),
+    types: str = typer.Option("all", "--types", help="Comma-separated act types, or 'all'"),
     resume: bool = typer.Option(True, "--resume/--no-resume", help="Skip already-scraped fixtures"),
     sleep: float = typer.Option(0.8, "--sleep", help="Seconds between requests"),
     local_dir: Optional[str] = typer.Option(None, "--local-dir", help="Local DV mirror directory; use local files instead of HTTP when available"),
@@ -189,7 +189,7 @@ def scrape_dv_batch(
     from open_legis.scraper.dv_mirror import issue_path as local_issue_path
     from open_legis.scraper.rtf_parser import parse_local_issue
 
-    allowed_types = {t.strip() for t in types.split(",")} if types else LEGISLATIVE_TYPES
+    allowed_types = LEGISLATIVE_TYPES if types in ("all", "") else {t.strip() for t in types.split(",")}
     out_root = Path(out)
     idx_path = Path(index_file)
     local_root = Path(local_dir) if local_dir else None
