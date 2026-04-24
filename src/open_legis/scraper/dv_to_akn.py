@@ -160,509 +160,233 @@ class ParsedSection:
     children: list["ParsedSection"] = field(default_factory=list)
 
 
-# Structural boundary patterns (match at start of a stripped line)
-_CHAPTER_RE = re.compile(r"^(Глава\s+\S+)$")
-_SECTION_RE = re.compile(r"^(Раздел\s+\S+)$")
-_SPECIAL_RE = re.compile(
-    r"^(ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ|ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА"
-    r"|ПРЕХОДНИ РАЗПОРЕДБИ|ПРЕХОДНА РАЗПОРЕДБА"
-    r"|ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ|ДОПЪЛНИТЕЛНА РАЗПОРЕДБА"
-    r"|ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ|ДОПЪЛНИТЕЛНИ И ПРЕХОДНИ РАЗПОРЕДБИ"
-    r"|Заключителни разпоредби|Заключителна разпоредба"
-    r"|Преходни разпоредби|Преходна разпоредба"
-    r"|Допълнителни разпоредби|Допълнителна разпоредба"
-    r"|Преходни и заключителни разпоредби|Допълнителни и преходни разпоредби)$"
-)
-_ARTICLE_RE = re.compile(r"^(Чл\.\s*\d+[а-я]?)\.")
-_PAR_RE = re.compile(r"^(§\s*\d+[а-я]?)\.")
-
-# Sub-article structure patterns
-_NUMBERED_PARA_RE = re.compile(r"^\((\d+[а-я]?)\)\s*(.*)")   # (1), (2а) …
-_POINT_RE = re.compile(r"^(\d+)\.\s+(.*)")                    # 1. …  (only when ≥ 1 space after dot)
-_LETTER_RE = re.compile(r"^([а-я])\)\s+(.*)")                 # а) …
-
-_SPECIAL_NAME = {
-    "ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ": "final-provisions",
-    "ЗАКЛЮЧИТЕЛНА РАЗПОРЕДБА": "final-provisions",
-    "ПРЕХОДНИ РАЗПОРЕДБИ": "transitional-provisions",
-    "ПРЕХОДНА РАЗПОРЕДБА": "transitional-provisions",
-    "ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ": "additional-provisions",
-    "ДОПЪЛНИТЕЛНА РАЗПОРЕДБА": "additional-provisions",
-    "ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ": "transitional-provisions",
-    "ДОПЪЛНИТЕЛНИ И ПРЕХОДНИ РАЗПОРЕДБИ": "additional-provisions",
-    "Заключителни разпоредби": "final-provisions",
-    "Заключителна разпоредба": "final-provisions",
-    "Преходни разпоредби": "transitional-provisions",
-    "Преходна разпоредба": "transitional-provisions",
-    "Допълнителни разпоредби": "additional-provisions",
-    "Допълнителна разпоредба": "additional-provisions",
-    "Преходни и заключителни разпоредби": "transitional-provisions",
-    "Допълнителни и преходни разпоредби": "additional-provisions",
-}
-_SPECIAL_EID = {
-    "final-provisions": "sec_final",
-    "transitional-provisions": "sec_trans",
-    "additional-provisions": "sec_add",
-}
 
 
 def parse_body_text(text: str, act_type: str) -> list[ParsedSection]:
-    if act_type == "zid":
-        return _parse_zid(text)
-    return _parse_structured(text)
+    from open_legis.scraper.lexer import clean_text, tokenize
+    cleaned = clean_text(text)
+    tokens = tokenize(cleaned)
+    return _build_tree(tokens)
 
 
-_COLLAPSED_THRESHOLD = 200  # chars per newline — below this, text is RTF-collapsed
+def _build_tree(tokens: list) -> list[ParsedSection]:
+    """Stack-based tree builder — token stream → ParsedSection tree.
 
-
-def _normalize_collapsed(text: str) -> str:
-    """Inject newlines before structural markers in RTF-collapsed single-line text."""
-    # Articles: Чл. 1. / Чл. 1а.
-    text = re.sub(r"(?<!\n)(Чл\.\s+\d+[а-я]?\.)", r"\n\1", text)
-    # Numbered paragraphs: (1) (12)
-    text = re.sub(r"(?<!\n)(\(\d+\)\s)", r"\n\1", text)
-    # § paragraphs
-    text = re.sub(r"(?<!\n)(§\s*\d+\.)", r"\n\1", text)
-    # Chapter/section headings
-    for pat in (r"(ГЛАВА\s+[ИВХЛЦМДЕЖ\d]+)", r"(РАЗДЕЛ\s+[ИВХЛЦМДЕЖ\d]+)"):
-        text = re.sub(rf"(?<!\n)({pat})", r"\n\1", text)
-    return text
-
-
-def _clean_text(text: str) -> str:
-    # Detect RTF-collapsed text (no/few newlines)
-    newline_ratio = text.count("\n") / max(len(text), 1)
-    collapsed = newline_ratio < 1 / _COLLAPSED_THRESHOLD
-
-    for marker in ("ЗАКОН", "КОДЕКС", "НАРЕДБА", "ПОСТАНОВЛЕНИЕ", "ПРАВИЛНИК"):
-        pattern = rf"(?m)^{marker}\b" if not collapsed else rf"{marker}\b"
-        m = re.search(pattern, text)
-        if m:
-            text = text[m.start():]
-            break
-    else:
-        # No act-type marker — fall back to first article
-        if collapsed:
-            m = re.search(r"Чл\.\s+1\.", text)
-            if m:
-                text = text[m.start():]
-
-    for end_marker in (
-        "Законът е приет от",
-        "Постановлението е прието от",
-        "Наредбата е приета от",
-        "Правилникът е приет от",
-        "Председател на Народното събрание",
-        "Министър-председател:",
-    ):
-        idx = text.find(end_marker)
-        if idx >= 0:
-            text = text[:idx]
-            break
-
-    if collapsed:
-        text = _normalize_collapsed(text)
-
-    return text.strip()
-
-
-def _is_boundary(line: str) -> bool:
-    return bool(
-        _CHAPTER_RE.match(line)
-        or _SECTION_RE.match(line)
-        or _SPECIAL_RE.match(line)
-        or _ARTICLE_RE.match(line)
-        or _PAR_RE.match(line)
-    )
-
-
-def _parse_zid(text: str) -> list[ParsedSection]:
-    text = _clean_text(text)
-    splits = re.split(r"(?m)(?=§\s*\d+\.)", text)
-    sections: list[ParsedSection] = []
-    seq = 0
-    for chunk in splits:
-        chunk = chunk.strip()
-        if not chunk:
-            continue
-        m = re.match(r"(§\s*\d+[а-я]?)\.", chunk)
-        if not m:
-            continue
-        num = m.group(1).replace("  ", " ").strip() + "."
-        body = chunk[m.end():].strip()
-        paras = [p.strip() for p in body.split("\n") if p.strip()]
-        seq += 1
-        sections.append(ParsedSection(
-            e_id=f"par_{seq}",
-            tag="hcontainer",
-            num=num,
-            name="modification",
-            heading=None,
-            paragraphs=paras,
-        ))
-    return sections
-
-
-def _parse_article_body(
-    lines: list[str], base_e_id: str
-) -> tuple[list[str], list[ParsedSection]]:
-    """Split article lines into intro text + structured paragraph/point children.
-
-    Returns (intro_lines, children).  If no (N) paragraphs found, returns
-    (lines, []) so the caller falls back to a plain content block.
+    Separates tokenization from tree-building so errors in one phase
+    cannot corrupt the other.  Each structural level is handled by
+    popping the stack to the appropriate parent rather than tracking
+    mutable current_* variables.
     """
-    if not lines:
-        return [], []
+    from open_legis.scraper.lexer import TK
 
-    # Quick check: does this article have any (N) numbered paragraphs?
-    has_numbered = any(_NUMBERED_PARA_RE.match(l) for l in lines)
-    if not has_numbered:
-        # Check if it has numbered points only (no paragraphs)
-        has_points = any(_POINT_RE.match(l) for l in lines)
-        if not has_points:
-            return lines, []
-        # Points without paragraphs — treat intro + points as flat
-        # intro = lines up to first point, then points as `point` children
-        intro: list[str] = []
-        children: list[ParsedSection] = []
-        p_seq = 0
-        i = 0
-        while i < len(lines):
-            m = _POINT_RE.match(lines[i])
-            if m:
-                p_seq += 1
-                p_num = m.group(1) + "."
-                p_text = m.group(2)
-                # Accumulate continuation lines (letters)
-                j = i + 1
-                sub_children: list[ParsedSection] = []
-                l_seq = 0
-                while j < len(lines) and not _POINT_RE.match(lines[j]) and not _NUMBERED_PARA_RE.match(lines[j]):
-                    lm = _LETTER_RE.match(lines[j])
-                    if lm:
-                        l_seq += 1
-                        sub_children.append(ParsedSection(
-                            e_id=f"{base_e_id}__pt_{p_seq}__l_{l_seq}",
-                            tag="point",
-                            num=lm.group(1) + ")",
-                            name=None,
-                            heading=None,
-                            paragraphs=[lm.group(2)],
-                        ))
-                    else:
-                        if sub_children:
-                            sub_children[-1].paragraphs.append(lines[j])
-                        else:
-                            p_text = (p_text + " " + lines[j]).strip() if p_text else lines[j]
-                    j += 1
-                point = ParsedSection(
-                    e_id=f"{base_e_id}__pt_{p_seq}",
-                    tag="point",
-                    num=p_num,
-                    name=None,
-                    heading=None,
-                    paragraphs=[p_text] if p_text else [],
-                    children=sub_children,
-                )
-                children.append(point)
-                i = j
-            else:
-                intro.append(lines[i])
-                i += 1
-        return intro, children
+    _c: dict[str, int] = {}   # sequence counters keyed by level name
 
-    # --- Articles with (N) numbered paragraphs ---
-    intro = []
-    children = []
-    par_seq = 0
-    i = 0
-    # Collect intro (lines before first numbered paragraph)
-    while i < len(lines) and not _NUMBERED_PARA_RE.match(lines[i]):
-        intro.append(lines[i])
-        i += 1
+    def _next(key: str) -> int:
+        _c[key] = _c.get(key, 0) + 1
+        return _c[key]
 
-    while i < len(lines):
-        m = _NUMBERED_PARA_RE.match(lines[i])
-        if not m:
-            i += 1
-            continue
-        par_seq += 1
-        par_num = f"({m.group(1)})"
-        par_text = m.group(2)  # rest of the line after (N)
-        i += 1
+    def _reset(*keys: str) -> None:
+        for k in keys:
+            _c[k] = 0
 
-        # Collect lines belonging to this paragraph
-        par_lines: list[str] = [par_text] if par_text else []
-        while i < len(lines) and not _NUMBERED_PARA_RE.match(lines[i]):
-            par_lines.append(lines[i])
-            i += 1
+    # Stack entries: (ParsedSection, TK) — TK is the kind of that node
+    stack: list[tuple[ParsedSection, object]] = []
 
-        par_e_id = f"{base_e_id}__al_{par_seq}"
+    def _parent() -> Optional[ParsedSection]:
+        return stack[-1][0] if stack else None
 
-        # Check if paragraph has numbered points
-        has_par_points = any(_POINT_RE.match(l) for l in par_lines)
-        if not has_par_points:
-            children.append(ParsedSection(
-                e_id=par_e_id,
-                tag="paragraph",
-                num=par_num,
-                name=None,
-                heading=None,
-                paragraphs=[l for l in par_lines if l],
-            ))
-            continue
+    def _parent_kind():
+        return stack[-1][1] if stack else None
 
-        # Paragraph with points
-        par_intro: list[str] = []
-        point_children: list[ParsedSection] = []
-        p_seq = 0
-        j = 0
-        while j < len(par_lines) and not _POINT_RE.match(par_lines[j]):
-            par_intro.append(par_lines[j])
-            j += 1
-        while j < len(par_lines):
-            pm = _POINT_RE.match(par_lines[j])
-            if pm:
-                p_seq += 1
-                pt_num = pm.group(1) + "."
-                pt_text = pm.group(2)
-                k = j + 1
-                sub_children: list[ParsedSection] = []
-                l_seq = 0
-                while k < len(par_lines) and not _POINT_RE.match(par_lines[k]):
-                    lm = _LETTER_RE.match(par_lines[k])
-                    if lm:
-                        l_seq += 1
-                        sub_children.append(ParsedSection(
-                            e_id=f"{par_e_id}__pt_{p_seq}__l_{l_seq}",
-                            tag="point",
-                            num=lm.group(1) + ")",
-                            name=None,
-                            heading=None,
-                            paragraphs=[lm.group(2)],
-                        ))
-                    else:
-                        if sub_children:
-                            sub_children[-1].paragraphs.append(par_lines[k])
-                        else:
-                            pt_text = (pt_text + " " + par_lines[k]).strip() if pt_text else par_lines[k]
-                    k += 1
-                point_children.append(ParsedSection(
-                    e_id=f"{par_e_id}__pt_{p_seq}",
-                    tag="point",
-                    num=pt_num,
-                    name=None,
-                    heading=None,
-                    paragraphs=[pt_text] if pt_text else [],
-                    children=sub_children,
-                ))
-                j = k
-            else:
-                j += 1
+    def _kinds() -> set:
+        return {k for _, k in stack}
 
-        children.append(ParsedSection(
-            e_id=par_e_id,
-            tag="paragraph",
-            num=par_num,
-            name=None,
-            heading=None,
-            paragraphs=[l for l in par_intro if l],
-            children=point_children,
-        ))
+    def _pop_to(target: set) -> None:
+        """Pop stack until top is one of target kinds (or empty)."""
+        while stack and stack[-1][1] not in target:
+            stack.pop()
 
-    return intro, children
-
-
-def _parse_structured(text: str) -> list[ParsedSection]:
-    """Parse a standalone law preserving chapter/section/special-section hierarchy."""
-    text = _clean_text(text)
-    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    def _append_text(text: str) -> None:
+        p = _parent()
+        if p is None:
+            return
+        # Continuation text goes to last child if children exist, else to intro
+        if p.children:
+            p.children[-1].paragraphs.append(text)
+        else:
+            p.paragraphs.append(text)
 
     root: list[ParsedSection] = []
-    current_chapter: Optional[ParsedSection] = None
-    current_section: Optional[ParsedSection] = None
-    current_special: Optional[ParsedSection] = None
+    special_counts: dict[str, int] = {}
 
-    chap_seq = section_seq = art_seq = par_seq = 0
-    _special_eid_counts: dict[str, int] = {}
+    # Deferred heading state: TEXT tokens after CHAPTER/SECTION become the heading
+    heading_node: Optional[ParsedSection] = None
+    heading_lines: list[str] = []
 
-    def _current_container() -> Optional[ParsedSection]:
-        if current_special:
-            return current_special
-        if current_section:
-            return current_section
-        if current_chapter:
-            return current_chapter
-        return None
+    def _flush_heading() -> None:
+        nonlocal heading_node, heading_lines
+        if heading_node is not None and heading_lines:
+            heading_node.heading = " ".join(heading_lines)
+        heading_node = None
+        heading_lines.clear()
 
-    def _add(sec: ParsedSection) -> None:
-        c = _current_container()
-        if c is not None:
-            c.children.append(sec)
-        else:
+    def _make_special(base: str, label: str, sname: str) -> ParsedSection:
+        special_counts[base] = special_counts.get(base, 0) + 1
+        cnt = special_counts[base]
+        eid = base if cnt == 1 else f"{base}_{cnt}"
+        return ParsedSection(
+            e_id=eid, tag="hcontainer",
+            num=label, name=sname,
+            heading=None, paragraphs=[],
+        )
+
+    for tok in tokens:
+        if tok.kind == TK.CHAPTER:
+            _flush_heading()
+            stack.clear()
+            _reset("section", "paragraph", "point", "letter", "par_item")
+            n = _next("chapter")
+            sec = ParsedSection(
+                e_id=f"chap_{n}", tag="chapter",
+                num=tok.num, name=None, heading=None, paragraphs=[],
+            )
             root.append(sec)
+            stack.append((sec, TK.CHAPTER))
+            heading_node = sec
+            heading_lines = []
 
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-
-        # --- Chapter ---
-        m = _CHAPTER_RE.match(line)
-        if m:
-            chap_seq += 1
-            section_seq = 0
-            # Collect heading lines (until next boundary)
-            j = i + 1
-            heading_parts: list[str] = []
-            while j < len(lines) and not _is_boundary(lines[j]):
-                heading_parts.append(lines[j])
-                j += 1
-            current_chapter = ParsedSection(
-                e_id=f"chap_{chap_seq}",
-                tag="chapter",
-                num=m.group(1),
-                name=None,
-                heading=" ".join(heading_parts) or None,
-                paragraphs=[],
+        elif tok.kind == TK.SECTION:
+            _flush_heading()
+            _pop_to({TK.CHAPTER})
+            _reset("article", "paragraph", "point", "letter")
+            n = _next("section")
+            chap_n = _c.get("chapter", 0)
+            prefix = f"chap_{chap_n}__" if _parent_kind() == TK.CHAPTER else ""
+            sec = ParsedSection(
+                e_id=f"{prefix}sec_{n}", tag="section",
+                num=tok.num, name=None, heading=None, paragraphs=[],
             )
-            current_section = None
-            current_special = None
-            root.append(current_chapter)
-            i = j
-            continue
+            p = _parent()
+            (p.children if p else root).append(sec)
+            stack.append((sec, TK.SECTION))
+            heading_node = sec
+            heading_lines = []
 
-        # --- Section ---
-        m = _SECTION_RE.match(line)
-        if m:
-            section_seq += 1
-            j = i + 1
-            heading_parts = []
-            while j < len(lines) and not _is_boundary(lines[j]):
-                heading_parts.append(lines[j])
-                j += 1
-            prefix = f"chap_{chap_seq}__" if current_chapter else ""
-            current_section = ParsedSection(
-                e_id=f"{prefix}sec_{section_seq}",
-                tag="section",
-                num=m.group(1),
-                name=None,
-                heading=" ".join(heading_parts) or None,
-                paragraphs=[],
-            )
-            current_special = None
-            if current_chapter:
-                current_chapter.children.append(current_section)
-            else:
-                root.append(current_section)
-            i = j
-            continue
+        elif tok.kind == TK.SPECIAL:
+            _flush_heading()
+            stack.clear()
+            _reset("article", "paragraph", "point", "letter", "par_item")
+            sec = _make_special(tok.special_eid, tok.num, tok.special_name)
+            root.append(sec)
+            stack.append((sec, TK.SPECIAL))
 
-        # --- Special section (ЗАКЛЮЧИТЕЛНИ / ПРЕХОДНИ / ДОПЪЛНИТЕЛНИ) ---
-        m = _SPECIAL_RE.match(line)
-        if m:
-            par_seq = 0
-            label = m.group(1)
-            sname = _SPECIAL_NAME.get(label, "special")
-            base_eid = _SPECIAL_EID.get(sname, "sec_special")
-            _special_eid_counts[base_eid] = _special_eid_counts.get(base_eid, 0) + 1
-            eid = base_eid if _special_eid_counts[base_eid] == 1 else f"{base_eid}_{_special_eid_counts[base_eid]}"
-            current_special = ParsedSection(
-                e_id=eid,
-                tag="hcontainer",
-                num=label,
-                name=sname,
-                heading=None,
-                paragraphs=[],
-            )
-            current_chapter = None
-            current_section = None
-            root.append(current_special)
-            i += 1
-            continue
-
-        # --- Article (Чл. N.) ---
-        m = _ARTICLE_RE.match(line)
-        if m:
-            art_seq += 1
-            num = line[: line.index(".", line.index(".") + 1) + 1] if line.count(".") >= 2 else m.group(1) + "."
-            # Use the full match including the dot
-            num = re.match(r"(Чл\.\s*\d+[а-я]?\.)", line).group(1)  # type: ignore[union-attr]
-            body = line[len(num):].strip()
-            j = i + 1
-            paras = [body] if body else []
-            while j < len(lines) and not _is_boundary(lines[j]):
-                paras.append(lines[j])
-                j += 1
-            container = _current_container()
-            prefix = f"{container.e_id}__" if container else ""
-            art_e_id = f"{prefix}art_{art_seq}"
-            intro, sub_children = _parse_article_body([p for p in paras if p], art_e_id)
+        elif tok.kind == TK.ARTICLE:
+            _flush_heading()
+            _pop_to({TK.CHAPTER, TK.SECTION, TK.SPECIAL})
+            _reset("paragraph", "point", "letter")
+            n = _next("article")
+            p = _parent()
+            prefix = f"{p.e_id}__" if p else ""
             art = ParsedSection(
-                e_id=art_e_id,
-                tag="article",
-                num=num,
-                name=None,
-                heading=None,
-                paragraphs=intro,
-                children=sub_children,
+                e_id=f"{prefix}art_{n}", tag="article",
+                num=tok.num, name=None, heading=None,
+                paragraphs=[tok.rest] if tok.rest else [],
             )
-            _add(art)
-            i = j
-            continue
+            (p.children if p else root).append(art)
+            stack.append((art, TK.ARTICLE))
 
-        # --- § item — always belongs to closing provisions, never mid-chapter ---
-        # If the ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ heading was absent or didn't match
-        # (wrong casing, missing line, etc.) we synthesise it here so § items
-        # are never attached to whatever chapter happened to be open last.
-        m = _PAR_RE.match(line)
-        if m:
-            if current_special is None:
-                base_eid = "sec_final"
-                _special_eid_counts[base_eid] = _special_eid_counts.get(base_eid, 0) + 1
-                eid = base_eid if _special_eid_counts[base_eid] == 1 else f"{base_eid}_{_special_eid_counts[base_eid]}"
-                current_special = ParsedSection(
-                    e_id=eid,
-                    tag="hcontainer",
-                    num="ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ",
-                    name="final-provisions",
-                    heading=None,
-                    paragraphs=[],
-                )
-                current_chapter = None
-                current_section = None
-                root.append(current_special)
-            par_seq += 1
-            num = m.group(1).replace("  ", " ").strip() + "."
-            body = line[m.end():].strip()
-            j = i + 1
-            paras = [body] if body else []
-            while j < len(lines) and not _is_boundary(lines[j]):
-                paras.append(lines[j])
-                j += 1
+        elif tok.kind == TK.PAR_ITEM:
+            _flush_heading()
+            # Always under a SPECIAL — synthesise if missing
+            if TK.SPECIAL not in _kinds():
+                sec = _make_special("sec_final", "ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ", "final-provisions")
+                root.append(sec)
+                stack.clear()
+                stack.append((sec, TK.SPECIAL))
+                _reset("par_item")
+            else:
+                _pop_to({TK.SPECIAL})
+            n = _next("par_item")
+            spec = stack[-1][0]
             par = ParsedSection(
-                e_id=f"{current_special.e_id}__par_{par_seq}",
-                tag="hcontainer",
-                num=num,
-                name="modification",
-                heading=None,
-                paragraphs=[p for p in paras if p],
+                e_id=f"{spec.e_id}__par_{n}", tag="hcontainer",
+                num=tok.num, name="modification", heading=None,
+                paragraphs=[tok.rest] if tok.rest else [],
             )
-            current_special.children.append(par)
-            i = j
-            continue
+            spec.children.append(par)
+            stack.append((par, TK.PAR_ITEM))
 
-        i += 1
+        elif tok.kind == TK.NUMBERED_PARA:
+            _flush_heading()
+            valid = {TK.ARTICLE, TK.PAR_ITEM}
+            if not _kinds() & valid:
+                _append_text(tok.num + " " + tok.rest)
+                continue
+            _pop_to(valid)
+            _reset("point", "letter")
+            n = _next("paragraph")
+            p = stack[-1][0]
+            al = ParsedSection(
+                e_id=f"{p.e_id}__al_{n}", tag="paragraph",
+                num=tok.num, name=None, heading=None,
+                paragraphs=[tok.rest] if tok.rest else [],
+            )
+            p.children.append(al)
+            stack.append((al, TK.NUMBERED_PARA))
 
-    # Fallback: no structural elements found but text exists (e.g. reshenie_ns prose)
-    if not root and lines:
-        root.append(ParsedSection(
-            e_id="sec_1",
-            tag="section",
-            num=None,
-            name=None,
-            heading=None,
-            paragraphs=lines,
-        ))
+        elif tok.kind == TK.POINT:
+            _flush_heading()
+            valid = {TK.ARTICLE, TK.NUMBERED_PARA, TK.PAR_ITEM}
+            if not _kinds() & valid:
+                _append_text(tok.num + " " + tok.rest)
+                continue
+            _pop_to(valid)
+            _reset("letter")
+            n = _next("point")
+            p = stack[-1][0]
+            pt = ParsedSection(
+                e_id=f"{p.e_id}__pt_{n}", tag="point",
+                num=tok.num, name=None, heading=None,
+                paragraphs=[tok.rest] if tok.rest else [],
+            )
+            p.children.append(pt)
+            stack.append((pt, TK.POINT))
+
+        elif tok.kind == TK.LETTER:
+            _flush_heading()
+            valid = {TK.POINT, TK.NUMBERED_PARA, TK.ARTICLE}
+            if not _kinds() & valid:
+                _append_text(tok.num + " " + tok.rest)
+                continue
+            _pop_to(valid)
+            n = _next("letter")
+            p = stack[-1][0]
+            lt = ParsedSection(
+                e_id=f"{p.e_id}__l_{n}", tag="point",
+                num=tok.num, name=None, heading=None,
+                paragraphs=[tok.rest] if tok.rest else [],
+            )
+            p.children.append(lt)
+            stack.append((lt, TK.LETTER))
+
+        elif tok.kind == TK.TEXT:
+            if heading_node is not None:
+                heading_lines.append(tok.rest)
+                continue
+            _flush_heading()
+            _append_text(tok.rest)
+
+    _flush_heading()
+
+    # Fallback: pure prose (reshenie_ns, court decisions, etc.)
+    if not root:
+        prose = [t.rest for t in tokens if t.kind == TK.TEXT and t.rest]
+        if prose:
+            root.append(ParsedSection(
+                e_id="sec_1", tag="section",
+                num=None, name=None, heading=None,
+                paragraphs=prose,
+            ))
 
     return root
 

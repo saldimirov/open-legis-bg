@@ -177,6 +177,7 @@ def scrape_dv_batch(
     resume: bool = typer.Option(True, "--resume/--no-resume", help="Skip already-scraped fixtures"),
     sleep: float = typer.Option(0.8, "--sleep", help="Seconds between requests"),
     local_dir: Optional[str] = typer.Option(None, "--local-dir", help="Local DV mirror directory; use local files instead of HTTP when available"),
+    workers: int = typer.Option(4, "--workers", help="Parallel workers for local-mirror mode (1 = sequential)"),
 ) -> None:
     """Scrape all laws from a year range and load into DB."""
     import datetime as _dt
@@ -225,91 +226,87 @@ def scrape_dv_batch(
     saved_total = 0
     skipped_total = 0
 
+    # Split issues into local-mirror candidates and HTTP fallbacks
+    local_tasks: list[tuple] = []
+    http_issues = []
+
     for issue in issues:
-        # --- Local mirror path ---
-        local_path = local_issue_path(issue, local_root) if local_root else None
-
-        if local_path:
-            # Parse from local file — no HTTP
-            try:
-                raw_materials = parse_local_issue(local_path)
-            except Exception as e:
-                typer.echo(f"  ERROR parsing {local_path.name}: {e}", err=True)
-                raw_materials = []
-
-            if not raw_materials:
-                # Unreadable local file (e.g. pre-2000 PDF with custom encoding) — fall back to HTTP
-                local_path = None
-
-        if local_path and raw_materials:
-            # Dedup within issue: same title → keep longest body
-            seen_titles: dict[str, tuple[int, str]] = {}
-            for position, (title, body) in enumerate(raw_materials, start=1):
-                if not title:
-                    continue
-                act_type = detect_act_type(title)
-                if act_type not in allowed_types:
-                    continue
-                key = (act_type, title.strip().lower()[:120])
-                if key not in seen_titles or len(body) > len(seen_titles[key][1]):
-                    seen_titles[key] = (position, body)
-
-            for (act_type, _), (position, body) in seen_titles.items():
-                title = raw_materials[position - 1][0]
-
-                slug, xml = convert_material(
-                    title=title, body=body, idMat=0,
-                    issue=issue, position=position,
-                )
-                expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
-                akn_path = expr_dir / f"{issue.date}.bul.xml"
-
-                if resume and akn_path.exists():
-                    skipped_total += 1
-                    continue
-
-                expr_dir.mkdir(parents=True, exist_ok=True)
-                akn_path.write_text(xml, encoding="utf-8")
-                typer.echo(f"  + {act_type}: {title[:65]}")
-                saved_total += 1
-
+        lp = local_issue_path(issue, local_root) if local_root else None
+        if lp and lp.exists():
+            local_tasks.append((
+                (issue.idObj, issue.broy, issue.year, issue.date),
+                str(lp),
+                allowed_types,
+                str(out_root),
+                resume,
+            ))
         else:
-            # Fall back to HTTP
-            typer.echo(f"Issue broy={issue.broy}/{issue.year} ({issue.date}) idObj={issue.idObj}")
+            http_issues.append(issue)
+
+    # ── Local mirror — parallel ────────────────────────────────────────────────
+    if local_tasks:
+        from open_legis.scraper.batch import process_issue_local
+
+        if workers > 1:
+            from concurrent.futures import ProcessPoolExecutor, as_completed
+            typer.echo(f"Processing {len(local_tasks)} local issues with {workers} workers")
+            with ProcessPoolExecutor(max_workers=workers) as pool:
+                futs = {pool.submit(process_issue_local, *task): task for task in local_tasks}
+                for fut in as_completed(futs):
+                    try:
+                        s, sk, logs = fut.result()
+                    except Exception as exc:
+                        typer.echo(f"  WORKER ERROR: {exc}", err=True)
+                        continue
+                    saved_total += s
+                    skipped_total += sk
+                    for line in logs:
+                        typer.echo(line)
+        else:
+            for task in local_tasks:
+                s, sk, logs = process_issue_local(*task)
+                saved_total += s
+                skipped_total += sk
+                for line in logs:
+                    typer.echo(line)
+
+    # ── HTTP fallback — sequential ─────────────────────────────────────────────
+    for issue in http_issues:
+        typer.echo(f"Issue broy={issue.broy}/{issue.year} ({issue.date}) idObj={issue.idObj}")
+        try:
+            materials = get_issue_materials(issue.idObj, sleep=sleep)
+        except Exception as e:
+            typer.echo(f"  ERROR fetching materials: {e}", err=True)
+            continue
+
+        for mat in materials:
             try:
-                materials = get_issue_materials(issue.idObj, sleep=sleep)
+                title, body = get_material_text(mat.idMat, sleep=sleep)
             except Exception as e:
-                typer.echo(f"  ERROR fetching materials: {e}", err=True)
+                typer.echo(f"  ERROR fetching idMat={mat.idMat}: {e}", err=True)
                 continue
 
-            for mat in materials:
-                try:
-                    title, body = get_material_text(mat.idMat, sleep=sleep)
-                except Exception as e:
-                    typer.echo(f"  ERROR fetching idMat={mat.idMat}: {e}", err=True)
-                    continue
+            if not title:
+                continue
+            act_type = detect_act_type(title)
+            if act_type not in allowed_types:
+                continue
 
-                if not title:
-                    continue
-                act_type = detect_act_type(title)
-                if act_type not in allowed_types:
-                    continue
+            slug, xml = convert_material(
+                title=title, body=body, idMat=mat.idMat,
+                issue=issue, position=mat.page,
+            )
+            expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
+            akn_path = expr_dir / f"{issue.date}.bul.xml"
 
-                slug, xml = convert_material(
-                    title=title, body=body, idMat=mat.idMat,
-                    issue=issue, position=mat.page,
-                )
-                expr_dir = out_root / act_type / str(issue.year) / slug / "expressions"
-                akn_path = expr_dir / f"{issue.date}.bul.xml"
+            if resume and akn_path.exists():
+                skipped_total += 1
+                continue
 
-                if resume and akn_path.exists():
-                    skipped_total += 1
-                    continue
-
-                expr_dir.mkdir(parents=True, exist_ok=True)
-                akn_path.write_text(xml, encoding="utf-8")
-                typer.echo(f"  + {act_type}: {title[:65]}")
-                saved_total += 1
+            expr_dir.mkdir(parents=True, exist_ok=True)
+            akn_path.write_text(xml, encoding="utf-8")
+            typer.echo(f"  + {act_type}: {title[:65]}")
+            saved_total += 1
 
     typer.echo(f"Done: {saved_total} saved, {skipped_total} skipped")
 
