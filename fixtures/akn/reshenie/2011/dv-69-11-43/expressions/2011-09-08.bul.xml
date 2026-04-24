@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-43/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-43"/>
+          <FRBRalias value="Решение № 1115 от 10 август 2011 г. На основание чл. 14, 16, чл. 17, ал. 1, т. 4 и 5" name="short"/>
+          <FRBRalias value="Решение № 1115 от 10 август 2011 г. На основание чл. 14, 16, чл. 17, ал. 1, т. 4 и 5" name="eli" other="/eli/bg/reshenie/2011/dv-69-11-43"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-43/bul@2011-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-43/bul@2011-09-08"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-43/bul@2011-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-43/bul@2011-09-08.xml"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-08" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1115 от 10 август 2011 г. На основание чл. 14, 16, чл. 17, ал. 1, т. 4 и 5</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>във връзка с чл. 30 ЗАТУРБ и чл. 21, ал. 1, т. 16 и 23 ЗМСМА Общинският съвет – гр. Тетевен, реши: 1. Закрива следните кметства: Васильово – с административен център с. Ва­ сильово; Бабинци – с административен център с. Ба­ бинци; Дивчовото – с административен център с. Дивчовото. 2. След закриване на посочените кметства настоящите кметове на кметства да продължат да изпълняват своите задължения до приключване на изборния процес. Председател: М. Ганев 10347 ОБЩИНА ШУМЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

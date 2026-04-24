@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-17/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-17"/>
+          <FRBRalias value="Указ № 324 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 324 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2019/dv-1-19-17"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-17/bul@2019-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-17/bul@2019-01-03"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-17/bul@2019-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-17/bul@2019-01-03.xml"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 324 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Постановление № 224 на Минис- терския съвет от 2017 г. за одобряване на допълнителни разходи/трансфери за 2017 г. (ДВ, бр. 84 от 2017 г.), в чл. 1, ал. 1 т. 5 се изменя така: „5. Община Варна – средства в общ размер 85 000 000 лв., разпределени, както следва: а) за изграждане на бул. Васил Левски в участъка от ул. Подвис до ул. Девня, район „Приморски“, район „Одесос“, район „Мла- дост“, гр. Варна, подобект от км 0+150 до км 2+924 – 80 878 427 лв.; б) за изграждане на „Пробив на бул. Слив­ ница от о.т. 49 до о.т. 65 от бул. Ян Хунияди до бул. Атанас Москов по плана на ОП три, район „Владислав Варненчик“, гр. Варна – 4 121 573 лв.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 27 декември 2018 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

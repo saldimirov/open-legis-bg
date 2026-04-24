@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-36/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-36"/>
+          <FRBRalias value="Решение № 82 от 25 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 82 от 25 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-42-19-36"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-36/bul@2019-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-36/bul@2019-05-28"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-36/bul@2019-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-36/bul@2019-05-28.xml"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-28" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 82 от 25 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 82 от 25 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Габрово, одобрява подробен устрой- ствен план – парцеларен план (ПУП – ПП) за трасе на ел. провод до ПИ с идентификатор 57675.18.6 по КК на с. Поповци, община Габрово (имот № 018006 по КВС на землище с. Поповци, община Габрово). Председател: Л. Георгиева 3833 ОБЩИНА КАОЛИНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

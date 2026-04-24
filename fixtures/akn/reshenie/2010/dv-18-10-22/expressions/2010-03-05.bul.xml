@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-22"/>
+          <FRBRalias value="Решение № 490 от 29 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 490 от 29 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-18-10-22"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-22/bul@2010-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-22/bul@2010-03-05"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-22/bul@2010-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-22/bul@2010-03-05.xml"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-05" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 490 от 29 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 490 от 29 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 134, ал. 2, т. 6 ЗУТ Общинският съвет – гр. Костинброд, реши: Одобрява план за улична регулация (ПУР) на кв. 16 по плана на с. Петърч – продължение на о. к. 60 до о. к. 60 „в“ през о. к. 60 „а“ и о. к. 60 „б“ по червени, сини и кафяви линии, цифри, букви и текст, съгласно приложения проект. Решението може да бъде обжалвано пред Ад­ министративния съд – София област, по реда на чл. 214 ЗУТ. Председател: З. Йорданова 1591</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

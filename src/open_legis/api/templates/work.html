@@ -31,7 +31,7 @@
         </ul>
         {% endif %}
       </li>
-      {% elif el.type == 'section' %}
+      {% elif el.type == 'section' and (el.num or el.heading) %}
       <li>
         <a href="#{{ el.e_id }}"
            class="block py-0.5 pr-2 text-xs leading-snug truncate rounded hover:text-blue-600 hover:bg-blue-50 px-2 text-gray-400 pl-3">
@@ -127,9 +127,15 @@
 
             {% elif el.type == 'section' %}
             <div id="{{ el.e_id }}" class="mt-5 mb-2 scroll-mt-4">
+              {% if el.num or el.heading %}
               <h3 class="text-sm font-semibold text-blue-800">{{ el.num }}{% if el.heading %} — {{ el.heading }}{% endif %}</h3>
+              {% endif %}
             </div>
+            {% if el.children %}
             {{ render_elements(el.children, depth + 1) }}
+            {% elif el.text %}
+            <div class="prose-law text-sm text-gray-800 leading-relaxed mt-2 whitespace-pre-line">{{ el.text }}</div>
+            {% endif %}
 
             {% elif el.type == 'hcontainer' and el.children %}
             <div id="{{ el.e_id }}" class="mt-8 mb-2 scroll-mt-4">

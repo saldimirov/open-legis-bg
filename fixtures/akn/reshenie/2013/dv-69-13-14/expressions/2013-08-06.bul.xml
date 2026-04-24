@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-14/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-14"/>
+          <FRBRalias value="Решение № 238 от 27 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 238 от 27 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-69-13-14"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-14/bul@2013-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-14/bul@2013-08-06"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-14/bul@2013-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-14/bul@2013-08-06.xml"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-06" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 238 от 27 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 238 от 27 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, чл. 60, ал. 1 АПК и пред­ ложение с вх. № 583 от 14.06.2013 г. на кмета на община Сандански Общинският съвет – гр. Сандански, реши: 1. Одобрява ПУП – парцеларен план за обект „Възстановяване на земното покритие на тран­ зитен газопровод за Гърция при прехода през р. Струма на ПК 990+00 при с. Вълково“. 2. Допуска предварително изпълнение на реше­ нието за одобряване на ПУП – парцеларен план. Председател: Ат. Стоянов 6007 ОБЩИНА СЕПТЕМВРИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

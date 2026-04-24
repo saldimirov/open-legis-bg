@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-80-17-2/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-80-17-2"/>
+          <FRBRalias value="Указ № 197 На основание чл. 129, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 197 На основание чл. 129, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2017/dv-80-17-2"/>
+          <FRBRdate date="2017-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-80-17-2/bul@2017-10-06/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-80-17-2/bul@2017-10-06"/>
+          <FRBRdate date="2017-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-80-17-2/bul@2017-10-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-80-17-2/bul@2017-10-06.xml"/>
+          <FRBRdate date="2017-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-10-06" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 197 На основание чл. 129, ал. 2 от Конститу-</p>
+      <p>(обн., ДВ, бр. 94 от 2009 г.; изм. и доп., бр. 74 от 2010 г., бр. 16, 33 и 102 от 2011 г., бр. 22 и 49 от 2012 г., бр. 80 от 2013 г., бр. 27 от 2014 г., бр. 32 от 2015 г. и бр. 96 от 2016 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 197 На основание чл. 129, ал. 2 от Конститу- цията на Репуб­лика България П О С Т А Н О В Я В А М : Връщам на Висшия съдебен съвет пред- ложението за назначаване на Георги Златев Чолаков за председател на Върховния адми- нистративен съд за повторно предложение. Издаден в София на 4 октомври 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева 7329 Решението е прието от 44-то Народно съб­ рание на 4 октомври 2017 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

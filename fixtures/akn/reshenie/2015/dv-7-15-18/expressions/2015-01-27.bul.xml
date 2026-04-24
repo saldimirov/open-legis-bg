@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-18"/>
+          <FRBRalias value="Решение № 263 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 263 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2015/dv-7-15-18"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-18/bul@2015-01-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-18/bul@2015-01-27"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-18/bul@2015-01-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-18/bul@2015-01-27.xml"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-27" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 263 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 263 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазарджик, одобрява ПУП – парце- ларен план за трасе на захранващ електропровод НН с дължина на трасето около 1000 м, започващ от съществуваща кабелна линия до ПИ № 023045 за захранване на имоти в масиви 16 и 23 по КВС на землище Мокрище, преминаващо през ПИ № 000149, 000152, 000167 и 000168 – полски пътища, общинска собственост, съгласно изчертаните с червено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 313</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-66-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-66-16-2"/>
+          <FRBRalias value="Указ № 286 На основание чл. 98, т. 7 от Конституци­" name="short"/>
+          <FRBRalias value="Указ № 286 На основание чл. 98, т. 7 от Конституци­" name="eli" other="/eli/bg/ukaz/2016/dv-66-16-2"/>
+          <FRBRdate date="2016-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-66-16-2/bul@2016-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-66-16-2/bul@2016-08-23"/>
+          <FRBRdate date="2016-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-66-16-2/bul@2016-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-66-16-2/bul@2016-08-23.xml"/>
+          <FRBRdate date="2016-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-23" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 286 На основание чл. 98, т. 7 от Конституци­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите да из­ върши произтичащите от чл. 1 промени по централния бюджет за 2016 г., включително на бюджетните взаимоотношения на общините с централния бюджет за 2016 г. СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 66 Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 51, ал. 2 и чл. 109, ал. 3 от Закона за публичните финанси и чл. 90, ал. 2 от Закона за държавния бюджет на Република България за 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

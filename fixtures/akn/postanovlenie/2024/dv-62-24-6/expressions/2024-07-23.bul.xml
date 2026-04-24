@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-6/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-6"/>
+          <FRBRalias value="Постановление № 251 от 18 юли 2024 г. за отменяне на Постановление № 345 на Министерския съвет от 2023 г. за създаване на Консултативен съвет по въпроси, свързани със защитата на българската държава по международни арбитражни дела" name="short"/>
+          <FRBRalias value="Постановление № 251 от 18 юли 2024 г. за отменяне на Постановление № 345 на Министерския съвет от 2023 г. за създаване на Консултативен съвет по въпроси, свързани със защитата на българската държава по международни арбитражни дела" name="eli" other="/eli/bg/postanovlenie/2024/dv-62-24-6"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-6/bul@2024-07-23/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-6/bul@2024-07-23"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-6/bul@2024-07-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-6/bul@2024-07-23.xml"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-07-23" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 251 от 18 юли 2024 г. за отменяне на Постановление № 345 на Министерския съвет от 2023 г. за създаване на Консултативен съвет по въпроси, свързани със защитата на българската държава по международни арбитражни дела</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Министърът на финансите в качеството си на законен представител на държавата по международни арбитражни дела да уреди заварените отношения във връзка с организирането на защитата и процесуалното представителство на българската държава по международните арбитражни дела, по отношение на които е бил приложим редът по Постановление № 345 на Министерския съвет от 2023 г. за създаване на Консултативен съвет по въпроси, свързани със защитата на българската държава по международни арбитражни дела (ДВ, бр. 107 от 2023 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

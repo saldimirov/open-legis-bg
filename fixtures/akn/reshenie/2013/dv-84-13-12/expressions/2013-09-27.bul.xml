@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-12"/>
+          <FRBRalias value="Решение № 108 от 23 август 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="short"/>
+          <FRBRalias value="Решение № 108 от 23 август 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="eli" other="/eli/bg/reshenie/2013/dv-84-13-12"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-12/bul@2013-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-12/bul@2013-09-27"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-84-13-12/bul@2013-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-84-13-12/bul@2013-09-27.xml"/>
+          <FRBRdate date="2013-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-27" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 108 от 23 август 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 108 от 23 август 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бяла, област Русе, одобрява ПУП – ПП (подробен устройствен план – парцеларен план) за прокарване на водопроводно отклонение за захранване с вода на имот № 003001 през позем­ лен имот № 001338 по плана за земеразделяне на с. Копривец, ЕКАТТЕ 38529 – общински път с. Копривец – с. Дряновец – общинска собстве­ ност, с дължина на отклонението 132 м. Председател: А. Александрова-Тюркеджиева 7087 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

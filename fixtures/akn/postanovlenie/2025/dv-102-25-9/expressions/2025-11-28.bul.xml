@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-9/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-9"/>
+          <FRBRalias value="Постановление № 260 от 26 ноември 2025 г. за изменение на Устройствения правилник на Държавна агенция „Държавен резерв и военновременни запаси“, приет с Постановление № 13 на Министерския съвет от 2004 г." name="short"/>
+          <FRBRalias value="Постановление № 260 от 26 ноември 2025 г. за изменение на Устройствения правилник на Държавна агенция „Държавен резерв и военновременни запаси“, приет с Постановление № 13 на Министерския съвет от 2004 г." name="eli" other="/eli/bg/postanovlenie/2025/dv-102-25-9"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-9/bul@2025-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-9/bul@2025-11-28"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-102-25-9/bul@2025-11-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-102-25-9/bul@2025-11-28.xml"/>
+          <FRBRdate date="2025-11-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-11-28" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 260 от 26 ноември 2025 г. за изменение на Устройствения правилник на Държавна агенция „Държавен резерв и военновременни запаси“, приет с Постановление № 13 на Министерския съвет от 2004 г.</p>
+      <p>(обн., ДВ, бр. 8 от 2004 г.; изм. и доп., бр. 55, 78 и 89 от 2005 г., бр. 40 и 48 от 2006 г., бр. 23 от 2007 г., бр. 43 и 53 от 2008 г., бр. 89 от 2009 г., бр. 3 и 58 от 2010 г., бр. 49 от 2012 г., бр. 16 от 2013 г., бр. 86 от 2014 г., бр. 25 от 2015 г., бр. 42 от 2016 г., бр. 54 и 101 от 2017 г., бр. 78 от 2018 г., бр. 101 от 2019 г., бр. 74 от 2022 г. и бр. 58 от 2024 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 10 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Точка 7 се отменя.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В т. 8 абревиатурата „ЗПКОНПИ“ се заменя със „Закона за противодействие на корупцията“.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

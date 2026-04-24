@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-17/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-17"/>
+          <FRBRalias value="Решение № 821 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 821 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-67-18-17"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-17/bul@2018-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-17/bul@2018-08-14"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-17/bul@2018-08-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-17/bul@2018-08-14.xml"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-14" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 821 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 821 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Раднево, реши: Одобрява ПУП – план за регулация на УПИ І-526 – „За ОДО“, в кв. 145 и УПИ І-527 – „За ОДО“, в кв. 212 по плана на гр. Раднево и създаване на нова улица с о.т. 5602 – 6663 с ширина 10 м. На основание чл. 60, ал. 1 от АПК допуска предварително изпълнение на настоящото ре­ шение. Председател: Р. Йовчев 7493</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

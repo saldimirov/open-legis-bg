@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-14/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-14"/>
+          <FRBRalias value="Решение № 163 от 26 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 163 от 26 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2017/dv-71-17-14"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-14/bul@2017-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-14/bul@2017-09-01"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-14/bul@2017-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-14/bul@2017-09-01.xml"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-09-01" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 163 от 26 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 163 от 26 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 134, ал. 1, т. 1 във връзка с чл. 136, ал. 1 и чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Ви­ дин, реши: Одобрява проект за изменение на общ устрой­ ствен план на община Видин, с който предназна­ чението на ПИ 068065, местност Блато, землище с. Покрайна, община Видин, да се промени от „Земеделска територия с допустима промяна по ОУП за обслужващи терени“ и територия с предназначение „Обработваеми земеделски земи“ в територия с предназначение за „Пре­ димно производствена дейност с преобладаващи складови функции“. Председател: Г. Велков 6362 ОБЩИНА ДОБРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

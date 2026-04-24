@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-24"/>
+          <FRBRalias value="Решение № 96 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА в" name="short"/>
+          <FRBRalias value="Решение № 96 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА в" name="eli" other="/eli/bg/reshenie/2017/dv-41-17-24"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-24/bul@2017-05-23/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-24/bul@2017-05-23"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-41-17-24/bul@2017-05-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-41-17-24/bul@2017-05-23.xml"/>
+          <FRBRdate date="2017-05-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-23" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 96 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА в</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 96 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА в съответствие с чл. 129, ал. 1 ЗУТ във връзка с Правилника за прилагане на Закона за опазване на земеделските земи Общинският съвет „Ма­ рица“ реши: Одобрява ПУП – парцеларен план на трасе за проектиране на обект: Уличен водопровод PE-HD ∅ 90 с L=290 м за нуждите на имот с идентификатор 11845.16.158 (УПИ I-16.21) по полски път с идентификатор 11845.16.25 по КК на с. Войводиново, община „Марица“, във връзка с искане от „Истрой“ – ЕООД, представлявано от Иван Янков Петков, с вх. № 53-01-6</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

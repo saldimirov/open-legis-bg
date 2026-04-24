@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-11"/>
+          <FRBRalias value="Указ № 36 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 36 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2010/dv-19-10-11"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-11/bul@2010-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-11/bul@2010-03-09"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-11/bul@2010-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-11/bul@2010-03-09.xml"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-09" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 36 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 36 На основание чл. 98, т. 8 от Конституцията на Република България П О С ТА Н О В Я В А М : Награждавам г-н Ким Мьонг-джин, извън­ реден и пълномощен посланик на Република Корея в Република България, с орден „Стара планина“ първа степен за изключително голе­ мите му заслуги за развитието и укрепването на българо-корейските отношения и по повод окончателното му отпътуване от страната. Издаден в София на 25 февруари 2010 г. Президент на републиката: Георги Първанов Министър на външните работи: Николай Младенов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова 1957</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

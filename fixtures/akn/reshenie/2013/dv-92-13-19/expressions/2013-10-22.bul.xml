@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-19"/>
+          <FRBRalias value="Решение № 431 от 31 юли 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="short"/>
+          <FRBRalias value="Решение № 431 от 31 юли 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="eli" other="/eli/bg/reshenie/2013/dv-92-13-19"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-19/bul@2013-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-19/bul@2013-10-22"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-19/bul@2013-10-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-19/bul@2013-10-22.xml"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-22" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 431 от 31 юли 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 431 от 31 юли 2013 г. На основание чл. 21, ал. 2 във връзка с ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съ- вет – гр. Ихтиман, одобрява проект за ПУП – ПП на техническата инфраструктура за обект „Нов ГИС Ихтиман и газопроводно отклонение“ за имот ПИ 054027, м. Гьола, землище с. Стамболово, на „Булгартрансгаз“ – ЕАД, София. Председател: Д. Бонев 7682 ОБЩИНА ЛЯСКОВЕЦ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

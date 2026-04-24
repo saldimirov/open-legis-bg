@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-2"/>
+          <FRBRalias value="Указ № 163 На основание чл. 98, т. 6 от Конституцията на Република  България" name="short"/>
+          <FRBRalias value="Указ № 163 На основание чл. 98, т. 6 от Конституцията на Република  България" name="eli" other="/eli/bg/ukaz/2012/dv-34-12-2"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-2/bul@2012-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-2/bul@2012-05-04"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-2/bul@2012-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-2/bul@2012-05-04.xml"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-04" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 163 На основание чл. 98, т. 6 от Конституцията на Република  България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С ТА Н О В Я В А М : Освобождавам Атанас Павлов Велчев от длъжността извънреден и пълномощен посла­  Финансов договор между Република България и Европейската инвестици­ онна банка (България – проект „Ду- нав мост – транш II“) 10  Изменение № 1 към Финансовия до­ говор между Република България и Европейската инвестиционна банка („България – проект Дунав мост – Б“) 24 Национален статистически институт  Меморандум за разбирателство между Националния статистически институт на Република България и Националния институт по статис­ тика на Румъния за сътрудничество в областта на статистиката 25 НАРОДНО СЪБРАНИЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

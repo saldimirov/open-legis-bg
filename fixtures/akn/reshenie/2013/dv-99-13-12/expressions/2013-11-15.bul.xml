@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-99-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-99-13-12"/>
+          <FRBRalias value="Решение № 90 от 31 октомври 2013 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 90 от 31 октомври 2013 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2013/dv-99-13-12"/>
+          <FRBRdate date="2013-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-99-13-12/bul@2013-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-99-13-12/bul@2013-11-15"/>
+          <FRBRdate date="2013-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-99-13-12/bul@2013-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-99-13-12/bul@2013-11-15.xml"/>
+          <FRBRdate date="2013-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-15" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 90 от 31 октомври 2013 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 90 от 31 октомври 2013 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 18 ноември 2013 г., сребърна възпоменателна монета „Бачков­ ски манастир“ от серията „Български църкви и манастири“ със следното описание: Технически параметри номинална стойност – 10 лева; метал – сребро, с проба 925/1000; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2013; тираж – 3000 броя. Графични елементи На лицевата страна: вляво реплика на чудо­ творната икона „Богородица умиление“ от Бач- ковския манастир; вдясно номиналната стойност „10 ЛЕВА“, годината на емисията „2013“, ембле­ мата на БНБ с годината „1879“ върху лентата и в полукръг надпис „БЪЛГАРСКА НАРОДНА БАНКА“. На обратната страна: Бачковският манастир, два ангела с икона на Богородица от стенописа над манастирската порта; околовръст надпис „БАЧКОВСКИ МАНАСТИР • УСПЕНИЕ БО­ ГОРОДИЧНО“. Авторите на художествения проект са Евгения Цанкова и Пламен Чернев. Управител: Ив. Искров 8280 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

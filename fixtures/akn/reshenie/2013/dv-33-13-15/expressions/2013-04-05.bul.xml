@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-33-13-15/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-33-13-15"/>
+          <FRBRalias value="Решение № 29 от 7 март 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 29 от 7 март 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2013/dv-33-13-15"/>
+          <FRBRdate date="2013-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-33-13-15/bul@2013-04-05/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-33-13-15/bul@2013-04-05"/>
+          <FRBRdate date="2013-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-33-13-15/bul@2013-04-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-33-13-15/bul@2013-04-05.xml"/>
+          <FRBRdate date="2013-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-04-05" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 29 от 7 март 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 29 от 7 март 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – Ивайловград, одобрява попълването на кадастралния план и изменението на ПУП – ПР (подробен устройствен план – план за регулация) на част от подробен устройствен план на с. Кон­ дово, като се прокарва нова улица от осова точка (о.т.) 34 – 101 – 102 – 103 – 104 – 105 – 106 – 107 – 108 – 109 – 110 до о.т. 111 и от кв. 9 се образуват 9 и 9а, а от кв. 10 се образуват 10, 10а и 10б и промяна на дворищната регулация на засегнатите имоти по ПУП на с. Кондово, ЕКАТТЕ 38248, община Ивайловград. Председател: Д. Кисьова-Зафирова 2937 ОБЩИНА РАЗГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

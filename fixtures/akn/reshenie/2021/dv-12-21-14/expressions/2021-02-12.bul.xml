@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-14/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-14"/>
+          <FRBRalias value="Решение № 19 от 28 януари 2021 г." name="short"/>
+          <FRBRalias value="Решение № 19 от 28 януари 2021 г." name="eli" other="/eli/bg/reshenie/2021/dv-12-21-14"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-14/bul@2021-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-14/bul@2021-02-12"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-14/bul@2021-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-14/bul@2021-02-12.xml"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-02-12" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 19 от 28 януари 2021 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 19 от 28 януари 2021 г. 1. На основание чл. 26 от Закона за Българ- ската народна банка БНБ изважда от обращение възпоменателните монети, емитирани през 2015 г., които престават да бъдат законно платежно сред- ство от 8.02.2021 г. 2. Възпоменателните монети, емитирани през 2015 г., да се обменят на касите на БНБ по номинална стойност, без ограничение на количеството, без такса и със срок на обмяна до 31.12.2022 г. Управител: Д. Радев 659 ОБЩИНА ВИДИН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

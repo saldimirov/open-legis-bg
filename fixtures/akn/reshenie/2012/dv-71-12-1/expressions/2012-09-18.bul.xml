@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-71-12-1/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-71-12-1"/>
+          <FRBRalias value="Решение за одобрение на Правилника за организа­" name="short"/>
+          <FRBRalias value="Решение за одобрение на Правилника за организа­" name="eli" other="/eli/bg/reshenie/2012/dv-71-12-1"/>
+          <FRBRdate date="2012-09-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-71-12-1/bul@2012-09-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-71-12-1/bul@2012-09-18"/>
+          <FRBRdate date="2012-09-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-71-12-1/bul@2012-09-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-71-12-1/bul@2012-09-18.xml"/>
+          <FRBRdate date="2012-09-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-09-18" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за одобрение на Правилника за организа­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>цията и дейността на омбудсмана Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бълга­ рия и чл. 3, ал. 2 от Закона за омбудсмана във връзка с § 6 от преходните и заключи­ телните разпоредби на Закона за изменение и допълнение на Закона за омбудсмана (ДВ, бр. 29 от 2012 г.) Р Е Ш И : Одобрява Правилника за организацията и дейността на омбудсмана (приложение). Решението е прието от 41-ото Народно събрание на 4 септември 2012 г. и е подпе­ чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-82-12-7/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-82-12-7"/>
+          <FRBRalias value="Указ № 356 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 356 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2012/dv-82-12-7"/>
+          <FRBRdate date="2012-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-82-12-7/bul@2012-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-82-12-7/bul@2012-10-26"/>
+          <FRBRdate date="2012-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-82-12-7/bul@2012-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-82-12-7/bul@2012-10-26.xml"/>
+          <FRBRdate date="2012-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-26" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 356 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 356 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Допълнителния протокол от Нагоя – Куала Лумпур за отго­ ворността и обезщетяването към Протокола от Картахена по биологична безопасност, приет от ХLI Народно събрание на 11 ок­ томври 2012 г. Издаден в София на 17 октомври 2012 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Диана Ковачева СТР. 38 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 82</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

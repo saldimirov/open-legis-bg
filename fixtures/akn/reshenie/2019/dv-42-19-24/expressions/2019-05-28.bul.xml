@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-24/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-24"/>
+          <FRBRalias value="Решение № 1518-3 от 30 януари 2019 г. На основание чл. 21, ал. 1, т. 8 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1518-3 от 30 януари 2019 г. На основание чл. 21, ал. 1, т. 8 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2019/dv-42-19-24"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-24/bul@2019-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-24/bul@2019-05-28"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-42-19-24/bul@2019-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-42-19-24/bul@2019-05-28.xml"/>
+          <FRBRdate date="2019-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-28" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1518-3 от 30 януари 2019 г. На основание чл. 21, ал. 1, т. 8 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1518-3 от 30 януари 2019 г. На основание чл. 21, ал. 1, т. 8 от ЗМСМА, чл. 3, ал. 3, т. 2 във връзка с чл. 4, ал. 4 от ЗПСК Общинският съвет – гр. Варна, реши: 1. Открива процедура за приватизация на об- щински нежилищен имот, намиращ се във Варна, ул. Гоце Делчев № 63, представляващ гараж № 5, предмет на АОС № 9401/7.02.2017 г. 2. Забранява извършването на разпоредителни сделки с имуществото на обекта, сключване на договори за дялово участие, за наем, за съвместна дейност, обезпечаване на вземания и сключване на договори за кредити, отнасящи се до обекта. Председател: Т. Балабанов 3857</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

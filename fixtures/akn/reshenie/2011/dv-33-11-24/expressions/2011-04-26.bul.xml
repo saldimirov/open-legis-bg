@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-24"/>
+          <FRBRalias value="Решение № 777 от 31 март 2011 г. На основание чл. 62, ал. 2 АПК във връзка с" name="short"/>
+          <FRBRalias value="Решение № 777 от 31 март 2011 г. На основание чл. 62, ал. 2 АПК във връзка с" name="eli" other="/eli/bg/reshenie/2011/dv-33-11-24"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-24/bul@2011-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-24/bul@2011-04-26"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-24/bul@2011-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-24/bul@2011-04-26.xml"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 777 от 31 март 2011 г. На основание чл. 62, ал. 2 АПК във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 777 от 31 март 2011 г. На основание чл. 62, ал. 2 АПК във връзка с чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Балчик, прави поправка в Решение № 384 от 24.09.2009 г. (ДВ, бр. 82 от 2009 г.), с което е одобрен ПУП – парцеларен план за подземен електропровод 20 kV, като думата „в“ се замества със „за захранване на“ и текстът става: „одобрява ПУП – парцеларен план за „Подземен електропровод – 20 kV, за захранване на ПИ 77390.21.69“ по кадастралната карта на с. Храброво, община Балчик“. Председател: Ст. Павлов 4642</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

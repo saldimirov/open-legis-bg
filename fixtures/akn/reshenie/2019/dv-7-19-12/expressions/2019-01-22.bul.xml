@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-12"/>
+          <FRBRalias value="Решение № 904 от 7 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 904 от 7 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="eli" other="/eli/bg/reshenie/2019/dv-7-19-12"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-12/bul@2019-01-22/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-12/bul@2019-01-22"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-12/bul@2019-01-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-12/bul@2019-01-22.xml"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-22" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 904 от 7 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 904 от 7 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Кос- тинброд, одобрява проект за ПУП – ИПР (изме- нение на плана за регулация) на улица в частта на о.т. 470 до о.т. 472 между кв. 181 и кв. 185 по плана на Костинброд. Председател: Ат. Тенев 236 ОБЩИНА НИКОЛАЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

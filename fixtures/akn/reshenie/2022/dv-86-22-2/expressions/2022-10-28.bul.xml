@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-86-22-2/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-86-22-2"/>
+          <FRBRalias value="Решение за изменение на Правилника за организа-" name="short"/>
+          <FRBRalias value="Решение за изменение на Правилника за организа-" name="eli" other="/eli/bg/reshenie/2022/dv-86-22-2"/>
+          <FRBRdate date="2022-10-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-86-22-2/bul@2022-10-28/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-86-22-2/bul@2022-10-28"/>
+          <FRBRdate date="2022-10-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-86-22-2/bul@2022-10-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-86-22-2/bul@2022-10-28.xml"/>
+          <FRBRdate date="2022-10-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-10-28" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение на Правилника за организа-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 16 ал. 2 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Постоянните комисии на Народното събрание са: 1. Комисия по бюджет и финанси; 2. Комисия по конституционни въпроси; 3. Комисия по правни въпроси; 4. Комисия по икономическа политика и иновации; 5. Комисия по енергетика; 6. Комисия по регионална политика, бла- гоустройство и местно самоуправление; 7. Комисия по външна политика; 8. Комисия по въпросите на Европейския съюз; 9. Комисия по отбрана; 10. Комисия по вътрешна сигурност и обществен ред; 11. Комисия за контрол над службите за сигурност, прилагането и използването на специалните разузнавателни средства и дос- тъпа до данните по Закона за електронните съобщения; 12. Комисия по земеделието, храните и горите; 13. Комисия по труда, социалната и демо- графската политика; 14. Комисия по образованието и науката; 15. Комисия по въпросите на децата, мла- дежта и спорта; 16. Комисия по здравеопазването; 17. Комисия по околната среда и водите; 18. Комисия по транспорт и съобщения; 19. Комисия по електронно управление и информационни технологии; 20. Комисия по културата и медиите; 21. Комисия за прякото участие на граж- даните и взаимодействието с гражданското общество; 22. Комисия по правата на човека, вероиз- поведанията и жалбите на гражданите; 23. Комисия по политиките за българите извън страната; 24. Комисия по превенция и противодей- ствие на корупцията; 25. Комисия по туризъм.“ Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Решението влиза в сила от деня на обнародването му в „Държавен вестник“. Решението е прието от 48-ото Народно съб- рание на 26 октомври 2022 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-39/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-39"/>
+          <FRBRalias value="Решение № 193 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 193 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-35-16-39"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-39/bul@2016-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-39/bul@2016-05-10"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-39/bul@2016-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-39/bul@2016-05-10.xml"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-10" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 193 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 193 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и Решение № 016 на Общинския експертен съвет по устройство на територията при Община Силистра, взето на заседание с протокол № 02 от 21.01.2016 г., Общинският съвет – гр. Силистра, одобрява подробен устройствен план на територията на община Силистра: ПУП – ПП за захранване на ПИ № 41143.174.12 и № 41143.174.11 в землището на с. Калипетрово, местността Край селото. Председател: М. Димитрова 3386 ОБЩИНА СЛИВНИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

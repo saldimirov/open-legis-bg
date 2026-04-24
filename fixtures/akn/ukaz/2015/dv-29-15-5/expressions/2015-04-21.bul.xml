@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-29-15-5/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-29-15-5"/>
+          <FRBRalias value="Указ № 60 На основание чл. 98, т. 4 от Конституци­" name="short"/>
+          <FRBRalias value="Указ № 60 На основание чл. 98, т. 4 от Конституци­" name="eli" other="/eli/bg/ukaz/2015/dv-29-15-5"/>
+          <FRBRdate date="2015-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-29-15-5/bul@2015-04-21/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-29-15-5/bul@2015-04-21"/>
+          <FRBRdate date="2015-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-29-15-5/bul@2015-04-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-29-15-5/bul@2015-04-21.xml"/>
+          <FRBRdate date="2015-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-21" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 60 На основание чл. 98, т. 4 от Конституци­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 60 На основание чл. 98, т. 4 от Конституци­ ята на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Споразумение­ то за поддържане на гарнизон (GSA) между Република България, представяна от Минис­ терството на отбраната, и Върховното главно командване на обединените въоръжени сили в Европа (SHAPE) относно Базова поддръжка на Модул на КИС със способности за раз­ връщане (DCM), 2-ри Свързочен батальон на НАТО (2NSB), приет от ХLІІI Народно събрание на 9 април 2015 г. Издаден в София на 16 април 2015 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Христо Иванов БРОЙ 29 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 7</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-77-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-77-16-2"/>
+          <FRBRalias value="Указ № 309 На основание чл. 98, т. 7 от Консти­" name="short"/>
+          <FRBRalias value="Указ № 309 На основание чл. 98, т. 7 от Консти­" name="eli" other="/eli/bg/ukaz/2016/dv-77-16-2"/>
+          <FRBRdate date="2016-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-77-16-2/bul@2016-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-77-16-2/bul@2016-10-04"/>
+          <FRBRdate date="2016-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-77-16-2/bul@2016-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-77-16-2/bul@2016-10-04.xml"/>
+          <FRBRdate date="2016-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-04" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 309 На основание чл. 98, т. 7 от Консти­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 309 На основание чл. 98, т. 7 от Консти­ туцията на Република България и чл. 11, ал. 1 от Закона за Националната служба за охрана П О С Т А Н О В Я В А М : Назначавам полковник Росен Тинков То­ доров на длъжността заместник-началник на Националната служба за охрана. Изпълнението на указа възлагам на на­ чалника на Националната служба за охрана. Издаден в София на 17 септември 2016 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Екатерина Захариева 7675</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

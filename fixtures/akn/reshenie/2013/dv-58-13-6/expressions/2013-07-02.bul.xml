@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-6"/>
+          <FRBRalias value="Решение № 737 от 21 юни 2013 г. На основание чл. 3, ал. 3, чл. 4, ал. 4 ЗПСК," name="short"/>
+          <FRBRalias value="Решение № 737 от 21 юни 2013 г. На основание чл. 3, ал. 3, чл. 4, ал. 4 ЗПСК," name="eli" other="/eli/bg/reshenie/2013/dv-58-13-6"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-6/bul@2013-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-6/bul@2013-07-02"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-6/bul@2013-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-6/bul@2013-07-02.xml"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-02" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 737 от 21 юни 2013 г. На основание чл. 3, ал. 3, чл. 4, ал. 4 ЗПСК,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 737 от 21 юни 2013 г. На основание чл. 3, ал. 3, чл. 4, ал. 4 ЗПСК, чл. 8, ал. 12, т. 1 и 7 от Правилника за дейността на СОАП Надзорният съвет на Столичната об­ щинска агенция за приватизация реши: Отменя свое Решение № 663 от 17.05.2013 г. (ДВ, бр. 48 от 2013 г.) за насрочване на публичен търг с явно наддаване за следния обект: ПИ с идентификатор 07140.8092.1597 и сграда, гр. Бу­ хово, ул. Никола Бонев, на ъгъла с ул. Янтра, общински нежилищен имот, стопанисван от район „Кремиковци“. Председател на Надзорния съвет: В. Чилова 5125 ОБЩИНА АСЕНОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

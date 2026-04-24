@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-60/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-60"/>
+          <FRBRalias value="Решение № 1542 от 21 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1542 от 21 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-96-10-60"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="60"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-60/bul@2010-12-07/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-60/bul@2010-12-07"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-60/bul@2010-12-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-60/bul@2010-12-07.xml"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-07" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1542 от 21 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1542 от 21 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и протокол № 46 на ПК по „Устройство на територията“ Общинският съ­ вет – гр. Самоков, одобрява ПУП – план за за­ строяване на поземлен имот № 271022 в местността Могилите, землище с. Алино, община Самоков, собственост на Надка Георгиева Гамалова, при обособена устройствена зона – вилна зона (Ов), с показатели: плътност на застрояване – до 40 %; коефициент на интензивност – до 0,8; височина на сградите – до 7 м; минимална озеленена площ – 50 %. Председател: Л. Янкова 9522</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

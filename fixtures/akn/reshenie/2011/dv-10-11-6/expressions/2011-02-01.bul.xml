@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-10-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-10-11-6"/>
+          <FRBRalias value="Решение № 434 от 27 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 434 от 27 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-10-11-6"/>
+          <FRBRdate date="2011-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-10-11-6/bul@2011-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-10-11-6/bul@2011-02-01"/>
+          <FRBRdate date="2011-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-10-11-6/bul@2011-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-10-11-6/bul@2011-02-01.xml"/>
+          <FRBRdate date="2011-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-01" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 434 от 27 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 434 от 27 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Твър­ дица, реши: Одобрява проект на ПУП – парцеларен план на подземни кабелни трасета с дължина 14 м през ПИ № 093006 за присъединяване към мрежа СрН на фотоволтаични и 2 броя вятърни генератора, разположени в ПИ № 093007 в землището на с. Сборище, община Твърдица, м. Тепята. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Твърдица пред Административния съд – Сливен. Председател: Хр. Сосеров 934 ОБЩИНА ХАСКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

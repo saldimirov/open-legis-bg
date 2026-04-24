@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-4/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-4"/>
+          <FRBRalias value="Закон за изменение на Закона за ратифициране на" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за ратифициране на" name="eli" other="/eli/bg/zid/2022/dv-47-22-4"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-4/bul@2022-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-4/bul@2022-06-24"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-47-22-4/bul@2022-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-47-22-4/bul@2022-06-24.xml"/>
+          <FRBRdate date="2022-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-24" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за ратифициране на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Точка 2 от декларацията към член единствен се изменя така: „2. Обвързва се с чл. 1, чл. 2, ал. 2 – 7, чл. 3, чл. 4, ал. 2 – 5, чл. 5, чл. 6, чл. 7, чл. 8, чл. 9, чл. 10, ал. 2, ал. 3, буква „а“ и ал. 4, чл. 11, чл. 12, чл. 13, ал. 1 – 3, чл. 14, чл. 16, чл. 17, ал. 2, чл. 18, ал. 4, чл. 19, ал. 5 и 9, чл. 20, чл. 21, чл. 22, чл. 24, чл. 25, чл. 26, чл. 27, ал. 2 и 3, чл. 28 и чл. 29 от част II на хартата.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Законът за ратифициране на чл. 2, ал. 3, част II от Европейската социална харта (ревизирана) (ДВ, бр. 12 от 2007 г.) се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

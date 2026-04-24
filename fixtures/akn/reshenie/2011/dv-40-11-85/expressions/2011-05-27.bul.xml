@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-85/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-85"/>
+          <FRBRalias value="Решение № 123 от 27 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 123 от 27 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-40-11-85"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="85"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-85/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-85/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-85/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-85/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 123 от 27 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 123 от 27 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сан­ дански, реши: Одобрява ПУП – парцеларен план за обект: „Кабел НН – ниско напрежение, за захранване на помпа за вода в имот № 042034“, м. Горна черква, в землището на с. Хърсово, община Сандански. Трасето преминава през имоти № 000232 – път IV клас, № 042003 –полски път, и достига до имот № 042034 – резервоар, в м. Горна черква, землището на с. Хърсово. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от об­ народването в „Държавен вестник“ чрез Община Сандански пред Административния съд – Бла­ гоевград. Председател: Ат. Стоянов 5992</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-49/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-49"/>
+          <FRBRalias value="Решение № 509 от 25 март 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 509 от 25 март 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-31-11-49"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="49"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-49/bul@2011-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-49/bul@2011-04-15"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-49/bul@2011-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-49/bul@2011-04-15.xml"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-15" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 509 от 25 март 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 509 от 25 март 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Малко Търново, реши: Одобрява проект за подробен устройствен план (ПУП) – парцеларен план за обект: „Полски път до ПИ 45022, местност Мечкобиево, землище гр. Малко Търново – пътна връзка на път ІІ-99, км 107+920 – ляво“. Трасето преминава през ПИ № 50.896, ПИ № 45.6, ПИ 45.7, ПИ № 45.8, ПИ № 45.9, ПИ № 45.11, ПИ № 45.12, ПИ № 45.13, ПИ № 45.17, ПИ № 45.20, ПИ № 45.22, ПИ № 45.900 и ПИ № 45.94. На основание чл. 215, ал. 4 ЗУТ, изречение второ, в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Малко Търново пред Административния съд – Бургас. Председател: Т. Петков 4295 ОБЩИНА МОНТАНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

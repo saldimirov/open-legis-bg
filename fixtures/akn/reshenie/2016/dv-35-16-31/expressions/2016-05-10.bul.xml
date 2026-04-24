@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-31"/>
+          <FRBRalias value="Решение № 37 от 9 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 37 от 9 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-35-16-31"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-31/bul@2016-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-31/bul@2016-05-10"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-31/bul@2016-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-31/bul@2016-05-10.xml"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-10" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 37 от 9 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>връзка с чл. 129, ал. 1 ЗУТ Общинският съ- вет – гр. Видин, реши: Одобрява проект за подробен устройствен план – парцеларен план по смисъла на чл. 110, ал. 1, т. 5 ЗУТ в обхват ПИ 10971.94.8, ПИ 10971.94.371 и ПИ 10971.94.20 на подобект „Ка- белна линия 20 kV от СРС до МТТ 63/20/0,4 kV към основен обект „Приют за бездомни живот- ни – кучета“, намиращ се в УПИ ІІ-274, кв. 94, местност Алимана, Видин. Председател: Г. Велков 3329 ОБЩИНА КЮСТЕНДИЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

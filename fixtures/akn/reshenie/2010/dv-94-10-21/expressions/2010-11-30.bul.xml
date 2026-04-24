@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-21"/>
+          <FRBRalias value="Решение № 1198 от 27 октомври 2010 г. за изменение на Функционалните специфи­" name="short"/>
+          <FRBRalias value="Решение № 1198 от 27 октомври 2010 г. за изменение на Функционалните специфи­" name="eli" other="/eli/bg/reshenie/2010/dv-94-10-21"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-21/bul@2010-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-21/bul@2010-11-30"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-94-10-21/bul@2010-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-94-10-21/bul@2010-11-30.xml"/>
+          <FRBRdate date="2010-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1198 от 27 октомври 2010 г. за изменение на Функционалните специфи­</p>
+      <p>(обн., ДВ, бр. 96 от 2008 г., в сила от 7.11.2008 г.; изм. и доп., бр. 26 от 2010 г., в сила от 6.04.2010 г.; изм. бр. 67 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 9 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 10 се отменя. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Решението се приема на основание чл. 134, ал. 3 от Закона за електронните съ­ общения и влиза в сила от деня на обнарод­ ването му в „Държавен вестник“. Председател: В. Божков 9312</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

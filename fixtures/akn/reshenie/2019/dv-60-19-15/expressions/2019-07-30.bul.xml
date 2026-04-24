@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-15"/>
+          <FRBRalias value="Решение за създаване на Временна анкетна комисия за" name="short"/>
+          <FRBRalias value="Решение за създаване на Временна анкетна комисия за" name="eli" other="/eli/bg/reshenie/2019/dv-60-19-15"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-15/bul@2019-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-15/bul@2019-07-30"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-15/bul@2019-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-15/bul@2019-07-30.xml"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-30" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за създаване на Временна анкетна комисия за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 4.</num>
+        <intro>
+          <p>Ратифицира международен договор (LOA) BU-P-LAR „Многофункционална сис- тема за разпределение на информация – Съв- местна тактическа радиосистема (MIDS JTRS)</p>
+        </intro>
+        <paragraph eId="art_1__al_1">
+          <num>(5)</num>
+          <content>
+            <p>и свързана с нея поддръжка и оборудване“ (Multifunctional Information Distribution System Joint Tactical Radio System (MIDS JTRS)</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(5)</num>
+          <content>
+            <p>and related support and equipment), подписан на 14 юни 2019 г. в гр. Вашингтон, САЩ, и на 11 юли 2019 г. в гр. София, Република България.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Договорите по чл. 1 – 4 да не се обнародват в „Държавен вестник“. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-28"/>
+          <FRBRalias value="Решение № 5-5 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 5-5 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-23-12-28"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-28/bul@2012-03-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-28/bul@2012-03-20"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-28/bul@2012-03-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-28/bul@2012-03-20.xml"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-20" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 5-5 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 във връзка с чл. 124, ал. 3, чл. 109, ал. 2 и чл. 110, ал. 1, т. 5 ЗУТ Общинският съ­ вет – гр. Добрич, реши: Одобрява подробен устройствен план – парце­ ларен план (ПУП – ПП) за обект „Реконструк­ ция на мрежа НН с усукан проводник от МТП „ВИЛИ“ – гр. Добрич, с обхват имоти 420.5; 900.29; 900.39; 900.398; 900.399; 900.401; 900.407; 900.408; 900.410; 900.429; 900.434; 901.470; 901.500; 902.400; 902.414; 902.418; 902.419; 902.422. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община гр. Добрич до Административния съд – Добрич. Председател: А. Табаков 2925 ОБЩИНА ОМУРТАГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

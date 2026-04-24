@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-25"/>
+          <FRBRalias value="Решение № 605 от 19 ноември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 605 от 19 ноември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2014/dv-102-14-25"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-25/bul@2014-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-25/bul@2014-12-12"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-102-14-25/bul@2014-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-102-14-25/bul@2014-12-12.xml"/>
+          <FRBRdate date="2014-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-12" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 605 от 19 ноември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 605 от 19 ноември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 134, ал. 2, т. 6, чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Царево, реши: Одобрява представения проект за ПУП – РУП, обхващащ кв. 114 и кв. 125 в кв. Зона Север по ПУП на гр. Царево, община Царево, област Бургас, по силата на който се определя разположението и очертанието на сградите в план, както и ми­ нималните разстояния между тях и до имотните граници съобразно допустимите за устройствената зона плътност и интензивност на застрояване, а именно: Пл. застр. – 40 %; Кинт. – 1,2; Пл. озел. – мин. 50 %; Н к.к. – 10 м (до 3 ет.). На основание чл. 215, ал. 4 ЗУТ в триде­ сетдневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване от лицата по чл. 131 ЗУТ чрез Община Царево пред Административния съд – Бургас. Председател: Д. Скулиев 8683 ОБЩИНА ЧИРПАН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

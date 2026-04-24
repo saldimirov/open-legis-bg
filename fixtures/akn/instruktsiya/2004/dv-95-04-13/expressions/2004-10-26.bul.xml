@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-13/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-13"/>
+          <FRBRalias value="Инструкция за изменение на Инструкция № 5 от 2001 г. за работата и отчетността с болничните листове за временна неработоспособност" name="short"/>
+          <FRBRalias value="Инструкция за изменение на Инструкция № 5 от 2001 г. за работата и отчетността с болничните листове за временна неработоспособност" name="eli" other="/eli/bg/instruktsiya/2004/dv-95-04-13"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-13/bul@2004-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-13/bul@2004-10-26"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-95-04-13/bul@2004-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-95-04-13/bul@2004-10-26.xml"/>
+          <FRBRdate date="2004-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-10-26" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за изменение на Инструкция № 5 от 2001 г. за работата и отчетността с болничните листове за временна неработоспособност</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 27 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 думата “само” се заличава и на края на изречението се добавя “и буква на латиница”.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Алинея 6 се изменя така:</p>
+              <p>“(6) Полето “Диагноза” е за буквено-цифров код на диагнозата по Международната класификация на болестите, като първият знак е буква, а последващите го - цифри. Буквено-цифровият код се вписва, като се ползва “ляво подравняване”.”</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Навсякъде в инструкцията думите “Кодекса за задължително обществено осигуряване” се заменят с “Кодекса за социално осигуряване”.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final_2__par_2" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 1 влиза в сила от 1 януари 2005 г.</p>
+            <p>Управител:  Й. Христосков</p>
+            <p>49652</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

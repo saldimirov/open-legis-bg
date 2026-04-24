@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-96-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-96-12-10"/>
+          <FRBRalias value="Решение № 249 от 30 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 249 от 30 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-96-12-10"/>
+          <FRBRdate date="2012-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-96-12-10/bul@2012-12-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-96-12-10/bul@2012-12-06"/>
+          <FRBRdate date="2012-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-96-12-10/bul@2012-12-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-96-12-10/bul@2012-12-06.xml"/>
+          <FRBRdate date="2012-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-06" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 249 от 30 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 249 от 30 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с докл. записка с вх. № К-278 от 11.10.2012 г. Общинският съвет – гр. Шабла, одобрява ПУП – парцеларен план за еле­ менти на техническата инфраструктура – обект: „Площадка № 1 – за брегоукрепване, площадка № 2 – за рибарски хелинг, площадка № 3 – за буна и подземен електропровод ниско напреже­ ние от ПИ 24102.503.162 до рибарски хелинг“, с. Дуранкулак, община Шабла, засягащ следните имоти: ПИ 24102.39.175, ПИ 24102.39.173, ПИ 24102.39.174, ПИ 24102.13.457, ПИ 24102.503.150, ПИ 24102.503.151 и ПИ 24102.503.171. Председател: Ж. Спасов 10835</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-27-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-27-11-14"/>
+          <FRBRalias value="Решение № 10 от 12 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 10 от 12 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-27-11-14"/>
+          <FRBRdate date="2011-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-27-11-14/bul@2011-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-27-11-14/bul@2011-04-01"/>
+          <FRBRdate date="2011-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-27-11-14/bul@2011-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-27-11-14/bul@2011-04-01.xml"/>
+          <FRBRdate date="2011-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-01" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 10 от 12 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 10 от 12 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 59, ал. 1, чл. 127, ал. 6 и чл. 136, ал. 1 ЗУТ Общинският съвет – гр. Видин, одобрява проект за изменение на общия устройствен план на Община Видин – смяна на устройствената зона от „Земеделска земя“ в зона за „Жилищ- но строителство“ за ПИ 006027, местност Край село, по картата на възстановената собственост, землище с. Капитановци. Председател: Св. Славчев 3865 ОБЩИНА ДЕВИН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

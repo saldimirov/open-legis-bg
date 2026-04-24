@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-9-21-7/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-9-21-7"/>
+          <FRBRalias value="Указ № 17 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 17 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-9-21-7"/>
+          <FRBRdate date="2021-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-9-21-7/bul@2021-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-9-21-7/bul@2021-02-02"/>
+          <FRBRdate date="2021-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-9-21-7/bul@2021-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-9-21-7/bul@2021-02-02.xml"/>
+          <FRBRdate date="2021-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-02-02" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 17 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 17 На основание чл. 98, т. 6 от Конституцията на Република България П О С Т А Н О В Я В А М : Освобождавам Любомир Николов Попов от длъжността извънреден и пълномощен посланик на Република България в Арабска република Египет. Изпълнението на указа възлагам на ми- нистъра на външните работи. Издаден в София на 20 януари 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

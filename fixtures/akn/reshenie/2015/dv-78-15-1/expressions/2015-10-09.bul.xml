@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-78-15-1/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-78-15-1"/>
+          <FRBRalias value="Решение № 5 от 29 септември 2015 г." name="short"/>
+          <FRBRalias value="Решение № 5 от 29 септември 2015 г." name="eli" other="/eli/bg/reshenie/2015/dv-78-15-1"/>
+          <FRBRdate date="2015-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-78-15-1/bul@2015-10-09/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-78-15-1/bul@2015-10-09"/>
+          <FRBRdate date="2015-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-78-15-1/bul@2015-10-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-78-15-1/bul@2015-10-09.xml"/>
+          <FRBRdate date="2015-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-09" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 5 от 29 септември 2015 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 5 от 29 септември 2015 г. по конституционно дело № 4 от 2015 г. Конституционният съд в състав: Димитър Токушев – председател, членове: Благовест Пунев, Пламен Киров, Красен Стойчев, Стефка Стоева, Румен Ненков, Кети Марко- ва, Георги Ангелов, Борис Велчев, Анастас Анастасов, Гроздан Илиев, при участието на секретар-протоколиста Росица Симова раз- гледа в закрито заседание на 29 септември 2015 г. конституционно дело № 4 от 2015 г., докладвано от съдията Красен Стойчев. Делото е образувано на 25 юни 2015 г. по искане на четиридесет и осем народни представители за установяване на противо- НАРОДНО СЪБРАНИЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

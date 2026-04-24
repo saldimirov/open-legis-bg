@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-40/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-40"/>
+          <FRBRalias value="Решение № 507 от 23 декември 2010 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 507 от 23 декември 2010 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-11-11-40"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-40/bul@2011-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-40/bul@2011-02-04"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-40/bul@2011-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-40/bul@2011-02-04.xml"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-04" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 507 от 23 декември 2010 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 507 от 23 декември 2010 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ­ вет – гр. Мездра, реши: Одобрява подробен устройствен план – пар­ целарен план на елемент на техническата инфра­ структура: „Подземна тръбна мрежа за оптична свързаност на територията на община Мездра – от разклонителна муфа на пътя Рашково до Базова станция в с. Зверино“, като част от комплексен проект за инвестиционна инициатива, премина­ ващ през следните поземлени имоти: в землището на с. Игнатица: № 001445 – път ІV клас, № 001446 – урбанизирана територия на с. Игнатица, № 001578 и № 001580, представ­ ляващи полски пътища – публична общинска собственост, № 107100, 110100, 111100 и 112100 в местност „Пелин“, представляващи залесени горски територии; в землището на с. Зверино: № 015200 – води и водни площи – държавна собственост, № 015104 и № 038800, представляващи горски територии. Председател: Д. Дамяновски 852 ОБЩИНА МЪГЛИЖ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

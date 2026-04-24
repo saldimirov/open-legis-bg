@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-13"/>
+          <FRBRalias value="Решение № 336 от 27 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 336 от 27 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2016/dv-94-16-13"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-13/bul@2016-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-13/bul@2016-11-25"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-13/bul@2016-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-13/bul@2016-11-25.xml"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-25" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 336 от 27 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 336 от 27 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП – парцеларен план на „Електропровод 20 kV от Подстанция „Гипсово“ по северния неработен борд на руд­ ник „Трояново-север“ – промяна на трасето от СРС № 14“ през поземлени имоти с идентифи­ катори 61460.242.107; 61460.242.112; 61460.242.63; 61460.242.64; 61460.242.86; 61460.242.87; 61460.242.88; 61460.242.89; 61460.242.9; 61460.242.90; 61460.242.91; 61460.245.101; 61460.245.118; 61460.245.119 и 61460.245.128 по одобрена кадастрална карта на гр. Раднево, община Раднево, област Стара Загора. Председател: Р. Йовчев 8990 ОБЩИНА СИМИТЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

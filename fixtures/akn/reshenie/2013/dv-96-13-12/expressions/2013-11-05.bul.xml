@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-96-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-96-13-12"/>
+          <FRBRalias value="Решение № 312 от 19 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 312 от 19 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21," name="eli" other="/eli/bg/reshenie/2013/dv-96-13-12"/>
+          <FRBRdate date="2013-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-96-13-12/bul@2013-11-05/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-96-13-12/bul@2013-11-05"/>
+          <FRBRdate date="2013-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-96-13-12/bul@2013-11-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-96-13-12/bul@2013-11-05.xml"/>
+          <FRBRdate date="2013-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-05" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 312 от 19 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 312 от 19 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1, т. 11 ЗМСМА, както и протоколи № 1 от 3.02.2011 г., т. 4, и № 2 от 21.03.2013 г., т. 4, на ОЕСУТ към Община Любимец Общинският съвет – гр. Любимец, одобрява ПУП – план за застрояване на ПИ № 159013, м. СТ1 Егреците в землището на с. Дъбовец, като се отреди за спортни дейности с инвеститор Румен Генчев Анастасов от Пловдив. Председател: М. Станкова 8056 ОБЩИНА ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

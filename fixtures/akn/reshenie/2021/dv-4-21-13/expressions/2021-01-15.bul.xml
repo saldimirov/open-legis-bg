@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-4-21-13/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-4-21-13"/>
+          <FRBRalias value="Решение № 17 ОТ 11 ЯНУАРИ 2021 Г. за приемане на Отчет за изпълнението на" name="short"/>
+          <FRBRalias value="Решение № 17 ОТ 11 ЯНУАРИ 2021 Г. за приемане на Отчет за изпълнението на" name="eli" other="/eli/bg/reshenie/2021/dv-4-21-13"/>
+          <FRBRdate date="2021-01-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-4-21-13/bul@2021-01-15/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-4-21-13/bul@2021-01-15"/>
+          <FRBRdate date="2021-01-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-4-21-13/bul@2021-01-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-4-21-13/bul@2021-01-15.xml"/>
+          <FRBRdate date="2021-01-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-15" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 17 ОТ 11 ЯНУАРИ 2021 Г. за приемане на Отчет за изпълнението на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 17 ОТ 11 ЯНУАРИ 2021 Г. за приемане на Отчет за изпълнението на Националната статистическа програма и за дейността на Националния статистически институт през 2020 година и за приемане на Националната статистическа програма за 2021 година На основание на чл. 15, ал. 1 във връзка с чл. 9, т. 6 от Закона за статистиката МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Приема Отчета за изпълнението на На- ционалната статистическа програма и за дей- ността на Националния статистически институт през 2020 година. 2. Приема Националната статистическа програма за 2021 година.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

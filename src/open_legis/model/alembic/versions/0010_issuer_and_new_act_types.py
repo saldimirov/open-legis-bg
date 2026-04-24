@@ -23,6 +23,28 @@ _NEW_ACT_TYPES = [
     "saobshtenie",
 ]
 
+# Old migrations created uppercase enum labels; rename them to lowercase for consistency.
+# RENAME VALUE is idempotent-safe via DO block (no IF EXISTS in PostgreSQL DDL).
+_UPPERCASE_RENAMES = [
+    ("KONSTITUTSIYA", "konstitutsiya"),
+    ("KODEKS",        "kodeks"),
+    ("ZAKON",         "zakon"),
+    ("NAREDBA",       "naredba"),
+    ("PRAVILNIK",     "pravilnik"),
+    ("POSTANOVLENIE", "postanovlenie"),
+    ("UKAZ",          "ukaz"),
+    ("ZID",           "zid"),
+    ("BYUDJET",       "byudjet"),
+    ("RATIFIKATSIYA", "ratifikatsiya"),
+    ("RAZPOREZHANE",  "razporezhane"),
+    ("RESHENIE_KS",   "reshenie_ks"),
+    ("RESHENIE_NS",   "reshenie_ns"),
+    ("RESHENIE_MS",   "reshenie_ms"),
+    ("RESHENIE_KEVR", "reshenie_kevr"),
+    ("RESHENIE_KFN",  "reshenie_kfn"),
+    ("RESHENIE_NHIF", "reshenie_nhif"),
+]
+
 _ISSUER_VALUES = [
     "ns", "ms", "president", "ministry", "commission",
     "agency", "court", "ks", "vas", "vss", "bnb", "municipality", "other",
@@ -50,13 +72,69 @@ _FIXED_ISSUERS = {
 
 
 def upgrade() -> None:
+    # Step 1: ADD new enum values — must be outside a transaction in PostgreSQL
+    with op.get_context().autocommit_block():
+        for val in _NEW_ACT_TYPES:
+            op.execute(sa.text(f"ALTER TYPE act_type ADD VALUE IF NOT EXISTS '{val}'"))
+
+    # Step 2: rename uppercase legacy labels → lowercase (RENAME VALUE is transactional)
     conn = op.get_bind()
+    for old_label, new_label in _UPPERCASE_RENAMES:
+        conn.execute(sa.text(
+            f"DO $$ BEGIN "
+            f"  IF EXISTS (SELECT 1 FROM pg_enum e JOIN pg_type t ON e.enumtypid = t.oid "
+            f"             WHERE t.typname = 'act_type' AND e.enumlabel = '{old_label}') THEN "
+            f"    ALTER TYPE act_type RENAME VALUE '{old_label}' TO '{new_label}'; "
+            f"  END IF; "
+            f"END $$"
+        ))
 
-    # 1. Extend act_type enum with new values
-    for val in _NEW_ACT_TYPES:
-        conn.execute(sa.text(f"ALTER TYPE act_type ADD VALUE IF NOT EXISTS '{val}'"))
+    for type_name, renames in [
+        ("act_status", [
+            ("IN_FORCE",           "in_force"),
+            ("REPEALED",           "repealed"),
+            ("PARTIALLY_IN_FORCE", "partially_in_force"),
+        ]),
+        ("element_type", [
+            ("PART",       "part"),
+            ("TITLE",      "title"),
+            ("CHAPTER",    "chapter"),
+            ("SECTION",    "section"),
+            ("ARTICLE",    "article"),
+            ("PARAGRAPH",  "paragraph"),
+            ("POINT",      "point"),
+            ("LETTER",     "letter"),
+            ("HCONTAINER", "hcontainer"),
+        ]),
+        ("amendment_op", [
+            ("INSERTION",     "insertion"),
+            ("SUBSTITUTION",  "substitution"),
+            ("REPEAL",        "repeal"),
+            ("RENUMBERING",   "renumbering"),
+        ]),
+        ("external_source", [
+            ("LEX_BG",          "lex_bg"),
+            ("PARLIAMENT_BG",   "parliament_bg"),
+            ("DV_PARLIAMENT_BG","dv_parliament_bg"),
+        ]),
+        ("reference_type", [
+            ("CITES",  "cites"),
+            ("DEFINES","defines"),
+        ]),
+    ]:
+        for old_label, new_label in renames:
+            conn.execute(sa.text(
+                f"DO $$ BEGIN "
+                f"  IF EXISTS (SELECT 1 FROM pg_enum e JOIN pg_type t ON e.enumtypid = t.oid "
+                f"             WHERE t.typname = '{type_name}' AND e.enumlabel = '{old_label}') THEN "
+                f"    ALTER TYPE {type_name} RENAME VALUE '{old_label}' TO '{new_label}'; "
+                f"  END IF; "
+                f"END $$"
+            ))
 
-    # 2. Create issuer enum type
+    # Step 3: everything else runs in the normal transaction (new values now committed)
+
+    # Create issuer enum type
     conn.execute(sa.text(
         "DO $$ BEGIN "
         "  IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'issuer') THEN "
@@ -65,21 +143,23 @@ def upgrade() -> None:
         "  ); END IF; END $$"
     ))
 
-    # 3. Add issuer column (nullable)
+    # Add issuer column (nullable)
     op.add_column("work", sa.Column("issuer", sa.Enum(*_ISSUER_VALUES, name="issuer"), nullable=True))
 
-    # 4. Migrate reshenie_* → reshenie + issuer
+    # Migrate reshenie_* → reshenie + issuer
+    # Use ::text cast on the column to bypass PostgreSQL enum label validation
+    # (old migrations stored uppercase labels; new values are lowercase)
     for old_type, issuer_val in _RESHENIE_ISSUER_MAP.items():
         conn.execute(sa.text(
             f"UPDATE work SET act_type = 'reshenie', issuer = '{issuer_val}' "
-            f"WHERE act_type = '{old_type}'"
+            f"WHERE act_type::text ILIKE '{old_type}'"
         ))
 
-    # 5. Back-fill issuer for deterministic act types
+    # Back-fill issuer for deterministic act types (no-op on fresh DB)
     for act_type_val, issuer_val in _FIXED_ISSUERS.items():
         conn.execute(sa.text(
             f"UPDATE work SET issuer = '{issuer_val}' "
-            f"WHERE act_type = '{act_type_val}' AND issuer IS NULL"
+            f"WHERE act_type::text ILIKE '{act_type_val}' AND issuer IS NULL"
         ))
 
 

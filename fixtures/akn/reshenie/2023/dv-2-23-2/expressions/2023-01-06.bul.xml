@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-2-23-2/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-2-23-2"/>
+          <FRBRalias value="Решение № 87 от 8 декември 2022 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="short"/>
+          <FRBRalias value="Решение № 87 от 8 декември 2022 г. На основание чл. 21, ал. 2 във връзка с ал. 1," name="eli" other="/eli/bg/reshenie/2023/dv-2-23-2"/>
+          <FRBRdate date="2023-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-2-23-2/bul@2023-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-2-23-2/bul@2023-01-06"/>
+          <FRBRdate date="2023-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-2-23-2/bul@2023-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-2-23-2/bul@2023-01-06.xml"/>
+          <FRBRdate date="2023-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 87 от 8 декември 2022 г. На основание чл. 21, ал. 2 във връзка с ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 87 от 8 декември 2022 г. На основание чл. 21, ал. 2 във връзка с ал. 1, т. 11 от ЗМСМА и чл. 127, ал. 6 от ЗУТ Общин- ският съвет – Белене, реши: 1. Одобрява общ устройствен план (ОУП) на община Белене (без землището на гр. Белене). 2. Възлага на кмета на общината да извърши необходимите правни и фактически действия съгласно ЗУТ, свързани с изпълнение на насто- ящото решение. Председател: Б. Павловска 27 ОБЩИНА „МАРИЦА“ – ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

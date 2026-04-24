@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-28"/>
+          <FRBRalias value="Решение № 16 от 1 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 16 от 1 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-104-11-28"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-28/bul@2011-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-28/bul@2011-12-27"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-28/bul@2011-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-28/bul@2011-12-27.xml"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-27" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 16 от 1 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 16 от 1 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бо­ журище, одобрява подробен устройствен план (ПУП) – парцеларен план (ПП) за трасе на во­ допровод – уличен водопровод по полски път с № 232 по КВС на м. Горни соват, с. Пролеша – от осова точка (ОТ) № 18 от кв. 8 до УПИ VІІІ-112, ІХ-111 от кв. 17 по плана на кв. Максим Горки, гр. Божурище. Председател: П. Котупанова 13371</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

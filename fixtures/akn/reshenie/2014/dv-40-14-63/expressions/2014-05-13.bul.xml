@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-63/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-63"/>
+          <FRBRalias value="Решение № 587 от 24 април 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 587 от 24 април 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2014/dv-40-14-63"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="63"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-63/bul@2014-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-63/bul@2014-05-13"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-63/bul@2014-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-63/bul@2014-05-13.xml"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-13" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 587 от 24 април 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Балчик, одобрява ПУП – парцеларен план за „Подземен електропровод – кабелна линия 20 kV от същест- вуващ СР стълб ПИ 66250.12.22 в землището на с. Сенокос, община Балчик, до табло тип МТТ в ПИ 58270.24.26 в землището на с. Пряспа, община Балчик“. Председател: В. Лучиянов 3105</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

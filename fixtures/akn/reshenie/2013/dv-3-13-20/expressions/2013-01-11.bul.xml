@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-3-13-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-3-13-20"/>
+          <FRBRalias value="Решение № 294 от 1 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 294 от 1 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2013/dv-3-13-20"/>
+          <FRBRdate date="2013-01-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-3-13-20/bul@2013-01-11/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-3-13-20/bul@2013-01-11"/>
+          <FRBRdate date="2013-01-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-3-13-20/bul@2013-01-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-3-13-20/bul@2013-01-11.xml"/>
+          <FRBRdate date="2013-01-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-01-11" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 294 от 1 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 294 от 1 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 и чл. 98а ЗУТ Общинският съвет „Родопи“ одобрява план-схема за газоснаб­ дяване към ПУП на с. Крумово, община „Родопи“, област Пловдив. Председател: Г. Ташев 11731</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

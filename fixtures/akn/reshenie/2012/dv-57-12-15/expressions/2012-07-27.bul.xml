@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-15"/>
+          <FRBRalias value="Решение № 59 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 59 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2012/dv-57-12-15"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-15/bul@2012-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-15/bul@2012-07-27"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-15/bul@2012-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-15/bul@2012-07-27.xml"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-27" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 59 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 59 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 11 септември 2012 г., сребърна възпоменателна монета с нанесено оцветяване „Момче и вятър“ от серията „Български народни приказки“ със следното описание: Технически параметри номинална стойност – 5 лева; метал – сребро, проба 500/1000, с нанесено оцветяване; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2012; тираж – 4000 броя. Графични елементи На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи­ ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „5 ЛЕВА“ и годината на емисия „2012“. На обратната страна на монетата е изобразено цветно композиционно решение на приказката „Момче и вятър“. Околовръст е изписано „БЪЛ­ ГАРСКИ НАРОДНИ ПРИКАЗКИ“ и „МОМЧЕ И ВЯТЪР“. Автор на художествения проект е Евгения Цанкова. Управител: Ив. Искров 6874 АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ И СЛЕДПРИВАТИЗАЦИОНЕН КОНТРОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

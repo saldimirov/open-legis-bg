@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-63-15-22/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-63-15-22"/>
+          <FRBRalias value="Решение № 900 от 30 юли 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 900 от 30 юли 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-63-15-22"/>
+          <FRBRdate date="2015-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-63-15-22/bul@2015-08-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-63-15-22/bul@2015-08-18"/>
+          <FRBRdate date="2015-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-63-15-22/bul@2015-08-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-63-15-22/bul@2015-08-18.xml"/>
+          <FRBRdate date="2015-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-18" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 900 от 30 юли 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 900 от 30 юли 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ка­ спичан, одобрява проект за изменение на под­ робен устройствен план – план за регулация за гр. Плиска в обхват кв. 22 и кв. 22а, като се унищожава улица с ок 41б – ок 186, кв. 22 и кв. 22а се обединяват в един общ квартал кв. 22 и се променя дворищната регулация УПИ I-491, УПИ III – общ., и УПИ IV-490. Председател: Я. Ненова 5326 ОБЩИНА МЕЗДРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

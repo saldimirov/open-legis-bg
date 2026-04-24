@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-4"/>
+          <FRBRalias value="Указ № 320 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 320 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2010/dv-96-10-4"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-4/bul@2010-12-07/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-4/bul@2010-12-07"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-96-10-4/bul@2010-12-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-96-10-4/bul@2010-12-07.xml"/>
+          <FRBRdate date="2010-12-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-07" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 320 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В допълнителните разпоредби се правят следните изменения и допълнения: 1. Наименованието „Допълнителни разпоред­ би“ се изменя така: „Допълнителна разпоредба“. 2. В § 1, т. 30 след думата „терени“ се добавя „общежитие за спортисти, административни и складови постройки, обслужващи съответ­ ната спортна инфраструктура“, а след думата „предназначени за“ се добавя „подготовка на състезатели и за“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

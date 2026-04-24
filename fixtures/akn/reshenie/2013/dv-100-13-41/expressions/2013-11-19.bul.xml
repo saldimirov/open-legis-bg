@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-41/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-41"/>
+          <FRBRalias value="Решение № 381 от 25 октомври 2013 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 381 от 25 октомври 2013 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2013/dv-100-13-41"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="41"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-41/bul@2013-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-41/bul@2013-11-19"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-41/bul@2013-11-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-41/bul@2013-11-19.xml"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-19" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 381 от 25 октомври 2013 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 381 от 25 октомври 2013 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Нови пазар, реши: Одобрява подробен устройствен план – парце- ларен план за техническа инфраструктура – газо- проводно и ел.проводно отклонение за захранване на ПИ № 52009.23.389 в землището на гр. Нови пазар, собственост на „Трейд Фарма“ – ЕООД, Варна. На основание чл. 215, ал. 1 ЗУТ заинтересу- ваните лица могат да обжалват решението за одобряване на плана в 30-дневен срок от обна- родването му в „Държавен вестник“. Председател: Н. Николов 8429 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

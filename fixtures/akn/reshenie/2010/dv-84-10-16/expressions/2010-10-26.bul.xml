@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-16"/>
+          <FRBRalias value="Решение № 648 от 15 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="short"/>
+          <FRBRalias value="Решение № 648 от 15 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="eli" other="/eli/bg/reshenie/2010/dv-84-10-16"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-16/bul@2010-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-16/bul@2010-10-26"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-16/bul@2010-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-16/bul@2010-10-26.xml"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-26" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 648 от 15 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 648 от 15 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Балчик, одобрява ПУП – парцеларен план за „Електрозахранване на радиорелеен възел 24009 в ПИ 02508.10.608“ по кадастралната карта на гр. Балчик. Председател: Ст. Павлов 8251</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

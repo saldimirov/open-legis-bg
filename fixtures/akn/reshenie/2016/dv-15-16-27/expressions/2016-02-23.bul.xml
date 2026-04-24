@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-27/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-27"/>
+          <FRBRalias value="Решение № 14 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 14 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2016/dv-15-16-27"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-27/bul@2016-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-27/bul@2016-02-23"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-27/bul@2016-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-27/bul@2016-02-23.xml"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-23" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 14 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 14 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ и след станалите разисквания Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеларен план за трасе на канализация с дължина на трасето 68 м, започващо от съществуваща канализация до ПИ № 010015, местност Грахорлива дъмга по КВС на землище Мирянци, преминаващо през ПИ № 010019 и 010020 – полски пътища, съгласно изчертаните с кафяво трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 1165 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

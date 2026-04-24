@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-15/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-15"/>
+          <FRBRalias value="Решение № 1239 от 25 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1239 от 25 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-24-15-15"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-15/bul@2015-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-15/bul@2015-03-31"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-15/bul@2015-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-15/bul@2015-03-31.xml"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-31" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1239 от 25 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1239 от 25 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ка- занлък, реши: Одобрява общ устройствен план на територи- ята с изявено културно-историческо наследство „Долината на тракийските владетели“, община Казанлък, с обхват землищата на: западната част от землището на гр. Казанлък, част от землището на гр. Шипка, част от землището на гр. Крън, част от землището на с. Енина, с. Шейново, част от землището на с. Ясеново, с. Хаджи Димитрово, част от землището на с. Голямо Дряново, с. Ду- навци, с. Копринка, с. Бузовград. Председател: Н. Златанов 2129 ОБЩИНА КАМЕНО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

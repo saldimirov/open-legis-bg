@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-47/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-47"/>
+          <FRBRalias value="Решение № 47 от 28 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 47 от 28 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-40-11-47"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="47"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-47/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-47/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-47/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-47/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 47 от 28 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 47 от 28 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – Ивайловград, одобрява изменение на подробен устройствен план (ПУП – ПЗ) – план за застрояване за поземлен имот № 000578, землище с. Попско, ЕКАТТЕ 57769, община Ивайловград, област Хасково, за площадка за изграждане на ветрогенератори. Председател: Г. Марков 5919</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

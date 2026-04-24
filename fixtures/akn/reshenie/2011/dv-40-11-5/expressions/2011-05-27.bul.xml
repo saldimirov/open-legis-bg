@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-5"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie/2011/dv-40-11-5"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-5/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-5/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-5/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-5/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 6 от Конституцията на Република България и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Репуб­ лика България от 27 юли 2009 г. (ДВ, бр. 60 от 2009 г.) Р Е Ш И : 1. Освобождава Александър Светославов Цветков като министър на транспорта, инфор­ мационните технологии и съобщенията. 2. Избира Ивайло Ангелов Московски за министър на транспорта, информационните технологии и съобщенията. Решението е прието от 41-ото Народно събрание на 19 май 2011 г. и е подпечатано с официалния печат на Народното събрание. За председател на Народното събрание: Анастас Анастасов Подпечатано с държавния печат. Министър на правосъдието: Маргарита Попова 6124 ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

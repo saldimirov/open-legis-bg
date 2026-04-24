@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-7"/>
+          <FRBRalias value="Решение № 254 от 18 април 2003 г. за обявяване на с. Ветрен, община Септември, област Пазарджик, за град" name="short"/>
+          <FRBRalias value="Решение № 254 от 18 април 2003 г. за обявяване на с. Ветрен, община Септември, област Пазарджик, за град" name="eli" other="/eli/bg/reshenie/2003/dv-40-03-7"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-7/bul@2003-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-7/bul@2003-04-29"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-40-03-7/bul@2003-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-40-03-7/bul@2003-04-29.xml"/>
+          <FRBRdate date="2003-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-04-29" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 254 от 18 април 2003 г. за обявяване на с. Ветрен, община Септември, област Пазарджик, за град</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерски съвет          брой: 40, от дата 29.4.2003 г.   Официален раздел / МИНИСТЕРСКИ СЪВЕТ    стр.20</p>
+          <p>Решение № 254 от 18 април 2003 г. за обявяване на с. Ветрен, община Септември, област Пазарджик, за град</p>
+          <p>РЕШЕНИЕ № 254 ОТ 18 АПРИЛ 2003 Г.</p>
+          <p>за обявяване на с. Ветрен, община Септември, област Пазарджик, за град</p>
+          <p>На основание чл. 33 от Закона за административно-териториалното устройство на Република България</p>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ</p>
+          <p>РЕШИ:</p>
+          <p>За министър-председател:    Николай Василев</p>
+          <p>Главен секретар на Министерския съвет:    Севдалин Мавров</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

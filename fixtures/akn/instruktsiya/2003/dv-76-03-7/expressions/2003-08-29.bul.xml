@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-7/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-7"/>
+          <FRBRalias value="Инструкция за приложение на метода на Д'Ондт за изчисляване на резултатите от гласуването за общински съветници и кметове на 26 октомври 2003 г." name="short"/>
+          <FRBRalias value="Инструкция за приложение на метода на Д'Ондт за изчисляване на резултатите от гласуването за общински съветници и кметове на 26 октомври 2003 г." name="eli" other="/eli/bg/instruktsiya/2003/dv-76-03-7"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-7/bul@2003-08-29/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-7/bul@2003-08-29"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-76-03-7/bul@2003-08-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-76-03-7/bul@2003-08-29.xml"/>
+          <FRBRdate date="2003-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-08-29" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за приложение на метода на Д'Ондт за изчисляване на резултатите от гласуването за общински съветници и кметове на 26 октомври 2003 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С инструкцията се определя изчислителната процедура, по която се разпределят мандатите за общински съветници.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Изчислителната процедура за избор на общински съветници се извършва в общинската избирателна комисия.</p>
+          <p>Изчисляване на мандатите за общински съветници съобразно действителните бюлетини, подадени за листите на партиите, коалициите и независимите кандидати</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>За всяка листа (на партия, коалиция или независим кандидат) се пресмята сумата от действителните бюлетини, подадени за нея във всички секции на общината.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Право на участие в разпределението на мандатите имат партиите, коалициите и независимите кандидати, за които са подадени действителни бюлетини.</p>
+        </content>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Всяка кандидатска листа на партия, коалиция или независим кандидат получава мандати за съветници пропорционално на подадените за нея бюлетини (пресметнати в чл. 3) по метода на Д?Ондт, но не повече от броя на кандидатите в нейната листа (вж. приложението). Дължината на листата на независимия кандидат се счита за 1.</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+          <p>Параграф единствен.    Тази инструкция се издава на основание чл. 25, ал. 1, т. 9 от Закона за местните избори.</p>
+          <p>Председател:    М. Павлова</p>
+          <p>Секретар:    М. Карадайъ</p>
+          <p>Приложение към чл. 5</p>
+          <p>Метод на Д?Ондт</p>
+          <p>Виж приложението в    PDF   -а на броя</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

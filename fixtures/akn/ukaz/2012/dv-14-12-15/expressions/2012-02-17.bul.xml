@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-15"/>
+          <FRBRalias value="Указ № 57 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 57 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2012/dv-14-12-15"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-15/bul@2012-02-17/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-15/bul@2012-02-17"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-15/bul@2012-02-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-15/bul@2012-02-17.xml"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-17" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 57 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 48 от 2006 г.; изм. и доп., бр. 15, 62 и 77 от 2007 г., бр. 71, 76 и 83 от 2008 г., бр. 3, 42, 84 и 90 от 2009 г., бр. 4, 22, 41, 84 и 101 от 2010 г. и бр. 9, 15, 49, 50, 52, 59 и 72 от 2011 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С ТА Н О В Я В А М : Освобождавам Никола Иванов Калудов от длъжността извънреден и пълномощен посланик на Република България при Светия престол и Суверенния военен хоспиталиерен орден на Свети Йоан от Йерусалим, Родос и Малта. Изпълнението на указа възлагам на минис- търа на външните работи. Издаден в София на 10 февруари 2012 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

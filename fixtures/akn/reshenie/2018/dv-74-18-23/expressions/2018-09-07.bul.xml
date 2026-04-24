@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-74-18-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-74-18-23"/>
+          <FRBRalias value="Решение № 123 от 31 юли 2018 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 123 от 31 юли 2018 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2018/dv-74-18-23"/>
+          <FRBRdate date="2018-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-74-18-23/bul@2018-09-07/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-74-18-23/bul@2018-09-07"/>
+          <FRBRdate date="2018-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-74-18-23/bul@2018-09-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-74-18-23/bul@2018-09-07.xml"/>
+          <FRBRdate date="2018-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-09-07" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 123 от 31 юли 2018 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 123 от 31 юли 2018 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 от ЗМСМА и чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Пазарджик, одобрява подробен устрой­ ствен план – парцеларен план за трасе на подземен електропровод с дължина 131,70 м, започващо от съществуващ КРШ, извод „Г“ на БКТП „Зайкови мандри“, намиращ се пред имот с идентификатор 55155.8.182, преминава през имот с идентификатор 55155.8.242 – общинска собственост, с НТП – „За местен път“, и достига границите на имот с иден­ тификатор 55155.8.215, местност Зайкови мандри, Пазарджик, община Пазарджик, който ще бъде захранен, съгласно изчертаното с червено трасе, сервитути и регистъра на засегнатите имоти. Председател: Х. Харалампиев 8119 ОБЩИНА СЪРНИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

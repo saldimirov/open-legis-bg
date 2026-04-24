@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-111-20-6/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-111-20-6"/>
+          <FRBRalias value="Решение № 95 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 95 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2020/dv-111-20-6"/>
+          <FRBRdate date="2020-12-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-111-20-6/bul@2020-12-31/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-111-20-6/bul@2020-12-31"/>
+          <FRBRdate date="2020-12-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-111-20-6/bul@2020-12-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-111-20-6/bul@2020-12-31.xml"/>
+          <FRBRdate date="2020-12-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-31" name="Държавен вестник" number="111" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 95 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 95 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 127, ал. 6 от ЗУТ Общинският съвет – Златица, реши: 1. Одобрява окончателен проект на общ устройствен план на община Златица ведно с правилата и нормативите за неговото прилагане. 2. Възлага на кмета на община Златица да представя ежегодно доклад за изпълнението на ОУП в неговия обхват и предложения за из- менението му, ако такива се налагат, съгласно чл. 127, ал. 9 от ЗУТ. Председател: Л. Цветков 9684 ОБЩИНА „МАРИЦА“ – ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

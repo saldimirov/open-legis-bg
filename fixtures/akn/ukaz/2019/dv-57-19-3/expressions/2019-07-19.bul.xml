@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-3/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-3"/>
+          <FRBRalias value="Указ № 166 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 166 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2019/dv-57-19-3"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-3/bul@2019-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-3/bul@2019-07-19"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-3/bul@2019-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-3/bul@2019-07-19.xml"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-19" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 166 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 166 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам Атанас Иванов Големеев с орден „Стара планина“ първа степен за изклю- чително големите му заслуги към Република България в областта на спорта. Издаден в София на 15 юли 2019 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

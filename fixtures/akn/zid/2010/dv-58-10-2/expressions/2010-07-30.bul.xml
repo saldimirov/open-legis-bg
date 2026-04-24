@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-2/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-2"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за по­" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за по­" name="eli" other="/eli/bg/zid/2010/dv-58-10-2"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-2/bul@2010-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-2/bul@2010-07-30"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-58-10-2/bul@2010-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-58-10-2/bul@2010-07-30.xml"/>
+          <FRBRdate date="2010-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-30" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за по­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1, т. 2 и 3 думите „и 25“ се заменят с „25 и 33а“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 33а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 33а.</num>
+          <paragraph eId="sec_final__art_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Кредиторът публикува на ин­ тернет страницата си: 1. текущия размер на използваните от него референтни лихвени проценти, и 2. използваната от него методология за определяне на референтния лихвен процент.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Кредиторът е длъжен да поддържа на интернет страницата си и данни за размера на всички референтни лихвени проценти, които той е определил по ал. 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_1__al_3">
+            <num>(3)</num>
+            <content>
+              <p>Методологията по ал. 1 не може да се променя едностранно от кредитора след сключ­ ването на договора за кредит.“</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се чл. 50а: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_2">
+          <num>Чл. 50а.</num>
+          <content>
+            <p>За нарушение на чл. 33а на винов­ ните лица се налага глоба в размер от 700 до 2000 лв. – за физическите лица, и имуществе­ на санкция в размер от 3000 до 8000 лв. – за едноличните търговци и юридическите лица.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Законът влиза в сила един месец след обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

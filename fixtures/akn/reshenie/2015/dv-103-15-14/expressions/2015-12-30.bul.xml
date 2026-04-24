@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-14"/>
+          <FRBRalias value="Решение № 49 от 17 септември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 49 от 17 септември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2015/dv-103-15-14"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-14/bul@2015-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-14/bul@2015-12-30"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-14/bul@2015-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-14/bul@2015-12-30.xml"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-30" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 49 от 17 септември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 49 от 17 септември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Камено, реши: 1. Одобрява ПУП – ПРЗ за ПИ 1327, от който се образува УПИ VІІІ-1327 в кв. 107б с площ 2450 кв. м и собствено място в парцела – 2450 кв. м. 2. Одобрява ЧИ на ПУП – ПРЗ за УПИ ІІ-1326 и УПИ ІV-1322, като площите на отделните УПИ стават, както следва: УПИ ІІ-1326 – 3838 кв. м (собствено в парцела 3580 кв. м), разликата от 258 кв. м – общинска частна; УПИ ІV-1322 – 2642 кв. м (собствено в парцела 1950 кв. м), разликата от 692 кв. м – общинска частна. Графичната част от проекта да се счита за неразделна част от решението. Председател: Р. Балтаджиев 8260 ОБЩИНА ПЕЩЕРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

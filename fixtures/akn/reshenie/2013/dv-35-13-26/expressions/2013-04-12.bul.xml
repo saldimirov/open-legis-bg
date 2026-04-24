@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-35-13-26/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-35-13-26"/>
+          <FRBRalias value="Решение № 309 от 21 февруари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 309 от 21 февруари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-35-13-26"/>
+          <FRBRdate date="2013-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-35-13-26/bul@2013-04-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-35-13-26/bul@2013-04-12"/>
+          <FRBRdate date="2013-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-35-13-26/bul@2013-04-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-35-13-26/bul@2013-04-12.xml"/>
+          <FRBRdate date="2013-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-04-12" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 309 от 21 февруари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 309 от 21 февруари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – с. Ветри­ но, реши: Одобрява ПУП – ПП (парцеларен план) за имот № 115034, местност Пред фуражен цех по КВС с. Белоградец, собственост на „Лимме­ тал“ – ООД, за водоснабдяване и ел. захранване на имота. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 30-дневен срок от об­ народването в „Държавен вестник“ чрез Община Ветрино пред Административния съд – Варна. Председател: Н. Стефанов 3073 ОБЩИНА С. КАЛОЯНОВО, ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

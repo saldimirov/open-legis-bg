@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-38-16-38/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-38-16-38"/>
+          <FRBRalias value="Решение № 156 от 26 април 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 156 от 26 април 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА" name="eli" other="/eli/bg/reshenie/2016/dv-38-16-38"/>
+          <FRBRdate date="2016-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="38"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-38-16-38/bul@2016-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-38-16-38/bul@2016-05-20"/>
+          <FRBRdate date="2016-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-38-16-38/bul@2016-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-38-16-38/bul@2016-05-20.xml"/>
+          <FRBRdate date="2016-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-20" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 156 от 26 април 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 156 от 26 април 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА във връзка с чл. 136, ал. 1 и чл. 127, ал. 6 ЗУТ Общинският съвет – „Марица“, реши: Одобрява проект за частично изменение на ОУП за разширение на структурна единица 239- Смф с имот с идентификатор 73242.224.64, пред- ставляващ земеделска земя, с площ 10 073 кв. м и обслужващия го полски път, собственост на Община „Марица“, представляващ част от имот 73242.224.140 с обща площ около 1550 кв. м, м. Кошовете, по кадаст­ралната карта на с. Труд, община „Марица“, област Пловдив. Председател: Г. Трендафилова 3744</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

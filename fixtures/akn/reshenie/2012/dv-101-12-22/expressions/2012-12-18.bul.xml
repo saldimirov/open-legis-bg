@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-22"/>
+          <FRBRalias value="Решение № 610 от 21 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 610 от 21 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-101-12-22"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-22/bul@2012-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-22/bul@2012-12-18"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-22/bul@2012-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-22/bul@2012-12-18.xml"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-18" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 610 от 21 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 610 от 21 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и предвид фактическите основания в докладна записка вх. № ДЗ-642 от 6.11.2012 г. от зам.-кмета на общината Общинският съвет – Асеновград, реши: Одобрява парцеларен план за водопровод за „Мотел“ в имот КИ 16955.21.129 по кадас­ тралната карта на с. Горнослав с трасе, пре­ минаващо през поземлени имоти – публична общинска собственост – имот КИ 16955.1.9 – с начин на трайно ползване полски път, и имот КИ 16955.1.104 – с начин на трайно ползване насип, в землището на с. Горнослав и имот КИ 22839.37.86 – с начин на трайно ползване насип, в землището на с. Долнослав съгласно представения парцеларен план. Заинтересуваните лица могат да обжалват решението в 14-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Пловдив, чрез Общинския съвет – Асе­ новград. Председател: Св. Шуманов 11242</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

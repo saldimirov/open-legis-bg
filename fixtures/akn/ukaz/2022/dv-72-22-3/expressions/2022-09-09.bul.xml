@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-72-22-3/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-72-22-3"/>
+          <FRBRalias value="Указ № 235 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 235 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2022/dv-72-22-3"/>
+          <FRBRdate date="2022-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-72-22-3/bul@2022-09-09/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-72-22-3/bul@2022-09-09"/>
+          <FRBRdate date="2022-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-72-22-3/bul@2022-09-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-72-22-3/bul@2022-09-09.xml"/>
+          <FRBRdate date="2022-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-09-09" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 235 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>В заключителните разпоредби на По­ становление № 103 на Министерския съвет от 2021 г. за изменение и допълнение на По­ становление № 168 на Министерския съвет от 2015 г. за създаване на Координационен съвет за подготовка на Република България за членство в еврозоната (ДВ, бр. 26 от 2021 г.) § 10 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

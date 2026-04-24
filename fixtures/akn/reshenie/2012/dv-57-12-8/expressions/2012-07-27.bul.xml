@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-8/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-8"/>
+          <FRBRalias value="Решение № 604 ОТ 13 ЮЛИ 2012 Г. за приеманe на План за въвеждане на наземно" name="short"/>
+          <FRBRalias value="Решение № 604 ОТ 13 ЮЛИ 2012 Г. за приеманe на План за въвеждане на наземно" name="eli" other="/eli/bg/reshenie/2012/dv-57-12-8"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-8/bul@2012-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-8/bul@2012-07-27"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-8/bul@2012-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-8/bul@2012-07-27.xml"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-27" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 604 ОТ 13 ЮЛИ 2012 Г. за приеманe на План за въвеждане на наземно</p>
+      <p>(обн., ДВ, бр. 14 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

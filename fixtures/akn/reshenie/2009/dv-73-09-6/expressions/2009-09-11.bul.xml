@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-73-09-6/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-73-09-6"/>
+          <FRBRalias value="Решение за избиране на постоянна делегация на На­" name="short"/>
+          <FRBRalias value="Решение за избиране на постоянна делегация на На­" name="eli" other="/eli/bg/reshenie/2009/dv-73-09-6"/>
+          <FRBRdate date="2009-09-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-73-09-6/bul@2009-09-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-73-09-6/bul@2009-09-11"/>
+          <FRBRdate date="2009-09-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-73-09-6/bul@2009-09-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-73-09-6/bul@2009-09-11.xml"/>
+          <FRBRdate date="2009-09-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-11" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на постоянна делегация на На­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се приложение към чл. 4, ал. 2: „Приложение към чл. 4, ал. 2 Списък на предоставените за ползване и управление на администрацията на Министерския съвет обекти, управлявани от закритото Министерство на дър­ жавната администрация и административната реформа, предназначени за представителните и социалните нужди на централните държав­ ни органи, с обща численост на персонала 481 щатни бройки Почивна база „Банско“ Почивна база „К. к. „Боровец“ Почивна база „Св. св. Константин и Еле­ на“ – Варна Почивна база „Орлица“ – Пампорово Почивна база „Приморско“ Почивна база „Слънчев бряг“ Лечебно-възстановителна база „Хисаря“ Лечебно-възстановителна база „Нареченски бани“ Комплекс „Бояна“ Стопанство „Евксиноград“ и обект „Шабла“ Спортно-оздравителен комплекс „Лозенец“.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

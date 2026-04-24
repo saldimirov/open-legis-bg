@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-16/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-16"/>
+          <FRBRalias value="Решение № 618 от 10 декември 2015 г. за изменение на Техническите изисквания за осъществяване на електронни съобщения" name="short"/>
+          <FRBRalias value="Решение № 618 от 10 декември 2015 г. за изменение на Техническите изисквания за осъществяване на електронни съобщения" name="eli" other="/eli/bg/reshenie/2015/dv-100-15-16"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-16/bul@2015-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-16/bul@2015-12-18"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-16/bul@2015-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-16/bul@2015-12-18.xml"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-18" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 618 от 10 декември 2015 г. за изменение на Техническите изисквания за осъществяване на електронни съобщения</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 25а ал. 4 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(4)</num>
+            <content>
+              <p>Комисията предоставя на лицето по ал. 2 временен опознавателен знак за посо- чения в искането срок, но за не повече от 5 години.“</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Точка 1 от приложение № 3 към чл. 22 се изменя така: „1. Комисията определя лични опознава- телни знаци на всички български радиолюби- тели. Те се състоят от буквите (националния префикс) LZ и една цифра, следвана от две или три букви от латинската азбука (суфикс). За Южна България (първа зона) се използват цифрите 1, 3, 5, 7 и 9, а за Северна България (втора зона) – 2, 4, 6 и 8. За суфикса в личния опознавателен знак на клубните любителски радиостанции се определя комбинация от три букви на латинската азбука от КАА до КZZ. За радиолюбители клас 1 комисията определя лични опознавателни знаци, състоящи се от LZ и една цифра, следвана от две букви от латинската азбука.“ За председател: Никола Колев 8175</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

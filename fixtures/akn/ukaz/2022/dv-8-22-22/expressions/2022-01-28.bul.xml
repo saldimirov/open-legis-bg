@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-22/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-22"/>
+          <FRBRalias value="Указ № 8 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 8 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2022/dv-8-22-22"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-22/bul@2022-01-28/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-22/bul@2022-01-28"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-22/bul@2022-01-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-22/bul@2022-01-28.xml"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-01-28" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 8 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 98 от 2019 г.; изм. и доп., бр. 38 от 2020 г., бр. 2, 39 и 82 от 2021 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Награждавам младши инспектор Димитър Владимиров Златков – старши пожарникар в група „Пожарогасителна и спасителна дейност“ в Районна служба „Пожарна безопасност и за­ щита на населението“ – Благоевград, с медал „За заслуга“ за съществен принос и заслуги за борбата с бедствия и аварии, за сигурността и обществения ред в Република България. Издаден в София на 18 януари 2022 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

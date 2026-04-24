@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-5/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-5"/>
+          <FRBRalias value="Указ № 1 На основание чл. 102, ал. 1 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 1 На основание чл. 102, ал. 1 от Конститу-" name="eli" other="/eli/bg/ukaz/2017/dv-7-17-5"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-5/bul@2017-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-5/bul@2017-01-20"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-5/bul@2017-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-5/bul@2017-01-20.xml"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-20" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 1 На основание чл. 102, ал. 1 от Конститу-</p>
+      <p>(обн., ДВ, бр. 20 от 2012 г.; изм. и доп., бр. 17 и 37 от 2013 г., бр. 40 и 83 от 2014 г. и бр. 26 и 53 от 2016 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 1 На основание чл. 102, ал. 1 от Конститу- цията на Република България във връзка с чл. 136, ал. 2 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : В Указ № 85 от 28 февруари 2012 г. за ут- върждаване на длъжностите във Въоръжените сили на Република България и Националната служба за охрана, изискващи висши офицерски звания (обн., ДВ, бр. 20 от 2012 г.; изм. и доп., бр. 17 и 37 от 2013 г., бр. 40 и 83 от 2014 г. и бр. 26 и 53 от 2016 г.) се правят следните изменения: 1. В приложението към т. 1: а) в колона „Военни звания“ думата „Ко- модор“ се заменя с „Флотилен адмирал“; б) в т. 4 „Военни академии, военни учи- лища и Национална гвардейска част“ на- именованието на длъжността на ред 28 се изменя така: „Началник на Военномедицинската акаде- мия и главен лекар на въоръжените сили на Република България – от 1 февруари 2017 г.“ Изпълнението на указа възлагам на ми- нистъра на отбраната и на началника на Националната служба за охрана. Издаден в София на 6 януари 2017 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

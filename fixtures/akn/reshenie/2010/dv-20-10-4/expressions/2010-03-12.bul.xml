@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-4"/>
+          <FRBRalias value="Решение за избиране на управител на Националния" name="short"/>
+          <FRBRalias value="Решение за избиране на управител на Националния" name="eli" other="/eli/bg/reshenie/2010/dv-20-10-4"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-4/bul@2010-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-4/bul@2010-03-12"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-4/bul@2010-03-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-4/bul@2010-03-12.xml"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-12" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на управител на Националния</p>
+      <p>(обн., ДВ, бр. 35 от 2003 г.; изм. и доп., бр. 29 от 2005 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>осигурителен институт Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Република България и чл. 37, ал. 1 и чл. 39 от Кодекса за социално осигуряване във връзка с Решение на Народното събрание за освобождаване на управителя на Националния осигурителен ин­ ститут, прието на 25 февруари 2010 г., Р Е Ш И : Избира Христина Велчева Митрева за упра­ вител на Националния осигурителен институт с мандат до 21 май 2013 г. Решението е прието от 41-ото Народно събрание на 5 март 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

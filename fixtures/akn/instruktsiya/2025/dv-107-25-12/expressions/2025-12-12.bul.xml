@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-107-25-12/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-107-25-12"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № И-1 от 7 януари 2013 г. за условията, реда и организацията на взаимодействието между военната полиция и структурите на Министерството на вътрешните работи" name="short"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № И-1 от 7 януари 2013 г. за условията, реда и организацията на взаимодействието между военната полиция и структурите на Министерството на вътрешните работи" name="eli" other="/eli/bg/instruktsiya/2025/dv-107-25-12"/>
+          <FRBRdate date="2025-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-107-25-12/bul@2025-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-107-25-12/bul@2025-12-12"/>
+          <FRBRdate date="2025-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-107-25-12/bul@2025-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-107-25-12/bul@2025-12-12.xml"/>
+          <FRBRdate date="2025-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-12-12" name="Държавен вестник" number="107" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за изменение и допълнение на Инструкция № И-1 от 7 януари 2013 г. за условията, реда и организацията на взаимодействието между военната полиция и структурите на Министерството на вътрешните работи</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>Член 15 се изменя така:</p>
+            <p>„Чл. 15. (1) Служба „Военна полиция“ и МВР обменят информация за констатирани нарушения, наложени наказания и наложени принудителни административни мерки от контролните органи по Закона за движението по пътищата на водачи на служебни МПС и пътниците в тях от Министерството на отбраната, структурите на пряко подчинение на министъра на отбраната и Българската армия.</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Служба „Военна полиция“ предоставя необходимата информация на ГДНП за въвеждане и отчет на констатираните нарушения в Автоматизираната информационна система „Административнонаказателна дейност“ чрез обмен на данни във формат по образец и през интерфейс, разписани със съвместен протокол, с който се определя и начинът за достъп при обмена на информацията.“</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 18, т. 1 се създава буква „з“:</p>
+            <p>„з) Автоматизираната информационна система „Административнонаказателна дейност“ – справка за нарушител/водач;“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Инструкцията влиза в сила от деня на обнародването й в „Държавен вестник“.</p>
+            <p>Министър на отбраната:  Атанас Запрянов</p>
+            <p>Министър на вътрешните работи:  Даниел Митов</p>
+            <p>7235</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

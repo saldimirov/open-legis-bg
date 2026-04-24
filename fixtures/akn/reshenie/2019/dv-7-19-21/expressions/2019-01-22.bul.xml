@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-21/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-21"/>
+          <FRBRalias value="Решение № 918 от 20 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 918 от 20 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-7-19-21"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-21/bul@2019-01-22/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-21/bul@2019-01-22"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-7-19-21/bul@2019-01-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-7-19-21/bul@2019-01-22.xml"/>
+          <FRBRdate date="2019-01-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-22" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 918 от 20 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 918 от 20 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП – парцеларен план за обект: „Реконструкция на електропро- вод 20 kV „Раднево“ в участъка между стълб № 17 и стълб № 21“, през ПИ № 62712.0032.007; 62712.0032.082; 62712.0032.083; 62712.0034.019; 62712.0034.031; 62712.0034.147; 62712.0035.011; 62712.0035.089 и 62712.0035.120 по КК на землище с. Рисиманово, община Раднево, област Стара Загора. Председател: Р. Йовчев 169 ОБЩИНА СВИЛЕНГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

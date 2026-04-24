@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-12-06-7/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-12-06-7"/>
+          <FRBRalias value="Решение № 48 от 27 януари 2006 г. за обявяване на 23 юни за Ден на служителя в държавната администрация" name="short"/>
+          <FRBRalias value="Решение № 48 от 27 януари 2006 г. за обявяване на 23 юни за Ден на служителя в държавната администрация" name="eli" other="/eli/bg/reshenie/2006/dv-12-06-7"/>
+          <FRBRdate date="2006-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-12-06-7/bul@2006-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-12-06-7/bul@2006-02-07"/>
+          <FRBRdate date="2006-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-12-06-7/bul@2006-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-12-06-7/bul@2006-02-07.xml"/>
+          <FRBRdate date="2006-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-02-07" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 48 от 27 януари 2006 г. за обявяване на 23 юни за Ден на служителя в държавната администрация</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерски съвет          брой: 12, от дата 7.2.2006 г.   Официален раздел / МИНИСТЕРСКИ СЪВЕТ    стр.23</p>
+          <p>Решение № 48 от 27 януари 2006 г. за обявяване на 23 юни за Ден на служителя в държавната администрация</p>
+          <p>РЕШЕНИЕ № 48 ОТ 27  ЯНУАРИ  2006 Г.</p>
+          <p>за обявяване на 23 юни за Ден на служителя в държавната администрация</p>
+          <p>На основание чл. 55, ал. 2 от Закона за държавния служител и чл. 154, ал. 2 от Кодекса на труда</p>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ</p>
+          <p>РЕШИ:</p>
+          <p>Обявява 23 юни за Ден на служителя в държавната администрация.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

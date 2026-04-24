@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-15/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-15"/>
+          <FRBRalias value="Решение № 3313-П от 13 септември 2013 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 3313-П от 13 септември 2013 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1," name="eli" other="/eli/bg/reshenie/2013/dv-83-13-15"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-15/bul@2013-09-24/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-15/bul@2013-09-24"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-83-13-15/bul@2013-09-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-83-13-15/bul@2013-09-24.xml"/>
+          <FRBRdate date="2013-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-24" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3313-П от 13 септември 2013 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 3313-П от 13 септември 2013 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1, чл. 4, ал. 1, чл. 31, ал. 1 и 3, чл. 32, ал. 1, т. 4 от Закона за приватизация и следприватизационен контрол, чл. 22 от Наредбата за условията и реда за организиране и провеждане на централизирани публични търгове за продажба на акции – собстве­ ност на държавата, и в съответствие с протоколно решение № 2543 от 13.09.2013 г. на Изпълнителния съвет на АПСК Агенцията за приватизация и следприватизационен контрол реши продажбата на акции, представляващи остатъчното държав­ но участие в капитала на „Хевеа – Ким“ – АД, гр. Мадан, да се извърши чрез централизиран публичен търг. Изпълнителен директор: Е. Караниколов 7079 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

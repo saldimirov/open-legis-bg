@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-10/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-10"/>
+          <FRBRalias value="Постановление № 426 ОТ 18 ДЕКЕМВРИ 2014 Г. за определяне размера на законната лихва" name="short"/>
+          <FRBRalias value="Постановление № 426 ОТ 18 ДЕКЕМВРИ 2014 Г. за определяне размера на законната лихва" name="eli" other="/eli/bg/postanovlenie/2014/dv-106-14-10"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-10/bul@2014-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-10/bul@2014-12-23"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-10/bul@2014-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-10/bul@2014-12-23.xml"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-23" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 426 ОТ 18 ДЕКЕМВРИ 2014 Г. за определяне размера на законната лихва</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението въвежда изисквания на Директива 2011/7/ЕС на Европейския парламент и на Съвета от 16 февруари 2011 г. относно борбата със забавяне на плащането по търговски сделки (OB, L 48/1 от 23 фев- руари 2011 г.). Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановление № 100 на Министерския съвет от 2012 г. за определяне размера на законната лихва по просрочени задължения в левове и във валута (ДВ, бр. 42 от 2012 г.) се отменя. СТР. 26 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 106</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 86, ал. 2 от Закона за задълженията и договорите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2015 г. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 8992</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

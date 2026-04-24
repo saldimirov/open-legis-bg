@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-58-05-6/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-58-05-6"/>
+          <FRBRalias value="Решение за избиране на временни секретари на Четиридесетото Народно събрание" name="short"/>
+          <FRBRalias value="Решение за избиране на временни секретари на Четиридесетото Народно събрание" name="eli" other="/eli/bg/reshenie/2005/dv-58-05-6"/>
+          <FRBRdate date="2005-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-58-05-6/bul@2005-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-58-05-6/bul@2005-07-15"/>
+          <FRBRdate date="2005-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-58-05-6/bul@2005-07-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-58-05-6/bul@2005-07-15.xml"/>
+          <FRBRdate date="2005-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-15" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на временни секретари на Четиридесетото Народно събрание</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 58, от дата 15.7.2005 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.3</p>
+          <p>Решение за избиране на временни секретари на Четиридесетото Народно събрание</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за избиране на временни секретари на Четиридесетото Народно събрание</p>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 6 от Правилника за организацията и дейността на Народното събрание</p>
+          <p>РЕШИ:</p>
+          <p>Кристиан Иванов Вигенин,</p>
+          <p>Райна Господинова Йовчева,</p>
+          <p>Силвия Тодорова Стойчева,</p>
+          <p>Гергана Христова Грънчарова,</p>
+          <p>Светослав Иванов Спасов,</p>
+          <p>Метин Мехмедов Сюлейманов,</p>
+          <p>Митхат Сабри Метин,</p>
+          <p>Димитър Кинов Стоянов,</p>
+          <p>Мартин Димитров Димитров,</p>
+          <p>Светослав Христов Малинов,</p>
+          <p>Мирослав Димитров Мурджов.</p>
+          <p>Решението е прието от XL Народно събрание на 11 юли 2005 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-79-11-4/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-79-11-4"/>
+          <FRBRalias value="Решение № 737 ОТ 3 ОКТОМВРИ 2011 Г. за предоставяне на концесия за добив на" name="short"/>
+          <FRBRalias value="Решение № 737 ОТ 3 ОКТОМВРИ 2011 Г. за предоставяне на концесия за добив на" name="eli" other="/eli/bg/reshenie/2011/dv-79-11-4"/>
+          <FRBRdate date="2011-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-79-11-4/bul@2011-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-79-11-4/bul@2011-10-11"/>
+          <FRBRdate date="2011-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-79-11-4/bul@2011-10-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-79-11-4/bul@2011-10-11.xml"/>
+          <FRBRdate date="2011-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-11" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 737 ОТ 3 ОКТОМВРИ 2011 Г. за предоставяне на концесия за добив на</p>
+      <p>(обн., ДВ, бр. 59 от 1999 г.; изм. и доп., бр. 46 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към член единствен, ал. 1, в раздел II, глава 4 се създава т. 11: „11. Електронен национален регистър на извършените диагностични и интервенцио­ нални процедури в областта на инвазивната кардиология 11.1. Националният център по обществено здраве и анализи създава и поддържа регистър на национално ниво за извършените процеду­ ри в инвазивната кардиология. Регистърът се поддържа като електронна база данни. 11.2. В регистъра задължително се вписват: а) името на лекаря, извършил процедурата (оператора); б) личните данни на пациента – име, ЕГН, адрес, телефон (когато съществува); в) видът на процедурата – спешна или пла­ нова, както и диагностична или терапевтична (интервенционална); г) началото и краят на процедурата (дата, час, минути); д) при терапевтичните (интервенционал­ ните) процедури – причините за провеждане на процедурата, интервенирания сегмент от коронарната артерия, типът на лезията (A, B, C), перфузията преди и след процедурата (TIMI), дължината на стенозата, процентът на стеноза преди и след интервенцията, типът на стента (когато е поставен такъв), видът достъп, локалните и общите усложнения (при наличие на такива). 11.3. По решение на оператора в регистъра може да се впише и друга информация относно пациента и процедурата. 11.4. Информацията по т. 11.2 и 11.3 се вписва по електронен път лично от операто­ ра чрез защитена връзка, като за целта той използва квалифициран електронен подпис. Вписването се извършва в срок до 24 часа от извършване на процедурата. 11.5. Лицето по т. 11.4 отговаря за досто­ верността на вписаната информация. 11.6. Лечебните заведения, които извърш­ ват дейности по инвазивна кардиология, са длъжни да осигурят условия за изпълнението на т. 11.2 – 11.4.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Наредбата влиза в сила от 1 ноември 2011 г. Министър: Ст. Константинов 10914 МИНИСТЕРСТВО НА ЗЕМЕДЕЛИЕТО И ХРАНИТЕ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

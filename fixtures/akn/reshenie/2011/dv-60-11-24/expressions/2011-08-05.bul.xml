@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-24"/>
+          <FRBRalias value="Решение № 76 от 21 юли 2011 г. На основание чл. 25 ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 76 от 21 юли 2011 г. На основание чл. 25 ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2011/dv-60-11-24"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-24/bul@2011-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-24/bul@2011-08-05"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-24/bul@2011-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-24/bul@2011-08-05.xml"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-05" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 76 от 21 юли 2011 г. На основание чл. 25 ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 76 от 21 юли 2011 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 12 септември 2011 г., сребърна възпоменател­ на монета с нанесено оцветяване „Косе Босе“ от серията „Български народни приказки“ със следното описание: Технически параметри: номинална стойност – 5 лева; метал – сребро с проба 500/1000 с нанесено оцветяване; тегло – 23.33 г; диаметър – 38.61 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2011; тираж – 6000 броя. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи­ ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „5 ЛЕВА“ и годината на емисията „2011“. На обратната страна на монетата е изобразено цветно композиционно решение на приказката „Косе Босе“. Околовръст е изписано „БЪЛГАР­ СКИ НАРОДНИ ПРИКАЗКИ“ и „КОСЕ БОСЕ“. Автор на художествения проект е Васил Попов. За управител: Д. Костов 9356 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

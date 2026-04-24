@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-76-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-76-10-29"/>
+          <FRBRalias value="Решение № 361 от 12 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 361 от 12 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-76-10-29"/>
+          <FRBRdate date="2010-09-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-76-10-29/bul@2010-09-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-76-10-29/bul@2010-09-28"/>
+          <FRBRdate date="2010-09-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-76-10-29/bul@2010-09-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-76-10-29/bul@2010-09-28.xml"/>
+          <FRBRdate date="2010-09-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-28" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 361 от 12 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 361 от 12 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 2 от протокол № 4 от 13.07.2010 г. на Експертния съвет по устройство на територията на Община Мъглиж Общински­ ят съвет – гр. Мъглиж, одобрява ПУП – план за застрояване на имоти № 080006, 080007 и 080008, местност Келемите в землището на с. Дъбово, община Мъглиж, който предвижда в имота да се изгради фотоволтаична централа с мощност 1500 kW, собственост на Пенка Кънчева Михайлова. Решението подлежи на обжалване в 14-дневен срок от обнародването му в „Държавен вестник“ чрез Община Мъглиж до Административния съд – Стара Загора. Председател: Кр. Стойчев 7321</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

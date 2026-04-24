@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-5/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-5"/>
+          <FRBRalias value="Решение № 480 ОТ 28 АВГУСТ 2017 Г. за даване на съгласие изображението на герба на Република България да бъде включено в" name="short"/>
+          <FRBRalias value="Решение № 480 ОТ 28 АВГУСТ 2017 Г. за даване на съгласие изображението на герба на Република България да бъде включено в" name="eli" other="/eli/bg/reshenie/2017/dv-71-17-5"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-5/bul@2017-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-5/bul@2017-09-01"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-5/bul@2017-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-5/bul@2017-09-01.xml"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-09-01" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 480 ОТ 28 АВГУСТ 2017 Г. за даване на съгласие изображението на герба на Република България да бъде включено в</p>
+      <p>(обн., ДВ, бр. 64 от 2011 г.; изм., бр. 63 от 2013 г. и бр. 72 от 2015 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>марката на „Държавен вестник“ На основание чл. 3, ал. 2 от Закона за герб на Република България във връзка с чл. 11, ал. 3 от Закона за марките и географските означения МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Дава съгласие изображението на герба на Република България да бъде включено в марката на „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

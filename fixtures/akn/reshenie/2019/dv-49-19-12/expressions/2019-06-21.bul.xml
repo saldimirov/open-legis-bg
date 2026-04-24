@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-49-19-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-49-19-12"/>
+          <FRBRalias value="Решение № 236 от 28 май 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 236 от 28 май 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-49-19-12"/>
+          <FRBRdate date="2019-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-49-19-12/bul@2019-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-49-19-12/bul@2019-06-21"/>
+          <FRBRdate date="2019-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-49-19-12/bul@2019-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-49-19-12/bul@2019-06-21.xml"/>
+          <FRBRdate date="2019-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-06-21" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 236 от 28 май 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 236 от 28 май 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 109, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 от ЗУТ Общинският съвет „Марица“ одо- брява представения ПУП – парцеларен план за обект: „Пътна връзка за ПИ 50.27 по КК на с. Царацово“, във връзка със смяна предназ- начението на част от общински имот с иден- тификатор 78080.142.138, м. Керемедчийката, с. Царацово, за осъществяване на инвестиционно намерение: „Изграждане на трасе за транспортен достъп за изграждане на обект: Производствена, складова, търговска и общественообслужваща дейност – производство на панели“. Председател: Г. Трендафилова 4551 ОБЩИНА ПОМОРИЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

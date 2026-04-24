@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-52/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-52"/>
+          <FRBRalias value="Решение № 227 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 227 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-54-12-52"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="52"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-52/bul@2012-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-52/bul@2012-07-17"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-52/bul@2012-07-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-52/bul@2012-07-17.xml"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-17" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 227 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 227 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 134, ал. 2, т. 6, чл. 110, ал. 1, т. 2 ЗУТ във връзка с протокол № 11 от 25.04.2012 г. на ОЕСУТ Общинският съвет – гр. Русе, реши: Одобрява подробен устройствен план (ПУП) – изменение на план за улична регулация (ИПУР) от ОТ 8536 до ОТ 8542, план за регулация (ПР) на кв. 718 за УПИ ХІІІ-369 и изменение на план за регулация (ИПР) на УПИ ХVІІІ-342 и ХІХ-343 в кв. 717 по плана на гр. Русе. Решението може да се оспори в 14-дневен срок от съобщаването му чрез Общинския съ­ вет – гр. Русе, пред Административния съд – Русе. Председател: В. Пенчев 6379</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-9/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-9"/>
+          <FRBRalias value="Указ № 45 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 45 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2022/dv-8-22-9"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-9/bul@2022-01-28/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-9/bul@2022-01-28"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-8-22-9/bul@2022-01-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-8-22-9/bul@2022-01-28.xml"/>
+          <FRBRdate date="2022-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-01-28" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 45 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 45 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за прилагане на разпоредби на Закона за държавния бюджет на Република България за 2021 г., Закона за бюджета на държавното обществено осигуряване за 2021 г. и Закона за бюджета на Националната здравнооси­ гурителна каса за 2021 г., приет от 47-ото Народно събрание на 21 януари 2022 г. Издаден в София на 25 януари 2022 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Надежда Йорданова СТР. 6 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 8</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

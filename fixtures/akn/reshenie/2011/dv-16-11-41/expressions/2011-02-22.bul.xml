@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-41/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-41"/>
+          <FRBRalias value="Решение № 690 от 25 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 690 от 25 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-16-11-41"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="41"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-41/bul@2011-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-41/bul@2011-02-22"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-16-11-41/bul@2011-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-16-11-41/bul@2011-02-22.xml"/>
+          <FRBRdate date="2011-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-22" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 690 от 25 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 690 от 25 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пер­ ник, одобрява специализирана план-схема към проект за подробен устройствен план за трасе и сервитут на оптичен кабел Съдебна палата – НОИ, гр. Перник – ЦГЧ, връзка между сградата на Съ­ дебната палата, разположена в УПИ ІV, кв. 238, и сградата на ТП НОИ, РУ „СО“, разположена в УПИ ІІ, кв. 244, по плана на гр. Перник – ЦГЧ. Председател: Д. Митрев 2049 ОБЩИНА ПЕТРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

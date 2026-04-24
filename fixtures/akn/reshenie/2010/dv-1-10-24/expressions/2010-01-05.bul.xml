@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-24"/>
+          <FRBRalias value="Решение № 789 от 26 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 789 от 26 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-1-10-24"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-24/bul@2010-01-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-24/bul@2010-01-05"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-24/bul@2010-01-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-24/bul@2010-01-05.xml"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-05" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 789 от 26 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 ЗУТ, във връзка с доклад от кмета на община Елин Пелин, Решение № 787 след ста­ новище на ПК по „Териториално селищно устрой­ ство, строителство и инфраструктура“ Общинският съвет – гр. Елин Пелин, реши: Одобрява ПУП – ПЗ „За вилен отдих“ на имот № 009010 по КВС на землището на с. Богданлия, община Елин Пелин, Софийска област. Решението подлежи на обжалване в 14-дневен срок от обнародването му в „Държавен вестник“ чрез община Елин Пелин пред Административния съд – София-област. Председател: Г. Костов 13689</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-53-13-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-53-13-13"/>
+          <FRBRalias value="Решение № 373 от 30 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 373 от 30 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-53-13-13"/>
+          <FRBRdate date="2013-06-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-53-13-13/bul@2013-06-18/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-53-13-13/bul@2013-06-18"/>
+          <FRBRdate date="2013-06-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-53-13-13/bul@2013-06-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-53-13-13/bul@2013-06-18.xml"/>
+          <FRBRdate date="2013-06-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-18" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 373 от 30 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 373 от 30 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бал­ чик, реши: Одобрява ПУП – ПРЗ за УПИ I-20, кв. 101, УПИ I-202, УПИ II-202, УПИ III-202, УПИ IV- 202, кв. 102, и УПИ I-202, кв. 104, отпадане на улична регулация от о.т. 500 до о.т. 504, о.т. 525 до о.т. 532 и о.т. 502 до о.к. 529 по плана на Сто­ пански двор, гр. Балчик, с цел обособяване на нов УПИ I-216, кв. 108, и ПЗ с отреждане за „Пч“ (производствено-складова дейност) по плана на Стопански двор, гр. Балчик. За председател: Ат. Георгиев 4797 ОБЩИНА БЕЛЕНЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

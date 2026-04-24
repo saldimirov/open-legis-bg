@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-50/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-50"/>
+          <FRBRalias value="Решение № 021 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 18 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 021 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 18 ЗМСМА" name="eli" other="/eli/bg/reshenie/2010/dv-34-10-50"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="50"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-50/bul@2010-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-50/bul@2010-05-04"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-50/bul@2010-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-50/bul@2010-05-04.xml"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-04" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 021 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 18 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 021 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 18 ЗМСМА Общинският съвет – гр. Севлиево, именува се­ лищното образувание в местността Крушевски баир в землището на гр. Севлиево на селищно образувание Хоталич. На основание чл. 35, ал. 2 ЗАТУРБ решението влиза в сила след обнарод­ ването му в „Държавен вестник“. Председател: Хр. Лалев 3648 ОБЩИНА СИЛИСТРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

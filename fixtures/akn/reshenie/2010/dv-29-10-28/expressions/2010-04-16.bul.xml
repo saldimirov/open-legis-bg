@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-28"/>
+          <FRBRalias value="Решение № 20 от 25 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 20 от 25 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-29-10-28"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-28/bul@2010-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-28/bul@2010-04-16"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-28/bul@2010-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-28/bul@2010-04-16.xml"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-16" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 20 от 25 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 20 от 25 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Па­ зарджик, одобрява ПУП – парцеларен план за трасе на оптична кабелна линия на „Евроком кабел мениджмънт България“ – ЕООД, разполо­ жена в сервитута на републикански път ІІІ-803 в землищата на с. Драгор, с. Сарая, с. Юнаците и с. Величково, съгласно приложения проект. Председател: Г. Йорданов 3050</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

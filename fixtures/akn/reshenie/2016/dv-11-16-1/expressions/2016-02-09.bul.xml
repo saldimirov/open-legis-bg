@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-11-16-1/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-11-16-1"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie/2016/dv-11-16-1"/>
+          <FRBRdate date="2016-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-11-16-1/bul@2016-02-09/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-11-16-1/bul@2016-02-09"/>
+          <FRBRdate date="2016-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-11-16-1/bul@2016-02-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-11-16-1/bul@2016-02-09.xml"/>
+          <FRBRdate date="2016-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-09" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 6 от Конституцията на Република Бълга- рия и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Република България от 7 ноември 2014 г. (ДВ, бр. 93 от 2014 г.), Решение на Народното събрание за персонални промени в Министер- ския съвет на Република България от 11 март 2015 г. (ДВ, бр. 19 от 2015 г.) и Решение на Народното събрание за персонални промени в Министерския съвет на Република България от 18 декември 2015 г. (ДВ, бр. 101 от 2015 г.) Р Е Ш И : 1. Освобождава Тодор Александров Танев като министър на образованието и науката. 2. Избира Меглена Щилиянова Куне- ва – заместник министър-председател по координация на европейските политики и институционалните въпроси, и за министър на образованието и науката. Решението е прието от 43-то Народно съб­ рание на 3 февруари 2016 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

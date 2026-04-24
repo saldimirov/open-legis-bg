@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-11"/>
+          <FRBRalias value="Решение № 1 от 20 април 2011 г. На основание чл. 8, ал. 2 ЗУПГМЖСВ във" name="short"/>
+          <FRBRalias value="Решение № 1 от 20 април 2011 г. На основание чл. 8, ал. 2 ЗУПГМЖСВ във" name="eli" other="/eli/bg/reshenie/2011/dv-36-11-11"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-11/bul@2011-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-11/bul@2011-05-10"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-11/bul@2011-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-11/bul@2011-05-10.xml"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-10" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1 от 20 април 2011 г. На основание чл. 8, ал. 2 ЗУПГМЖСВ във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1 от 20 април 2011 г. На основание чл. 8, ал. 2 ЗУПГМЖСВ във връзка с чл. 16, ал. 3 и 4 от Правилника за прилагането му и решение на Общинския съ­ вет – гр. Белослав, Управителният съвет на Националния компенсационен жилищен фонд утвърждава промяна в персоналния състав на местната комисия по чл. 8, ал. 2 при Община Белослав, област Варна (ДВ, бр. 16 от 2008 г.), като освобождава Галина Николова Тодорова – предсе­ дател на местната комисия, и утвърждава Хюлия Исмаилова Исмаил за нов председател на същата. Промяната е предложена с Решение № 410 на Общинския съвет – гр. Белослав, взето с протокол № 34 от 10.02.2011 г. Новоутвърденият председател е легитимен да взема управленски решения и да подписва протоколи на местната комисия от деня на об­ народване на решението на Управителния съвет в „Държавен вестник“ и действа през мандата на предложилия го общински съвет. Председател: М. Тотева 5277 АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ И СЛЕДПРИВАТИЗАЦИОНЕН КОНТРОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

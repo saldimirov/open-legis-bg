@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-56-10-62/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-56-10-62"/>
+          <FRBRalias value="Решение № 508 от 24 юни 2010 г. На основание чл. 45, ал. 7 и ал. 9, предл." name="short"/>
+          <FRBRalias value="Решение № 508 от 24 юни 2010 г. На основание чл. 45, ал. 7 и ал. 9, предл." name="eli" other="/eli/bg/reshenie/2010/dv-56-10-62"/>
+          <FRBRdate date="2010-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="62"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-56-10-62/bul@2010-07-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-56-10-62/bul@2010-07-23"/>
+          <FRBRdate date="2010-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-56-10-62/bul@2010-07-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-56-10-62/bul@2010-07-23.xml"/>
+          <FRBRdate date="2010-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-23" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 508 от 24 юни 2010 г. На основание чл. 45, ал. 7 и ал. 9, предл.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 508 от 24 юни 2010 г. На основание чл. 45, ал. 7 и ал. 9, предл. второ, чл. 45, ал. 9 във връзка с чл. 21, ал. 1, т. 8 ЗМСМА и чл. 6, ал. 1 от Наредбата за търговете и конкурсите и мотивите на вносителя Общински­ ят съвет – гр. Павликени, изменя свое Решение № 502 по протокол № 53 от 27.V.2010 г., като в края на т. 2 се добавя: „Срокът за подаване на предложения за участие в търга е до 17 ч. на деня, предхождащ деня на търга.“ Председател: Д. Дончев 5876 БРОЙ 56 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 97 ОБЩИНА ПЕТРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

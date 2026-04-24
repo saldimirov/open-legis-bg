@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-31/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-31"/>
+          <FRBRalias value="Решение № 307 от 30 декември 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 307 от 30 декември 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2017/dv-11-17-31"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-31/bul@2017-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-31/bul@2017-01-31"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-31/bul@2017-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-31/bul@2017-01-31.xml"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-31" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 307 от 30 декември 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 307 от 30 декември 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Долни чифлик, одобрява проект на подробен устройствен план (ПУП) – парцеларен план (ПП) за трасето на отвеждащ канализацио- нен клон от ПИ 83404.14.69 до р. Фъндъклийска, попадащ в ПИ 83404.14.200, ПИ 83404.14.201, ПИ 83404.19.133 и ПИ 83404.19.137 по КК на с. Шкорпиловци (съгласно приложение № 5 към докладната записка). Председател: Ж. Жеков 614 ОБЩИНА ДОСПАТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

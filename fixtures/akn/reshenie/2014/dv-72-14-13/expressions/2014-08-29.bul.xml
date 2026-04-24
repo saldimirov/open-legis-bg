@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-13"/>
+          <FRBRalias value="Решение № 123 от 6 август 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 123 от 6 август 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2014/dv-72-14-13"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-13/bul@2014-08-29/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-13/bul@2014-08-29"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-72-14-13/bul@2014-08-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-72-14-13/bul@2014-08-29.xml"/>
+          <FRBRdate date="2014-08-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-08-29" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 123 от 6 август 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 123 от 6 август 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ка­ варна, реши: Одобрява проект за подробен устройствен план – парцеларен план за линейни обекти на техническата инфраструктура извън границите на населените места и селищни образувания, пред­ ставляваща електропровод CpH 20 kV, захранващ ПИ 26.159 и ПИ 26.160 в землище гр. Каварна, об­ щина Каварна, област Добрич, по следното трасе: 35064.26.159, 35064.26.160, 35064.20.129 – „За път от републиканската пътна мрежа“, 35064.37.74 – „За кръстовище“, и 35064.112.130 – „За местен път“, по КККР на гр. Каварна, община Каварна, об­ ласт Добрич. Председател: Ив. Кьосев 5760 БРОЙ 72 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 63 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-6/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-6"/>
+          <FRBRalias value="Решение № 250 ОТ 13 АПРИЛ 2018 Г. за обявяване на 14 април 2018 г. за Ден на" name="short"/>
+          <FRBRalias value="Решение № 250 ОТ 13 АПРИЛ 2018 Г. за обявяване на 14 април 2018 г. за Ден на" name="eli" other="/eli/bg/reshenie/2018/dv-34-18-6"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-6/bul@2018-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-6/bul@2018-04-20"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-6/bul@2018-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-6/bul@2018-04-20.xml"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-04-20" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 250 ОТ 13 АПРИЛ 2018 Г. за обявяване на 14 април 2018 г. за Ден на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 250 ОТ 13 АПРИЛ 2018 Г. за обявяване на 14 април 2018 г. за Ден на национален траур На основание чл. 89 и 90 от Правилника за прилагане на Закона за държавния протокол, приет с Постановление № 172 на Министер- ския съвет от 2009 г., МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 14 април 2018 г. за Ден на наци- онален траур в памет на жертвите, загинали в тежката катастрофа с автобус на Автомаги- страла „Тракия“ на 13 април 2018 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

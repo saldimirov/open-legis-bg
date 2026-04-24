@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-39/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-39"/>
+          <FRBRalias value="Решение № 434 от 25 март 2010 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="short"/>
+          <FRBRalias value="Решение № 434 от 25 март 2010 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="eli" other="/eli/bg/reshenie/2010/dv-30-10-39"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-39/bul@2010-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-39/bul@2010-04-20"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-39/bul@2010-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-39/bul@2010-04-20.xml"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-20" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 434 от 25 март 2010 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 434 от 25 март 2010 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Монтана, реши: Одобрява подробен устройствен план – парце­ ларен план (ПП) на подземно трасе за кабелно електрозахранване НН по съществуващи улици, полски път и поземлени имоти по опис до ПИ № 058061 в землище с. Благово, община Монтана, отреден за обект „Приемо-предавателна станция на „Глобул“ № 5624, както следва: Кабелно електрозахранване НН с дължина 1032 л. м преминава през улица в с. Благово и имоти: № 000029 – полски път, ПИ 057053 и ПИ 057029 – земи по чл. 19 ЗСПЗЗ, имот № 000019 – полски път, ПИ 0058024 – полски път, и ПИ № 058038 и № 058061 – частна собственост на „Космо България Мобайл“ – ЕАД. Сервитутът на трасето на кабелното ел. за­ хранване НН засяга имоти – общинска собстве­ ност, за които има договор за учредено право на прокарване. Председател: Св. Николов 3169 БРОЙ 30 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 63 ОБЩИНА ПЛЕВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

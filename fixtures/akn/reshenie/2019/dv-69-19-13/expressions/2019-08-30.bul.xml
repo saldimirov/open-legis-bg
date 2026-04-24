@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-13/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-13"/>
+          <FRBRalias value="Решение № 185 от 15 юли 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 185 от 15 юли 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2019/dv-69-19-13"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-13/bul@2019-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-13/bul@2019-08-30"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-13/bul@2019-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-13/bul@2019-08-30.xml"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-08-30" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 185 от 15 юли 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 185 от 15 юли 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 127, ал. 6 и чл. 134, ал. 3 от ЗУТ Общинският съвет – гр. Кърджали, одобрява изменението на ОУП в частта на УПИ ХІV-6347 и УПИ ХV-6519, кв. 217 по плана на кв. Възрожденци, гр. Кърджали, промяна на територията от „Об­ щественообслужваща зона (Оо)“ в „Устройствена зона Ц (смесена централна зона)“. Председател: Р. Мустафа 6736 ОБЩИНА ПЕТРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

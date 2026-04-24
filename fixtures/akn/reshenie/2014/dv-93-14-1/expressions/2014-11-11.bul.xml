@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-1/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-1"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="short"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="eli" other="/eli/bg/reshenie/2014/dv-93-14-1"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-1/bul@2014-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-1/bul@2014-11-11"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-1/bul@2014-11-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-1/bul@2014-11-11.xml"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-11" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на министър-председател на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Република България Народното събрание на основание чл. 84, т. 6 и чл. 108 от Конституцията на Репуб- лика България и във връзка с Указ № 244 на президента на Република България от 6 но­ ември 2014 г. Р Е Ш И : Избира Бойко Методиев Борисов за ми­ нистър-председател на Република България. Решението е прието от 43-то Народно съ­ брание на 7 ноември 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

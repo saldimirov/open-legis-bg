@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-7"/>
+          <FRBRalias value="Указ № 81 На основание чл. 101, ал. 3 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 81 На основание чл. 101, ал. 3 от Конститу-" name="eli" other="/eli/bg/ukaz/2010/dv-24-10-7"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-7/bul@2010-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-7/bul@2010-03-26"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-7/bul@2010-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-7/bul@2010-03-26.xml"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-26" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 81 На основание чл. 101, ал. 3 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 81 На основание чл. 101, ал. 3 от Конститу- цията на Република България П О С ТА Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за изменение на Закона за събрани- ята, митингите и манифестациите, приет от ХLI Народно събрание на 21 януари 2010 г., повторно приет на 17 март 2010 г. Издаден в София на 23 март 2010 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

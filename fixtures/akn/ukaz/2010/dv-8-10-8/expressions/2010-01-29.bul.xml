@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-8-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-8-10-8"/>
+          <FRBRalias value="Указ № 12 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="short"/>
+          <FRBRalias value="Указ № 12 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="eli" other="/eli/bg/ukaz/2010/dv-8-10-8"/>
+          <FRBRdate date="2010-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-8-10-8/bul@2010-01-29/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-8-10-8/bul@2010-01-29"/>
+          <FRBRdate date="2010-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-8-10-8/bul@2010-01-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-8-10-8/bul@2010-01-29.xml"/>
+          <FRBRdate date="2010-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-29" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 12 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 12 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106, ал. 1 от Закона за местните избори П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на кметство Лъвино, община Исперих, област Разград, на 17 април 2010 г. Издаден в София на 25 януари 2010 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова 744</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

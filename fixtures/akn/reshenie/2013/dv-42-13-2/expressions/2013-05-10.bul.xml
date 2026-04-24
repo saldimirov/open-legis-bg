@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-2"/>
+          <FRBRalias value="Решение № 267 ОТ 26 АПРИЛ 2013 Г. за изменение на решения на Министерския" name="short"/>
+          <FRBRalias value="Решение № 267 ОТ 26 АПРИЛ 2013 Г. за изменение на решения на Министерския" name="eli" other="/eli/bg/reshenie/2013/dv-42-13-2"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-2/bul@2013-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-2/bul@2013-05-10"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-2/bul@2013-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-2/bul@2013-05-10.xml"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-05-10" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 267 ОТ 26 АПРИЛ 2013 Г. за изменение на решения на Министерския</p>
+      <p>(обн., ДВ, бр. 148 от 1998 г.; изм., бр. 65 от 2000 г., бр. 43 от 2001 г. и бр. 47 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 думите „с мандат 4 години“ се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 4 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Висшият консултативен съвет по водите се ръководи от оправомощено от министъра на околната среда и водите длъж­ ностно лице.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Член 11 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_2">
+          <num>Чл. 11.</num>
+          <paragraph eId="sec_final__art_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Заседанията на ВКСВ се пред­ седателстват от оправомощено от министъра на околната среда и водите длъжностно лице по чл. 4.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__art_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В случай на отсъствие председателят по ал. 1 предлага поименно свой заместник за насроченото заседание на ВКСВ, който се оправомощава със заповед на министъра на околната среда и водите.“ Заключителни разпоредби</p>
+            </content>
+          </paragraph>
+        </article>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

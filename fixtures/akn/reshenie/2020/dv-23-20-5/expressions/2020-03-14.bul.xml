@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-23-20-5/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-23-20-5"/>
+          <FRBRalias value="Решение за избор на управител на Националната" name="short"/>
+          <FRBRalias value="Решение за избор на управител на Националната" name="eli" other="/eli/bg/reshenie/2020/dv-23-20-5"/>
+          <FRBRdate date="2020-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-23-20-5/bul@2020-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-23-20-5/bul@2020-03-14"/>
+          <FRBRdate date="2020-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-23-20-5/bul@2020-03-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-23-20-5/bul@2020-03-14.xml"/>
+          <FRBRdate date="2020-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-03-14" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на управител на Националната</p>
+      <p>(обн., ДВ, бр. 43 от 2015 г.; изм. и доп., бр. 19 от 2016 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>здравноосигурителна каса Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Ре­ публика България и чл. 19, ал. 1 от Закона за здравното осигуряване Р Е Ш И : Избира Петко Ненков Салчев за управител на Националната здравноосигурителна каса. Решението е прието от 44-то Народно събрание на 13 март 2020 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-33-16-40/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-33-16-40"/>
+          <FRBRalias value="Решение № 195 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 195 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-33-16-40"/>
+          <FRBRdate date="2016-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-33-16-40/bul@2016-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-33-16-40/bul@2016-04-26"/>
+          <FRBRdate date="2016-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-33-16-40/bul@2016-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-33-16-40/bul@2016-04-26.xml"/>
+          <FRBRdate date="2016-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 195 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 195 от 31 март 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и Решение № 031 на Общинския експертен съвет по устройство на територията при Община Силистра, взето на заседание с Протокол № 03 от 4.02.2016 г., Общинският съвет – гр. Силистра, одобрява подробен устройствен план на територията на община Силистра: „ПУП – ПРЗ – план-схема за подземна канална мрежа за оптични кабели за нуждите на „Нетуоркс – България“ – ЕООД, на територията на с. Айдемир, община Силистра“. Председател: М. Димитрова 3026 ОБЩИНА СЛИВНИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-80-16-3/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-80-16-3"/>
+          <FRBRalias value="Решение № 11 от 4 октомври 2016 г." name="short"/>
+          <FRBRalias value="Решение № 11 от 4 октомври 2016 г." name="eli" other="/eli/bg/reshenie/2016/dv-80-16-3"/>
+          <FRBRdate date="2016-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-80-16-3/bul@2016-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-80-16-3/bul@2016-10-11"/>
+          <FRBRdate date="2016-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-80-16-3/bul@2016-10-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-80-16-3/bul@2016-10-11.xml"/>
+          <FRBRdate date="2016-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-11" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 11 от 4 октомври 2016 г.</p>
+      <p>(обн., Изв., бр. 13 от 1958 г.; посл. изм., ДВ, бр. 59 от 2016 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Контролът по спазването на закона се осъществява от органите на Министерството на вътрешните работи.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 6.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Който на публично място носи облекло, прикриващо частично или скриващо напълно лицето, се наказва със: 1. глоба в размер на 200 лв. – за първо нарушение; 2. глоба в размер на 1500 лв. – за всяко следващо нарушение.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Ако нарушителите са длъжностни лица, наказанието е: 1. глоба в размер на 500 лв. – за първо нарушение; 2. глоба в размер на 2000 лв. – за всяко следващо нарушение.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Наказанието по ал. 2 се налага и на подбудителите и допустителите.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 7.</num>
+        <content>
+          <p>Актовете за установяване на нару- шенията се съставят от органите на Минис- терството на вътрешните работи.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 8.</num>
+        <content>
+          <p>Наказателните постановления се из- дават от министъра на вътрешните работи или от оправомощени от него длъжностни лица.</p>
+        </content>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 9.</num>
+        <content>
+          <p>Установяването на нарушенията, издаването, обжалването и изпълнението на наказателните постановления се извършват по реда на Закона за административните на- рушения и наказания.</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

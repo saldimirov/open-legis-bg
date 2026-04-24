@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-27-18-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-27-18-20"/>
+          <FRBRalias value="Решение № 741 от 27 февруари 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 741 от 27 февруари 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-27-18-20"/>
+          <FRBRdate date="2018-03-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-27-18-20/bul@2018-03-27/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-27-18-20/bul@2018-03-27"/>
+          <FRBRdate date="2018-03-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-27-18-20/bul@2018-03-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-27-18-20/bul@2018-03-27.xml"/>
+          <FRBRdate date="2018-03-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-03-27" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 741 от 27 февруари 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 741 от 27 февруари 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ и чл. 17а, ал. 2 от Закона за опазване на земеделските земи Об­ щинският съвет – гр. Смолян, реши: Одобрява подробен устройствен план – пар­ целарен план за обект: „Външен водопровод за захранване на „Ваканционно селище“ в УПИ I-18 в кв. 85 в местност Караманджа, община Смолян“, с трасе, преминаващо през поземлени имоти с идентификатори 67653.1.640 и 67653.656.1 по ка­ дастралната карта в землището на гр. Смолян. Председател: Д. Кръстанов 3067</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

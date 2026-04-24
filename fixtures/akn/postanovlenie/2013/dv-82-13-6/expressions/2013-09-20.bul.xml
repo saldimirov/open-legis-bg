@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-6"/>
+          <FRBRalias value="Постановление № 203 ОТ 12 СЕПТЕМВРИ 2013 Г. за предоставяне на допълнителни средства" name="short"/>
+          <FRBRalias value="Постановление № 203 ОТ 12 СЕПТЕМВРИ 2013 Г. за предоставяне на допълнителни средства" name="eli" other="/eli/bg/postanovlenie/2013/dv-82-13-6"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-6/bul@2013-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-6/bul@2013-09-20"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-6/bul@2013-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-6/bul@2013-09-20.xml"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-20" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 203 ОТ 12 СЕПТЕМВРИ 2013 Г. за предоставяне на допълнителни средства</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да пре­ достави от централния бюджет за 2013 г. до­ пълнителни бюджетни кредити в размер до 4000 хил. лв. по бюджета на Министерството на здравеопазването за нуждите на Център „Фонд за лечение на деца“.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на финансите по пред­ ложение на министъра на здравеопазването да извърши налагащите се промени по бюдже­ та на Министерството на здравеопазването за 2013 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет въз основа на фактически извършените разходи, свързани с дейността на Център „Фонд за лечение на деца“. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на здравеопазването. За министър-председател: Цветлин Йовчев За главен секретар на Министерския съвет: Нина Ставрева 6996 СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 82</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

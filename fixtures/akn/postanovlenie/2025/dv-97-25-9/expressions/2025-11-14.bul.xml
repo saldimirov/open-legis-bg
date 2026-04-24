@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-97-25-9/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-97-25-9"/>
+          <FRBRalias value="Постановление № 240 от 11 ноември 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните" name="short"/>
+          <FRBRalias value="Постановление № 240 от 11 ноември 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните" name="eli" other="/eli/bg/postanovlenie/2025/dv-97-25-9"/>
+          <FRBRdate date="2025-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-97-25-9/bul@2025-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-97-25-9/bul@2025-11-14"/>
+          <FRBRdate date="2025-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-97-25-9/bul@2025-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-97-25-9/bul@2025-11-14.xml"/>
+          <FRBRdate date="2025-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-11-14" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 240 от 11 ноември 2025 г. за приемане на Тарифа за таксите, които се събират от Българската агенция по безопасност на храните</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, които се събират от Българската агенция по безопасност на храните, приета с Постановление № 375 на Министерския съвет от 2011 г. (ДВ, бр. 1 от 2012 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Тарифата влиза в сила от 1-во число на месеца, следващ месеца на обнародване на постановлението в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Таксите, посочени в колона „Евро“, влизат в сила от датата, определена в Решение (ЕС) 2025/1407 на Съвета от 8 юли 2025 г. относно приемането на еврото от България, считано от 1 януари 2026 г. (OВ, L 2025/1407 от 14 юли 2025 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Плащането на таксите в левове в брой може да се извършва само за период един месец от датата на въвеждане на еврото в Република България (период на двойно обращение на лева и еврото) съгласно чл. 24 от Закона за въвеждане на еврото в Република България при използване на официалния валутен курс, изразен с шест цифри с всичките пет знака след десетичната запетая, и при спазване на правилото за закръгляване, регламентирано в чл. 13 от същия закон.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

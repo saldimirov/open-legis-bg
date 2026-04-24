@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-87-16-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-87-16-19"/>
+          <FRBRalias value="Решение № 208 от 29 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 208 от 29 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-87-16-19"/>
+          <FRBRdate date="2016-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-87-16-19/bul@2016-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-87-16-19/bul@2016-11-04"/>
+          <FRBRdate date="2016-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-87-16-19/bul@2016-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-87-16-19/bul@2016-11-04.xml"/>
+          <FRBRdate date="2016-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-04" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 208 от 29 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пав- ликени, реши: Одобрява изработения проект за ПУП – план за регулация за квартал 175, УПИ І-1062 и обо- собяване на нов квартал 184 с УПИ І-1866 – „За жп линии“, по ПУП на гр. Павликени. Предвижда се промяна на УПИ І-1062 от квартал 175 по съществуващата инфраструктура (района на жп гарата) и обособяване на нов квартал 184 с УПИ І-1866, включващ жп ареала в рамките на града. Председател: В. Антонова 8650 ОБЩИНА ПЕРНИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

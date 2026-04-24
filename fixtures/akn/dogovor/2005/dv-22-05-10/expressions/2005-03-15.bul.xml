@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-22-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-22-05-10"/>
+          <FRBRalias value="Спогодба между Република България и Кралство Испания за международни автомобилни превози на пътници и товари" name="short"/>
+          <FRBRalias value="Спогодба между Република България и Кралство Испания за международни автомобилни превози на пътници и товари" name="eli" other="/eli/bg/dogovor/2005/dv-22-05-10"/>
+          <FRBRdate date="2005-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-22-05-10/bul@2005-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-22-05-10/bul@2005-03-15"/>
+          <FRBRdate date="2005-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-22-05-10/bul@2005-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-22-05-10/bul@2005-03-15.xml"/>
+          <FRBRdate date="2005-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-03-15" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Спогодба между Република България и Кралство Испания за международни автомобилни превози на пътници и товари</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <content>
+          <p>Член 17</p>
+          <p>Влизане в сила и срок на действие на спогодбата</p>
+          <p>1. Всяка договаряща страна уведомява другата договаряща страна за извършването на необходимите процедури по влизането в сила на тази спогодба. Спогодбата влиза в сила 30 дни от датата на получаването на второто от тези уведомления.</p>
+          <p>2. Спогодбата остава в сила за период от 1 година след влизането й в сила. След това продължава да действа за неопределен срок, докато не бъде денонсирана с писмено уведомление по дипломатически път от една от договарящите страни. Това я прекратява 6 месеца след датата на получаването на писменото уведомление от другата договаряща страна.</p>
+          <p>Съставена в София на 1 септември 2003 г. в два екземпляра на български, испански и английски език, като всички текстове имат еднаква юридическа сила. В случай на разногласия при тълкуване на текстовете определящ е английският текст.</p>
+          <p>За Република България:                                                                       За Кралство Испания:</p>
+          <p>Николай Василев,                                                                                             Ана Паласио,</p>
+          <p>заместник министър-                                                                                            министър на</p>
+          <p>председател и министър                                                                                           външните</p>
+          <p>на транспорта и                                                                                                               работи</p>
+          <p>съобщенията</p>
+          <p>9751</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

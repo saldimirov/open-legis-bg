@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-44-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-44-12-22"/>
+          <FRBRalias value="Решение № 138 от 27 април 2012 г. На основание чл. 8, ал. 1 ЗОС, чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 138 от 27 април 2012 г. На основание чл. 8, ал. 1 ЗОС, чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2012/dv-44-12-22"/>
+          <FRBRdate date="2012-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-44-12-22/bul@2012-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-44-12-22/bul@2012-06-12"/>
+          <FRBRdate date="2012-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-44-12-22/bul@2012-06-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-44-12-22/bul@2012-06-12.xml"/>
+          <FRBRdate date="2012-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-12" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 138 от 27 април 2012 г. На основание чл. 8, ал. 1 ЗОС, чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 138 от 27 април 2012 г. На основание чл. 8, ал. 1 ЗОС, чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение на ЕСУТ при Община Симитли Общинският съ­ вет – гр. Симитли, реши: 1. Oдобрява подробния устройствен план – план за застрояване за имот № 007002, м. Дълбоко ог­ нище, землище на с. Железница, за промяна на предназначението на земеделска земя „За ниско свободно жилищно строителство“. 2. Упълномощава кмета на общината да предприеме необходимите правни и фактически действия по изпълнение на решението. Председател: С. Атанасовска 5455</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

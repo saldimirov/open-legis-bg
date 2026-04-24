@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-40/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-40"/>
+          <FRBRalias value="Решение № 1494 от 9 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1494 от 9 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-89-10-40"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-40/bul@2010-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-40/bul@2010-11-12"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-40/bul@2010-11-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-40/bul@2010-11-12.xml"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-12" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1494 от 9 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1494 от 9 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, протокол № 44 на ПК по „Ус­ тройство на територията“ Общинският съвет – гр. Самоков, реши: Одобрява подробния устройствен план – план за застрояване за имот № 15285.9.432 (стар иден­ тификатор № 746005) в местността Черни Искър в землището на с. Говедарци, община Самоков, собственост на „София стар пропъртис“ – АД, при обособена устройствена зона „Курорт – Ок“ с показатели: плътност на застрояване – до 30 %, коефициент на интензивност – до 1,2, височина на сградите – до 10 м (3 ет.) съгласно приложе­ ния проект. Имотът подлежи на първа регулация съгласно чл. 16 ЗУТ. Председател: Л. Янкова 8815 ОБЩИНА САНДАНСКИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

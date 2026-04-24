@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-7/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-7"/>
+          <FRBRalias value="Указ № 47 На основание чл. 100, ал. 2 от Конституция-" name="short"/>
+          <FRBRalias value="Указ № 47 На основание чл. 100, ал. 2 от Конституция-" name="eli" other="/eli/bg/ukaz/2015/dv-24-15-7"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-7/bul@2015-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-7/bul@2015-03-31"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-7/bul@2015-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-7/bul@2015-03-31.xml"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-31" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 47 На основание чл. 100, ал. 2 от Конституция-</p>
+      <p>(обн., ДВ, бр. 61 от 2008 г.; изм., бр. 37, 45 и 55 от 2010 г., бр. 65, 68, 89 и 99 от 2011 г.; изм. и доп., бр. 53 от 2012 г., бр. 70 от 2013 г.; изм., бр. 61 от 2014 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 47 На основание чл. 100, ал. 2 от Конституция- та на Република България във връзка с чл. 146, т. 1 и чл. 216, ал. 2 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Назначавам комодор Димитър Ангелов Ангелов – заместник-командир на Военно- морските сили, за временно изпълняващ задълженията на вакантната длъжност ко- мандир на Военноморските сили за срок до назначаването на титуляр, но не по-дълъг от една година, считано от 13 април 2015 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 24 март 2015 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

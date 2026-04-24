@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-28"/>
+          <FRBRalias value="Решение № 482 от 19 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл." name="short"/>
+          <FRBRalias value="Решение № 482 от 19 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл." name="eli" other="/eli/bg/reshenie/2011/dv-44-11-28"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-28/bul@2011-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-28/bul@2011-06-10"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-28/bul@2011-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-28/bul@2011-06-10.xml"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-10" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 482 от 19 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>129, ал. 1 ЗУТ и протокол № 6, Решение № XI от 12.05.2011 г. на ОбЕС по УТ при Община Бре­ зник Общинският съвет – гр. Брезник: одобрява проект за ПУП – ПП (парцеларен план) на трасе и сервитут за изместване на част от довеждащ водопровод АЦ ∅ 200, който да премине по ново трасе през УПИ II-024008 за „Фотоволтаичен парк“, кв. 49, одобрен със Заповед № 275 от 27.04.2010 г., ПИ 024001, ПИ 024011, път ПИ 000106 по КВС на с. Кошарево и УПИ I-024010 за „Фотоволта­ ичен парк“, кв. 49 по ПУП – ПРС, с. Кошарево, община Брезник, одобрен със Заповед № 360 от 16.06.2009 г. според червените и сините линии, цифри и надписи в графичната част на проекта, която е неразделна част към това решение. Председател: Ив. Ставрев 6729 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

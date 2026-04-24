@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-14"/>
+          <FRBRalias value="Постановление № 271 ОТ 30 ОКТОМВРИ 2012 Г. за приемане на Наредба за опаковките и от­" name="short"/>
+          <FRBRalias value="Постановление № 271 ОТ 30 ОКТОМВРИ 2012 Г. за приемане на Наредба за опаковките и от­" name="eli" other="/eli/bg/postanovlenie/2012/dv-85-12-14"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-14/bul@2012-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-14/bul@2012-11-06"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-14/bul@2012-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-14/bul@2012-11-06.xml"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-06" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 271 ОТ 30 ОКТОМВРИ 2012 Г. за приемане на Наредба за опаковките и от­</p>
+      <p>(обн., ДВ, бр. 19 от 2004 г.; попр., бр. 56 от 2004 г.; изм. и доп., бр. 104 от 2004 г., бр. 58 от 2005 г., бр. 53 от 2008 г. и бр. 29 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Наредбата за опаковките и отпадъците от опаковки, приета с Постано­ вление № 41 на Министерския съвет от 2004 г. (обн., ДВ, бр. 19 от 2004 г.; попр., бр. 56 от 2004 г.; изм. и доп., бр. 104 от 2004 г., бр. 58 от 2005 г., бр. 53 от 2008 г. и бр. 29 от 2011 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението и наредбата по член единствен влизат в сила от деня на обнародва­ нето им в „Държавен вестник“ с изключение на разпоредбите на чл. 23, 24 и 25 от наредбата, които влизат в сила от 1 януари 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

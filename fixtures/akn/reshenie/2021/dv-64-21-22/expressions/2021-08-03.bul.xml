@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-64-21-22/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-64-21-22"/>
+          <FRBRalias value="Решение № 238 от 22 юли 2021 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 238 от 22 юли 2021 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2021/dv-64-21-22"/>
+          <FRBRdate date="2021-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-64-21-22/bul@2021-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-64-21-22/bul@2021-08-03"/>
+          <FRBRdate date="2021-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-64-21-22/bul@2021-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-64-21-22/bul@2021-08-03.xml"/>
+          <FRBRdate date="2021-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-08-03" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 238 от 22 юли 2021 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 238 от 22 юли 2021 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 8.11.2021 г. сребърна възпоменателна монета с нанесено частично позлатяване „Хан Омуртаг“ от серията „Средновековни български владетели“ със следното описание: Технически параметри: емисия – 2021 г.; номинална стойност – 10 лв.; метал – сребро, проба 925/1000 с нанесено частично позлатяване; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: Лицева страна на монетата: позлатен медальон с изображение на медальон на Хан Омуртаг; в полукръг горе надпис „БЪЛГАРСКА НАРОДНА БАНКА“; долу – номинална стойност „10 ЛЕВА“ и емблемата на БНБ с годината „1879“ върху лентата, а под тях годината на емисията „2021“. Обратна страна на монетата: отделени със зрънчест пръстен са изображения на колоната с Чаталарския надпис и фрагмент от миниатюра от „Хроника“ на Йоан Скилица с изображение на владетеля. Околовръст по външния пръстен е изписано: горе – „СРЕДНОВЕКОВНИ БЪЛГАР­ СКИ ВЛАДЕТЕЛИ“, а долу – „ХАН ОМУРТАГ“. Автори на художествения проект са Евгения Цанкова и Орлин Иванов. Управител: Д. Радев 4631 ОБЩИНА БУРГАС</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

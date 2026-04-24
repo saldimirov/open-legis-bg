@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-12-20-9/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-12-20-9"/>
+          <FRBRalias value="Решение № 25 от 19 декември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 25 от 19 декември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="eli" other="/eli/bg/reshenie/2020/dv-12-20-9"/>
+          <FRBRdate date="2020-02-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-12-20-9/bul@2020-02-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-12-20-9/bul@2020-02-11"/>
+          <FRBRdate date="2020-02-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-12-20-9/bul@2020-02-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-12-20-9/bul@2020-02-11.xml"/>
+          <FRBRdate date="2020-02-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-02-11" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 25 от 19 декември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 25 от 19 декември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и чл. 127, ал. 6 във връзка с чл. 134, ал. 1, т. 1 от ЗУТ Общинският съвет – гр. Гурково, одобрява изменение на действащия общ устройствен план (ОУП) на община Гурково в частта му за ПИ с идентификатор 22767.224.100 по КК на с. Па­ ничерево, като за имота се отреди устройствена зона – Ос – ваканционно селище. Председател: Г. Гочев 1334</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

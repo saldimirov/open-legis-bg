@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-101-14-14/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-101-14-14"/>
+          <FRBRalias value="Решение № 425 от 10 юли 2014 г." name="short"/>
+          <FRBRalias value="Решение № 425 от 10 юли 2014 г." name="eli" other="/eli/bg/reshenie/2014/dv-101-14-14"/>
+          <FRBRdate date="2014-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-101-14-14/bul@2014-12-09/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-101-14-14/bul@2014-12-09"/>
+          <FRBRdate date="2014-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-101-14-14/bul@2014-12-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-101-14-14/bul@2014-12-09.xml"/>
+          <FRBRdate date="2014-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-09" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 425 от 10 юли 2014 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 425 от 10 юли 2014 г. Във връзка с извършена служебна проверка се установи, че е допусната очевидна фактическа грешка в мотивите и разпоредителната част на Решение № 23 по протокол № 55 от 23.01.2014 г. на СОС, като в целия текст на решението погрешно е написано XLVI-1132 вместо XLVIІ-1132. Видно от представения проект, обяснителната записка и приложените по преписката документи, волята на административния орган е била да одобри проект за изменение на план за регула- ция на кв. 23б за създаване на УПИ XLVI-580 и XLVIІ-1132 и откриване на задънена улица от о.т. 230в1 до о.т. 230в2, кв. 23б, в.з. Беловодски път. Изработването на ПУП – ИПР и ПЗ е допус- нато със Заповед № РД-09-50-2048 от 23.12.2010 г. на главния архитект на СО. Със заявление вх. № ГР-94-С-61 от 26.04.2011 г. е внесен проект за одобряване на ПУП – ИПР и ПЗ. Проектът е обявен по реда на чл. 128, ал. 3 ЗУТ, което е удостоверено с писмо № 6602-407</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

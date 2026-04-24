@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-30"/>
+          <FRBRalias value="Решение № 591 от 18 юли 2010 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 591 от 18 юли 2010 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА" name="eli" other="/eli/bg/reshenie/2010/dv-63-10-30"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-30/bul@2010-08-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-30/bul@2010-08-13"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-30/bul@2010-08-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-30/bul@2010-08-13.xml"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-13" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 591 от 18 юли 2010 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 591 от 18 юли 2010 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Долни чифлик, одобрява проект на ПУП – парцеларен план на: довеждащ колектор ∅ 90, който осъществява връзката между КПС, с. Горен чифлик, в ПИ 187675 до ПСОВ, в ПИ 026034, с. Горен чифлик, с дължина 1682,32 м, довеждащ колектор ∅ 140, който осъществява връзката между КПС, с. Горен чифлик, в ПИ 028051 до ПСОВ в ПИ 026034, с. Горен чифлик, с дължина 1065,102 м и довеждащ колектор ∅ 200 с дължина 2985,75 м, който осъществява връзката между КПС, с. Пчелник, в ПИ 011025 до ПСОВ в ПИ 026034, с. Горен чифлик. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Долни чифлик до Административния съд – Варна. Председател: Ф. Бейтулов 6543 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

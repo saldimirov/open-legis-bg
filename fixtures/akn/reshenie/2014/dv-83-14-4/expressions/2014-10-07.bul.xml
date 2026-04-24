@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-83-14-4/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-83-14-4"/>
+          <FRBRalias value="Решение № 682 ОТ 2 ОКТОМВРИ 2014 Г. за обявяване на 3 октомври 2014 г. за Ден на" name="short"/>
+          <FRBRalias value="Решение № 682 ОТ 2 ОКТОМВРИ 2014 Г. за обявяване на 3 октомври 2014 г. за Ден на" name="eli" other="/eli/bg/reshenie/2014/dv-83-14-4"/>
+          <FRBRdate date="2014-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-83-14-4/bul@2014-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-83-14-4/bul@2014-10-07"/>
+          <FRBRdate date="2014-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-83-14-4/bul@2014-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-83-14-4/bul@2014-10-07.xml"/>
+          <FRBRdate date="2014-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-10-07" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 682 ОТ 2 ОКТОМВРИ 2014 Г. за обявяване на 3 октомври 2014 г. за Ден на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 682 ОТ 2 ОКТОМВРИ 2014 Г. за обявяване на 3 октомври 2014 г. за Ден на национален траур На основание чл. 89 и 90 от Правилника за прилагане на Закона за държавния протокол, приет с Постановление № 172 на Министерския съвет от 2009 г., МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 3 октомври 2014 г. за Ден на нацио- нален траур в памет на жертвите, трагично загинали при инцидента във фабриката в с. Горни Лом на 1 октомври 2014 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

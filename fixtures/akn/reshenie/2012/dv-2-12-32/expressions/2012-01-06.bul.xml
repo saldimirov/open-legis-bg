@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-32/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-32"/>
+          <FRBRalias value="Решение № 934 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 934 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-2-12-32"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-32/bul@2012-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-32/bul@2012-01-06"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-32/bul@2012-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-32/bul@2012-01-06.xml"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 934 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 934 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Чепеларе, одобрява проекта за изменение на общия устройствен план на Ски център – Чепе­ ларе, ядро Долна лифтова станция „Мечи чал“, като за граница на застрояването на запад от Долна лифтова станция приема първи вариант със следните параметри за устройствените зони, както следва: Зони за измене­ ние на ОУП Оз­ наче­ ние Плът­ ност (%) Озе­ леня­ ване (%) Кинт. Ета­ жи Курортни дейности Ок1 30 60 1,50 4 Курортни дейности Ок2 30 60 1,50 5 Курортни дейности Ок3 30 60 1,00 3 Курортни дейности Ок4 50 50 2,00 5 Жилищна устрой­ ствена зона Жс1 50 50 1,80 5 Жилищна устрой­ ствена зона Жс2 60 40 2,00 5 Обществено об­ служване Оо 20 50 0,20 1 Озеленяване Оз - 100 - - Спорт и атракции Спа - - - - Председател: С. Сивков 15 ОБЩИНА С. КАЛОЯНОВО, ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

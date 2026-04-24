@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2006/dv-3-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-3-06-10"/>
+          <FRBRalias value="Инструкция за допълнение на Инструкция № 1 от 2002 г. за условията и реда за разходване на средствата от бюджета на държавното обществено осигуряване, определени като парични помощи за профилактика и рехабилитация" name="short"/>
+          <FRBRalias value="Инструкция за допълнение на Инструкция № 1 от 2002 г. за условията и реда за разходване на средствата от бюджета на държавното обществено осигуряване, определени като парични помощи за профилактика и рехабилитация" name="eli" other="/eli/bg/instruktsiya/2006/dv-3-06-10"/>
+          <FRBRdate date="2006-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2006/dv-3-06-10/bul@2006-01-10/main"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-3-06-10/bul@2006-01-10"/>
+          <FRBRdate date="2006-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2006/dv-3-06-10/bul@2006-01-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2006/dv-3-06-10/bul@2006-01-10.xml"/>
+          <FRBRdate date="2006-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2006-01-10" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за допълнение на Инструкция № 1 от 2002 г. за условията и реда за разходване на средствата от бюджета на държавното обществено осигуряване, определени като парични помощи за профилактика и рехабилитация</p>
+      <p>(обн., ДВ, бр. 13 от 2002 г.; изм., бр. 118 от 2002 г.; изм. с Решение № 8063 от 31.VII.2003 г. на ВАС на РБ - ДВ, бр. 71 от 2003 г., в сила от 12.VIII.2003 г.; изм. и доп., бр. 4 и 111 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В преходните и заключителните разпоредби се създава нов § 4а със следното съдържание:</p>
+            <p>“§ 4а. Паричните помощи за профилактика и рехабилитация през 2006 г. се разходват по реда на тази инструкция.”</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Инструкцията се издава на основание чл. 15 от Закона за бюджета на държавното обществено осигуряване за 2006 г.</p>
+            <p>Председател на Надзорния съвет:  Д. Манолов</p>
+            <p>128696</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

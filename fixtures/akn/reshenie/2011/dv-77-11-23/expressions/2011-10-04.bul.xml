@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-23"/>
+          <FRBRalias value="Решение № 574 от 15 септември 2011 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 574 от 15 септември 2011 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-77-11-23"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-23/bul@2011-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-23/bul@2011-10-04"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-23/bul@2011-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-23/bul@2011-10-04.xml"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-04" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 574 от 15 септември 2011 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 574 от 15 септември 2011 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА Столичният общински съвет реши: 1. Отменя т. 2 на Решение № 391 от 23.06.2011 г. на Столичния общински съвет (ДВ, бр. 74 от 2011 г.). 2. Досегашната т. 3 става т. 2. 3. Създава се нова т. 3 със следното съдържание: „Възлага на главния изпълнителен директор на Столичната общинска агенция за приватизация сключването на приватизационната сделка за обекта.“ Председател: А. Иванов 10811 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

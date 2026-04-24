@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-14-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-14-04-2"/>
+          <FRBRalias value="Решение за приемане на Годишния доклад за младежта за 2002 г." name="short"/>
+          <FRBRalias value="Решение за приемане на Годишния доклад за младежта за 2002 г." name="eli" other="/eli/bg/reshenie/2004/dv-14-04-2"/>
+          <FRBRdate date="2004-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-14-04-2/bul@2004-02-20/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-14-04-2/bul@2004-02-20"/>
+          <FRBRdate date="2004-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-14-04-2/bul@2004-02-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-14-04-2/bul@2004-02-20.xml"/>
+          <FRBRdate date="2004-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-20" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Годишния доклад за младежта за 2002 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 14, от дата 20.2.2004 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.8</p>
+          <p>Решение за приемане на Годишния доклад за младежта за 2002 г.</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за приемане на Годишния доклад за младежта за 2002 г.</p>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България</p>
+          <p>РЕШИ:</p>
+          <p>Приема Годишния доклад за младежта за 2002 г. и възлага на Министерския съвет да внесе Годишен доклад за 2003 г. до 30 април 2004 г. заедно със Стратегията за национална младежка политика за периода 2003 - 2007 г.</p>
+          <p>Решението е прието от XXXIX Народно събрание на 12 февруари 2004 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

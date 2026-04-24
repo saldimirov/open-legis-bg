@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-55/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-55"/>
+          <FRBRalias value="Решение № 180 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 180 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2012/dv-75-12-55"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="55"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-55/bul@2012-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-55/bul@2012-10-02"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-55/bul@2012-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-55/bul@2012-10-02.xml"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-02" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 180 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 180 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ и след станалите разисквания Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеларен план за трасе на електропровод от Електрическа централа в обект „Оранжерии Гимел 500 дка“, попадащ в землищата на с. Мокрище и с. Звъничево, преминаващ през републикански път І-8, до края на регулацията на гр. Пазарджик, с дължина на трасето 3435 м, от които 1783 м са в землището на с. Мокрище, а 1652 м – в землището на гр. Пазарджик, със сервитутни ивици по 1 м от двете му страни съ­ гласно изчертаните с червено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 8985 ОБЩИНА ПАНАГЮРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

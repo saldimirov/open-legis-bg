@@ -93,11 +93,13 @@ def parse_akn_file(path: Path) -> ParsedAkn:
     pub = _find_first(root, "//akn:publication")
     if pub is None:
         raise ValueError(f"{path}: missing <publication>")
-    try:
-        dv_year = int(pub.get("date", "")[:4])
-    except ValueError as exc:
-        raise ValueError(f"{path}: bad publication date: {pub.get('date')!r}") from exc
     dv_broy = int(pub.get("number") or "0")
+    # dv_year from ELI URI (4th segment) — more reliable than publication/@date,
+    # which for consolidated fixtures holds the expression date, not original issue year.
+    try:
+        dv_year = int(eli_uri.strip("/").split("/")[3])
+    except (IndexError, ValueError) as exc:
+        raise ValueError(f"{path}: cannot parse dv_year from ELI {eli_uri!r}") from exc
     frbr_num_el = _find_first(root, "//akn:FRBRWork/akn:FRBRnumber")
     dv_position = int((frbr_num_el.get("value") if frbr_num_el is not None else "1") or "1")
 

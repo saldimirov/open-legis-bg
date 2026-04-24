@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-14"/>
+          <FRBRalias value="Решение № 755 ОТ 17 ОКТОМВРИ 2011 Г. за обявяване на населеното място село Крън," name="short"/>
+          <FRBRalias value="Решение № 755 ОТ 17 ОКТОМВРИ 2011 Г. за обявяване на населеното място село Крън," name="eli" other="/eli/bg/reshenie/2011/dv-83-11-14"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-14/bul@2011-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-14/bul@2011-10-25"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-83-11-14/bul@2011-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-83-11-14/bul@2011-10-25.xml"/>
+          <FRBRdate date="2011-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-25" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 755 ОТ 17 ОКТОМВРИ 2011 Г. за обявяване на населеното място село Крън,</p>
+      <p>(обн., ДВ, бр. 86 от 2000 г.; изм., бр. 4 от 2002 г., бр. 88 от 2003 г., бр. 56 от 2006 г. и бр. 79 от 2008 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 755 ОТ 17 ОКТОМВРИ 2011 Г. за обявяване на населеното място село Крън, община Казанлък, област Стара Загора, за град На основание чл. 33 от Закона за адми­ нистративно-териториалното устройство на Република България МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Обявява населеното място село Крън (40292), община Казанлък (SZR12), област Стара Загора (SZR), за град. 2. Изпълнението на решението се възлага на кмета на община Казанлък и на областния управител на област Стара Загора. 3. Решението влиза в сила от деня на об­ народването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

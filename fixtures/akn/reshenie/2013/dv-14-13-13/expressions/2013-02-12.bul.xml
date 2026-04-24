@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-13"/>
+          <FRBRalias value="Решение № 73 ОТ 4 ФЕВРУАРИ 2013 Г. за предоставяне на концесия за добив на" name="short"/>
+          <FRBRalias value="Решение № 73 ОТ 4 ФЕВРУАРИ 2013 Г. за предоставяне на концесия за добив на" name="eli" other="/eli/bg/reshenie/2013/dv-14-13-13"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-13/bul@2013-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-13/bul@2013-02-12"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-14-13-13/bul@2013-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-14-13-13/bul@2013-02-12.xml"/>
+          <FRBRdate date="2013-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-12" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 73 ОТ 4 ФЕВРУАРИ 2013 Г. за предоставяне на концесия за добив на</p>
+      <p>(обн., ДВ, бр. 59 от 1999 г.; изм. и доп., бр. 46 от 2007 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С правилника се определят функциите, задачите, структурата и организацията на дей­ ност на Лесозащитна станция гр. София (ЛЗС).</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Лесозащитната станция е юридическо лице на бюджетна издръжка, специализирано териториално звено (СТЗ) на Изпълнителната агенция по горите (ИАГ).</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Лесозащитната станция подпомага изпълнителния директор на ИАГ при провеждане на държавната политика в областта на защитата на горските територии от болести, вредители и други повреди, включително и използването на растителнозащитните препарати, като: 1. оказва методическо ръководство, дава предписания и извършва контрол по защита на горските територии от болести, вредители и други повреди; Приложение към т. 2 Координатен регистър на граничните точки на концесионната площ на находище „Зъбера-2“ Координатна система „1970 г.“ Точка Координати № X (север), м Y (изток), м 1. 4734053,8 8475220,0 2. 4734102,8 8475240,9 3. 4734138,9 8475328,2 4. 4734126,9 8475581,6 5. 4734026,0 8475564,0 6. 4733943,9 8475639,1 7. 4733834,3 8475684,1 8. 4733792,1 8475511,4 9. 4733714,3 8475250,8 10. 4733721,5 8475228,7 11. 4733750,0 8475220,0 1106</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

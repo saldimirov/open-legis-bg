@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-13"/>
+          <FRBRalias value="Решение № 51 от 30 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 51 от 30 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2010/dv-38-10-13"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-13/bul@2010-05-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-13/bul@2010-05-21"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-13/bul@2010-05-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-13/bul@2010-05-21.xml"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-21" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 51 от 30 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 51 от 30 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – Ивайловград, одобрява подробен устрой­ ствен план (ПУП – ПЗ) – план за застрояване на поземлен имот № 000068 по КВС на с. Попско, ЕКАТТЕ 57769, община Ивайловград, област Хасково, като в имота се предвижда застроява­ не на обект на техническата инфраструктура и производство на ел. енергия от вятър – ветроге­ нератор и трафопост. Председател: Г. Марков 4205</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

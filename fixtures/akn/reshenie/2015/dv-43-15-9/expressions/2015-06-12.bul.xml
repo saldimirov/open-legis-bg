@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-43-15-9/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-43-15-9"/>
+          <FRBRalias value="Решение № 1489 от 4 юни 2015 г." name="short"/>
+          <FRBRalias value="Решение № 1489 от 4 юни 2015 г." name="eli" other="/eli/bg/reshenie/2015/dv-43-15-9"/>
+          <FRBRdate date="2015-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-43-15-9/bul@2015-06-12/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-43-15-9/bul@2015-06-12"/>
+          <FRBRdate date="2015-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-43-15-9/bul@2015-06-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-43-15-9/bul@2015-06-12.xml"/>
+          <FRBRdate date="2015-06-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-12" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1489 от 4 юни 2015 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1489 от 4 юни 2015 г. относно приемане на Правилник за органи­ зацията на дейността на Централната изби­ рателна комисия и структурата и функциите на нейната администрация На основание чл. 48, ал. 3 от Изборния кодекс Централната избирателна комисия Р Е Ш И : Приема Правилник за организацията на дейността на Централната избирателна ко­ мисия и структурата и функциите на нейната администрация съгласно приложението. Председател: Ивилина Алексиева Секретар: Севинч Солакова Приложение</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-55/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-55"/>
+          <FRBRalias value="Решение № 51 от 21 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 51 от 21 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-79-10-55"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="55"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-55/bul@2010-10-08/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-55/bul@2010-10-08"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-55/bul@2010-10-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-55/bul@2010-10-08.xml"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-08" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 51 от 21 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 51 от 21 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 128, ал. 13 ЗУТ и решение на Експертен съвет с протокол № 9 от 20.09.2010 г. Общинският съвет – с. Ситово, одобрява парце­ ларен план на обект „Външно кабелно 20 kV ел. захранване на фотоволтаична централа с мощност 3430 kW в ПИ № 66665.027.125 по КВС – с. Ситово“. Председател: Р. Кязим 7836</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

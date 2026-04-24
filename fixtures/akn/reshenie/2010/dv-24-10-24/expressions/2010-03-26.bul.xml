@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-24"/>
+          <FRBRalias value="Решение № 475 от 9 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 475 от 9 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-24-10-24"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-24/bul@2010-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-24/bul@2010-03-26"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-24/bul@2010-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-24/bul@2010-03-26.xml"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-26" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 475 от 9 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 475 от 9 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 ЗУТ и прото­ кол на ОЕСУТ № ЕС-Г-46 от 28.ІV.2009 г., т. 24, Столичният общински съвет реши: 1. Одобрява проекта за парцеларен план за инженерна инфраструктура за ПИ 520033, 520034, 000174 и 000175 от землището на с. Кумарица, гр. Нови Искър – пускова камера към очистно съоръжение на съществуващ газопровод, съгласно приложения проект. 2. Заинтересуваните лица по реда на чл. 130 ЗУТ могат да направят обжалвания чрез район „Нови Искър“ пред Административния съд – Со­ фия-град, в 14-дневен срок от съобщаването. Председател: А. Иванов 2493</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

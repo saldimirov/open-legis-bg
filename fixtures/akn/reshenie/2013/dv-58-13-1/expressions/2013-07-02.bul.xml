@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-1"/>
+          <FRBRalias value="Решение за структурни промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за структурни промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie/2013/dv-58-13-1"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-1/bul@2013-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-1/bul@2013-07-02"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-1/bul@2013-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-1/bul@2013-07-02.xml"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-02" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за структурни промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 108, ал. 1 от Конституцията на Република България Р Е Ш И : В Решение на Народното събрание от 29 май 2013 г. за приемане на структура на Ми­ нистерския съвет на Република България (ДВ, бр. 48 от 2013 г.) т. 1 се изменя така: „1. Министерският съвет на Република България се състои от: министър-председател, трима заместник министър-председатели и ми­ нистри. Заместник министър-председателите и министрите ръководят отделни министерства с изключение на заместник министър-предсе­ дателя по икономическото развитие.“ Решението е прието от 42-то Народно събрание на 27 юни 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

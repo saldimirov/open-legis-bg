@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-43/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-43"/>
+          <FRBRalias value="Решение № 897 от 22 април 2010 г. На основание чл. 3, ал. 3, т. 2, чл. 4, ал. 4 и" name="short"/>
+          <FRBRalias value="Решение № 897 от 22 април 2010 г. На основание чл. 3, ал. 3, т. 2, чл. 4, ал. 4 и" name="eli" other="/eli/bg/reshenie/2010/dv-34-10-43"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-43/bul@2010-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-43/bul@2010-05-04"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-34-10-43/bul@2010-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-34-10-43/bul@2010-05-04.xml"/>
+          <FRBRdate date="2010-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-04" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 897 от 22 април 2010 г. На основание чл. 3, ал. 3, т. 2, чл. 4, ал. 4 и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 897 от 22 април 2010 г. На основание чл. 3, ал. 3, т. 2, чл. 4, ал. 4 и чл. 32, ал. 2, т. 1 ЗПСК, чл. 21, ал. 1, т. 8 ЗМСМА, чл. 46, ал. 1, т. 5 ЗДДС, чл. 5 и 6 от Наредбата за търговете и конкурсите и Решение № 845 от 18.III.2010 г. Общинският съвет – гр. Велико Търново, реши: Допълва т. 6 от Решение № 847 от 18.III.2010 г. относно начина за плащане за „Пиено“ – ЕООД, Лясковец, със следния текст: „При заявено жела­ ние от купувача се допуска и разсрочено плащане при следните условия: начална вноска – не по- малка от 30 на сто от определената цена; срок за издължаване на остатъка – не по-голям от 24 месеца, считано от датата на сключване на договора, на равни 3- или 6-месечни вноски по договореност с купувача; собствеността върху дяловете се прехвърля след окончателното из­ плащане на цената.“ Председател: Ал. Чокойски 3644 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

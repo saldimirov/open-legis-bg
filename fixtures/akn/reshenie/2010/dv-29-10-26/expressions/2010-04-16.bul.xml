@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-26"/>
+          <FRBRalias value="Решение № 314 от 26 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 314 от 26 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-29-10-26"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-26/bul@2010-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-26/bul@2010-04-16"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-29-10-26/bul@2010-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-29-10-26/bul@2010-04-16.xml"/>
+          <FRBRdate date="2010-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-16" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 314 от 26 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 314 от 26 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Летница, одобрява ПУП – план за регулация и застрояване за поземлен имот с идентификатор 43476.166.76, м. Ба­ бичина, в землището на гр. Летница, община Летница, област Ловеч, за обект: „Цех за гипсови отливки и склуптури“ на площ 24 426 кв. м, с възложител „Уолтопия“ – ООД, с. Крушуна. Председател: Д. Захариева 2989 ОБЩИНА ЛОВЕЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

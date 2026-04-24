@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-56/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-56"/>
+          <FRBRalias value="Решение № 012 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и чл. 22," name="short"/>
+          <FRBRalias value="Решение № 012 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и чл. 22," name="eli" other="/eli/bg/reshenie/2011/dv-31-11-56"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="56"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-56/bul@2011-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-56/bul@2011-04-15"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-56/bul@2011-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-56/bul@2011-04-15.xml"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-15" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 012 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и чл. 22,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 012 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и чл. 22, ал. 2 ЗМСМА във връзка с чл. 62, ал. 2 АПК с протокол № 001 от 27.01.2011 г. Общинският съвет – гр. Приморско, поправя свое Реше- ние № 115 от 26.10.2010 г., прието с протокол № 014 от 26.10.2010 г., като вместо „….в обхват ПИ 10731.501.153, 10731.106.27 и 10731.106.28, 10731.106.29, 10731.501.152, 10731.106.620, 10731.501.619, 10731.501.426 и 10731.106.34, обосо- бени в кв. 47 и 48 по КК на с. Веселие“ да се чете: „.... в обхват ПИ № 10731.501.153, 10731.106.27 и 10731.106.28, 10731.106.29, 10731.501.152, 10731.501.620, 10731.501.619, 10731.501.426 и 10731.106.34, обосо- бени в кв. 47 и 48 по КК на с Веселие“. Председател: Пл. Георгиев 4497 ОБЩИНА РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

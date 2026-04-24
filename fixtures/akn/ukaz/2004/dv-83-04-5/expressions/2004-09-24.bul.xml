@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-5/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-5"/>
+          <FRBRalias value="Указ № 289 за назначаване на Петко Теофилов Димитров за извънреден и пълномощен посланик на Република България в Държавата Израел" name="short"/>
+          <FRBRalias value="Указ № 289 за назначаване на Петко Теофилов Димитров за извънреден и пълномощен посланик на Република България в Държавата Израел" name="eli" other="/eli/bg/ukaz/2004/dv-83-04-5"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-5/bul@2004-09-24/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-5/bul@2004-09-24"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-83-04-5/bul@2004-09-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-83-04-5/bul@2004-09-24.xml"/>
+          <FRBRdate date="2004-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-09-24" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 289 за назначаване на Петко Теофилов Димитров за извънреден и пълномощен посланик на Република България в Държавата Израел</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 83, от дата 24.9.2004 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.3</p>
+          <p>Указ № 289 за назначаване на Петко Теофилов Димитров за извънреден и пълномощен посланик на Република България в Държавата Израел</p>
+          <p>УКАЗ № 289</p>
+          <p>На основание чл. 98, т. 6 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам Петко Теофилов Димитров за извънреден и пълномощен посланик на Република България в Държавата Израел.</p>
+          <p>Изпълнението на указа възлагам на министъра на външните работи.</p>
+          <p>Издаден в София на 13 септември 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

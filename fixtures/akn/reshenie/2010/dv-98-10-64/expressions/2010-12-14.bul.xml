@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-64/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-64"/>
+          <FRBRalias value="Решение № 1442 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 1442 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2010/dv-98-10-64"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="64"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-64/bul@2010-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-64/bul@2010-12-14"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-64/bul@2010-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-64/bul@2010-12-14.xml"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1442 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1442 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, Решение № 216 от 2010 г. на Експертния съвет по устройство на територи­ ята при Община Силистра, взето на заседание с протокол № 21 от 22.11.2010 г., Общинският съвет – гр. Силистра, одобрява следния подробен устройствен план на територията на община Си­ листра: „Подробен устройствен (парцеларен) план за създаване на устройствена основа за изграждане на външно кабелно електрозахранване 20 kV на фотоволтаична централа в ПИ № 41143.176.8 в землището на с. Калипетрово, община Силистра“. Председател: Ал. Сабанов 10119 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

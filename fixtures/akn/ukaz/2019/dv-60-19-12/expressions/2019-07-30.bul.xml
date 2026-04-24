@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-12"/>
+          <FRBRalias value="Указ № 182 На основание чл. 101, ал. 3 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 182 На основание чл. 101, ал. 3 от Конститу-" name="eli" other="/eli/bg/ukaz/2019/dv-60-19-12"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-12/bul@2019-07-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-12/bul@2019-07-30"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-60-19-12/bul@2019-07-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-60-19-12/bul@2019-07-30.xml"/>
+          <FRBRdate date="2019-07-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-30" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 182 На основание чл. 101, ал. 3 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 182 На основание чл. 101, ал. 3 от Конститу- цията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Зако- нът за ратифициране на международен договор (LOA) BU-D-SAB „Самолети F-16 Block 70 и БРОЙ 60 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 19 свързана с тях поддръжка“ (F-16 Block 70 aircraft and associated support), международен договор (LOA) BU-D-AAA „Боеприпаси в подкрепа на F-16“ (Munitions in support of the F-16), между- народен договор (LOA) BU-P-AAD „Sidewinder AIM 9X Блок II ракети, свързани материали и услуги“ (Sidewinder AIM 9X Block II Missiles, associated material and services) и международен договор (LOA) BU-P-LAR „Многофункционална система за разпределение на информация – Съв- местна тактическа радиосистема (MIDS JTRS)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

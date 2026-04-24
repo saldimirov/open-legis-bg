@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-9"/>
+          <FRBRalias value="Решение № 170 от 6 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 170 от 6 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-91-16-9"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-9/bul@2016-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-9/bul@2016-11-18"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-9/bul@2016-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-9/bul@2016-11-18.xml"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-18" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 170 от 6 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 170 от 6 октомври 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и Решение № 2 от протокол № 6 от 15.07.2016 г. на ОЕСУТ Общинският съвет – гр. Божурище, одобрява проект за под­ робен устройствен план (ПУП) – парцеларен план (ПП) за елементите на техническата ин­ фраструктура – линеен обект извън границите на урбанизираната територия за обект: Външно електрозахранване на приемно-предавателна станция (ППС) SO 1451_Mala Rakovitsa в ПИ 044025, с. Мала Раковица, община Божурище, Софийска област, в съответствие с приложени­ те чертежи, неразделна част към настоящото решение. Председател: Г. Димитров 8986 ОБЩИНА ДОБРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

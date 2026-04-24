@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-16"/>
+          <FRBRalias value="Решение № 663 от 2 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 663 от 2 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-77-10-16"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-16/bul@2010-10-01/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-16/bul@2010-10-01"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-16/bul@2010-10-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-16/bul@2010-10-01.xml"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-01" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 663 от 2 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 663 от 2 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 16, ал. 1, чл. 109, ал. 1, чл. 110, ал. 1, т. 2 ЗУТ и протокол № 15, т. 13, от 2010 г. на ОЕСУТ Общинският съ­ вет – гр. Костинброд, реши: Одобрява ПУР (план за улична регулация) за нова улична регулация за новопроектирани квар­ тали, кв. 243 и кв. 63 по плана на гр. Костинброд, по червени, сини, зелени и кафяви линии, цифри, букви и текст съгласно приложения проект. На основание чл. 215, ал. 4 ЗУТ решението може да бъде обжалвано пред Административния съд – София област. Председател: З. Йорданова 7621</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

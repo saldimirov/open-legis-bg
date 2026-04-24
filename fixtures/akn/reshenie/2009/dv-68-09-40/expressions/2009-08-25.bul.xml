@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-40/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-40"/>
+          <FRBRalias value="Решение № 268 от 31 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 268 от 31 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2009/dv-68-09-40"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-40/bul@2009-08-25/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-40/bul@2009-08-25"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-68-09-40/bul@2009-08-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-68-09-40/bul@2009-08-25.xml"/>
+          <FRBRdate date="2009-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-25" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 268 от 31 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 268 от 31 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Симитли, реши: 1. Одобрява подробен устройствен план – пар­ целарен план (ПУП – ПП) за трасе с дължина 3005 м, определено със сервитутните ивици на на­ порен тръбопровод за обект МВЕЦ „Куматиница“ и МВЕЦ „Манастира“, землище на с. Брестово, община Симитли. 2. Упълномощава кмета на община Симитли да предприеме необходимите правни и фактически действия по изпълнението на това решение. Председател: Св. Атанасовска 10328 СТР. 28 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 68 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

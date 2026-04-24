@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-69-25-2/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-69-25-2"/>
+          <FRBRalias value="Указ № 141 за преназначаване на генерал-майор Емил Симеонов Тонев на длъжността началник на Националната служба за охрана" name="short"/>
+          <FRBRalias value="Указ № 141 за преназначаване на генерал-майор Емил Симеонов Тонев на длъжността началник на Националната служба за охрана" name="eli" other="/eli/bg/ukaz/2025/dv-69-25-2"/>
+          <FRBRdate date="2025-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-69-25-2/bul@2025-08-22/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-69-25-2/bul@2025-08-22"/>
+          <FRBRdate date="2025-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-69-25-2/bul@2025-08-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-69-25-2/bul@2025-08-22.xml"/>
+          <FRBRdate date="2025-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-08-22" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 141 за преназначаване на генерал-майор Емил Симеонов Тонев на длъжността началник на Националната служба за охрана</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Преназначавам генерал-майор Емил Симеонов Тонев на длъжността началник на Националната служба за охрана. Издаден в София на 20 август 2025 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Георги Георгиев 4811 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

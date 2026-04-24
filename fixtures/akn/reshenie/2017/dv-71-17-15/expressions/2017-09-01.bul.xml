@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-15/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-15"/>
+          <FRBRalias value="Решение № 22-3 от 25 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 22-3 от 25 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2017/dv-71-17-15"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-15/bul@2017-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-15/bul@2017-09-01"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-15/bul@2017-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-15/bul@2017-09-01.xml"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-09-01" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 22-3 от 25 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 22-3 от 25 юли 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Доб­ рич, реши: 1. Одобрява общ устройствен план на община Добрич във фаза окончателен проект с отразени предложения от протокол № 5 от 21.04.2016 г. на ОЕСУТ, препоръки от обсъждания, експертизи и съгласувания с ведомства и експлоатационни дружества. 2. Възлага на кмета на община гр. Добрич да извърши последващите съгласно закона действия. Председател: И. Пенчев 6335 ОБЩИНА КАРНОБАТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

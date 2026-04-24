@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-27"/>
+          <FRBRalias value="Решение № 34 от 15 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 34 от 15 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-104-11-27"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-27/bul@2011-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-27/bul@2011-12-27"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-27/bul@2011-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-27/bul@2011-12-27.xml"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-27" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 34 от 15 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 34 от 15 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бал­ чик, одобрява ПУП – план за застрояване за ПИ № 18160.106.82 по кадастралната карта на с. Гурково, община Балчик, заедно с предвидения начин на застрояване и отреждане за „Пч“ (ел. подстанция СН/110 kV). Председател: В. Лучиянов 13445 ОБЩИНА БОЖУРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

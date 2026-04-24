@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-83-21-2/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-83-21-2"/>
+          <FRBRalias value="Указ № 258 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 19в," name="short"/>
+          <FRBRalias value="Указ № 258 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 19в," name="eli" other="/eli/bg/ukaz/2021/dv-83-21-2"/>
+          <FRBRdate date="2021-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-83-21-2/bul@2021-10-05/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-83-21-2/bul@2021-10-05"/>
+          <FRBRdate date="2021-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-83-21-2/bul@2021-10-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-83-21-2/bul@2021-10-05.xml"/>
+          <FRBRdate date="2021-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-10-05" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 258 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 19в,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 258 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 19в, ал. 5, т. 6 и ал. 6 от Закона за специалните разузнавателни средства П О С Т А Н О В Я В А М : Прекратявам правомощията на предсе­ дателя на Държавна агенция „Технически операции“ Цветан Петров Китов и го осво­ бождавам от длъжност. Изпълнението на указа възлагам на ми­ нистър-председателя. Издаден в София на 30 септември 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

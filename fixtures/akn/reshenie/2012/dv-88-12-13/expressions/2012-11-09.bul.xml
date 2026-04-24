@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-88-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-88-12-13"/>
+          <FRBRalias value="Решение № 13-19 от 25 и 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 13-19 от 25 и 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2012/dv-88-12-13"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-88-12-13/bul@2012-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-88-12-13/bul@2012-11-09"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-88-12-13/bul@2012-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-88-12-13/bul@2012-11-09.xml"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-09" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13-19 от 25 и 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13-19 от 25 и 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бургас, реши: Одобрява ПУП – парцеларен план за трасе на кабел 20 kV за външно ел. захранване на обект: „Складова база за метални конструкции и цех за ел. табла“, в ПИ с идентификатор 07079.6.1114 по КККР – УПИ III-11, масив 57, землище Долно Езерово. Трасето се провежда от съществуващ ЖР стълб № 16 на ВЛ 20 kV „Юнак“ през ПИ с идентификатор 07079.6.1212 по КК на гр. Бургас до ПИ с идентификатор 07079.6.1114 по КК на гр. Бургас. Заинтересованите лица могат да обжалват решението в 30-дневен срок от обнародването му в „Държавен вестник“ чрез Община Бургас пред Административния съд – Бургас. Председател: С. Маджарова 10161 ОБЩИНА ИВАЙЛОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

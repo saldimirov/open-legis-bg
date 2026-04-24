@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-22-22-6/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-22-22-6"/>
+          <FRBRalias value="Указ № 84 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 84 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2022/dv-22-22-6"/>
+          <FRBRdate date="2022-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-22-22-6/bul@2022-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-22-22-6/bul@2022-03-18"/>
+          <FRBRdate date="2022-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-22-22-6/bul@2022-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-22-22-6/bul@2022-03-18.xml"/>
+          <FRBRdate date="2022-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-03-18" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 84 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+      <p>(обн., ДВ, бр. 61 от 2018 г.; изм. и доп., бр. 2 и 9 от 2019 г.; изм., бр. 85 и 87 от 2019 г., бр. 80 от 2020 г.; изм. и доп., бр. 62 от 2021 г.; изм., бр. 99 от 2021 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 5, т. 1 думата „приемане“ се заменя с „вземане“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В приложението към чл. 11, ал. 3 се правят следните изменения: 1. В т. 1. „Обща администрация, органи- зирана във:“ числото „35“ се заменя с „33“. 2. В т. 1.2. дирекция „Финансови и стопан- ски дейности“ числото „9“ се заменя с „8“. 3. В т. 1.3. дирекция „Международно сътрудничество и проекти“ числото „9“ се заменя с „8“. 4. В т. 2. „Специализирана администрация в т.ч.“ числото „75“ се заменя със „77“. 5. В т. 2.1. дирекция „Експертиза и за- крила на изобретенията, полезните модели и промишлените дизайни“ числото „23“ се заменя с „24“. 6. В т. 2.3. дирекция „Спорове и админис- тративнонаказателна дейност“ числото „22“ се заменя с „23“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Този Правилник за изменение на Устройствения правилник на Патентното ве- домство на Република България влиза в сила от датата на обнародването му в „Държавен вестник“. Председател: Владя Борисова 1807</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

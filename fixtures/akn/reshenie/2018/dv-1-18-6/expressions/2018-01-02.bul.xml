@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-1-18-6/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-1-18-6"/>
+          <FRBRalias value="Решение № 1709 от 14 декември 2017 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3," name="short"/>
+          <FRBRalias value="Решение № 1709 от 14 декември 2017 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3," name="eli" other="/eli/bg/reshenie/2018/dv-1-18-6"/>
+          <FRBRdate date="2018-01-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-1-18-6/bul@2018-01-02/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-1-18-6/bul@2018-01-02"/>
+          <FRBRdate date="2018-01-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-1-18-6/bul@2018-01-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-1-18-6/bul@2018-01-02.xml"/>
+          <FRBRdate date="2018-01-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-01-02" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1709 от 14 декември 2017 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1709 от 14 декември 2017 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3, т. 3, буква „д“ и ал. 8, чл. 22г, ал. 3 ЗПСК, чл. 7, ал. 1, т. 10 и чл. 20, ал. 6 от Устройстве- ния правилник на Агенцията за приватизация и следприватизационен контрол във връзка с протоколно решение № 4820 от 14.12.2017 г. на изпълнителния съвет Агенцията за приватизация и следприватизационен контрол изменя Решение № 1683 от 18.08.2017 г. (ДВ, бр. 71 от 2017 г.), като думите „поземлен имот № 000371, с площ 10 324 кв. м, намиращ се в местността Начева могила, землището на с. Калчево“ се заменят с „поземлен имот с идентификатор 35609.35.371 с площ 10 322 кв.м, намиращ се в местността Начева могила, с. Калчево“. Изпълнителен директор: П. Александрова 9755 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-51-04-13/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-51-04-13"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 2 от 2001 г. за прилагане на раздел I от Тарифа № 14 за таксите, които се събират в системата на Министерството на регионалното развитие и благоустройството" name="short"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 2 от 2001 г. за прилагане на раздел I от Тарифа № 14 за таксите, които се събират в системата на Министерството на регионалното развитие и благоустройството" name="eli" other="/eli/bg/instruktsiya/2004/dv-51-04-13"/>
+          <FRBRdate date="2004-06-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-51-04-13/bul@2004-06-15/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-51-04-13/bul@2004-06-15"/>
+          <FRBRdate date="2004-06-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-51-04-13/bul@2004-06-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-51-04-13/bul@2004-06-15.xml"/>
+          <FRBRdate date="2004-06-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-06-15" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за изменение и допълнение на Инструкция № 2 от 2001 г. за прилагане на раздел I от Тарифа № 14 за таксите, които се събират в системата на Министерството на регионалното развитие и благоустройството</p>
+      <p>(обн., ДВ, бр. 67 от 2001 г.; изм. и доп., бр. 37 от 2004 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 23б думите “закупи едноседмична винетка за конкретния превоз” се заменят с “ползва винетка”, а след думите “конвертируема валута” се поставя точка и текстът до края се заличава.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Инструкцията влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  В. Церовски</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

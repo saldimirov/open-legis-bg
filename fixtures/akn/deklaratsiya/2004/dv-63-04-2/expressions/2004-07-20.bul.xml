@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-2"/>
+          <FRBRalias value="Декларация на Тридесет и деветото Народно събрание" name="short"/>
+          <FRBRalias value="Декларация на Тридесет и деветото Народно събрание" name="eli" other="/eli/bg/deklaratsiya/2004/dv-63-04-2"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-2/bul@2004-07-20/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-2/bul@2004-07-20"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-63-04-2/bul@2004-07-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-63-04-2/bul@2004-07-20.xml"/>
+          <FRBRdate date="2004-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-20" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Декларация на Тридесет и деветото Народно събрание</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 63, от дата 20.7.2004 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.2</p>
+          <p>Декларация на Тридесет и деветото Народно събрание</p>
+          <p>ДЕКЛАРАЦИЯ</p>
+          <p>на Тридесет и деветото Народно събрание</p>
+          <p>Ние, народните представители от Тридесет и деветото Народно събрание,</p>
+          <p>К  ато отчитаме драматизма, породен от похищението на двамата ни сънародници в Ирак и съобщенията за екзекуцията на единия от тях,</p>
+          <p>Като изразяваме съчувствие на роднините и близките им</p>
+          <p>и като подкрепяме усилията на държавните институции във връзка с последните трагични събития,</p>
+          <p>ДЕКЛАРИРАМЕ, ЧЕ:</p>
+          <p>Присъствието на българи в Ирак има за цел подпомагане на иракския народ за постигането на мир и сигурност.</p>
+          <p>Република България ще продължи външната си политика в изпълнение на своите международни ангажименти, произтичащи от решенията на Организацията на обединените нации за възстановяване, стабилизиране и демократизиране на Ирак.</p>
+          <p>Българският народ ще посрещне единен изпитанията в защита на общочовешките ценности от тероризма във всичките му прояви.</p>
+          <p>Декларацията е приета от XXXIX Народно събрание на 14 юли 2004 г. и е подпечатана с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

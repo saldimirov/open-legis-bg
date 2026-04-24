@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-113-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-113-04-4"/>
+          <FRBRalias value="Решение за приемане бюджета на Българската народна банка за 2005 г." name="short"/>
+          <FRBRalias value="Решение за приемане бюджета на Българската народна банка за 2005 г." name="eli" other="/eli/bg/reshenie/2004/dv-113-04-4"/>
+          <FRBRdate date="2004-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-113-04-4/bul@2004-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-113-04-4/bul@2004-12-28"/>
+          <FRBRdate date="2004-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-113-04-4/bul@2004-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-113-04-4/bul@2004-12-28.xml"/>
+          <FRBRdate date="2004-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-12-28" name="Държавен вестник" number="113" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане бюджета на Българската народна банка за 2005 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <num>Раздел I.</num>
+        <heading>Разходи за издръжка на Българ- ската народна банка 61 930 1. Разходи, свързани с издръжката на паричното обращение 20 100 2. Разходи за материали, услуги и амортизации 21 489 3. Разходи за персонал и социално осигуряване 15 455 4. Разходи за социална дейност 1 852 5. Други административни разходи 1 701 6. Разходи, свързани с участието на БНБ в ЕСЦБ 1 333</heading>
+        <content>
+        </content>
+      </section>
+      <section eId="sec_2">
+        <num>Раздел II.</num>
+        <heading>Инвестиционна програма 14 366 1. Разходи за ново строителство, реконструкция и модернизация 4 200 2. Разходи за машини, обслужващи паричното обращение 0 3. Разходи за технически средства за безопасността на БНБ 1 034 4. Разходи за специализирани автомобили и други транспортни средства 505 5. Разходи за електронизация на БНБ 7 825 6. Офис мебели и канцеларско оборудване 410 7. Разходи, свързани с участието на БНБ в ЕСЦБ 392</heading>
+        <content>
+          <p>2. Управителният съвет на Българската народна банка по предложение на управителя може да изменя бюджета по отделни показатели в рамките на утвърдените суми по раздели I и II, като увеличенията по отделните видове разходи не може да надвишават 20 на сто от одобрената с този бю&amp;shy;джет сума.</p>
+          <p>Решението е прието от ХХХIХ Народно събрание на 18 декември 2004 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

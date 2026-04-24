@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-31-15-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-31-15-13"/>
+          <FRBRalias value="Решение № 468 от 27 март 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 468 от 27 март 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2 ЗМСМА" name="eli" other="/eli/bg/reshenie/2015/dv-31-15-13"/>
+          <FRBRdate date="2015-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-31-15-13/bul@2015-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-31-15-13/bul@2015-04-28"/>
+          <FRBRdate date="2015-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-31-15-13/bul@2015-04-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-31-15-13/bul@2015-04-28.xml"/>
+          <FRBRdate date="2015-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-28" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 468 от 27 март 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 468 от 27 март 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2 ЗМСМА във връзка с чл. 17, ал. 1, т. 3 и 4 ЗАТУРБ Об- щинският съвет – с. Кайнарджа, създава: 1. Кметство с. Войново. 2. Кметство с. Давидово. 3. Кметство с. Добруджанка. 4. Кметство с. Полковник Чолаково. 5. Кметство с. Светослав. Председател: И. Петков 2796 ОБЩИНА С. КИРКОВО, ОБЛАСТ КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

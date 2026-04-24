@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-44/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-44"/>
+          <FRBRalias value="Решение № 505 от 21 февруари 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 505 от 21 февруари 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-20-11-44"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-44/bul@2011-03-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-44/bul@2011-03-11"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-20-11-44/bul@2011-03-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-20-11-44/bul@2011-03-11.xml"/>
+          <FRBRdate date="2011-03-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-11" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 505 от 21 февруари 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 505 от 21 февруари 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Малко Търново, реши: Одобрява проект за подробен устройствен план (ПУП) – план за застрояване (ПЗ) на поземлен имот № 001152, местност Качул, землище с. Гра­ матиково, община Малко Търново, област Бургас. На основание чл. 215, ал. 4 ЗУТ, изречение вто­ ро в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Малко Търново пред Административния съд – Бургас. Председател: Т. Петков 2639 ОБЩИНА НЕСЕБЪР</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

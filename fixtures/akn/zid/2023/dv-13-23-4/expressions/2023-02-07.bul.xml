@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-13-23-4/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-13-23-4"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="short"/>
+          <FRBRalias value="Закон за изменение и допълнение на Закона за" name="eli" other="/eli/bg/zid/2023/dv-13-23-4"/>
+          <FRBRdate date="2023-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-13-23-4/bul@2023-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-13-23-4/bul@2023-02-07"/>
+          <FRBRdate date="2023-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-13-23-4/bul@2023-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-13-23-4/bul@2023-02-07.xml"/>
+          <FRBRdate date="2023-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-02-07" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение и допълнение на Закона за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Досегашният текст на член единствен става член 1.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Създава се чл. 2: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 2.</num>
+          <content>
+            <p>Във връзка с влизането в сила на Протокола по чл. 1, считано от 19 януари 2022 г., Република България със Съвместно изявление заедно с Белгия, Дания, Германия, Естония, Франция, Италия, Люксембург, Ни- дерландия, Австрия, Словения, Финландия и Швеция се съгласява да тълкува чл. 3 от същия, както следва: Член 3 от Протокола за предварително изпълнение към Споразумението за Единния патентен съд има за цел да отрази чл. 89 от Споразумението за Единния патентен съд. Това означава, че посочването на Германия, Франция и Обединеното кралство се отнася до трите държави – членки на Европейския съюз, чиято ратификация е необходима за влизането в сила на Споразумението съ- гласно чл. 89, т.е. трите държави членки, в които е породил действие най-голям брой европейски патенти през годината, пред- шестваща годината на Споразумението. Тъй като Обединеното кралство вече не е държава – членка на Европейския съюз, държавата членка след Германия и Франция, в която е породил действие най-голям брой европейски патенти през 2012 г., е Италия.“ Заключителна разпоредба</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Законът влиза в сила от деня на обна- родването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

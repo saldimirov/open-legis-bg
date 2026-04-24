@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-27"/>
+          <FRBRalias value="Решение № 389 от 31 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="short"/>
+          <FRBRalias value="Решение № 389 от 31 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="eli" other="/eli/bg/reshenie/2011/dv-18-11-27"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-27/bul@2011-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-27/bul@2011-03-01"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-27/bul@2011-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-27/bul@2011-03-01.xml"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-01" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 389 от 31 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 389 от 31 януари 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Каолиново, одобрява изготвения от „Ружица Уинд“ – ООД, ПУП – ПП за обект „Вятърен парк „Ружица Уинд“ – ООД, ЕИК 200596837, подобект – „Трасе на подземни кабели, свързва­ щи 3 ветрогенератора в землищата на с. Долина и с. Лятно, община Каолиново, с подстанция в с. Лятно, община Каолиново. Председател: З. Назиф 2443 ОБЩИНА КОСТИНБРОД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-40-21-5/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-40-21-5"/>
+          <FRBRalias value="Решение № 135 от 27 април 2021 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 135 от 27 април 2021 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2021/dv-40-21-5"/>
+          <FRBRdate date="2021-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-40-21-5/bul@2021-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-40-21-5/bul@2021-05-14"/>
+          <FRBRdate date="2021-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-40-21-5/bul@2021-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-40-21-5/bul@2021-05-14.xml"/>
+          <FRBRdate date="2021-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-05-14" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 135 от 27 април 2021 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 135 от 27 април 2021 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 21.06.2021 г. сребърна възпоменателна монета „100 години Национална музикална академия“ със следното описание: Технически параметри: емисия – 2021 г.; номинална стойност – 10 лв.; метал – сребро, проба 999/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 бр. Графични елементи: На лицевата страна на монетата са изобра- зени следните елементи: в средата – емблемата на БНБ с годината „1879“ върху лентата; в по- лукръг горе – надпис „БЪЛГАРСКА НАРОДНА БАНКА“; отдолу – годината на емисията „2021“, номиналната стойност „10 ЛЕВА“, а под тях – ве- нец от стилизирани лаврови клонки. На обратната страна на монетата: в сре- дата – петолиние с ключ сол във вид на сти- лизирана птичка и вляво от него надпис „100 години“; околовръст – надпис „НАЦИОНАЛНА МУЗИКАЛНА АКАДЕМИЯ“ и две стилизирани лаврови клонки. Автори на художествения проект са Стоян Дечев и Мартин Йорданов. Управител: Д. Радев 2938 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

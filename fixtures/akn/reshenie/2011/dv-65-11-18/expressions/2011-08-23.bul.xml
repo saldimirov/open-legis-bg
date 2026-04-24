@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-65-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-65-11-18"/>
+          <FRBRalias value="Решение № 973 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 973 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-65-11-18"/>
+          <FRBRdate date="2011-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-65-11-18/bul@2011-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-65-11-18/bul@2011-08-23"/>
+          <FRBRdate date="2011-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-65-11-18/bul@2011-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-65-11-18/bul@2011-08-23.xml"/>
+          <FRBRdate date="2011-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-23" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 973 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 973 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и предложение с вх. № ОС-01-741 от 11.05.2011 г. от кмета на Община Банско Общинският съвет – гр. Банско, одобрява ПУП – ПП за „Външно ел. захранване кабели 20 kV за жилищна сграда“ в ПИ 176066, местност Свети Иван, землище на гр. Банско, община Банско, област Благоевград. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Банско до Административния съд – Благоевград. Председател: Вл. Колчагов 9909</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-24"/>
+          <FRBRalias value="Решение № 340 от 25 ноември 2010 г. На основание чл. 20, чл. 17, ал. 1, т. 2, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 340 от 25 ноември 2010 г. На основание чл. 20, чл. 17, ал. 1, т. 2, чл. 21," name="eli" other="/eli/bg/reshenie/2010/dv-100-10-24"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-24/bul@2010-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-24/bul@2010-12-21"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-24/bul@2010-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-24/bul@2010-12-21.xml"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-21" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 340 от 25 ноември 2010 г. На основание чл. 20, чл. 17, ал. 1, т. 2, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 340 от 25 ноември 2010 г. На основание чл. 20, чл. 17, ал. 1, т. 2, чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 8, т. 1, чл. 9, ал. 2, чл. 12, ал. 2, чл. 59, ал. 1 и чл. 109, ал. 2 ЗУТ Общинският съвет – Ботев­ град, реши: 1. Одобрява проект за подробен устройствен план (ПУП) на имот № 002153 в м. Габрака в землището на Ботевград с цел промяна на пред­ назначението на земеделска земя – „За вилно застрояване“, разположено свободно, с корекции със син цвят съгласно приложения проект. 2. Възлага на кмета на общината да организира извършването на произтичащите от решението процедури. Председател: М. Кирова 10562</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

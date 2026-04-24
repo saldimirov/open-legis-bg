@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-10"/>
+          <FRBRalias value="Решение № 7 ОТ 8 ЯНУАРИ 2016 Г. за предоставяне на концесия за добив на" name="short"/>
+          <FRBRalias value="Решение № 7 ОТ 8 ЯНУАРИ 2016 Г. за предоставяне на концесия за добив на" name="eli" other="/eli/bg/reshenie/2016/dv-5-16-10"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-10/bul@2016-01-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-10/bul@2016-01-19"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-5-16-10/bul@2016-01-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-5-16-10/bul@2016-01-19.xml"/>
+          <FRBRdate date="2016-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-19" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 7 ОТ 8 ЯНУАРИ 2016 Г. за предоставяне на концесия за добив на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 32.</num>
+        <content>
+          <p>За осигуряване функциите по чл. 16, т. 16, чл. 17, т. 1, буква „в“ и чл. 17а, т. 1, буква „г“ председателят на БИМ сформира екипи, в чийто състав се включват служители на БИМ.“</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 9.</num>
+          <content>
+            <p>В приложението към чл. 9, ал. 2 се правят следните изменения и допълнения: 1. На ред „Обща администрация“ числото „34“ се заменя с „39“. 2. На ред „дирекция „Обща администрация“ числото „34“ се заменя с „39“. 3. На ред „Специализирана администрация“ числото „249“ се заменя с „244“. 4. На ред „Главна дирекция „Национален център по метрология“ числото „63“ се за- меня с „62“. 5. На ред „Главна дирекция „Мерки и измер- вателни уреди“, включително регионалните отдели“ числото „186“ се заменя със „156“. 6. След ред „Главна дирекция „Мерки и измервателни уреди“, включително регионал- ните отдели“ се създава нов ред: „Дирекция „Изпитване на средства за измерване, устройства и съоръжения“ 26“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 10.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

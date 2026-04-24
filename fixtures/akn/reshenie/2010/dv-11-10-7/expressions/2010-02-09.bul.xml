@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-11-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-11-10-7"/>
+          <FRBRalias value="Решение № 319 от 21 декември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 319 от 21 декември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-11-10-7"/>
+          <FRBRdate date="2010-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-11-10-7/bul@2010-02-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-11-10-7/bul@2010-02-09"/>
+          <FRBRdate date="2010-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-11-10-7/bul@2010-02-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-11-10-7/bul@2010-02-09.xml"/>
+          <FRBRdate date="2010-02-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-09" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 319 от 21 декември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 319 от 21 декември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Кавар­ на, одобрява проект за ПУП – парцеларен план за линейна инфраструктура, представляваща подземен водопровод по следното трасе: ПИ № 28.176; ПИ № 11.20; ПИ № 30.29; ПИ 30.150; ПИ № 49.568 и ПИ № 501.758 – землище с. Българево. Председател: Евг. Чобанов 927 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

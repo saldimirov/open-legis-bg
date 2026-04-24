@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-27"/>
+          <FRBRalias value="Решение № 128 от 30 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 128 от 30 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-36-12-27"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-27/bul@2012-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-27/bul@2012-05-11"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-27/bul@2012-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-27/bul@2012-05-11.xml"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-11" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 128 от 30 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 128 от 30 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, Решение № 22 от 26.01.2012 г. на ОЕСУТ Общинският съвет – гр. Правец, реши: Одобрява проект за подробен устройствен план – план за застрояване ( (ПУП – ПЗ) на поземлен имот с идентификатор 58030.109.044, намиращ се в м. Дивчов рът, землището на гр. Правец, с отреждане за ниско жилищно за­ строяване – Н макс. 10 м; плътност на застроя­ ване – макс. 40 %; интензивност – Кинт. 1,0; озеленяване мин. 60 %. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Правец пред Административния съд – София област. Председател: Н. Яхов 4613</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

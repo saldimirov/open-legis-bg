@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-24"/>
+          <FRBRalias value="Решение № 87 от 9 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 87 от 9 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2017/dv-71-17-24"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-24/bul@2017-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-24/bul@2017-09-01"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-71-17-24/bul@2017-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-71-17-24/bul@2017-09-01.xml"/>
+          <FRBRdate date="2017-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-09-01" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 87 от 9 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 87 от 9 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и докладна записка с вх. № 167 от 28.07.2017 г. на кмета на община Съединение Общинският съвет – гр. Съединение, реши: Одобрява проект за ПУП – парцеларен план за обект: „Трасе на подземен водопровод на УПИ ІІ-000384, за инфраструктура за управление на опасни отпадъци от домакинства, ПИ 000408 по КВС на гр. Съединение, община Съединение“. Председател: Г. Руменов 6383 ОБЩИНА ЯМБОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-34/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-34"/>
+          <FRBRalias value="Решение № 242-8 от 20 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 242-8 от 20 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-41-16-34"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-34/bul@2016-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-34/bul@2016-05-31"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-34/bul@2016-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-34/bul@2016-05-31.xml"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-31" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 242-8 от 20 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 242-8 от 20 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 12, ал. 2, чл. 16, ал. 1, чл. 124а, ал. 2, 5 и 7, задание по чл. 125 ЗУТ и доклад на кмета на община Варна с рег. № АУ059278ПР- 002ВН от 14.04.2016 г. Общинският съвет – гр. Вар­ на, одобрява подробен устройствен план – план за регулация и застрояване за кв. 1, 2, 3, 4, 5, 6, 7 и 8, част от устройствена зона ж.м. (м. Дели Сава и м. Саръ Баир), Варна. Председател: Т. Балабанов 4155 ОБЩИНА ГОРНА ОРЯХОВИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

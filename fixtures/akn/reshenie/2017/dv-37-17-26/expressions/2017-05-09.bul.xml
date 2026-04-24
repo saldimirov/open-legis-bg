@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-26/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-26"/>
+          <FRBRalias value="Решение № 25-9 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 25-9 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2017/dv-37-17-26"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-26/bul@2017-05-09/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-26/bul@2017-05-09"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-26/bul@2017-05-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-26/bul@2017-05-09.xml"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-09" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 25-9 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 25-9 от 28 март 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 124а, ал. 1 и чл. 128, ал. 13 ЗУТ Общинският съвет – гр. Бургас, реши: Одобрява подробен устройствен план – пар- целарен план (ПУП – ПП) за трасе на външен водопровод от съществуващ водопровод ∅ 250 АЦ в ПИ с идентификатор 07079.8.514 до ПИ с идентификатор 07079.8.404 по КК на гр. Бургас съгласно приложения проект, преминаващо през ПИ с идентификатори 07079.8.514 и 07079.8.410, със сервитут в границите на ПИ с идентификатори 07079.8.514 и 07079.8.410 съгласно Наредба № 8 от 1999 г. за разполагане на проводите и техническата инфраструктура в населените места. Решението подлежи на обжалване пред Ад- министративния съд – Бургас, по реда на чл. 215 ЗУТ в 30-дневен срок от обнародването му в „Държавен вестник“. Председател: К. Луков 3300</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

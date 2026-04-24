@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-71-15-5/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-71-15-5"/>
+          <FRBRalias value="Решение № 685 ОТ 10 СЕПТЕМВРИ 2015 Г. за обявяване на 7 юли за професионален" name="short"/>
+          <FRBRalias value="Решение № 685 ОТ 10 СЕПТЕМВРИ 2015 Г. за обявяване на 7 юли за професионален" name="eli" other="/eli/bg/reshenie/2015/dv-71-15-5"/>
+          <FRBRdate date="2015-09-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-71-15-5/bul@2015-09-15/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-71-15-5/bul@2015-09-15"/>
+          <FRBRdate date="2015-09-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-71-15-5/bul@2015-09-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-71-15-5/bul@2015-09-15.xml"/>
+          <FRBRdate date="2015-09-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-15" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 685 ОТ 10 СЕПТЕМВРИ 2015 Г. за обявяване на 7 юли за професионален</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 685 ОТ 10 СЕПТЕМВРИ 2015 Г. за обявяване на 7 юли за професионален празник на митническия служител На основание чл. 154, ал. 2 от Кодекса на труда и чл. 55, ал. 2 от Закона за държавния служител МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 7 юли за професионален празник на митническия служител.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

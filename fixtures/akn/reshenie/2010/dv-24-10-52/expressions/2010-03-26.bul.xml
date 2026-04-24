@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-52/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-52"/>
+          <FRBRalias value="Решение № 703 от 26 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129" name="short"/>
+          <FRBRalias value="Решение № 703 от 26 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129" name="eli" other="/eli/bg/reshenie/2010/dv-24-10-52"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="52"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-52/bul@2010-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-52/bul@2010-03-26"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-52/bul@2010-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-52/bul@2010-03-26.xml"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-26" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 703 от 26 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 703 от 26 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129 ал. 1 ЗУТ Общинският съвет – гр. Гулянци, реши: 1. Одобрява проекти за ПУП-ПРЗ за имоти с № 097028; 175005; 176008; 178021; 179028; 279026; 256013; 179014; 161006; 162006; 161019; 276024; 275016; 105033; 103031; 103042; 107021; 111046; 112034; 112018; 124039; 233023; 127019 в землището на с. Милковица, 045006; 055030; 038022; 036018; 049017; 055033; 0058017 в землището на с. Шияково. 2. Одобрява парцеларен план на елементите на техническата инфраструктура – ел. провод от 20 kV с трасета: Т11-П19, Т10-П16, Т9-П17, Т8-П5, Т7-П3, Т6-П6, Т4-П4, Т3-П2, Т2-П1, Т1-П1, Т5-П6, Т16-П8, Т17-П11, Т18-П10, Т19-П12, Т12-П19, 25- П9, Т23-П19, Т22-П14, Т21-П13, Т20-П8, П30-П31, П16-П18, П3-П15, П2-П3, П1-П2, П16-П30, П7-П29, П6-П8 в землището на с. Милковица с трасета: Т30-П24, Т29-П25, Т28-П26, Т27-П27, Т14-П22, Т13-П21, П22-П23 в землището на с. Шияково и с трасета: Т15-П23, Т24-П23, Т26-П28, П20-П22 в землището на с. Милковица и на с. Шияково. Председател: Ем. Петрушева 2387 ОБЩИНА ИВАЙЛОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

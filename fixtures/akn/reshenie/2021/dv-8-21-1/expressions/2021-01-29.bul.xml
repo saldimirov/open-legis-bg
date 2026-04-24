@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-8-21-1/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-8-21-1"/>
+          <FRBRalias value="Решение за избор на генерален директор на Българ-" name="short"/>
+          <FRBRalias value="Решение за избор на генерален директор на Българ-" name="eli" other="/eli/bg/reshenie/2021/dv-8-21-1"/>
+          <FRBRdate date="2021-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-8-21-1/bul@2021-01-29/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-8-21-1/bul@2021-01-29"/>
+          <FRBRdate date="2021-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-8-21-1/bul@2021-01-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-8-21-1/bul@2021-01-29.xml"/>
+          <FRBRdate date="2021-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-29" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на генерален директор на Българ-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ската телеграфна агенция Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Репуб- лика България и във връзка с чл. 10, ал. 1 и 2 от Закона за Българската телеграфна агенция Р Е Ш И : Избира Кирил Александров Вълчев за генерален директор на Българската теле- графна агенция с мандат 5 години. Решението е прието от 44-то Народно съб- рание на 27 януари 2021 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

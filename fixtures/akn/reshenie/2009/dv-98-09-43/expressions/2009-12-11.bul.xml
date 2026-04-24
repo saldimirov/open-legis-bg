@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-43/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-43"/>
+          <FRBRalias value="Решение № 717 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 717 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="eli" other="/eli/bg/reshenie/2009/dv-98-09-43"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-43/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-43/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-43/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-43/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 717 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 1 и 6 ЗОС, чл. 110, ал. 1, т. 5 във връзка с чл. 205, т. 2 ЗУТ Общинският съвет – гр. Русе, приема парцеларен план за техническа инфраструктура на обект „Доизграждане на колектор – Чародейка, и отливен канал до река Дунав“. Председател: В. Пенчев 13120 ОБЩИНА СВИЩОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

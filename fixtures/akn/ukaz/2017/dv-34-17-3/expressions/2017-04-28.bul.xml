@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-34-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-34-17-3"/>
+          <FRBRalias value="Указ № 111 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 111 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2017/dv-34-17-3"/>
+          <FRBRdate date="2017-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-34-17-3/bul@2017-04-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-34-17-3/bul@2017-04-28"/>
+          <FRBRdate date="2017-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-34-17-3/bul@2017-04-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-34-17-3/bul@2017-04-28.xml"/>
+          <FRBRdate date="2017-04-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-04-28" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 111 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 111 На основание чл. 100, ал. 2 от Конститу- цията на Република България, чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : Удостоявам бригаден генерал Данчо Ди- митров Дяков с висше офицерско звание „генерал-майор“. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 21 април 2017 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

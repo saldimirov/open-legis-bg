@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-27/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-27"/>
+          <FRBRalias value="Решение № 181 от 15 август 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11" name="short"/>
+          <FRBRalias value="Решение № 181 от 15 август 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11" name="eli" other="/eli/bg/reshenie/2016/dv-71-16-27"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-27/bul@2016-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-27/bul@2016-09-13"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-71-16-27/bul@2016-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-71-16-27/bul@2016-09-13.xml"/>
+          <FRBRdate date="2016-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 181 от 15 август 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 181 от 15 август 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общински­ ят съвет – гр. Долни чифлик, одобрява проект на подробен устройствен план (ПУП) – парцеларен план (ПП) за външно електрозахранване 20 kV на ПИ 003345 от стълб в ПИ 182034 по КВС на гр. Долни чифлик съгласно приложение № 5 към докладната записка. Председател: Ж. Жеков 7344 ОБЩИНА ДРЯНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

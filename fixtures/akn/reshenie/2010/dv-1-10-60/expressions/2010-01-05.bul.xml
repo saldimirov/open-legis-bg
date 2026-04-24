@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-60/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-60"/>
+          <FRBRalias value="Решение № 227 от 7 декември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 227 от 7 декември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2010/dv-1-10-60"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="60"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-60/bul@2010-01-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-60/bul@2010-01-05"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-1-10-60/bul@2010-01-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-1-10-60/bul@2010-01-05.xml"/>
+          <FRBRdate date="2010-01-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-05" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 227 от 7 декември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>връзка с чл. 59, ал. 1 и чл. 129, ал. 1 ЗУТ и решение на Общинския експертен съвет, вписано в протокол № 13 от 27.Х.2009 г., Общинският съвет – Симе­ оновград, реши: 1. Одобрява окончателен проект на подробен устройствен план – парцеларен план, за обект „Ремонт и реконструкция на ВЛ 220 /400/ kV „Со­ колец“, фаза „Присъединяване на ВЛ 220 /400/ kV „Соколец“ към стълб № 4 – ново трасе – землище с. Пясъчево, община Симеоновград. 2. Възлага на кмета на общината да проведе не­ обходимите процедури по съобщаване на решението. Председател: Д. Симеонов 13508 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-15"/>
+          <FRBRalias value="Указ № 314 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 314 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2019/dv-1-19-15"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-15/bul@2019-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-15/bul@2019-01-03"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-1-19-15/bul@2019-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-1-19-15/bul@2019-01-03.xml"/>
+          <FRBRdate date="2019-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 314 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 314 На основание чл. 100, ал. 2 от Конститу- цията на Република България във връзка с чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : 1. Освобождавам бригаден генерал Краси- мир Маринов Кънев от длъжността директор на дирекция „Стратегическо планиране“, считано от 1 януари 2019 г. 2. Назначавам бригаден генерал Красимир Маринов Кънев на длъжността директор на Щаба на отбраната, считано от 1 януари 2019 г. 3. Удостоявам бригаден генерал Красимир Маринов Кънев с висше офицерско звание „генерал-майор“, считано от 1 януари 2019 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 21 декември 2018 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

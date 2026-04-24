@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-59-12-51/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-59-12-51"/>
+          <FRBRalias value="Решение № 243 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 243 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-59-12-51"/>
+          <FRBRdate date="2012-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="51"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-59-12-51/bul@2012-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-59-12-51/bul@2012-08-03"/>
+          <FRBRdate date="2012-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-59-12-51/bul@2012-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-59-12-51/bul@2012-08-03.xml"/>
+          <FRBRdate date="2012-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-03" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 243 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 243 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с решение на ОЕСУТ, прието с протокол № 8 от 6.06.2012 г., Общинският съвет – Свиленград, реши: Одобрява план за застрояване с ел. схема към него на ПИ № 4003, намиращ се в промишлената зона на Свиленград, като имотът се отрежда за „фотоволтаична електроцентрала и промишлени дейности“ и се определя свободно нискоетажно застрояване в него с ограничителни линии на застрояване в червен цвят и устройствени пока­ затели Пзастр. – 80 %; Кинт. – 2,5; минимална озеленена площ – 20 %. Неразделна част от това решение е приложе­ ният план за застрояване и ел. схемата към него. Председател: Г. Еленков 7043</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

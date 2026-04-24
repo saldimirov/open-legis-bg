@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-99-20-6/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-99-20-6"/>
+          <FRBRalias value="Указ № 240 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 240 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2020/dv-99-20-6"/>
+          <FRBRdate date="2020-11-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-99-20-6/bul@2020-11-20/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-99-20-6/bul@2020-11-20"/>
+          <FRBRdate date="2020-11-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-99-20-6/bul@2020-11-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-99-20-6/bul@2020-11-20.xml"/>
+          <FRBRdate date="2020-11-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-11-20" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 240 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 49 от 2012 г.; изм. и доп., бр. 80 от 2012 г., бр. 25 и 44 от 2014 г., бр. 64 от 2015 г., бр. 32, 36, 54, 76 и 86 от 2016 г., бр. 9, 44, 86 и 94 от 2017 г., бр. 24 и 72 от 2018 г. и бр. 1, 2 и 93 от 2019 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 240 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам Руси Иванов Чанев с орден „Св. св. Кирил и Методий“ първа степен за особено значимите му заслуги в областта на културата и изкуството. Издаден в София на 16 ноември 2020 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-21"/>
+          <FRBRalias value="Решение № 444 от 14 юли 2011 г." name="short"/>
+          <FRBRalias value="Решение № 444 от 14 юли 2011 г." name="eli" other="/eli/bg/reshenie/2011/dv-77-11-21"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-21/bul@2011-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-21/bul@2011-10-04"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-21/bul@2011-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-21/bul@2011-10-04.xml"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-04" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 444 от 14 юли 2011 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 444 от 14 юли 2011 г. В дирекция „Архитектура и градоустройство“ на Столичната община с вх. № ГР-94-Д-6 от 26.02.2009 г. е постъпило искане от Даринка Ива­ нова Кацарова за изменение на план за регулация и застрояване на УПИ XXVI-1684, со и XXV-1072 за създаване на нови УПИ XXV-1072, XXVI-1684 и XXXIII – за коо; изменение на улица от о.т. 7в до о.т. 31 за създаване на задънена улица от о.т. 31б до о.т. 31в, кв. 2, м. Киноцентър – III част, район „Витоша“. ИПРЗ е допуснат със Заповед № РД-09-50-526 от 6.04.2010 г. на главния архи­ тект на Столичната община. На 14.07.2010 г. е внесен проект. Проектът е обявен на заинтересуваните лица. С писмо № 66-02-266</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

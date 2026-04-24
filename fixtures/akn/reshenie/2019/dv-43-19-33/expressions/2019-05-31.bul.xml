@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-43-19-33/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-43-19-33"/>
+          <FRBRalias value="Решение № 562 от 24 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 562 от 24 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-43-19-33"/>
+          <FRBRdate date="2019-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-43-19-33/bul@2019-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-43-19-33/bul@2019-05-31"/>
+          <FRBRdate date="2019-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-43-19-33/bul@2019-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-43-19-33/bul@2019-05-31.xml"/>
+          <FRBRdate date="2019-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-31" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 562 от 24 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 562 от 24 април 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – с. Братя Даскалови, реши: Одобрява изработен проект на ПУП – ПР (план за регулация) и ПУР (план за улична регулация) за обхвата на кв. 39, 32 и 40 по плана на с. Пар­ тизанин, община Братя Даскалови. На основание чл. 215, ал. 4 от ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Братя Даскалови до Административния съд – Ста­ ра Загора. Председател: П. Михайлов 4025</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

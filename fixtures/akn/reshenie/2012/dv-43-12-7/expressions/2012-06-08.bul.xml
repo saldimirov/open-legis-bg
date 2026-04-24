@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-43-12-7/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-43-12-7"/>
+          <FRBRalias value="Решение № 431 ОТ 30 МАЙ 2012 Г. за предоставяне на концесия за добив на под­" name="short"/>
+          <FRBRalias value="Решение № 431 ОТ 30 МАЙ 2012 Г. за предоставяне на концесия за добив на под­" name="eli" other="/eli/bg/reshenie/2012/dv-43-12-7"/>
+          <FRBRdate date="2012-06-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-43-12-7/bul@2012-06-08/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-43-12-7/bul@2012-06-08"/>
+          <FRBRdate date="2012-06-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-43-12-7/bul@2012-06-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-43-12-7/bul@2012-06-08.xml"/>
+          <FRBRdate date="2012-06-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-08" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 431 ОТ 30 МАЙ 2012 Г. за предоставяне на концесия за добив на под­</p>
+      <p>(обн., ДВ, бр. 59 от 1999 г.; изм. и доп., бр. 46 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 35 се правят следните изменения и допълнения: 1. В ал. 1 думите „(злокачествено заболя- ване)“ се заличават. 2. Създават се нови ал. 2 – 4: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Наличието на основания за разглеж- дане на случая с предимство се преценява от Обществения съвет въз основа на молбата и доказателствата по ал. 1.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_1__al_2">
+            <num>(3)</num>
+            <content>
+              <p>При вземане на решение за разглеждане на случаи с предимство се отчитат единствено обективни причини, свързани със здраво- словното състояние на лицата, доказани с медицински документи. 12.3. Да предявява вземанията на концедента по съдебен ред и да представлява държавата по дела, свързани с изпълнението на концесионния договор.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

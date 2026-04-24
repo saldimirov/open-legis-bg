@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-90/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-90"/>
+          <FRBRalias value="Решение № 478 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 478 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2011/dv-40-11-90"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="90"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-90/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-90/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-90/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-90/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 478 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 478 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Стралджа, реши: 1. Приема предложеното трасе за прокарване на подземен ел. кабел 20 kV, засягащо имоти № 000189, 000049, 000032, 000048, 000145 и каса­ ещо землище с. Атолово, община Стралджа, по проект за обект: „Ел. кабел 20 kV подземно трасе от ПИ № 080189, с. Атолово, община Стралджа, област Ямбол, до стълб 20 kV в ПИ № 000258, с. Венец, община Карнобат, област Бургас“. 2. Упълномощава кмета на общината със своя заповед да учреди право на преминаване през посочените имоти. Председател: В. Маринова 5948 ОБЩИНА ШАБЛА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

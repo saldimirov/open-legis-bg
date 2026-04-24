@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-8/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-8"/>
+          <FRBRalias value="Указ № 43 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="short"/>
+          <FRBRalias value="Указ № 43 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="eli" other="/eli/bg/ukaz/2010/dv-18-10-8"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-8/bul@2010-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-8/bul@2010-03-05"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-18-10-8/bul@2010-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-18-10-8/bul@2010-03-05.xml"/>
+          <FRBRdate date="2010-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-05" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 43 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106,</p>
+      <p>(обн., ДВ, бр. 97 от 1997 г., попр., бр. 99 от 1997 г.; изм., бр. 29 и 153 от 1998 г., бр. 110 от 1999 г., бр. 28 от 2002 г., бр. 37 от 2004 г.; попр., бр. 40 от 2004 г.; изм., бр. 34, 59, 65, 80, 82 и 86 от 2006 г., бр. 42 и 53 от 2007 г., бр. 69 от 2008 г. и бр. 41 и 82 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 35.</num>
+          <content>
+            <p>В Закона за насърчаване на инвести­ циите (обн., ДВ, бр. 97 от 1997 г., попр., бр. 99 от 1997 г.; изм., бр. 29 и 153 от 1998 г., бр. 110 от 1999 г., бр. 28 от 2002 г., бр. 37 от 2004 г.; попр., бр. 40 от 2004 г.; изм., бр. 34, 59, 65, 80, 82 и 86 от 2006 г., бр. 42 и 53 от 2007 г., бр. 69 от 2008 г. и бр. 41 и 82 от 2009 г.) в чл. 22а, ал. 10 в текста преди т. 1 след думата „участие“ се добавя „както и търговски дружества, чийто капитал е собственост на еднолични търговски дружества с държавно участие“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 36.</num>
+          <content>
+            <p>Законът влиза в сила от деня на об­ народването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

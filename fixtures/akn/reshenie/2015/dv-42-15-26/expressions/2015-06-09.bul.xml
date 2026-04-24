@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-26/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-26"/>
+          <FRBRalias value="Решение № 667 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 667 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2015/dv-42-15-26"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-26/bul@2015-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-26/bul@2015-06-09"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-26/bul@2015-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-26/bul@2015-06-09.xml"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-09" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 667 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 667 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Приморско, реши: Одобрява подробния устройствен план ПУП (парцеларен план) за част от поземлен имот с идентификатор № 10731.26.29 по КК на с. Весе­ лие, м. Чифтелията, община Приморско, с цел изграждане на линеен обект на техническата инфраструктура – довеждащ водопровод за за­ хранване на вилни сгради в поземлен имот с идентификатор № 10731.26.29 по КК на с. Веселие, м. Чифтелията, община Приморско. Посочените изменения са съгласно червените и черните надписи и линии на приложения към това решение проект. Председател: М. Барцулева 3754 ОБЩИНА ТОПОЛОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

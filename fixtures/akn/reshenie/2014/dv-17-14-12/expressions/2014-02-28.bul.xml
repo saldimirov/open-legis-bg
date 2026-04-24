@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-17-14-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-17-14-12"/>
+          <FRBRalias value="Решение № 654 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 654 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-17-14-12"/>
+          <FRBRdate date="2014-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-17-14-12/bul@2014-02-28/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-17-14-12/bul@2014-02-28"/>
+          <FRBRdate date="2014-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-17-14-12/bul@2014-02-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-17-14-12/bul@2014-02-28.xml"/>
+          <FRBRdate date="2014-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-28" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 654 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 654 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и докладна записка с вх. № ОС-01-1397 от 12.12.2013 г. от кмета на община Банско Общинският съвет – гр. Банско, реши: Одобрява проект за ПУП – ПР за частично изменение на улична регулация на ул. Глазне, гр. Банско, от о.т. 112 до о.т. 695. За председател: М. Рахов 1184 ОБЩИНА ВРАЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

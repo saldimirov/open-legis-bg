@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-3"/>
+          <FRBRalias value="Решение за избор на съдия в Конституционния съд на" name="short"/>
+          <FRBRalias value="Решение за избор на съдия в Конституционния съд на" name="eli" other="/eli/bg/reshenie/2012/dv-85-12-3"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-3/bul@2012-11-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-3/bul@2012-11-06"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-85-12-3/bul@2012-11-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-85-12-3/bul@2012-11-06.xml"/>
+          <FRBRdate date="2012-11-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-06" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на съдия в Конституционния съд на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Република България Народното събрание на основание чл. 147, ал. 1, 2 и 3 във връзка с чл. 148, ал. 1, т. 1 от Конституцията на Република България и чл. 4 от Закона за Конституционния съд Р Е Ш И : Избира Анастас Василев Анастасов за съдия в Конституционния съд на Република България. Решението е прието от 41-ото Народно събрание на 31 октомври 2012 г. и е подпе­ чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

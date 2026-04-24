@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-48-17-19/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-48-17-19"/>
+          <FRBRalias value="Решение № 412 от 27 април 2017 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 412 от 27 април 2017 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2017/dv-48-17-19"/>
+          <FRBRdate date="2017-06-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-48-17-19/bul@2017-06-16/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-48-17-19/bul@2017-06-16"/>
+          <FRBRdate date="2017-06-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-48-17-19/bul@2017-06-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-48-17-19/bul@2017-06-16.xml"/>
+          <FRBRdate date="2017-06-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-06-16" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 412 от 27 април 2017 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 412 от 27 април 2017 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и докладна запис- ка с вх. № ОС-01-2184 от 17.03.2017 г. от Георги Икономов – кмет на община Банско, Общинският съвет – гр. Банско, реши: Одобрява проект за ПУП – ПП с регистър на имотите и частите от тях, които попадат в серви- тутната зона на трасе на елементи на техническата инфраструктура извън границите на урбанизира- ните територии за „Водопровод и канализация“ и „Захранващи кабели 20 kV“ за ПИ 02676.150.70 в обхват на ПИ 02676.150.1606 и ПИ 02676.149.1605 по КК и КР на гр. Банско. Председател: Вл. Колчагов 4220 ОБЩИНА БОЖУРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

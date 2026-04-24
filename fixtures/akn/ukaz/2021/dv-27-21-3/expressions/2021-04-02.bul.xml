@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-27-21-3/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-27-21-3"/>
+          <FRBRalias value="Указ № 106 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 106 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-27-21-3"/>
+          <FRBRdate date="2021-04-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-27-21-3/bul@2021-04-02/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-27-21-3/bul@2021-04-02"/>
+          <FRBRdate date="2021-04-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-27-21-3/bul@2021-04-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-27-21-3/bul@2021-04-02.xml"/>
+          <FRBRdate date="2021-04-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-04-02" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 106 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 106 На основание чл. 98, т. 6 от Конституцията на Република България П О С Т А Н О В Я В А М : Назначавам Милена Георгиева Иванова – извънреден и пълномощен посланик на Репуб­ лика България в Мексиканските съединени щати, и за извънреден и пълномощен посланик на Република България в Република Панама със седалище в гр. Мексико, Мексикански съединени щати. Изпълнението на указа възлагам на ми- нистъра на външните работи. Издаден в София на 25 март 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

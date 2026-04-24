@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-52-19-4/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-52-19-4"/>
+          <FRBRalias value="Решение № 206 от 13 юни 2019 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 206 от 13 юни 2019 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2019/dv-52-19-4"/>
+          <FRBRdate date="2019-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-52-19-4/bul@2019-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-52-19-4/bul@2019-07-02"/>
+          <FRBRdate date="2019-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-52-19-4/bul@2019-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-52-19-4/bul@2019-07-02.xml"/>
+          <FRBRdate date="2019-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-02" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 206 от 13 юни 2019 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 206 от 13 юни 2019 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 16 септември 2019 г. сребърна възпоменателна монета „150 години Българска академия на нау- ките“ със следното описание: Технически параметри: емисия – 2019 г.; номинална стойност – 10 лв.; метал – сребро, проба 999/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи- ната „1879“ върху лентата; околовръст – надпис „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „10 ЛЕВА“ и годината на емисията „2019“. На обратната страна на монетата е изобразена централната сграда на Българската академия на науките; околовръст надписи на два реда: отгоре „БЪЛГАРСКА АКАДЕМИЯ НА НАУКИТЕ“; отдолу „150 ГОДИНИ“. Автори на художествения проект са Пламен Чернев и Преслав Чернев. Управител: Д. Радев 4935 ОБЩИНА АКСАКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

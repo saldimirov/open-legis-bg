@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-26-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-26-10-13"/>
+          <FRBRalias value="Указ № 76 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 76 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2010/dv-26-10-13"/>
+          <FRBRdate date="2010-04-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-26-10-13/bul@2010-04-06/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-26-10-13/bul@2010-04-06"/>
+          <FRBRdate date="2010-04-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-26-10-13/bul@2010-04-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-26-10-13/bul@2010-04-06.xml"/>
+          <FRBRdate date="2010-04-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-06" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 76 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С ТА Н О В Я В А М : Награждавам проф. Марин Петров Мари­ нов с орден „Св. св. Кирил и Методий“ първа степен за големите му заслуги към Република България в областта на образованието и науката и по случай неговата 80-годишнина. Издаден в София на 22 март 2010 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

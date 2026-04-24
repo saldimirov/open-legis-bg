@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-53-18-11/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-53-18-11"/>
+          <FRBRalias value="Указ № 157 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 157 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2018/dv-53-18-11"/>
+          <FRBRdate date="2018-06-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-53-18-11/bul@2018-06-26/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-53-18-11/bul@2018-06-26"/>
+          <FRBRdate date="2018-06-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-53-18-11/bul@2018-06-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-53-18-11/bul@2018-06-26.xml"/>
+          <FRBRdate date="2018-06-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-26" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 157 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Награждавам г-н Роналд Лаудер – прези­ дент на Световния еврейски конгрес, с орден „Стара планина“ първа степен за изключително големи заслуги за развитието и укрепването на приятелските отношения и сътрудничеството между световната еврейска общност, пред­ ставлявана от Световния еврейски конгрес, и държавните институции, еврейската общност и гражданското общество в Република България, както и за значителен принос за развитието на образованието у нас. Издаден в София на 15 юни 2018 г. Президент на Републиката: Румен Радев Министър на външните работи: Екатерина Захариева Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева 5919</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

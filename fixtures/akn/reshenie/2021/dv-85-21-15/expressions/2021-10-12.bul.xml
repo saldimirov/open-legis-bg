@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-85-21-15/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-85-21-15"/>
+          <FRBRalias value="Решение № 701 ОТ 7 ОКТОМВРИ 2021 Г. за обявяване на 12 октомври за ден на бъл­" name="short"/>
+          <FRBRalias value="Решение № 701 ОТ 7 ОКТОМВРИ 2021 Г. за обявяване на 12 октомври за ден на бъл­" name="eli" other="/eli/bg/reshenie/2021/dv-85-21-15"/>
+          <FRBRdate date="2021-10-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-85-21-15/bul@2021-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-85-21-15/bul@2021-10-12"/>
+          <FRBRdate date="2021-10-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-85-21-15/bul@2021-10-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-85-21-15/bul@2021-10-12.xml"/>
+          <FRBRdate date="2021-10-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-10-12" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 701 ОТ 7 ОКТОМВРИ 2021 Г. за обявяване на 12 октомври за ден на бъл­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 701 ОТ 7 ОКТОМВРИ 2021 Г. за обявяване на 12 октомври за ден на бъл­ гарската община и местното самоуправление в България На основание чл. 154, ал. 3 от Кодекса на труда МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 12 октомври за ден на българ- ската община и местното самоуправление в България.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

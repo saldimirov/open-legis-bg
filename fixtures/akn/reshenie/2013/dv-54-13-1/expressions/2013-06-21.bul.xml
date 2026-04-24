@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-54-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-54-13-1"/>
+          <FRBRalias value="Решение за избиране на председател на Държавна" name="short"/>
+          <FRBRalias value="Решение за избиране на председател на Държавна" name="eli" other="/eli/bg/reshenie/2013/dv-54-13-1"/>
+          <FRBRdate date="2013-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-54-13-1/bul@2013-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-54-13-1/bul@2013-06-21"/>
+          <FRBRdate date="2013-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-54-13-1/bul@2013-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-54-13-1/bul@2013-06-21.xml"/>
+          <FRBRdate date="2013-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-21" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на председател на Държавна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>агенция „Национална сигурност“ Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Ре­ публика България, чл. 8, ал. 1 от Закона за ОФИЦИАЛЕН РАЗДЕЛ НАРОДНО СЪБРАНИЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

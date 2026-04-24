@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-100-21-1/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-100-21-1"/>
+          <FRBRalias value="Указ № 284 На основание чл. 75 от Конституцията на" name="short"/>
+          <FRBRalias value="Указ № 284 На основание чл. 75 от Конституцията на" name="eli" other="/eli/bg/ukaz/2021/dv-100-21-1"/>
+          <FRBRdate date="2021-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-100-21-1/bul@2021-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-100-21-1/bul@2021-11-30"/>
+          <FRBRdate date="2021-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-100-21-1/bul@2021-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-100-21-1/bul@2021-11-30.xml"/>
+          <FRBRdate date="2021-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-11-30" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 284 На основание чл. 75 от Конституцията на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 284 На основание чл. 75 от Конституцията на Република България П О С Т А Н О В Я В А М : Свиквам на първо заседание новоизбраното Четиридесет и седмо Народно събрание на 3 декември 2021 г. от 9,00 ч. Издаден в София на 29 ноември 2021 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Иван Демерджиев 7325 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

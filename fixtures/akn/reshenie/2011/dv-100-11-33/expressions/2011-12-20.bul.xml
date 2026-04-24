@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-33/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-33"/>
+          <FRBRalias value="Решение № 6 от 1 декември 2011 г. На основание чл. 30 във връзка с чл. 16, т. 1 и" name="short"/>
+          <FRBRalias value="Решение № 6 от 1 декември 2011 г. На основание чл. 30 във връзка с чл. 16, т. 1 и" name="eli" other="/eli/bg/reshenie/2011/dv-100-11-33"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-33/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-33/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-33/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-33/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 6 от 1 декември 2011 г. На основание чл. 30 във връзка с чл. 16, т. 1 и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 6 от 1 декември 2011 г. На основание чл. 30 във връзка с чл. 16, т. 1 и чл. 17, ал. 1, т. 4 и 5 ЗАТУРБ и чл. 21, ал. 1, т. 16 ЗМСМА Общинският съвет – гр. Троян, реши: 1. Закрива кметствата с. Балканец, с. Гумощ- ник, с. Добродан, с. Дълбок дол, с. Ломец, с. Старо село, с. Терзийско и с. Чифлик на територията на Община Троян. 2. Решението влиза в сила от датата на обна- родването му в „Държавен вестник“. Председател: М. Акимов 13163 ОБЩИНА ЧЕПЕЛАРЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

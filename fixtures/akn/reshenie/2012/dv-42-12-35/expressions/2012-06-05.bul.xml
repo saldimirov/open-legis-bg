@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-35/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-35"/>
+          <FRBRalias value="Решение № 30 от 14 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 30 от 14 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-42-12-35"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-35/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-35/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-35/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-35/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 30 от 14 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 30 от 14 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 9 от протокол № 1 на Експертния съвет по устройство на територи­ ята от 12.01.2012 г. Общинският съвет – гр. Де­ вин, одобрява проект за подробен устройствен план – парцеларен план за обект: „Отклонение от въздушна линия 20 kV „Отбивен тунел“, подобект „Въздушна линия 20 kV „Гашня“, със сервитут върху поземлени имоти с № 007424, 007227 – гор­ ска територия, № 007241 – транспортна терито­ рия, и № 007114, 007115, 007120 – производство на ел. енергия, в местност Деве бою, землище Селча, на „НЕК“ – ЕАД, клон „Хидроелектро­ инвест“ – гр. Белово. Председател: М. Дамянов 5186 ОБЩИНА КАВАРНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

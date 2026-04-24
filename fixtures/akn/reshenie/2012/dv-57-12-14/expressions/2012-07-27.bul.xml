@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-14"/>
+          <FRBRalias value="Решение № 58 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 58 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2012/dv-57-12-14"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-14/bul@2012-07-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-14/bul@2012-07-27"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-57-12-14/bul@2012-07-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-57-12-14/bul@2012-07-27.xml"/>
+          <FRBRdate date="2012-07-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-27" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 58 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 58 от 12 юли 2012 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 8 октомври 2012 г., златна възпоменателна монета „Св. Петка Българска“ от серията „Българска иконография“ със следното описание: Технически параметри номинална стойност – 100 лева; метал – злато, проба 999/1000; тегло – 8,64 г; диаметър – 24 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2012; тираж – 2500 броя. Графични елементи На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи­ ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „100 ЛЕВА“ и годината на емисия „2012“. На обратната страна на монетата е изобразен фрагмент от икона на Св. Петка Българска. Око­ ловръст е изписано „СВ. ПЕТКА БЪЛГАРСКА“, а от двете страни на изображението на светицата е изписано името є на черковнославянски език. Автор на художествения проект е Ваня Ди­ митрова. Управител: Ив. Искров 6873</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-6/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-6"/>
+          <FRBRalias value="Решение за приемане на Обобщен годишен доклад за" name="short"/>
+          <FRBRalias value="Решение за приемане на Обобщен годишен доклад за" name="eli" other="/eli/bg/reshenie/2016/dv-58-16-6"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-6/bul@2016-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-6/bul@2016-07-26"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-6/bul@2016-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-6/bul@2016-07-26.xml"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-26" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Обобщен годишен доклад за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на образованието и науката да извърши съответните промени по бюджета на Министерството на образованието и науката за 2016 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 5.</num>
+        <content>
+          <p>Министърът на финансите да извър- ши налагащите се промени по централния бюджет, включително по бюджетните вза- имоотношения на общините с централния бюджет за 2016 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 3 от Закона за публичните финанси и чл. 90, ал. 2 от Закона за държав- ния бюджет на Република България за 2016 г. във връзка с чл. 2 от Постановление № 68 на Министерския съвет от 2016 г. за приемане на Прог­рама на мерките за закрила на деца с изявени дарби от държавни и общински училища през 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и на- уката и на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

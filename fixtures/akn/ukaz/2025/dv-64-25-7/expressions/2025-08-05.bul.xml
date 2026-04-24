@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-64-25-7/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-64-25-7"/>
+          <FRBRalias value="Указ № 130 На основание чл. 101, т. 3 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 130 На основание чл. 101, т. 3 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2025/dv-64-25-7"/>
+          <FRBRdate date="2025-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-64-25-7/bul@2025-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-64-25-7/bul@2025-08-05"/>
+          <FRBRdate date="2025-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-64-25-7/bul@2025-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-64-25-7/bul@2025-08-05.xml"/>
+          <FRBRdate date="2025-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-08-05" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 130 На основание чл. 101, т. 3 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на Закона за здравното осигуряване, приет от 51-вото Народно събрание на 17 юли 2025 г., повторно приет на 31 юли 2025 г. Издаден в София на 1 август 2025 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Георги Георгиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

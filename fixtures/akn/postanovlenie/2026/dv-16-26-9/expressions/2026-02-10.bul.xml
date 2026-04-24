@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-16-26-9/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-16-26-9"/>
+          <FRBRalias value="Постановление № 26 от 5 февруари 2026 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за пощенските услуги" name="short"/>
+          <FRBRalias value="Постановление № 26 от 5 февруари 2026 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за пощенските услуги" name="eli" other="/eli/bg/postanovlenie/2026/dv-16-26-9"/>
+          <FRBRdate date="2026-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-16-26-9/bul@2026-02-10/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-16-26-9/bul@2026-02-10"/>
+          <FRBRdate date="2026-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-16-26-9/bul@2026-02-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-16-26-9/bul@2026-02-10.xml"/>
+          <FRBRdate date="2026-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-10" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 26 от 5 февруари 2026 г. за приемане на Тарифа за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за пощенските услуги</p>
+      <p>(обн., ДВ, бр. 68 от 2002 г.; попр., бр. 69 от 2002 г.; изм. и доп., бр. 66 и 71 от 2003 г., бр. 31 от 2004 г., бр. 24 от 2005 г., бр. 2 от 2008 г., бр. 75 от 2010 г. и бр. 103 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <content>
+          <p>Параграф единствен.    Отменя се Тарифата за таксите, които се събират от Комисията за регулиране на съобщенията по Закона за пощенските услуги, приета с Постановление № 144 на Министерския съвет от 2002 г. (обн., ДВ, бр. 68 от 2002 г.; попр., бр. 69 от 2002 г.; изм. и доп., бр. 66 и 71 от 2003 г., бр. 31 от 2004 г., бр. 24 от 2005 г., бр. 2 от 2008 г., бр. 75 от 2010 г. и бр. 103 от 2012 г.).</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-7-16-45/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-7-16-45"/>
+          <FRBRalias value="Решение № 43 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 43 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-7-16-45"/>
+          <FRBRdate date="2016-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="45"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-7-16-45/bul@2016-01-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-7-16-45/bul@2016-01-26"/>
+          <FRBRdate date="2016-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-7-16-45/bul@2016-01-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-7-16-45/bul@2016-01-26.xml"/>
+          <FRBRdate date="2016-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-26" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 43 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 43 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и протокол № 7 от 2015 г. на ОЕСУТ, т. 4, Общинският съвет – гр. Костинброд, одобрява проект за ПУП – ПП (подробен устройствен план – парцеларен план) за елементи на техничес­ ка инфраструктура – разпределителен газопровод до поземлени имоти № 322082 и № 322083 по общински земеделски път 000019 и общински местен път 000313 в землището на с. Голяновци, община Костинброд. Председател: Ат. Тенев 149 ОБЩИНА КОТЕЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

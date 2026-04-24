@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2026/dv-17-26-6/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-17-26-6"/>
+          <FRBRalias value="Постановление № 30 от 11 февруари 2026 г. за изменение и допълнение на Правилника за прилагане на Закона за Националната служба за охрана, приет с Постановление № 131 на Министерския съвет от 2016 г." name="short"/>
+          <FRBRalias value="Постановление № 30 от 11 февруари 2026 г. за изменение и допълнение на Правилника за прилагане на Закона за Националната служба за охрана, приет с Постановление № 131 на Министерския съвет от 2016 г." name="eli" other="/eli/bg/postanovlenie/2026/dv-17-26-6"/>
+          <FRBRdate date="2026-02-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2026/dv-17-26-6/bul@2026-02-13/main"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-17-26-6/bul@2026-02-13"/>
+          <FRBRdate date="2026-02-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2026/dv-17-26-6/bul@2026-02-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2026/dv-17-26-6/bul@2026-02-13.xml"/>
+          <FRBRdate date="2026-02-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2026-02-13" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 30 от 11 февруари 2026 г. за изменение и допълнение на Правилника за прилагане на Закона за Националната служба за охрана, приет с Постановление № 131 на Министерския съвет от 2016 г.</p>
+      <p>(обн., ДВ, бр. 42 от 2016 г.; изм. и доп., бр. 100 от 2018 г., бр. 101 от 2020 г. и бр. 93 от 2022 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 9 се правят следните изменения и допълнения:</p>
+          </intro>
+          <point eId="sec_final__par_1__pt_1">
+            <num>1.</num>
+            <content>
+              <p>Създава се нова т. 14:</p>
+              <p>„14. транспортно подпомагане на администрацията на Президента на Република България за служебни нужди, извън обхвата и приложението на чл. 19 от Закона за Националната служба за охрана;“.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_1__pt_2">
+            <num>2.</num>
+            <content>
+              <p>Досегашната т. 14 става т. 15.</p>
+            </content>
+          </point>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+            <p>За министър-председател:    Томислав Дончев</p>
+            <p>Главен секретар на Министерския съвет:  Габриела Козарева</p>
+            <p>803</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

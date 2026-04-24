@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-32/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-32"/>
+          <FRBRalias value="Решение № 193 от 26 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 193 от 26 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-54-16-32"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-32/bul@2016-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-32/bul@2016-07-15"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-32/bul@2016-07-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-32/bul@2016-07-15.xml"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-15" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 193 от 26 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 193 от 26 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ка­ занлък, реши: Одобрява парцеларен план на подземен елeк­ тропровод за осигуряване на електрозахранване на поземлен имот (ПИ) № 004001 от 2,501 дка, с начин на трайно ползване „нива“, собственост на Емил Боянов Узунов. Трасето преминава през ПИ № 000030 – полски път, публична общинска собственост, землище Копринка, ЕКАТТЕ 38563, и е с дължина на електропровода 149 м и сер­ витут 298 кв. м. Председател: Н. Златанов 5487 ОБЩИНА „МАРИЦА“ – ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

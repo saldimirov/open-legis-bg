@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-65-15-7/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-65-15-7"/>
+          <FRBRalias value="Решение № 652 от 28 юли 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2" name="short"/>
+          <FRBRalias value="Решение № 652 от 28 юли 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2" name="eli" other="/eli/bg/reshenie/2015/dv-65-15-7"/>
+          <FRBRdate date="2015-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-65-15-7/bul@2015-08-25/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-65-15-7/bul@2015-08-25"/>
+          <FRBRdate date="2015-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-65-15-7/bul@2015-08-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-65-15-7/bul@2015-08-25.xml"/>
+          <FRBRdate date="2015-08-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-25" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 652 от 28 юли 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 652 от 28 юли 2015 г. На основание чл. 21, ал. 1, т. 16 и ал. 2 ЗМСМА във връзка с чл. 17, ал. 1, т. 3 и 4 ЗАТУРБ Общинският съвет – гр. Дулово, реши: 1. Създава кметство с. Скала. 2. Създава кметство с. Прохлада. 3. Възлага на кмета на община Дулово да предприеме необходимите действия за извърш- ване на промени в структурата на общинската администрация и в съответните нормативни актове на общината във връзка със създаването на кметствата. 4. Решението да бъде изпратено на кмета на община Дулово и областния управител на област Силистра в 7-дневен срок от приемането му. Председател: С. Галиб 5485 ОБЩИНА КЮСТЕНДИЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

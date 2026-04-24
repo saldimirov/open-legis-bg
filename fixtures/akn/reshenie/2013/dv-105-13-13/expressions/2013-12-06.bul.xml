@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-13"/>
+          <FRBRalias value="Решение № 105 от 27 ноември 2013 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 105 от 27 ноември 2013 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2013/dv-105-13-13"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-13/bul@2013-12-06/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-13/bul@2013-12-06"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-105-13-13/bul@2013-12-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-105-13-13/bul@2013-12-06.xml"/>
+          <FRBRdate date="2013-12-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-12-06" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 105 от 27 ноември 2013 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 105 от 27 ноември 2013 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 13 декември 2013 г., медна възпоменателна монета „90 години от рождението на Апостол Карамитев“ от сери- ята „Български творци“ със следното описание: Технически параметри номинална стойност – 2 лева; метал – мед, с проба 999/1000; тегло – 16.4 г; диаметър – 34.2 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2013; тираж – 3000 броя. Графични елементи На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи- ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „2 ЛЕВА“ и годината на емисия „2013“. На обратната страна на монетата е изобразен актьорът Апостол Карамитев, както и надпис околовръст „90 ГОДИНИ ОТ РОЖДЕНИЕТО НА АПОСТОЛ КАРАМИТЕВ“. Автор на художествения проект е Бисер Не- дялков. Управител: Ив. Искров 8917 БРОЙ 105 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 101 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

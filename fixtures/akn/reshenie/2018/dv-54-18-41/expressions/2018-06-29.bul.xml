@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-41/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-41"/>
+          <FRBRalias value="Решение № 1169 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1169 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-54-18-41"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="41"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-41/bul@2018-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-41/bul@2018-06-29"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-41/bul@2018-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-41/bul@2018-06-29.xml"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-29" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1169 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1169 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 129, ал. 1 от ЗУТ и чл. 21, ал. 7 от ЗОС Об­ щинският съвет – гр. Сливен, реши: Одобрява подробен устройствен план за по­ землени имоти 000428, 040081 и 040082, местност Пелениката, землище с. Блатец, община Сливен, като се променя предназначението на части от имотите и от земеделски се преотреждат в „За разширение на гробищен парк“. Решението подлежи на обжалване на осно­ вание чл. 215, ал. 4 от ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ до Адми­ нистративния съд – Сливен. Председател: Д. Митев 5906</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

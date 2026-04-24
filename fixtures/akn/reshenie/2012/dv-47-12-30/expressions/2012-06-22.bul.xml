@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-47-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-47-12-30"/>
+          <FRBRalias value="Решение № 162 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 162 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-47-12-30"/>
+          <FRBRdate date="2012-06-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-47-12-30/bul@2012-06-22/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-47-12-30/bul@2012-06-22"/>
+          <FRBRdate date="2012-06-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-47-12-30/bul@2012-06-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-47-12-30/bul@2012-06-22.xml"/>
+          <FRBRdate date="2012-06-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-22" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 162 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 162 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 98а и чл. 108, ал. 2 ЗУТ Общинският съвет – гр. Мъглиж, одобрява план-схема за газификация към ПУП – ПРЗ на с. Зимница, община Мъглиж, изработена на основание чл. 98а ЗУТ. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Общи­ на Мъглиж до Административния съд – Стара Загора. Председател: Мл. Чернаков 5796 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

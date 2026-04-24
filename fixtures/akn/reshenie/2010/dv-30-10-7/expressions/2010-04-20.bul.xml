@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-7"/>
+          <FRBRalias value="Решение № 113 от 11 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 113 от 11 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="eli" other="/eli/bg/reshenie/2010/dv-30-10-7"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-7/bul@2010-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-7/bul@2010-04-20"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-30-10-7/bul@2010-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-30-10-7/bul@2010-04-20.xml"/>
+          <FRBRdate date="2010-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-20" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 113 от 11 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 113 от 11 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21, ал. 6 ЗОС, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 ЗУТ и протокол на ОЕСУТ № ЕС-Г-97 от 27.Х.2009 г., т. 5, Столичният общински съвет реши: 1. Приема проект за парцеларен план за трасе на присъединителен газопровод от ГРС „Креми­ ковци“ до ГКС в поземлен имот 28010, м. Лашор, землище на с. Горни Богров, ЕКАТТЕ 16448, по червените линии съгласно приложения проект. 2. Решението може да бъде обжалвано чрез район „Кремиковци“ пред Административния съд – София, в 14-дневен срок от уведомяването. Председател: А. Иванов 3232</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

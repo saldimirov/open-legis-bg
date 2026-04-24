@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-71-20-7/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-71-20-7"/>
+          <FRBRalias value="Указ № 168 На основание чл. 98, т. 4 от Конституци-" name="short"/>
+          <FRBRalias value="Указ № 168 На основание чл. 98, т. 4 от Конституци-" name="eli" other="/eli/bg/ukaz/2020/dv-71-20-7"/>
+          <FRBRdate date="2020-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-71-20-7/bul@2020-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-71-20-7/bul@2020-08-11"/>
+          <FRBRdate date="2020-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-71-20-7/bul@2020-08-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-71-20-7/bul@2020-08-11.xml"/>
+          <FRBRdate date="2020-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-08-11" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 168 На основание чл. 98, т. 4 от Конституци-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 168 На основание чл. 98, т. 4 от Конституци- ята на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на За- кона за лечебните заведения, приет от 44-то Народно събрание на 31 юли 2020 г. Издаден в София на 5 август 2020 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Данаил Кирилов СТР. 8 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 71</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

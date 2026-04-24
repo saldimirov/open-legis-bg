@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-20-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-20-12-10"/>
+          <FRBRalias value="Решение за удължаване срока на действие на Временна­" name="short"/>
+          <FRBRalias value="Решение за удължаване срока на действие на Временна­" name="eli" other="/eli/bg/reshenie/2012/dv-20-12-10"/>
+          <FRBRdate date="2012-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-20-12-10/bul@2012-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-20-12-10/bul@2012-03-09"/>
+          <FRBRdate date="2012-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-20-12-10/bul@2012-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-20-12-10/bul@2012-03-09.xml"/>
+          <FRBRdate date="2012-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-09" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за удължаване срока на действие на Временна­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>та анкетна комисия за проучването на факти и обстоятелства относно случаи, изнесени през последните дни в общественото и медийното пространство, на полицейско насилие, както и на опити за оказване на влияние и поли­ тически натиск върху правоохранителни и правораздавателни органи Народното събрание на основание чл. 34 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Удължава срока на действие на Временна­ та анкетна комисия, създадена с Решение на Народното събрание на 1 февруари 2012 г., обнародвано в „Държавен вестник“, бр. 11 от 7 февруари 2012 г., с 60 дни. Решението е прието от 41-ото Народно събрание на 1 март 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

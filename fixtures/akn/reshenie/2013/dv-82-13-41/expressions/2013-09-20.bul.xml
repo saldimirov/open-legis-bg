@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-41/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-41"/>
+          <FRBRalias value="Решение № 273 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 273 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-82-13-41"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="41"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-41/bul@2013-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-41/bul@2013-09-20"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-41/bul@2013-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-41/bul@2013-09-20.xml"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-20" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 273 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 273 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, Решение № 18, протокол № 5 от 12.06.2013 г. на ОЕСУТ при Община Сандан­ ски и писмо с вх. № 652 от 11.07.2013 г. от кмета на община Сандански Общинският съвет – гр. Сандански, реши: Одобрява ПУП – парцеларен план за проектно трасе на електропровод 20 kV за захранване на обект: „Приемо-предавателна станция за глас и/или данни на „БТК“ – АД – SO1789_Sandanski Industrial“ в поземлен имот 65334.104.2, м. Соко­ ловец по КККР на землището на гр. Сандански, с обща дължина 50,54 м. Трасето на електропровода преминава през поземлени имоти № 104.1 – земи по чл. 19 ЗСПЗЗ, община Сандански, и 104.218 – полски път на община Сандански, в местността Соколовец, землище на гр. Сандански. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от обна­ родването в „Държавен вестник“ чрез Община Сандански пред Административния съд – Бла­ гоевград. Председател: Ат. Стоянов 6825</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

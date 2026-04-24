@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-56-15-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-56-15-27"/>
+          <FRBRalias value="Решение № 790 от 30 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 790 от 30 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-56-15-27"/>
+          <FRBRdate date="2015-07-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-56-15-27/bul@2015-07-24/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-56-15-27/bul@2015-07-24"/>
+          <FRBRdate date="2015-07-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-56-15-27/bul@2015-07-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-56-15-27/bul@2015-07-24.xml"/>
+          <FRBRdate date="2015-07-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-07-24" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 790 от 30 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 790 от 30 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Брез- ник, одобрява проект за ПУП – парцеларен план за учредяване на трасе и сервитут с ука- зано място и начин на присъединяване към въздушен електропровод 20 kV „Равнище“, извод от подстанция „Брезник“, с изграждане на нов стоманорешетъчен стълб в сервитута на съществуващия електропровод, откъдето трасето минава по съществуващи полски пъ- тища с № 06286.59.32, 06286.71.26, 06286.73.33, 06286.73.34 до нов БКТП в ПИ 06286.72.21 по КККР на гр. Брезник. Председател: В. Добринов 4662 ОБЩИНА ВРАЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

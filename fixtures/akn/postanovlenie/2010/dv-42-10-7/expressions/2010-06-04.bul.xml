@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-42-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-42-10-7"/>
+          <FRBRalias value="Постановление № 103 ОТ 26 МАЙ 2010 Г. за допълнение на Правилника за издаване на българските лични документи, приет с" name="short"/>
+          <FRBRalias value="Постановление № 103 ОТ 26 МАЙ 2010 Г. за допълнение на Правилника за издаване на българските лични документи, приет с" name="eli" other="/eli/bg/postanovlenie/2010/dv-42-10-7"/>
+          <FRBRdate date="2010-06-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-42-10-7/bul@2010-06-04/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-42-10-7/bul@2010-06-04"/>
+          <FRBRdate date="2010-06-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-42-10-7/bul@2010-06-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-42-10-7/bul@2010-06-04.xml"/>
+          <FRBRdate date="2010-06-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-04" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 103 ОТ 26 МАЙ 2010 Г. за допълнение на Правилника за издаване на българските лични документи, приет с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Постановление № 13 на Министерския съвет от 2010 г. (ДВ, бр. 12 от 2010 г.) МИНИСТЕРСКИЯТ СЪВЕТ П О С ТА Н О В И : Параграф единствен. В чл. 34, ал. 1 се съз- дава изречение второ: „В държавите – членки на ЕС, заявление за подмяна на свидетелство за управление на МПС могат да подават дългосрочно коман- дированите там служители в задграничните представителства на Република България, както и членовете на техните семейства.“</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

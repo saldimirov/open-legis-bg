@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-12-03-4/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-12-03-4"/>
+          <FRBRalias value="Указ № 33 за назначаване на Валентин Любенов Георгиев за член на Комисията за регулиране на съобщенията" name="short"/>
+          <FRBRalias value="Указ № 33 за назначаване на Валентин Любенов Георгиев за член на Комисията за регулиране на съобщенията" name="eli" other="/eli/bg/ukaz/2003/dv-12-03-4"/>
+          <FRBRdate date="2003-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-12-03-4/bul@2003-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-12-03-4/bul@2003-02-07"/>
+          <FRBRdate date="2003-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-12-03-4/bul@2003-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-12-03-4/bul@2003-02-07.xml"/>
+          <FRBRdate date="2003-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-07" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 33 за назначаване на Валентин Любенов Георгиев за член на Комисията за регулиране на съобщенията</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 12, от дата 7.2.2003 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.2</p>
+          <p>Указ № 33 за назначаване на Валентин Любенов Георгиев за член на Комисията за регулиране на съобщенията</p>
+          <p>УКАЗ № 33</p>
+          <p>На основание чл. 98, т. 7 от Конституцията на Република България, чл. 23, ал. 5 от Закона за далекосъобщенията</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам Валентин Любенов Георгиев за член на Комисията за регулиране на съобщенията.</p>
+          <p>Издаден в София на 29 януари 2003 г.</p>
+          <p>Президент на републиката:    Георги Първанов</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:    Антон Станков</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

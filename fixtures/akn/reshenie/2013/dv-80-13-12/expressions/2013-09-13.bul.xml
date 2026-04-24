@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-80-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-80-13-12"/>
+          <FRBRalias value="Решение № 413 от 31 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 413 от 31 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-80-13-12"/>
+          <FRBRdate date="2013-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-80-13-12/bul@2013-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-80-13-12/bul@2013-09-13"/>
+          <FRBRdate date="2013-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-80-13-12/bul@2013-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-80-13-12/bul@2013-09-13.xml"/>
+          <FRBRdate date="2013-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-13" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 413 от 31 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 413 от 31 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и протокол № 8, Решение № I от 22.07.2013 г. на ОбЕС по УТ при Община Брез- ник Общинският съвет – гр. Брезник, одобрява проекта за обект: ПУП – парцеларен план за трасе и сервитут на водопроводно отклонение от АЦ водопровод ∅ 200 в землището на с. Бегуновци до ПИ № 046017 по КВС на с. Режанци, област Перник, като трасето на сервитута на водопровод­ ното отклонение е 2 м от двете страни от оста на водопровода с обща ширина 4 м и започва от ПИ № 000079 – полски път, от КВС на с. Бегуновци, където се намира съществуващ АЦ водопровод ∅ 200 и достига до ПИ 046017 по КВС на с. Режанци, за който има изготвен ПУП – ПЗ, за промяна на предназначението от земеделска земя в земя за изграждане на жилищни сгради, в който ще бъде изградена водомерна шахта. Председател: В. Добринов 6777</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

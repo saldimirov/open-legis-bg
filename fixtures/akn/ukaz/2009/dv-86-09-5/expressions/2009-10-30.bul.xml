@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-86-09-5/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-86-09-5"/>
+          <FRBRalias value="Указ № 359 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="short"/>
+          <FRBRalias value="Указ № 359 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106," name="eli" other="/eli/bg/ukaz/2009/dv-86-09-5"/>
+          <FRBRdate date="2009-10-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-86-09-5/bul@2009-10-30/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-86-09-5/bul@2009-10-30"/>
+          <FRBRdate date="2009-10-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-86-09-5/bul@2009-10-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-86-09-5/bul@2009-10-30.xml"/>
+          <FRBRdate date="2009-10-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-30" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 359 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 359 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106, ал. 1 от Закона за местните избори П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на кмет­ ство Лещак, община Мадан, област Смолян, на 12 декември 2009 г. Издаден в София на 23 октомври 2009 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова 12174 БРОЙ 86 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

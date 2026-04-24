@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-88-03-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-88-03-16"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части - Пловдив" name="short"/>
+          <FRBRalias value="Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части - Пловдив" name="eli" other="/eli/bg/pravilnik/2003/dv-88-03-16"/>
+          <FRBRdate date="2003-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-88-03-16/bul@2003-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-88-03-16/bul@2003-10-07"/>
+          <FRBRdate date="2003-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-88-03-16/bul@2003-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-88-03-16/bul@2003-10-07.xml"/>
+          <FRBRdate date="2003-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-07" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение на Устройствения правилник на Центъра за изпитване на земеделска, горска техника и резервни части - Пловдив</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 12, ал. 4 числото „23&amp;quot; се заменя с „26&amp;quot;.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Правилникът влиза в сила от деня на обнародването му в „Държавен вестник&amp;quot;.</p>
+            <p>Министър:    М. Дикме</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

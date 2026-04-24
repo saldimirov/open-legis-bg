@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-38-11-5/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-38-11-5"/>
+          <FRBRalias value="Решение за промени в ръководството на Комисията" name="short"/>
+          <FRBRalias value="Решение за промени в ръководството на Комисията" name="eli" other="/eli/bg/reshenie/2011/dv-38-11-5"/>
+          <FRBRdate date="2011-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-38-11-5/bul@2011-05-17/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-38-11-5/bul@2011-05-17"/>
+          <FRBRdate date="2011-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-38-11-5/bul@2011-05-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-38-11-5/bul@2011-05-17.xml"/>
+          <FRBRdate date="2011-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-17" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промени в ръководството на Комисията</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>по правата на човека, вероизповеданията, жалбите и петициите на гражданите Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република Бъл­ гария и чл. 18, ал. 7 и чл. 20, ал. 1 и 4 от Правилника за организацията и дейността на Народното събрание СТР. 6 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 38 ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

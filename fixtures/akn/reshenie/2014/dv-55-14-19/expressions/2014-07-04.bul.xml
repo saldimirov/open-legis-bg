@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-55-14-19/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-55-14-19"/>
+          <FRBRalias value="Решение № 403 от 30 май 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 403 от 30 май 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2014/dv-55-14-19"/>
+          <FRBRdate date="2014-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-55-14-19/bul@2014-07-04/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-55-14-19/bul@2014-07-04"/>
+          <FRBRdate date="2014-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-55-14-19/bul@2014-07-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-55-14-19/bul@2014-07-04.xml"/>
+          <FRBRdate date="2014-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-07-04" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 403 от 30 май 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 403 от 30 май 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и решение на ОЕСУТ, взето с протокол № 02 от 5.03.2014 г., Общинският съвет – гр. Малко Търново, одобрява ПУП – пар- целарен план за обект: „Пътна връзка на път „Бургас – КПП Малко Търново“ с бензиностанция и газстанция в ПИ 10.338 по кадастралната карта на гр. Малко Търново“. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Об- щина Малко Търново пред Административния съд – Бургас. Председател: Т. Браяновски 4445 ОБЩИНА НЕСЕБЪР</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

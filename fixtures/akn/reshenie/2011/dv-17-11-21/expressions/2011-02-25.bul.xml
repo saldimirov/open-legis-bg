@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-21"/>
+          <FRBRalias value="Решение № 465 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 465 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-17-11-21"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-21/bul@2011-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-21/bul@2011-02-25"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-21/bul@2011-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-21/bul@2011-02-25.xml"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-25" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 465 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 465 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 134, ал. 1, т. 1 и чл. 9, ал. 2 ЗУТ Общинският съвет – гр. Първо­ май, одобрява подробен устройствен план – план за регулация (ПР) – план за застрояване (ПЗ) за поземлен имот (ПИ) № 396001 в землището на гр. Първомай, област Пловдив, във връзка с промяна предназначението на земеделска земя за изграждане на фотоволтаична централа с ка­ пацитет 3000 KWp. Председател: Д. Петков 2304 ОБЩИНА САПАРЕВА БАНЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

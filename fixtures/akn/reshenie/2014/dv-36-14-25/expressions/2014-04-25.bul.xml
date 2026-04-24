@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-36-14-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-36-14-25"/>
+          <FRBRalias value="Решение № 627 от 20 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 627 от 20 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-36-14-25"/>
+          <FRBRdate date="2014-04-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-36-14-25/bul@2014-04-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-36-14-25/bul@2014-04-25"/>
+          <FRBRdate date="2014-04-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-36-14-25/bul@2014-04-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-36-14-25/bul@2014-04-25.xml"/>
+          <FRBRdate date="2014-04-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-25" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 627 от 20 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 627 от 20 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и докладна записка на кмета Общинският съвет – гр. Смолян, одо- брява подробен устройствен план – парцеларен план за обект: Кабелна линиия 20 kV, БКТП и кабелна линия НН за захранване на жилищна сграда на В. Билюков в местност Падалото, землище Смолян, с трасе, преминаващо през поземлени имоти с идентификатори 67653.76.14 и 67653.136.443 в землището на гр. Смолян, община Смолян. Председател: Ф. Топов 2672 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

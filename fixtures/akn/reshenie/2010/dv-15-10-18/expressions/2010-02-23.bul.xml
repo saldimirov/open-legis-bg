@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-15-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-15-10-18"/>
+          <FRBRalias value="Решение № 49 ОТ 4 ФЕВРУАРИ 2010 Г. за приемане на Отчета за изпълнението на" name="short"/>
+          <FRBRalias value="Решение № 49 ОТ 4 ФЕВРУАРИ 2010 Г. за приемане на Отчета за изпълнението на" name="eli" other="/eli/bg/reshenie/2010/dv-15-10-18"/>
+          <FRBRdate date="2010-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-15-10-18/bul@2010-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-15-10-18/bul@2010-02-23"/>
+          <FRBRdate date="2010-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-15-10-18/bul@2010-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-15-10-18/bul@2010-02-23.xml"/>
+          <FRBRdate date="2010-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-23" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 49 ОТ 4 ФЕВРУАРИ 2010 Г. за приемане на Отчета за изпълнението на</p>
+      <p>(обн., ДВ, бр. 78 от 2009 г.; изм., бр. 99 от 2009 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Националната статистическа програма за 2009 г., приета с Решение № 117 на Минис­ терския съвет от 2009 г., и за дейността на Националния статистически институт през 2009 г. и приемане на Национална статисти­ ческа програма за 2010 г. На основание чл. 15, ал. 1 във връзка с чл. 9, т. 6 от Закона за статистиката МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Приема Отчета за изпълнението на Нацио­ налната статистическа програма за 2009 г., при­ ета с Решение № 117 на Министерския съвет от 2009 г., и за дейността на Националния статис­ тически институт през 2009 г. 2. Приема Национална статистическа про­ грама за 2010 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-109/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-109"/>
+          <FRBRalias value="Решение № 547 от 4 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 547 от 4 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-39-11-109"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="109"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-109/bul@2011-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-109/bul@2011-05-20"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-109/bul@2011-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-109/bul@2011-05-20.xml"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-20" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 547 от 4 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 547 от 4 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл.129, ал. 1 ЗУТ Общинският съвет – с. Гърмен, област Благоевград, реши: Одобрява подробен устройствен план – парце- ларен план на линейната инфраструктура, предста- вляващ обект: „Магистрален оптичен кабел от гр. Гоце Делчев до с. Гърмен“, подобект: „Трасе на те- риторията на община Гърмен, област Благоевград“. Решението може да се обжалва в 14-дневен срок пред Административния съд – Благоевград. Председател: Г. Мисирков 5619 ОБЩИНА С. САТОВЧА, ОБЛАСТ БЛАГОЕВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

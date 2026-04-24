@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-11"/>
+          <FRBRalias value="Решение № 1504 от 15 юни 2011 г. На основание чл. 1, ал. 2, т. 5, чл. 4, ал. 5," name="short"/>
+          <FRBRalias value="Решение № 1504 от 15 юни 2011 г. На основание чл. 1, ал. 2, т. 5, чл. 4, ал. 5," name="eli" other="/eli/bg/reshenie/2011/dv-51-11-11"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-11/bul@2011-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-11/bul@2011-07-05"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-11/bul@2011-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-11/bul@2011-07-05.xml"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1504 от 15 юни 2011 г. На основание чл. 1, ал. 2, т. 5, чл. 4, ал. 5,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1504 от 15 юни 2011 г. На основание чл. 1, ал. 2, т. 5, чл. 4, ал. 5, чл. 22г, ал. 3 ЗПСК във връзка с Решение № 66 от 3.02.2011 г. на Министерския съвет и протоколно решение № 888 от 15.06.2011 г. от заседанието на изпълнителния съвет Агенцията за приватизация и следприватизационен контрол реши: Открива процедура за приватизационна про­ дажба на имот, частна държавна собственост, не­ жилищна новострояща се сграда, намираща се в София, бул. Цариградско шосе 113А, представляваща редакционен корпус в степен на изграждане „груб строеж“, ведно с прилежащия є терен, намиращи се в София, район „Младост“, м. НПЗ Изток – Къро, кв. 12, УПИ V-1327. Изпълнителен директор: Ем. Караниколов 7692 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

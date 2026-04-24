@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-5/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-5"/>
+          <FRBRalias value="Указ № 291 На основание чл. 98, т. 4 от Конституция­" name="short"/>
+          <FRBRalias value="Указ № 291 На основание чл. 98, т. 4 от Конституция­" name="eli" other="/eli/bg/ukaz/2019/dv-100-19-5"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-5/bul@2019-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-5/bul@2019-12-20"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-100-19-5/bul@2019-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-100-19-5/bul@2019-12-20.xml"/>
+          <FRBRdate date="2019-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 291 На основание чл. 98, т. 4 от Конституция­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 291 На основание чл. 98, т. 4 от Конституция­ та на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на международен договор (LOA) BU-B-UCB, „Материали, дос- тавка на оборудване, софтуерни актуализации, услуги и обучение за поддръжка на Комплек- томобилна производствена линия за метал- ни конструкции (Material, Supply Equipment, Software Updates, Services and Training to support the Ultimate Building Machine)“, приет от 44-то Народно събрание на 13 декември 2019 г. Издаден в София на 16 декември 2019 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Данаил Кирилов БРОЙ 100 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 85</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-34-19-34/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-34-19-34"/>
+          <FRBRalias value="Решение № 175 от 17 април 2019 г. относно изменение и допълнение на Правил­" name="short"/>
+          <FRBRalias value="Решение № 175 от 17 април 2019 г. относно изменение и допълнение на Правил­" name="eli" other="/eli/bg/reshenie/2019/dv-34-19-34"/>
+          <FRBRdate date="2019-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-34-19-34/bul@2019-04-23/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-34-19-34/bul@2019-04-23"/>
+          <FRBRdate date="2019-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-34-19-34/bul@2019-04-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-34-19-34/bul@2019-04-23.xml"/>
+          <FRBRdate date="2019-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-04-23" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 175 от 17 април 2019 г. относно изменение и допълнение на Правил­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 13 се правят следните изменения и допълнения: 1. В ал. 5, изречение първо думата „Закона“ се заменя с „изискванията“. 2. В ал. 7, изречение второ думите „изиск­ ванията на Закона“ се заменят с „на изиск­ ванията“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 26 ал. 4 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(4)</num>
+            <content>
+              <p>Председателят или определен от него член обявява резултатите от гласуванията.“</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В чл. 28 се създава нова ал. 3: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_3__al_2">
+            <num>(3)</num>
+            <content>
+              <p>При отмяна на решението за отхвърля- не Централната избирателна комисия приема ново решение с мнозинство повече от поло- вината от членовете є.“ Заключителна разпоредба Параграф единствен.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

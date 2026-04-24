@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-14"/>
+          <FRBRalias value="Решение № 3 от 29 януари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 3 от 29 януари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2015/dv-15-15-14"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-14/bul@2015-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-14/bul@2015-02-24"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-14/bul@2015-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-14/bul@2015-02-24.xml"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-24" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3 от 29 януари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 3 от 29 януари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 134, ал. 1, т. 1, чл. 127, ал. 6, чл. 59, ал. 1 ЗУТ Общинският съвет – гр. Видин, одобря- ва: проект за изменение на общ устройствен план на община Видин по отношение на ПИ 180043, местност Ломско шосе, землище гр. Дунавци, община Видин, собственост на Борянка Иванова Чулина, с който предназначението на имота от „Обработваеми земеделски земи“ се променя в „Предимно производствени дейности“. Председател: Пл. Трифонов 1168 ОБЩИНА ГОРНА ОРЯХОВИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

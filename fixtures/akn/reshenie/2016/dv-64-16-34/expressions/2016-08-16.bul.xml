@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-34/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-34"/>
+          <FRBRalias value="Решение № 190 от 23 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 190 от 23 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2016/dv-64-16-34"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-34/bul@2016-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-34/bul@2016-08-16"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-34/bul@2016-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-34/bul@2016-08-16.xml"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-16" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 190 от 23 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 190 от 23 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, свое Решение № 597 от 28.10.2013 г. и № 844 от 26.11.2014 г. и докладна записка с вх. № ОС-01-1997 от 2.06.2016 г. от кмета на община Банско Общин­ ският съвет – гр. Банско, одобрява „ПУП – ПЗ за имот № 006170 и промяна на предназначението в обхвата на имот № 006171 и части от имоти № 006157, 006169, 006172 и 006210, местност По­ токо, землище на с. Осеново, община Банско, област Благоевград“. Председател: Вл. Колчагов 6336</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

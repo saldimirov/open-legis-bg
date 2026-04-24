@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-23"/>
+          <FRBRalias value="Решение № 1054 от 15 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1054 от 15 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-33-11-23"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-23/bul@2011-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-23/bul@2011-04-26"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-23/bul@2011-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-23/bul@2011-04-26.xml"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1054 от 15 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1054 от 15 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21, ал. 1 и 6 от Закона за общинската соб- ственост и предвид фактическите основания в докладна записка вх. № 457-ДЗ от 1.12.2010 г. от кмета на общината Общинският съвет – Асенов- град, одобрява парцеларен план по смисъла на чл. 110, ал. 1, т. 5 ЗУТ за ПИ 06029.104.2 и 06029.104.3 по кадастралната карта на с. Боянци, община Асеновград. Председател: К. Яков 4701 ОБЩИНА БАЛЧИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

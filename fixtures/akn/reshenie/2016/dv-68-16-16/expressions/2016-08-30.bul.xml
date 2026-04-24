@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-16"/>
+          <FRBRalias value="Решение № 148 от 19 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 148 от 19 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-68-16-16"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-16/bul@2016-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-16/bul@2016-08-30"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-16/bul@2016-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-16/bul@2016-08-30.xml"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-30" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 148 от 19 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 148 от 19 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 109, ал. 3, т. 7 ЗУТ Общинският съвет – гр. Велики Преслав, реши: Одобрява подробен уст ройствен план (ПУП) – парцеларен план на елементите на техническата инфраструктура за изграждане на външно електрозахранване на ПИ 58222.111.229, м. Дервиша, по КК на гр. Велики Преслав, в частта БРОЙ 68 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 59 на трасето, преминаваща през имоти, публична общинска собственост ПИ 58222.111.329 и ПИ 58222.111.143 с предназначение „За селскостопан­ ски, горски, ведомствен път“ до границата на имот ПИ 58222.111.229 с дължина на трасето 186,80 м и обща площ с ограничение в размер 747,20 м2. Председател: А. Асенова 6908 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

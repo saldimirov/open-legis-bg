@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-36/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-36"/>
+          <FRBRalias value="Решение № 241 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 241 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-81-12-36"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-36/bul@2012-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-36/bul@2012-10-23"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-36/bul@2012-10-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-36/bul@2012-10-23.xml"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-23" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 241 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 241 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 3 и 5 ЗУТ Общинският съвет – гр. Павел баня, реши: Одобрява подробен устройствен план – план за застрояване, ел. и ВиК схеми, с цел промяна пред- назначението на земеделска земя в урбанизирана територия с отреждане – жилищно застрояване на ПИ 000109 с площ 2100 кв. м в землището на с. Асен, община Павел баня, и ПУП – парцеларен план на трасе на ел. кабел, започва от стомано- решетъчен стълб към въздушен ел. провод 20 kV „Скобелево“, разположен в поземлен имот ПИ 000016, продължава на юг и достига до ПИ 000109 в главно разпределително табло в землището на с. Асен, община Павел баня. Общата дължина на трасето на кабела за външно ел. захранване е 40,75 л. м, площта на сервитута е 40,16 кв. м. Председател: Н. Кавръкова 9474</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

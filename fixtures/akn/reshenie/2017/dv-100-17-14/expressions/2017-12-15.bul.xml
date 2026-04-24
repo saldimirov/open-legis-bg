@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-100-17-14/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-100-17-14"/>
+          <FRBRalias value="Решение № 334 от 21 ноември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 334 от 21 ноември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2017/dv-100-17-14"/>
+          <FRBRdate date="2017-12-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-100-17-14/bul@2017-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-100-17-14/bul@2017-12-15"/>
+          <FRBRdate date="2017-12-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-100-17-14/bul@2017-12-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-100-17-14/bul@2017-12-15.xml"/>
+          <FRBRdate date="2017-12-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-15" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 334 от 21 ноември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 334 от 21 ноември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 109, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 и 3 ЗУТ Общинският съвет „Марица“ одобрява представения ПУП – парцеларен план за обект „Обслужващ път по следите на полски път с идентификатор 78080.27.73 по плана на с. Цара- БРОЙ 100 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 153 цово, представляващ продължение на общински път № 2, изграден с асфалтобетонова настилка от км 0+000 до км 0+380,00“. Председател: Г. Трендафилова 9337 ОБЩИНА ЧЕРВЕН БРЯГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

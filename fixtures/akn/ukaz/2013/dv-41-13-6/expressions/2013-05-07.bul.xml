@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-41-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-41-13-6"/>
+          <FRBRalias value="Указ № 86 На основание чл. 98, т. 1 от Конституцията на" name="short"/>
+          <FRBRalias value="Указ № 86 На основание чл. 98, т. 1 от Конституцията на" name="eli" other="/eli/bg/ukaz/2013/dv-41-13-6"/>
+          <FRBRdate date="2013-05-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-41-13-6/bul@2013-05-07/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-41-13-6/bul@2013-05-07"/>
+          <FRBRdate date="2013-05-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-41-13-6/bul@2013-05-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-41-13-6/bul@2013-05-07.xml"/>
+          <FRBRdate date="2013-05-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-05-07" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 86 На основание чл. 98, т. 1 от Конституцията на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 86 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279, ал. 1 и 5 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на община Варна, област Варна, на 30 юни 2013 г. Издаден в София на 7 май 2013 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Драгомир Йорданов 3848 БРОЙ 41 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

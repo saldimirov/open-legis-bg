@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-21/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-21"/>
+          <FRBRalias value="Постановление № 345 от 29 декември 2025 г. за изменение на Наредбата за отговорността и за прекратяването на дейността на доставчиците на удостоверителни услуги, приета с Постановление № 176 на Министерския съвет от 2018 г." name="short"/>
+          <FRBRalias value="Постановление № 345 от 29 декември 2025 г. за изменение на Наредбата за отговорността и за прекратяването на дейността на доставчиците на удостоверителни услуги, приета с Постановление № 176 на Министерския съвет от 2018 г." name="eli" other="/eli/bg/postanovlenie/2025/dv-115-25-21"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-21/bul@2025-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-21/bul@2025-12-30"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-21/bul@2025-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-21/bul@2025-12-30.xml"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-12-30" name="Държавен вестник" number="115" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 345 от 29 декември 2025 г. за изменение на Наредбата за отговорността и за прекратяването на дейността на доставчиците на удостоверителни услуги, приета с Постановление № 176 на Министерския съвет от 2018 г.</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 и 3 думите „600 000 лв.“ се заменят с „306 775,13 евро“.</p>
+            <p>Заключителнa разпоредбa</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от датата, определена в Решение (ЕС) 2025/1407 на Съвета от 8 юли 2025 година относно приемането на еврото от България, считано от 1 януари 2026 г. (OВ, L 2025/1407 от 14 юли 2025 г.).</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

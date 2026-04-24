@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-55/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-55"/>
+          <FRBRalias value="Решение № 828 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 828 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-11-11-55"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="55"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-55/bul@2011-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-55/bul@2011-02-04"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-55/bul@2011-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-55/bul@2011-02-04.xml"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-04" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 828 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 828 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 59 и 60 ЗУТ във връзка с реше­ ние на ОЕСУТ Общинският съвет – Свиленград, реши: Одобрява план за застрояване на ПИ № 038120 в землището на Свиленград, м. Червената пръст, заедно с приложените ел. и ВиК схеми към него, като имотът се отрежда за „Фотоволтаична елек­ троцентрала“ и се определя нискоетажно свободно застрояване с ограничителни линии в червен цвят, при устройствени показатели Пзастр. – 80 %, Кинт. – 2, минимална озеленена площ 20 %. Неразделна част от решението са приложеният план за застрояване, ел. и ВиК схеми към него. Председател: Т. Коларова 983</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-19"/>
+          <FRBRalias value="Указ № 424 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279," name="short"/>
+          <FRBRalias value="Указ № 424 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279," name="eli" other="/eli/bg/ukaz/2012/dv-102-12-19"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-19/bul@2012-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-19/bul@2012-12-21"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-19/bul@2012-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-19/bul@2012-12-21.xml"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-21" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 424 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279,</p>
+      <p>(обн., ДВ, бр. 31 от 1999 г.; изм., бр. 52 от 2000 г., бр. 93 от 2003 г. и бр. 34 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 40 ал. 1 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 41 думите „утвърдените доклади“ се заменят с „докладите по чл. 39, ал. 1“, а ду­ мата „ползватели“ се заменя с „ползвателите“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 56 думите „Наредбата за реда за определяне и налагане на санкции при увреждане или при замърсяване на околната среда над допустимите норми“ се заменят с „Наредбата за вида, размера и реда за налагане на санкции при увреждане или при замър­ сяване на околната среда над допустимите норми и/или при неспазване на определените емисионни норми и ограничения (ДВ, бр. 70 от 2011 г.)“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването є в „Държавен вестник“. Министър: Нона Караджова 11437 МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-32/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-32"/>
+          <FRBRalias value="Решение № 342 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 342 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-41-16-32"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-32/bul@2016-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-32/bul@2016-05-31"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-32/bul@2016-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-32/bul@2016-05-31.xml"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-31" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 342 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 342 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и предвид фактическите ос- нования в докладна записка вх. № ДЗ-421 от 26.04.2016 г. от зам.-кмета на общината Общин- ският съвет – Асеновград, реши: Одобрява ПУП – ПП (парцеларен план) за трасета на смесена канализация, обхващаща отделни клонове за рехабилитация за кв. Горни Воден, кв. Долни Воден и кв. Запад, Асеновград, съгласно нанесените плътни линии с кафяв цвят и сервитут, означен с пунктирни линии със син цвят. Решението може да се обжалва на основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ пред Административния съд – Пловдив. Председател: Св. Шуманов 4157 ОБЩИНА ВАРНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-41-14-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-41-14-18"/>
+          <FRBRalias value="Решение № 39 от 27 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 39 от 27 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-41-14-18"/>
+          <FRBRdate date="2014-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-41-14-18/bul@2014-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-41-14-18/bul@2014-05-16"/>
+          <FRBRdate date="2014-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-41-14-18/bul@2014-05-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-41-14-18/bul@2014-05-16.xml"/>
+          <FRBRdate date="2014-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-16" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 39 от 27 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 39 от 27 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 134, ал. 1, т. 1, чл. 127, ал. 6, чл. 59, ал. 1 ЗУТ Общинският съвет – гр. Видин, реши: Одобрява проект за изменение на „Общ ус- тройствен план на гр. Видин“ за промяна пред- назначението на ПИ с идентификатор 10971.82.69 по КККР на гр. Видин, собственост на Спас Любомиров Сираков, с който предназначението на имота от „Перспективни зони за обществено обслужване“ се променя в предназначение за „За общественообслужващи функции“. Председател: П. Трифонов 3144 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-12"/>
+          <FRBRalias value="Протокол между Министерството на отбраната на Република България и Министерството на националната отбрана на Румъния за сътрудничество между военноморските сили" name="short"/>
+          <FRBRalias value="Протокол между Министерството на отбраната на Република България и Министерството на националната отбрана на Румъния за сътрудничество между военноморските сили" name="eli" other="/eli/bg/dogovor/2003/dv-35-03-12"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-12/bul@2003-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-12/bul@2003-04-16"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-35-03-12/bul@2003-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-35-03-12/bul@2003-04-16.xml"/>
+          <FRBRdate date="2003-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-04-16" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Протокол между Министерството на отбраната на Република България и Министерството на националната отбрана на Румъния за сътрудничество между военноморските сили</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <content>
+          <p>1. Този протокол влиза в сила от датата на получаване на последната от нотите, с която договарящите страни взаимно се информират в писмена форма за изпълнението на националните процедури по влизането им в сила.</p>
+          <p>2. Този протокол се сключва за срок от 5 години и се подновява автоматично за нови петгодишни периоди. Този протокол може да бъде денонсиран от всяка от договарящите страни с изтичане на период от 6 месеца от датата на получаване от другата договаряща страна на писменото предизвестие за това нейно намерение.</p>
+          <p>3. Всяка от договарящите страни може да предлага по всяко време изменения в този протокол, като инициира консултации. Договорените изменения влизат в сила по реда на параграф 1 на този член и съставляват неразделна част от този протокол.</p>
+          <p>Подписан в София на 29 октомври 2002 г. в два еднообразни екземпляра, всеки от които на български, румънски и английски език, като всички текстове имат еднаква сила. В случай на противоречия при тълкуването за меродавен се счита английският текст.</p>
+          <p>За Министерството                                 За Министерството на</p>
+          <p>на отбраната на                                       националната отбрана</p>
+          <p>Република България:                                на Румъния:</p>
+          <p>Иво Иванов,                                                     Джордже Кристиан Майор,</p>
+          <p>заместник-                                                 държавен секретар и</p>
+          <p>министър                                                   началник на Департамента</p>
+          <p>на отбраната                                              за евроатлантическа</p>
+          <p>интеграция и</p>
+          <p>политика за отбраната</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

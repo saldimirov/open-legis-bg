@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-6"/>
+          <FRBRalias value="Постановление № 40 ОТ 22 ФЕВРУАРИ 2013 Г. за изменение на Постановление № 59 на" name="short"/>
+          <FRBRalias value="Постановление № 40 ОТ 22 ФЕВРУАРИ 2013 Г. за изменение на Постановление № 59 на" name="eli" other="/eli/bg/postanovlenie/2013/dv-21-13-6"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-6/bul@2013-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-6/bul@2013-03-01"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-6/bul@2013-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-6/bul@2013-03-01.xml"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-01" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 40 ОТ 22 ФЕВРУАРИ 2013 Г. за изменение на Постановление № 59 на</p>
+      <p>(обн., ДВ, бр. 22 от 2011 г.; изм. и доп., бр. 91 и 106 от 2011 г. и бр. 98 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 т. 1 се изменя така: „1. е сключила договор с Държавен фонд „Земеделие“ – Разплащателната агенция, за предоставяне на безвъзмездна финансова по­ мощ при условията и по реда на Наредба № 24 от 2008 г. за условията и реда за предоставяне на безвъзмездна финансова помощ по мярка „Обновяване и развитие на населените места“ от Програмата за развитие на селските райони за периода 2007 – 2013 г. (обн., ДВ, бр. 71 от 2008 г.; изм. и доп., бр. 11, 45, 55 и 78 от 2010 г., бр. 30, 49, 68, 89 и 99 от 2011 г., бр. 28 и 54 от 2012 г. и бр. 2 от 2013 г.), Наредба № 25 от 2008 г. за условията и реда за предоставяне на безвъзмездна финансова помощ по мярка „Ос­ новни услуги за населението и икономиката в селските райони“ от Програмата за развитие на селските райони за периода 2007 – 2013 г. (обн., ДВ, бр. 72 от 2008 г.; изм. и доп., бр. 11, 37, 45, 55 и 78 от 2010 г., бр. 30, 49, 68, 89 и 99 от 2011 г., бр. 28 и 54 от 2012 г. и бр. 2 от 2013 г.), Наредба № 20 от 2008 г. за условията и ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

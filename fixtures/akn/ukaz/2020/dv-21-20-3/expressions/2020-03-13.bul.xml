@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-21-20-3/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-21-20-3"/>
+          <FRBRalias value="Указ № 50 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 50 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2020/dv-21-20-3"/>
+          <FRBRdate date="2020-03-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-21-20-3/bul@2020-03-13/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-21-20-3/bul@2020-03-13"/>
+          <FRBRdate date="2020-03-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-21-20-3/bul@2020-03-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-21-20-3/bul@2020-03-13.xml"/>
+          <FRBRdate date="2020-03-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-03-13" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 50 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 50 На основание чл. 100, ал. 2 от Конститу- цията на Република България във връзка с чл. 19, т. 4, чл. 86, т. 5, предложение първо, чл. 146, т. 1, чл. 162, т. 7 и чл. 170, ал. 1, т. 2 от Закона за отбраната и въоръжените сили на Република България БРОЙ 21 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 11 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

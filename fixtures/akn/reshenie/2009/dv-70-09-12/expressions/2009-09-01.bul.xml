@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-12"/>
+          <FRBRalias value="Решение № 212 от 7 август 2009 г. На основание чл.  129, ал.  1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 212 от 7 август 2009 г. На основание чл.  129, ал.  1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2009/dv-70-09-12"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-12/bul@2009-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-12/bul@2009-09-01"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-12/bul@2009-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-12/bul@2009-09-01.xml"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-01" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 212 от 7 август 2009 г. На основание чл.  129, ал.  1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 212 от 7 август 2009 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – Благоевград, одобрява парцеларен план за външен водопровод до имот с № 050004 в местността „При спирката“ по КВС на с. Покровник, община Благоевград, минаващ през имоти № 000391 – път IV клас за с. Падеш и полски път с № 000507 (община Благоевград), който е изложен в стая 210 на община Благоевград. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез общината до Админи­ стративен съд – Благоевград. Председател: К. Хаджигаев 10490 ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ – БУРГАС</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

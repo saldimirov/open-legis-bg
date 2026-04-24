@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-41-25-6/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-41-25-6"/>
+          <FRBRalias value="Указ № 76 за назначаване на Иво Христов Петков за член на Комисията за защита от дискриминация" name="short"/>
+          <FRBRalias value="Указ № 76 за назначаване на Иво Христов Петков за член на Комисията за защита от дискриминация" name="eli" other="/eli/bg/ukaz/2025/dv-41-25-6"/>
+          <FRBRdate date="2025-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-41-25-6/bul@2025-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-41-25-6/bul@2025-05-20"/>
+          <FRBRdate date="2025-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-41-25-6/bul@2025-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-41-25-6/bul@2025-05-20.xml"/>
+          <FRBRdate date="2025-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-05-20" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 76 за назначаване на Иво Христов Петков за член на Комисията за защита от дискриминация</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Назначавам Иво Христов Петков за член на Комисията за защита от дискриминация. Издаден в София на 16 май 2025 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Георги Георгиев 2820</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-2/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-2"/>
+          <FRBRalias value="Закон за изменение на Закона за мерките срещу" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за мерките срещу" name="eli" other="/eli/bg/zid/2021/dv-7-21-2"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-2/bul@2021-01-26/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-2/bul@2021-01-26"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-7-21-2/bul@2021-01-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-7-21-2/bul@2021-01-26.xml"/>
+          <FRBRdate date="2021-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-26" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за мерките срещу</p>
+      <p>(обн., ДВ, бр. 27 от 2018 г.; изм., бр. 94 от 2018 г., бр. 17, 34, 37, 42 и 94 от 2019 г. и бр. 18 и 69 от 2020 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4 т. 19 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 1а от допълнителните раз- поредби се отменя.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

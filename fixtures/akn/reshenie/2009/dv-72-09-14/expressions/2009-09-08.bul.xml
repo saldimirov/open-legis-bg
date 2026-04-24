@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-14"/>
+          <FRBRalias value="Решение № 1493 от 24 август 2009 г. На основание чл. 4, ал. 1 и чл. 28, ал. 1 и 2 ЗПСК" name="short"/>
+          <FRBRalias value="Решение № 1493 от 24 август 2009 г. На основание чл. 4, ал. 1 и чл. 28, ал. 1 и 2 ЗПСК" name="eli" other="/eli/bg/reshenie/2009/dv-72-09-14"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-14/bul@2009-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-14/bul@2009-09-08"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-14/bul@2009-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-14/bul@2009-09-08.xml"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-08" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1493 от 24 август 2009 г. На основание чл. 4, ал. 1 и чл. 28, ал. 1 и 2 ЗПСК</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1493 от 24 август 2009 г. На основание чл. 4, ал. 1 и чл. 28, ал. 1 и 2 ЗПСК във връзка с протоколно решение № 12715 от 24.VІІІ на изпълнителния съвет Агенцията за приватиза­ ция забранява на „Медико-техническа лаборатория ІІ – Пловдив“ – ЕООД, Пловдив, извършването на разпоредителни сделки с дълготрайни активи на дружеството, сключване на договори за придобиване на дялово участие, за наем, за съвместна дейност, за кредит, за обезпечаване на вземания, както и поемане на менителнични задължения, освен с разрешение на Агенцията за приватизация. Изпълнителен директор: Т. Николов 10716</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

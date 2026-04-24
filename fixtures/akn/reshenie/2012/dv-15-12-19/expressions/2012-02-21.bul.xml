@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-19"/>
+          <FRBRalias value="Решение № 72 от 9 февруари 2012 г." name="short"/>
+          <FRBRalias value="Решение № 72 от 9 февруари 2012 г." name="eli" other="/eli/bg/reshenie/2012/dv-15-12-19"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-19/bul@2012-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-19/bul@2012-02-21"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-19/bul@2012-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-19/bul@2012-02-21.xml"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-21" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 72 от 9 февруари 2012 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 72 от 9 февруари 2012 г. Изработването на проекта е във връзка с пред- стоящото изграждане на жп спирка до метростанция 21 от трасето на I метродиаметър от бул. Андрей Ляпчев до Летищен комплекс София. То е допуснато със заповед № РД-09-50-1285 от 14.10.2011 г. на глав- ния архитект на Столичната община на основание чл. 134, ал. 2, т. 6 и чл. 135, ал. 5 ЗУТ в съответствие с Общия устройствен план на Столичната община. Изработеният проект е обявен по реда на чл. 128, ал. 3 и 5 ЗУТ. При обявяването на плана в зако- ноустановения срок е постъпило едно възражение (писмо изх. № 6602-195</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

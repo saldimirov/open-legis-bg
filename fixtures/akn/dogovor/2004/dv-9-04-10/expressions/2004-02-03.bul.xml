@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-10"/>
+          <FRBRalias value="Договор между Република България и Великата социалистическа народна Либийска арабска джамахирия за взаимно насърчаване и защита на инвестициите" name="short"/>
+          <FRBRalias value="Договор между Република България и Великата социалистическа народна Либийска арабска джамахирия за взаимно насърчаване и защита на инвестициите" name="eli" other="/eli/bg/dogovor/2004/dv-9-04-10"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-10/bul@2004-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-10/bul@2004-02-03"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-9-04-10/bul@2004-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-9-04-10/bul@2004-02-03.xml"/>
+          <FRBRdate date="2004-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-02-03" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор между Република България и Великата социалистическа народна Либийска арабска джамахирия за взаимно насърчаване и защита на инвестициите</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерство на финансите          брой: 9, от дата 3.2.2004 г.   Официален раздел / МИНИСТЕРСТВА И ДРУГИ ВЕДОМСТВА    стр.23</p>
+          <p>Договор между Република България и Великата социалистическа народна Либийска арабска джамахирия за взаимно насърчаване и защита на инвестициите</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

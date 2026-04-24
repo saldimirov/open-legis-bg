@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-23"/>
+          <FRBRalias value="Решение № 38-29 от 23 септември 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 38-29 от 23 септември 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2010/dv-87-10-23"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-23/bul@2010-11-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-23/bul@2010-11-05"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-23/bul@2010-11-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-23/bul@2010-11-05.xml"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-05" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 38-29 от 23 септември 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 38-29 от 23 септември 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 16 ЗУТ и решение на ЕСУТ, взето с протокол № 16 от 11.06.2010 г., Общинският съвет – гр. Бургас, одобрява под­ робен устройствен план – парцеларен план за трасе на кабел 20 kV за външно ел. захранване на „Цех за сапани и текелажни изделия“ в имот 6, масив 65, местност Сулу дере, землище Меден рудник – идентификатор 07079.9.341. Заинтересованите лица могат да обжалват решението в 14-дневен срок от обнародването му в „Държавен вестник“ чрез община Бургас пред Административния съд – Бургас. Председател: Сн. Маджарова 8645 АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ И ПУБЛИЧНО ЧАСТНО ПАРТНЬОРСТВО – БУРГАС</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

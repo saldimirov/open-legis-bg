@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-27-15-12/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-27-15-12"/>
+          <FRBRalias value="Решение № 1605 от 30 март 2015 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и" name="short"/>
+          <FRBRalias value="Решение № 1605 от 30 март 2015 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и" name="eli" other="/eli/bg/reshenie/2015/dv-27-15-12"/>
+          <FRBRdate date="2015-04-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-27-15-12/bul@2015-04-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-27-15-12/bul@2015-04-14"/>
+          <FRBRdate date="2015-04-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-27-15-12/bul@2015-04-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-27-15-12/bul@2015-04-14.xml"/>
+          <FRBRdate date="2015-04-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-14" name="Държавен вестник" number="27" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1605 от 30 март 2015 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1605 от 30 март 2015 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и ал. 8 и чл. 4, ал. 2 от Закона за приватизация и следприватизационен контрол, чл. 20, ал. 6 от Устройствения правилник на Агенцията за приватизация и следприватизационен контрол и протоколно решение № 3471 от 30.03.2015 г. на изпълнителния съвет Агенцията за привати- зация и следприватизационен контрол открива процедура за приватизация на 3 520 600 броя привилегировани поименни акции с право на глас, представляващи 20 % от капитала на „Ака- демика Сий Палас“ – АД, София, собственост на „Академика 2011“ – ЕАД, София. Изпълнителен директор: Е. Караниколов 2402</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-69-10-43/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-69-10-43"/>
+          <FRBRalias value="Решение № 453 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 453 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2010/dv-69-10-43"/>
+          <FRBRdate date="2010-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-69-10-43/bul@2010-09-03/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-69-10-43/bul@2010-09-03"/>
+          <FRBRdate date="2010-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-69-10-43/bul@2010-09-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-69-10-43/bul@2010-09-03.xml"/>
+          <FRBRdate date="2010-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-03" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 453 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 453 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА във връзка с чл. 17, ал. 1, т. 3 ЗАТУРБ Общинският съвет – Крумовград, реши: 1. Създава ново кметство Орех с администра­ тивен център с. Орех, община Крумовград. 2. Възлага на кмета на общината изпълнението на решението. Председател: М. Байрамали 6992 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

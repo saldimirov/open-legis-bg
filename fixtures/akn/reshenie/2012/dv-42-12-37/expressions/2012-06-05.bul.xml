@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-37/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-37"/>
+          <FRBRalias value="Решение № 67 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 67 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-42-12-37"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="37"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-37/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-37/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-37/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-37/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 67 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 67 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ка­ варна, реши: Одобрява проект за ПУП – парцеларен план за линейна инфраструктура, представляваща кабелна линия и транспортен достъп за ветро­ генератор в имот с идентификатор 48828.4.119 (произлязъл от 48828.4.28) и ГРУ в имот 48828.2.26, землище с. Могилище, по следното трасе: ПИ с идентификатори 48828.4.119, 48828.4.112, 48828.3.76, 48828.2.26, землище с. Могилище, община Ка­ варна, област Добрич. На основание чл. 60, ал. 1 АПК във връзка с чл. 22, ал. 2 ЗЕВИ допуска предварително из­ пълнение на решението. Председател: Ив. Кьосев 5020</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

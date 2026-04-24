@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-22/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-22"/>
+          <FRBRalias value="Решение № 158 ОТ 25 ФЕВРУАРИ 2021 Г. за обявяване на 30 октомври за професио­" name="short"/>
+          <FRBRalias value="Решение № 158 ОТ 25 ФЕВРУАРИ 2021 Г. за обявяване на 30 октомври за професио­" name="eli" other="/eli/bg/reshenie/2021/dv-18-21-22"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-22/bul@2021-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-22/bul@2021-03-02"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-18-21-22/bul@2021-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-18-21-22/bul@2021-03-02.xml"/>
+          <FRBRdate date="2021-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-03-02" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 158 ОТ 25 ФЕВРУАРИ 2021 Г. за обявяване на 30 октомври за професио­</p>
+      <p>(обн., ДВ, бр. 70 от 2008 г.; изм., бр. 5 от 2010 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 158 ОТ 25 ФЕВРУАРИ 2021 Г. за обявяване на 30 октомври за професио­ нален празник на брокерите и агентите на недвижими имоти На основание чл. 154, ал. 3 от Кодекса на труда МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 30 октомври за професионален празник на брокерите и агентите на недви- жими имоти.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

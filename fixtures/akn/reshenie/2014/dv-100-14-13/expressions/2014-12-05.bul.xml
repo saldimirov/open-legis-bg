@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-13"/>
+          <FRBRalias value="Решение № 722 от 18 ноември 2014 г. за изменение и допълнение на Функционални" name="short"/>
+          <FRBRalias value="Решение № 722 от 18 ноември 2014 г. за изменение и допълнение на Функционални" name="eli" other="/eli/bg/reshenie/2014/dv-100-14-13"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-13/bul@2014-12-05/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-13/bul@2014-12-05"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-13/bul@2014-12-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-13/bul@2014-12-05.xml"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-05" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 722 от 18 ноември 2014 г. за изменение и допълнение на Функционални</p>
+      <p>(обн., ДВ, бр. 4 от 2009 г.; изм., бр. 26 от 2010 г., бр. 34 от 2011 г. и бр. 74 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 2 се създава нова т. 4 със следното съдържание: „4. 430 – код за достъп до услуги, при които се използва комуникация Машина – Машина (М2М).“ Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В срок до 6 месеца от обнародване на решението в „Държавен вестник“ доставчици- те са задължени да осигурят преносимост на номерата съобразно направените изменения във функционалните спецификации.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В срок до 3 месеца от обнародването на решението в „Държавен вестник“ достав- чиците се задължават да изготвят, подпишат и внесат в комисията изменена процедура по чл. 24, ал. 1 съобразно нововъведените изис- квания във функционалните спецификации.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В срок до две седмици от подписване на процедурата по чл. 24, ал. 1 доставчиците следва да изменят общите си условия за вза­ имоотношения с потребителите в съответствие с направените изменения във функционалните спецификации.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Решението е прието на основание чл. 134, ал. 3 от Закона за електронните съ- общения и влиза в сила от деня на обнарод- ването му в „Държавен вестник“. Председател: Веселин Божков 8369 ВЪРХОВЕН АДМИНИСТРАТИВЕН СЪД</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

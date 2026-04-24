@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-1-17-20/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-1-17-20"/>
+          <FRBRalias value="Решение № 667 от 24 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 667 от 24 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2017/dv-1-17-20"/>
+          <FRBRdate date="2017-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-1-17-20/bul@2017-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-1-17-20/bul@2017-01-03"/>
+          <FRBRdate date="2017-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-1-17-20/bul@2017-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-1-17-20/bul@2017-01-03.xml"/>
+          <FRBRdate date="2017-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 667 от 24 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 667 от 24 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ, протокол № 11 от заседание на ПК по Устройство на територията и еколо- гия Общинският съвет – гр. Самоков, одобрява специализиран подробен устройствен план – пар- коустрояване и благоустрояване на парк „Ридо“, включващ поземлени имоти № 65231.916.384, 65231.916.385, 65231.916.531, 65231.916.379, 65231.916.381, 65231.916.374, 65231.916.373, 65231.916.372, 65231.916.371, 65231.916.370, 65231.916.296, 65231.916.483, 65231.916.357, 65231.916.356, 65231.916.359, 65231.916.484, 65231.916.368, 65231.916.369 и 65231.916.485 по кадастралния план гр. Самоков. Председател: С. Стойчева 10460 ОБЩИНА СЕВЛИЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

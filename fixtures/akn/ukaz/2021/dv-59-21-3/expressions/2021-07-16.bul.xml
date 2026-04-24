@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-59-21-3/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-59-21-3"/>
+          <FRBRalias value="Указ № 170 На основание чл. 100, ал. 2 от Конститу­" name="short"/>
+          <FRBRalias value="Указ № 170 На основание чл. 100, ал. 2 от Конститу­" name="eli" other="/eli/bg/ukaz/2021/dv-59-21-3"/>
+          <FRBRdate date="2021-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-59-21-3/bul@2021-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-59-21-3/bul@2021-07-16"/>
+          <FRBRdate date="2021-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-59-21-3/bul@2021-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-59-21-3/bul@2021-07-16.xml"/>
+          <FRBRdate date="2021-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-07-16" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 170 На основание чл. 100, ал. 2 от Конститу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 170 На основание чл. 100, ал. 2 от Конститу­ цията на Република България, чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ­ жените сили на Република България П О С Т А Н О В Я В А М : Освобождавам бригаден генерал Васил Георгиев Събински от длъжността „директор на дирекция „Комуникационни и информаци­ онни системи“ във Военния секретариат на Европейския съюз в Брюксел, Белгия, считано от 1 август 2021 г. Изпълнението на указа възлагам на ми­ нистъра на отбраната. Издаден в София на 12 юли 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

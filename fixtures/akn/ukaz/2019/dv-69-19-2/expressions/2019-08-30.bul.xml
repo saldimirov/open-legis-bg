@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-2"/>
+          <FRBRalias value="Указ № 211 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 8, ал. 6 от Закона за Националната служба за охрана" name="short"/>
+          <FRBRalias value="Указ № 211 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 8, ал. 6 от Закона за Националната служба за охрана" name="eli" other="/eli/bg/ukaz/2019/dv-69-19-2"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-2/bul@2019-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-2/bul@2019-08-30"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-69-19-2/bul@2019-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-69-19-2/bul@2019-08-30.xml"/>
+          <FRBRdate date="2019-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-08-30" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 211 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 8, ал. 6 от Закона за Националната служба за охрана</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Определям полковник Росен Тинков Тодо­ ров – заместник-началник на Националната служба за охрана, да изпълнява правомощи­ ята на началник на Националната служба за охрана, считано от 30 август 2019 г. Издаден в София на 26 август 2019 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Данаил Кирилов 6740 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

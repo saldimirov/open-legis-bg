@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-16-16-24/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-16-16-24"/>
+          <FRBRalias value="Решение № 16 от 10 февруари 2016 г. На основание чл. 25 ЗБНБ Българската на-" name="short"/>
+          <FRBRalias value="Решение № 16 от 10 февруари 2016 г. На основание чл. 25 ЗБНБ Българската на-" name="eli" other="/eli/bg/reshenie/2016/dv-16-16-24"/>
+          <FRBRdate date="2016-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-16-16-24/bul@2016-02-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-16-16-24/bul@2016-02-26"/>
+          <FRBRdate date="2016-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-16-16-24/bul@2016-02-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-16-16-24/bul@2016-02-26.xml"/>
+          <FRBRdate date="2016-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-26" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 16 от 10 февруари 2016 г. На основание чл. 25 ЗБНБ Българската на-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 16 от 10 февруари 2016 г. На основание чл. 25 ЗБНБ Българската на- родна банка пуска в обращение, считано от 28 март 2016 г., сребърна възпоменателна монета „140 години от Априлското въстание“ със след- ното описание: Технически параметри емисия – 2016 г.; номинална стойност – 10 лева; метал – сребро, проба 925/1000; качество – мат-гланц, висше; тегло – 23.33 г; диаметър – 38.61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи На лицевата страна на монетата: в горната част е изобразен Поибренският кръст с надпис околовръст „БЪЛГАРСКА НАРОДНА БАНКА“; в долната част надписът „10 ЛЕВА“ е разделен с емблемата на БНБ (с годината „1879“ върху лен- тата), а под него е годината на емисията „2016“. На обратната страна на монетата е изобразена Хвърковатата чета на Бенковски върху контурно изписаната година „1876“ с надпис околовръст „140 години от Априлското въстание“. Автори на художествения проект са Елена Тодорова и Тодор Тодоров. Управител: Д. Радев 1256 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

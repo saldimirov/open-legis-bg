@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-2-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-2-16-9"/>
+          <FRBRalias value="Решение № 1637 от 21 декември 2015 г. На основание чл. 22г, ал. 3 ЗПСК и чл. 20, ал." name="short"/>
+          <FRBRalias value="Решение № 1637 от 21 декември 2015 г. На основание чл. 22г, ал. 3 ЗПСК и чл. 20, ал." name="eli" other="/eli/bg/reshenie/2016/dv-2-16-9"/>
+          <FRBRdate date="2016-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-2-16-9/bul@2016-01-08/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-2-16-9/bul@2016-01-08"/>
+          <FRBRdate date="2016-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-2-16-9/bul@2016-01-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-2-16-9/bul@2016-01-08.xml"/>
+          <FRBRdate date="2016-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-01-08" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1637 от 21 декември 2015 г. На основание чл. 22г, ал. 3 ЗПСК и чл. 20, ал.</p>
+      <p>(обн., ДВ, бр. 37 от 2006 г.; изм., бр. 77 от 2007 г., бр. 79 от 2008 г. и бр. 96 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 23, ал. 1 се добавя нова т. 7: „7. да правят предложения за изменение и допълнение на устава на БИС чрез управителния съвет.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 33 се добавя нова ал. 5: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(5)</num>
+            <content>
+              <p>Предложенията за избор на членове на управителния съвет, придружени с професио- нална автобиография, се представят в срок не по-късно от десет дни преди провеждането на общото събрание и се публикуват на интернет страницата на БИС.“</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 34, ал. 2 се добавя нова т. 6: „6. при прекратяване на представителството от страна на съответния член на БИС.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <intro>
+            <p>В чл. 37 се добавя нова ал. 5: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_4__al_2">
+            <num>(5)</num>
+            <content>
+              <p>Правомощията на член на управителния съвет за вземане на решения на заседания могат да се преотстъпват на упълномощено от него лице, когато има изрично писмено упълномощаване от титуляря за гласуване по въпросите от дневния ред на съответното заседание, като се вземат предвид и изискванията на чл. 34, ал. 2, т. 3.“ Председател на управителния съвет: Ив. Буров 8362 СТОЛИЧНА ОБЩИНА</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

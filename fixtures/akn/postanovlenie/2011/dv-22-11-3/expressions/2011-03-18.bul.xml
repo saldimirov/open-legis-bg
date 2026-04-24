@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-3/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-3"/>
+          <FRBRalias value="Постановление № 58 ОТ 11 МАРТ 2011 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 58 ОТ 11 МАРТ 2011 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2011/dv-22-11-3"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-3/bul@2011-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-3/bul@2011-03-18"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-3/bul@2011-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-3/bul@2011-03-18.xml"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-18" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 58 ОТ 11 МАРТ 2011 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 1 от 2009 г.; изм. и доп., бр. 46, 64 и 102 от 2009 г. и бр. 93 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В раздел II от приложението към член единствен се правят следните изменения и допълнения: 1. Точка 4 се отменя. 2. Създава се т. 4а: „4а. Директорът на Главна дирекция „По­ жарна безопасност и защита на населението“. 3. Точки 5 и 5а се отменят. 4. В т. 43 думата „Началникът“ се заменя с „Директорът“. Решението е прието от 41-ото Народно събрание на 9 март 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

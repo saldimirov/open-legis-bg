@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-26/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-26"/>
+          <FRBRalias value="Решение № 710 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 710 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-9-14-26"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-26/bul@2014-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-26/bul@2014-01-31"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-26/bul@2014-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-26/bul@2014-01-31.xml"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 710 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 710 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във връзка с чл. 110, ал. 1, т. 1 и чл. 129, ал. 1 ЗУТ и прието решение № 8 от протокол № 11 от 27.11.2013 г. на ЕСУТ Общинският съвет – с. Аврен, реши: Одобрява подробен устройствен план – план за регулация и застрояване (ПУП – ПРЗ) за УПИ II – за детска площадка, и УПИ III – за спортна площадка, кв. 44 по плана на с. Царевци, община Аврен, във връзка с делба и преотреждане на УПИ I, кв. 44 по плана на селото. Председател: М. Черкезов 438</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

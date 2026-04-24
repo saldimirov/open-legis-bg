@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-28"/>
+          <FRBRalias value="Решение № 874 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 8 и чл. 22, ал. 1" name="short"/>
+          <FRBRalias value="Решение № 874 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 8 и чл. 22, ал. 1" name="eli" other="/eli/bg/reshenie/2011/dv-23-11-28"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-28/bul@2011-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-28/bul@2011-03-22"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-28/bul@2011-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-28/bul@2011-03-22.xml"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-22" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 874 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 8 и чл. 22, ал. 1</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 874 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 8 и чл. 22, ал. 1 ЗМСМА, чл. 1, ал. 2, т. 3, чл. 5, ал. 2, чл. 6, ал. 2, чл. 26, ал. 1 и 2 от Закона за приватизация и следприватизационен контрол Общинският съ­ вет – Разград, реши: Открива процедура за приватизация на об­ щинските нежилищни имоти: 1. Имот № 61710.505.169 – Разград, с площ 11 322 кв.м (до бившето виетнамско общежитие). 2. Имот № 61710.501.46 – Разград, с площ 5870 кв.м (до бензиностанция на „Деспред“). 3. Имот № 61710.506.502 – Гарова пром. зона, с площ 3355 кв.м (срещу база „Петрол“). 4. Имот № 70860.507.631 – с. Стражец, с площ 1540 кв.м (до газостанция на „Петрол“). Председател: Д. Добрев 2918 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-85-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-85-10-13"/>
+          <FRBRalias value="Решение № 1499 от 12 октомври 2010 г. На основание чл. 3, ал. 3, т. 3, буква „а“ и" name="short"/>
+          <FRBRalias value="Решение № 1499 от 12 октомври 2010 г. На основание чл. 3, ал. 3, т. 3, буква „а“ и" name="eli" other="/eli/bg/reshenie/2010/dv-85-10-13"/>
+          <FRBRdate date="2010-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-85-10-13/bul@2010-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-85-10-13/bul@2010-10-29"/>
+          <FRBRdate date="2010-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-85-10-13/bul@2010-10-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-85-10-13/bul@2010-10-29.xml"/>
+          <FRBRdate date="2010-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-29" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1499 от 12 октомври 2010 г. На основание чл. 3, ал. 3, т. 3, буква „а“ и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1499 от 12 октомври 2010 г. На основание чл. 3, ал. 3, т. 3, буква „а“ и чл. 4, ал. 1 ЗПСК и протоколно решение № 349 от 12.10.2010 г. на Изпълнителния съвет Агенцията за приватизация и следприватизационен контрол обявява за приватизация хижа „Чевира“, обособена част от имуществото на „ВМЗ“ – ЕАД, Сопот. Изпълнителен директор: Ем. Караниколов 8420</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

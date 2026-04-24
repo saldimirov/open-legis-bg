@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-17/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-17"/>
+          <FRBRalias value="Решение № 678 от 29 октомври 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 678 от 29 октомври 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21," name="eli" other="/eli/bg/reshenie/2009/dv-98-09-17"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-17/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-17/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-17/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-17/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 678 от 29 октомври 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 6 ЗОС, чл. 110, ал. 1, т. 5, чл. 134, ал. 1, т. 1 и 2 и ал. 2 и чл. 129, ал. 1 ЗУТ и протокол на ОЕСУТ № ЕС-Г-94 от 20.Х.2009 г., т. 6, Столичният общински съвет реши: 1. Приема проект за парцеларен план за резервно електрозахранване на обект „Интегрирана система от съоръжения за третиране на битови отпадъци“, м. Садината в землището на с. Яна, ПИ 123, ЕКАТТЕ 78401, по червените линии, цифри и текст съгласно приложения проект. 2. Приема изменение на плана за регулация (ИПР) на с. Яна, кв. 36, промяна в отреждането на УПИ ІІІ „За парк“ в ІІІ „За парк и инженерна инфраструктура“ по кафявите линии, цифри и текст съгласно приложения проект. 3. С оглед защита на особено важни обществени интереси, свързани с изграждането на обекта, и поради обстоятелството, че забавянето би довело до значителни вреди за Столичната община, на основание чл. 60, ал. 1 АПК допуска предварително изпълнение на решението. 4. Решението може да боде обжалвано чрез район „Кремиковци“ пред Административния съд – гр. София, в 14-дневен срок от обнародването в „Държавен вестник“. 5. Контролът по изпълнение на решението се възлага на Постоянната комисия по устройство на територията, архитектура и жилищна политика на Столичния общински съвет. Председател: А. Иванов 13273 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

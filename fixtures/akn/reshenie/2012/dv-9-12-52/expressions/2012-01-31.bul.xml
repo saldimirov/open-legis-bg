@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-52/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-52"/>
+          <FRBRalias value="Решение № 28 от 22 декември 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 28 от 22 декември 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2012/dv-9-12-52"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="52"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-52/bul@2012-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-52/bul@2012-01-31"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-52/bul@2012-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-52/bul@2012-01-31.xml"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 28 от 22 декември 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 28 от 22 декември 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1, т. 11 ЗМСМА и протокол № 13 от 03.11.2011 г., т. 5 на ОЕСУТ към Община Любимец Общинският съвет – гр. Любимец, одобрява ПУП (ПП) план на елементите на техническата инфраструктура в границите на урбанизираните територии за стро­ еж: Външно електрозахранване на Базова станция на GSM/UMTS № 6335 на GLOBUL, землище с. Оряхово, община Любимец, област Хасково, с ин­ веститор „Космо България Мобайл“ – ЕАД, София. Председател: М. Станкова 356</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

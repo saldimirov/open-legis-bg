@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-56-19-33/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-56-19-33"/>
+          <FRBRalias value="Указ № 160 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 160 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2019/dv-56-19-33"/>
+          <FRBRdate date="2019-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-56-19-33/bul@2019-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-56-19-33/bul@2019-07-16"/>
+          <FRBRdate date="2019-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-56-19-33/bul@2019-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-56-19-33/bul@2019-07-16.xml"/>
+          <FRBRdate date="2019-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-16" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 160 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 8 от 2016 г.; изм. и доп., бр. 5 от 2017 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 7, ал. 4 думите „Наредбата за електронните административни услуги“ се заменят с „Наредбата за общите изисквания към информационните системи, регистрите и електронните административни услуги“. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В Наредбата за административния регистър, приета с Постановление № 14 на Министерския съвет от 2016 г. (обн., ДВ, бр. 8 от 2016 г.; изм. и доп., бр. 5 от 2017 г.), се правят следните изменения: 1. В чл. 25, ал. 1 т. 6 се изменя така: „6. образците на формуляри, които са свързани с предоставянето на администра- тивна услуга, включително създадените с нормативен акт или утвърдени с админи- стративен акт;“. 2. В § 1, т. 1 от допълнителните разпо- редби букви „в“ и „г“ се изменят така: „в) ниво 3: Двустранна комуникация – за- явяване на услуги изцяло по електронен път, включително електронно подаване на данни и документи, електронна обработка на формуляри и електронна идентификация БРОЙ 56 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 27 на потребителите, освен ако със закон се допуска предоставяне на електронна ад- министративна услуга без идентификация; г) ниво 4: Извършване на услуги от ниво 3, за които е осигурена възможност за електронно връчване и електронно пла- щане, ако за получаването на електронна административна услуга се дължат такси.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-31"/>
+          <FRBRalias value="Решение № 7-95 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 7-95 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-100-11-31"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-31/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-31/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-31/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-31/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 7-95 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 7-95 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ- вет – гр. Тервел, одобрява проект за изменение на ПУП – ПРЗ за кв. 14, 16 и 17 по плана на с. Честименско, с което се образуват: един УПИ в кв. 14 с отреждане за „ЖС“ и по един УПИ в кв. 14, 16 и 17 с отреждане за „ПСД“, със следните устройствени показатели: – за УПИ „ЖС“: Н&lt;3/10 м; Пл. застр.&lt;60 %; Кинт.&lt;1,2 %; Озел. пл.&gt;40 %; – за УПИ „ПСД“: Н&lt;12 м; Пл. застр.&lt;80 %; Кинт.&lt;2,0 %; Озел. пл.&gt;20 %. Проектът е изложен за разглеждане в Община Тервел, ул. Св. св. Кирил и Методий 8, стая 110. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването му в „Държавен вестник“ решението подлежи на обжалване чрез Община Тервел до Административния съд – Добрич. Председател: К. Енчев 13294 ОБЩИНА ТОПОЛОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-58/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-58"/>
+          <FRBRalias value="Решение № 30 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 30 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2010/dv-24-10-58"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="58"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-58/bul@2010-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-58/bul@2010-03-26"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-58/bul@2010-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-58/bul@2010-03-26.xml"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-26" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 30 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 30 от 24 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ­ вет – Ивайловград, реши: Одобрява подробен уст ройствен план (ПУП – ПЗ) – план за застрояване на поземлени имоти № 018003, 018009 и 018001 по КВС на с. Славеево, ЕКАТТЕ 66932, община Ивайловград, за площадка за фотоволтаичен (соларен) парк. Председател: Г. Марков 2300</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

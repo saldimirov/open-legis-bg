@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-18/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-18"/>
+          <FRBRalias value="Решение № 185 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 185 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-9-13-18"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-18/bul@2013-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-18/bul@2013-02-01"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-18/bul@2013-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-18/bul@2013-02-01.xml"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-01" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 185 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 185 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ във връзка с чл. 24, ал. 1 ЗОЗЗ Общинският съвет – гр. Борово, реши: 1. Одобрява подробен устройствен план – пар­ целарен план (ПУП – ПП) за изграждане на обект: Сградно водопроводно отклонение ∅ 40 мм за кравеферма до 50 крави в ПИ 408031, местност В село, землишще на с. Обретеник, ЕКАТТЕ 53117, община Борово, област Русе. 2. Възлага на кмета на общината да извърши необходимите правни и фактически действия във връзка с одобряването на ПУП – ПП по т. 1. Председател: В. Панайотов 649 ОБЩИНА БУРГАС</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

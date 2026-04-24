@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-65-19-6/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-65-19-6"/>
+          <FRBRalias value="Решение № 254 от 25 юли 2019 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 254 от 25 юли 2019 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2019/dv-65-19-6"/>
+          <FRBRdate date="2019-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-65-19-6/bul@2019-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-65-19-6/bul@2019-08-16"/>
+          <FRBRdate date="2019-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-65-19-6/bul@2019-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-65-19-6/bul@2019-08-16.xml"/>
+          <FRBRdate date="2019-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-08-16" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 254 от 25 юли 2019 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 254 от 25 юли 2019 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 28.10.2019 г. сребърна възпоменателна монета „Дряновски манастир“ от серията „Български църкви и манастири“ със следното описание: Технически параметри: емисия – 2019 г.; номинална стойност – 10 лв.; метал – сребро, проба 925/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: На лицевата страна на монетата са изобразени следните елементи (от ляво надясно): в полукръг надпис „БЪЛГАРСКА НАРОДНА БАНКА“; годи- ната на емисията „2019“, под нея емблемата на БНБ с годината „1879“ върху лентата, отдолу – номи- налната стойност „10 ЛЕВА“; вдясно – каноничен образ на Св. Архангел Михаил. На обратната страна на монетата е изобразен манастирският комплекс на Дряновската оби- тел. В полукръг отгоре – надпис „ДРЯНОВСКИ МАНАСТИР“. Автор на художествения проект е Михаела Каменова. Управител: Д. Радев 6458 ОБЩИНА КАСПИЧАН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

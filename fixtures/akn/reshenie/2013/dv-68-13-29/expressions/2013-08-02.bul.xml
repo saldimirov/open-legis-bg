@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-68-13-29/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-68-13-29"/>
+          <FRBRalias value="Решение № 223 от 17 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 223 от 17 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2013/dv-68-13-29"/>
+          <FRBRdate date="2013-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-68-13-29/bul@2013-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-68-13-29/bul@2013-08-02"/>
+          <FRBRdate date="2013-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-68-13-29/bul@2013-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-68-13-29/bul@2013-08-02.xml"/>
+          <FRBRdate date="2013-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-02" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 223 от 17 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 223 от 17 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ предвид фактическите обстоятелства в докладна записка от кмета на община Съединение с вх. № 102 от 9.07.2013 г. Общинският съвет – гр. Съединение, одобрява подробен устройствен план – парцеларен план за обект „Път ІV-64248 Съединение – Голям Чардак – Царимир – Калояново“ от км 8+000 до км 11+700 в отсечката с. Г. Чардак – с. Царимир. Председател: А. Вълков 5978 ОБЩИНА ШУМЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

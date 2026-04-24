@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-19-12-52/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-19-12-52"/>
+          <FRBRalias value="Решение № 69 от 14 февруари 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 69 от 14 февруари 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2012/dv-19-12-52"/>
+          <FRBRdate date="2012-03-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="52"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-19-12-52/bul@2012-03-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-19-12-52/bul@2012-03-06"/>
+          <FRBRdate date="2012-03-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-19-12-52/bul@2012-03-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-19-12-52/bul@2012-03-06.xml"/>
+          <FRBRdate date="2012-03-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-06" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 69 от 14 февруари 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 69 от 14 февруари 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Нова Загора, реши: Одобрява проекта за подробен устройствен план – план за застрояване на поземлен имот 000 969 в землището на с. Кортен, община Нова Загора. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 30-дневен срок от обна- родването в „Държавен вестник“ чрез Общинския съвет – гр. Нова Загора, пред Административния съд – Сливен. Председател: М. Иванова-Николова 2348</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

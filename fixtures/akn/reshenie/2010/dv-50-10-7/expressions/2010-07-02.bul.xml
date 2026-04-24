@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-7"/>
+          <FRBRalias value="Решение за приемане на Доклад на Министерството на" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад на Министерството на" name="eli" other="/eli/bg/reshenie/2010/dv-50-10-7"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-7/bul@2010-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-7/bul@2010-07-02"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-50-10-7/bul@2010-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-50-10-7/bul@2010-07-02.xml"/>
+          <FRBRdate date="2010-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-02" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад на Министерството на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>регионалното развитие и благоустройството, Агенция „Пътна инфраструктура“ относно мерки за приключване на Проекта „Строител­ ство на Автомагистрала „Люлин“ – Софийски околовръстен път – пътен възел „Даскалово“ в срока на финансовия меморандум Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Подкрепя предложените мерки в Доклада на Министерството на регионалното развитие и благоустройството, Агенция „Пътна инфраструк- тура“ относно приключване на Проекта „Строи­ телство на Автомагистрала „Люлин“ – Софийски околовръстен път – пътен възел „Даскалово“ в срока на финансовия меморандум. Решението е прието от 41-ото Народно съб­рание на 23 юни 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

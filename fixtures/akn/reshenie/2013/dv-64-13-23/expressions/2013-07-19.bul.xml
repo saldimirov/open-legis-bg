@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-23/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-23"/>
+          <FRBRalias value="Решение № 319 от 18 юни 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 319 от 18 юни 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-64-13-23"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-23/bul@2013-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-23/bul@2013-07-19"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-23/bul@2013-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-23/bul@2013-07-19.xml"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-19" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 319 от 18 юни 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 319 от 18 юни 2013 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, Решение № 200 по протокол № 18 от 23.10.2012 г. на Общинския съвет – гр. Ве­ лики Преслав, и Решение № КЗЗ-06 от 15.04.2013 г. Общинският съвет – гр. Велики Преслав, реши: Одобрява изработения и съгласуван ПУП – ПЗ (план за застрояване) и ПУП – ПП (парцеларен план) за изграждане на обект „Овчарник за 200 броя овце и агнета“ в част от имот – ПИ 002011 по КВС на с. Троица, община Велики Преслав, местност Над мералък, собственост на Сунай Илиязов Салиев. Председател: В. Върбев 5507 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

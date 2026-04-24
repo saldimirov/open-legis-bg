@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-25-17-12/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-25-17-12"/>
+          <FRBRalias value="Решение № 17-3 от 28 февруари 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 17-3 от 28 февруари 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2017/dv-25-17-12"/>
+          <FRBRdate date="2017-03-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-25-17-12/bul@2017-03-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-25-17-12/bul@2017-03-24"/>
+          <FRBRdate date="2017-03-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-25-17-12/bul@2017-03-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-25-17-12/bul@2017-03-24.xml"/>
+          <FRBRdate date="2017-03-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-03-24" name="Държавен вестник" number="25" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 17-3 от 28 февруари 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 17-3 от 28 февруари 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 и чл. 131, ал. 1 ЗУТ Общинският съвет – гр. Добрич, реши: 1. Одобрява проект на подробен устройствен план – парцеларен план (ПУП – ПП) за поземлен имот (ПИ) 72624.904.440 (местен път – общинска собственост) и ПИ 72624.440.440 (за друг вид озе- ленени площи – общинска собственост) към обект: водопровод до съществуващ пожарен хидрант в ПИ 72624.440.440 в землището на гр. Добрич. 2. Възлага на кмета на община гр. Добрич да извърши последващите съгласно закона действия. Председател: И. Пенчев 2014 ОБЩИНА ЕЛХОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

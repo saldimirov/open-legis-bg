@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-76-16-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-76-16-20"/>
+          <FRBRalias value="Решение № 103 от 15 септември 2016 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 103 от 15 септември 2016 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2016/dv-76-16-20"/>
+          <FRBRdate date="2016-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-76-16-20/bul@2016-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-76-16-20/bul@2016-09-30"/>
+          <FRBRdate date="2016-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-76-16-20/bul@2016-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-76-16-20/bul@2016-09-30.xml"/>
+          <FRBRdate date="2016-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-09-30" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 103 от 15 септември 2016 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 103 от 15 септември 2016 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 14 ноем­ ври 2016 г., сребърна възпоменателна монета с нанесено частично позлатяване „Св. Климент Охридски“ със следното описание: БРОЙ 76 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 139 Технически параметри: емисия – 2016 г.; номинална стойност – 10 лева; метал – сребро, проба 925/1000, с нанесено частично позлатяване; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: На лицевата страна на монетата в горната част в позлатен участък има стилизирано изображение на църква, под нея годината на емисията „2016“ и номиналната стойност „10 ЛЕВА“, околовръст надпис „БЪЛГАРСКА НАРОДНА БАНКА“, а отдолу емблемата на Българската народна банка с годината „1879“ върху лентата. На обратната страна на монетата има кано­ нично изображение на Св. Климент Охридски и надпис „СВ. КЛИМЕНТ ОХРИДСКИ“. Автори на художествения проект са Елена Тодорова и Тодор Тодоров. Управител: Д. Радев 7707 ОБЩИНА АСЕНОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

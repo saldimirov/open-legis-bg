@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-70-19-6/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-70-19-6"/>
+          <FRBRalias value="Решение № 895 от 26 август 2019 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от" name="short"/>
+          <FRBRalias value="Решение № 895 от 26 август 2019 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от" name="eli" other="/eli/bg/reshenie/2019/dv-70-19-6"/>
+          <FRBRdate date="2019-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-70-19-6/bul@2019-09-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-70-19-6/bul@2019-09-03"/>
+          <FRBRdate date="2019-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-70-19-6/bul@2019-09-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-70-19-6/bul@2019-09-03.xml"/>
+          <FRBRdate date="2019-09-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-09-03" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 895 от 26 август 2019 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 895 от 26 август 2019 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от ЗПСК Надзорният съвет на Столичната общинска агенция за приватизация и инвестиции отменя свое Решение № 877 от 22.07.2019 г. (ДВ, бр. 62 от 2019 г.) за насрочване на публичен търг с явно наддаване за продажбата на следния обект: поземлен имот с идентификатор 68134.1385.2342 (УПИ V-1527, за „ОО“), кв. 62, София, ж.к. На­ дежда – 3 ч., ул. Явор № 3, общински нежилищен имот, стопанисван от район „Надежда“. Председател на Надзорния съвет: Н. Стойнев 6813 ОБЩИНА ЦАРЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-16"/>
+          <FRBRalias value="Инструкция за допълнение на Инструкция № 11 от 2001 г. за кадровата работа в Министерството на отбраната" name="short"/>
+          <FRBRalias value="Инструкция за допълнение на Инструкция № 11 от 2001 г. за кадровата работа в Министерството на отбраната" name="eli" other="/eli/bg/instruktsiya/2005/dv-69-05-16"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-16/bul@2005-08-23/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-16/bul@2005-08-23"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-69-05-16/bul@2005-08-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-69-05-16/bul@2005-08-23.xml"/>
+          <FRBRdate date="2005-08-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-08-23" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за допълнение на Инструкция № 11 от 2001 г. за кадровата работа в Министерството на отбраната</p>
+      <p>(обн., ДВ, бр. 71 от 2001 г.; изм., бр. 49 от 2003 г., бр. 44 от 2005 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 8 след думите “Командирите на бригади (военноморска база, авиобаза тип “А”)” се добавя “и началниците на висшите военни училища”.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+      <hcontainer eId="sec_final_2" name="final-provisions">
+        <num>Заключителна разпоредба</num>
+        <hcontainer eId="sec_final_2__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Инструкцията влиза в сила от деня на обнародването й в “Държавен вестник”.</p>
+            <p>Министър:  Н. Свинаров</p>
+            <p>56607</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

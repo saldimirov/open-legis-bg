@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-77-12-33/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-77-12-33"/>
+          <FRBRalias value="Решение № 183 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка" name="short"/>
+          <FRBRalias value="Решение № 183 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка" name="eli" other="/eli/bg/reshenie/2012/dv-77-12-33"/>
+          <FRBRdate date="2012-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-77-12-33/bul@2012-10-09/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-77-12-33/bul@2012-10-09"/>
+          <FRBRdate date="2012-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-77-12-33/bul@2012-10-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-77-12-33/bul@2012-10-09.xml"/>
+          <FRBRdate date="2012-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-09" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 183 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 183 от 27 септември 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ и след ста­ налите разисквания Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеланен план за захран­ ващи водопровод и електропровод в землищата на с. Драгор и гр. Пазарджик, преминаващи СТР. 64 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 77 през полски пътища, републикански път ІІІ-803, изоставени орна земя и напоителен канал до ПИ 55155.8.168 по КККР на землище Пазарджик, съгласно изчертаните със зелено и червено трасета и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 9013 ОБЩИНА ПЕЩЕРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

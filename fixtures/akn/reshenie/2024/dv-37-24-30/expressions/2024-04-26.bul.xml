@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-37-24-30/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-37-24-30"/>
+          <FRBRalias value="Решение № 10225 от 26 октомври 2023 г. по административно дело № 11134 от 2022 г." name="short"/>
+          <FRBRalias value="Решение № 10225 от 26 октомври 2023 г. по административно дело № 11134 от 2022 г." name="eli" other="/eli/bg/reshenie/2024/dv-37-24-30"/>
+          <FRBRdate date="2024-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-37-24-30/bul@2024-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-37-24-30/bul@2024-04-26"/>
+          <FRBRdate date="2024-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-37-24-30/bul@2024-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-37-24-30/bul@2024-04-26.xml"/>
+          <FRBRdate date="2024-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-04-26" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 10225 от 26 октомври 2023 г. по административно дело № 11134 от 2022 г.</p>
+    </preface>
+    <body>
+    </body>
+  </act>
+</akomaNtoso>

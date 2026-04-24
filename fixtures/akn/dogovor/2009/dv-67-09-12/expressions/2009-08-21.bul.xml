@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-67-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-67-09-12"/>
+          <FRBRalias value="Договор" name="short"/>
+          <FRBRalias value="Договор" name="eli" other="/eli/bg/dogovor/2009/dv-67-09-12"/>
+          <FRBRdate date="2009-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-67-09-12/bul@2009-08-21/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-67-09-12/bul@2009-08-21"/>
+          <FRBRdate date="2009-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-67-09-12/bul@2009-08-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-67-09-12/bul@2009-08-21.xml"/>
+          <FRBRdate date="2009-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-21" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор</p>
+      <p>(обн., ДВ, бр. 96 от 2003 г.; изм., бр. 20 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание на Договора за присъединяване на Република България към Европейския съюз и чл. 55 във връзка с чл. 25, ал. 1 от Решение № 575/2007/ ЕО на Европейския парламент и на Съвета за създаване на Европейски фонд за връща­ не за периода от 2008 до 2013 г. като част от Общата програма „Солидарност и управление на миграционните потоци“ във връзка с чл. 40 от Решение на Комисията от 5 март 2008 г. за определяне на правилата за изпълнение на Решение № 575/2007/ЕО относно системите за управление и контрол на държавите членки, правилата за административно и финансово управление и допустимостта на разходите по проекти, съфинансирани от фонда, и чл. 28, ал. 1 от Закона за устройство на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнителна агенция „Одит на сред­ ствата от Европейския съюз“ към министъра на финансите е органът, който изготвя обобщен годишен доклад за одитите и разходите за Ев­ ропейския фонд за връщане, Фонда за външ­ ни граници, Европейския фонд за бежанци и Европейския фонд за интеграция на граждани на трети страни и го изпраща на Европейската комисия.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Министърът на вътрешните работи утвърждава процедурните наръчници за Ев­ ропейския фонд за връщане на отговорния орган и на сертифициращия орган, а изпъл­ нителният директор на Изпълнителна агенция „Одит на средствата от ЕС“ утвърждава про­ цедурния наръчник на одитния орган в срок един месец считано от влизането в сила на постановлението. Процедурните наръчници включват процедурните правила за работа на отговорния орган, сертифициращия орган и одитния орган.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на вътрешните работи и на изпълнителния директор на Изпълнителна агенция „Одит на средствата от ЕС“ към ми­ нистъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

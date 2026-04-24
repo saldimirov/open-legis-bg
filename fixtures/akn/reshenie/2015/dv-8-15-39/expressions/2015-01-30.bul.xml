@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-8-15-39/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-8-15-39"/>
+          <FRBRalias value="Решение № 93 от 30 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 93 от 30 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-8-15-39"/>
+          <FRBRdate date="2015-01-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-8-15-39/bul@2015-01-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-8-15-39/bul@2015-01-30"/>
+          <FRBRdate date="2015-01-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-8-15-39/bul@2015-01-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-8-15-39/bul@2015-01-30.xml"/>
+          <FRBRdate date="2015-01-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-30" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 93 от 30 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 93 от 30 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 и чл. 134, ал. 1, т. 1 ЗУТ Общинският съвет – с. Никола Козлево, реши: Одобрява проект за подробен устройствен план – парцеларен план за В и К захранване на „Център за рекреация и рехабилитация“ в ПИ 000079 с трасе през имоти 000107, 109030-109/б и 000080 по КВС на с. Никола Козлево, община Никола Козлево. На основание чл. 215 ЗУТ решението може да бъде обжалвано пред Административния съд – Шумен, в 30-дневен срок от обнародването в „Държавен вестник“. Председател: Ф. Алиев 448</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

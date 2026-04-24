@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-100-16-5/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-100-16-5"/>
+          <FRBRalias value="Указ № 393 На основание чл. 99, ал. 3 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 393 На основание чл. 99, ал. 3 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2016/dv-100-16-5"/>
+          <FRBRdate date="2016-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-100-16-5/bul@2016-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-100-16-5/bul@2016-12-16"/>
+          <FRBRdate date="2016-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-100-16-5/bul@2016-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-100-16-5/bul@2016-12-16.xml"/>
+          <FRBRdate date="2016-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-16" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 393 На основание чл. 99, ал. 3 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Със сумата по чл. 1, т. 1 да се увеличат разходите по „Политика в областта на социалната закрила и равните възмож- ности“, бюджетна програма „Предоставяне на социални помощи при прилагане на ди- ференциран подход“, по бюджета на Минис- терството на труда и социалната политика за 2016 г.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Увеличава показателите по чл. 14, ал. 3 от Закона за държавния бюджет на Република България за 2016 г., както следва: 1. максималния размер на ангажиментите за разходи, които могат да бъдат поети през 2016 г., със сума в размер 5 000 000 лв.; 2. максималния размер на новите за- дължения за разходи, които могат да бъдат натрупани през 2016 г., със сума в размер 5 000 000 лв.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на труда и социалната политика да извърши съответните промени по бюджета на Министерството на труда и социалната политика за 2016 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на финансите да из- върши произтичащите от чл. 1 промени по централния бюджет за 2016 г., включително на бюджетните взаимоотношения на Общи- на Хитрино с централния бюджет за 2016 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 51, ал. 2 и чл. 109, ал. 3 от Закона за публичните финанси и чл. 90, ал. 2 от Закона за държавния бюджет на Република България за 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на труда и социалната политика и на кмета на община Хитрино.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 12 декември 2016 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

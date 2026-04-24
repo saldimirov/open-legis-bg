@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-10"/>
+          <FRBRalias value="Постановление № 359 ОТ 22 ДЕКЕМВРИ 2011 Г. за предоставяне на допълнителни бюджетни" name="short"/>
+          <FRBRalias value="Постановление № 359 ОТ 22 ДЕКЕМВРИ 2011 Г. за предоставяне на допълнителни бюджетни" name="eli" other="/eli/bg/postanovlenie/2011/dv-104-11-10"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-10/bul@2011-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-10/bul@2011-12-27"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-10/bul@2011-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-10/bul@2011-12-27.xml"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-27" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 359 ОТ 22 ДЕКЕМВРИ 2011 Г. за предоставяне на допълнителни бюджетни</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Одобрява допълнителни бюджет­ ни кредити по бюджета на Министерството на регионалното развитие и благоустройство­ то за 2011 г. в размер 349 560 лв. – левовата равностойност на 178 727 евро.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 са предназначени за възстановяване на разходи по сключени договори за предоставяне на услуги от Ев­ ропейската инвестиционна банка във връзка с оказване на техническа помощ за създава­ нето на структура към Министерството на регионалното развитие и благоустройство­ то – Национална компания „Стратегически инфраструктурни проекти“, и за изпълнение на проект Автомагистрала „Струма“.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1, ал. 1 да се осигурят чрез преструктуриране на разходите по централния бюджет за 2011 г. по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет. СТР. 8 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 104</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по предло­ жение на министъра на регионалното развитие и благоустройството да извърши налагащите се от чл. 1 промени. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на регионалното развитие и бла­ гоустройството.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 21 декември 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

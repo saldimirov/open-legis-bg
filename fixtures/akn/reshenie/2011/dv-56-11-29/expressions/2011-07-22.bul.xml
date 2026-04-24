@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-29"/>
+          <FRBRalias value="Решение № 13 от 9 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 13 от 9 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-56-11-29"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-29/bul@2011-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-29/bul@2011-07-22"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-29/bul@2011-07-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-29/bul@2011-07-22.xml"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-22" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13 от 9 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13 от 9 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1, чл. 59, ал. 1, чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Камено, одобря­ ва ПУП – парцеларен план на обект: „Кабел 20 kV от съществуващ ЖБ стълб 168 на електропровод ВЛ 20 kV „Пролет“ до нов БКТП в ПИ 015045, местност Алтъ юг, в землището на с. Трояново, община Камено. Председател: Т. Добрева 8182</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

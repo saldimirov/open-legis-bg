@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-7/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-7"/>
+          <FRBRalias value="Решение № 419 от 28 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 419 от 28 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-69-13-7"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-7/bul@2013-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-7/bul@2013-08-06"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-69-13-7/bul@2013-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-69-13-7/bul@2013-08-06.xml"/>
+          <FRBRdate date="2013-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-06" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 419 от 28 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 419 от 28 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и протокол № 9 от 2012 г. на ОЕСУТ, т. 14, Общин­ ският съвет – гр. Костинброд, одобрява проект за ПУП – ПП (подробен устройствен план) – за външно ел. захранване с кабелна линия 20 kV и трафопост за ПСОВ, преминаващо през имоти 000079, 000080, 000083, 000089 – полски пътища, в землището на гр. Костинброд. Председател: В. Михайлов 6024</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

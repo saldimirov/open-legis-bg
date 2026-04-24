@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-58-15-10/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-58-15-10"/>
+          <FRBRalias value="Решение за произвеждане на национален референдум" name="short"/>
+          <FRBRalias value="Решение за произвеждане на национален референдум" name="eli" other="/eli/bg/reshenie/2015/dv-58-15-10"/>
+          <FRBRdate date="2015-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-58-15-10/bul@2015-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-58-15-10/bul@2015-07-31"/>
+          <FRBRdate date="2015-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-58-15-10/bul@2015-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-58-15-10/bul@2015-07-31.xml"/>
+          <FRBRdate date="2015-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-07-31" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за произвеждане на национален референдум</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 във връзка с чл. 84, т. 5 от Конституцията на Република България и чл. 10, ал. 1, т. 2 и чл. 13, ал. 8 от Закона за пряко участие на гражданите в държавната власт и местното самоуправление Р Е Ш И : Да се произведе национален референдум със следния въпрос: „Подкрепяте ли да може да се гласува и дистанционно по електронен път при про­ извеждане на изборите и референдумите?“. Решението е прието от 43-то Народно събрание на 28 юли 2015 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

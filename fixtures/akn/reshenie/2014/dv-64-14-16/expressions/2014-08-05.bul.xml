@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-64-14-16/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-64-14-16"/>
+          <FRBRalias value="Решение № 712 от 27 юни 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 712 от 27 юни 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-64-14-16"/>
+          <FRBRdate date="2014-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-64-14-16/bul@2014-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-64-14-16/bul@2014-08-05"/>
+          <FRBRdate date="2014-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-64-14-16/bul@2014-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-64-14-16/bul@2014-08-05.xml"/>
+          <FRBRdate date="2014-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-08-05" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 712 от 27 юни 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 712 от 27 юни 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Смолян, след като се запозна с докладната записка на кмета на община Смолян, реши: Одобрява подробен устройствен план – парце­ ларен план за обект: „Пътна връзка с път ІІ – 86 „Асеновград – Смолян“ при км 86+110 вдясно по растящия километраж за обект: „Почивна база в УПИ-29 в землището на с. Соколовци, община Смолян“, с трасе, преминаващо през част от поземлен имот с № 5172 в землището на с. Соколовци, община Смолян. Председател: Ф. Топов 5217 ОБЩИНА СРЕДЕЦ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,6 +1,7 @@
 """Server-rendered HTML UI routes."""
 from __future__ import annotations
 
+import json
 import math
 from pathlib import Path
 from typing import Any
@@ -22,17 +23,39 @@ router = APIRouter(include_in_schema=False)
 _TEMPLATES_DIR = Path(__file__).parent / "templates"
 templates = Jinja2Templates(directory=str(_TEMPLATES_DIR))
 
+_DV_BASE = "https://dv.parliament.bg/DVWeb"
+
+# idObj lookup for linking to original DV source — loaded once at startup
+def _load_dv_id_index() -> dict[tuple[int, int], int]:
+    for candidate in [Path(".dv-index.json"), Path(__file__).parents[4] / ".dv-index.json"]:
+        if candidate.exists():
+            try:
+                entries = json.loads(candidate.read_text())
+                return {(e["year"], e["broy"]): e["idObj"] for e in entries}
+            except Exception:
+                pass
+    return {}
+
+_DV_ID_BY_ISSUE: dict[tuple[int, int], int] = _load_dv_id_index()
+
 TYPE_LABELS: dict[str, str] = {
-    "zakon": "Закон",
-    "zid": "Изменение / Отмяна",
-    "byudjet": "Бюджетен закон",
-    "kodeks": "Кодекс",
-    "naredba": "Наредба",
+    "zakon":         "Закон",
+    "zid":           "Изменение / Отмяна",
+    "byudjet":       "Бюджетен закон",
+    "kodeks":        "Кодекс",
+    "naredba":       "Наредба",
     "postanovlenie": "Постановление",
-    "pravilnik": "Правилник",
-    "reshenie_ns": "Решение на НС",
+    "pravilnik":     "Правилник",
+    "reshenie":      "Решение",
     "ratifikatsiya": "Ратификация",
-    "ukaz": "Указ",
+    "ukaz":          "Указ",
+    "instruktsiya":  "Инструкция",
+    "tarifa":        "Тарифа",
+    "zapoved":       "Заповед",
+    "deklaratsiya":  "Декларация",
+    "opredelenie":   "Определение",
+    "dogovor":       "Договор",
+    "saobshtenie":   "Съобщение",
     "konstitutsiya": "Конституция",
 }
 
@@ -47,39 +70,60 @@ TYPE_FILTER_ORDER: list[tuple[str, str]] = [
     ("ratifikatsiya", "Ратификации"),
     ("postanovlenie", "Постановления"),
     ("pravilnik", "Правилници"),
-    ("reshenie_ns", "Решения на НС"),
+    ("reshenie", "Решения"),
+    ("ukaz", "Укази"),
+    ("instruktsiya", "Инструкции"),
+    ("tarifa", "Тарифи"),
+    ("zapoved", "Заповеди"),
+    ("deklaratsiya", "Декларации"),
+    ("opredelenie", "Определения"),
+    ("dogovor", "Договори"),
+    ("saobshtenie", "Съобщения"),
     ("konstitutsiya", "Конституция"),
 ]
 
 _CATEGORY_DESCS: dict[str, str] = {
-    "zakon": "Основните нормативни актове на Народното събрание",
-    "zid": "Закони за изменение, допълнение или отмяна на съществуващи актове",
-    "byudjet": "Годишни закони за държавния бюджет",
-    "kodeks": "Систематизирани сборници от правни норми",
-    "naredba": "Подзаконови нормативни актове на изпълнителната власт",
+    "zakon":         "Основните нормативни актове на Народното събрание",
+    "zid":           "Закони за изменение, допълнение или отмяна на съществуващи актове",
+    "byudjet":       "Годишни закони за държавния бюджет",
+    "kodeks":        "Систематизирани сборници от правни норми",
+    "naredba":       "Подзаконови нормативни актове на изпълнителната власт",
     "ratifikatsiya": "Закони за ратифициране на международни договори",
     "postanovlenie": "Постановления на Министерски съвет",
-    "pravilnik": "Правилници за прилагане на закони",
-    "reshenie_ns": "Решения на Народното събрание",
-    "konstitutsiya": "Основният закон на Република България",
+    "pravilnik":     "Правилници за прилагане на закони",
+    "reshenie":      "Решения на НС, МС, КС, ВАС и регулаторни органи",
+    "ukaz":          "Укази на президента",
+    "instruktsiya":  "Инструкции на министерства и ведомства",
+    "tarifa":        "Тарифи за държавни такси",
+    "zapoved":       "Заповеди на министри и ръководители",
+    "deklaratsiya":  "Декларации на НС и МС",
+    "opredelenie":   "Определения на съдилища",
+    "dogovor":       "Международни договори",
+    "saobshtenie":   "Официални съобщения",
+    "konstitutsiya": "Конституцията на Република България и международни основни актове",
 }
 
 # Order for category cards on the landing page
 _CATEGORY_ORDER = [
     "zakon", "zid", "kodeks", "naredba", "byudjet",
-    "ratifikatsiya", "postanovlenie", "pravilnik", "reshenie_ns", "konstitutsiya",
+    "ratifikatsiya", "postanovlenie", "pravilnik",
+    "reshenie", "ukaz", "instruktsiya", "tarifa",
+    "zapoved", "deklaratsiya", "opredelenie", "dogovor",
+    "saobshtenie", "konstitutsiya",
 ]
 
 PAGE_SIZE = 20
 
 
 def _fix_title(title: str) -> str:
-    """Sentence-case titles that are all-caps (e.g. scraped from justice.gov.bg)."""
     if not title:
         return title
     alpha = [c for c in title if c.isalpha()]
-    if alpha and all(c == c.upper() for c in alpha):
-        return title[0] + title[1:].lower()
+    if not alpha:
+        return title
+    upper_ratio = sum(1 for c in alpha if c == c.upper()) / len(alpha)
+    if upper_ratio > 0.6:
+        return title[0].upper() + title[1:].lower()
     return title
 
 
@@ -90,33 +134,53 @@ def _ctx(**kwargs: Any) -> dict[str, Any]:
     return {"type_labels": TYPE_LABELS, **kwargs}
 
 
+ISSUER_LABELS: dict[str, str] = {
+    "ns":           "Народно събрание",
+    "ms":           "Министерски съвет",
+    "president":    "Президент",
+    "ministry":     "Министерство",
+    "commission":   "Регулаторна комисия",
+    "agency":       "Агенция",
+    "court":        "Съд",
+    "ks":           "Конституционен съд",
+    "vas":          "ВАС",
+    "vss":          "ВСС",
+    "bnb":          "БНБ",
+    "municipality": "Община",
+    "other":        "Друго",
+}
+
+
 @router.get("/", response_class=HTMLResponse)
 def index(
     request: Request,
     type: str | None = None,
+    issuer: str | None = None,
     q: str | None = None,
     page: int = Query(1, ge=1),
     s: Session = Depends(get_session),
 ) -> HTMLResponse:
-    if not type and not q:
+    if not type and not q and not issuer:
         return _landing_page(request, s)
-    return _index_page(request, s, type=type, q=q, page=page)
+    return _index_page(request, s, type=type, issuer=issuer, q=q, page=page)
 
 
 def _landing_page(request: Request, s: Session) -> HTMLResponse:
     total = s.scalar(select(func.count(m.Work.id))) or 0
 
-    # Featured: kodeks + konstitutsiya, oldest first (classic codes)
-    featured_works = s.scalars(
+    # Featured: the real Bulgarian constitution first, then major kodeks (oldest)
+    _BKR_URI = "/eli/bg/konstitutsiya/1991/krb"
+    bkr = s.scalar(select(m.Work).where(m.Work.eli_uri == _BKR_URI))
+    kodeks_works = s.scalars(
         select(m.Work)
-        .where(m.Work.act_type.in_([m.ActType.KODEKS, m.ActType.KONSTITUTSIYA]))
+        .where(m.Work.act_type == m.ActType.KODEKS)
         .order_by(m.Work.dv_year.asc(), m.Work.dv_broy.asc())
-        .limit(8)
+        .limit(7)
     ).all()
-    featured = [
-        {"uri": w.eli_uri, "type": w.act_type.value, "title": w.title}
-        for w in featured_works
-    ]
+    featured = []
+    if bkr:
+        featured.append({"uri": bkr.eli_uri, "type": bkr.act_type.value, "title": bkr.title})
+    featured += [{"uri": w.eli_uri, "type": w.act_type.value, "title": w.title} for w in kodeks_works]
 
     # Category cards with counts
     counts_rows = s.execute(
@@ -161,6 +225,7 @@ def _index_page(
     request: Request,
     s: Session,
     type: str | None,
+    issuer: str | None,
     q: str | None,
     page: int,
 ) -> HTMLResponse:
@@ -168,6 +233,11 @@ def _index_page(
     if type:
         try:
             db_q = db_q.where(m.Work.act_type == m.ActType(type.lower()))
+        except ValueError:
+            pass
+    if issuer:
+        try:
+            db_q = db_q.where(m.Work.issuer == m.Issuer(issuer.lower()))
         except ValueError:
             pass
     if q:
@@ -182,10 +252,20 @@ def _index_page(
             "uri": w.eli_uri,
             "title": w.title,
             "type": w.act_type.value,
+            "issuer": w.issuer.value if w.issuer else None,
             "dv_ref": {"broy": w.dv_broy, "year": w.dv_year},
         }
         for w in works
     ]
+
+    # Build issuer counts for the current type filter (for issuer chips)
+    issuer_q = select(m.Work.issuer, func.count(m.Work.id)).where(m.Work.issuer.isnot(None)).group_by(m.Work.issuer)
+    if type:
+        try:
+            issuer_q = issuer_q.where(m.Work.act_type == m.ActType(type.lower()))
+        except ValueError:
+            pass
+    issuer_counts = {row[0].value: row[1] for row in s.execute(issuer_q).all()}
 
     return templates.TemplateResponse(
         request,
@@ -196,8 +276,11 @@ def _index_page(
             page=page,
             total_pages=total_pages,
             current_type=type or "",
+            current_issuer=issuer or "",
             q=q or "",
             type_filter_order=TYPE_FILTER_ORDER,
+            issuer_labels=ISSUER_LABELS,
+            issuer_counts=issuer_counts,
         ),
     )
 
@@ -471,3 +554,106 @@ def _build_element_tree(
             }
         )
     return result
+
+
+@router.get("/dv", response_class=HTMLResponse)
+def dv_index(
+    request: Request,
+    year: int | None = None,
+    s: Session = Depends(get_session),
+) -> HTMLResponse:
+    # All years with issue + act counts
+    year_rows = s.execute(
+        select(
+            m.Work.dv_year,
+            func.count(func.distinct(m.Work.dv_broy)).label("issue_count"),
+            func.count(m.Work.id).label("act_count"),
+        )
+        .where(m.Work.dv_year >= 2003)  # corpus start
+        .group_by(m.Work.dv_year)
+        .order_by(m.Work.dv_year.desc())
+    ).all()
+    years = [{"year": r[0], "issue_count": r[1], "act_count": r[2]} for r in year_rows]
+
+    issues = []
+    if year:
+        issue_rows = s.execute(
+            select(
+                m.Work.dv_broy,
+                func.count(m.Work.id).label("act_count"),
+            )
+            .where(m.Work.dv_year == year)
+            .group_by(m.Work.dv_broy)
+            .order_by(m.Work.dv_broy.desc())
+        ).all()
+        issues = [{"broy": r[0], "act_count": r[1], "year": year} for r in issue_rows]
+
+    return templates.TemplateResponse(
+        request,
+        "dv_index.html",
+        _ctx(years=years, issues=issues, current_year=year),
+    )
+
+
+@router.get("/dv/{year}/{broy}", response_class=HTMLResponse)
+def dv_issue(
+    request: Request,
+    year: int,
+    broy: int,
+    s: Session = Depends(get_session),
+) -> HTMLResponse:
+    works = s.scalars(
+        select(m.Work)
+        .where(m.Work.dv_year == year, m.Work.dv_broy == broy)
+        .order_by(m.Work.dv_position)
+    ).all()
+    if not works:
+        raise HTTPException(status_code=404, detail="Брой не е намерен")
+
+    items = [
+        {
+            "uri": w.eli_uri,
+            "title": w.title,
+            "type": w.act_type.value,
+            "position": w.dv_position,
+            "issuer": w.issuer.value if w.issuer else None,
+            "adoption_date": w.adoption_date.isoformat() if w.adoption_date else None,
+        }
+        for w in works
+    ]
+
+    # Prev/next issues
+    prev_issue = s.execute(
+        select(m.Work.dv_broy, m.Work.dv_year)
+        .where(
+            (m.Work.dv_year == year) & (m.Work.dv_broy < broy)
+            | (m.Work.dv_year < year)
+        )
+        .order_by(m.Work.dv_year.desc(), m.Work.dv_broy.desc())
+        .limit(1)
+    ).first()
+    next_issue = s.execute(
+        select(m.Work.dv_broy, m.Work.dv_year)
+        .where(
+            (m.Work.dv_year == year) & (m.Work.dv_broy > broy)
+            | (m.Work.dv_year > year)
+        )
+        .order_by(m.Work.dv_year.asc(), m.Work.dv_broy.asc())
+        .limit(1)
+    ).first()
+
+    id_obj = _DV_ID_BY_ISSUE.get((year, broy))
+    dv_source_url = f"{_DV_BASE}/showMaterialFiles.faces?idObj={id_obj}" if id_obj else None
+
+    return templates.TemplateResponse(
+        request,
+        "dv_issue.html",
+        _ctx(
+            year=year,
+            broy=broy,
+            items=items,
+            prev_issue={"year": prev_issue[1], "broy": prev_issue[0]} if prev_issue else None,
+            next_issue={"year": next_issue[1], "broy": next_issue[0]} if next_issue else None,
+            dv_source_url=dv_source_url,
+        ),
+    )

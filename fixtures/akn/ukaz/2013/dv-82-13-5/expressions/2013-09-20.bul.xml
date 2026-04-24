@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-5/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-5"/>
+          <FRBRalias value="Указ № 174 На основание чл. 100, ал. 2 от Конститу­" name="short"/>
+          <FRBRalias value="Указ № 174 На основание чл. 100, ал. 2 от Конститу­" name="eli" other="/eli/bg/ukaz/2013/dv-82-13-5"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-5/bul@2013-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-5/bul@2013-09-20"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-5/bul@2013-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-5/bul@2013-09-20.xml"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-20" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 174 На основание чл. 100, ал. 2 от Конститу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 174 На основание чл. 100, ал. 2 от Конститу­ цията на Република България и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Назначавам полковник Борислав Вла­ димиров Сертов на длъжността директор на служба „Военна полиция“, считано от 1 октомври 2013 г. Народното събрание доклад за напредъка по изпълнение на предварителните условности за средствата от Европейския съюз за програмен период 2014 – 2020 г., както и за напредъка по интегриране на политиките по околна среда и изменение на климата и за приноса на ин­ тегрирания подход за териториално развитие във фондовете за кохезионна политика, Обща селскостопанска политика и Обща политика по рибарство за периода 2014 – 2020 г. във фазата на програмиране, както и във фазата на изпълнение на оперативните програми. Решението е прието от 42-то Народно съ­ брание на 13 септември 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

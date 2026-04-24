@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-44/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-44"/>
+          <FRBRalias value="Решение № 13 от 29 август 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 13 от 29 август 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-82-13-44"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-44/bul@2013-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-44/bul@2013-09-20"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-44/bul@2013-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-44/bul@2013-09-20.xml"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-20" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13 от 29 август 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13 от 29 август 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 64, ал. 2 ЗУТ Об­ щинският съвет – гр. Търговище, реши: Одобрява частично изменение на специ­ ализирана план-схема за подземна кабелна мрежа на оптична свързаност на „Електрони­ ка – НС“ – ЕООД, Търговище, към действащия ПУП в рамките на кв. Запад 2 съгласно графич­ ната част. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Търговище пред Административния съд – Тър­ говище. Председател: С. Али 6985 ОБЩИНА „ТУНДЖА“ – ЯМБОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

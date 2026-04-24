@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-55/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-55"/>
+          <FRBRalias value="Решение № 1358 от 7 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1358 от 7 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-60-11-55"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="55"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-55/bul@2011-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-55/bul@2011-08-05"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-55/bul@2011-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-55/bul@2011-08-05.xml"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-05" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1358 от 7 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1358 от 7 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сли­ вен, реши: Одобрява проекта за подробен устройствен план – парцеларен план за линейни обекти на техническата инфраструктура извън границите на урбанизираните територии за изграждане на подземен електропровод – 1 kV, за захранване на ПИ 67338.835.20, м. Драката, землище кв. Речица – гр. Сливен, отреден „За паркинг“, пре­ минаващ през имоти 67338.835.30 и 67338.835.6 в същото землище. Решението подлежи на обжалване в 30-дневен срок от обнародването в „Държавен вестник“ чрез общинската администрация до Административния съд – Сливен. Председател: М. Григорова 9103 ОБЩИНА СЛИВО ПОЛЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-64-12-1/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-64-12-1"/>
+          <FRBRalias value="Договор за подписка между Република България и" name="short"/>
+          <FRBRalias value="Договор за подписка между Република България и" name="eli" other="/eli/bg/dogovor/2012/dv-64-12-1"/>
+          <FRBRdate date="2012-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-64-12-1/bul@2012-08-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-64-12-1/bul@2012-08-21"/>
+          <FRBRdate date="2012-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-64-12-1/bul@2012-08-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-64-12-1/bul@2012-08-21.xml"/>
+          <FRBRdate date="2012-08-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-21" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор за подписка между Република България и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>БНП ПАРИБА, ЕЙЧ ЕС БИ СИ БАНК ПЛС и РАЙФАЙЗЕН БАНК ИНТЕРНЕШЪНЪЛ във връзка с емитирането на облигации на стойност до 950 000 000 евро, подписан на 4 юни 2012 г. (Ратифициран със закон, приет от 41-ото Народно събрание на 8 юни 2012 г. – ДВ, бр. 46 от 2012 г. В сила от 4 юни 2012 г.) Настощият договор се сключи на 4 юни 2012 г. („Дата на сключване“) между:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

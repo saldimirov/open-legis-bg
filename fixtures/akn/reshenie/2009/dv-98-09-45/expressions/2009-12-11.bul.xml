@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-45/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-45"/>
+          <FRBRalias value="Решение № 749 от 26 ноември 2009 г. На основание чл. 21, ал. 1 , т. 11 и 24 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 749 от 26 ноември 2009 г. На основание чл. 21, ал. 1 , т. 11 и 24 ЗМСМА" name="eli" other="/eli/bg/reshenie/2009/dv-98-09-45"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="45"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-45/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-45/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-45/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-45/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 749 от 26 ноември 2009 г. На основание чл. 21, ал. 1 , т. 11 и 24 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>във връзка с разпоредбите на чл. 125, ал. 4 и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Свищов, реши: Допълва текста на т. 3 на Решение № 348 от 30.Х.2008 г., допълнено с Решение № 604 от 28.V.2009 г., за одобряването на окончателния проект на ПУП – ПРЗ, зона Изток на Свищов, като след текста „план за“ се добавят думите „регулация и“ и текстът след редакцията става: „3. Изключва във връзка с разпоредбите на чл. 125, ал. 4 ЗУТ от обхвата на одобрения план за регулация и застрояване урегулираните поземлени имоти, за които в процеса на изработване на проекта за подробния устройствен план са влезли в сила планове-извадки по чл. 133 ЗУТ, както следва:“. Съгласно чл. 215, ал. 4 ЗУТ решението може да се обжалва в 14-дневен срок от обнародването в „Държавен вестник“ чрез община Свищов пред Административния съд – Велико Търново. Председател: М. Манолов 13240 ОБЩИНА СИМЕОНОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

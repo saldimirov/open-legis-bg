@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-13"/>
+          <FRBRalias value="Решение № 666 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 666 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2015/dv-10-15-13"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-13/bul@2015-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-13/bul@2015-02-06"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-13/bul@2015-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-13/bul@2015-02-06.xml"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-06" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 666 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 666 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и § 124, ал. 1 ПЗРЗИДЗУТ (ДВ, бр. 82 от 2012 г.) Общинският съвет – гр. Айтос, реши: Одобрява подробен устройствен план – план за регулация и застрояване за поземлен имот № 274017, м. Алтън тарла, землище на гр. Айтос, с цел промяна предназначението на земеделска земя. Образува се УПИ І-274017, масив 274, с отреждане „За складови дейности и КОО“, с ни- ско свободно застрояване, с височина – до 10 м, и показатели за устройствена зона „Пп“: плът- ност – до 80 %, минимално озеленяване – от 20 %, и Кинт. – до 2,5, съгласно червените пунктирни линии, черни плътни линии, сини надписи и по определените ограничителни линии на застро- яване на приложения проект. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 30-дневен срок от об- народването му в „Държавен вестник“. Председател: Р. Хасан 752 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

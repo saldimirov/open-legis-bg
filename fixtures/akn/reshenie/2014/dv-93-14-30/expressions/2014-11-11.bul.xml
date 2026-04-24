@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-30/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-30"/>
+          <FRBRalias value="Решение № 15 от 10 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="short"/>
+          <FRBRalias value="Решение № 15 от 10 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="eli" other="/eli/bg/reshenie/2014/dv-93-14-30"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-30/bul@2014-11-11/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-30/bul@2014-11-11"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-93-14-30/bul@2014-11-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-93-14-30/bul@2014-11-11.xml"/>
+          <FRBRdate date="2014-11-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-11" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 15 от 10 октомври 2014 г. На основание чл. 21, ал. 1, т. 11 и ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ЗМСМА и чл. 129, ал. 1 във връзка с чл. 62, ал. 9 ЗУТ Общинският съвет – гр. Търговище, реши: 1. Одобрява план-схема за разполагане на преместваемите обекти около алеи в парка „Борово око“, гр. Търговище, в поземлен имот 73626.204.499 съгласно графичната част. 2. Приема Правила за съвместна дейност меж­ ду Община Търговище и Спортен клуб по ориен­ тиране „Вариант 5“ за стопанисване, ползване и поддържане на съоръженията, зелената система и алеите. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Общи­ на Търговище пред Административния съд – Търговище. Председател: С. Али 7643 ОБЩИНА С. ИВАНОВО, ОБЛАСТ РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-4/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-4"/>
+          <FRBRalias value="Решение за увеличаване числения състав на Комисията по околната среда и водите" name="short"/>
+          <FRBRalias value="Решение за увеличаване числения състав на Комисията по околната среда и водите" name="eli" other="/eli/bg/reshenie/2005/dv-91-05-4"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-4/bul@2005-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-4/bul@2005-11-15"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-91-05-4/bul@2005-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-91-05-4/bul@2005-11-15.xml"/>
+          <FRBRdate date="2005-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-11-15" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за увеличаване числения състав на Комисията по околната среда и водите</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 91, от дата 15.11.2005 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.24</p>
+          <p>Решение за увеличаване числения състав на Комисията по околната среда и водите</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за увеличаване числения състав на Комисията по околната среда и водите</p>
+          <p>Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 17, ал. 5 от Правилника за организацията и дейността на Народното събрание</p>
+          <p>РЕШИ:</p>
+          <p>Решението е прието от XL Народно събрание на 4 ноември 2005 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

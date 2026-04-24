@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-9"/>
+          <FRBRalias value="Указ № 60 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 60 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2016/dv-26-16-9"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-9/bul@2016-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-9/bul@2016-04-01"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-26-16-9/bul@2016-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-26-16-9/bul@2016-04-01.xml"/>
+          <FRBRdate date="2016-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-01" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 60 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 60 На основание чл. 100, ал. 2 от Конститу- цията на Република България във връзка с чл. 146, т. 1 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : 1. Освобождавам контраадмирал Емил Василев Ефтимов от длъжността директор на дирекция „Сътрудничество и регионална сигурност“ в Международния военен секре- тариат на НАТО в Брюксел, Белгия, считано от 16 юли 2016 г. 2. Назначавам контраадмирал Емил Васи- лев Ефтимов на длъжността „заместник-начал- ник на отбраната“, считано от 16 юли 2016 г. 3. Удостоявам контраадмирал Емил Ва- силев Ефтимов с висше офицерско звание „вицеадмирал“, считано от 16 юли 2016 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 22 март 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

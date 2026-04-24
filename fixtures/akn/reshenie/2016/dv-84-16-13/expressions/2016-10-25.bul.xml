@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-13"/>
+          <FRBRalias value="Решение № 236 от 27 септември 2016 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 236 от 27 септември 2016 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2016/dv-84-16-13"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-13/bul@2016-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-13/bul@2016-10-25"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-13/bul@2016-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-13/bul@2016-10-25.xml"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 236 от 27 септември 2016 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 236 от 27 септември 2016 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Доспат, реши: Одобрява изработения ПУП за УПИ II и УПИ III в кв. 52 на с. Любча. Решението подлежи на обжалване в сроковете по реда на АПК. Председател: Ад. Ферев 8410</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

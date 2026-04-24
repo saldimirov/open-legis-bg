@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-51/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-51"/>
+          <FRBRalias value="Решение № 148 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 148 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-75-12-51"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="51"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-51/bul@2012-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-51/bul@2012-10-02"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-75-12-51/bul@2012-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-75-12-51/bul@2012-10-02.xml"/>
+          <FRBRdate date="2012-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-02" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 148 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 148 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и решение на ОЕСУТ, взето с протокол № 13 от 1.08.2012 г., Общинският съвет – гр. Малко Търново, реши: Одобрява ПУП – парцеларен план за обект „Етапна връзка обход гр. Малко Търново от км 2+732 до включването в път І-9 при км 364+160 (3+200)“ за землището на гр. Малко Търново. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Об­ щина Малко Търново пред Административния съд – Бургас. Председател: Т. Браяновски 8821 ОБЩИНА МОНТАНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

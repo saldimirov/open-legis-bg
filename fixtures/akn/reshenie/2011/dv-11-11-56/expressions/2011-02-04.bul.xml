@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-56/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-56"/>
+          <FRBRalias value="Решение № 829 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 829 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-11-11-56"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="56"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-56/bul@2011-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-56/bul@2011-02-04"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-56/bul@2011-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-56/bul@2011-02-04.xml"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-04" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 829 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 829 от 22 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ във връзка с решение на ОЕСУТ Общинският съвет – Свиленград, реши: Одобрява ПУП – парцеларен план и изменение на специализирана ел.схема за външно елек­ трозахранване на ПИ № 022060, м. Тополите, в землището на с. Генералово, община Свиленград. Неразделна част от това решение са прило­ женият план и графичната и текстовата част. Председател: Т. Коларова 935</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

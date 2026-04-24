@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-16/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-16"/>
+          <FRBRalias value="Решение № 856 от 13 юли 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 856 от 13 юли 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2018/dv-66-18-16"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-16/bul@2018-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-16/bul@2018-08-10"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-66-18-16/bul@2018-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-66-18-16/bul@2018-08-10.xml"/>
+          <FRBRdate date="2018-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-10" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 856 от 13 юли 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 856 от 13 юли 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 от ЗМСМА Общинският съвет – гр. Си­ митли, реши: 1. Одобрява подробен устройствен план – пар­ целарен план за „Водопровод за захранване на ПИ 375023 – „Животновъдна ферма“, в местността Кантона, землище на гр. Симитли. 2. Упълномощава кмета на община Симитли да предприеме всички последващи действия, не­ обходими за изпълнение на настоящото решение. Председател: Вл. Христов 7471 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

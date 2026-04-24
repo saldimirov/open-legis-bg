@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-84/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-84"/>
+          <FRBRalias value="Решение № 512 от 21 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 512 от 21 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-8-11-84"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="84"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-84/bul@2011-01-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-84/bul@2011-01-25"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-84/bul@2011-01-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-84/bul@2011-01-25.xml"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-25" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 512 от 21 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 512 от 21 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сре­ дец, реши: Одобрява подробен устройстван план – пар­ целарен план – (ПУП – ПП) за линеен обект на техническата инфраструктура – трасе за външно подземно ел. захранване – кабел 20 kV, за поземлен имот УПИ V-132, кв. 7 по плана на с. Драчево, община Средец, област Бургас, във връзка с из­ граждането на фотоволтаична електроцентрала. Трасето на кабела се прокарва по улица с осови точки 112 и 113 в регулацията на с. Драчево през поземлен имот 031061 – нива на Злата Стефанова Дамянова, поземлен имот 000120 – общински полски път, и поземлен имот 000151 – общински полски път по КВС на с. Драчево. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Средец до Административния съд – Бургас. Председател: Г. Георгиев 810</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

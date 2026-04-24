@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-19-19-24/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-19-19-24"/>
+          <FRBRalias value="Решение № 941 от 24 януари 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 941 от 24 януари 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="eli" other="/eli/bg/reshenie/2019/dv-19-19-24"/>
+          <FRBRdate date="2019-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-19-19-24/bul@2019-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-19-19-24/bul@2019-03-05"/>
+          <FRBRdate date="2019-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-19-19-24/bul@2019-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-19-19-24/bul@2019-03-05.xml"/>
+          <FRBRdate date="2019-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-03-05" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 941 от 24 януари 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 941 от 24 януари 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 от ЗУТ, протокол № 17 от 2018 г. на ОЕСУТ, т. 18, Общинският съвет – гр. Костинброд, одобрява проект за ПУП – ПП (подробен устройствен план – парцеларен план) за елемент на техни- ческата инфраструктура – канализация на ПИ 38978.389.107 през поземлени имоти – местни пътища, 38978.388.2, 38978.507.5 и частни земедел- ски имоти 38978.386.34, 38978.386.52 в землището на гр. Костинброд. Председател: Ат. Тенев 1366</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

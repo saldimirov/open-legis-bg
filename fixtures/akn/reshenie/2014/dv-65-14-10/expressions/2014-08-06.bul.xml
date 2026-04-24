@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-65-14-10/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-65-14-10"/>
+          <FRBRalias value="Решение № 1561 от 9 юли 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1561 от 9 юли 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2014/dv-65-14-10"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-65-14-10/bul@2014-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-65-14-10/bul@2014-08-06"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-65-14-10/bul@2014-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-65-14-10/bul@2014-08-06.xml"/>
+          <FRBRdate date="2014-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-08-06" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1561 от 9 юли 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1561 от 9 юли 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и докладна записка вх. № ДЗ-329 от 24.06.2014 г. от кмета на общината Общинският съвет – Асеновград, реши: Одобрява ПУП (ПП) – парцеларен план за газопроводно отклонение за поземлен имот КИ 99088.24.28 по кадастралната карта на кв. Долни Воден – Асеновград, преминаващ през имот КИ 99088.24.36, с начин на трайно ползване „Местен път“ съгласно нанесената плътна линия с оранжев цвят на приложения проект. Решението може да се обжалва от заинтере­ суваните лица в 14-дневен срок от обнародването му в „Държавен вестник“ пред Административ- ния съд – Пловдив, чрез Общинския съвет – Асе­ новград. Председател: Св. Шуманов 5287 ОБЩИНА ПЕТРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

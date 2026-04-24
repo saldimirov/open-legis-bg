@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-16/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-16"/>
+          <FRBRalias value="Постановление № 76 ОТ 2 АПРИЛ 2015 Г. за определяне на второстепенните разпореди­" name="short"/>
+          <FRBRalias value="Постановление № 76 ОТ 2 АПРИЛ 2015 Г. за определяне на второстепенните разпореди­" name="eli" other="/eli/bg/postanovlenie/2015/dv-26-15-16"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-16/bul@2015-04-07/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-16/bul@2015-04-07"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-26-15-16/bul@2015-04-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-26-15-16/bul@2015-04-07.xml"/>
+          <FRBRdate date="2015-04-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-04-07" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 76 ОТ 2 АПРИЛ 2015 Г. за определяне на второстепенните разпореди­</p>
+      <p>(обн., ДВ, бр. 79 от 1999 г.; изм., бр. 5 от 2000 г. и бр. 56 от 2002 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 11, ал. 8 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Отменя се Постановление № 172 на Министерския съвет от 1999 г. за определяне на първостепенния и второстепенните разпо- редители с бюджетни кредити в Националния статистически институт (обн., ДВ, бр. 79 от 1999 г.; изм., бр. 5 от 2000 г. и бр. 56 от 2002 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на председателя на Националния статистически институт.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2015 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

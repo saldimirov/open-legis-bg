@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-71-19-4/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-71-19-4"/>
+          <FRBRalias value="Решение за одобряване на Годишен доклад за мла-" name="short"/>
+          <FRBRalias value="Решение за одобряване на Годишен доклад за мла-" name="eli" other="/eli/bg/reshenie/2019/dv-71-19-4"/>
+          <FRBRdate date="2019-09-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-71-19-4/bul@2019-09-10/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-71-19-4/bul@2019-09-10"/>
+          <FRBRdate date="2019-09-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-71-19-4/bul@2019-09-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-71-19-4/bul@2019-09-10.xml"/>
+          <FRBRdate date="2019-09-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-09-10" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за одобряване на Годишен доклад за мла-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>дежта за 2018 г. Народното събрание на основание чл. 86, ал. 1 от Конституцията на Репуб­лика България във връзка с чл. 5, ал. 1 от Закона за младежта Р Е Ш И : Одобрява Годишния доклад за младежта за 2018 г. Решението е прието от 44-то Народно съб- рание на 4 септември 2019 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

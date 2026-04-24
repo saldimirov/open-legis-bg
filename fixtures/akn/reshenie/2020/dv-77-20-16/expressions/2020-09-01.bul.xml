@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-77-20-16/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-77-20-16"/>
+          <FRBRalias value="Решение № 11-20 от 28 юли 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 11-20 от 28 юли 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2020/dv-77-20-16"/>
+          <FRBRdate date="2020-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-77-20-16/bul@2020-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-77-20-16/bul@2020-09-01"/>
+          <FRBRdate date="2020-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-77-20-16/bul@2020-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-77-20-16/bul@2020-09-01.xml"/>
+          <FRBRdate date="2020-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-09-01" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 11-20 от 28 юли 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 11-20 от 28 юли 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 127, ал. 6 във връзка с чл. 134, ал. 1, т. 1 от ЗУТ Общинският съвет – гр. Добрич, одобрява проект за частично изменение (ЧИ) на общ ус­ тройствен план на община (ОУПО) Добрич за УПИ II-257 и УПИ III-260 в кв. 24 на ЦГЧ – гр. Добрич, за промяна от „Централна устройстве­ на зона 2 – Ц2“ в „Централна устройствена зона 1 – Ц1“ с устройствени показатели: Пл. на застр. – от 40 до 70 %, Кинт. – до 2,3, и Пл. на озел. – от 30 до 50 %. Възлага на кмета на община Добрич да из­ върши последващите съгласно закона действия. Председател: М. Димитрова 6512</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-29-22-5/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-29-22-5"/>
+          <FRBRalias value="Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2022/dv-29-22-5"/>
+          <FRBRdate date="2022-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-29-22-5/bul@2022-04-12/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-29-22-5/bul@2022-04-12"/>
+          <FRBRdate date="2022-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-29-22-5/bul@2022-04-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-29-22-5/bul@2022-04-12.xml"/>
+          <FRBRdate date="2022-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-04-12" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 27 от 2010 г.; изм. и доп., бр. 39 и 104 от 2011 г., бр. 50 и 92 от 2012 г., бр. 8, 55 и 76 от 2014 г., бр. 14, 37 и 94 от 2015 г., бр. 42, 54, 58 и 96 от 2016 г., бр. 78 от 2017 г., бр. 49, 56 и 106 от 2018 г., бр. 101 от 2019 г., бр. 9 и 86 от 2020 г. и бр. 67 от 2021 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 111 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам проф. Атанас Стефанов Куртев с орден „Стара планина“ втора сте­ пен за изключително големите му заслуги в областта на културата и изкуството. Издаден в София на 4 април 2022 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

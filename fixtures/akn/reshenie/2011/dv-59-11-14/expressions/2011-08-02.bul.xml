@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-14"/>
+          <FRBRalias value="Решение № 187 от 30 юни 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 187 от 30 юни 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2011/dv-59-11-14"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-14/bul@2011-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-14/bul@2011-08-02"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-14/bul@2011-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-14/bul@2011-08-02.xml"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-02" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 187 от 30 юни 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 187 от 30 юни 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – Благоевград, одобрява ПУП – парце­ ларен план за външен водопровод на цех за алуминиева дограма в имот с идентификатор 04279.17.21 в местността „Чикуто – Ш.16“ по КК на Благоевград, минаващ през имоти с иденти­ фикатори 04279.17.125 – полски път (общински), и 04279.113.15 – път от републиканската пътна мрежа. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез общината до Административен съд – Благоевград. Председател: К. Хаджигаев 8897 ОБЩИНА БОТЕВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

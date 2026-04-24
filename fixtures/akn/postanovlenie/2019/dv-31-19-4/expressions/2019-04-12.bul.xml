@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-31-19-4/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-31-19-4"/>
+          <FRBRalias value="Постановление № 72 ОТ 5 АПРИЛ 2019 Г. за изменение на Наредбата за прилагане на" name="short"/>
+          <FRBRalias value="Постановление № 72 ОТ 5 АПРИЛ 2019 Г. за изменение на Наредбата за прилагане на" name="eli" other="/eli/bg/postanovlenie/2019/dv-31-19-4"/>
+          <FRBRdate date="2019-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-31-19-4/bul@2019-04-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-31-19-4/bul@2019-04-12"/>
+          <FRBRdate date="2019-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-31-19-4/bul@2019-04-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-31-19-4/bul@2019-04-12.xml"/>
+          <FRBRdate date="2019-04-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-04-12" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 72 ОТ 5 АПРИЛ 2019 Г. за изменение на Наредбата за прилагане на</p>
+      <p>(обн., ДВ, бр. 49 от 2012 г.; попр., бр. 75 от 2012 г.; изм. и доп., бр. 80 и 103 от 2012 г., бр. 30 и 37 от 2015 г., бр. 27, 36, 76, 79 и 86 от 2016 г., бр. 9 и 44 от 2017 г. и бр. 1 и 2 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Длъжностните нива и длъжностните наименования на служителите по служебно и по трудово правоотношение в служба „Военна полиция“ и служба „Военна информация“, с изключение на подчинените є военни форми­ рования, се приравняват на длъжностните нива и длъжностните наименования, определени за министерство.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

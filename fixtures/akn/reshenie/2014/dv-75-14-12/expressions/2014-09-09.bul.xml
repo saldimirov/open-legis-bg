@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-75-14-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-75-14-12"/>
+          <FRBRalias value="Решение № 230 от 21 август 2014 г. На основание чл. 21, ал. 1, т. 11 и чл. 129, ал. 1" name="short"/>
+          <FRBRalias value="Решение № 230 от 21 август 2014 г. На основание чл. 21, ал. 1, т. 11 и чл. 129, ал. 1" name="eli" other="/eli/bg/reshenie/2014/dv-75-14-12"/>
+          <FRBRdate date="2014-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-75-14-12/bul@2014-09-09/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-75-14-12/bul@2014-09-09"/>
+          <FRBRdate date="2014-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-75-14-12/bul@2014-09-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-75-14-12/bul@2014-09-09.xml"/>
+          <FRBRdate date="2014-09-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-09-09" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 230 от 21 август 2014 г. На основание чл. 21, ал. 1, т. 11 и чл. 129, ал. 1</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 230 от 21 август 2014 г. На основание чл. 21, ал. 1, т. 11 и чл. 129, ал. 1 ЗУТ (ред., ДВ, бр. 17 от 2009 г.) Общинският съвет „Родопи“, област Пловдив, реши: Одобрява ПУП – ПП на трасе за проекти­ ране на трасе на ел. кабел 20 kV и водопровод за УПИ: І-012162 – жилищно строителство и ТП, ІІ-012162 – жилищно строителство, и ІІІ- 012162 – жилищно строителство. Решението може да се обжалва в 30-дневен срок от обнародването в „Държавен вестник“ пред Административния съд – Пловдив, чрез кмета на община „Родопи“. Председател: Ат. Крушев 5925</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

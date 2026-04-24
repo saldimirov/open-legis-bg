@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-3/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-3"/>
+          <FRBRalias value="Решение за налагане на мораториум върху придоби­" name="short"/>
+          <FRBRalias value="Решение за налагане на мораториум върху придоби­" name="eli" other="/eli/bg/reshenie/2013/dv-93-13-3"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-3/bul@2013-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-3/bul@2013-10-25"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-3/bul@2013-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-3/bul@2013-10-25.xml"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-25" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за налагане на мораториум върху придоби­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ването на право на собственост върху земя на територията на Република България от страна на чужденци и чуждестранни юриди­ чески лица до 1 януари 2020 г. Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Възлага на Министерския съвет да приеме всички необходими действия и актове по обя­ вяване на мораториум върху придобиването на право на собственост върху земя на тери­ торията на Република България от страна на чужденци и чуждестранни юридически лица до 1 януари 2020 г. Решението е прието от 42-то Народно съ­ брание на 22 октомври 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

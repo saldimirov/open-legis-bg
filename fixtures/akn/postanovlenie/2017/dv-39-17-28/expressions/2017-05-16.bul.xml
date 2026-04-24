@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-39-17-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-39-17-28"/>
+          <FRBRalias value="Постановление № 90 ОТ 11 МАЙ 2017 Г. за изменение на Постановление № 67 на" name="short"/>
+          <FRBRalias value="Постановление № 90 ОТ 11 МАЙ 2017 Г. за изменение на Постановление № 67 на" name="eli" other="/eli/bg/postanovlenie/2017/dv-39-17-28"/>
+          <FRBRdate date="2017-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-39-17-28/bul@2017-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-39-17-28/bul@2017-05-16"/>
+          <FRBRdate date="2017-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-39-17-28/bul@2017-05-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-39-17-28/bul@2017-05-16.xml"/>
+          <FRBRdate date="2017-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-16" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 90 ОТ 11 МАЙ 2017 Г. за изменение на Постановление № 67 на</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В приложението към чл. 1 пореден № 4 се изменя така: БРОЙ 39 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 17 „ 4. Министерство на вътрешните рабо- ти – общо: 8 000 000 8 000 000 Помощни (защитни) средства и специал­но оборудване, в т.ч. изграждане на команден ситуационен център на Столична дирекция на вътрешните работи 3 280 000 3 280 000 Доставка на специализирани моторни превозни средства 4 720 000 4 720 000 “ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

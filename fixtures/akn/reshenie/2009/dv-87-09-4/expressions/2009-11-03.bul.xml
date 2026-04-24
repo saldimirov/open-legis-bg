@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-4/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-4"/>
+          <FRBRalias value="Решение за удължаване срока на действие на Вре­" name="short"/>
+          <FRBRalias value="Решение за удължаване срока на действие на Вре­" name="eli" other="/eli/bg/reshenie/2009/dv-87-09-4"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-4/bul@2009-11-03/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-4/bul@2009-11-03"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-87-09-4/bul@2009-11-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-87-09-4/bul@2009-11-03.xml"/>
+          <FRBRdate date="2009-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-03" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за удължаване срока на действие на Вре­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>менната анкетна комисия за проверка на разходите, назначенията и сделките, извър­ шени в последната една година от мандата на правителството на Сергей Станишев Народното събрание на основание чл. 34 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Удължава срока на действие на Временната анкетна комисия за проверка на разходите, на­ значенията и сделките, извършени в последната една година от мандата на правителството на Сергей Станишев с четири месеца. Решението е прието от 41-ото Народно съ­ брание на 28 октомври 2009 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

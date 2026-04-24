@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-28/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-28"/>
+          <FRBRalias value="Решение № 357 от 30 януари 2018 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 357 от 30 януари 2018 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-17-18-28"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-28/bul@2018-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-28/bul@2018-02-23"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-28/bul@2018-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-28/bul@2018-02-23.xml"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-23" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 357 от 30 януари 2018 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 357 от 30 януари 2018 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА, чл. 129, ал. 1, чл. 62, ал. 7, т. 1 – 7 и ал. 8 ЗУТ, чл. 8 ЗОС и искане с вх. № СП-602 от 25.01.2018 г. за одобряване на ПУП, разрешен с Решение № 298, взето с протокол № 30 от заседание на ОС – гр. Сливо поле, проведено на 21.09.2017 г., Общинският съвет – гр. Сливо поле, реши: ОБЩИНА КАЗАНЛЪК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

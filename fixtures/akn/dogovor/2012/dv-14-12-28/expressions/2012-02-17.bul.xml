@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-28"/>
+          <FRBRalias value="Договор за допълнение на Договор № РД-НС-01-3 от" name="short"/>
+          <FRBRalias value="Договор за допълнение на Договор № РД-НС-01-3 от" name="eli" other="/eli/bg/dogovor/2012/dv-14-12-28"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-28/bul@2012-02-17/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-28/bul@2012-02-17"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-14-12-28/bul@2012-02-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-14-12-28/bul@2012-02-17.xml"/>
+          <FRBRdate date="2012-02-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-17" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор за допълнение на Договор № РД-НС-01-3 от</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 35 се правят следните изменения: 1. Алинея 11 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(11)</num>
+            <content>
+              <p>Срокът за достигане на индивиду- алните емисионни ограничения, посочен в разрешителното за заустване за експлоатация на съществуващи обекти, формиращи про- изводствени отпадъчни води, се определя от датата на влизане в сила на разрешителното.“ 2. Алинея 12 се изменя така: „</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_1__al_2">
+            <num>(12)</num>
+            <content>
+              <p>Срокът за достигане на индивиду- алните емисионни ограничения, посочен в разрешителното за заустване за експлоатация на съществуващи канализационни системи на населени места, селищни и курортни образу- вания, се определя: 1. от датата на влизане в сила на разреши- телното, при наличие на изградена и въведена в редовна експлоатация пречиствателна станция за отпадъчни води, която е в съответствие с изискванията на чл. 11, ал. 1, чл. 12, ал. 4 и чл. 14, ал. 1 от наредбата по чл. 135, ал. 1, т. 12 от Закона за водите; БРОЙ 14 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 69 МИНИСТЕРСТВО НА ОБРАЗОВАНИЕТО, МЛАДЕЖТА И НАУКАТА</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

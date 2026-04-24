@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-28"/>
+          <FRBRalias value="Решение № 553 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 553 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-78-11-28"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-28/bul@2011-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-28/bul@2011-10-07"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-28/bul@2011-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-28/bul@2011-10-07.xml"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-07" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 553 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 553 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, чл. 61, ал. 2, т. 4 и чл. 63, ал. 1, т. 3 и ал. 5 ЗГ Общинският съвет – гр. Твърдица, реши: Одобрява проект на ПУП – парцеларен план за изграждане на подобект „Присъединяване към мрежа 20 kV – кабел 20 kV“ за нуждите на МВЕЦ на р. Твърдишка в ПИ № 630085/87, м. Стара планина, землище гр. Твърдица, през общински имот 72165.631.86 с проектен идентификационен номер 72165.631.791, част от отдел 135-а и част от отдел 135-1 по ЛУП от 2011 – 2020 г. Председател: Хр. Сосеров 10837 ОБЩИНА ТУТРАКАН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

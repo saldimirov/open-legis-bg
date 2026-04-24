@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-34/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-34"/>
+          <FRBRalias value="Решение № 1730 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1730 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-21-11-34"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-34/bul@2011-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-34/bul@2011-03-15"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-34/bul@2011-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-34/bul@2011-03-15.xml"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-15" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1730 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1730 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и протокол № 50 на ПК „Устрой­ ство на територията“ Общинският съвет – гр. Са­ моков, одобрява ПУП – план за застрояване на поземлен имот № 075037 в м. Черковник, земли­ ще с. Марица, община Самоков, собственост на „Бългериан Рийл Естейт Дивел“ – ЕООД, при обособена устройствена зона – ваканционно се­ лище (Ос), с показатели: плътност на застроява­ не – до 30 %; коефициент на интензивност – до 1,2; височина на сградите – до 10 м; минимална озеленена площ – 50 %. Председател: Л. Янкова 2752</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

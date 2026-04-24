@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-22"/>
+          <FRBRalias value="Постановление № 310 ОТ 17 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 84 на" name="short"/>
+          <FRBRalias value="Постановление № 310 ОТ 17 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 84 на" name="eli" other="/eli/bg/postanovlenie/2009/dv-102-09-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-22/bul@2009-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-22/bul@2009-12-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-22/bul@2009-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-22/bul@2009-12-22.xml"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 310 ОТ 17 ДЕКЕМВРИ 2009 Г. за изменение на Постановление № 84 на</p>
+      <p>(обн., ДВ, бр. 35 от 2007 г.; изм. и доп., бр. 86 и 108 от 2008 г. и бр. 42 и 45 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2, ал. 4 думите „дирекция „Уп­ равление на средствата от Европейския съюз на Министерството на финансите“ се заменят с „дирекция „Мониторинг на средствата от Европейския съюз“ в администрацията на Министерския съвет“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 3 се правят следните изменения: 1. Алинея 2 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Председател на комитета по ал. 1 е министърът на вътрешните работи, а члено­ БРОЙ 102 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 19 ве са: заместник-министърът на финансите, отговарящ за управлението на средствата от ЕС; заместник-министърът на външните работи, отговарящ за консулската дейност; заместник-министър на вътрешните работи; заместник-председателят на Държавна аген­ ция „Национална сигурност“, отговарящ за взаимодействието със структурите на ЕС, и представител на дирекция „Мониторинг на средствата от Европейския съюз“ в админи­ страцията на Министерския съвет.“ 2. В ал. 4 думите „дирекция „Управление на средствата от Европейския съюз“ се заме­ нят с „дирекция „Мониторинг на средствата от Европейския съюз“ в администрацията на Министерския съвет“. Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“. За министър-председател: Цветан Цветанов За главен секретар на Министерския съвет: Галина Маринска 13742</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

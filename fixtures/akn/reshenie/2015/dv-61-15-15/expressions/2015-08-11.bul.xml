@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-61-15-15/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-61-15-15"/>
+          <FRBRalias value="Решение № 1512-МИ от 4 август 2015 г. относно утвърждаване образци на изборните" name="short"/>
+          <FRBRalias value="Решение № 1512-МИ от 4 август 2015 г. относно утвърждаване образци на изборните" name="eli" other="/eli/bg/reshenie/2015/dv-61-15-15"/>
+          <FRBRdate date="2015-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-61-15-15/bul@2015-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-61-15-15/bul@2015-08-11"/>
+          <FRBRdate date="2015-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-61-15-15/bul@2015-08-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-61-15-15/bul@2015-08-11.xml"/>
+          <FRBRdate date="2015-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-11" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1512-МИ от 4 август 2015 г. относно утвърждаване образци на изборните</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1512-МИ от 4 август 2015 г. относно утвърждаване образци на изборните книжа за произвеждане на избори за общин­ ски съветници и кметове На основание чл. 6, ал. 1 от Изборния кодекс Централната избирателна комисия Р Е Ш И : Утвърждава образците на изборните кни­ жа за произвеждане на избори за общински съветници и кметове – 99 на брой, с номера от 1-МИ до 95-МИ съгласно приложението. Отменя Решение № 633-МИ от 15 юли 2014 г. на ЦИК (ДВ, бр. 62 от 29 юли 2014 г.). Решението се обнародва в „Държавен вестник“. Председател: Ивилина Алексиева Зам.-председател: Мария Мусорлиева ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

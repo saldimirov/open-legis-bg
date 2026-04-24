@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-7/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-7"/>
+          <FRBRalias value="Постановление № 423 ОТ 18 ДЕКЕМВРИ 2014 Г. за извършване на промени на утвърдените със" name="short"/>
+          <FRBRalias value="Постановление № 423 ОТ 18 ДЕКЕМВРИ 2014 Г. за извършване на промени на утвърдените със" name="eli" other="/eli/bg/postanovlenie/2014/dv-106-14-7"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-7/bul@2014-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-7/bul@2014-12-23"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-106-14-7/bul@2014-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-106-14-7/bul@2014-12-23.xml"/>
+          <FRBRdate date="2014-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-23" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 423 ОТ 18 ДЕКЕМВРИ 2014 Г. за извършване на промени на утвърдените със</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Увеличава утвърдения показател за максимален размер на ангажиментите за разходи, които могат да бъдат поети през 2014 г., по чл. 18, ал. 3 от Закона за държавния бюджет на Република България за 2014 г. със сума в размер 9 000 000 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Министърът на околната среда и водите да извърши съответните промени по бюджета на Министерството на околната среда и водите за 2014 г. и да уведоми министъра на финансите. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 79 от Закона за държавния бюджет на Република България за 2014 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на околната среда и водите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 19 декември 2014 г. За министър-председател: Томислав Дончев За главен секретар на Министерския съвет: Веселин Даков 8978 БРОЙ 106 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 25</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

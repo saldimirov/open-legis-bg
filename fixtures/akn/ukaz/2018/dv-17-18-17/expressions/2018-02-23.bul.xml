@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-17/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-17"/>
+          <FRBRalias value="Указ № 44 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 44 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2018/dv-17-18-17"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-17/bul@2018-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-17/bul@2018-02-23"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-17-18-17/bul@2018-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-17-18-17/bul@2018-02-23.xml"/>
+          <FRBRdate date="2018-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-23" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 44 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 37.</num>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>В срок два месеца от влизането в сила на този закон съответните администра- тивни органи в рамките на тяхната компе- тентност утвърждават със заповед образци на документите по този закон и ги публикуват на интернет страницата на съответната ад- министрация.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_1__al_2">
+            <num>(2)</num>
+            <content>
+              <p>В срок до 31 декември 2019 г. съответ- ните административни органи привеждат в съответствие със Закона за електронното уп- равление и подзаконовите нормативни актове по прилагането му водените от съответната администрация публични регистри.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 38.</num>
+          <content>
+            <p>Законът влиза в сила от деня на об- народването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-8/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-8"/>
+          <FRBRalias value="Решение № 22 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Българската търговско-" name="short"/>
+          <FRBRalias value="Решение № 22 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Българската търговско-" name="eli" other="/eli/bg/reshenie/2021/dv-5-21-8"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-8/bul@2021-01-19/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-8/bul@2021-01-19"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-8/bul@2021-01-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-8/bul@2021-01-19.xml"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-19" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 22 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Българската търговско-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 22 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Българската търговско- промишлена палата за представителна ор­ ганизация на работодателите на национално равнище На основание чл. 36, ал. 1 и 6 от Кодекса на труда МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Признава Българската търговско промиш- лена палата за представителна организация на работодателите на национално равнище за срок 4 години.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

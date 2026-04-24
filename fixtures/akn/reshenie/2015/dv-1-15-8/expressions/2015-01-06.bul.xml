@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-8/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-8"/>
+          <FRBRalias value="Решение № 748 от 28 ноември 2014 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 748 от 28 ноември 2014 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2015/dv-1-15-8"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-8/bul@2015-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-8/bul@2015-01-06"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-1-15-8/bul@2015-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-1-15-8/bul@2015-01-06.xml"/>
+          <FRBRdate date="2015-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-06" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 748 от 28 ноември 2014 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 748 от 28 ноември 2014 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1, т. 8 и 11 и чл. 27, ал. 4 и 5 ЗМСМА Общинският съвет – Благоевград, одобрява подробен устрой- ствен план (ПУП) – парцеларен план (ПП) за трасе на електрически кабел до имот с № 045007 в местността Бобови ниви по КВС на с. Дъбра- ва, община Благоевград, минаващ през имоти с № 000388 (път IV клас – общинска собственост) и 000381 (полски път – общинска собственост). Председател: Р. Тасков 9128</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

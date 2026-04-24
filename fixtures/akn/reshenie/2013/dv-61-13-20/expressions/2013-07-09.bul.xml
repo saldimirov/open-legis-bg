@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-20"/>
+          <FRBRalias value="Решение № 284 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 127," name="short"/>
+          <FRBRalias value="Решение № 284 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 127," name="eli" other="/eli/bg/reshenie/2013/dv-61-13-20"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-20/bul@2013-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-20/bul@2013-07-09"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-20/bul@2013-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-20/bul@2013-07-09.xml"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-09" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 284 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 127,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 284 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 127, ал. 6 и § 124, ал. 1 ПЗРЗИДЗУТ (ДВ, бр. 82 от 2012 г., в сила от 26.11.2012 г.) Общинският съ­ вет – гр. Чирпан, реши: Одобрява внесения проект на ОУП (общ устрой­ ствен план) на гр. Чирпан – окончателен проект. На основание чл. 215, ал. 6 ЗУТ общите ус­ тройствени планове не подлежат на обжалване. Председател: Хр. Стефанов 5314 ОБЩИНА С. ВЕТРИНО, ОБЛАСТ ВАРНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

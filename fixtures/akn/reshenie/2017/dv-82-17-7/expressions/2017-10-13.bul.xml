@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-82-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-82-17-7"/>
+          <FRBRalias value="Решение № 272 от 25 септември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 272 от 25 септември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2017/dv-82-17-7"/>
+          <FRBRdate date="2017-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-82-17-7/bul@2017-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-82-17-7/bul@2017-10-13"/>
+          <FRBRdate date="2017-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-82-17-7/bul@2017-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-82-17-7/bul@2017-10-13.xml"/>
+          <FRBRdate date="2017-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-10-13" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 272 от 25 септември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 272 от 25 септември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с Правилника за прилагане на Закона за опазване на земеделските земи Общинският съвет „Марица“ реши: Одобрява ПУП – парцеларен план на трасе за проектиране на обект: „Уличен водопровод PE-HD ∅ 90 с L=1689 м“, за нуждите на имот с идентификатор 38950.12.119. Захранването е от съществуваш водопровод, северно от имота (при ОТ 177) по КК на с. Костиево. Уличният водопро­ вод преминава през полски пътища по следата на вариант единствен, нанесен върху приложения проект на ПУП – ПП и регистър на засегнатите от трасето имоти, във връзка с искане от „Шети България“ – ЕООД, ЕИК 131407283, с вх. № 53- 01-432</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

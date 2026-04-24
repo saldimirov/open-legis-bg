@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-35/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-35"/>
+          <FRBRalias value="Решение № 240 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 240 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-9-13-35"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-35/bul@2013-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-35/bul@2013-02-01"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-35/bul@2013-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-35/bul@2013-02-01.xml"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-01" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 240 от 20 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раков­ ски, одобрява ПУП – парцеларен план за обект: „Трасе на кабели 20 kV от п/ст „Раковски“ до в/ст в УПИ 001 064-1 (ПИ 1.64), с. Маноле, община „Марица“, преминаващ през землищата на кв. Секирово и кв. Парчевич на гр. Раковски. Председател: Мл. Шишков 811</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-7-24-1/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-7-24-1"/>
+          <FRBRalias value="Решение за избиране на съдия в Конституционния съд на Република България" name="short"/>
+          <FRBRalias value="Решение за избиране на съдия в Конституционния съд на Република България" name="eli" other="/eli/bg/reshenie/2024/dv-7-24-1"/>
+          <FRBRdate date="2024-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-7-24-1/bul@2024-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-7-24-1/bul@2024-01-23"/>
+          <FRBRdate date="2024-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-7-24-1/bul@2024-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-7-24-1/bul@2024-01-23.xml"/>
+          <FRBRdate date="2024-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-01-23" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на съдия в Конституционния съд на Република България</p>
+      <p>(обн., ДВ, бр. 8 от 25.01.2023 г.; изм., бр. 67, 86 и 96 от 2023 г.; посл. изм. и доп., бр. 106 от 22.12.2023 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 във връзка с чл. 147, ал. 1, 2 и 3, чл. 148, ал. 1, т. 1 от Конституцията на Република България и чл. 4 от Закона за Конституционен съд РЕШИ: Избира Десислава Вълчева Атанасова за съдия в Конституционния съд на Република България на мястото на Гроздан Николов Илиев за срок от 9 години. Решението е прието от 49-ото Народно събрание на 19 януари 2024 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

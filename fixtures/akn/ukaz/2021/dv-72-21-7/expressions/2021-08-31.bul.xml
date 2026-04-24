@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-72-21-7/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-72-21-7"/>
+          <FRBRalias value="Указ № 218 На основание чл. 99, ал. 3 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 218 На основание чл. 99, ал. 3 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-72-21-7"/>
+          <FRBRdate date="2021-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-72-21-7/bul@2021-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-72-21-7/bul@2021-08-31"/>
+          <FRBRdate date="2021-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-72-21-7/bul@2021-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-72-21-7/bul@2021-08-31.xml"/>
+          <FRBRdate date="2021-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-08-31" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 218 На основание чл. 99, ал. 3 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 218 На основание чл. 99, ал. 3 от Конституцията на Република България П О С Т А Н О В Я В А М : Възлагам на парламентарната група „БСП за България“ да посочи кандидат за минис­ тър-председател. Издаден в София на 27 август 2021 г. Президент на Републиката: Румен Радев 5230 СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 72 Приложение към чл. 1, ал. 1, т. 1 Разпределение на допълнителни трансфери за доизплащане от общинските училища на стипендии на ученици по раздел І на Програ­ мата на мерките за закрила на деца с изяве­ ни дарби от държавни, общински и частни училища от 2020 г. през 2021 г. Община Област Средства за стипендии на ученици от общински училища (лв.) Общо (лв.) Смолян Смолян 1890 1890 Чепеларе Смолян 2160 2160 Велико Търново Велико Търново 810 810 Благоев­ град Благоев­ град 1890 1890 Казанлък Стара Загора 675 675 Кюстендил Кюстендил 945 945 Пловдив Пловдив 1080 1080 ОБЩО 9450 5223</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

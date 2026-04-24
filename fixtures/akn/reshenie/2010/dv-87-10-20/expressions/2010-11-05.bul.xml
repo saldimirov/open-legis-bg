@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-20"/>
+          <FRBRalias value="Решение № 254 от 30 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 254 от 30 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="eli" other="/eli/bg/reshenie/2010/dv-87-10-20"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-20/bul@2010-11-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-20/bul@2010-11-05"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-87-10-20/bul@2010-11-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-87-10-20/bul@2010-11-05.xml"/>
+          <FRBRdate date="2010-11-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-05" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 254 от 30 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 254 от 30 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1, т. 2, чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 8, т. 1, чл. 12, ал. 1 и 2 ЗУТ Общинският съвет – Ботевград, реши: 1. Одобрява проект за подробен устройствен план (ПУП) на имот № 005203 в м. Пръдльо­ вец в землището на Ботевград с цел промяна предназначението на същия и включване в строителните граници на в.з. Зелин съгласно приложен проект. 2. Възлага на кмета на общината да организира извършването на произтичащите от решението процедури. Председател: М. Кирова 8463</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

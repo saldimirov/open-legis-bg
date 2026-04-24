@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-62-23-8/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-62-23-8"/>
+          <FRBRalias value="Решение № 121 от 29 март 2023 г. На основание чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 21 август 2023 г., медна възпоменателна монета „125 години от рождението на Димитър Талев“ от серията „Български творци“ със следното описание:" name="short"/>
+          <FRBRalias value="Решение № 121 от 29 март 2023 г. На основание чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 21 август 2023 г., медна възпоменателна монета „125 години от рождението на Димитър Талев“ от серията „Български творци“ със следното описание:" name="eli" other="/eli/bg/reshenie/2023/dv-62-23-8"/>
+          <FRBRdate date="2023-07-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-62-23-8/bul@2023-07-21/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-62-23-8/bul@2023-07-21"/>
+          <FRBRdate date="2023-07-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-62-23-8/bul@2023-07-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-62-23-8/bul@2023-07-21.xml"/>
+          <FRBRdate date="2023-07-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-07-21" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/bnb" showAs="Българска народна банка"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 121 от 29 март 2023 г. На основание чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 21 август 2023 г., медна възпоменателна монета „125 години от рождението на Димитър Талев“ от серията „Български творци“ със следното описание:</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Технически параметри: емисия – 2023 г.; номинална стойност – 2 лева; метал – мед, проба 999/1000; качество – мат-гланц, висше; тегло – 16,4 г; диаметър – 34,2 мм; гурт – гладък; тираж – 7000 броя. Графични елементи: На лицевата страна на монетата са изобразени следните елементи: горе – емблемата на БНБ с годината „1879“ върху лентата, под нея: в ореол от лъчи номиналната стойност „2 ЛЕВА“ на два реда и стилизиран горящ светилник, а отдолу годината на емисията „2023“. Околовръст горе – надпис „БЪЛГАРСКА НАРОДНА БАНКА“. На обратната страна на монетата е изобразен Димитър Талев, под портрета му – стилизирано перо за писане. Околовръст има надпис „125 ГОДИНИ ОТ РОЖДЕНИЕТО НА ДИМИТЪР ТАЛЕВ“. Автор на художествения проект е Тодор Ангелиев. Управител: Д. Радев 5567 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

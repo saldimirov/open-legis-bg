@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-4-03-5/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-4-03-5"/>
+          <FRBRalias value="Спогодба между правителството на Република България и правителството на Република Албания за обратно приемане на незаконно пребиваващи лица" name="short"/>
+          <FRBRalias value="Спогодба между правителството на Република България и правителството на Република Албания за обратно приемане на незаконно пребиваващи лица" name="eli" other="/eli/bg/dogovor/2003/dv-4-03-5"/>
+          <FRBRdate date="2003-01-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-4-03-5/bul@2003-01-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-4-03-5/bul@2003-01-14"/>
+          <FRBRdate date="2003-01-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-4-03-5/bul@2003-01-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-4-03-5/bul@2003-01-14.xml"/>
+          <FRBRdate date="2003-01-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-01-14" name="Държавен вестник" number="4" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Спогодба между правителството на Република България и правителството на Република Албания за обратно приемане на незаконно пребиваващи лица</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <content>
+          <p>1. Тази спогодба се сключва за неопределен срок и влиза в сила 30 дни след датата на получаване на втората от нотите, с които договарящите страни взаимно се уведомяват писмено, че са изпълнени необходимите вътрешни процедури за влизането в сила на спогодбата.</p>
+          <p>2. Всяка договаряща страна може временно да спре, частично или изцяло, действието на тази спогодба, с изключение на чл. 2, по причини, свързани със защитата на националната сигурност, обществения ред или здравето на населението, чрез писмено уведомяване по дипломатически път на другата договаряща страна. Спирането влиза в сила от датата на получаване на уведомлението или от друга, посочена в него дата. Договарящите страни взаимно се уведомяват по дипломатически път за възстановяването на действието на спогодбата.</p>
+          <p>3. Всяка договаряща страна може да прекрати тази спогодба чрез писмено уведомяване по дипломатически път на другата договаряща страна. Прекратяването влиза в сила 30 дни след датата на получаването на нотификацията по този повод от другата договаряща страна,</p>
+          <p>Изготвена в София на 11 юни 2002 г. в два оригинални екземпляра, всеки един на български, на албански и на английски език, като всички текстове имат еднаква сила. В случай на различия при тълкуването предимство ще има текстът на английски език.</p>
+          <p>За правителството на Република България:</p>
+          <p>Георги Петканов,</p>
+          <p>министър на вътрешните работи</p>
+          <p>За правителството на Република Албания:</p>
+          <p>Стефан Чипа,</p>
+          <p>министър на вътрешните работи</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

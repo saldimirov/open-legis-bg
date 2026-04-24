@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-3/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-3"/>
+          <FRBRalias value="Указ № 49 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 49 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2010/dv-19-10-3"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-3/bul@2010-03-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-3/bul@2010-03-09"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-19-10-3/bul@2010-03-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-19-10-3/bul@2010-03-09.xml"/>
+          <FRBRdate date="2010-03-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-09" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 49 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 49 На основание чл. 98, т. 4 от Конституцията на Република България П О С ТА Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на Закона за марките и географските означения, приет от ХLI Народно събрание на 26 февруари 2010 г. Издаден в София на 4 март 2010 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

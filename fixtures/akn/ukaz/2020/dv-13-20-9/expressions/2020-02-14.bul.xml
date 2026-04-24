@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-13-20-9/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-13-20-9"/>
+          <FRBRalias value="Указ № 22 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 22 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2020/dv-13-20-9"/>
+          <FRBRdate date="2020-02-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-13-20-9/bul@2020-02-14/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-13-20-9/bul@2020-02-14"/>
+          <FRBRdate date="2020-02-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-13-20-9/bul@2020-02-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-13-20-9/bul@2020-02-14.xml"/>
+          <FRBRdate date="2020-02-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-02-14" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 22 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+      <p>(обн., ДВ, бр. 18 от 2004 г.; доп., бр. 51 от 2007 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 165.</num>
+          <content>
+            <p>Договорите, сключени до датата на влизането в сила на този закон по реда на чл. 137а и 137б, се привеждат в съответ- ствие с изискванията на този закон в срок до три месеца от датата на влизането му в сила.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 166.</num>
+          <intro>
+            <p>В Закона за прилагане на Общата организация на пазарите на земеделски про- дукти на Европейския съюз (обн., ДВ, бр. 96 от 2006 г.; изм., бр. 16 от 2008 г., бр. 10 и 82 от 2009 г., бр. 26 и 80 от 2010 г., бр. 8 от 2011 г., бр. 99 от 2013 г., бр. 12, 14 и 57 от 2015 г., бр. 19 от 2016 г., бр. 58 и 85 от 2017 г., бр. 17 и 106 от 2018 г. и бр. 98 от 2019 г.) се правят следните изменения и допълнения: 1. В чл. 55б, ал. 5 навсякъде думите „14-дневен срок“ се заменят с „30-дневен срок“. 2. В чл. 72а: а) в ал. 1 думите „и/или без договор, регистриран по реда и в срока по чл. 55б, ал. 5“ се заличават; б) създава се нова ал. 2: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(2)</num>
+            <content>
+              <p>На регистриран първи изкупвач, който изкупува сурово мляко без договор, регис- триран по реда и в срока по чл. 55б, ал. 5, се налага глоба или имуществена санкция от 1000 до 4000 лв.“; в) досегашните ал. 2 и 3 стават съответно ал. 3 и 4.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 167.</num>
+          <content>
+            <p>Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

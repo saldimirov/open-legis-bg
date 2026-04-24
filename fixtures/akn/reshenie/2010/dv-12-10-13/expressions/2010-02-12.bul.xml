@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-13"/>
+          <FRBRalias value="Решение № 50 ОТ 4 ФЕВРУАРИ 2010 Г. за обявяване на 11 ноември за професионален" name="short"/>
+          <FRBRalias value="Решение № 50 ОТ 4 ФЕВРУАРИ 2010 Г. за обявяване на 11 ноември за професионален" name="eli" other="/eli/bg/reshenie/2010/dv-12-10-13"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-13/bul@2010-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-13/bul@2010-02-12"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-12-10-13/bul@2010-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-12-10-13/bul@2010-02-12.xml"/>
+          <FRBRdate date="2010-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-12" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 50 ОТ 4 ФЕВРУАРИ 2010 Г. за обявяване на 11 ноември за професионален</p>
+      <p>(обн., ДВ, бр. 7 от 2007 г.; изм., бр. 89 от 2007 г. и бр. 55 от 2008 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>празник на охранителя и частната охрани­ телна дейност На основание чл. 154, ал. 2 от Кодекса на труда МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 11 ноември за професионален празник на охранителя и частната охранителна дейност.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

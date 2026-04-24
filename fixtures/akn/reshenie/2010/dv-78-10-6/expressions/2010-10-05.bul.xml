@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-6"/>
+          <FRBRalias value="Решение за избиране на Комисия за провеждане на" name="short"/>
+          <FRBRalias value="Решение за избиране на Комисия за провеждане на" name="eli" other="/eli/bg/reshenie/2010/dv-78-10-6"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-6/bul@2010-10-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-6/bul@2010-10-05"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-6/bul@2010-10-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-6/bul@2010-10-05.xml"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-05" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на Комисия за провеждане на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>тайно гласуване при избора на омбудсман Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и Решението за приемане на процедурни правила за тайно гласуване при избора на омбудсман Р Е Ш И : Избира Комисия за провеждане на тайно гласуване при избора на омбудсман в състав от 11 народни представители – по двама от всяка парламентарна група и 1 независим народен представител, както следва: Председател: Юлиана Генчева Колева – на­ роден представител от Парламентарната група на ПП ГЕРБ; Членове: Красимир Георгиев Ципов – на­ роден представител от Парламентарната група на ПП ГЕРБ; Захари Димитров Георгиев – народен пред­ ставител от Парламентарната група на Коалиция за България; Румен Иванов Такоров – народен предста­ вител от Парламентарната група на Коалиция за България; Тунджай Османов Наимов – народен пред­ ставител от Парламентарната група на „Дви­ жение за права и свободи“; Ердоан Мустафов Ахмедов – народен пред­ ставител от Парламентарната група на „Дви­ жение за права и свободи“; Петър Иванов Хлебаров – народен пред­ ставител от Парламентарната група на партия „Атака“; Венцислав Асенов Лаков – народен пред­ ставител от Парламентарната група на партия „Атака“; Иван Николаев Иванов – народен пред­ ставител от Парламентарната група „Синята коалиция“; Любомир Тодоров Иванов – народен пред­ ставител от Парламентарната група „Синята коалиция“; Димитър Йорданов Чукарски – независим народен представител. Решението е прието от 41-ото Народно съб­ рание на 29 септември 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-97-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-97-17-7"/>
+          <FRBRalias value="Указ № 245 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 245 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2017/dv-97-17-7"/>
+          <FRBRdate date="2017-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-97-17-7/bul@2017-12-05/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-97-17-7/bul@2017-12-05"/>
+          <FRBRdate date="2017-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-97-17-7/bul@2017-12-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-97-17-7/bul@2017-12-05.xml"/>
+          <FRBRdate date="2017-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-05" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 245 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 245 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на Зако- на за здравословни и безопасни условия на труд, приет от 44-то Народно събрание на 23 ноември 2017 г. Издаден в София на 30 ноември 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

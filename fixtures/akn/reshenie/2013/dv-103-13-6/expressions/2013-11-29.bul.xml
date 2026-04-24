@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-103-13-6/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-103-13-6"/>
+          <FRBRalias value="Решение за попълване на състава и ръководството на" name="short"/>
+          <FRBRalias value="Решение за попълване на състава и ръководството на" name="eli" other="/eli/bg/reshenie/2013/dv-103-13-6"/>
+          <FRBRdate date="2013-11-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-103-13-6/bul@2013-11-29/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-103-13-6/bul@2013-11-29"/>
+          <FRBRdate date="2013-11-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-103-13-6/bul@2013-11-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-103-13-6/bul@2013-11-29.xml"/>
+          <FRBRdate date="2013-11-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-29" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за попълване на състава и ръководството на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Комисията по отбрана Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 15, ал. 5 и чл. 19, ал. 3 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Избира Бюнямин Хюсеин Хасан за член на Комисията по отбрана. 2. Избира Мехмед Юмер Атаман за замест- ник-председател на Комисията по отбрана. Решението е прието от 42-то Народно съб­ рание на 20 ноември 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

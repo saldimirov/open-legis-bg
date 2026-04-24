@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-18-13-2/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-18-13-2"/>
+          <FRBRalias value="Решение № 94 ОТ 14 ФЕВРУАРИ 2013 Г. за административно-териториални промени" name="short"/>
+          <FRBRalias value="Решение № 94 ОТ 14 ФЕВРУАРИ 2013 Г. за административно-териториални промени" name="eli" other="/eli/bg/reshenie/2013/dv-18-13-2"/>
+          <FRBRdate date="2013-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-18-13-2/bul@2013-02-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-18-13-2/bul@2013-02-22"/>
+          <FRBRdate date="2013-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-18-13-2/bul@2013-02-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-18-13-2/bul@2013-02-22.xml"/>
+          <FRBRdate date="2013-02-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-22" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 94 ОТ 14 ФЕВРУАРИ 2013 Г. за административно-териториални промени</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>в община Сунгурларе, област Бургас – закри­ ване на населени места На основание чл. 32, ал. 1 във връзка с чл. 19, ал. 2 и чл. 20 от Закона за админи­ стративно-териториалното устройство на Република България МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Закрива населените места с. Балабан­ чево</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

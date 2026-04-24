@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-30-21-1/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-30-21-1"/>
+          <FRBRalias value="Указ № 108 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 108 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-30-21-1"/>
+          <FRBRdate date="2021-04-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-30-21-1/bul@2021-04-13/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-30-21-1/bul@2021-04-13"/>
+          <FRBRdate date="2021-04-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-30-21-1/bul@2021-04-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-30-21-1/bul@2021-04-13.xml"/>
+          <FRBRdate date="2021-04-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-04-13" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 108 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 27 от 27.03.2018 г.; посл. изм. и доп., бр. 21 от 12.03.2021 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 108 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам проф. д-р Петко Ненков Салчев с орден „Св. св. Кирил и Методий“ огърлие за изключителните му заслуги за развитието на системата на здравеопазването в Република България. Издаден в София на 6 април 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

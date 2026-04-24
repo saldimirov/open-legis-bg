@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-48/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-48"/>
+          <FRBRalias value="Решение № 482 от 2 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 482 от 2 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-65-10-48"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="48"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-48/bul@2010-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-48/bul@2010-08-20"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-48/bul@2010-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-48/bul@2010-08-20.xml"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-20" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 482 от 2 август 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Павел баня, реши: Одобрява подробен устройствен план – парце­ ларен план на ел. присъединяване на ветроенер­ гиен парк – „Патарешка поляна“ от ПИ 000086 в землището на с. Габарево, община Павел баня, до подстанция Горно Сахране. Дължината на трасето на ел. присъединяването в урбанизираната територия е 354 л. м, а извън населените места 12 693 л. м. Общата дължина на трасето на електрическия кабел е 13 047 л. м. Решението може да се обжалва в 14-дневен срок пред Административния съд – Стара Загора. Председател: Хр. Петрова 6789</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

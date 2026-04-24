@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-73-15-12/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-73-15-12"/>
+          <FRBRalias value="Решение № 1920 от 28 август 2015 г. На основание чл. 3, ал. 3, чл. 4, ал. 4, чл. 31," name="short"/>
+          <FRBRalias value="Решение № 1920 от 28 август 2015 г. На основание чл. 3, ал. 3, чл. 4, ал. 4, чл. 31," name="eli" other="/eli/bg/reshenie/2015/dv-73-15-12"/>
+          <FRBRdate date="2015-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-73-15-12/bul@2015-09-25/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-73-15-12/bul@2015-09-25"/>
+          <FRBRdate date="2015-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-73-15-12/bul@2015-09-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-73-15-12/bul@2015-09-25.xml"/>
+          <FRBRdate date="2015-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-25" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1920 от 28 август 2015 г. На основание чл. 3, ал. 3, чл. 4, ал. 4, чл. 31,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1920 от 28 август 2015 г. На основание чл. 3, ал. 3, чл. 4, ал. 4, чл. 31, ал. 3 ЗПСК Надзорният съвет на Столичната общинска агенция за приватизация и инвестиции отменя свое Решение № 1865 от 10.07.2015 г. (ДВ, бр. 62 от 2015 г.) за насрочване на публичен търг с явно наддаване за следния обект: УПИ VI-329, 330, кв. 103, м. Гео Милев, София, ул. Елисавета Багряна 18, обособена част от „Софийски имо- ти“ – ЕАД. Председател на Надзорния съвет: В. Чилова 6071 ОБЩИНА БРЕЗНИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

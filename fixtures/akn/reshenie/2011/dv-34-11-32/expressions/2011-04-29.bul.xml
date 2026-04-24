@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-32/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-32"/>
+          <FRBRalias value="Решение № 428 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 428 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-34-11-32"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-32/bul@2011-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-32/bul@2011-04-29"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-32/bul@2011-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-32/bul@2011-04-29.xml"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-29" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 428 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 428 от 30 март 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Белослав, реши: Одобрява ПУП – ПРЗ на ПИ № 018002, мест­ ност Стара гара – землището на с. Разделна, във връзка със смяна предназначението на имота за „Складова и търговска сграда за битова техника, промишлени стоки, мебели и стоки за бита“. Решението подлежи на обжалване в 30-дневен срок от обнародването в „Държавен вестник“ чрез Общинския съвет – гр. Белослав, пред Админист­ ративния съд – Варна. Председател: Ив. Сърмов 5113</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-25/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-25"/>
+          <FRBRalias value="Решение № 742 от 24 март 2015 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 742 от 24 март 2015 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-32-15-25"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-25/bul@2015-05-05/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-25/bul@2015-05-05"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-32-15-25/bul@2015-05-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-32-15-25/bul@2015-05-05.xml"/>
+          <FRBRdate date="2015-05-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-05" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 742 от 24 март 2015 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 742 от 24 март 2015 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА, чл. 8, ал. 1 ЗОС, чл. 21 ЗОЗЗ и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ихтиман, реши: 1. Одобрява проект за ПУП – ПП линейна част и технологични площадки на трасе на вход- но/изходни газопроводи (шлейфи) за връзка на КС Ихтиман с магистрален газопровод, земли- ще с. Стамболово, ЕКАТТЕ 04830, с. Мирово, ЕКАТТЕ 48369, община Ихтиман, обект: „Строеж 4 – „Реконструкция на КС Ихтиман“ – Етап ІІ“. 2. Възлага на кмета на община Ихтиман да издаде заповед за право на преминаване през засегнатите имоти – общинска собственост. Председател: Д. Бонев 2845 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

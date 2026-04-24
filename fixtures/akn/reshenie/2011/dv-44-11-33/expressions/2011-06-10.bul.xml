@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-33/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-33"/>
+          <FRBRalias value="Решение № 1336 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1336 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-44-11-33"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-33/bul@2011-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-33/bul@2011-06-10"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-33/bul@2011-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-33/bul@2011-06-10.xml"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-10" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1336 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1336 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и чл. 4, ал. 4 и чл. 32, ал. 3, т. 1 ЗПСК Общинският съвет – гр. Велико Търново, реши: Допълва т. 6 от решения № 1215 и 1216 от 24.02.2011 г. (ДВ, бр. 21 от 2011 г.) със следния текст: „За обектите се допуска и разсрочено пла­ щане при следните условия: начална вноска – не по-малка от 30 на сто от определената цена; срок за издължаване на остатъка – не по-голям от 24 месеца считано от датата на сключване на договора, като купувачът издължава остатъка по договореност на равни вноски, всяка от които СТР. 144 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 44 е дължима през не повече от шест месеца; при закъснение от графика върху неиздължената част започва да се начислява законна лихва (ОЛП плюс 10), а при забава с повече от 30 дни продавачът има право едностранно да развали договора, без да дължи връщане на получените до разваляне­ то на договора суми; в случаите на разсрочено плащане и когато имотът е облагаем с ДДС, заедно с началната вноска купувачът заплаща пълния размер на дължимия ДДС; при посоче­ ните условия в случаите на разсрочено плащане собствеността на имота се прехвърля на купувача с подписването на договора, като за периода до окончателното изплащане на определената цена имотът се ипотекира в полза на продавача. Председател: Ал. Чокойски 6686 ОБЩИНА ДЕВИН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

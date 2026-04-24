@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-3"/>
+          <FRBRalias value="Указ № 397 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 397 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2012/dv-94-12-3"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-3/bul@2012-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-3/bul@2012-11-30"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-3/bul@2012-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-3/bul@2012-11-30.xml"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 397 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 65.</num>
+          <content>
+            <p>Законът влиза в сила от 1 януари 2013 г., с изключение на § 61, т. 2, буква „а“, т. 3, 4 и 6, т. 7 – относно чл. 86, ал. 7, и т. 9 и § 64, които влизат в сила от деня на обнарод­ ването на този закон в „Държавен вестник“, § 61, т. 5, т. 7 – относно чл. 86, ал. 5 и 6, и т. 8, които влизат в сила от 1 април 2013 г., и § 47, т. 9, буква „в“ – относно чл. 159, ал. 5, и т. 11, които влизат в сила от 1 юли 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

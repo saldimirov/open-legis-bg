@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-2/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-2"/>
+          <FRBRalias value="Указ № 307 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 307 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2012/dv-65-12-2"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-2/bul@2012-08-24/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-2/bul@2012-08-24"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-2/bul@2012-08-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-2/bul@2012-08-24.xml"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-24" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 307 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 65 от 2000 г.; изм., бр. 29 от 2001 г., бр. 4 и 38 от 2002 г., бр. 58 от 2006 г., бр. 79 от 2008 г., бр. 35 от 2009 г., бр. 78 от 2011 г. и бр. 21 от 2012 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Награждавам посмъртно с орден „За храброст“ първа степен Христо Стефанов Стефанов за проявените храброст, героизъм и саможертва при спасяването на човешки живот. Издаден в София на 6 август 2012 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

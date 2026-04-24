@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-38-13-3/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-38-13-3"/>
+          <FRBRalias value="Тарифа за таксите, събирани от Изпълнителна аген­" name="short"/>
+          <FRBRalias value="Тарифа за таксите, събирани от Изпълнителна аген­" name="eli" other="/eli/bg/tarifa/2013/dv-38-13-3"/>
+          <FRBRdate date="2013-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-38-13-3/bul@2013-04-23/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-38-13-3/bul@2013-04-23"/>
+          <FRBRdate date="2013-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-38-13-3/bul@2013-04-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-38-13-3/bul@2013-04-23.xml"/>
+          <FRBRdate date="2013-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-04-23" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Тарифа за таксите, събирани от Изпълнителна аген­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>За оценка на техническа служба се събира такса 8650 лв., която се заплаща на части, както следва: 1. за проверка на заявлението – 450 лв.; 2. за предварително проучване – 1790 лв.; 3. за оценяване на място и за издаване на оценъчен доклад – 6410 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>За надзор на техническа служба се събира такса 3650 лв.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>За повторна оценка на техническа служба се събира такса 6820 лв.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Таксите по тарифата се заплащат от техническите служби преди извършване на конкретната дейност. Заключителна разпоредба Параграф единствен. Тарифата се приема на основание чл. 138г, ал. 5 от Закона за движението по пътищата. 3431</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

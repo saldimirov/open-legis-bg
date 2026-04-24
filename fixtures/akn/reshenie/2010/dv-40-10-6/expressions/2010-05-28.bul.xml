@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-6"/>
+          <FRBRalias value="Решение № 1 от 17 май 2010 г. На основание чл. 8, ал. 2 от Закона за уреждане" name="short"/>
+          <FRBRalias value="Решение № 1 от 17 май 2010 г. На основание чл. 8, ал. 2 от Закона за уреждане" name="eli" other="/eli/bg/reshenie/2010/dv-40-10-6"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-6/bul@2010-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-6/bul@2010-05-28"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-6/bul@2010-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-6/bul@2010-05-28.xml"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-28" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1 от 17 май 2010 г. На основание чл. 8, ал. 2 от Закона за уреждане</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1 от 17 май 2010 г. На основание чл. 8, ал. 2 от Закона за уреждане правата на граждани с многогодишни жилищ- носпестовни влогове във връзка с чл. 16, ал. 3 и 4 от правилника за прилагането му и Решение № 48 от 31.ІІІ.2010 г. на Общинския съвет – гр. Правец, Управителният съвет на Националния компенсационен жилищен фонд утвърждава про- мяна в персоналния състав на местната комисия по чл. 8, ал. 2 ЗУПГМЖСВ при община Правец, Софийска област (ДВ, бр. 36 от 2008 г.), като: освобождава Миглена Крумова Димитро- ва – председател на местната комисия; утвърждава Йотка Богданова Тодорова за нов председател на същата. Новоутвърденият председател на местната ко- мисия е легитимен да взема управленски решения и да подписва протоколи на същата от деня на обнародване на решението на Управителния съвет в „Държавен вестник“ и действа през мандата на предложилия го Общински съвет. Председател: М. Тотева 4338 СТР. 58 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 40 ОБЩИНА АСЕНОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

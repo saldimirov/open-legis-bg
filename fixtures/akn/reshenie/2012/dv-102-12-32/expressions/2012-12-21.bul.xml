@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-32/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-32"/>
+          <FRBRalias value="Решение № 231 от 22 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 231 от 22 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-102-12-32"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-32/bul@2012-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-32/bul@2012-12-21"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-102-12-32/bul@2012-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-102-12-32/bul@2012-12-21.xml"/>
+          <FRBRdate date="2012-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-21" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 231 от 22 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 231 от 22 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет „Марица“ реши: Одобрява ПУП – парцеларен план за обект: „Кабелна линия 20 kV от БКТП „Арда 90“ – с. Вой­ водиново, община „Марица“, до проектен БКТП „Орхидея“ в имот ПИ 29235.16.46 – с. Желязно, община „Марица“. Решението подлежи на обжалване в 30-дневен срок от обнародването в „Държавен вестник“ чрез общинската администрация до Административния съд – Пловдив. Председател: Г. Трендафилова 11483 ОБЩИНА СВОГЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-18"/>
+          <FRBRalias value="Решение № 552 от 9 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 552 от 9 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-24-15-18"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-18/bul@2015-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-18/bul@2015-03-31"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-18/bul@2015-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-18/bul@2015-03-31.xml"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-31" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 552 от 9 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 552 от 9 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Лю- бимец, реши: Одобрява ПУП – ПП за обект: Външно елек- трозахранване до ПИ 319014, местност СТ7 Над село, в землището на с. Дъбовец, община Лю- бимец, с обхват: – ПИ 000330 – полски път с ограничение за ползване на 0,009 дка; – ПИ 000070 – за движение и транспорт с ограничение за ползване на 0,019 дка; – ПИ 319020 – нива с ограничение за ползване на 0,052 дка. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Любимец пред Административния съд – Хасково. Председател: М. Станкова 2107 ОБЩИНА НОВА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

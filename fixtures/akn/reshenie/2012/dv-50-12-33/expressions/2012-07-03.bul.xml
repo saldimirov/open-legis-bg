@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-33/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-33"/>
+          <FRBRalias value="Решение № 122 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 122 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-50-12-33"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-33/bul@2012-07-03/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-33/bul@2012-07-03"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-33/bul@2012-07-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-33/bul@2012-07-03.xml"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-03" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 122 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 122 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ Общинският съвет – гр. При­ морско, реши: Одобрява подробен устройствен план (план за застрояване) за поземлен имот № 056007 по плана на с. Писменово, местност Харманите, с цел промяна предназначението на земята за индивидуално, еднофамилно, свободно вилно застрояване при спазване на следните показатели за застрояване – плътност на застрояване 30 %, Кинт. – 0,8, Нк – 7 м, и Кб – 9,50 м, минимална озеленена площ – 50 %, с максимална застроена площ на строително петно до 100 кв. м. Посочените изменения са съгласно червените и черните надписи и линии на приложения към решението проект. Председател: М. Барцулева 6044 ОБЩИНА ШАБЛА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

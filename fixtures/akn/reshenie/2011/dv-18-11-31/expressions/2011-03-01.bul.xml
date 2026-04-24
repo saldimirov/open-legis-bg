@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-31"/>
+          <FRBRalias value="Решение № 777 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11, чл. 20 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 777 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11, чл. 20 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-18-11-31"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-31/bul@2011-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-31/bul@2011-03-01"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-31/bul@2011-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-31/bul@2011-03-01.xml"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-01" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 777 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11, чл. 20 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 777 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11, чл. 20 ЗМСМА във връзка с чл. 17, ал. 1, т. 2 и чл. 129, ал. 1 във връзка с чл. 8, т. 1, чл. 9, ал. 2, чл. 12, ал. 2, чл. 59, ал. 1 и чл. 109 ЗУТ и протокол № 13 от 2010 г. на ОЕСУТ, т. 5, Общинският съвет – гр. Костинброд, допуска поправка на явна фактиче­ ска грешка в предходно свое Решение № 733 от 11.11.2010 г., като вместо думите „имот 063036“ да се чете „имот 064036“. Решението може да бъде обжалвано пред Административния съд по реда на чл. 214 ЗУТ. Председател: В. Михайлов 2421 ОБЩИНА МИЗИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

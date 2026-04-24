@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-4/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-4"/>
+          <FRBRalias value="Указ № 121 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28," name="short"/>
+          <FRBRalias value="Указ № 121 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28," name="eli" other="/eli/bg/ukaz/2010/dv-38-10-4"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-4/bul@2010-05-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-4/bul@2010-05-21"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-38-10-4/bul@2010-05-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-38-10-4/bul@2010-05-21.xml"/>
+          <FRBRdate date="2010-05-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-21" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 121 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 1, т. 7 от Закона за административно-тери­ ториалното устройство на Република България П О С ТА Н О В Я В А М : Утвърждавам нови граници на: 1. Община Созопол, област Бургас, включ­ ваща населените места: с. Атия, с. Вършило, с. Габър, с. Зидарово, с. Индже войвода, с. Кру­ шевец, с. Равадиново, с. Равна гора, с. Росен, гр. Созопол, с. Присад, гр. Черноморец. 2. Община Бургас, област Бургас, включва­ ща населените места: с. Братово, с. Брястовец, гр. Бургас, гр. Българово, с. Димчево, с. Дра­ ганово, с. Извор, с. Изворище, с. Маринка, с. Миролюбово, с. Равнец, с. Рудник, с. Твър­ дица, с. Черно море. Изпълнението на указа възлагам на област­ ния управител на област Бургас, на кмета на община Созопол и на кмета на община Бургас. Издаден в София на 10 май 2010 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

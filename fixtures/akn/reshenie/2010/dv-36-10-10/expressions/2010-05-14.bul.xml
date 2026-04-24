@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-10"/>
+          <FRBRalias value="Решение № 392 от 9 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 392 от 9 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-36-10-10"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-10/bul@2010-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-10/bul@2010-05-14"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-10/bul@2010-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-10/bul@2010-05-14.xml"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-14" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 392 от 9 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 392 от 9 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Брезо­ во, одобрява представения проект за ПУП – ПРЗ на имот № 012056, местност Селското, в землището на гр. Брезово за смяна статута на земеделска земя за изграждане на обект „Предприятие за об­ работка на пера и площадка за компост“, приет от Общинския експертен съвет по устройство на територията на 20.І.2010 г. с Решение № 2, взето с протокол № 2. Решението подлежи на обжалване в 14-дневен срок пред Административния съд – Пловдив, на основание чл. 215, ал. 4 ЗУТ. Председател: Ив. Стоев 3923 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

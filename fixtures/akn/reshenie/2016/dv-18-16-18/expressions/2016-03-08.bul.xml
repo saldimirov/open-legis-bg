@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-18-16-18/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-18-16-18"/>
+          <FRBRalias value="Решение № 97 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 97 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-18-16-18"/>
+          <FRBRdate date="2016-03-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-18-16-18/bul@2016-03-08/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-18-16-18/bul@2016-03-08"/>
+          <FRBRdate date="2016-03-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-18-16-18/bul@2016-03-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-18-16-18/bul@2016-03-08.xml"/>
+          <FRBRdate date="2016-03-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-08" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 97 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 97 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и протокол № 14 от 2015 г. на ОЕСУТ, т. 1, Общинският съвет – гр. Костинброд, одобрява възмездно проект за ПУП – ПП (подробен ус- тройствен план – парцеларен план ) за елементи на техническата инфраструктура – дъждовна канализация, до поземлени имоти № 4433, 4434, 4435, 4436, 4437, 4438 и 4439 по земеделски пъ- тища 000025, 000036 и 000246 в землището на гр. Костинброд. Председател: Ат. Тенев 1483 БРОЙ 18 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 27 ОБЩИНА ПАНАГЮРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

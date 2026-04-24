@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-79-24-1/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-79-24-1"/>
+          <FRBRalias value="Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2024/dv-79-24-1"/>
+          <FRBRdate date="2024-09-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-79-24-1/bul@2024-09-17/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-79-24-1/bul@2024-09-17"/>
+          <FRBRdate date="2024-09-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-79-24-1/bul@2024-09-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-79-24-1/bul@2024-09-17.xml"/>
+          <FRBRdate date="2024-09-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-09-17" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на Закона за независимия финансов одит, приет от 50-ото Народно събрание на 4 септември 2024 г. Издаден в София на 12 септември 2024 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Мария Павлова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-40/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-40"/>
+          <FRBRalias value="Решение № 66 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 66 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-22-12-40"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-40/bul@2012-03-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-40/bul@2012-03-16"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-40/bul@2012-03-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-40/bul@2012-03-16.xml"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-16" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 66 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 66 от 17 февруари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пър­ вомай, реши: Одобрява проект на ПУП – парцеларен план за трасе на външен водопровод до УПИ І-000434, производствена и складова дейност, м. Мера­ та, с. Караджалово, община Първомай, област Пловдив. Председател: Д. Петков 2498 ОБЩИНА РАДНЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

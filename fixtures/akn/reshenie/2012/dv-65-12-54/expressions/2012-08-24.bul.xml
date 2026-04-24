@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-54/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-54"/>
+          <FRBRalias value="Решение № 268 от 25 юли 2012 г. На основание чл. 129, ал. 1 ЗУТ и Решение" name="short"/>
+          <FRBRalias value="Решение № 268 от 25 юли 2012 г. На основание чл. 129, ал. 1 ЗУТ и Решение" name="eli" other="/eli/bg/reshenie/2012/dv-65-12-54"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="54"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-54/bul@2012-08-24/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-54/bul@2012-08-24"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-54/bul@2012-08-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-54/bul@2012-08-24.xml"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-24" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 268 от 25 юли 2012 г. На основание чл. 129, ал. 1 ЗУТ и Решение</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 268 от 25 юли 2012 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 22 от протокол № 2 от 6.03.2012 г. на ОЕСУТ при Община Сандански Общинският съвет – гр. Сандански, реши: Одобрява ПУП – парцеларен план за проект­ но трасе на водопровод за захранване на УПИ 000784„а“ (ПИ с идентификатор по действаща КК 65334.226.7841) в местността Чинар куши, землището на гр. Сандански. Трасето започва от съществуващ облекчите­ лен водоем № 2 на водопровода, захранващ гр. Сандански, преминава по поземлен имот с иден­ тификатор 65334.102.151 – път IV клас на община Сандански, и достига до УПИ 000784„а“ (ПИ с идентификатор по действаща КК 65334.226.7841) в местността Чинар куши, землището на гр. Сандански. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от об­ народването в „Държавен вестник“ чрез Община Сандански пред Административния съд – Бла­ гоевград. Председател: Ат. Стоянов 7906</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

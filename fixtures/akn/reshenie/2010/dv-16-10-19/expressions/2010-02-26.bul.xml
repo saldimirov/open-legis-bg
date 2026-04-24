@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-16-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-16-10-19"/>
+          <FRBRalias value="Решение № 286 от 27 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 286 от 27 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-16-10-19"/>
+          <FRBRdate date="2010-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-16-10-19/bul@2010-02-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-16-10-19/bul@2010-02-26"/>
+          <FRBRdate date="2010-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-16-10-19/bul@2010-02-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-16-10-19/bul@2010-02-26.xml"/>
+          <FRBRdate date="2010-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-26" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 286 от 27 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 286 от 27 януари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 2 от протокол № 7 от 17.XI.2009 г. на експертния съвет по устройство на територията на община Мъглиж Общинският съвет – гр. Мъглиж, одобрява ПУП – план за за­ строяване на ПИ № 624026 в местността „Лагера“ в землището на гр. Мъглиж, община Мъглиж, който предвижда изграждане на фотоволтаична централа, собственост на Стойо Стефанов Терзиев. Реше­ нието подлежи на обжалване в 14-дневен срок от обнародването в „Държавен вестник“ чрез община Мъглиж до Административен съд – Стара Загора. Председател: Кр. Стойчев 1318</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

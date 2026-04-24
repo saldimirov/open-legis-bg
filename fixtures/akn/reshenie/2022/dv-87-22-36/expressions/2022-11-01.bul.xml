@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-87-22-36/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-87-22-36"/>
+          <FRBRalias value="Решение № 179 от 20 септември 2022 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 179 от 20 септември 2022 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2022/dv-87-22-36"/>
+          <FRBRdate date="2022-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-87-22-36/bul@2022-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-87-22-36/bul@2022-11-01"/>
+          <FRBRdate date="2022-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-87-22-36/bul@2022-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-87-22-36/bul@2022-11-01.xml"/>
+          <FRBRdate date="2022-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-11-01" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 179 от 20 септември 2022 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 179 от 20 септември 2022 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 134, ал. 1, т. 1 във връзка с чл. 136, ал. 1 и чл. 127, ал. 6 от ЗУТ Общинският съвет – Видин, одобрява проект за изменение на „Общ устрой- ствен план на община Видин – за промяна пред- назначението на поземлен имот с идентификатор 06954.119.8 по кадастралната карта на с. Буковец, от територия, отредена за „стопански терени, животновъдни ферми“, в територия с предназна- чение „производствени дейности (П)“. Председател: Г. Велков 6842 ОБЩИНА ПЛЕВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-90-20-1/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-90-20-1"/>
+          <FRBRalias value="Решение за предсрочно освобождаване на Цвета Въл­" name="short"/>
+          <FRBRalias value="Решение за предсрочно освобождаване на Цвета Въл­" name="eli" other="/eli/bg/reshenie/2020/dv-90-20-1"/>
+          <FRBRdate date="2020-10-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-90-20-1/bul@2020-10-20/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-90-20-1/bul@2020-10-20"/>
+          <FRBRdate date="2020-10-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-90-20-1/bul@2020-10-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-90-20-1/bul@2020-10-20.xml"/>
+          <FRBRdate date="2020-10-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-10-20" name="Държавен вестник" number="90" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за предсрочно освобождаване на Цвета Въл­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чева Караянчева от поста председател на Народното събрание Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бъл­ гария и чл. 5, ал. 1, т. 2 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Отхвърля предложението за предсрочно освобождаване на Цвета Вълчева Караян­ чева от поста председател на 44-то Народно събрание. Решението е прието от 44-то Народно събрание на 15 октомври 2020 г. и е подпе­ чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-16"/>
+          <FRBRalias value="Указ № 211 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 211 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2016/dv-51-16-16"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-16/bul@2016-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-16/bul@2016-07-05"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-16/bul@2016-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-16/bul@2016-07-05.xml"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 211 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 211 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам г-н Петро Порошенко – пре­ зидент на Украйна, с орден „Стара планина“ с лента за изключително големите му заслуги за развитието и задълбочаването на българо- украинските отношения. Издаден в София на 24 юни 2016 г. Президент на републиката: Росен Плевнелиев Министър на външните работи: Даниел Митов Подпечатан с държавния печат. Министър на правосъдието: Екатерина Захариева 5216</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

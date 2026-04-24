@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-98-13-27/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-98-13-27"/>
+          <FRBRalias value="Решение № 281 от 31 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 281 от 31 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-98-13-27"/>
+          <FRBRdate date="2013-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-98-13-27/bul@2013-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-98-13-27/bul@2013-11-12"/>
+          <FRBRdate date="2013-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-98-13-27/bul@2013-11-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-98-13-27/bul@2013-11-12.xml"/>
+          <FRBRdate date="2013-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-12" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 281 от 31 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 129, ал. 1 ЗУТ) Общинският съвет – с. Руен, реши: Одобрява проекта за подробен устройствен план (ПУП) – парцеларен план (ПП) за обект: „Нов мост на път ІІІ-208 „Провадия – Айтос“ при км 67+909“, I етап, подобект: „Път III-208 „Провадия – Айтос“, участък от км 67+712,80 до км 67+948 и рампа от км 67+948 до км 67+984 и нов мост при км 67+909“, съгласно текстовата и графичната част на проектоплана. Решението подлежи на обжалване в едномесе- чен срок от обнародването в „Държавен вестник“ на основание чл. 215, ал. 1 и 4 ЗУТ пред Адми- нистративния съд – Бургас, чрез Община Руен. Председател: Е. Ешереф 8284</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

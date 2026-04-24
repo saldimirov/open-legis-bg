@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-3/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-3"/>
+          <FRBRalias value="Решение № 1273 от 13 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1273 от 13 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-67-11-3"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-3/bul@2011-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-3/bul@2011-08-30"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-3/bul@2011-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-3/bul@2011-08-30.xml"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-30" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1273 от 13 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1273 от 13 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и докладна записка вх. № ДЗ- 248 от 8.06.2011 г. от кмета на общината Об­ щинският съвет – Асеновград, реши: Одобрява ПУП – за хибридна влакнесто- оптична, коаксиална и ЕТР кабелна мрежа за пренос на данни и разрпостраняване на радио- теливизионни сигнали на територията на с. Тополово, община Асеновград. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Асеновград до Административния съд – Плов­ див. Председател: К. Яков 10080</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

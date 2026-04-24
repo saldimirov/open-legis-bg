@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-3/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-3"/>
+          <FRBRalias value="Протокол от 1988 г. относно Международната конвенция за безопасност на човешкия живот на море от 1974 г." name="short"/>
+          <FRBRalias value="Протокол от 1988 г. относно Международната конвенция за безопасност на човешкия живот на море от 1974 г." name="eli" other="/eli/bg/dogovor/2005/dv-12-05-3"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-3/bul@2005-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-3/bul@2005-02-04"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-12-05-3/bul@2005-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-12-05-3/bul@2005-02-04.xml"/>
+          <FRBRdate date="2005-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-02-04" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Протокол от 1988 г. относно Международната конвенция за безопасност на човешкия живот на море от 1974 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерство на транспорта и съобщенията          брой: 12, от дата 4.2.2005 г.   Официален раздел / МИНИСТЕРСТВА И ДРУГИ ВЕДОМСТВА    стр.5</p>
+          <p>Протокол от 1988 г. относно Международната конвенция за безопасност на човешкия живот на море от 1974 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

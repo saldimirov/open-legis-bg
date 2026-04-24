@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Държавен вестник{% endblock %}
+
+{% block content %}
+<div class="mb-6">
+  <h1 class="text-2xl font-bold text-gray-800 mb-1">Държавен вестник</h1>
+  <p class="text-gray-500 text-sm">Разгледайте законодателството по брой</p>
+</div>
+
+<div class="flex gap-6">
+
+  <!-- Year sidebar -->
+  <div class="w-36 shrink-0">
+    <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Година</p>
+    <div class="space-y-1">
+      {% for y in years %}
+      <a href="/dv?year={{ y.year }}"
+         class="flex items-center justify-between px-3 py-2 rounded-lg text-sm transition-colors
+           {% if current_year == y.year %}bg-blue-600 text-white{% else %}text-gray-700 hover:bg-gray-100{% endif %}">
+        <span class="font-medium">{{ y.year }}</span>
+        <span class="text-xs {% if current_year == y.year %}text-blue-200{% else %}text-gray-400{% endif %}">{{ y.issue_count }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Issue grid -->
+  <div class="flex-1 min-w-0">
+    {% if current_year %}
+    <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">
+      Броеве за {{ current_year }} г. — {{ issues|length }} броя
+    </p>
+    <div class="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-2">
+      {% for issue in issues %}
+      <a href="/dv/{{ issue.year }}/{{ issue.broy }}"
+         class="bg-white border border-gray-200 rounded-lg px-3 py-3 text-center hover:border-blue-400 hover:shadow-sm transition-all group">
+        <p class="text-base font-bold text-gray-800 group-hover:text-blue-700">{{ issue.broy }}</p>
+        <p class="text-xs text-gray-400 mt-0.5">{{ issue.act_count }} акта</p>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="flex items-center justify-center h-64 text-gray-400">
+      <p class="text-sm">Изберете година от списъка вляво</p>
+    </div>
+    {% endif %}
+  </div>
+
+</div>
+{% endblock %}

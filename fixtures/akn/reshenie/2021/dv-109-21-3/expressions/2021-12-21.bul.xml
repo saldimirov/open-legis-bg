@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-3/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-3"/>
+          <FRBRalias value="Решение за промяна на дните на ваканция на Народ­" name="short"/>
+          <FRBRalias value="Решение за промяна на дните на ваканция на Народ­" name="eli" other="/eli/bg/reshenie/2021/dv-109-21-3"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-3/bul@2021-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-3/bul@2021-12-21"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-109-21-3/bul@2021-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-109-21-3/bul@2021-12-21.xml"/>
+          <FRBRdate date="2021-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-12-21" name="Държавен вестник" number="109" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промяна на дните на ваканция на Народ­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ното събрание по чл. 39, ал. 2 от Правилника за организацията и дейността на Народното събрание Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 39, ал. 3 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : За 2021 г. намалява периода на ваканцията на Народното събрание по чл. 39, ал. 2 от Правилника за организацията и дейността на Народното събрание от 22 декември до 10 януари до дните 29 – 31 декември 2021 г. Решението е прието от 47-ото Народно съб­ рание на 17 декември 2021 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

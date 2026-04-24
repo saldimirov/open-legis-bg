@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-105-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-105-11-6"/>
+          <FRBRalias value="Закон за допълнение на Закона за търговския ре­" name="short"/>
+          <FRBRalias value="Закон за допълнение на Закона за търговския ре­" name="eli" other="/eli/bg/zid/2011/dv-105-11-6"/>
+          <FRBRdate date="2011-12-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-105-11-6/bul@2011-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-105-11-6/bul@2011-12-29"/>
+          <FRBRdate date="2011-12-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-105-11-6/bul@2011-12-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-105-11-6/bul@2011-12-29.xml"/>
+          <FRBRdate date="2011-12-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-29" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за допълнение на Закона за търговския ре­</p>
+      <p>(обн., ДВ, бр. 34 от 2006 г.; изм., бр. 80 и 105 от 2006 г., бр. 53, 59 и 104 от 2007 г., бр. 50 и 94 от 2008 г., бр. 44 от 2009 г., бр. 101 от 2010 г. и бр. 34 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 16 от преходните и заключител­ ните разпоредби на Закона за изменение и допълнение на Закона за търговския регистър (ДВ, бр. 34 от 2011 г.) след думата „на“ се добавя „§ 3, който влиза в сила от 1 януари 2013 г., и на“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Законът влиза в сила от 31 декември 2011 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

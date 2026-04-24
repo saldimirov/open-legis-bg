@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-19"/>
+          <FRBRalias value="Решение № 878 ОТ 16 ДЕКЕМВРИ 2010 Г. за разместване на почивни дни през 2011 г. На основание чл. 154, ал. 2 от Кодекса на" name="short"/>
+          <FRBRalias value="Решение № 878 ОТ 16 ДЕКЕМВРИ 2010 Г. за разместване на почивни дни през 2011 г. На основание чл. 154, ал. 2 от Кодекса на" name="eli" other="/eli/bg/reshenie/2010/dv-100-10-19"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-19/bul@2010-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-19/bul@2010-12-21"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-19/bul@2010-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-19/bul@2010-12-21.xml"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-21" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 878 ОТ 16 ДЕКЕМВРИ 2010 Г. за разместване на почивни дни през 2011 г. На основание чл. 154, ал. 2 от Кодекса на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>труда и чл. 55, ал. 2 от Закона за държавния служител МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Обявява 4 март (петък) за почивен ден, а 19 март (събота) за работен ден. 2. Обявява 23 май (понеделник) за почивен ден, а 28 май (събота) за работен ден. 3. Обявява 5 септември (понеделник) за почивен ден, а 3 септември (събота) за рабо­ тен ден. 4. Обявява 23 септември (петък) за почивен ден, а 17 септември (събота) за работен ден. За министър-председател: Симеон Дянков Главен секретар на Министерския съвет: Росен Желязков 10699</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

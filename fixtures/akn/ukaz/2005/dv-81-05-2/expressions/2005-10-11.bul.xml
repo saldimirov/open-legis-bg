@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-81-05-2/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-81-05-2"/>
+          <FRBRalias value="Указ № 310 за освобождаване на Евгений Пенков Еков от длъжността извънреден и пълномощен посланик на Република България в Република Молдова и за назначаване на Николай Илиев Илиев за извънреден и пълномощен посланик на Република България в Република Молдова" name="short"/>
+          <FRBRalias value="Указ № 310 за освобождаване на Евгений Пенков Еков от длъжността извънреден и пълномощен посланик на Република България в Република Молдова и за назначаване на Николай Илиев Илиев за извънреден и пълномощен посланик на Република България в Република Молдова" name="eli" other="/eli/bg/ukaz/2005/dv-81-05-2"/>
+          <FRBRdate date="2005-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-81-05-2/bul@2005-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-81-05-2/bul@2005-10-11"/>
+          <FRBRdate date="2005-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-81-05-2/bul@2005-10-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-81-05-2/bul@2005-10-11.xml"/>
+          <FRBRdate date="2005-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-10-11" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 310 за освобождаване на Евгений Пенков Еков от длъжността извънреден и пълномощен посланик на Република България в Република Молдова и за назначаване на Николай Илиев Илиев за извънреден и пълномощен посланик на Република България в Република Молдова</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 81, от дата 11.10.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.4</p>
+          <p>Указ № 310 за освобождаване на Евгений Пенков Еков от длъжността извънреден и пълномощен посланик на Република България в Република Молдова и за назначаване на Николай Илиев Илиев за извънреден и пълномощен посланик на Република България в Република Молдова</p>
+          <p>УКАЗ № 310</p>
+          <p>На основание чл. 98, т. 6 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Изпълнението на указа възлагам на министъра на външните работи.</p>
+          <p>Издаден в София на 4 октомври 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

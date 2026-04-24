@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-13/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-13"/>
+          <FRBRalias value="Решение № 3 от 30 януари 2018 г." name="short"/>
+          <FRBRalias value="Решение № 3 от 30 януари 2018 г." name="eli" other="/eli/bg/reshenie/2018/dv-12-18-13"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-13/bul@2018-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-13/bul@2018-02-06"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-12-18-13/bul@2018-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-12-18-13/bul@2018-02-06.xml"/>
+          <FRBRdate date="2018-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-06" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3 от 30 януари 2018 г.</p>
+      <p>(обн., ДВ, бр. 12 от 2010 г.; изм. и доп., бр. 56, 88 и 102 от 2010 г., бр. 33 и 60 от 2011 г., бр. 62 и 107 от 2013 г., бр. 50 от 2014 г., бр. 61 от 2016 г. и бр. 86 от 2017 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Със статут на второстепенен разпо- редител с бюджет към министъра на образо- ванието и науката са: 1. председателят на Българската академия на науките; 2. ректорите на висшите училища, посочени в приложение № 2. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се чл. 2 от Постановление № 11 на Министерския съвет от 2010 г. за приемане на Устройствен правилник на Министерството на образованието и науката и определяне на първостепенния и второстепенните разпо- редители с бюджетни кредити в Министер- ството на образованието и науката (обн., ДВ, бр. 12 от 2010 г.; изм. и доп., бр. 56, 88 и 102 от 2010 г., бр. 33 и 60 от 2011 г., бр. 62 и 107 от 2013 г., бр. 50 от 2014 г., бр. 61 от 2016 г. и бр. 86 от 2017 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В Устройствения правилник на Ми- нистерството на образованието и науката, приет с Постановление № 11 на Министерския съвет от 2010 г. (обн., ДВ, бр. 12 от 2010 г.; изм. и доп., бр. 56, 74 и 102 от 2010 г., бр. 33, МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

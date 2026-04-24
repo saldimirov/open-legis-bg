@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-48/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-48"/>
+          <FRBRalias value="Решение № 111 от 31 май 2012 г. На основание чл. 24 и чл. 25, т. 1 ЗАТУРБ и" name="short"/>
+          <FRBRalias value="Решение № 111 от 31 май 2012 г. На основание чл. 24 и чл. 25, т. 1 ЗАТУРБ и" name="eli" other="/eli/bg/reshenie/2012/dv-55-12-48"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="48"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-48/bul@2012-07-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-48/bul@2012-07-20"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-48/bul@2012-07-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-48/bul@2012-07-20.xml"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-20" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 111 от 31 май 2012 г. На основание чл. 24 и чл. 25, т. 1 ЗАТУРБ и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 111 от 31 май 2012 г. На основание чл. 24 и чл. 25, т. 1 ЗАТУРБ и чл. 21, ал. 1, т. 11 и 18 ЗМСМА поради необходимост от задоволяване на възникнали курортни нужди с местно значение и наличие на устройствен план на селищното образувание Общинският съвет – гр. Разлог, прие решение за създаване на ново селищно образувание с местно значение с наименование „Пирин“ в местността Бетоловото, землище на гр. Разлог, община Разлог. Председател: М. Копанарова 6535 ОБЩИНА РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

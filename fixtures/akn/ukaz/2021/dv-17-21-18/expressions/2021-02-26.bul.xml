@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-17-21-18/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-17-21-18"/>
+          <FRBRalias value="Указ № 53 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 53 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-17-21-18"/>
+          <FRBRdate date="2021-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-17-21-18/bul@2021-02-26/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-17-21-18/bul@2021-02-26"/>
+          <FRBRdate date="2021-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-17-21-18/bul@2021-02-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-17-21-18/bul@2021-02-26.xml"/>
+          <FRBRdate date="2021-02-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-02-26" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 53 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 106 от 1991 г.; попр., бр. 3 от 1992 г.; изм. и доп., бр. 35 от 1999 г., бр. 8 от 2001 г., бр. 71 от 2012 г., бр. 50 от 2014 г., бр. 14 от 2016 г.; изм., бр. 16 от 2016 г.; изм. и доп., бр. 9 от 2019 г.; доп., бр. 30 от 2020 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Назначавам Мария Павлова Цоцорко- ва-Каймакчиева за извънреден и пълномощен посланик на Република България в Република Южна Африка със седалище в Претория. Изпълнението на указа възлагам на минис- търа на външните работи. Издаден в София на 16 февруари 2021 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

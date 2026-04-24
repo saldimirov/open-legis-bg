@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-20"/>
+          <FRBRalias value="Тарифа за таксите, събирани за регистрация на пред­" name="short"/>
+          <FRBRalias value="Тарифа за таксите, събирани за регистрация на пред­" name="eli" other="/eli/bg/tarifa/2012/dv-12-12-20"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-20/bul@2012-02-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-20/bul@2012-02-10"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-12-12-20/bul@2012-02-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-12-12-20/bul@2012-02-10.xml"/>
+          <FRBRdate date="2012-02-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-10" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Тарифа за таксите, събирани за регистрация на пред­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>За регистрация на предприятиe, коeто осигурява временна работа, включително за издаване на удостоверение за регистрация, се събира такса в размер 740 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>За издаване на дубликат на удосто­ верението за регистрация по чл. 1 се събира такса в размер 80 лв. Раздел II Ред за плащане</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Таксата по чл. 1 се заплаща в срок до 14 дни от датата на уведомяване на зая­ вителя, че тя е дължима.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Таксата по чл. 2 се заплаща при подаване на заявлението от предприятието, което осигурява временна работа.</p>
+        </content>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <paragraph eId="art_5__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Дължимите такси по чл. 1 и 2 се превеждат по банков път по сметката на Агенцията по заетостта.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_5__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Направените банкови плащания се удостоверяват със заверен екземпляр от пла­ тежното нареждане. Заключителна разпоредба Параграф единствен. Тарифата се приема на основание чл. 74к, ал. 3 и 4 от Закона за насърчаване на заетостта. 1196</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

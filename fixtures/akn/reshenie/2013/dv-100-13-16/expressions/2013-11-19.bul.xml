@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-16/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-16"/>
+          <FRBRalias value="Решение № 698 ОТ 14 НОЕМВРИ 2013 Г. за изменение и допълнение на Решение № 945 на Министерския съвет от 2012 г. за размест­" name="short"/>
+          <FRBRalias value="Решение № 698 ОТ 14 НОЕМВРИ 2013 Г. за изменение и допълнение на Решение № 945 на Министерския съвет от 2012 г. за размест­" name="eli" other="/eli/bg/reshenie/2013/dv-100-13-16"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-16/bul@2013-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-16/bul@2013-11-19"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-100-13-16/bul@2013-11-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-100-13-16/bul@2013-11-19.xml"/>
+          <FRBRdate date="2013-11-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-11-19" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 698 ОТ 14 НОЕМВРИ 2013 Г. за изменение и допълнение на Решение № 945 на Министерския съвет от 2012 г. за размест­</p>
+      <p>(обн., ДВ, бр. 91 от 2012 г.; изм., бр. 30 от 2013 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 698 ОТ 14 НОЕМВРИ 2013 Г. за изменение и допълнение на Решение № 945 на Министерския съвет от 2012 г. за размест­ ване на почивни дни през 2013 г. (обн., ДВ, бр. 91 от 2012 г.; изм., бр. 30 от 2013 г.) МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Създава се нова т. 2: „2. Обявява 23 декември (понеделник) за почивен ден, а 21 декември (събота) за ра- ботен ден.“ 2. Досегашната т. 2 става т. 3.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-20"/>
+          <FRBRalias value="Решение № 64 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 64 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-15-16-20"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-20/bul@2016-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-20/bul@2016-02-23"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-20/bul@2016-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-20/bul@2016-02-23.xml"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-23" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 64 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 64 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 10 от протокол № 12 от 11.12.2015 г. на Експертния съвет по устройство на територията на Община Мъглиж Общинският съвет – гр. Мъглиж, реши: Одобрява подробен устройствен план – пар­ целарен план за обект „Кабел за ел. захранване на „Катодна станция с. Зимница“ в землището на с. Зимница, община Мъглиж, с възложител „ВиК“ – ЕООД, Стара Загора. Трасето на ел. кабела започва от съществуващ стълб № 189 на мрежа НН, извод „Б“, в северния край на с. Зимница. Продължава на изток през ПИ № 000116 (междуселищна пътна мрежа) и през ПИ № 000115 (полски път) достига до шахта, в която е разположена катодната станция. Решението подлежи на обжалване в 30-дневен срок от обнародването му в „Държавен вестник“ чрез Община Мъглиж до Административния съд – Стара Загора. Председател: Ст. Христов 1104 ОБЩИНА НЕСЕБЪР</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

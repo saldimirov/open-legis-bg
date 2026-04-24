@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-7/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-7"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на наро-" name="short"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на наро-" name="eli" other="/eli/bg/reshenie/2014/dv-40-14-7"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-7/bul@2014-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-7/bul@2014-05-13"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-7/bul@2014-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-7/bul@2014-05-13.xml"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-13" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване на пълномощията на наро-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ден представител Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Репуб­ лика България Р Е Ш И : Прекратява пълномощията на Атанас Ата- насов Папаризов като народен представител от 24. многомандатен изборен район – София. Решението е прието от 42-то Народно съб­рание на 7 май 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-26"/>
+          <FRBRalias value="Решение № 13 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 13 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2016/dv-15-16-26"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-26/bul@2016-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-26/bul@2016-02-23"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-26/bul@2016-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-26/bul@2016-02-23.xml"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-23" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13 от 26 януари 2016 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ и след станалите разисквания Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеларен план за трасе на водопровод с дължина на трасето 161 м, започващо от съществуващ водопровод до ПИ 55155.22.230, местност Сазлъка по КККР на землище Пазарджик, преминаващо през ПИ БРОЙ 15 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 37 55155.22.125 – полски път, съгласно изчертаните със зелено трасе и сервитути и приложения ре­ гистър на засегнатите имоти. Председател: Х. Харалампиев 1164</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

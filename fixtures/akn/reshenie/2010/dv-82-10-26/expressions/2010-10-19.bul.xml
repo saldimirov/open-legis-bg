@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-26"/>
+          <FRBRalias value="Решение № 254 от 24 септември 2010 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 254 от 24 септември 2010 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2010/dv-82-10-26"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-26/bul@2010-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-26/bul@2010-10-19"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-26/bul@2010-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-26/bul@2010-10-19.xml"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-19" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 254 от 24 септември 2010 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 254 от 24 септември 2010 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – Благоевград, одобрява ПУП – парце­ ларен план за улична канализация до имоти с идентификатори 04279.100.32 и 04279.100.589 в м. Мутишица по КК на Благоевград, минаваща през имоти с идентификатори 04279.629.136 – за жилищен комплекс и озеленяване, общинска собственост, 04279.629.71 – улица, общинска пуб­ лична собственост, и 04279.100.21 – асфалтов път (общински). Определен е сервитут на уличната канализация по 3 м от оста в двете посоки, засягащ имоти с идентификатори 04279.629.71 – общински, 04279.100.21 – общински, 04279.100.32 – частен, 04279.100.33 – частен, 04279.100.34 – частен, и 04279.100.589 – частен. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Благоевград до Административния съд – Бла­ гоевград. Председател: К. Хаджигаев 8099</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

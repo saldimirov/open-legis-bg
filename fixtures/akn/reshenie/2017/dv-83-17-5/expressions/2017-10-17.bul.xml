@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-83-17-5/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-83-17-5"/>
+          <FRBRalias value="Решение № 533 от 3 октомври 2017 г. за изменение на Правилата за условията и" name="short"/>
+          <FRBRalias value="Решение № 533 от 3 октомври 2017 г. за изменение на Правилата за условията и" name="eli" other="/eli/bg/reshenie/2017/dv-83-17-5"/>
+          <FRBRdate date="2017-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-83-17-5/bul@2017-10-17/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-83-17-5/bul@2017-10-17"/>
+          <FRBRdate date="2017-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-83-17-5/bul@2017-10-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-83-17-5/bul@2017-10-17.xml"/>
+          <FRBRdate date="2017-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-10-17" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 533 от 3 октомври 2017 г. за изменение на Правилата за условията и</p>
+      <p>(обн., ДВ, бр. 29 от 2008 г.; изм., бр. 19 от 2010 г.; изм. и доп., бр. 81 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 6 се правят следните изменения: 1. Алинея 3 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(3)</num>
+            <content>
+              <p>Към заявлението предприятието по ал. 1 следва да приложи документ за регистра­ ция на чуждестранно лице заявител съобразно националното му законодателство, когато е приложимо.“ 2. В ал. 4: а) точка 1 се изменя така: „1. документ за регистрация на чуждестран­ но лице заявител съобразно националното му законодателство, когато е приложимо;“ б) точка 2 се заличава; в) досегашните т. 3, 4 и 5 стават съответно т. 2, 3 и 4. Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Решението влиза в сила от деня на обнародването му в „Държавен вестник“. Председател: Веселин Божков 7497 ЦЕНТРАЛНА ИЗБИРАТЕЛНА КОМИСИЯ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

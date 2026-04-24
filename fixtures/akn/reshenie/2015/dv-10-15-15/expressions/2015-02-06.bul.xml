@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-15/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-15"/>
+          <FRBRalias value="Решение № 612 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 612 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-10-15-15"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-15/bul@2015-02-06/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-15/bul@2015-02-06"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-10-15-15/bul@2015-02-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-10-15-15/bul@2015-02-06.xml"/>
+          <FRBRdate date="2015-02-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-06" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 612 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 612 от 18 декември 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение по т. 3 на ОЕСУТ, взето с протокол № 1 от 14.02.2013 г., Общинският съвет – гр. Приморско, реши: Одобрява подробен устройствен план (план за улична регулация) с цел изграждане на съ- бирателна улица с габарит 10 м, свързваща ул. Секвоя от о.т. 117 до ул. Дъга с о.т. 24 между кв. 9 и кв. 16 на юг и кв. 6, кв. 7 и кв. 8 по плана на СО „Узунджата“, гр. Приморско, в обхват на поземлени имоти с идентифика- тори 58356.505.336, 58356.505.52, 58356.505.339, 58356.505.54, 58356.505.57, 58356.505.59, 58356.505.60, 58356.505.251, 58356.505.138, 58356.505.248, 58356.505.55, 58356.505.338, 58356.505.337, 58356.504.566, 58356.504.534, 58356.504.533, 58356.504.534, 58356.504.481, 58356.504.480 по КККР на СО „Узунджата“, гр. Приморско. Председател: М. Барцулева 714 ОБЩИНА СЕПТЕМВРИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

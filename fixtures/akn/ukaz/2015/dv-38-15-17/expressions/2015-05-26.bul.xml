@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-38-15-17/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-38-15-17"/>
+          <FRBRalias value="Указ № 90 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 90 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2015/dv-38-15-17"/>
+          <FRBRdate date="2015-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-38-15-17/bul@2015-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-38-15-17/bul@2015-05-26"/>
+          <FRBRdate date="2015-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-38-15-17/bul@2015-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-38-15-17/bul@2015-05-26.xml"/>
+          <FRBRdate date="2015-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-26" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 90 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 20 от 2001 г.; изм., бр. 64 от 2001 г., бр. 4 от 2002 г., бр. 52 и 88 от 2003 г., бр. 11 и 37 от 2006 г., бр. 78 от 2008 г., бр. 32 и 56 от 2009 г., бр. 47 от 2010 г., бр. 83 от 2011 г., бр. 21 и 62 от 2012 г. и бр. 94 от 2013 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Награждавам проф. Неделчо Николов Милев с орден „Св. св. Кирил и Методий“ огърлие за особено значимите му заслуги в областта на културата. Издаден в София на 19 май 2015 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

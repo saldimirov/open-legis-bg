@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-34/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-34"/>
+          <FRBRalias value="Решение № 335 от 19 юли 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3," name="short"/>
+          <FRBRalias value="Решение № 335 от 19 юли 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3," name="eli" other="/eli/bg/reshenie/2012/dv-61-12-34"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-34/bul@2012-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-34/bul@2012-08-10"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-61-12-34/bul@2012-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-61-12-34/bul@2012-08-10.xml"/>
+          <FRBRdate date="2012-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-10" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 335 от 19 юли 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 335 от 19 юли 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3, ал. 3, т. 2 и чл. 4, ал. 4 ЗПСК Общинският съ­ вет – гр. Велико Търново, реши: 1. Открива процедура за приватизация на общински нежилищен имот, представляващ: „Застроен УПИ VІІ от кв. 34 по плана на с. Ветринци, с площ 600 кв.м, заедно с постро­ ена в него сграда (старо кметство), със ЗП 74 кв.м“ – собственост на Община Велико Търново. 2. Забранява извършването на разпоредителни сделки с имота и дълготрайни активи на имота, сключването на договори за наем, за съвместна дейност, за обезпечаване на вземания, които имат за предмет имота по т. 1, освен с разрешение на общинския съвет. 3. Възлага на общинската агенция за прива­ тизация да подготви и осъществи приватизаци­ онната сделка за имота по установения от закона ред и приетите решения от общинския съвет. Председател: Н. Ашиков 7156</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

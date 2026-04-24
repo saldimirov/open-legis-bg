@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-11/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-11"/>
+          <FRBRalias value="Указ № 193 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 193 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2021/dv-65-21-11"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-11/bul@2021-08-06/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-11/bul@2021-08-06"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-65-21-11/bul@2021-08-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-65-21-11/bul@2021-08-06.xml"/>
+          <FRBRdate date="2021-08-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-08-06" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 193 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+      <p>(обн., ДВ, бр. 88 от 2004 г.; доп., бр. 109 от 2004 г.; изм. и доп., бр. 73 от 2005 г., бр. 9 и 30 от 2009 г.; изм., бр. 49 от 2009 г.; изм. и доп., бр. 54 от 2010 г., бр. 11 от 2011 г., бр. 39 от 2013 г., бр. 7 от 2015 г., бр. 52, 62 и 85 от 2017 г. и бр. 88 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>В чл. 37, ал. 5, в основния текст, изре- чение първо думите „по реда на чл. 35 от ЗЗБ“ се заличават, а след абревиатурата „ЛСО“ се добавя „по чл. 35, ал. 3, т. 5 от ЗЗБ“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>Създава се чл. 38: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 38.</num>
+          <content>
+            <p>Министърът на вътрешните работи утвърждава методически указания за опреде- ляне на дейностите, функциите и задълженията на длъжностните лица по експлоатацията, администрирането, техническата поддръжка и профилактиката на Националната система за ранно предуп­реждение и оповестяване по предложение на директора на ДКИС – МВР и директора на ГДПБЗН – МВР.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 9.</num>
+          <content>
+            <p>В § 1 от допълнителната разпоредба се създава т. 9: „9. „Зона със спящи хора“ е територия, в която са разположени един или повече обекта, обитателите на които не са будни през целия си престой в обекта – жилищни сгради, сгради за обществено обслужване в областта на образованието, здравеопаз- ването и социалните грижи, общежития, хотели, мотели, планински хижи, почивни домове, ваканционни бунгала, къмпинги и казарми.“</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

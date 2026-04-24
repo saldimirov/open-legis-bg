@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-3"/>
+          <FRBRalias value="Указ № 62 На основание чл. 98, т. 7 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 62 На основание чл. 98, т. 7 от Конститу-" name="eli" other="/eli/bg/ukaz/2017/dv-11-17-3"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-3/bul@2017-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-3/bul@2017-01-31"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-3/bul@2017-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-3/bul@2017-01-31.xml"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-31" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 62 На основание чл. 98, т. 7 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 62 На основание чл. 98, т. 7 от Конститу- цията на Република България във връзка с чл. 8, ал. 3, т. 12 от Закона за управление и функциониране на системата за защита на националната сигурност П О С Т А Н О В Я В А М : Определям за представители на президента на Републиката в Съвета по сигурността към Министерския съвет: 1. Иво Христо Петков – началник на каби- нета на президента на Републиката, и 2. Димитър Желязков Стоянов – главен секретар на президента на Републиката. Отменям Указ № 244 от 7 декември 2015 г. (изм. с Указ № 1 от 2016 г.) на президента на Републиката. Издаден в София на 25 януари 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Екатерина Захариева 750</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-8/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-8"/>
+          <FRBRalias value="Указ № 289 за освобождаване на Петър Димитров Андонов от длъжността извънреден и пълномощен посланик на Република България в  Република Филипини" name="short"/>
+          <FRBRalias value="Указ № 289 за освобождаване на Петър Димитров Андонов от длъжността извънреден и пълномощен посланик на Република България в  Република Филипини" name="eli" other="/eli/bg/ukaz/2005/dv-77-05-8"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-8/bul@2005-09-27/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-8/bul@2005-09-27"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-77-05-8/bul@2005-09-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-77-05-8/bul@2005-09-27.xml"/>
+          <FRBRdate date="2005-09-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-27" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 289 за освобождаване на Петър Димитров Андонов от длъжността извънреден и пълномощен посланик на Република България в  Република Филипини</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 77, от дата 27.9.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.38</p>
+          <p>Указ № 289 за освобождаване на Петър Димитров Андонов от длъжността извънреден и пълномощен посланик на Република България в  Република Филипини</p>
+          <p>УКАЗ № 289</p>
+          <p>На основание чл. 98, т. 6 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Освобождавам Петър Димитров Андонов от длъжността извънреден и пълномощен посланик на Република България в Република Филипини.</p>
+          <p>Изпълнението на указа възлагам на министъра на външните работи.</p>
+          <p>Издаден в София на 12 септември 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

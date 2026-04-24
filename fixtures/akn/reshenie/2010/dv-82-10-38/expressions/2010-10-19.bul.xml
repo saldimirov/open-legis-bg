@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-38/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-38"/>
+          <FRBRalias value="Решение № 770 от 30 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 770 от 30 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-82-10-38"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="38"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-38/bul@2010-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-38/bul@2010-10-19"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-82-10-38/bul@2010-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-82-10-38/bul@2010-10-19.xml"/>
+          <FRBRdate date="2010-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-19" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 770 от 30 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 770 от 30 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 59, ал. 1 и чл. 150 ЗУТ във връзка с решение на ОЕСУТ, прието с протокол № 14 от 15. 09.2010 г., Общинският съвет – Свиленград, одобрява ПУП – парцеларен план и специализи­ рана схема на техническата инфраструктура за външно електрозахранване – подземна кабелна електропроводна линия 20 kV на обект: Фото­ волтаична електроцентрала в ПИ № 072008 в м. Могилите, в землището на с. Пъстрогор. Нераз­ делна част от решението са приложеният план и приложени графична и текстова част. Председател: Т. Коларова 8171</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

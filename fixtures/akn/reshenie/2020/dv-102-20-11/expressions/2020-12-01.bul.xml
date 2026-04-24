@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-11"/>
+          <FRBRalias value="Решение № 857 ОТ 26 НОЕМВРИ 2020 Г. за приемане на Списък със защитените детски" name="short"/>
+          <FRBRalias value="Решение № 857 ОТ 26 НОЕМВРИ 2020 Г. за приемане на Списък със защитените детски" name="eli" other="/eli/bg/reshenie/2020/dv-102-20-11"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-11/bul@2020-12-01/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-11/bul@2020-12-01"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-102-20-11/bul@2020-12-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-102-20-11/bul@2020-12-01.xml"/>
+          <FRBRdate date="2020-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-01" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 857 ОТ 26 НОЕМВРИ 2020 Г. за приемане на Списък със защитените детски</p>
+      <p>(обн., ДВ, бр. 51 от 2017 г.; изм., бр. 31 от 2018 г. и бр. 100 от 2019 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>КОДЕКС ЗА УПРАВЛЕНИЕ НА БЕЗОПАСНОСТТА Корабът отговаря на съответните разпоредби на част В от Международния кодекс за управление на безопасността и свидетелството в съответствие с част В 13.13 от Международния кодекс за управление на безопасността се приема за валидно до ……………………. Подпис .............................................. (Подпис на упълномощено длъжностно лице) Място ................................................ Дата ................................................... (Печат или щемпел на органа, според случая) ОДОБРЕНИЕ ЗА УДЪЛЖАВАНЕ ВАЛИДНОСТТА НА СВИДЕТЕЛСТВОТО ДО ПРИСТИГАНЕ НА ПРИСТАНИЩЕТО ЗА ПРОВЕРКА, КЪДЕТО СЕ ПРИЛАГА ЧАСТ В 13.12 ОТ МЕЖДУНАРОДНИЯ КОДЕКС ЗА УПРАВЛЕНИЕ НА БЕЗОПАСНОСТТА, ИЛИ ЗА ГРАТИСЕН ПЕРИОД, КОГАТО СЕ ПРИЛАГА ЧАСТ В 13.14 ОТ МЕЖДУНАРОДНИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

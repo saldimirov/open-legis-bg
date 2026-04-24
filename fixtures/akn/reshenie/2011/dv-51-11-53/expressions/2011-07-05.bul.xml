@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-53/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-53"/>
+          <FRBRalias value="Решение № 329 от 22 юни 2011 г. На основание заявление с вх. № 2302 от" name="short"/>
+          <FRBRalias value="Решение № 329 от 22 юни 2011 г. На основание заявление с вх. № 2302 от" name="eli" other="/eli/bg/reshenie/2011/dv-51-11-53"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="53"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-53/bul@2011-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-53/bul@2011-07-05"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-53/bul@2011-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-53/bul@2011-07-05.xml"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 329 от 22 юни 2011 г. На основание заявление с вх. № 2302 от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 329 от 22 юни 2011 г. На основание заявление с вх. № 2302 от 20.07.2009 г., чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и протокол № 6 от 12.05.2011 г., т. 3, на ОЕСУТ Общинският съвет – гр. Любимец, одобрява ПУП(ПЗ) – план за застрояване на ПИ № 051018, местност Каялталъка, в землището на с. Оряхово, община Любимец, като се отреди за изграждане на фотоволтаична система за про­ изводство на електрическа енергия с инвеститор „Солар Билдинг“ – ООД. Председател: А. Голев 7841</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

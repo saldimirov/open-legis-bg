@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-54-17-13/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-54-17-13"/>
+          <FRBRalias value="Решение № 124 от 1 юни 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 124 от 1 юни 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2017/dv-54-17-13"/>
+          <FRBRdate date="2017-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-54-17-13/bul@2017-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-54-17-13/bul@2017-07-05"/>
+          <FRBRdate date="2017-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-54-17-13/bul@2017-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-54-17-13/bul@2017-07-05.xml"/>
+          <FRBRdate date="2017-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-07-05" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 124 от 1 юни 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 124 от 1 юни 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 134, ал. 1, т. 1 и чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Видин, реши: Одобрява проект за изменение на общ устрой­ ствен план на гр. Видин – за промяна предназ­ начението на ПИ с идентификатор 10971.86.34 по кадастралната карта на гр. Видин, местност Алимана 2, собственост на „Солей груп“ – ЕООД, с който предназначението на имота се променя от „обработваеми земеделски земи“ в „общест­ венообслужващи функции“. Председател: Г. Велков 4755 ОБЩИНА КОСТИНБРОД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

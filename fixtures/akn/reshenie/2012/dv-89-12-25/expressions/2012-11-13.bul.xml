@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-25/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-25"/>
+          <FRBRalias value="Решение № 369 от 26 октомври 2012 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 369 от 26 октомври 2012 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-89-12-25"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-25/bul@2012-11-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-25/bul@2012-11-13"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-89-12-25/bul@2012-11-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-89-12-25/bul@2012-11-13.xml"/>
+          <FRBRdate date="2012-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-13" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 369 от 26 октомври 2012 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 369 от 26 октомври 2012 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 59, ал. 1 ЗУТ Общин­ ският съвет – гр. Берковица, одобрява ПУП – пар­ целарен план за обект: „Кабелно отклонение 20 kV с дължина 258,13 м до нов трафопост“, в ПИ 000002, местност Берковска река, землище с. Мездрея, собственост на ЕТ „Грантпроектстрой“, и пре­ минаващо през поземлени имоти с № 03928.44.42, 03928.44.41, 03928.44.35, 03928.44.124, 000114, 018021, 000009 в землищата на гр. Берковица и с. Мездрея, община Берковица. Председател: Юл. Иванов 10298 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

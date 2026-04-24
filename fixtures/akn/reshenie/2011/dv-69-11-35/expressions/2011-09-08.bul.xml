@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-35/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-35"/>
+          <FRBRalias value="Решение № 990 от 26 юли 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 990 от 26 юли 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-69-11-35"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-35/bul@2011-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-35/bul@2011-09-08"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-35/bul@2011-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-35/bul@2011-09-08.xml"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-08" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 990 от 26 юли 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 990 от 26 юли 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА, чл. 14, ал. 1 и чл. 16, т. 1 и чл. 17, ал. 1, т. 4 и 5 във връзка с чл. 30 ЗАТУРБ Общинският съ­ вет – Разград, реши: 1. Закрива следните кметства: 1.1. Балкански – с административен център с. Балкански. 1.2. Недоклан – с административен център с. Недоклан. 1.3. Побит камък – с административен център с. Побит камък. 1.4. Пороище – с административен център с. Пороище. 1.5. Просторно – с административен център с. Просторно. 1.6. Ушинци – с административен център с. Ушинци. Решението подлежи на оспорване в срока по АПК пред Административния съд – Разград. Председател: Д. Добрев 10135 ОБЩИНА РАЗЛОГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

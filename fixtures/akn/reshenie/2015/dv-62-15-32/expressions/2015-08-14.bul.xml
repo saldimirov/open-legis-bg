@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-62-15-32/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-62-15-32"/>
+          <FRBRalias value="Решение № 701 от 29 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 701 от 29 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2015/dv-62-15-32"/>
+          <FRBRdate date="2015-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-62-15-32/bul@2015-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-62-15-32/bul@2015-08-14"/>
+          <FRBRdate date="2015-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-62-15-32/bul@2015-08-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-62-15-32/bul@2015-08-14.xml"/>
+          <FRBRdate date="2015-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-08-14" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 701 от 29 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 701 от 29 юни 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Приморско, реши: 1. Одобрява проект на ПУП – парцеларен план за ПИ № 58356.72.2 за изграждане на: „Уличен водопровод от съществуващата водомерна шахта при водоем с V=2500м3, в ПИ № 58356.72.2 по ул. Секвоя през о.т. 173 до о.т. 111 по плана за регулация на СО „Узунджата“, гр. Приморско“. 2. Посочените изменения са съгласно черве- ните, сините и черните надписи и линии. Председател: М. Барцулева 5291 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

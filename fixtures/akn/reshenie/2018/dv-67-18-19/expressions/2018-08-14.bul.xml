@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-19/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-19"/>
+          <FRBRalias value="Решение № 873 от 16 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 873 от 16 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-67-18-19"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-19/bul@2018-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-19/bul@2018-08-14"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-67-18-19/bul@2018-08-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-67-18-19/bul@2018-08-14.xml"/>
+          <FRBRdate date="2018-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-14" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 873 от 16 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 873 от 16 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ и чл. 17а, ал. 2 от Закона за опазване на земеделски земи Общинският съвет – гр. Смолян, одобрява под­ робен устройствен план – парцеларен план за обект: „Авариен ремонт ВЛ 20 kV „Герзовица“, подобект „Кабелна линия 20 kV от стълб № 21 до стълб № 78, община Смолян“, с трасе, премина­ ващо през поземлени имоти с идентификатори: 67653.582.12, 67653.581.5, 67653.580.518, 67653.577.558 и 67653.576.348 в землище Смолян, община Смолян. Председател: Д. Киряков 7512</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

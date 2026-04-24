@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-9-15-9/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-9-15-9"/>
+          <FRBRalias value="Решение № 68 ОТ 30 ЯНУАРИ 2015 Г. за обявяване на 1 февруари 2015 г. за Ден на" name="short"/>
+          <FRBRalias value="Решение № 68 ОТ 30 ЯНУАРИ 2015 Г. за обявяване на 1 февруари 2015 г. за Ден на" name="eli" other="/eli/bg/reshenie/2015/dv-9-15-9"/>
+          <FRBRdate date="2015-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-9-15-9/bul@2015-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-9-15-9/bul@2015-02-03"/>
+          <FRBRdate date="2015-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-9-15-9/bul@2015-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-9-15-9/bul@2015-02-03.xml"/>
+          <FRBRdate date="2015-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-03" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 68 ОТ 30 ЯНУАРИ 2015 Г. за обявяване на 1 февруари 2015 г. за Ден на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 68 ОТ 30 ЯНУАРИ 2015 Г. за обявяване на 1 февруари 2015 г. за Ден на национален траур На основание чл. 89 и 90 от Правилника за прилагане на Закона за държавния протокол, приет с Постановление № 172 на Министер- ския съвет от 2002 г., МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 1 февруари 2015 г. за Ден на национален траур в памет на Желю Митев Желев – Президент на Република България (1990 – 1997 г.).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

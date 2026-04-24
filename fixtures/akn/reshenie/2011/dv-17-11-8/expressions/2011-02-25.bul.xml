@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-8"/>
+          <FRBRalias value="Решение № 9 от 13 януари 2011 г." name="short"/>
+          <FRBRalias value="Решение № 9 от 13 януари 2011 г." name="eli" other="/eli/bg/reshenie/2011/dv-17-11-8"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-8/bul@2011-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-8/bul@2011-02-25"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-8/bul@2011-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-8/bul@2011-02-25.xml"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-25" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 9 от 13 януари 2011 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 9 от 13 януари 2011 г. Със заявление вх. № ГР-94-Б-51/2009 г. Бла­ говест Антонов Благоев, собственик на ПИ 1451, попадащ в УПИ І – „парк, спортна площадка, атракционен кът, сладкарница, кооп. пазар, общ. тоалетна, вторични суровини и автомивка“, кв. 32, м. Волуяк, внася в ДАГ мотивирано пред­ ложение за изработване на ПУП – ИПРЗ за новообразуващ се УПИ за имота му. Процеду­ рата е допусната от главния архитект на СО със заповед № РД-09-50-274 от 23.02.2010 г., в която са указани изискванията на отделите при ДАГ. Собственикът на имота внася за процедиране проекта. Същият е обявен по чл. 128, ал. 3 ЗУТ и с писмо АС-6602-50-</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

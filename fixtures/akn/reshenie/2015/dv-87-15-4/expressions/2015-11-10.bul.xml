@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-87-15-4/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-87-15-4"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на народен" name="short"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на народен" name="eli" other="/eli/bg/reshenie/2015/dv-87-15-4"/>
+          <FRBRdate date="2015-11-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-87-15-4/bul@2015-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-87-15-4/bul@2015-11-10"/>
+          <FRBRdate date="2015-11-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-87-15-4/bul@2015-11-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-87-15-4/bul@2015-11-10.xml"/>
+          <FRBRdate date="2015-11-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-11-10" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване на пълномощията на народен</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 34.</num>
+          <intro>
+            <p>В чл. 61 се правят следните изменения и допълнения: СТР. 12 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 87 1. В ал. 1, в таблицата пореден № 1 се изменя така: „ 1. На месото, получено от живи жи­ вотни, предназначени за клане, в т.ч. от дивеч – за тон месо 2,70 “ 2. Алинея 2 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Таксите по ал. 1 се събират ежемесечно от всички предприятия в Република България, в които се добиват продуктите, суровините и храните, както следва: 1. по т. 1 – в кланиците, където се добива месото; 2. по т. 4 – в складовете и в предприятията, в които се преработват продуктите; 3. по т. 2, 3 и 5 – в предприятията, в които се преработват продуктите.“ 3. Създава се ал. 3: „</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_1__al_2">
+            <num>(3)</num>
+            <content>
+              <p>От предприятията, посочени в ал. 2, включени в НМПКО, не се събират таксите по ал. 1 за месеца, през който са вземани проби.“</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 35.</num>
+          <content>
+            <p>Параграф 2 от допълнителните раз­ поредби се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 36.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

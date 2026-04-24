@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-31/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-31"/>
+          <FRBRalias value="Указ № 101 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 101 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2014/dv-40-14-31"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-31/bul@2014-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-31/bul@2014-05-13"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-31/bul@2014-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-31/bul@2014-05-13.xml"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-13" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 101 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 101 На основание чл. 100, ал. 2 от Конститу- цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : 1. Назначавам полковник Иван Тодоров Лалов на длъжността командир на 3-та ави- ационна база. 2. Удостоявам полковник Иван Тодоров Лалов с висше офицерско звание „бригаден генерал“. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 28 април 2014 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

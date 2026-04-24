@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-99-16-3/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-99-16-3"/>
+          <FRBRalias value="Указ № 379 На основание чл. 98, т. 13 от Конституцията на Република България във връзка с чл. 18," name="short"/>
+          <FRBRalias value="Указ № 379 На основание чл. 98, т. 13 от Конституцията на Република България във връзка с чл. 18," name="eli" other="/eli/bg/ukaz/2016/dv-99-16-3"/>
+          <FRBRdate date="2016-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-99-16-3/bul@2016-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-99-16-3/bul@2016-12-13"/>
+          <FRBRdate date="2016-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-99-16-3/bul@2016-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-99-16-3/bul@2016-12-13.xml"/>
+          <FRBRdate date="2016-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-13" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 379 На основание чл. 98, т. 13 от Конституцията на Република България във връзка с чл. 18,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 2 от Закона за административно-терито- риалното устройство на Република България П О С Т А Н О В Я В А М : Преименувам село Мусомища, община Гоце Делчев, област Благоевград, на село Мосомище. Изпълнението на указа възлагам на об- ластния управител на област Благоевград и кмета на община Гоце Делчев. Издаден в София на 30 ноември 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

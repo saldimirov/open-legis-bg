@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-3-19-19/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-3-19-19"/>
+          <FRBRalias value="Решение № 61 от 30 ноември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 61 от 30 ноември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-3-19-19"/>
+          <FRBRdate date="2019-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-3-19-19/bul@2019-01-08/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-3-19-19/bul@2019-01-08"/>
+          <FRBRdate date="2019-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-3-19-19/bul@2019-01-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-3-19-19/bul@2019-01-08.xml"/>
+          <FRBRdate date="2019-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-08" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 61 от 30 ноември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 61 от 30 ноември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Цар Калоян, реши: Одобрява проект на ПУП – парцеларен план на подземна оптична мрежа за електронни съобщения за нуждите на „Нетуоркс – Бълга- рия“ – ЕООД, на територията на община Цар Калоян по следното трасе: – от регулационна граница на гр. Цар Калоян до регулационна граница на с. Костанденец; – от регулационна граница на с. Костанденец до землищна граница на община Иваново. Решението подлежи на оспорване в 14-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Разград, по реда на АПК. Председател: Г. Узунали 12 ОБЩИНА ШУМЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

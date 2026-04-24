@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-65-18-43/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-65-18-43"/>
+          <FRBRalias value="Решение № 330 от 29 юни 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 330 от 29 юни 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-65-18-43"/>
+          <FRBRdate date="2018-08-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-65-18-43/bul@2018-08-07/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-65-18-43/bul@2018-08-07"/>
+          <FRBRdate date="2018-08-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-65-18-43/bul@2018-08-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-65-18-43/bul@2018-08-07.xml"/>
+          <FRBRdate date="2018-08-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-07" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 330 от 29 юни 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 330 от 29 юни 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – с. Кайнарджа, одобрява проект за из­ менение на кадастрален план и изменение на подробен устройствен план – план за регулация за УПИ IV-167 и УПИ Х-161 в квартал 3 по плана на с. Голеш, община Кайнарджа, и изменение на уличната регулация в участъка от о.т. 4 до о.т. 5. Председател: И. Петков 7392</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

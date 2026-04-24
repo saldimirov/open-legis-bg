@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-17/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-17"/>
+          <FRBRalias value="Решение № 630 от 18 ноември 2010 г." name="short"/>
+          <FRBRalias value="Решение № 630 от 18 ноември 2010 г." name="eli" other="/eli/bg/reshenie/2011/dv-34-11-17"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-17/bul@2011-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-17/bul@2011-04-29"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-17/bul@2011-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-17/bul@2011-04-29.xml"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-29" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 630 от 18 ноември 2010 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 630 от 18 ноември 2010 г. Със заявление вх. № ГР-70-00-737 от 2009 г. „Алфа Грисин имоти“ – АД, собственик на по­ землени имоти (ПИ) № 79033 и 79034 от КВС, к.л. 280, землище Враждебна, внася в ДАГ мотивирано предложение за изработване на ПУП – план за регулация и застрояване (ПРЗ) за УПИ I-79033, 79034 – „За складове и офиси“, и изменение на улична регулация по о.т. 104 – 104а – 104б – 104в – 104г – 104д, кв. 14а, м. Голямата локва – търговски парк София, което е разгледано с протокол на ОЕ­ СУТ № ЕС-Г-117 от 15.12.2009 г., т. 31. Допусната е процедура от главния архитект на СО със Заповед № РД-09-50-270 от 23.02.2010 г., в която са указани изискванията на отделите в ДАГ. Собственикът на имотите внася за одобряване проект за ПРЗ, УПИ I-79033, 79034 – „За складове и офиси“, и изменение на улична регулация по о.т. 104 – 104 а – 104б – 104в – 104г – 104д, кв. 14а, м. Голямата локва – търговски парк София. Същият е обявен по чл. 128, ал. 3 ЗУТ и с писмо № 6602-27</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

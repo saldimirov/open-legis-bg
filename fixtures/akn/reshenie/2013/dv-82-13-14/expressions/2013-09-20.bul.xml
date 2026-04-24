@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-14/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-14"/>
+          <FRBRalias value="Решение № 523 от 30 юли 2013 г. На основание чл. 17, ал. 1, т. 2 и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 523 от 30 юли 2013 г. На основание чл. 17, ал. 1, т. 2 и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2013/dv-82-13-14"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-14/bul@2013-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-14/bul@2013-09-20"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-82-13-14/bul@2013-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-82-13-14/bul@2013-09-20.xml"/>
+          <FRBRdate date="2013-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-09-20" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 523 от 30 юли 2013 г. На основание чл. 17, ал. 1, т. 2 и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 523 от 30 юли 2013 г. На основание чл. 17, ал. 1, т. 2 и чл. 21, ал. 1, т. 17 ЗМСМА във връзка с чл. 25, т. 1 и 3 и чл. 24, т. 1 ЗАТУРБ и докладна записка с вх. № ОС-01- 1290 от 23.07.2013 г. от кмета на община Банско Общинският съвет – гр. Банско, реши: Одобрява в землището на гр. Банско селищни образувания в обхват по приложени графични и текстови граници, както следва: 1. Гуровица; 2. Св. Иван; 3. Грамадето; 4. Кошерината; 5. Карантията; 6. Средореко; 7. Асаница; 8. Герачини улици. Председател: Вл. Колчагов 6961 ОБЩИНА НЕСЕБЪР</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

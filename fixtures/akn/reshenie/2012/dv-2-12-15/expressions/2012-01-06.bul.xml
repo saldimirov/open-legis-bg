@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-15/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-15"/>
+          <FRBRalias value="Решение № 11 от 9 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 11 от 9 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-2-12-15"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-15/bul@2012-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-15/bul@2012-01-06"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-15/bul@2012-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-15/bul@2012-01-06.xml"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 11 от 9 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 11 от 9 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 136, ал. 1 във връзка с чл. 110, ал. 1, т. 2, чл. 134, ал. 1, т. 1 и 2 и чл. 129, ал. 1 ЗУТ и прото­ кол № 15, т. 10 от 2011 г. на ОЕСУТ Общинският съвет – гр. Костинброд, одобрява ПУР (план за улична регулация) за нова улична регулация за нови о.т. 637, о.т. 637 „е“ и о.т. 637 „ж“ по трасето на полски общински път ПИ 4398 в кв. 189А, об­ разуването на нов УПИ І-4397 за пречиствателна станция и нова улица с о.т. 1 и о.т. 2 по полски общински път ПИ 118 и образуването на нов квартал 259 по плана на гр. Костинброд съгласно приложения проект. Председател: В. Михайлов 13645 ОБЩИНА КРИЧИМ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

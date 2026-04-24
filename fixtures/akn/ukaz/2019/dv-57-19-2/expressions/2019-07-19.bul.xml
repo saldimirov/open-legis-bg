@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-2"/>
+          <FRBRalias value="Указ № 165 На основание чл. 100, ал. 2 от Консти-" name="short"/>
+          <FRBRalias value="Указ № 165 На основание чл. 100, ал. 2 от Консти-" name="eli" other="/eli/bg/ukaz/2019/dv-57-19-2"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-2/bul@2019-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-2/bul@2019-07-19"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-57-19-2/bul@2019-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-57-19-2/bul@2019-07-19.xml"/>
+          <FRBRdate date="2019-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-19" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 165 На основание чл. 100, ал. 2 от Консти-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 165 На основание чл. 100, ал. 2 от Консти- туцията на Република България във връзка с чл. 19, т. 4 и чл. 146, т. 1 от Закона за от- браната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Освобождавам бригаден генерал Маргарит Тенев Михайлов от длъжността директор на дирекция „Операции и подготовка“, считано от 1 август 2019 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 15 юли 2019 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-32-19-2/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-32-19-2"/>
+          <FRBRalias value="Решение за обявяване на град Велико Търново за „Ис-" name="short"/>
+          <FRBRalias value="Решение за обявяване на град Велико Търново за „Ис-" name="eli" other="/eli/bg/reshenie/2019/dv-32-19-2"/>
+          <FRBRdate date="2019-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-32-19-2/bul@2019-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-32-19-2/bul@2019-04-16"/>
+          <FRBRdate date="2019-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-32-19-2/bul@2019-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-32-19-2/bul@2019-04-16.xml"/>
+          <FRBRdate date="2019-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-04-16" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за обявяване на град Велико Търново за „Ис-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>торическа и духовна столица на България“ Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Обявява град Велико Търново за „Истори- ческа и духовна столица на България“. Решението е прието от 44-то Народно съ- брание на 12 април 2019 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

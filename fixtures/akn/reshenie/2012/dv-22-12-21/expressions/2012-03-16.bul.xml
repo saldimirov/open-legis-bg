@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-21"/>
+          <FRBRalias value="Решение № 49 от 30 януари 2012 г. На основание чл. 21, ал. 1, т. 9 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 49 от 30 януари 2012 г. На основание чл. 21, ал. 1, т. 9 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-22-12-21"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-21/bul@2012-03-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-21/bul@2012-03-16"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-22-12-21/bul@2012-03-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-22-12-21/bul@2012-03-16.xml"/>
+          <FRBRdate date="2012-03-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-16" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 49 от 30 януари 2012 г. На основание чл. 21, ал. 1, т. 9 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 49 от 30 януари 2012 г. На основание чл. 21, ал. 1, т. 9 и ал. 2 ЗМСМА, чл. 3, ал. 2 ЗПСК във връзка с чл. 137, ал. 1, т. 5, чл. 154, ал. 1, т. 2 и чл. 156, ал. 1 и ал. 2, предложение второ, и ал. 4 във връзка с чл. 266 и сл. ТЗ Общинският съвет – гр. Айтос, реши: 1. Прекратява процедурата по приватизация на: „1148 дяла, представляващи 100 % от капитала на „КДС – Айтос“ – ЕООД, Айтос“, открита с Реше­ ние № 211 от 09.04.2009 г. (ДВ, бр. 68 от 2009 г.). 2. Прекратява чрез ликвидация „КДС – Ай­ тос“ – ЕООД, с ЕИК 102004308, със седалище и адрес на управление Айтос, пл. Пазарен 2, регистрирано по ф. д. № 6296/93 по описа на Бургаския окръжен съд, представлявано от уп­ равителя Живко Стефанов Узунов. Председател: Р. Хасан 2643 ОБЩИНА АКСАКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

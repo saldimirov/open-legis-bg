@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-21"/>
+          <FRBRalias value="Решение № 73 от 1 юли 2010 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 73 от 1 юли 2010 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2010/dv-54-10-21"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-21/bul@2010-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-21/bul@2010-07-16"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-21/bul@2010-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-21/bul@2010-07-16.xml"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-16" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 73 от 1 юли 2010 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 73 от 1 юли 2010 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение считано от 1 септември 2010 г. сребърна възпоменателна монета с нане­ сено частично позлатяване „125 години от Съе­ динението на България“ със следното описание: Технически параметри: номинална стойност – 10 лева; метал – сребро с проба 925/1000 с нанесено частично позлатяване; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2010; тираж – 5000 броя. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи­ ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, годината на емисия „2010“ и номиналната стой­ ност на монетата „10 ЛЕВА“. На обратната страна на монетата е изображение с нанесено частично позлатяване на печата на създадения в гр. Пловдив през 1885 г. Български таен централен революционен комитет (БТЦРК). Околовръст асиметрично е изписано „125 ГО­ ДИНИ ОТ СЪЕДИНЕНИЕТО НА БЪЛГАРИЯ“. Автори на художествения проект са Симеон Кръстев и Иван Чолаков. Управител: Ив. Искров 5725 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

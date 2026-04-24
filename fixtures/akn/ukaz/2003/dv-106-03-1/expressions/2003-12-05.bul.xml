@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-106-03-1/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-106-03-1"/>
+          <FRBRalias value="Указ № 504 за награждаване на г-жа Вайра Вике-Фрайберга - президент на Република Латвия, с орден „Стара планина&quot; с лента" name="short"/>
+          <FRBRalias value="Указ № 504 за награждаване на г-жа Вайра Вике-Фрайберга - президент на Република Латвия, с орден „Стара планина&quot; с лента" name="eli" other="/eli/bg/ukaz/2003/dv-106-03-1"/>
+          <FRBRdate date="2003-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-106-03-1/bul@2003-12-05/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-106-03-1/bul@2003-12-05"/>
+          <FRBRdate date="2003-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-106-03-1/bul@2003-12-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-106-03-1/bul@2003-12-05.xml"/>
+          <FRBRdate date="2003-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-12-05" name="Държавен вестник" number="106" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 504 за награждаване на г-жа Вайра Вике-Фрайберга - президент на Република Латвия, с орден „Стара планина&quot; с лента</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 106, от дата 5.12.2003 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.2</p>
+          <p>Указ № 504 за награждаване на г-жа Вайра Вике-Фрайберга - президент на Република Латвия, с орден „Стара планина&quot; с лента</p>
+          <p>ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          <p>УКАЗ № 504</p>
+          <p>На основание чл. 98, т. 8 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Награждавам г-жа Вайра Вике  -  Фрайберга - президент на Република Латвия, с орден „Стара планина&amp;quot; с лента за личния й принос за развитието и задълбочаването на двустранния политически диалог между Република България и Република Латвия на най-високо равнище.</p>
+          <p>Издаден в София на 24 ноември 2003 г.</p>
+          <p>Президент на републиката:    Георги Първанов</p>
+          <p>Министър на външните работи:    Соломон Паси</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:    Антон Станков</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

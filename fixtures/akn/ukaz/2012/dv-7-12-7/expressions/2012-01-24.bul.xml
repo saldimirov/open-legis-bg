@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-7-12-7/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-7-12-7"/>
+          <FRBRalias value="Указ № 5 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 5 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2012/dv-7-12-7"/>
+          <FRBRdate date="2012-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-7-12-7/bul@2012-01-24/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-7-12-7/bul@2012-01-24"/>
+          <FRBRdate date="2012-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-7-12-7/bul@2012-01-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-7-12-7/bul@2012-01-24.xml"/>
+          <FRBRdate date="2012-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-24" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 5 На основание чл. 100, ал. 2 от Конститу-</p>
+      <p>(обн., ДВ, бр. 31 от 2010 г.; изм. и доп., бр. 64, 90 и 95 от 2010 г. и бр. 25 и 54 от 2011 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 5 На основание чл. 100, ал. 2 от Конститу- цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : Освобождавам контраадмирал Николай Иванов Николов от длъжността съветник на върховния главнокомандващ на въоръжени- те сили по военната сигурност, считано от 22.01.2012 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 16 януари 2012 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

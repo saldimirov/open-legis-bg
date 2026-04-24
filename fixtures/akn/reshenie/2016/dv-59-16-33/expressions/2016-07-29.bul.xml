@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-59-16-33/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-59-16-33"/>
+          <FRBRalias value="Решение № 184 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 184 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-59-16-33"/>
+          <FRBRdate date="2016-07-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-59-16-33/bul@2016-07-29/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-59-16-33/bul@2016-07-29"/>
+          <FRBRdate date="2016-07-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-59-16-33/bul@2016-07-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-59-16-33/bul@2016-07-29.xml"/>
+          <FRBRdate date="2016-07-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-29" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 184 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 184 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и чл. 17, ал. 1, т. 3 и 4 във връзка с ал. 2 и чл. 16 ЗАТУРБ Общинският съвет – гр. Костинброд, създава кметство, състоящо се от съседните на­ селени места на територията на община Костин­ брод – с. Градец и с. Царичина, административен адрес с. Градец. Председател: А. Тенев 6030 ОБЩИНА КУКЛЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

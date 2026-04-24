@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2"/>
+          <FRBRalias value="Постановление № 165 от 29 септември 2023 г. за възстановяване на средства по бюджета на Министерството на енергетиката за 2023 г." name="short"/>
+          <FRBRalias value="Постановление № 165 от 29 септември 2023 г. за възстановяване на средства по бюджета на Министерството на енергетиката за 2023 г." name="eli" other="/eli/bg/postanovlenie/2023/dv-83-23-2"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-83-23-2/bul@2023-10-03.xml"/>
+          <FRBRdate date="2023-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-10-03" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 165 от 29 септември 2023 г. за възстановяване на средства по бюджета на Министерството на енергетиката за 2023 г.</p>
+      <p>(обн., ДВ, бр. 104 от 2022 г.; доп., бр. 17 и 35 от 2023 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>По бюджета на Министерството на енергетиката за 2023 г. да се възстановят средства в размер на 401 402 985 лв. от сметката за чужди средства по чл. 3, ал. 1 от Постановление № 492 на Министерския съвет от 2022 г. за одобряване на допълнителни разходи по бюджета на Министерството на енергетиката за 2022 г. (обн., ДВ, бр. 104 от 2022 г.; доп., бр. 17 и 35 от 2023 г.).</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Министърът на енергетиката да извърши по бюджета на Министерството на енергетиката за 2023 г. произтичащите от ал. 1 промени в разходите и бюджетното взаимоотношение с централния бюджет и да уведоми министъра на финансите.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>С размера на средствата по чл. 1, ал. 1 министърът на финансите да извърши съответната промяна по централния бюджет за 2023 г., включително на бюджетното взаимоотношение с бюджета на Министерството на енергетиката. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 7, ал. 1 във връзка с чл. 15 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на енергетиката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 27 септември 2023 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

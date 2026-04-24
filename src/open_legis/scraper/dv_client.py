@@ -162,8 +162,26 @@ def _parse_material_html(html: str) -> tuple[str, str]:
     lines = [l for l in lines if l]
     body = "\n".join(lines)
 
-    # Strip Word artifact header ("800x600 Normal 0 21 false...")
-    body = re.sub(r"800x600[^\n]*MicrosoftInternetExplorer4\s*", "", body)
+    # Strip Word artifact header — tokens land on separate lines after HTML→text
+    body = re.sub(
+        r"800x600.*?MicrosoftInternetExplorer4",
+        "",
+        body,
+        flags=re.DOTALL,
+    )
+
+    # Strip DV page header lines (site navigation / issue header injected into material HTML)
+    body = re.sub(r"Държавен вестник\s*\n", "", body)
+    body = re.sub(
+        r"[^\n]*брой:\s*\d+[^\n]*от дата[^\n]*\n",
+        "",
+        body,
+    )
+
+    # Collapse any blank lines left by stripping
+    lines = [l.strip() for l in body.splitlines()]
+    lines = [l for l in lines if l]
+    body = "\n".join(lines)
 
     return title.strip(), body.strip()
 
@@ -193,3 +211,22 @@ def get_issue_metadata(idObj: int) -> Optional[DvIssue]:
     else:
         return None
     return DvIssue(idObj=idObj, broy=broy, year=year, date=date_str)
+
+
+def merge_same_title_materials(
+    fetched: list[tuple[DvMaterial, str, str]],
+) -> list[tuple[DvMaterial, str, str]]:
+    """Merge consecutive materials that share the same title.
+
+    The DV website splits very large laws into multiple idMat HTML documents.
+    Both carry the same title, so we concatenate their bodies and keep the
+    position (page) of the first occurrence.
+    """
+    merged: list[tuple[DvMaterial, str, str]] = []
+    for mat, title, body in fetched:
+        if merged and merged[-1][1] == title:
+            prev_mat, prev_title, prev_body = merged[-1]
+            merged[-1] = (prev_mat, prev_title, prev_body + "\n\n" + body)
+        else:
+            merged.append((mat, title, body))
+    return merged

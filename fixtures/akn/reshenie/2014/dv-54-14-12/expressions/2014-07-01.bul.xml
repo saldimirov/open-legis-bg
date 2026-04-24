@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-54-14-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-54-14-12"/>
+          <FRBRalias value="Решение № 70 от 19 юни 2014 г. На основание чл. 25 ЗБНБ Българската народ­ на банка пуска в обращение, считано от 14 юли" name="short"/>
+          <FRBRalias value="Решение № 70 от 19 юни 2014 г. На основание чл. 25 ЗБНБ Българската народ­ на банка пуска в обращение, считано от 14 юли" name="eli" other="/eli/bg/reshenie/2014/dv-54-14-12"/>
+          <FRBRdate date="2014-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-54-14-12/bul@2014-07-01/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-54-14-12/bul@2014-07-01"/>
+          <FRBRdate date="2014-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-54-14-12/bul@2014-07-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-54-14-12/bul@2014-07-01.xml"/>
+          <FRBRdate date="2014-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-07-01" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 70 от 19 юни 2014 г. На основание чл. 25 ЗБНБ Българската народ­ на банка пуска в обращение, считано от 14 юли</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>2014 г., златна възпоменателна монета „Св. Пророк Илия“ от серията „Българска иконография“ със следното описание: Технически параметри: емисия – 2014; номинална стойност – 100 лева; метал – злато, проба 999/1000; качество – мат-гланц, висше; тегло – 8,64 г; диаметър – 24 мм; гурт – гладък; тираж – 2000 броя. Графични елементи: На лицевата страна на монетата са изобразе­ ни: емблемата на Българската народна банка с годината „1879“ върху лентата, номиналната стой­ ност „100 ЛЕВА“ и годината на емисията „2014“. Околовръст отгоре е изписано „БЪЛГАРСКА НАРОДНА БАНКА“. На обратната страна на монетата е изобразен Св. Пророк Илия в небесната си колесница, а под него в полукръг има надпис „СВЕТИ ПРОРОК ИЛИЯ“. Автор на художествения проект е Стефан Иванов. Управител: Ив. Искров 4306 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

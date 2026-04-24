@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-21/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-21"/>
+          <FRBRalias value="Решение № 240 от 28 март 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 240 от 28 март 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-38-18-21"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-21/bul@2018-05-08/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-21/bul@2018-05-08"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-38-18-21/bul@2018-05-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-38-18-21/bul@2018-05-08.xml"/>
+          <FRBRdate date="2018-05-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-05-08" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 240 от 28 март 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 240 от 28 март 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 127, ал. 6 от ЗУТ във връзка със Споразумение № Р-02-30-157 от 20.05.2016 г. между Министер- ството на регионалното развитие и благоустрой- ството (МРРБ) и Община Сухиндол Общинският съвет – гр. Сухиндол, реши: 1. Одобрява окончателния проект на общ устройствен план на община Сухиндол. 2. Приема правилник за прилагане на общия устройствен план на община Сухиндол. Председател: И. Отчев 4528 ОБЩИНА ТОПОЛОВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

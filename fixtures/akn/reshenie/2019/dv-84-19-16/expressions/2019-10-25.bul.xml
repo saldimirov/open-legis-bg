@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-16/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-16"/>
+          <FRBRalias value="Решение № 1149 от 26 септември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1149 от 26 септември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2019/dv-84-19-16"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-16/bul@2019-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-16/bul@2019-10-25"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-16/bul@2019-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-16/bul@2019-10-25.xml"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1149 от 26 септември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1149 от 26 септември 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 129, ал. 1 и чл. 134, ал. 2, т. 8 от ЗУТ Общин- ският съвет – гр. Костинброд, одобрява проект за ПУП – ИПР – изменение на плана за регулация в частта на УПИ XVIII-57 за прокарване на нова улица между о.т. 136в и о.т. 164, кв. 33, и обра- зуване на нов кв. 33А по плана на с. Дръмша, община Костинброд. Председател: Ат. Тенев 8154 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

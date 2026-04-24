@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-44/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-44"/>
+          <FRBRalias value="Решение № 235 от 1 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 235 от 1 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-52-12-44"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-44/bul@2012-07-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-44/bul@2012-07-10"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-44/bul@2012-07-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-44/bul@2012-07-10.xml"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-10" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 235 от 1 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 235 от 1 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ във връзка с Решение № К-1 от 18.01.2012 г. на Комисията по чл. 17, ал. 1, т. 1 ЗОЗЗ Общинският съвет – гр. Правец, одобрява проект за подробен устройствен план – парцеларен план (ПУП – ПП) за довеждаща инфраструкту­ ра – водоснабдяване, канализация и електроснаб­ дяване за поземлен имот с идентификатор 065090, намиращ се в местността Банчовец, от картата на възстановената собственост на землището на гр. Правец, Софийска област. Председател: Н. Яхов 6293</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

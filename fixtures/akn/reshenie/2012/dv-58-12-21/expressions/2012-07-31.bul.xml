@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-21"/>
+          <FRBRalias value="Решение № 641 ОТ 26 ЮЛИ 2012 Г. за непризнаване на Съюза за стопанска" name="short"/>
+          <FRBRalias value="Решение № 641 ОТ 26 ЮЛИ 2012 Г. за непризнаване на Съюза за стопанска" name="eli" other="/eli/bg/reshenie/2012/dv-58-12-21"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-21/bul@2012-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-21/bul@2012-07-31"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-21/bul@2012-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-21/bul@2012-07-31.xml"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-31" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 641 ОТ 26 ЮЛИ 2012 Г. за непризнаване на Съюза за стопанска</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 641 ОТ 26 ЮЛИ 2012 Г. за непризнаване на Съюза за стопанска инициатива за представителна организация на работодателите на национално равнище На основание чл. 36, ал. 1 и 6 от Кодекса на труда МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Не признава Съюза за стопанска инициати­ ва за представителна организация на работо­ дателите на национално равнище поради това, че не отговаря на изискването на чл. 35, ал. 1, т. 2 от Кодекса на труда да има организации на работодателите в повече от една четвърт от дейностите, определени с код до втори знак от Класификацията на икономическите дейности, утвърдена от Националния статис­ тически институт, с не по-малко от 5 на сто от осигурените по трудов договор лица във всяка икономическа дейност или 10 членове във всяка икономическа дейност.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

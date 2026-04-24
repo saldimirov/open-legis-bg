@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-18"/>
+          <FRBRalias value="Решение № 665 от 2 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 665 от 2 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="eli" other="/eli/bg/reshenie/2010/dv-77-10-18"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-18/bul@2010-10-01/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-18/bul@2010-10-01"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-77-10-18/bul@2010-10-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-77-10-18/bul@2010-10-01.xml"/>
+          <FRBRdate date="2010-10-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-01" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 665 от 2 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 665 от 2 септември 2010 г. На основание чл. 20 във връзка с чл. 17, ал. 1, т. 2, чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 8, т. 1, чл. 9, ал. 2, чл. 59, ал. 1 и чл. 109 ЗУТ и протокол № 13 от 2010 г. на ОЕСУТ, т. 6, Общинският съвет – гр. Костинброд, реши: Одобрява проект ПЗ (план за застрояване) за ниско жилищно строителство за имот 406012, гр. Костинброд, ЕКАТТЕ 38978, община Кос­ тинброд. На основание чл. 215, ал. 4 ЗУТ решението може да бъде обжалвано пред Административния съд – София област. Председател: З. Йорданова 7623</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

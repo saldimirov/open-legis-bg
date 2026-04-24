@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-2-13-33/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-2-13-33"/>
+          <FRBRalias value="Решение № 3297-П от 17 декември 2012 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 3, т. 3," name="short"/>
+          <FRBRalias value="Решение № 3297-П от 17 декември 2012 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 3, т. 3," name="eli" other="/eli/bg/reshenie/2013/dv-2-13-33"/>
+          <FRBRdate date="2013-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-2-13-33/bul@2013-01-08/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-2-13-33/bul@2013-01-08"/>
+          <FRBRdate date="2013-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-2-13-33/bul@2013-01-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-2-13-33/bul@2013-01-08.xml"/>
+          <FRBRdate date="2013-01-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-01-08" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3297-П от 17 декември 2012 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 3, т. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 3297-П от 17 декември 2012 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 3, т. 3, буква „в“, чл. 4, ал. 1 и чл. 32, ал. 1, т. 4 ЗПСК, чл. 22 от Наредбата за условията и реда за организиране и провеждане на централизирани публични търгове за продажба на акции – собственост на държавата и протоколно решение № 2206 от 17.12.2012 г. на изпълнителния съвет Агенцията за приватизация и следприватизационен контрол реши продажбата на 179 697 броя поименни акции, съставляващи 98,63 % от капитала на „ВМТ Орбита“ – АД, София, да бъде осъществена чрез централизиран публичен търг. Изпълнителен директор: Е. Караниколов 11525</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-16"/>
+          <FRBRalias value="Решение № 411 от 10 февруари 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 411 от 10 февруари 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-21-11-16"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-16/bul@2011-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-16/bul@2011-03-15"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-16/bul@2011-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-16/bul@2011-03-15.xml"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-15" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 411 от 10 февруари 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 411 от 10 февруари 2011 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1, т. 11 и чл. 27, ал. 3 ЗМСМА Общинският съ­ вет – гр. Белослав, реши: Одобрява ПУП – парцеларен план за обект: „Частично канализационно отклонение в земли­ щето на с. Езерово, област Варна, засягащо имоти № 35087, 35089, 350090, 35091, 35133, 36007, 36008, 36015, 36115, 36118, 40016 в местност Пътека тала и имот № 27 в местност До село. Решението подлежи на обжалване в 30-дневен срок от обнародването му в „Държавен вестник“ чрез Община Белослав пред Административния съд – Варна. Председател: Ив. Сърмов 2750 ОБЩИНА БРЕЗНИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

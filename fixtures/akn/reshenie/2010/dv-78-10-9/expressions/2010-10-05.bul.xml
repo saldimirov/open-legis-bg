@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-9/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-9"/>
+          <FRBRalias value="Решение за преобразуване на Специализираното висше" name="short"/>
+          <FRBRalias value="Решение за преобразуване на Специализираното висше" name="eli" other="/eli/bg/reshenie/2010/dv-78-10-9"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-9/bul@2010-10-05/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-9/bul@2010-10-05"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-78-10-9/bul@2010-10-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-78-10-9/bul@2010-10-05.xml"/>
+          <FRBRdate date="2010-10-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-05" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за преобразуване на Специализираното висше</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>училище по библиотекознание и информаци­ онни технологии – София, в Университет по библиотекознание и информационни техно­ логии със седалище София Народното събрание на основание чл. 9, ал. 2, т. 1 от Закона за висшето образование Р Е Ш И : Преобразува Специализираното висше учи­ лище по библиотекознание и информационни технологии – София, в Университет по биб­ лиотекознание и информационни техноло­ гии – София. Решението е прието от 41-ото Народно съб­ рание на 29 септември 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

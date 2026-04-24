@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-26/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-26"/>
+          <FRBRalias value="Решение № 154 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 154 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във" name="eli" other="/eli/bg/reshenie/2018/dv-43-18-26"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-26/bul@2018-05-25/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-26/bul@2018-05-25"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-26/bul@2018-05-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-26/bul@2018-05-25.xml"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-05-25" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 154 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 154 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във вpъзка с чл. 109, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 и 3 от ЗУТ Общинският съвет „Марица“ реши: Одобрява представения ПУП – парцеларен план за елемент на техническата инфраструктура извън границите на урбанизираните територии, за обект: „Реконструкция и разширение на Голя- моконарско шосе“ в частта му на територията на община „Марица“ в обхвата на поземлени имоти с идентификатори № 78080.101.358; 78080.101.360; 78080.134.349; 78080.134.346; 78080.94.86; 78080.94.6, в землището на с. Царацово, община „Марица“. Председател: Г. Трендафилова 5004</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

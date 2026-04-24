@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-107-20-8/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-107-20-8"/>
+          <FRBRalias value="Закон за ратифициране на Устава на Агенцията за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Устава на Агенцията за" name="eli" other="/eli/bg/ratifikatsiya/2020/dv-107-20-8"/>
+          <FRBRdate date="2020-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-107-20-8/bul@2020-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-107-20-8/bul@2020-12-18"/>
+          <FRBRdate date="2020-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-107-20-8/bul@2020-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-107-20-8/bul@2020-12-18.xml"/>
+          <FRBRdate date="2020-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-18" name="Държавен вестник" number="107" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Устава на Агенцията за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ядрена енергия към Организацията за ико- номическо сътрудничество и развитие Член единствен. Ратифицира Устава на Агенцията за ядрена енергия към Органи- зацията за икономическо сътрудничество и развитие.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

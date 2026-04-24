@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-13"/>
+          <FRBRalias value="Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2011/dv-40-11-13"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-13/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-13/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-13/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-13/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 111 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С ТА Н О В Я В А М : Награждавам Зденка Боянова Дойчева с орден „Св. св. Кирил и Методий“ първа степен за големите є заслуги в областта на културата и изкуството. Издаден в София на 19 май 2011 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-45/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-45"/>
+          <FRBRalias value="Решение № 30 от 26 март 2012 г. На основание чл. 21, ал. 1 ЗМСМА, чл. 128," name="short"/>
+          <FRBRalias value="Решение № 30 от 26 март 2012 г. На основание чл. 21, ал. 1 ЗМСМА, чл. 128," name="eli" other="/eli/bg/reshenie/2012/dv-34-12-45"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="45"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-45/bul@2012-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-45/bul@2012-05-04"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-34-12-45/bul@2012-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-34-12-45/bul@2012-05-04.xml"/>
+          <FRBRdate date="2012-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-04" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 30 от 26 март 2012 г. На основание чл. 21, ал. 1 ЗМСМА, чл. 128,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 30 от 26 март 2012 г. На основание чл. 21, ал. 1 ЗМСМА, чл. 128, ал. 9 и чл. 129, ал. 1 ЗУТ Общинският съ­ вет – с. Бойница, одобрява ПУП (план за регу­ лация и застрояване) на ПИ 179020, с. Бойница, община Бойница, с който имотът се преотрежда за фотоволтаична електроцентрала, в обхват УПИ І-179020, собственост на „Вида Солар“ – ЕООД, Видин. Председател: П. Делчев 4270</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

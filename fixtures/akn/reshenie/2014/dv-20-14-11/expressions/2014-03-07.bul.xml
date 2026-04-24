@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-11/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-11"/>
+          <FRBRalias value="Решение № 105 ОТ 27 ФЕВРУАРИ 2014 Г. за административно-териториалнa промянa в" name="short"/>
+          <FRBRalias value="Решение № 105 ОТ 27 ФЕВРУАРИ 2014 Г. за административно-териториалнa промянa в" name="eli" other="/eli/bg/reshenie/2014/dv-20-14-11"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-11/bul@2014-03-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-11/bul@2014-03-07"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-20-14-11/bul@2014-03-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-20-14-11/bul@2014-03-07.xml"/>
+          <FRBRdate date="2014-03-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-07" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 105 ОТ 27 ФЕВРУАРИ 2014 Г. за административно-териториалнa промянa в</p>
+      <p>(обн., ДВ, бр. 9 от 2010 г.; изм. с Решение № 7268 от 22.05.2012 г. на ВАС на РБ – бр. 43 от 2012 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 105 ОТ 27 ФЕВРУАРИ 2014 Г. за административно-териториалнa промянa в община Нова Загора, област Сливен – присъ- единяване на едно населено място към друго населено място На основание чл. 32, ал. 4 във връзка с чл. 20 от Закона за административно-терито- риалното устройство на Република България МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Присъединява населеното място с. Графи- тово</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

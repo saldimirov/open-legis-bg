@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-36/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-36"/>
+          <FRBRalias value="Решение № 36 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 36 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2015/dv-101-15-36"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-36/bul@2015-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-36/bul@2015-12-22"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-36/bul@2015-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-36/bul@2015-12-22.xml"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-22" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 36 от 3 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Габрово, реши: Одобрява подробен устройствен план – план за регулация (ПУП – ПР) за частично изменение (ЧИ) на подробен устройствен план (ПУП) за част от кв. 208 и кв. 215 по плана на гр. Габро- во – ІІІ етап. Председател: Л. Георгиева 8232 ОБЩИНА КАМЕНО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

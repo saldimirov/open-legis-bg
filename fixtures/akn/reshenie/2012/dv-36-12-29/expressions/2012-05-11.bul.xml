@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-29"/>
+          <FRBRalias value="Решение № 095 от 27 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 095 от 27 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-36-12-29"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-29/bul@2012-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-29/bul@2012-05-11"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-29/bul@2012-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-29/bul@2012-05-11.xml"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-11" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 095 от 27 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 095 от 27 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 134, ал. 1 и 2 ЗУТ Общинският съвет – гр. Приморско, одобрява изменението на подробния устройствен план – план за улична регулация за част от ул. Христо Ботев от о.т. 148 до о.т. 144 между кв. 25, кв. 26 и кв. 30 по плана на гр. Приморско с идентификатор по КК 58356.506.124. Посочените изменения са съгласно кафявите линии и щрихи на приложения към решението проект. Председател: М. Барцулева 4387</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

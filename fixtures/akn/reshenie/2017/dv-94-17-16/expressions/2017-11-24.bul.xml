@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-16/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-16"/>
+          <FRBRalias value="Решение № 490 от 31 октомври 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="short"/>
+          <FRBRalias value="Решение № 490 от 31 октомври 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="eli" other="/eli/bg/reshenie/2017/dv-94-17-16"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-16/bul@2017-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-16/bul@2017-11-24"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-94-17-16/bul@2017-11-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-94-17-16/bul@2017-11-24.xml"/>
+          <FRBRdate date="2017-11-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-11-24" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 490 от 31 октомври 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 490 от 31 октомври 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 8 и 11 ЗМСМА Общинският съвет – гр. Доспат, реши: Одобрява ПУП – ИПР за кв. 33 на с. Късак. Решението подлежи на обжалване в сроковете и по реда на АПК. Председател: Ад. Ферев 8814</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

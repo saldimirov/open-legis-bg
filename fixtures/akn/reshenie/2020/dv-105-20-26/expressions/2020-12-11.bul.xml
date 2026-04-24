@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-26/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-26"/>
+          <FRBRalias value="Решение № 115 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 115 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2020/dv-105-20-26"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-26/bul@2020-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-26/bul@2020-12-11"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-26/bul@2020-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-26/bul@2020-12-11.xml"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-11" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 115 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 115 от 24 август 2020 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 134, ал. 1, т. 1, 2 и 3 във връзка с чл. 136, ал. 1 и чл. 127, ал. 6 от ЗУТ Общинският съ- вет – Видин, одобрява проект за изменение на общ устройствен план на гр. Видин, като се отрази новопроектираното трасе на жп линия Видин – София, жп участък Видин – Медковец, както и проектните трасета на съпътстващата го техническа инфраструктура в обхват имоти с идентификатори: 10971.139.590, 10971.140.29, 10971.140.54, 10971.141.4, 10971.141.576, 10971.142.6, 10971.142.59, 10971.142.62, 10971.142.63, 10971.142.65, 10971.142.78, 10971.142.579, 10971.142.581, 10971.142.582, 10971.332.512 по КК и КР на гр. Видин. Председател: Г. Велков 9305</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

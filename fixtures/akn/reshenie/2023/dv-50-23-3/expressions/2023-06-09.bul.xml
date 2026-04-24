@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-50-23-3/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-50-23-3"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="short"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="eli" other="/eli/bg/reshenie/2023/dv-50-23-3"/>
+          <FRBRdate date="2023-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-50-23-3/bul@2023-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-50-23-3/bul@2023-06-09"/>
+          <FRBRdate date="2023-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-50-23-3/bul@2023-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-50-23-3/bul@2023-06-09.xml"/>
+          <FRBRdate date="2023-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-06-09" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на министър-председател на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Република България Народното събрание на основание чл. 84, т. 6 и чл. 108 от Конституцията на Република България и във връзка с Указ № 70 на Прези­ дента на Република България от 5 юни 2023 г. Р Е Ш И : Избира Николай Денков Денков за ми­ нистър-председател на Република България. Решението е прието от 49-ото Народно събрание на 6 юни 2023 г. и е подпеча­ тано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

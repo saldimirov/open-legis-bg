@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-29"/>
+          <FRBRalias value="Решение № 1099 от 14 септември 2011 г. На основание чл. 21, ал. 2 във връзка с чл. 21," name="short"/>
+          <FRBRalias value="Решение № 1099 от 14 септември 2011 г. На основание чл. 21, ал. 2 във връзка с чл. 21," name="eli" other="/eli/bg/reshenie/2011/dv-99-11-29"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-29/bul@2011-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-29/bul@2011-12-16"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-99-11-29/bul@2011-12-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-99-11-29/bul@2011-12-16.xml"/>
+          <FRBRdate date="2011-12-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-16" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1099 от 14 септември 2011 г. На основание чл. 21, ал. 2 във връзка с чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1099 от 14 септември 2011 г. На основание чл. 21, ал. 2 във връзка с чл. 21, ал. 1, т. 11 ЗМСМА, чл. 22, ал. 4, чл. 110, ал. 1, т. 2, чл. 129, ал. 1 ЗУТ и решение по т. 1 от про­ токол № 2 от 22.02.2011 г. на ОЕСУТ Общинският съвет – гр. Враца, реши: Изменя Решение № 959 по протокол № 72 от 19.04.2011 г. (ДВ, бр. 39 от 2011 г., стр. 151), както следва: В т. 1 вместо „УПИ ХІV от кв. 10, Складова зона“ да се чете „УПИ ХІV от кв. 11, Складова зона“. Решението може да бъде обжалвано чрез Об­ щина Враца пред Административния съд – Враца, в 14-дневен срок от обнародването му в „Дър­ жавен вестник“. Председател: М. Николова 13023 ОБЩИНА ВЪЛЧЕДРЪМ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

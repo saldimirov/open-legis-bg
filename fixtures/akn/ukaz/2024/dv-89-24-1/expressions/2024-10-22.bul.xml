@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-89-24-1/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-89-24-1"/>
+          <FRBRalias value="Указ № 251 за награждаване на флотилен адмирал проф. Боян Кирилов Медникаров с орден „Св. св. Кирил и Методий“ огърлие" name="short"/>
+          <FRBRalias value="Указ № 251 за награждаване на флотилен адмирал проф. Боян Кирилов Медникаров с орден „Св. св. Кирил и Методий“ огърлие" name="eli" other="/eli/bg/ukaz/2024/dv-89-24-1"/>
+          <FRBRdate date="2024-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-89-24-1/bul@2024-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-89-24-1/bul@2024-10-22"/>
+          <FRBRdate date="2024-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-89-24-1/bul@2024-10-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-89-24-1/bul@2024-10-22.xml"/>
+          <FRBRdate date="2024-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-10-22" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 251 за награждаване на флотилен адмирал проф. Боян Кирилов Медникаров с орден „Св. св. Кирил и Методий“ огърлие</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Награждавам флотилен адмирал проф. Боян Кирилов Медникаров с орден „Св. св. Кирил и Методий“ огърлие за неговите особено значими заслуги за развитието на науката и практиката в сферата на военноморското и морското образование. Издаден в София на 15 октомври 2024 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

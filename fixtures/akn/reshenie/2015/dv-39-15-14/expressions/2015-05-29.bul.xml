@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-14"/>
+          <FRBRalias value="Решение № 729 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 729 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-39-15-14"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-14/bul@2015-05-29/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-14/bul@2015-05-29"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-14/bul@2015-05-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-14/bul@2015-05-29.xml"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-29" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 729 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 729 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пав­ ликени, реши: Одобрява изработения проект за ПУП – план за застрояване, с който да се определят пред­ назначението и начинът на застрояване за ПИ № 112015 по КВС на с. Сломер. Предвижда се промяна на предназначението на ПИ № 112015 от „други селскостопански тери­ тории“ за „Приют за безстопанствени животни“. Председател: Д. Дончев 3515</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

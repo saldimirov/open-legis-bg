@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-83-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-83-16-16"/>
+          <FRBRalias value="Решение № 184 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 184 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-83-16-16"/>
+          <FRBRdate date="2016-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-83-16-16/bul@2016-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-83-16-16/bul@2016-10-21"/>
+          <FRBRdate date="2016-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-83-16-16/bul@2016-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-83-16-16/bul@2016-10-21.xml"/>
+          <FRBRdate date="2016-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-21" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 184 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 184 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Слив­ ница, одобрява проект за подробен устройствен план – план за регулация и план за застрояване за имот с идентификатор 67372.41.36 в м. Пе- щерица, по кадастрална карта на гр. Сливница и УПИ V-041007, 041008 в кв. 157 по плана за регулация на гр. Сливница за обект: „Безвредни производствени дейности – производство и пе- чат на рекламни материали, административни, търговски и обслужващи сгради“. Председател: М. Павлов 8335 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

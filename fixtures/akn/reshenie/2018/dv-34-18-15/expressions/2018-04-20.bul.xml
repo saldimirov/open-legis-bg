@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-15/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-15"/>
+          <FRBRalias value="Решение № 576 от 11 април 2018 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от" name="short"/>
+          <FRBRalias value="Решение № 576 от 11 април 2018 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от" name="eli" other="/eli/bg/reshenie/2018/dv-34-18-15"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-15/bul@2018-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-15/bul@2018-04-20"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-34-18-15/bul@2018-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-34-18-15/bul@2018-04-20.xml"/>
+          <FRBRdate date="2018-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-04-20" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 576 от 11 април 2018 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 576 от 11 април 2018 г. На основание чл. 4, ал. 4, чл. 31, ал. 3 от ЗПСК Надзорният съвет на Столичната общинска агенция за приватизация и инвестиции реши: Отменя свое Решение № 552 от 26.03.2018 г. (ДВ, бр. 29 от 2018 г.) за насрочване на публичен търг с явно наддаване за продажбата на следния обект: поземлен имот с идент. 68134.1386.391 и сграда с идент. 68134.1386.391.1 (представляващ УПИ IX-391, кв. 15), София, ул. Старозагорско въстание № 42, София, общински нежилищен имот, стопанисван от район „Надежда“. Председател на Надзорния съвет: Н. Стойнев 4086 ОБЩИНА БЕЛОСЛАВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

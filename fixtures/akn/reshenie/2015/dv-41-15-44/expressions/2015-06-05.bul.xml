@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-41-15-44/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-41-15-44"/>
+          <FRBRalias value="Решение № 76 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 76 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2015/dv-41-15-44"/>
+          <FRBRdate date="2015-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-41-15-44/bul@2015-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-41-15-44/bul@2015-06-05"/>
+          <FRBRdate date="2015-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-41-15-44/bul@2015-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-41-15-44/bul@2015-06-05.xml"/>
+          <FRBRdate date="2015-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-05" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 76 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 76 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеларен план за трасе на захранващ електропровод с обща дължина на трасето 277 м до ПИ № 047040, м. Черни могили, по КВС на землище с. Звъничево, преминаващо през ПИ № 048008 – нива, ПИ № 000178 – репуб­ ликански път, и през общински имоти – селско­ стопански, горски, ведомствени пътища – ПИ № 000430 и № 000439, съгласно изчертаните с червено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 3604 ОБЩИНА ПОЛСКИ ТРЪМБЕШ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

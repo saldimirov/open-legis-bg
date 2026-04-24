@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-76-11-7/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-76-11-7"/>
+          <FRBRalias value="Решение № 563 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 563 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-76-11-7"/>
+          <FRBRdate date="2011-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-76-11-7/bul@2011-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-76-11-7/bul@2011-09-30"/>
+          <FRBRdate date="2011-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-76-11-7/bul@2011-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-76-11-7/bul@2011-09-30.xml"/>
+          <FRBRdate date="2011-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-30" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 563 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 563 от 31 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 128, ал. 3 ЗУТ Общинският съвет – гр. Първомай, одобрява про­ ект за подробен устройствен план – парцеларен план за подземна кабелна линия 20 kV от ВЛ „Новаково“, съществуващ ЖР стълб № 107 за захранване на фотоволтаична електроцентрала в ПИ № 062079, м. Алчаците, по КВС на с. Брягово, община Първомай, област Пловдив. Председател: Д. Петков 10712 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

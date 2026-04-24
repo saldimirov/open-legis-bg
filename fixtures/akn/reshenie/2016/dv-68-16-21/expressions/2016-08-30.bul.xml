@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-21/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-21"/>
+          <FRBRalias value="Решение № 149 от 1 юли 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 149 от 1 юли 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2016/dv-68-16-21"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-21/bul@2016-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-21/bul@2016-08-30"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-68-16-21/bul@2016-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-68-16-21/bul@2016-08-30.xml"/>
+          <FRBRdate date="2016-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-30" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 149 от 1 юли 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 149 от 1 юли 2016 г. На основание чл. 21, ал. 2 и ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ одобрява проект на подробен устройствен план (ПУП) – парцеларен план (ПП) за „Външно кабелно ел. захранване от нов размножителен кабелен шкаф тип ШК-7 на ТП „Застава“ до ел. табло тип ТЕПО пред ПИ 014069, м. Ачмълъка по КВС на с. Шкорпиловци (съгласно приложение 5). Председател: Ж. Жеков 6952 ОБЩИНА КАЗАНЛЪК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

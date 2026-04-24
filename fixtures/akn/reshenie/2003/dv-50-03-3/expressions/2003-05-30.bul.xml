@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-50-03-3/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-50-03-3"/>
+          <FRBRalias value="Решение за избиране на директор на Агенцията за чуждестранна помощ" name="short"/>
+          <FRBRalias value="Решение за избиране на директор на Агенцията за чуждестранна помощ" name="eli" other="/eli/bg/reshenie/2003/dv-50-03-3"/>
+          <FRBRdate date="2003-05-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-50-03-3/bul@2003-05-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-50-03-3/bul@2003-05-30"/>
+          <FRBRdate date="2003-05-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-50-03-3/bul@2003-05-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-50-03-3/bul@2003-05-30.xml"/>
+          <FRBRdate date="2003-05-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-05-30" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на директор на Агенцията за чуждестранна помощ</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 50, от дата 30.5.2003 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.14</p>
+          <p>Решение за избиране на директор на Агенцията за чуждестранна помощ</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за избиране на директор на Агенцията за чуждестранна помощ</p>
+          <p>Народното събрание на основание чл.86, ал. 1 от Конституцията на Република България и чл. 2, ал. 3 от Закона за Агенцията за чуждестранна помощ</p>
+          <p>РЕШИ:</p>
+          <p>Избира Едиз Юнал Лютфи за директор на Агенцията за чуждестранна помощ.</p>
+          <p>Решението е прието от   XXXIX   Народно събрание на 21 май 2003 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          <p>За председател на Народното събрание:    Камелия Касабова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

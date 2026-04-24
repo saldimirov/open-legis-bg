@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-10-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-10-12-29"/>
+          <FRBRalias value="Решение № 55 от 22 декември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 55 от 22 декември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-10-12-29"/>
+          <FRBRdate date="2012-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-10-12-29/bul@2012-02-03/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-10-12-29/bul@2012-02-03"/>
+          <FRBRdate date="2012-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-10-12-29/bul@2012-02-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-10-12-29/bul@2012-02-03.xml"/>
+          <FRBRdate date="2012-02-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-03" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 55 от 22 декември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 55 от 22 декември 2011 г. На основание чл. 21, ал. 1, т. 11 и 13 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с доклад на кме­ та на Община Елин Пелин с вх. № ОА-5469 от 7.09.2011 г. по преписка вх. № УТ2-20-1356 от 2010 г. от Константин Василев Цветанов и след становище на ПК „Устройство на територията, строителство, екология, селско и горско стопан­ ство“ Общинският съвет – гр. Елин Пелин, реши: 1. Дава съгласие трасето на електропровода да премине през общински полски пътища № 085010, 036091 и 036092 и имот № 085009 (земи по чл. 19 ЗСПЗЗ) по КВС на землището на с. Крушовица. 2. Одобрява ПУП – парцеларен план за външ­ но електрозахранване с кабелна линия средно напрежение на ПИ № 036024, м. Илиева орница в землището на с. Крушовица, ЕКАТТЕ 40227, община Елин Пелин, Софийска област. Председател: Г. Костов 925 ОБЩИНА НЕДЕЛИНО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

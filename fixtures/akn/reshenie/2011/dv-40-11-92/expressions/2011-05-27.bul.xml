@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-92/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-92"/>
+          <FRBRalias value="Решение № 747 от 1 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 747 от 1 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-40-11-92"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="92"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-92/bul@2011-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-92/bul@2011-05-27"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-40-11-92/bul@2011-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-40-11-92/bul@2011-05-27.xml"/>
+          <FRBRdate date="2011-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-27" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 747 от 1 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 747 от 1 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ във връзка с докладна записка с вх. № К-36 от 15.03.2011г. Общинският съвет – гр. Шабла, реши: Одобрява ПУП – парцеларен план за елементи на техническата инфраструктура извън урбанизи­ рани територии, засягащ следните имоти: За електропровод: ПИ № 27108.20.69 – полски път, в землище с. Езерец, ПИ № 39493.26.82 – пол­ ски път, и ПИ № 39493.26.76 – полски път, в землище с. Крапец, община Шабла. За водопровод: ПИ № 27108.4.72 – пол­ ски път, ПИ № 27108.4.73 – полски път, ПИ № 27108.4.97 – полски път, ПИ № 27108.5.119 – пол­ ски път, ПИ № 27108.5.123 – полки път, и ПИ № 27108.5.117 – полски път, в землище с. Езерец, ПИ № 39493.26.38 – полски път, ПИ № 39493.30.76 – полски път, в землище с. Крапец, община Шабла. Решението е окончателно и не подлежи на обжалване. Председател: Д. Арнаудов 5932</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-14-11-69/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-14-11-69"/>
+          <FRBRalias value="Решение № 718 от 28 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 718 от 28 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-14-11-69"/>
+          <FRBRdate date="2011-02-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="69"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-14-11-69/bul@2011-02-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-14-11-69/bul@2011-02-15"/>
+          <FRBRdate date="2011-02-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-14-11-69/bul@2011-02-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-14-11-69/bul@2011-02-15.xml"/>
+          <FRBRdate date="2011-02-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-15" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 718 от 28 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 718 от 28 декември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с докл. записка с вх. № К-217 от 15.12.2010 г. Общинският съвет – гр. Шабла, реши: Одобрява ПУП – парцеларен план за трасе на свързващ подземен електропровод 110 kV от под­ станция в ПИ 83017.19.14 до подстанция „Шабла“, засягащ следните имоти: ПИ 83017.19.14 – нива, ПИ 83017.19.152 – републикански път, ПИ 83017.19.153 – пасище, ПИ 83017.40.23 – полски път, ПИ 83017.40.21 – полски път, ПИ 83017.39.196 – полски път, ПИ 83017.504.4118 – терен общ. соб­ ственост, ПИ 83017.504.4112 – улица в гр. Шабла и ПИ 83017.504.4118 – улица в гр. Шабла. Решението е окончателно и не подлежи на обжалване. Председател: Д. Арнаудов 1785 ОБЩИНА С. КАЛОЯНОВО, ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

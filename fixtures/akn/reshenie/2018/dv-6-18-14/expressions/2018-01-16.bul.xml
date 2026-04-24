@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-6-18-14/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-6-18-14"/>
+          <FRBRalias value="Решение № 955 от 14 декември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 955 от 14 декември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2018/dv-6-18-14"/>
+          <FRBRdate date="2018-01-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-6-18-14/bul@2018-01-16/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-6-18-14/bul@2018-01-16"/>
+          <FRBRdate date="2018-01-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-6-18-14/bul@2018-01-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-6-18-14/bul@2018-01-16.xml"/>
+          <FRBRdate date="2018-01-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-01-16" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 955 от 14 декември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 955 от 14 декември 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сли- вен, реши: Одобрява подробен устройствен план за позем- лени имоти 000150 и 001381, местност Казалча, землище с. Глуфишево, община Сливен, като се сменя предназначението на имотите от земеделски в „За разширение на гробищен парк“. Решението подлежи на обжалване в 30-дневен срок от обнародването в „Държавен вестник“ пред Административния съд – Сливен. Председател: Д. Митев 197</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

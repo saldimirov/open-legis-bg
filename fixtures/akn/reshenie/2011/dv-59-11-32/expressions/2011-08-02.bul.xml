@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-32/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-32"/>
+          <FRBRalias value="Решение № 966 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 966 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-59-11-32"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-32/bul@2011-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-32/bul@2011-08-02"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-59-11-32/bul@2011-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-59-11-32/bul@2011-08-02.xml"/>
+          <FRBRdate date="2011-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-02" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 966 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 966 от 26 май 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с Решение № 7 от 26.04.2011 г. на ОЕСУТ Общинският съ­ вет – Свиленград, реши: Одобрява ПУП – парцеларен план за външно електрозахранване на обект: „Фотоволтаична електроцентрала“, намираща се в ПИ № 692002 в землището на Свиленград, собственост на „Енергийни системи – Свиленград“ – ЕООД, със седалище и адрес на управление – Хасково, ул. България – над реката 3, представлявано от Радостин Хасърджиев – управител. Неразделна част от решението са приложе­ ният план и приложените графична и текстова част. Председател: Т. Коларова 8944</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

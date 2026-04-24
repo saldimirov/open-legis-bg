@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-59/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-59"/>
+          <FRBRalias value="Решение № 775 от 3 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 775 от 3 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-51-11-59"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="59"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-59/bul@2011-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-59/bul@2011-07-05"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-51-11-59/bul@2011-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-51-11-59/bul@2011-07-05.xml"/>
+          <FRBRdate date="2011-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 775 от 3 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 775 от 3 май 2011 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3, ал. 2 ЗПСК Общинският съвет – гр. Нова Загора, реши: 1. Допълва списък № 1 по чл. 3, ал. 2, из­ речение първо ЗПСК, приет с Решение № 469 от 05.07.2002 г. съгласно приложение № 1 (ДВ, бр. 88 от 2002 г.) с общинското участие от 17 667 акции от капитала на „МБАЛ „Д-р Ив. Сели­ мински“ – АД, Сливен. 2. Възлага на кмета на общината да извърши всички необходими действия по обнародване на списъка и подготовка на приватизационната процедура. Председател: С. Стойчев 7587 ОБЩИНА ОМУРТАГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

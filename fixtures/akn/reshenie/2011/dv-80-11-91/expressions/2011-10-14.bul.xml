@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-91/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-91"/>
+          <FRBRalias value="Решение № 687 от 8 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 687 от 8 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2011/dv-80-11-91"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="91"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-91/bul@2011-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-91/bul@2011-10-14"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-91/bul@2011-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-91/bul@2011-10-14.xml"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 687 от 8 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 687 от 8 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Петрич, реши: Одобрява ПУП – парцеларен план за трасе на оптичен кабел – „Оптична свързаност на селата Първомай, Беласица, Коларово и Самуилово“, с трасе и сервитути към него, предвидени да пре­ минат в земеделски поземлени имоти в масиви по КВС, като подробно описание на имотите и сервитутите е приложено в табличен вид, нераз­ делна част към ПУП – ПП, както следва: имот № 000031 в землище с. Първомай; № 000166, 000167, 000211, 000215, 000219, 000220, 000223, 000355, 000605 в землище с. Беласица; № 000256, 000352, 000365, 059002 в землище с. Коларово и № 000356 в землище с. Самуилово. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен всетник“ ре­ шението подлежи на обжалване чрез общинския съвет до Административния съд – Благоевград. Председател: С. Николов 11207 ОБЩИНА РАДНЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

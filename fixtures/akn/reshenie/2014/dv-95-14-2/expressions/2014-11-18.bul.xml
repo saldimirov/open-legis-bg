@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-95-14-2/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-95-14-2"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на" name="eli" other="/eli/bg/reshenie/2014/dv-95-14-2"/>
+          <FRBRdate date="2014-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-95-14-2/bul@2014-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-95-14-2/bul@2014-11-18"/>
+          <FRBRdate date="2014-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-95-14-2/bul@2014-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-95-14-2/bul@2014-11-18.xml"/>
+          <FRBRdate date="2014-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-18" name="Държавен вестник" number="95" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад за прилагането на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>закона и за дейността на административните съдилища през 2013 г. Народното събрание на основание чл. 86, ал. 1 във връзка с чл. 84, т. 16 от Конституцията на Република България във връзка с чл. 30, ал. 1, т. 14 от Закона за съдебната власт Р Е Ш И : 1. Приема Доклада за прилагането на за- кона и за дейността на административните съдилища през 2013 г. 2. Предлага на вниманието на Висшия съдебен съвет и на Върховния администрати- вен съд констатациите и препоръките, които се съдържат в становището на Временната комисия по правни въпроси. Решението е прието от 43-то Народно съб­рание на 12 ноември 2014 г. и е подпе- чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

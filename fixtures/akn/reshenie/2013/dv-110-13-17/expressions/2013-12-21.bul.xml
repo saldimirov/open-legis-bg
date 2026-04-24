@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-110-13-17/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-110-13-17"/>
+          <FRBRalias value="Решение № 642 от 21 ноември 2013 г." name="short"/>
+          <FRBRalias value="Решение № 642 от 21 ноември 2013 г." name="eli" other="/eli/bg/reshenie/2013/dv-110-13-17"/>
+          <FRBRdate date="2013-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-110-13-17/bul@2013-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-110-13-17/bul@2013-12-21"/>
+          <FRBRdate date="2013-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-110-13-17/bul@2013-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-110-13-17/bul@2013-12-21.xml"/>
+          <FRBRdate date="2013-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-12-21" name="Държавен вестник" number="110" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 642 от 21 ноември 2013 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 642 от 21 ноември 2013 г. В Направление „Архитектура и градоустрой- ство“ на Столичната община са постъпили искания с предложения за осигуряване на пешеходна връзка от Дружба 2 до Метростанция M-19-I , разположена на бул. Цариградско шосе, както следва: 1. писмо вх. № ГР-94-00-157 от 2012 г. от представители на етажната собственост на блокове № 284Д, 284, 275, 278, 286, 281а, 280, 281, 282, 283, 269, 272 до главния архитект на СО; 2. писмо вх. № РА-92- 00-655 от 27.11.2012 г. чрез приемна на Министер- ския съвет на РБ № 3404 от 27.11.2012 г.; 3. писмо № РА-92-00-655 от 27.11.2012 г. и 10.01.2013 г. чрез СТР. 84 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 110 С писмо № УТ-6602-45</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

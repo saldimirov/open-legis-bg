@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-57-04-3/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-57-04-3"/>
+          <FRBRalias value="Решение за промени в Комисията по  икономическата политика" name="short"/>
+          <FRBRalias value="Решение за промени в Комисията по  икономическата политика" name="eli" other="/eli/bg/reshenie/2004/dv-57-04-3"/>
+          <FRBRdate date="2004-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-57-04-3/bul@2004-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-57-04-3/bul@2004-07-02"/>
+          <FRBRdate date="2004-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-57-04-3/bul@2004-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-57-04-3/bul@2004-07-02.xml"/>
+          <FRBRdate date="2004-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-07-02" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промени в Комисията по  икономическата политика</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 57, от дата 2.7.2004 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.8</p>
+          <p>Решение за промени в Комисията по  икономическата политика</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за промени в Комисията по икономическата политика</p>
+          <p>Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 17, ал. 5 и чл. 19, ал. 3 от Правилника за организа&amp;shy;цията и дейността на Народното събрание</p>
+          <p>РЕШИ:</p>
+          <p>Решението е прието от XXXIX Народно събрание на 25 юни 2004 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

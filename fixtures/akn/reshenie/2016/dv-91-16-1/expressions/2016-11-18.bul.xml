@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-1/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-1"/>
+          <FRBRalias value="Решение за приемане оставката на Министерския съвет" name="short"/>
+          <FRBRalias value="Решение за приемане оставката на Министерския съвет" name="eli" other="/eli/bg/reshenie/2016/dv-91-16-1"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-1/bul@2016-11-18/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-1/bul@2016-11-18"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-91-16-1/bul@2016-11-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-91-16-1/bul@2016-11-18.xml"/>
+          <FRBRdate date="2016-11-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-18" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане оставката на Министерския съвет</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 111, ал. 1, т. 2 и ал. 3 от Конституцията на Репуб­ лика България: Р Е Ш И : Приема оставката на Министерския съвет. Решението е прието от 43-то Народно съб­рание на 16 ноември 2016 г. и е подпе­ чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

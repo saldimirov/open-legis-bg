@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-9/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-9"/>
+          <FRBRalias value="Решение № 896 ОТ 19 НОЕМВРИ 2009 Г. за еднократно обявяване на 23 ноември 2009 г." name="short"/>
+          <FRBRalias value="Решение № 896 ОТ 19 НОЕМВРИ 2009 Г. за еднократно обявяване на 23 ноември 2009 г." name="eli" other="/eli/bg/reshenie/2009/dv-94-09-9"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-9/bul@2009-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-9/bul@2009-11-27"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-94-09-9/bul@2009-11-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-94-09-9/bul@2009-11-27.xml"/>
+          <FRBRdate date="2009-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-11-27" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 896 ОТ 19 НОЕМВРИ 2009 Г. за еднократно обявяване на 23 ноември 2009 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>(понеделник) за официален празник за рабо­ тещите на територията на община Кнежа На основание чл. 154, ал. 2 от Кодекса на труда и чл. 55, ал. 2 от Закона за държавния служител МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява еднократно 23 ноември 2009 г. (по­ неделник) за официален празник за работещите на територията на община Кнежа.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

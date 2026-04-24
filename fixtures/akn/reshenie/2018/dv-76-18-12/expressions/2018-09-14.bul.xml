@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-76-18-12/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-76-18-12"/>
+          <FRBRalias value="Решение № 114 от 23 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 114 от 23 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-76-18-12"/>
+          <FRBRdate date="2018-09-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-76-18-12/bul@2018-09-14/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-76-18-12/bul@2018-09-14"/>
+          <FRBRdate date="2018-09-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-76-18-12/bul@2018-09-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-76-18-12/bul@2018-09-14.xml"/>
+          <FRBRdate date="2018-09-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-09-14" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 114 от 23 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 114 от 23 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 134, ал. 1, т. 1 във връзка с чл. 136, ал. 1, чл. 127, ал. 6 от ЗУТ Общинският съвет – гр. Видин, одо- брява проект за изменение на общ устройствен план на община Видин, с който предназначението на имот с идентификатор 32754.59.96 по кадастралната карта на неурбанизираната територия на с. Иново, местност Инивото, община Видин, да се промени от територия с предназначение „Обработваеми земеделски земи“ в територия с предназначение за „Складово-производствени дейности“. Председател: Г. Велков 8208 ОБЩИНА МЕЗДРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-86-10-18/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-86-10-18"/>
+          <FRBRalias value="Решение № 380 от 14 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 380 от 14 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-86-10-18"/>
+          <FRBRdate date="2010-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-86-10-18/bul@2010-11-02/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-86-10-18/bul@2010-11-02"/>
+          <FRBRdate date="2010-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-86-10-18/bul@2010-11-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-86-10-18/bul@2010-11-02.xml"/>
+          <FRBRdate date="2010-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-02" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 380 от 14 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 380 от 14 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 9 от протокол № 5 от 24.08.2010 г. на Експертния съвет по устройство на територията на Община Мъглиж Общинският съвет – гр. Мъглиж, одобрява ПУП – план за застрояване на ПИ с идентификатор 49494.667.103 в землището на гр. Мъглиж, община Мъглиж, който предвижда изграждане на склад за готова продукция със специално предназначение, соб­ ственост на „Арсенал“ – АД, Казанлък. Председател: Кр. Стойчев 8473</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-12/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-12"/>
+          <FRBRalias value="Решение № 26 от 30 ноември 2015 г. На основание чл. 21, ал. 1, т. 11 и 8 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 26 от 30 ноември 2015 г. На основание чл. 21, ал. 1, т. 11 и 8 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-103-15-12"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-12/bul@2015-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-12/bul@2015-12-30"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-12/bul@2015-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-12/bul@2015-12-30.xml"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-30" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 26 от 30 ноември 2015 г. На основание чл. 21, ал. 1, т. 11 и 8 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 26 от 30 ноември 2015 г. На основание чл. 21, ал. 1, т. 11 и 8 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Балчик, одобрява ПУП – парцеларен план за „Водопро- вод, преминаващ през землищата на с. Кранево и с. Рогачево, за напояване на лозови масиви в ПИ 39459.5.43 в землището на с. Кранево, община Балчик. Председател: Ат. Жечев 8269 ОБЩИНА ВРАЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

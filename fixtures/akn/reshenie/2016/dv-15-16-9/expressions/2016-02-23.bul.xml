@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-9"/>
+          <FRBRalias value="Решение № 69 от 20 януари 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 69 от 20 януари 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-15-16-9"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-9/bul@2016-02-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-9/bul@2016-02-23"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-15-16-9/bul@2016-02-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-15-16-9/bul@2016-02-23.xml"/>
+          <FRBRdate date="2016-02-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-23" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 69 от 20 януари 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 69 от 20 януари 2016 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, Решение № 996 от 8.05.2015 г. и докладна записка с вх. № ОС-01- 1868 от 9.12.20015 г. от Георги Икономов – кмет на община Банско, Общинският съвет – гр. Банско, реши: Одобрява ПУП – ПП за осигуряване на дос­ тъп до ПИ 02676.1.817 чрез преминаване през ПИ 02676.1.877, местност Забиница, по КК на гр. Банско. Председател: Вл. Колчагов 1125 ОБЩИНА БЕЛЕНЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

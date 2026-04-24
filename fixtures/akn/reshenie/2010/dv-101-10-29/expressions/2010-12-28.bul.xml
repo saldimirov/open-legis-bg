@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-29"/>
+          <FRBRalias value="Решение № 974 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 974 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-101-10-29"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-29/bul@2010-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-29/bul@2010-12-28"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-29/bul@2010-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-29/bul@2010-12-28.xml"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-28" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 974 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 974 от 25 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 109, ал. 2, чл. 110, ал. 1, т. 5 и чл. 124, ал. 3 ЗУТ Общинският съ­ вет – гр. Карлово, реши: Одобрява проект за подробен устройствен план – парцеларен план за елементи на техни­ ческата инфраструктура – напорен тръбопровод през ПИ 000067, 000086, 000306, 000314, 000333, 000530 за захранване на УПИ 133007 – МВЕЦ, от КВС на с. Розино, местност Тепе деби, при спазване на нормативните изисквания. На основание чл. 215, ал. 4 ЗУТ в 14 дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Карлово до Административния съд – Пловдив. Председател: Т. Стоев 10594</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

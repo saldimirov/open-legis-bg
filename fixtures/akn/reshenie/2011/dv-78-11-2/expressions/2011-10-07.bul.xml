@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-2"/>
+          <FRBRalias value="Решение за даване на съгласие за увеличаване капи­" name="short"/>
+          <FRBRalias value="Решение за даване на съгласие за увеличаване капи­" name="eli" other="/eli/bg/reshenie/2011/dv-78-11-2"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-2/bul@2011-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-2/bul@2011-10-07"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-2/bul@2011-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-2/bul@2011-10-07.xml"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-07" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за даване на съгласие за увеличаване капи­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>тала на Република България в Банката за развитие на Съвета на Европа Народното събрание на основание чл. 84, т. 9 от Конституцията на Република България Р Е Ш И : Дава съгласие за увеличаване капитала на Република България в Банката за развитие на Съвета на Европа в размер 24 968 хил. евро чрез увеличаване на изискуемия капитал под формата на гаранции с 22 174 хил. евро и частично включване на резервите в платения капитал на стойност 2794 хил. евро. Решението е прието от 41-oто Народно съб­ рание на 28 септември 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

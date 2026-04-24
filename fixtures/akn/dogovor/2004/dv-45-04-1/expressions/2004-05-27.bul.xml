@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-45-04-1/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-45-04-1"/>
+          <FRBRalias value="Договор между правителството на Република България и правителството на Ливанската република за екстрадиция" name="short"/>
+          <FRBRalias value="Договор между правителството на Република България и правителството на Ливанската република за екстрадиция" name="eli" other="/eli/bg/dogovor/2004/dv-45-04-1"/>
+          <FRBRdate date="2004-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-45-04-1/bul@2004-05-27/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-45-04-1/bul@2004-05-27"/>
+          <FRBRdate date="2004-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-45-04-1/bul@2004-05-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-45-04-1/bul@2004-05-27.xml"/>
+          <FRBRdate date="2004-05-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-05-27" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор между правителството на Република България и правителството на Ливанската република за екстрадиция</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <content>
+          <p>1. Този договор подлежи на ратифицкация и влиза в сила на 30-ия ден след размяната на ратифкационните документи.</p>
+          <p>2. Договорът се сключва за неопределен срок. Всяка една от страните може да го денонсира. Денонсирането влиза в сила след изтичане на 6 месеца от получаването по дипломатически път на писмено известие за денонсирането му от една от страните.</p>
+          <p>Съставен в Бейрут на 20 март 2001 г. в 2 еднакви екземпляра на български и английски език, като всички текстове имат еднаква сила. При разногласие при тълкуването на договора страните ще се придържат към текста на ан&amp;shy;глийски език.</p>
+          <p>За правителството на</p>
+          <p>За правителството на</p>
+          <p>Република България:</p>
+          <p>Ливанската република:</p>
+          <p>Петко Димитров,</p>
+          <p>Н. Пр. г-жа Мишлин</p>
+          <p>директор на дирекция</p>
+          <p>Аби Самра,</p>
+          <p>“Близък изток</p>
+          <p>извънреден и</p>
+          <p>и Африка” в</p>
+          <p>пълномощен посланик</p>
+          <p>Министерството на</p>
+          <p>на Ливанската</p>
+          <p>външните работи на</p>
+          <p>република в</p>
+          <p>Република България</p>
+          <p>Република България</p>
+          <p>25597</p>
+        </content>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-47/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-47"/>
+          <FRBRalias value="Решение № 16 от 24 март 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 16 от 24 март 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-31-11-47"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="47"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-47/bul@2011-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-47/bul@2011-04-15"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-47/bul@2011-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-47/bul@2011-04-15.xml"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-15" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 16 от 24 март 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 16 от 24 март 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1, чл. 59, ал. 1, чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Камено, реши: Одобрява ПУП – парцеларен план на обект: Кабели 20 kV от нов ЖР стълб на електропровод ВЛ 20 kV „Металург“ до нов БКТП в ПИ 070009, местност Андончов гроб в землището на с. Черни връх, община Камено. Решението подлежи на обжалване в 14-дневен срок от обнародването в „Държавен вестник“ чрез Община Камено до Административния съд – Бургас. Председател: Т. Добрева 4302</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

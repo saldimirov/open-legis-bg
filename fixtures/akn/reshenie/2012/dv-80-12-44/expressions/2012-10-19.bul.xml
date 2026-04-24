@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-44/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-44"/>
+          <FRBRalias value="Решение № 25 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 25 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-80-12-44"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-44/bul@2012-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-44/bul@2012-10-19"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-80-12-44/bul@2012-10-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-80-12-44/bul@2012-10-19.xml"/>
+          <FRBRdate date="2012-10-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-19" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 25 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 25 от 20 септември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1, чл. 59, ал. 1, чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Камено, реши: Одобрява ПУП – парцеларен план за трасе на ел. кабел 20 kV и водопровод за захранване на ПИ 010071 и ПИ 010423, местност Рапаня, в землището на гр. Камено, община Камено, област Бургас. Графичната част на проекта е неразделна част от протокола с решението на общинския съвет. Електрозахранването, водоснабдяването и отвеждането на отпадните води от имота да се извършат за сметка на собствениците. Председател: Ст. Драганова 9416</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

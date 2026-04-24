@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-34/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-34"/>
+          <FRBRalias value="Решение № 150 от 8 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСА във" name="short"/>
+          <FRBRalias value="Решение № 150 от 8 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСА във" name="eli" other="/eli/bg/reshenie/2011/dv-8-11-34"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-34/bul@2011-01-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-34/bul@2011-01-25"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-8-11-34/bul@2011-01-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-8-11-34/bul@2011-01-25.xml"/>
+          <FRBRdate date="2011-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-01-25" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 150 от 8 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 150 от 8 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСА във връзка с чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Видин, одобрява проект за изменение на общ устройствен план на община Видин – смяна на устройствената зона от „земеделски земи“ в зона за „обществено обслужване“ за имот № 097010 по картата за възстановена собственост в землището на с. Антимово, община Видин, местност Капу Гриндури. Председател: Св. Славчев 427 ОБЩИНА ГЕНЕРАЛ ТОШЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

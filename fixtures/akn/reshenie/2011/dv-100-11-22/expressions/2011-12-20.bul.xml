@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-22"/>
+          <FRBRalias value="Решение № 23 от 21 ноември 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка" name="short"/>
+          <FRBRalias value="Решение № 23 от 21 ноември 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка" name="eli" other="/eli/bg/reshenie/2011/dv-100-11-22"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-22/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-22/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-22/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-22/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 23 от 21 ноември 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>с решение на Общински експертен съвет от 30.09.2011 г. с протокол № 5, т. 6 Общинският съвет – гр. Лом, одобрява попълване на кадастра- лен план и план за регулация на с. Ковачица, община Лом, област Монтана. Председател: Ст. Панталеев 13240 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

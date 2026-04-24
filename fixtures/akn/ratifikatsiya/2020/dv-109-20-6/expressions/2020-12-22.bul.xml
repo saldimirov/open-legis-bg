@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-109-20-6/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-109-20-6"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за заем" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за заем" name="eli" other="/eli/bg/ratifikatsiya/2020/dv-109-20-6"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-109-20-6/bul@2020-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-109-20-6/bul@2020-12-22"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-109-20-6/bul@2020-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-109-20-6/bul@2020-12-22.xml"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-22" name="Държавен вестник" number="109" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за заем</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>между Европейския съюз като заемодател и Република България като заемополучател Член единствен. Ратифицира Споразу­ мението за заем между Европейския съюз като заемодател и Република България като заемополучател, подписано за Европейската комисия на 11 декември 2020 г. и за Република България на 26 ноември 2020 г. Заключителна разпоредба Параграф единствен. Законът влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-6/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-6"/>
+          <FRBRalias value="Указ № 87 за награждаване на д-р Карл Блеха с орден “Мадарски конник” първа степен" name="short"/>
+          <FRBRalias value="Указ № 87 за награждаване на д-р Карл Блеха с орден “Мадарски конник” първа степен" name="eli" other="/eli/bg/ukaz/2004/dv-31-04-6"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-6/bul@2004-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-6/bul@2004-04-16"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-6/bul@2004-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-6/bul@2004-04-16.xml"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-04-16" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 87 за награждаване на д-р Карл Блеха с орден “Мадарски конник” първа степен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 31, от дата 16.4.2004 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.3</p>
+          <p>Указ № 87 за награждаване на д-р Карл Блеха с орден “Мадарски конник” първа степен</p>
+          <p>УКАЗ № 87</p>
+          <p>На основание чл. 98, т. 8 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Награждавам д-р Карл Блеха - бивш министър и настоящ председател на Съюза на пенсионерите, дългогодишен президент на Австрийско-българското дружество във Виена, с орден “Мадарски конник” първа степен за активната му дейност и използване на цялото му обществено влияние за популяризиране успехите на България.</p>
+          <p>Издаден в София на 18 март 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>Министър на външните работи:</p>
+          <p>Соломон Паси</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:  Антон Станков</p>
+          <p>18102</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

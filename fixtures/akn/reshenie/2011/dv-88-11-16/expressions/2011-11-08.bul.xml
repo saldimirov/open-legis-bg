@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-16"/>
+          <FRBRalias value="Решение № 635 от 6 октомври 2011 г." name="short"/>
+          <FRBRalias value="Решение № 635 от 6 октомври 2011 г." name="eli" other="/eli/bg/reshenie/2011/dv-88-11-16"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-16/bul@2011-11-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-16/bul@2011-11-08"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-16/bul@2011-11-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-16/bul@2011-11-08.xml"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-08" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 635 от 6 октомври 2011 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 635 от 6 октомври 2011 г. В изпълнение предвижданията на Общия устройствен план на Столичната община и предвид необходимостта от осигуряване на обезпеченост с подробен устройствен план „Изграждане на отвеждащи канализационни колектори до нова регионална пречиствателна станция на река Лесновска в района на с. Дол- ни Богров за пречистване на отпадните води на селищата Кремиковци, Сеславци, Ботунец, Бухово, Яна, Горни Богров, Долни Богров, Кри­ вина и Казичене, район „Кремиковци“ и район „Панчарево“ със Заповед № РД-09-50-1452 от 28.09.2010 г. главният архитект на Столичната община допуска да се изработи проект за под­ робен устройствен план (ПУП) – изменение на план за регулация (ИПР) и план за застрояване (ПЗ) на м. Яна, кв. 38, УПИ I – „Стопански двор на ТКЗС“, II – „За помпена станция“, район „Кремиковци“. Същият е обявен на основание чл. 128, ал. 2 ЗУТ. Проведено е обществено об­ съждане и с писмо № 6602-3-</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

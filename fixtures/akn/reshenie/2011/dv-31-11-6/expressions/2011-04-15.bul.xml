@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-6"/>
+          <FRBRalias value="Решение за избиране на подуправител на Българската" name="short"/>
+          <FRBRalias value="Решение за избиране на подуправител на Българската" name="eli" other="/eli/bg/reshenie/2011/dv-31-11-6"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-6/bul@2011-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-6/bul@2011-04-15"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-31-11-6/bul@2011-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-31-11-6/bul@2011-04-15.xml"/>
+          <FRBRdate date="2011-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-15" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на подуправител на Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>народна банка Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Република България, чл. 12, ал. 2 и 4 и чл. 19, ал. 1 от Закона за Българската народна банка и по предложение на управителя на Българската народна банка Р Е Ш И : Избира Димитър Иванов Костов за подуп­ равител на Българската народна банка, ръко­ водител на управление „Банково“, с мандат 6 години, който започва на 12 юни 2011 г. Решението е прието от 41-ото Народно събрание на 8 април 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

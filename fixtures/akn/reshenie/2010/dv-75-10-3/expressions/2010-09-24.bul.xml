@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-75-10-3/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-75-10-3"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на" name="eli" other="/eli/bg/reshenie/2010/dv-75-10-3"/>
+          <FRBRdate date="2010-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-75-10-3/bul@2010-09-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-75-10-3/bul@2010-09-24"/>
+          <FRBRdate date="2010-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-75-10-3/bul@2010-09-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-75-10-3/bul@2010-09-24.xml"/>
+          <FRBRdate date="2010-09-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-24" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад за прилагането на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>закона и за дейността на съдилищата през 2009 г. Народното събрание на основание чл. 84, т. 16 от Конституцията на Република България и чл. 80, ал. 5 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Приема Доклада за прилагането на закона и за дейността на съдилищата през 2009 г. 2. Предлага на вниманието на Висшия съдебен съвет и на Върховния касационен съд констатациите и препоръките, които се съдържат в становището на Комисията по правни въпроси. Решението е прието от 41-ото Народно съб­ рание на 16 септември 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

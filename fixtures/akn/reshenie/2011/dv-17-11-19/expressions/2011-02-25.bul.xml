@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-19"/>
+          <FRBRalias value="Решение № 462 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 462 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-17-11-19"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-19/bul@2011-02-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-19/bul@2011-02-25"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-17-11-19/bul@2011-02-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-17-11-19/bul@2011-02-25.xml"/>
+          <FRBRdate date="2011-02-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-25" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 462 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 462 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с § 8 и чл. 134, ал. 1, т. 1 ЗУТ Общинският съвет – гр. Първомай, одобрява подробен устройствен план – план за регулация (ПР) за изменение на дворищната регулация по имотни граници между УПИ VІІ-226, ХV-224 и ХІІІ-280 от кв. № 33 и І-229, Х-276 и образуване на нов УПИ ХІІ-278, кв. № 61 по плана на с. Буково, община Първомай, област Пловдив. Председател: Д. Петков 2302</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-19"/>
+          <FRBRalias value="Решение № 215 от 30 юни 2016 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 215 от 30 юни 2016 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2016/dv-58-16-19"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-19/bul@2016-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-19/bul@2016-07-26"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-19/bul@2016-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-19/bul@2016-07-26.xml"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-26" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 215 от 30 юни 2016 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 215 от 30 юни 2016 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Казанлък, реши: Одобрява парцеларен план на подземен елек- тропровод за осигуряване на електрозахранване на поземлен имот (ПИ) № 011020 от 1,199 дка, представляващ „нива“, собственост на Ана Ангелова Божкова. Трасето преминава по ПИ № 000526 и № 000040 – полски пътища, всички публична общинска собственост, в местност Адалъка, землище с. Копринка, ЕКАТТЕ 38563. Председател: Н. Златанов 5944</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

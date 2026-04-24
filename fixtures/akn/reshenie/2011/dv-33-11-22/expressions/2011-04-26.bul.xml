@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-22"/>
+          <FRBRalias value="Решение № 103 от 24 февруари 2011 г." name="short"/>
+          <FRBRalias value="Решение № 103 от 24 февруари 2011 г." name="eli" other="/eli/bg/reshenie/2011/dv-33-11-22"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-22/bul@2011-04-26/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-22/bul@2011-04-26"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-33-11-22/bul@2011-04-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-33-11-22/bul@2011-04-26.xml"/>
+          <FRBRdate date="2011-04-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-26" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 103 от 24 февруари 2011 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 103 от 24 февруари 2011 г. Със заявление вх. № ГР-94-Д-120 от 2.10.2008 г. собственикът на ПИ 38002, землище Кътина, е внесъл в ДАГ мотивирано предложение за изработване на ПУП – ПРЗ за новообразуващ се УПИ за имота му. На 20.01.2009 г. под същия изх. № е издадено допускане от главния архитект на СО. На 6.10.2010 г. е внесен за процедиране проект за ПУП – ПРЗ за УПИ IV-38002, кв. 42, м. с. Кътина. Проектът е обявен по чл. 128 ЗУТ. С писмо № 6602-112</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

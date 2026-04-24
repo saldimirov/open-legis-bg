@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-64/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-64"/>
+          <FRBRalias value="Решение № 171 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 171 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-49-12-64"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="64"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-64/bul@2012-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-64/bul@2012-06-29"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-64/bul@2012-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-64/bul@2012-06-29.xml"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-29" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 171 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 171 от 31 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раднево, одобрява подробен устройствен план – пар­ целарен план за обект „Фотоелектрическа центра­ ла до 200 kV“ от съществуващ ЖР стълб № 7 от въздушен провод „М. Станев“, намиращ се в ПИ 61460.23.9 в землището на гр. Раднево, като от него се изтегли кабел 20 kV, който да преминава подземно през ПИ 61460.23.9 и ПИ 61460.23.5 до достигане на УПИ I-1 в кв. 59 по плана на гр. Раднево, община Раднево, област Стара Загора. Председател: Д. Желев 5903 ОБЩИНА РУДОЗЕМ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

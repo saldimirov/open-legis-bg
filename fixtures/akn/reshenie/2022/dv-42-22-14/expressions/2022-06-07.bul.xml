@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-14/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-14"/>
+          <FRBRalias value="Решение № 138 от 14 април 2022 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 138 от 14 април 2022 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2022/dv-42-22-14"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-14/bul@2022-06-07/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-14/bul@2022-06-07"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-42-22-14/bul@2022-06-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-42-22-14/bul@2022-06-07.xml"/>
+          <FRBRdate date="2022-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-06-07" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 138 от 14 април 2022 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>народна банка пуска в обращение, считано от 27.06.2022 г., златна възпоменателна монета „Паи- сий Хилендарски – два златни лева“ със следното описание: Технически параметри: емисия – 2022 г.; номинална стойност – 2 лева; метал – злато, проба 999/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 26,5 мм; гурт – гладък с вдлъбнат надпис „ИСТОРИЯ СЛАВЯНОБЪЛГАРСКА“; тираж – 4000. Графични елементи: На лицевата страна на монетата са изобразени следните елементи: в центъра номиналната стой- ност „2“, а под нея „ЛЕВА“; околовръст надпис „БЪЛГАРСКА НАРОДНА БАНКА“ и вдясно долу годината на емисията „2022“. На обратната страна на монетата: в центъра в зрънчест кръг е разположен стилизиран образ на Паи- сий Хилендарски, вдясно – годините „1722 – 1773“; околовръст надписи: в горната част „ПАИСИЙ ХИЛЕНДАРСКИ“, а в долната „БЪЛГАРИЯ“. Автори на художествения проект са Ваня Ди- митрова и колектив от „Монетен двор“ – ЕАД. Управител: Д. Радев 3171 ОБЩИНА ДОБРИЧКА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

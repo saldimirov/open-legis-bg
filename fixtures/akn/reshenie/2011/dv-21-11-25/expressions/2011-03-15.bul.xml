@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-25"/>
+          <FRBRalias value="Решение № 397 от 25 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 397 от 25 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-21-11-25"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-25/bul@2011-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-25/bul@2011-03-15"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-25/bul@2011-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-25/bul@2011-03-15.xml"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-15" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 397 от 25 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 397 от 25 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 6 от протокол № 1 от 5.01.2011 г. на Общинския експертен съвет по устройство на територията при Община Летница Общинският съвет – гр. Летница, реши: СТР. 52 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 21 Одобрява ПУП – парцеларен план за техни­ ческа инфраструктура, за трасе на ел. кабелно захранване на поземлени имоти 43476.93.75, 43476.93.77, 43476.93.78, 43476.93.79, 43476.93.80 и 43476.93.81, УПИ І, ІІ, ІІІ и ІV, кв. 280, местност Копака, гр. Летница, на обект „Фотоволтаичен парк“ с възложител „Солар парк“ – ЕООД, Ловеч. Председател: Д. Захариева 2879</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

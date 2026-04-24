@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-30/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-30"/>
+          <FRBRalias value="Решение № 389 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 389 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-54-10-30"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-30/bul@2010-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-30/bul@2010-07-16"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-54-10-30/bul@2010-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-54-10-30/bul@2010-07-16.xml"/>
+          <FRBRdate date="2010-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-07-16" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 389 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 389 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Малко Търново, одобрява проект за подробен устройствен план – парцеларен план и ел. схема за обект: „Трасе на ел. кабел 20 kV в обхвата на път до ПИ 45022 в местност Мечкобиево, землище на гр. Малко Търново – пътна връзка на път ІІ-99, км 107+920 –ляво“. Трасето преминава през ПИ № 50.896, ПИ № 45.7, ПИ № 45.11, ПИ № 45.12, ПИ № 45.8, ПИ № 85.20, ПИ № 45.900, ПИ № 85.921, ПИ № 85.261 и ПИ № 35.292. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Малко Търново пред Административния съд – гр. Бургас. Председател: Т. Петков 5669 ОБЩИНА САНДАНСКИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

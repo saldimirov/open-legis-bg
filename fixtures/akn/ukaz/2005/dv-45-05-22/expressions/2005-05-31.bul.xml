@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-22/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-22"/>
+          <FRBRalias value="Указ № 198 за награждаване на проф. Крумка Крумова Шарова с орден “Св. св. Кирил и Методий”  първа степен" name="short"/>
+          <FRBRalias value="Указ № 198 за награждаване на проф. Крумка Крумова Шарова с орден “Св. св. Кирил и Методий”  първа степен" name="eli" other="/eli/bg/ukaz/2005/dv-45-05-22"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-22/bul@2005-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-22/bul@2005-05-31"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-22/bul@2005-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-22/bul@2005-05-31.xml"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-31" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 198 за награждаване на проф. Крумка Крумова Шарова с орден “Св. св. Кирил и Методий”  първа степен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 45, от дата 31.5.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.25</p>
+          <p>Указ № 198 за награждаване на проф. Крумка Крумова Шарова с орден “Св. св. Кирил и Методий”  първа степен</p>
+          <p>УКАЗ № 198</p>
+          <p>На основание чл. 98, т. 8 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Награждавам проф. Крумка Крумова Шарова с орден “Св. св. Кирил и Методий” първа степен за извънредно големите й заслуги към Република България за развитието на историческата наука и по повод 80 години от рождението й.</p>
+          <p>Издаден в София на 19 май 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

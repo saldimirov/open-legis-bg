@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-35-19-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-35-19-15"/>
+          <FRBRalias value="Решение № 1004 от 28 март 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 1004 от 28 март 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-35-19-15"/>
+          <FRBRdate date="2019-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-35-19-15/bul@2019-04-30/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-35-19-15/bul@2019-04-30"/>
+          <FRBRdate date="2019-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-35-19-15/bul@2019-04-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-35-19-15/bul@2019-04-30.xml"/>
+          <FRBRdate date="2019-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-04-30" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1004 от 28 март 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1004 от 28 март 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП – парцеларен план за обект „Външен довеждащ водопровод от водна кула „Ковач“ до РШ „Знаменосец“ за гр. Раднево“ през поземлени имоти по кадас­ тралната карта на землищата на с. Ковач и с. Знаменосец, община Раднево, област Стара Загора. Председател: Р. Йовчев 3191 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

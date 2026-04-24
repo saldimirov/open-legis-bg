@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-60/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-60"/>
+          <FRBRalias value="Решение № 632 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и 22 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 632 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и 22 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-71-11-60"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="60"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-60/bul@2011-09-13/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-60/bul@2011-09-13"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-71-11-60/bul@2011-09-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-71-11-60/bul@2011-09-13.xml"/>
+          <FRBRdate date="2011-09-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 632 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и 22 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 632 от 28 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и 22 ЗМСМА във връзка с Решение № 18 от протокол № 4 от 10.06.2011 г. на ОЕСУТ и чл. 129, ал. 1 ЗУТ за обекти – публична общинска собственост, Общинският съвет – гр. Стражица, приема и одобрява частично изменение на действащ под­ робен устройствен план – план за регулация в обхват: урегулиран поземлен имот І в кв. 34 по плана на с. Благоево, община Стражица, област Велико Търново. Председател: К. Петрова 10404 ОБЩИНА С. КАЛОЯНОВО, ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

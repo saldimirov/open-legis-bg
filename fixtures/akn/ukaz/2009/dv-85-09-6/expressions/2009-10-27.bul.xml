@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-85-09-6/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-85-09-6"/>
+          <FRBRalias value="Указ № 348 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28," name="short"/>
+          <FRBRalias value="Указ № 348 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28," name="eli" other="/eli/bg/ukaz/2009/dv-85-09-6"/>
+          <FRBRdate date="2009-10-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-85-09-6/bul@2009-10-27/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-85-09-6/bul@2009-10-27"/>
+          <FRBRdate date="2009-10-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-85-09-6/bul@2009-10-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-85-09-6/bul@2009-10-27.xml"/>
+          <FRBRdate date="2009-10-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-27" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 348 На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 1, т. 7 от Закона за административно-тери­ ториалното устройство на Република България П О С Т А Н О В Я В А М : Утвърждавам нови граници на: 1. Община Ветово, област Русе, включваща населените места: гр. Ветово, гр. Глоджево, с. Кривня, с. Писанец, гр. Сеново и с. Смир­ ненски. 2. Община Русе, област Русе, включваща населените места: гр. Русе, с. Басарбово, с. Бъзън, с. Долно Абланово, гр. Мартен, с. Николово, с. Ново село, с. Просена, с. Санд­ рово, с. Семерджиево, с. Тетово, с. Хотанца, с. Червена вода и с. Ястребово. Изпълнението на указа възлагам на област­ ния управител на област Русе, на кмета на община Ветово и на кмета на община Русе. Издаден в София на 14 октомври 2009 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

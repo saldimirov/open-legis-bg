@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-58-19-24/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-58-19-24"/>
+          <FRBRalias value="Решение № 60 от 7 юни 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 60 от 7 юни 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2019/dv-58-19-24"/>
+          <FRBRdate date="2019-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-58-19-24/bul@2019-07-23/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-58-19-24/bul@2019-07-23"/>
+          <FRBRdate date="2019-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-58-19-24/bul@2019-07-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-58-19-24/bul@2019-07-23.xml"/>
+          <FRBRdate date="2019-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-07-23" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 60 от 7 юни 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 60 от 7 юни 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 129, ал. 1 от ЗУТ и чл. 21, ал. 7 във връзка с ал. 1 от ЗОС, Решение № 92 от протокол № 13 от 7.09.2018 г. на ОбС – гр. Кочериново, разрешаване изработването на ПУП – ПУР и решение, т. 2 от протокол № 5 от 8.11.2018 г. при ОБЕСУТ при Община Кочериново Общинският съвет – гр. Ко- чериново, одобрява ПУП – ПУР за промяна на улична регулация на улица Ятак с о.т. 87 – 88 – 74 по плана на гр. Кочериново по съществуващия на място профил от 8,00 м. Председател: К. Везенков 5679</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

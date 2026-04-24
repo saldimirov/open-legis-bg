@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-24"/>
+          <FRBRalias value="Решение № 457-I от  29 април 2010 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 457-I от  29 април 2010 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-40-10-24"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-24/bul@2010-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-24/bul@2010-05-28"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-24/bul@2010-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-24/bul@2010-05-28.xml"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-28" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 457-I от  29 април 2010 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 457-I от 29 април 2010 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и чл. 22, 23, 24 и чл. 25, т. 1 ЗАТУРБ Общинският съвет – гр. Троян, образува селищно образува- ние от местно значение с наименование Пла- нински туристически комплекс „Беклемето“ за територията, определена с одобрения подробен устройствен план – план за регулация и застро- яване на туристически комплекс „Беклемето“, в местността Беклемето на землище с. Балканец и с. Бели Осъм. Председател: А. Балев 4304 ОБЩИНА ТУТРАКАН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-55-16-12/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-55-16-12"/>
+          <FRBRalias value="Решение № 212 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 212 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-55-16-12"/>
+          <FRBRdate date="2016-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-55-16-12/bul@2016-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-55-16-12/bul@2016-07-19"/>
+          <FRBRdate date="2016-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-55-16-12/bul@2016-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-55-16-12/bul@2016-07-19.xml"/>
+          <FRBRdate date="2016-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-19" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 212 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 212 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Тут- ракан, реши: Одобрява подробен уст ройствен план (ПУП) – парцеларен план (ПП) за проектира- не на подземно кабелно трасе за ел. захранване на „Жилищна сграда с гараж в 73496.505.335 и ел. захранване на „Два хладилни фургона“ в 73496.505.337. Трасето е проектирано да мине през ПИ с идентификатор 73496.505.336, ПИ с идентификатор 73496.505.335 (собственост на възложителя), ПИ с идентификатор 73496.505.205 (полски път, общинска публична собственост) и достигне имот с идентификатор 73496.505.337 (собственост на възложителя). Едното трасе е с дължина 25,25 м, а другото – 34,55 м, и сервитут 2 м от двете страни. В изкопа се полагат два броя кабел на ел. захранване. Кабелното ел. трасе преминава през имот „Полски път“, общинска публична собственост, с дължина 5,83 л. м и площ, заета от сервитута, 23 кв. м. Председател: Д. Николов 5721 ОБЩИНА ХАСКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

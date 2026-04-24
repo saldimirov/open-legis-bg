@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-27/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-27"/>
+          <FRBRalias value="Решение № 209 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 209 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-58-16-27"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-27/bul@2016-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-27/bul@2016-07-26"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-58-16-27/bul@2016-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-58-16-27/bul@2016-07-26.xml"/>
+          <FRBRdate date="2016-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-26" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 209 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 209 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 134, ал. 1, т. 1 и ал. 2, т. 2 ЗУТ и решение № 5 от протокол № 13 от 22.06.2016 г. на Общинския експертен съвет по устройство на територията Общинският съ- вет – гр. Троян, реши: Одобрява проект на подробен устройствен план – план за улична регулация (ПУП – ПУР) на ул. Стара планина, с. Орешак, община Троян, в обхвата на О.Т. 2-1200, О.Т. 1201-1209, О.Т. 1209- 1220, О.Т. 1220-1235, О.Т. 1235-305 и О.Т. 305-1264. Графичната част на проекта е неделима част от решението. На основание чл. 215, ал. 1 и 4 ЗУТ решението може да бъде обжалвано чрез органа, издал акта, в 30-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Ловеч. Председател: Н. Тодоров 5891 ОБЩИНА „ТУНДЖА“ – ЯМБОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

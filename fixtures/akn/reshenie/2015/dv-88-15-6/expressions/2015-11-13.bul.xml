@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-88-15-6/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-88-15-6"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на народен" name="short"/>
+          <FRBRalias value="Решение за прекратяване на пълномощията на народен" name="eli" other="/eli/bg/reshenie/2015/dv-88-15-6"/>
+          <FRBRdate date="2015-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-88-15-6/bul@2015-11-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-88-15-6/bul@2015-11-13"/>
+          <FRBRdate date="2015-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-88-15-6/bul@2015-11-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-88-15-6/bul@2015-11-13.xml"/>
+          <FRBRdate date="2015-11-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-11-13" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване на пълномощията на народен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>представител Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Репуб­ лика България СТР. 16 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 88 ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-16"/>
+          <FRBRalias value="Решение № 282 от 1 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 282 от 1 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-84-16-16"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-16/bul@2016-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-16/bul@2016-10-25"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-84-16-16/bul@2016-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-84-16-16/bul@2016-10-25.xml"/>
+          <FRBRdate date="2016-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 282 от 1 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 282 от 1 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и протокол № 10 от 2016 г. на ОЕСУТ, т. 4, Общинският съвет – гр. Костинброд, одобрява проект за ПУП – ПП (подробен устройствен план – парцеларен план) за елементи на техни- ческата инфрастуктура – разпределителна газо- проводна мрежа за зона „А“ – гр. Костинброд, преминаване под жп линия София – Калотина. Председател: Ат. Тенев 8415 СТР. 12 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 84 ОБЩИНА КОТЕЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

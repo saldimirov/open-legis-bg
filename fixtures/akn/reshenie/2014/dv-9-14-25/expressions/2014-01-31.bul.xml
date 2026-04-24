@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-25"/>
+          <FRBRalias value="Решение № 709 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 709 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2014/dv-9-14-25"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-25/bul@2014-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-25/bul@2014-01-31"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-25/bul@2014-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-25/bul@2014-01-31.xml"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 709 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 709 от 20 декември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и прието решение № 2 от протокол № 8 от 7.10.2013 г. на ОЕСУТ при Община Аврен Об- щинският съвет – с. Аврен, реши: Одобрява подробен устройствен план – парце- ларен план (ПУП – ПП) за изграждане на кабелна линия за захранване на УПИ III-055136, кв. 120, м. Старите лозя в землището на с. Близнаци, с дължина на трасето 384,06 л. м. Председател: М. Черкезов 437</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

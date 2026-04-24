@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-1/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-1"/>
+          <FRBRalias value="Указ № 291 На основание чл. 101, ал. 3 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 291 На основание чл. 101, ал. 3 от Конститу-" name="eli" other="/eli/bg/ukaz/2020/dv-108-20-1"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-1/bul@2020-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-1/bul@2020-12-22"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-108-20-1/bul@2020-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-108-20-1/bul@2020-12-22.xml"/>
+          <FRBRdate date="2020-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-22" name="Държавен вестник" number="108" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 291 На основание чл. 101, ал. 3 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 291 На основание чл. 101, ал. 3 от Конститу- цията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за изменение и допълнение на Ко- декса на търговското корабоплаване, приет от 44-то Народно събрание на 28 октомври 2020 г., повторно приет на 16 декември 2020 г. Издаден в София на 17 декември 2020 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Десислава Ахладова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

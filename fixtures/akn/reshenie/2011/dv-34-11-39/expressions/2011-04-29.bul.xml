@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-39/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-39"/>
+          <FRBRalias value="Решение № 614 от 11 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 614 от 11 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-34-11-39"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-39/bul@2011-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-39/bul@2011-04-29"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-39/bul@2011-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-39/bul@2011-04-29.xml"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-29" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 614 от 11 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 614 от 11 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА чл. 129, ал. 1 ЗУТ и решение № 2, протокол на ОЕСУТ № 3 от 29.03.2011 г. Общинският съвет – гр. Монтана, одобрява проект за подро­ бен устройствен план – план за застрояване за промяна предназначението на имот № 043135 по картата на възстановената собственост (КВС), зем­ лище с. Смоляновци, община Монтана, съгласно чертежа. ПУП – ПЗ се одобрява по червените и черни линии, цифри и надписи и е неразделна част от решението. Решението да се съобщи на всички заинтересувани лица. Решението подле­ жи на обжалване по реда на чл. 215 ЗУТ чрез общината до Административния съд – Монтана, в 14-дневен срок от датата на съобщаването му. Председател: Св. Николов 5121 ОБЩИНА ПЕРНИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

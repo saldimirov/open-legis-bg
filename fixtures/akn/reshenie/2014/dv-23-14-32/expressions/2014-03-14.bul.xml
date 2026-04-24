@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-32/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-32"/>
+          <FRBRalias value="Решение № 586 от 31 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 586 от 31 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2014/dv-23-14-32"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-32/bul@2014-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-32/bul@2014-03-14"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-32/bul@2014-03-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-32/bul@2014-03-14.xml"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-14" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 586 от 31 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 586 от 31 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Смолян, одобрява подробен устрой­ ствен план – парцеларен план за обект: „Външно електрозахранване на вилни сгради в местност Плешково, землище Смолян“, във връзка с из­ граждане на техническа инфраструктура – външно електрозахранване за трасе, преминаващо през ПИ с идентификатори 67653.54.3, 67653.54.19, 67653.449.387, 67653.54.9, 67653.54.380, 67653.54.16, 67553.37.383, 67653.37.461 и 67653.66.385 в местност Плешково, землище Смолян, община Смолян. Председател: Ф. Топов 1493 ОБЩИНА СТРАЖИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

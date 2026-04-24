@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-64-11-47/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-64-11-47"/>
+          <FRBRalias value="Решение № 701 от 25 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 701 от 25 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-64-11-47"/>
+          <FRBRdate date="2011-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="47"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-64-11-47/bul@2011-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-64-11-47/bul@2011-08-19"/>
+          <FRBRdate date="2011-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-64-11-47/bul@2011-08-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-64-11-47/bul@2011-08-19.xml"/>
+          <FRBRdate date="2011-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-19" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 701 от 25 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 701 от 25 юли 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Павел баня, реши: Одобрява подробен устройствен план – пар­ целарен план на елементите на техническата инфраструктура, външно ел. и В и К захранване на обект „Пункт за пътна помощ“ в ПИ 100003, местност Секцията, в землището на с. Габарево, община Павел баня. Дължината на трасето на ел. кабела и водо­ провода в регулацията на с. Габарево е 230 л.м, общата площ на сервитута е 460 кв.м. Дължината на трасето на ел. кабела и во­ допровода по гл. път І-6 извън регулацията на с. Габарево е 65 л.м, общата площ на сервитута е 130 кв.м. Председател: Хр. Петрова 9663</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

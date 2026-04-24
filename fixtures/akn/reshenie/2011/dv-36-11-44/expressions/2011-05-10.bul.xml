@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-44/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-44"/>
+          <FRBRalias value="Решение № 66 от 8 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 66 от 8 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-36-11-44"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-44/bul@2011-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-44/bul@2011-05-10"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-36-11-44/bul@2011-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-36-11-44/bul@2011-05-10.xml"/>
+          <FRBRdate date="2011-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-10" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 66 от 8 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 66 от 8 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 109, ал. 2 във връзка с чл. 124, ал. 2 и чл. 129, ал. 1 ЗУТ Общинският съвет при Община „Ма­ рица“ одобрява представения ПУП – парцела­ рен план за обект: „Транспортен достъп“ към обект – „ТИР паркинг, сервиз за камиони и офис“, преминаващ през ПИ № 48.4, 48.10, 48.11 и 9.37 в м. Полук тарла, землище с. Войводиново, община „Марица“, област Пловдив. Председател: Пл. Петков 5415 ОБЩИНА ПРОВАДИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

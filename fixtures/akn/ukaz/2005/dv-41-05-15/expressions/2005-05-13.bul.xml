@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-41-05-15/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-41-05-15"/>
+          <FRBRalias value="Указ № 117 за назначаване на бригаден генерал Георги Танев Георгиев на длъжността началник на Националния военен университет “Васил Левски”" name="short"/>
+          <FRBRalias value="Указ № 117 за назначаване на бригаден генерал Георги Танев Георгиев на длъжността началник на Националния военен университет “Васил Левски”" name="eli" other="/eli/bg/ukaz/2005/dv-41-05-15"/>
+          <FRBRdate date="2005-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-41-05-15/bul@2005-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-41-05-15/bul@2005-05-13"/>
+          <FRBRdate date="2005-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-41-05-15/bul@2005-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-41-05-15/bul@2005-05-13.xml"/>
+          <FRBRdate date="2005-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-13" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 117 за назначаване на бригаден генерал Георги Танев Георгиев на длъжността началник на Националния военен университет “Васил Левски”</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 41, от дата 13.5.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.6</p>
+          <p>Указ № 117 за назначаване на бригаден генерал Георги Танев Георгиев на длъжността началник на Националния военен университет “Васил Левски”</p>
+          <p>УКАЗ № 117</p>
+          <p>На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 28, т. 4 и чл. 125, т. 1 от Закона за отбраната и въоръжените сили на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам бригаден генерал Георги Танев Георгиев на длъжността началник на Националния военен университет “Васил Левски”.</p>
+          <p>Изпълнението на указа възлагам на министъра на отбраната.</p>
+          <p>Издаден в София на 4 май 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

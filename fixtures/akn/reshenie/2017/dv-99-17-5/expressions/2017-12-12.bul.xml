@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-5/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-5"/>
+          <FRBRalias value="Решение за приемане на Доклад на Националното" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад на Националното" name="eli" other="/eli/bg/reshenie/2017/dv-99-17-5"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-5/bul@2017-12-12/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-5/bul@2017-12-12"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-99-17-5/bul@2017-12-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-99-17-5/bul@2017-12-12.xml"/>
+          <FRBRdate date="2017-12-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-12-12" name="Държавен вестник" number="99" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад на Националното</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>бюро за контрол на специалните разузна- вателни средства за извършената дейност през 2016 г. Народното събрание на основание чл. 84, т. 17 от Конституцията на Република България Р Е Ш И : Приема Доклад на Националното бюро за контрол на специалните разузнавател- ни средства за извършената дейност през 2016 г. Решението е прието от 44-то Народно съб­рание на 6 декември 2017 г. и е подпе- чатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

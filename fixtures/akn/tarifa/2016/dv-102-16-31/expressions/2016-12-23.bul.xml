@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-102-16-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-102-16-31"/>
+          <FRBRalias value="Тарифа за таксите, които се събират по Закона за" name="short"/>
+          <FRBRalias value="Тарифа за таксите, които се събират по Закона за" name="eli" other="/eli/bg/tarifa/2016/dv-102-16-31"/>
+          <FRBRdate date="2016-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-102-16-31/bul@2016-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-102-16-31/bul@2016-12-23"/>
+          <FRBRdate date="2016-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-102-16-31/bul@2016-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-102-16-31/bul@2016-12-23.xml"/>
+          <FRBRdate date="2016-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-23" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Тарифа за таксите, които се събират по Закона за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Разглеждане на заявление за ре- гистрация на туроператорска дейност и/или туристическа агентска дейност: 1. туроператорска дейност – 500 лв.; 2. туристическа агентска дейност – 500 лв.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Вписване в Регистъра на туроператорите и туристическите агенти и издаване на удос- товерение за регистрация за извършване на: 1. туроператорска дейност – 3500 лв.; 2. туристическа агентска дейност – 1800 лв.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Таксите по чл. 1, ал. 1 се заплащат при подаването на заявлението за регистрация, а по чл. 1, ал. 2 – при получаването на удосто- верението за регистрация.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>За категоризиране на туристиче- ски обекти по чл. 123, 124, 125 и 126 от Закона за туризма (ЗТ) се събират следните такси: 1. за категоризиране на места за настаня- ване клас А – хотели, мотели, апартаментни туристически комплекси, вилни селища, ту- ристически селища и вили: а) до 30 стаи – 500 лв.; б) от 31 до 150 стаи – 1200 лв.; в) от 151 до 300 стаи – 1900 лв.; г) от 301 до 500 стаи – 2800 лв.; д) над 500 стаи – 5000 лв.; 2. за категоризиране на места за настаняване клас Б – семейни хотели, хостели, пансиони и почивни станции: а) до 20 стаи – 200 лв.; б) от 21 до 40 стаи – 400 лв.; в) от 41 до 60 стаи – 940 лв.; г) от 61 до 100 стаи – 2000 лв.; д) над 100 стаи – 4000 лв.; 3. за категоризиране на места за настаня- ване клас Б – стаи за гости, апартаменти за гости, къщи за гости, бунгала и къмпинги: а) за едно легло – 10 лв. на легло; б) за паркомясто за автомобил/каравана/ кемпер в къмпинг – 10 лв. на брой; в) за място на палатка в къмпинг – 10 лв. на брой; МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

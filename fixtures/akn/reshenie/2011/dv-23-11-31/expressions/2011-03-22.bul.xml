@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-31"/>
+          <FRBRalias value="Решение № 1735 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1735 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-23-11-31"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-31/bul@2011-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-31/bul@2011-03-22"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-23-11-31/bul@2011-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-23-11-31/bul@2011-03-22.xml"/>
+          <FRBRdate date="2011-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-22" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1735 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1735 от 27 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, протокол № 50 на ПК по „Устройство на територията“ Общинският съ­ вет – гр. Самоков, реши: Одобрява подробния устройствен план – план за застрояване за имоти № 701032 и № 701033 в местността Селището в землището на с. Алино, община Самоков, собственост на наследници на Костадинка Иванова Ласкина и наследници на Стоилко Котев Ласкин, при обособена устройстве­ на зона „Ваканционно селище (Ос)“ за изграждане на по една вилна сграда в имот с показатели: плътност на застрояване – до 30 %, коефициент на интензивност – до 1,2, височина на сградите – до 10 м (3 ет.), съгласно приложения проект. Имотът подлежи на първа регулация съгласно чл. 16 ЗУТ. За председател: Г. Големинов 2955</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

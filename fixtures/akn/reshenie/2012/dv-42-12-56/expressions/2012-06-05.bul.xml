@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-56/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-56"/>
+          <FRBRalias value="Решение № 96 от 25 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и докладна записка от" name="short"/>
+          <FRBRalias value="Решение № 96 от 25 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и докладна записка от" name="eli" other="/eli/bg/reshenie/2012/dv-42-12-56"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="56"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-56/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-56/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-56/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-56/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 96 от 25 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и докладна записка от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 96 от 25 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и докладна записка от кмета вх. № 53-0-127 от 11.04.2012 г. Общин­ ският съвет – гр. Първомай, одобрява проект на ПУП – парцеларен план за кабелна линия 20 kV за захранване на фотоволтаичен парк в ПИ № 010107, местност Азмак боаз, по КВС – с. Гра­ дина, община Първомай, област Пловдив. Председател: Д. Петков 5034 ОБЩИНА РАЗГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

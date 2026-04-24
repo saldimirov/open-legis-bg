@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-29/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-29"/>
+          <FRBRalias value="Решение № 117 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 117 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-54-16-29"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-29/bul@2016-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-29/bul@2016-07-15"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-54-16-29/bul@2016-07-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-54-16-29/bul@2016-07-15.xml"/>
+          <FRBRdate date="2016-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-15" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 117 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 117 от 27 май 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Гур­ ково, реши: Одобрява ПУП – ПЗ (план за застрояване) за ПИ с идентификатор 18157.79.28 по КК на гр. Гурково за изграждане на обект: „Складиране и търговия със строителни материали“. На основание чл. 215, ал. 1 и 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Гурково до Административния съд – Стара Загора. Председател: Д. Драчев 5540</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

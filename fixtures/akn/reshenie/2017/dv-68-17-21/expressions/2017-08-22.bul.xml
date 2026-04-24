@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-21/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-21"/>
+          <FRBRalias value="Решение № 144 от 24 юли 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 144 от 24 юли 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2017/dv-68-17-21"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-21/bul@2017-08-22/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-21/bul@2017-08-22"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-68-17-21/bul@2017-08-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-68-17-21/bul@2017-08-22.xml"/>
+          <FRBRdate date="2017-08-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-08-22" name="Държавен вестник" number="68" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 144 от 24 юли 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 144 от 24 юли 2017 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Стамбо­ лийски, реши: Одобрява подробен устройствен план – пар­ целарен план за обект трасе на нова кабелна линия 110 kV oт ново поле 110 kV в п/ст „Монди“ 110/6,3 kV до п/ст 110/20/6 kV „Нови Кричим“ в землището на гр. Стамболийски, община Стам­ болийски, област Пловдив. Председател: Ст. Богданов 6014 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

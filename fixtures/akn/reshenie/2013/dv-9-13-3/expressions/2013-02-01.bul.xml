@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-3/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-3"/>
+          <FRBRalias value="Решение за попълване състава на Комисията по външна" name="short"/>
+          <FRBRalias value="Решение за попълване състава на Комисията по външна" name="eli" other="/eli/bg/reshenie/2013/dv-9-13-3"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-3/bul@2013-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-3/bul@2013-02-01"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-9-13-3/bul@2013-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-9-13-3/bul@2013-02-01.xml"/>
+          <FRBRdate date="2013-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-02-01" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за попълване състава на Комисията по външна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>политика и отбрана Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република Бъл­ гария и чл. 18, ал. 7 и чл. 20, ал. 1 и 4 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Избира Антоний Венциславов Кръстев за член на Комисията по външна политика и отбрана. Решението е прието от 41-ото Народно събрание на 23 януари 2013 г. и е подпечатано с официалния печат на Народното събрание. За председател на Народното събрание: Менда Стоянова 772</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

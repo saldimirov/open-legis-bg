@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-10"/>
+          <FRBRalias value="Решение № 1505 от 5 август 2011 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и" name="short"/>
+          <FRBRalias value="Решение № 1505 от 5 август 2011 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и" name="eli" other="/eli/bg/reshenie/2011/dv-63-11-10"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-10/bul@2011-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-10/bul@2011-08-16"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-63-11-10/bul@2011-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-63-11-10/bul@2011-08-16.xml"/>
+          <FRBRdate date="2011-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-16" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1505 от 5 август 2011 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1505 от 5 август 2011 г. На основание чл. 3, ал. 3, т. 3, буква „в“ и чл. 4, ал. 2 ЗПСК, чл. 20, ал. 6 от Устройствения правилник на Агенцията за приватизация и след- приватизационен контрол (АПСК) и протоколно решение № 1046 от 5.08.2011 г. на изпълнителния съвет на АПСК АПСК открива процедура за при- ватизация на дяловото участие от 847 416 дяла, представляващи приблизително 34 % от капитала на „ТЕРЕМ – Георги Бенковски“ – ООД, Пловдив, собственост на „ТЕРЕМ“ – ЕАД. Изпълнителен директор: Е. Караниколов 9753</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

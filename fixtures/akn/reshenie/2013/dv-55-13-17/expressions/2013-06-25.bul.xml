@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-55-13-17/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-55-13-17"/>
+          <FRBRalias value="Решение № 209 от 28 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 209 от 28 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2013/dv-55-13-17"/>
+          <FRBRdate date="2013-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-55-13-17/bul@2013-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-55-13-17/bul@2013-06-25"/>
+          <FRBRdate date="2013-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-55-13-17/bul@2013-06-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-55-13-17/bul@2013-06-25.xml"/>
+          <FRBRdate date="2013-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-25" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 209 от 28 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 209 от 28 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ис­ перих, реши: Одобрява изменението на подробния устрой­ ствен план – план за регулация на с. Бърдоква, община Исперих, в цифров и графичен вид. Решението подлежи на обжалване в 14-дневен срок от съобщаването му пред Административния съд – Разград, по реда на АПК. Председател: Г. Хюсмен 4943</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

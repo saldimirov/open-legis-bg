@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-23/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-23"/>
+          <FRBRalias value="Решение № 371 от 17 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 371 от 17 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2009/dv-72-09-23"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-23/bul@2009-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-23/bul@2009-09-08"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-72-09-23/bul@2009-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-72-09-23/bul@2009-09-08.xml"/>
+          <FRBRdate date="2009-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-08" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 371 от 17 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 371 от 17 юли 2009 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Костинброд, одобрява подробния устройствен план – план за застрояване за поземлен имот № 029231 в землището на Костинброд, м. Долен рид, за сграда за 10 000 носачки, склад за яйца, фуражна кухня. Решението може да се обжалва пред администра­ тивния съд по реда на чл. 214 ЗУТ. Председател: З. Йорданова 10700</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

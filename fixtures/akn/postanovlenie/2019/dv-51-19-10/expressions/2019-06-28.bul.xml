@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-51-19-10/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-51-19-10"/>
+          <FRBRalias value="Постановление № 154 ОТ 24 ЮНИ 2019 Г. за изменение на Правилника за прилага-" name="short"/>
+          <FRBRalias value="Постановление № 154 ОТ 24 ЮНИ 2019 Г. за изменение на Правилника за прилага-" name="eli" other="/eli/bg/postanovlenie/2019/dv-51-19-10"/>
+          <FRBRdate date="2019-06-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-51-19-10/bul@2019-06-28/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-51-19-10/bul@2019-06-28"/>
+          <FRBRdate date="2019-06-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-51-19-10/bul@2019-06-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-51-19-10/bul@2019-06-28.xml"/>
+          <FRBRdate date="2019-06-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-06-28" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 154 ОТ 24 ЮНИ 2019 Г. за изменение на Правилника за прилага-</p>
+      <p>(обн., ДВ, бр. 25 от 2010 г.; изм. и доп., бр. 63 от 2010 г., бр. 53, 63 и 68 от 2011 г., бр. 36, 54, 92 и 99 от 2012 г., бр. 48 от 2013 г., бр. 37 и 77 от 2014 г., бр. 40 от 2015 г., бр. 27 от 2016 г., бр. 8 и 74 от 2017 г., бр. 107 от 2018 г. и бр. 21 от 2019 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В чл. 7 ал. 1 и 2 се изменят така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(1)</num>
+            <content>
+              <p>След изтичането на сроковете по чл. 6, ал. 4 министърът на отбраната или оправомо- щено от него длъжностно лице сключва договор за военна служба с лицето, спечелило конкурса. СТР. 6 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 51</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

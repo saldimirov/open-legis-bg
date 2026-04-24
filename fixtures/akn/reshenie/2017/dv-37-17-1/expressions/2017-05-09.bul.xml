@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-1"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="short"/>
+          <FRBRalias value="Решение за избиране на министър-председател на" name="eli" other="/eli/bg/reshenie/2017/dv-37-17-1"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-1/bul@2017-05-09/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-1/bul@2017-05-09"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-37-17-1/bul@2017-05-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-37-17-1/bul@2017-05-09.xml"/>
+          <FRBRdate date="2017-05-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-09" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на министър-председател на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Република България Народното събрание на основание чл. 84, т. 6 и чл. 108 от Конституцията на Репуб­ лика България и във връзка с Указ № 119 на президента на Република България от 4 май 2017 г. Р Е Ш И : Избира Бойко Методиев Борисов за ми­ нистър-председател на Република България. Решението е прието от 44-то Народно събрание на 4 май 2017 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

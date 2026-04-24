@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-6/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-6"/>
+          <FRBRalias value="Указ № 166 На основание чл. 98, т. 7 от Конституцията на Република България и във връзка с § 1 от" name="short"/>
+          <FRBRalias value="Указ № 166 На основание чл. 98, т. 7 от Конституцията на Република България и във връзка с § 1 от" name="eli" other="/eli/bg/ukaz/2010/dv-48-10-6"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-6/bul@2010-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-6/bul@2010-06-25"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-6/bul@2010-06-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-6/bul@2010-06-25.xml"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-25" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 166 На основание чл. 98, т. 7 от Конституцията на Република България и във връзка с § 1 от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 166 На основание чл. 98, т. 7 от Конституцията на Република България и във връзка с § 1 от Закона за изменение на Закона за радиото и телевизията, а също и във връзка с § 5 от преходните и заключителните разпоредби на същия закон П О С Т А Н О В Я В А М : Освобождавам Милен Атанасов Вълков като член на Съвета за електронни медии. Издаден в София на 22 юни 2010 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова 5416 ОФИЦИАЛЕН РАЗДЕЛ БРОЙ 48 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-12/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-12"/>
+          <FRBRalias value="Решение № 565 от 26 януари 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="short"/>
+          <FRBRalias value="Решение № 565 от 26 януари 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21," name="eli" other="/eli/bg/reshenie/2018/dv-16-18-12"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-12/bul@2018-02-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-12/bul@2018-02-20"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-16-18-12/bul@2018-02-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-16-18-12/bul@2018-02-20.xml"/>
+          <FRBRdate date="2018-02-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-02-20" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 565 от 26 януари 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 565 от 26 януари 2018 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА и изложените в предложе­ ние с вх. № 12/18.01.2018 г. на кмета на община Куклен фактически основания Общинският съ­ вет – гр. Куклен, одобрява подробен устройствен план – парцеларен план за обект: „Транспортен достъп – трасе за пътна връзка до имот 011435, местност Капсида, от КВС на гр. Куклен, община Куклен“. Председател: Пл. Гошев 1251 ОБЩИНА СИМИТЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

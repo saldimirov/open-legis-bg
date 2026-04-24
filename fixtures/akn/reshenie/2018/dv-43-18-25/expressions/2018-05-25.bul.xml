@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-25/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-25"/>
+          <FRBRalias value="Решение № 153 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 153 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-43-18-25"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-25/bul@2018-05-25/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-25/bul@2018-05-25"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-43-18-25/bul@2018-05-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-43-18-25/bul@2018-05-25.xml"/>
+          <FRBRdate date="2018-05-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-05-25" name="Държавен вестник" number="43" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 153 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 153 от 24 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във вpъзка с чл. 109, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 от ЗУТ Общинският съвет „Марица“ реши: Одобрява представения ПУП – парцеларен план за елементи на техническата инфраструк- тура – пътна връзка до УПИ 2.251 – склад за зърно и навес за селскостопанска техника по път ІІ-56 „Брезово – Пловдив“ при км 85+680 вдясно, местност Баткъните по кадастралната карта на с. Калековец, община „Марица“, по следата на вариант единствен съгласно прило- жената разработка. Председател: Г. Трендафилова 5003</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

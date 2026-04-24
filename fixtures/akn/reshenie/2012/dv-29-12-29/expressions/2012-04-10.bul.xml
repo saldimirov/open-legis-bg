@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-29-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-29-12-29"/>
+          <FRBRalias value="Решение № 6-17 от 31 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 6-17 от 31 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-29-12-29"/>
+          <FRBRdate date="2012-04-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-29-12-29/bul@2012-04-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-29-12-29/bul@2012-04-10"/>
+          <FRBRdate date="2012-04-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-29-12-29/bul@2012-04-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-29-12-29/bul@2012-04-10.xml"/>
+          <FRBRdate date="2012-04-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-04-10" name="Държавен вестник" number="29" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 6-17 от 31 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 6-17 от 31 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 16 и чл. 59, ал. 1 ЗУТ Общинският съвет – гр. Бургас, реши: Одобрява подробен устройствен план – план за регулация и застрояване на имот пл. № 21, масив 50, местност Вълчи връх (бивша Купт тепе), идентичен с имот с идентификатор 07079.2.2444 по КККР, землище гр. Бургас, съгласно който за имота се обособява УПИ IX, отреден „За крайпътна автомивка, паркинг, складова база за промишлени стоки с административна част и шоурум“ в устройствена зона „Оо“, с предвидено застрояване с показатели в съответствие с ОУП на гр. Бургас, с приложена редукция за имота по чл. 16 ЗУТ – 5,28 %, и разширение на обслужваща улица от о.т. 1 до о.т. 2 с габарит 10 м. Заинтересованите лица могат да обжалват решението в 30-дневен срок от обнародването му в „Държавен вестник“ чрез Община Бургас пред Административния съд – Бургас. Председател: С. Маджарова 3700</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

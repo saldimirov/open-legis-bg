@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-2"/>
+          <FRBRalias value="Указ № 123 На основание чл. 98, т. 8 от Конституцията на Република България и писмо от Минис-" name="short"/>
+          <FRBRalias value="Указ № 123 На основание чл. 98, т. 8 от Конституцията на Република България и писмо от Минис-" name="eli" other="/eli/bg/ukaz/2016/dv-35-16-2"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-2/bul@2016-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-2/bul@2016-05-10"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-2/bul@2016-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-2/bul@2016-05-10.xml"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-10" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 123 На основание чл. 98, т. 8 от Конституцията на Република България и писмо от Минис-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 4 след думите „БДС EN ISO/IEC 17021“ се поставя запетая и се добавя „БДС EN ISO/IEC 17020“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>В чл. 5, ал. 2, т. 2 се правят следните изменения и допълнения: 1. В основния текст думите „от орган по акредитация“ се заменят с „от Изпълнителна агенция „Българска служба за акредитация“. 2. В буква „а“ накрая се добавя „или БДС EN ISO/IEC 17020 и БДС EN ISO/IEC 17025“. 3. В буква „б“ думите „БДС EN ISO/IEC 17021“ се заменят с „БДС EN ISO/IEC 17020“ и накрая се добавя „или БДС EN ISO/IEC 17065 и БДС EN ISO/IEC 17025“. 4. В буква „в“ накрая се добавя „или БДС EN ISO/IEC 17065“. 5. В буква „г“ накрая се добавя „или БДС EN ISO/IEC 17065“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>В приложение № 3 към чл. 3, ал. 1 т. 9 се заличава. Преходни и заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 7.</num>
+          <paragraph eId="sec_final__par_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Разрешенията за оценяването на съ- ответствието на отоплителните топлоизточници от обхвата на Регламент (ЕС) № 813/2013, пред- назначени за работа с течни или газообразни горива, с номинална мощност от 4 до 400 kW, както и на поотделно пуснати на пазара корпуси за тях, проектирани да бъдат комплектувани с горелка, и на горелките, проектирани да бъдат монтирани към тези корпуси, издадени до 20 февруари 2015 г., остават в сила.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_4__al_2">
+            <num>(2)</num>
+            <content>
+              <p>Лицата, получили разрешение за оце- няване на съответствието по реда на наред- бата, издават сертификати за съответствие с изискванията на Регламент (ЕС) № 813/2013.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 8.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

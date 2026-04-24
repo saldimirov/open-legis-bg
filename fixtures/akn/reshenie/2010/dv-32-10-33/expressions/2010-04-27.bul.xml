@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-33/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-33"/>
+          <FRBRalias value="Решение № 384 от 30 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 384 от 30 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-32-10-33"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-33/bul@2010-04-27/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-33/bul@2010-04-27"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-33/bul@2010-04-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-33/bul@2010-04-27.xml"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-27" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 384 от 30 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 384 от 30 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сре­ дец, одобрява подробен устройствен план – пар­ целарен план на елементите на техническата инфраструктура – трасе за външно подземно ел. захранване – кабел 20 kV, за поземлен имот № 020046, местност Терзиман кория в землището на с. Синьо камене. Трасето на кабела се прокарва през поземлен имот № 000151 – общински полски път. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез община Средец до Административния съд – Бургас. Председател: Г. Георгиев 3458</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

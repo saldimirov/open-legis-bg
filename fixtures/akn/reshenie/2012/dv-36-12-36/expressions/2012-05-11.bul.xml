@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-36/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-36"/>
+          <FRBRalias value="Решение № 69 от 3 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 69 от 3 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-36-12-36"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-36/bul@2012-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-36/bul@2012-05-11"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-36-12-36/bul@2012-05-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-36-12-36/bul@2012-05-11.xml"/>
+          <FRBRdate date="2012-05-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-11" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 69 от 3 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 69 от 3 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Твър­ дица, реши: Одобрява проекта за подробен устройствен план – парцеларен план за обект: „Подземен ка­ бел 20 kV за присъединяване на фотоволтаични централи в ПИ 031002 и ПИ 031003 от землището на с. Червенаково, община Твърдица, област Сли­ вен“, с дължина на трасето 296 м, преминаващо през ПИ 0.597, 31.2, 31.14 и 31.27 от землището на с. Червенаково, община Твърдица. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Твърдица пред Административния съд – Сливен. Председател: В. Лазаров 4446</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

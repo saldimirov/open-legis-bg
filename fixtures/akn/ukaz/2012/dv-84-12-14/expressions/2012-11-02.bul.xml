@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-84-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-84-12-14"/>
+          <FRBRalias value="Указ № 364 На основание чл. 100, ал. 2 от Конститу­" name="short"/>
+          <FRBRalias value="Указ № 364 На основание чл. 100, ал. 2 от Конститу­" name="eli" other="/eli/bg/ukaz/2012/dv-84-12-14"/>
+          <FRBRdate date="2012-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-84-12-14/bul@2012-11-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-84-12-14/bul@2012-11-02"/>
+          <FRBRdate date="2012-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-84-12-14/bul@2012-11-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-84-12-14/bul@2012-11-02.xml"/>
+          <FRBRdate date="2012-11-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-02" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 364 На основание чл. 100, ал. 2 от Конститу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 364 На основание чл. 100, ал. 2 от Конститу­ цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ­ жените сили на Република България П О С Т А Н О В Я В А М : 1. Освобождавам комодор Георги Цветанов Мотев от длъжността заместник-командир на Военноморските сили, считано от 1 де­ кември 2012 г. 2. Назначавам комодор Георги Цветанов Мотев на длъжността заместник-командващ на Съвместното командване на силите, считано от 1 декември 2012 г. 3. Удостоявам комодор Георги Цветанов Мотев с висше офицерско звание „контраад­ мирал“, считано от 1 декември 2012 г. Изпълнението на указа възлагам на ми­ нистъра на отбраната. Издаден в София на 17 октомври 2012 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

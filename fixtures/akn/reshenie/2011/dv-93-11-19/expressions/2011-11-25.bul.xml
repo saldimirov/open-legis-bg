@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-19"/>
+          <FRBRalias value="Решение № 3232-П от 10 ноември 2011 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1, чл. 4," name="short"/>
+          <FRBRalias value="Решение № 3232-П от 10 ноември 2011 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1, чл. 4," name="eli" other="/eli/bg/reshenie/2011/dv-93-11-19"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-19/bul@2011-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-19/bul@2011-11-25"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-93-11-19/bul@2011-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-93-11-19/bul@2011-11-25.xml"/>
+          <FRBRdate date="2011-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-25" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3232-П от 10 ноември 2011 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1, чл. 4,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 3232-П от 10 ноември 2011 г. На основание чл. 1, ал. 2, т. 1, чл. 3, ал. 1, чл. 4, ал. 1, чл. 22г, ал. 3, чл. 31, ал. 1 и 3, чл. 32, ал. 1, т. 4 ЗПСК, чл. 22 от Наредбата за условията и реда за организиране и провеждане на централизирани публични търгове за продажба на акции – соб­ ственост на държавата, чл. 7, ал. 1, т. 4, чл. 20, ал. 1, т. 3 и ал. 6 от Устройствения правилник на Агенцията за приватизация и следприватизаци­ онен контрол и протоколно решение № 1294 от 10.11.2011 г. на Изпълнителния съвет Агенцията за приватизация и следприватизационен контрол реши продажбата на акции, представляващи оста­ тъчното държавно участие в капитала на „Лорден финанс С.А.“ – АД, Пловдив, да се извърши чрез централизиран публичен търг. Изпълнителен директор: Ем. Караниколов 12487</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

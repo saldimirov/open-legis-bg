@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-12"/>
+          <FRBRalias value="Решение № 828 от 18 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 828 от 18 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-36-10-12"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-12/bul@2010-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-12/bul@2010-05-14"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-12/bul@2010-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-12/bul@2010-05-14.xml"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-14" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 828 от 18 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 828 от 18 февруари 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 110, ал. 1, т. 3 и чл. 108, ал. 2 ЗУТ Общинският съвет – гр. Велико Търново, реши: Одобрява подробен устройствен план – план за застрояване и план-схема за водоснабдяване и канализация за поземлен имот № 181006 по приложена скица-проект, представляващ част от ПИ № 181004, м. Долен Трошан, землище на с. Присово, като за имота се определя пред­ назначение за „жилищни нужди“ при следните показатели на застрояване: височина – 10 м; плътност на застрояване (П застр.) – макс. 60 %; коефициент на интензивност (Кинт) – макс. 1,2; необходима озеленена площ – мин. 40 %; начин на застрояване – свободно; линии на застроява­ не – ограничителни. На основание чл. 215 ЗУТ решението подлежи на обжалване в 14-дневен срок от обнародването в „Държавен вестник“ чрез община Велико Търново пред Великотърновския административен съд. Председател: Ал. Чокойски 3925 ОБЩИНА ЕЛИН ПЕЛИН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-50-15-26/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-50-15-26"/>
+          <FRBRalias value="Решение № 40 от 22 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 40 от 22 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-50-15-26"/>
+          <FRBRdate date="2015-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-50-15-26/bul@2015-07-03/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-50-15-26/bul@2015-07-03"/>
+          <FRBRdate date="2015-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-50-15-26/bul@2015-07-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-50-15-26/bul@2015-07-03.xml"/>
+          <FRBRdate date="2015-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-07-03" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 40 от 22 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 40 от 22 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 134, ал. 1, т. 1 ЗУТ, приложим по силата на чл. 136, ал. 1 ЗУТ, Общинският съвет – гр. Ви­ дин, реши: Одобрява проект за изменение на общ ус­ тройствен план на община Видин за ПИ 000105 с площ 12,000 дка, местност Бановци, землище с. Иново, община Видин, собственост на „Ка­ терина“ – ЕООД, с който предназначението на имотите да се промени от „Селскостопанско летище“ в „Производствени дейности“. Председател: Пл. Трифонов 4291 ОБЩИНА ЕЛХОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

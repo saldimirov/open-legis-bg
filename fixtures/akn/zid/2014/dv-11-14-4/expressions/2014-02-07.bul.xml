@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-11-14-4/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-11-14-4"/>
+          <FRBRalias value="Закон за изменение на Закона за автомобилните" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за автомобилните" name="eli" other="/eli/bg/zid/2014/dv-11-14-4"/>
+          <FRBRdate date="2014-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-11-14-4/bul@2014-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-11-14-4/bul@2014-02-07"/>
+          <FRBRdate date="2014-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-11-14-4/bul@2014-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-11-14-4/bul@2014-02-07.xml"/>
+          <FRBRdate date="2014-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-07" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за автомобилните</p>
+      <p>(обн., ДВ, бр. 82 от 1999 г.; изм., бр. 11 и 45 от 2002 г., бр. 99 от 2003 г., бр. 70 от 2004 г., бр. 88, 92, 95, 102, 103 и 105 от 2005 г., бр. 30, 85, 92 и 102 от 2006 г., бр. 42, 80 и 109 от 2007 г., бр. 102 от 2008 г., бр. 93 от 2009 г., бр. 41 от 2010 г., бр. 17 от 2011 г., бр. 38, 50, 60, 99 и 103 от 2012 г. и бр. 15, 23, 66 и 109 от 2013 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В Закона за изменение на Закона за автомобилните превози (ДВ, бр. 50 от 2012 г.; изм., бр. 103 от 2012 г. и бр. 23 от 2013 г.) в заключителните разпоредби в § 2, т. 1 и 2 думите „31 декември 2013 г.“ се заменят с „30 юни 2014 г.“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Законът влиза в сила от 30 декември 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

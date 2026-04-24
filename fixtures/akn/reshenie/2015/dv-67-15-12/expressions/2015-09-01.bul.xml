@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-67-15-12/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-67-15-12"/>
+          <FRBRalias value="Решение № 1613 от 3 август 2015 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3," name="short"/>
+          <FRBRalias value="Решение № 1613 от 3 август 2015 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3," name="eli" other="/eli/bg/reshenie/2015/dv-67-15-12"/>
+          <FRBRdate date="2015-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-67-15-12/bul@2015-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-67-15-12/bul@2015-09-01"/>
+          <FRBRdate date="2015-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-67-15-12/bul@2015-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-67-15-12/bul@2015-09-01.xml"/>
+          <FRBRdate date="2015-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-09-01" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1613 от 3 август 2015 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1613 от 3 август 2015 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3, т. 3, буква „а“ и чл. 4, ал. 1 ЗПСК, чл. 20, ал. 6 от Устройствения правилник на Агенцията за приватизация и следприватизационен контрол и протоколно решение № 3657 от 3.08.2015 г. на изпълнителния съвет Агенцията за приватиза- ция и следприватизационен контрол открива процедура за приватизация на „Опитна станция по сортоподдържане и семепроизводство – Бяла Слатина“, намираща се в местността Агиното бранище, землището на гр. Бяла Слатина, общи- на Бяла Слатина, област Враца, обособена част от „Сортови семена – Елит“ – ЕАД, гр. София. За изпълнителен директор: Ст. Граматикова 5677</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

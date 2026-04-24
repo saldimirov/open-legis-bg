@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-36/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-36"/>
+          <FRBRalias value="Решение № 778 от 23 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 778 от 23 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2010/dv-84-10-36"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-36/bul@2010-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-36/bul@2010-10-26"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-84-10-36/bul@2010-10-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-84-10-36/bul@2010-10-26.xml"/>
+          <FRBRdate date="2010-10-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-26" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 778 от 23 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 778 от 23 септември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП – парцеларен план като част от комплексен проект за обект: „Газоснаб­ дяване на община Раднево”; подобект: „Главен разпределителен газопровод извън границата на урбанизираната територия“ на територията на община Раднево. Председател: Т. Сотирова 8388</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

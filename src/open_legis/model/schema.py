@@ -128,7 +128,7 @@ class Work(Base):
 
     id: Mapped[uuid.UUID] = _uuid_pk()
     eli_uri: Mapped[str] = mapped_column(Text, unique=True, nullable=False)
-    act_type: Mapped[ActType] = mapped_column(Enum(ActType, name="act_type"), nullable=False)
+    act_type: Mapped[ActType] = mapped_column(Enum(ActType, name="act_type", values_callable=lambda x: [e.value for e in x]), nullable=False)
     title: Mapped[str] = mapped_column(Text, nullable=False)
     title_short: Mapped[Optional[str]] = mapped_column(Text)
     number: Mapped[Optional[str]] = mapped_column(Text)
@@ -137,8 +137,8 @@ class Work(Base):
     dv_year: Mapped[int] = mapped_column(Integer, nullable=False)
     dv_position: Mapped[int] = mapped_column(Integer, nullable=False)
     issuing_body: Mapped[Optional[str]] = mapped_column(Text)
-    issuer: Mapped[Optional[Issuer]] = mapped_column(Enum(Issuer, name="issuer"), nullable=True)
-    status: Mapped[ActStatus] = mapped_column(Enum(ActStatus, name="act_status"), nullable=False)
+    issuer: Mapped[Optional[Issuer]] = mapped_column(Enum(Issuer, name="issuer", values_callable=lambda x: [e.value for e in x]), nullable=True)
+    status: Mapped[ActStatus] = mapped_column(Enum(ActStatus, name="act_status", values_callable=lambda x: [e.value for e in x]), nullable=False)
 
     expressions: Mapped[list["Expression"]] = relationship(
         back_populates="work", cascade="all, delete-orphan"
@@ -179,7 +179,7 @@ class Element(Base):
     e_id: Mapped[str] = mapped_column(Text, nullable=False)
     parent_e_id: Mapped[Optional[str]] = mapped_column(Text)
     element_type: Mapped[ElementType] = mapped_column(
-        Enum(ElementType, name="element_type"), nullable=False
+        Enum(ElementType, name="element_type", values_callable=lambda x: [e.value for e in x]), nullable=False
     )
     num: Mapped[Optional[str]] = mapped_column(Text)
     heading: Mapped[Optional[str]] = mapped_column(Text)
@@ -200,7 +200,7 @@ class Amendment(Base):
         UUID(as_uuid=True), ForeignKey("work.id", ondelete="CASCADE"), nullable=False
     )
     target_e_id: Mapped[Optional[str]] = mapped_column(Text)
-    operation: Mapped[AmendmentOp] = mapped_column(Enum(AmendmentOp, name="amendment_op"), nullable=False)
+    operation: Mapped[AmendmentOp] = mapped_column(Enum(AmendmentOp, name="amendment_op", values_callable=lambda x: [e.value for e in x]), nullable=False)
     effective_date: Mapped[dt.date] = mapped_column(Date, nullable=False)
     notes: Mapped[Optional[str]] = mapped_column(Text)
 
@@ -226,12 +226,12 @@ class ConsolidationOp(Base):
     target_ref_raw: Mapped[str] = mapped_column(Text, nullable=False)  # "чл. 32, ал. 5"
     target_e_id: Mapped[Optional[str]] = mapped_column(Text)           # resolved e_id
     op_type: Mapped[ConsolidationOpType] = mapped_column(
-        Enum(ConsolidationOpType, name="consolidation_op_type"), nullable=False
+        Enum(ConsolidationOpType, name="consolidation_op_type", values_callable=lambda x: [e.value for e in x]), nullable=False
     )
     old_text: Mapped[Optional[str]] = mapped_column(Text)
     new_text: Mapped[Optional[str]] = mapped_column(Text)
     status: Mapped[ConsolidationOpStatus] = mapped_column(
-        Enum(ConsolidationOpStatus, name="consolidation_op_status"),
+        Enum(ConsolidationOpStatus, name="consolidation_op_status", values_callable=lambda x: [e.value for e in x]),
         nullable=False,
         default=ConsolidationOpStatus.PARSED,
     )
@@ -257,7 +257,7 @@ class Reference(Base):
     target_e_id: Mapped[Optional[str]] = mapped_column(Text)
     resolved: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
     reference_type: Mapped[ReferenceType] = mapped_column(
-        Enum(ReferenceType, name="reference_type"), nullable=False
+        Enum(ReferenceType, name="reference_type", values_callable=lambda x: [e.value for e in x]), nullable=False
     )
 
 
@@ -270,7 +270,7 @@ class ExternalId(Base):
         UUID(as_uuid=True), ForeignKey("work.id", ondelete="CASCADE"), nullable=False
     )
     source: Mapped[ExternalSource] = mapped_column(
-        Enum(ExternalSource, name="external_source"), nullable=False
+        Enum(ExternalSource, name="external_source", values_callable=lambda x: [e.value for e in x]), nullable=False
     )
     external_value: Mapped[str] = mapped_column(Text, nullable=False)
     url: Mapped[Optional[str]] = mapped_column(Text)

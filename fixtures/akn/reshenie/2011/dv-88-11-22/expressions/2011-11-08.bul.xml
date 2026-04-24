@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-22"/>
+          <FRBRalias value="Решение № 935 от 18 октомври 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка с" name="short"/>
+          <FRBRalias value="Решение № 935 от 18 октомври 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка с" name="eli" other="/eli/bg/reshenie/2011/dv-88-11-22"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-22/bul@2011-11-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-22/bul@2011-11-08"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-88-11-22/bul@2011-11-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-88-11-22/bul@2011-11-08.xml"/>
+          <FRBRdate date="2011-11-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-11-08" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 935 от 18 октомври 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 935 от 18 октомври 2011 г. На основание чл. 129, ал. 1 ЗУТ във връзка с чл. 21, ал. 1, т. 11 и 23 ЗМСМА и докладна от и. д. кмет на общината с изх. № 6101-136 от 11.10.2011 г. Общинският съвет – гр. Бяла Слатина, одобрява подробен устройствен план – парцеларен план на обект „ПУП – парцеларен план на проект за външно ел. захранване от регулацията на гр. Бяла Слатина до площадката на ПСОВ“, изработен съгласно изискванията на чл. 110, ал. 1, т. 5 ЗУТ и разгледан на заседание на ОЕСУТ съгласно протокол № 7 от 10.10.2011 г. Председател: Цв. Иванова 11960 ОБЩИНА ГР. ДОБРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

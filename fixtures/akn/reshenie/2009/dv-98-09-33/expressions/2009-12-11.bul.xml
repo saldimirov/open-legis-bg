@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-33/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-33"/>
+          <FRBRalias value="Решение № 254 от 27 октомври 2009 г. На основание чл.  21, ал.  1, т.  11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 254 от 27 октомври 2009 г. На основание чл.  21, ал.  1, т.  11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2009/dv-98-09-33"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-33/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-33/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-33/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-33/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 254 от 27 октомври 2009 г. На основание чл.  21, ал.  1, т.  11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>. 129, ал. 1 ЗУТ и Решение № 8 от протокол № 6 от 24.ІХ.2009 г. на Експертния съвет по устройство на територията на община Мъглиж Общинският съвет – гр. Мъглиж, одобрява под­ робен устройствен план – план за застрояване за промяна предназначението на ПИ № 061023 в местността Сваник – землището на с. Дъбово, община Мъглиж, който предвижда изграждане СТР. 86 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 98 на фотоволтаична инсталация и необходимите обслужващи помещения към нея, собственост на Тинко Трифонов Бонев. Решението подлежи на обжалване в 14-дневен срок от обнародването му в „Държавен вестник“ чрез община Мъглиж до Административния съд – Стара Загора. Председател: Кр. Стойчев 13121</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

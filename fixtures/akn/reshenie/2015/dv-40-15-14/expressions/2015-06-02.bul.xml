@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-40-15-14/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-40-15-14"/>
+          <FRBRalias value="Решение № 29 от 26 март 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 29 от 26 март 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-40-15-14"/>
+          <FRBRdate date="2015-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-40-15-14/bul@2015-06-02/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-40-15-14/bul@2015-06-02"/>
+          <FRBRdate date="2015-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-40-15-14/bul@2015-06-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-40-15-14/bul@2015-06-02.xml"/>
+          <FRBRdate date="2015-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-02" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 29 от 26 март 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 29 от 26 март 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ и решение № 16 от протокол № 2 от 27.02.2015 г. на ОЕСУТ Общинският съ- вет – гр. Божурище, реши: Одобрява проект за подробен устройствен план (ПУП) – парцеларен план (ПП) за елементите на техническата инфраструктура извън грани- ците на урбанизираните територии за трасе на електропровод СрН и НН от ЖР стълб ВЕП 20 kV „Гурмазово“, преминаващо по полски пътища ПИ № 062046 и ПИ № 062047 до УПИ І-062023, ІІ-062023, ІІІ-062023, ІV-062023, кв. 1, м. Младен- ковица, с. Пожарево, община Божурище. Председател: П. Котупанова 3600 ОБЩИНА ДОБРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

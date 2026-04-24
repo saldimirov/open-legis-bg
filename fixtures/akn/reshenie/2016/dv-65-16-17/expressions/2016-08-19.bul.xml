@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-17/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-17"/>
+          <FRBRalias value="Решение № 260 от 28 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 260 от 28 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-65-16-17"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-17/bul@2016-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-17/bul@2016-08-19"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-17/bul@2016-08-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-17/bul@2016-08-19.xml"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-19" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 260 от 28 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 260 от 28 юли 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП парцеларен план на „Ел. провод 20 kV № 2 от Подстанция „Гледачево“ в посока на претоварач BRs 112 – нов“ в земли­ щата на с. Гледачево, с. Трояново и с. Овчарци, община Раднево, област Стара Загора. Председател: Р. Йовчев 6490 СТР. 28 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 65 ОБЩИНА РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

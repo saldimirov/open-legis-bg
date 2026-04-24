@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-46/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-46"/>
+          <FRBRalias value="Решение № 218 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 218 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2009/dv-98-09-46"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="46"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-46/bul@2009-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-46/bul@2009-12-11"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-98-09-46/bul@2009-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-98-09-46/bul@2009-12-11.xml"/>
+          <FRBRdate date="2009-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-11" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 218 от 12 ноември 2009 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>връзка с чл. 129, ал. 1 и чл. 59, ал. 1 ЗУТ и ре­ шение на Общинския експертен съвет, вписано в протокол № 11 от 27.VІІІ.2009 г., Общинският съвет – Симеоновград, реши: 1. Одобрява ПУП – план за застрояване и парцеларен план на ПИ № 366418 в местността Бърчина, землище на Симеоновград. 2. Възлага на кмета на общината да проведе не­ обходимите процедури по съобщаване на решението. Председател: Д. Симеонов 13191 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

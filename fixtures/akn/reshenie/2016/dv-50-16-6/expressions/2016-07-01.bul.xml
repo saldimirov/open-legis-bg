@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-50-16-6/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-50-16-6"/>
+          <FRBRalias value="Решение № 1648 от 15 април 2016 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3," name="short"/>
+          <FRBRalias value="Решение № 1648 от 15 април 2016 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3," name="eli" other="/eli/bg/reshenie/2016/dv-50-16-6"/>
+          <FRBRdate date="2016-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-50-16-6/bul@2016-07-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-50-16-6/bul@2016-07-01"/>
+          <FRBRdate date="2016-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-50-16-6/bul@2016-07-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-50-16-6/bul@2016-07-01.xml"/>
+          <FRBRdate date="2016-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-01" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1648 от 15 април 2016 г. На основание чл. 1, ал. 2, т. 3, чл. 3, ал. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>т. 3, буква „а“, чл. 4, ал. 1 и чл. 22г, ал. 3 ЗПСК, чл. 7, ал. 1, т. 10, чл. 20, ал. 6 и чл. 22, ал. 1 от Устройствения правилник на Агенцията за приватизация и следприватизационен контрол и протоколно решение № 4108 от 15.04.2016 г. на изпълнителния съвет Агенцията за приватизация и следприватизационен контрол реши: Открива процедура за приватизационна продажба на: 1. Дипломатически клуб „Бояна“, намиращ се в София, район „Витоша“, ул. Васил Чекаларов 51, местността в.з. Панорамен път – Специални нужди – Беловодски път. 2. Магазин с площ 1197,64 кв. м, намиращ се на ул. Райко Алексиев 40А, бл. 216, кв. Из- грев, София. 3. Ресторант с площ 269,40 кв. м., намиращ се на ул. Райко Алексиев 40А, бл. 216, кв. Из- грев, София. 4. Сграда с площ 650,78 кв. м, гараж с площ 36 кв. м и терен 755 кв. м, намиращи се на ул. Чарлз Дарвин 4, кв. Изток, София, обособени части от „АДИС“ – ЕООД, София. Изпълнитетелен директор: Е. Караниколов 5074 БРОЙ 50 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 57</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

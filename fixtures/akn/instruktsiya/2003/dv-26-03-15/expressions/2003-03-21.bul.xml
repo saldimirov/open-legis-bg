@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-15"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 1 от 2000 г. за събиране на данни от осигурителите за осигурените при тях лица и от самоосигуряващите се лица" name="short"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 1 от 2000 г. за събиране на данни от осигурителите за осигурените при тях лица и от самоосигуряващите се лица" name="eli" other="/eli/bg/instruktsiya/2003/dv-26-03-15"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-15/bul@2003-03-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-15/bul@2003-03-21"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-26-03-15/bul@2003-03-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-26-03-15/bul@2003-03-21.xml"/>
+          <FRBRdate date="2003-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-03-21" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за изменение и допълнение на Инструкция № 1 от 2000 г. за събиране на данни от осигурителите за осигурените при тях лица и от самоосигуряващите се лица</p>
+      <p>(обн., ДВ, бр. 14 от 2000 г.; изм. и доп., бр. 4 от 2001 г., бр. 10 от 2002 г., бр. 7 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 думите „приложения № 1 и 4&amp;quot; се заменят с „приложения № 1, 3 и 4&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 9 думите „до 31 март&amp;quot; се заменят с „до 30 юни&amp;quot;.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Създава се декларация - приложение №3 към чл. 2:</p>
+            <p>Приложение № 3 към чл. 2</p>
+            <p>Виж приложението в   PDF  -а на броя</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Инструкцията се издава на основание чл. 5, ал. 5 от Кодекса за задължително обществено осигуряване.</p>
+            <p>Управител:    И. Христосков</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

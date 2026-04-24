@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-44/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-44"/>
+          <FRBRalias value="Решение № 1451 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1451 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-79-10-44"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-44/bul@2010-10-08/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-44/bul@2010-10-08"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-79-10-44/bul@2010-10-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-79-10-44/bul@2010-10-08.xml"/>
+          <FRBRdate date="2010-10-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-10-08" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1451 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1451 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Само­ ков, одобрява подробен устройствен план – план за застрояване за имот № 365006 в местността „Ямища“ в землището на с. Алино, община Са­ моков, собственост на Бисер Здравков Христов и Вера Ангелова Тасева, при обособена устройствена зона „Рекреационна устройствена зона за вилен отдих – Ов“ с показатели: плътност на застро­ яване – до 40 %, коефициент на интензивност – до 0.8, минимална площ за озеленяване – 50 %, височина на сградите – до 7 м (2 ет.), съгласно приложения проект. За председател: Г. Големинов 7858</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-59/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-59"/>
+          <FRBRalias value="Решение № 3 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 3 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-17-16-59"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="59"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-59/bul@2016-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-59/bul@2016-03-01"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-59/bul@2016-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-59/bul@2016-03-01.xml"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-01" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 3 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 3 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 5, ал. 3, т. 11 ПОДОСНКВОА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Девин, след като се запозна с ДЗО № 172 от 16.12.2015 г. на кмета на община Девин и становище на ПК „Устройство на територията“, реши: Одобрява ПУП – ПУР на с. Водни пад и обо- собяване на квартали, община Девин. Председател: Р. Чаушев 1409 ОБЩИНА РАЗЛОГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

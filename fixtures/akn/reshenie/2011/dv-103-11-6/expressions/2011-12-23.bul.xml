@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-103-11-6/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-103-11-6"/>
+          <FRBRalias value="Решение № 24 от 8 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 24 от 8 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-103-11-6"/>
+          <FRBRdate date="2011-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-103-11-6/bul@2011-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-103-11-6/bul@2011-12-23"/>
+          <FRBRdate date="2011-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-103-11-6/bul@2011-12-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-103-11-6/bul@2011-12-23.xml"/>
+          <FRBRdate date="2011-12-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-23" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 24 от 8 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 24 от 8 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Трън, одобрява проект на ПУП – план за регулация и застрояване на ПИ № 000110 с урегулирането му по имотни граници в УПИ І-110 с площ 2023 кв.м от кв. 24, с. Цегриловци, новопроектирана улич­ на отсечка с осови точки 24-112 и устройствени параметри на застрояване съгласно ПУП – ПЗ. Председател: В. Шишкова 13277 ОБЩИНА ХАРМАНЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-16/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-16"/>
+          <FRBRalias value="Решение № 521 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 521 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2014/dv-14-14-16"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-16/bul@2014-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-16/bul@2014-02-18"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-16/bul@2014-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-16/bul@2014-02-18.xml"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-18" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 521 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 521 от 30 януари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бал­ чик, одобрява ПУП – план за застрояване за ПИ № 02508.90.701, по кадастралната карта на гр. Балчик. Председател: В. Лучиянов 917 ОБЩИНА БОЖУРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-32-24-2/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-32-24-2"/>
+          <FRBRalias value="Указ № 101 за назначаване на служебно правителство" name="short"/>
+          <FRBRalias value="Указ № 101 за назначаване на служебно правителство" name="eli" other="/eli/bg/ukaz/2024/dv-32-24-2"/>
+          <FRBRdate date="2024-04-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-32-24-2/bul@2024-04-09/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-32-24-2/bul@2024-04-09"/>
+          <FRBRdate date="2024-04-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-32-24-2/bul@2024-04-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-32-24-2/bul@2024-04-09.xml"/>
+          <FRBRdate date="2024-04-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-04-09" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 101 за назначаване на служебно правителство</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Назначавам служебно правителство в състав: Димитър Борисов Главчев за служебен министър-председател на Република България; Людмила Костова Петкова за служебен заместник министър-председател и служебен министър на финансите; Калин Георгиев Стоянов за служебен министър на вътрешните работи; Виолета Бориславова Коритарова-Касабова за служебен министър на регионалното развитие и благоустройството; Ивайло Цветанов Иванов за служебен министър на труда и социалната политика; Атанас Димитров Запрянов за служебен министър на отбраната; Стефан Димитров Димитров за служебен министър на външните работи; Мария Енчева Павлова за служебен министър на правосъдието; Галин Борисов Цоков за служебен министър на образованието и науката; Галя Георгиева Кондева-Мънкова за служебен министър на здравеопазването; Найден Владиславов Тодоров за служебен министър на културата; Петър Величков Димитров за служебен министър на околната среда и водите; Кирил Маринов Вътев за служебен министър на земеделието и храните; Георги Йорданов Гвоздейков за служебен министър на транспорта и съобщенията; Петко Георгиев Николов за служебен министър на икономиката и индустрията; Росен Андреев Карадимов за служебен министър на иновациите и растежа; Владимир Асенов Малинов за служебен министър на енергетиката; Валентин Атанасов Мундров за служебен министър на електронното управление; Евтим Петров Милошев за служебен министър на туризма; Георги Николов Глушков за служебен министър на младежта и спорта. Издаден в София на 9 април 2024 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Атанас Славов 2655</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

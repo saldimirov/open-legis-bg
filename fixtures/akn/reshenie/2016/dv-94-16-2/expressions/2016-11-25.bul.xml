@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-2/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-2"/>
+          <FRBRalias value="Решение № 999 ОТ 18 НОЕМВРИ 2016 Г. за приемане на Списък със защитените учи-" name="short"/>
+          <FRBRalias value="Решение № 999 ОТ 18 НОЕМВРИ 2016 Г. за приемане на Списък със защитените учи-" name="eli" other="/eli/bg/reshenie/2016/dv-94-16-2"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-2/bul@2016-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-2/bul@2016-11-25"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-94-16-2/bul@2016-11-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-94-16-2/bul@2016-11-25.xml"/>
+          <FRBRdate date="2016-11-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-25" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 999 ОТ 18 НОЕМВРИ 2016 Г. за приемане на Списък със защитените учи-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>лища в Република България На основание чл. 54, ал. 4 и § 30 от преход- ните и заключителните разпоредби на Закона за предучилищното и училищното образо- вание във връзка с Постановление № 212 на Министерския съвет от 2008 г. за приемане на критерии за определяне на защитените училища в Република България и на условия и ред за тяхното допълнително финансиране МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Приема Списък със защитените училища в Република България за учебната 2016/2017 г. съгласно приложението.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

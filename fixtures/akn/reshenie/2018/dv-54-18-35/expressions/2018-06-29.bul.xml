@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-35/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-35"/>
+          <FRBRalias value="Решение № 354 от 26 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 354 от 26 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="eli" other="/eli/bg/reshenie/2018/dv-54-18-35"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-35/bul@2018-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-35/bul@2018-06-29"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-35/bul@2018-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-35/bul@2018-06-29.xml"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-29" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 354 от 26 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 354 от 26 април 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Долни Дъбник, реши: 1. Одобрява окончателния проект на общ ус­ тройствен план на община Долни Дъбник. 2. Възлага на кмета на община Долни Дъбник да представя ежегодно за приемане от общинския съвет доклад за изпълнението на общия устрой­ ствен план на община Долни Дъбник в неговия обхват и предложение за изменението му, ако такива се налагат. Председател: М. Стойчева 5935 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

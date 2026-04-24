@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-21"/>
+          <FRBRalias value="Решение № 319 от 11 октомври 2010 г. На основание чл. 21, ал. 2 ЗМСМА, чл. 129," name="short"/>
+          <FRBRalias value="Решение № 319 от 11 октомври 2010 г. На основание чл. 21, ал. 2 ЗМСМА, чл. 129," name="eli" other="/eli/bg/reshenie/2010/dv-89-10-21"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-21/bul@2010-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-21/bul@2010-11-12"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-89-10-21/bul@2010-11-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-89-10-21/bul@2010-11-12.xml"/>
+          <FRBRdate date="2010-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-12" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 319 от 11 октомври 2010 г. На основание чл. 21, ал. 2 ЗМСМА, чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 319 от 11 октомври 2010 г. На основание чл. 21, ал. 2 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 9, ал. 2 и чл. 59, ал. 1 ЗУТ одобрява ПУП – ПЗ (подробен устройствен план – план за застрояване) за ПИ с идентифика­ тор 18157.98.296 по КК на гр. Гурково за изграждане на „Пречиствателна станция за отпадъчни води“. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Гурково до Административния съд – Стара Загора. Председател: Ив. Димитрова 8697</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

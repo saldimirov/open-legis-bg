@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-38-24-7/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-38-24-7"/>
+          <FRBRalias value="Указ № 122 за назначаване на Таня Димитрова Димитрова за извънреден и пълномощен посланик на Република България в Република Индонезия със седалище в гр. Джакарта" name="short"/>
+          <FRBRalias value="Указ № 122 за назначаване на Таня Димитрова Димитрова за извънреден и пълномощен посланик на Република България в Република Индонезия със седалище в гр. Джакарта" name="eli" other="/eli/bg/ukaz/2024/dv-38-24-7"/>
+          <FRBRdate date="2024-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-38-24-7/bul@2024-04-30/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-38-24-7/bul@2024-04-30"/>
+          <FRBRdate date="2024-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-38-24-7/bul@2024-04-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-38-24-7/bul@2024-04-30.xml"/>
+          <FRBRdate date="2024-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-04-30" name="Държавен вестник" number="38" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 122 за назначаване на Таня Димитрова Димитрова за извънреден и пълномощен посланик на Република България в Република Индонезия със седалище в гр. Джакарта</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Назначавам Таня Димитрова Димитрова за извънреден и пълномощен посланик на Република България в Република Индонезия със седалище в гр. Джакарта. Изпълнението на указа възлагам на министъра на външните работи. Издаден в София на 24 април 2024 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

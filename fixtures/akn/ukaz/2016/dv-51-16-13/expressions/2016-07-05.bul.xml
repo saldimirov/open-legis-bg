@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-13/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-13"/>
+          <FRBRalias value="Указ № 209 На основание чл. 98, т. 13 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 209 На основание чл. 98, т. 13 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2016/dv-51-16-13"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-13/bul@2016-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-13/bul@2016-07-05"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-51-16-13/bul@2016-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-51-16-13/bul@2016-07-05.xml"/>
+          <FRBRdate date="2016-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-05" name="Държавен вестник" number="51" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 209 На основание чл. 98, т. 13 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 209 На основание чл. 98, т. 13 от Конституцията на Република България П О С Т А Н О В Я В А М : Наименувам географски обекти в Антарк­ тика, както следва: – хребет Топола – хребет с координати 64°02'25.0&quot; ю.ш., 60°07'00.0&quot; з.д.; – ледник Нарезне – ледник с координати 67°11'05.0&quot; ю.ш., 66°16'30.00&quot; з.д.; – връх Христофор Жефарович – връх с координати 67°55'55.0&quot; ю.ш., 66°42'44.0&quot; з.д.; – залив Юлия Гурковска – залив с коорди­ нати 61°07'40.0&quot; ю.ш., 54°42'00.0&quot; з.д. Изпълнението на указа възлагам на ми­ нистъра на външните работи. Издаден в София на 21 юни 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

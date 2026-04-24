@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-16"/>
+          <FRBRalias value="Решение № 913 ОТ 7 НОЕМВРИ 2012 Г. за обявяване на 9 ноември 2012 г. за ден на" name="short"/>
+          <FRBRalias value="Решение № 913 ОТ 7 НОЕМВРИ 2012 Г. за обявяване на 9 ноември 2012 г. за ден на" name="eli" other="/eli/bg/reshenie/2012/dv-87-12-16"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-16/bul@2012-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-16/bul@2012-11-09"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-16/bul@2012-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-16/bul@2012-11-09.xml"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-09" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 913 ОТ 7 НОЕМВРИ 2012 Г. за обявяване на 9 ноември 2012 г. за ден на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>национален траур На основание чл. 105 от Конституцията на Република България във връзка с чл. 22 от Закона за държавния печат и националното знаме на Република България МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява 9 ноември 2012 г. за ден на на­ ционален траур във връзка със смъртта на патриарха на Българската православна църква и Софийски митрополит Максим.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-25/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-25"/>
+          <FRBRalias value="Решение № 96 от" name="short"/>
+          <FRBRalias value="Решение № 96 от" name="eli" other="/eli/bg/reshenie/2012/dv-65-12-25"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-25/bul@2012-08-24/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-25/bul@2012-08-24"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-65-12-25/bul@2012-08-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-65-12-25/bul@2012-08-24.xml"/>
+          <FRBRdate date="2012-08-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-24" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 96 от</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 96 от 22 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 128, ал. 13 ЗУТ Общишнският съвет – гр. Девня, реши: Одобрява проект за подробен устрой­ ствен план – план за регулация и застрояване (ПУП – ПРЗ) за ПИ 20482.33.69 и ПУП – ПП за ПИ 20482.33.58 по КК на землището на гр. Девня във връзка с изграждане на обект: „Завод за производство на взривни вещества“, съгласно сините и червените линии и надписи за регулация и се предвижда свободно застрояване в рамките на посочените ограничителни линии на застро­ яване в червен цвят и матрица с устройствени показатели за зона Пп (предимно производствена зона): Н≤ 15, Пзастр. ≤ 70 %, Кинт. ≤ 2,0, Позел. ≥ 20 %, обозначена със син цвят. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Девня пред Административния съд – Варна. Председател: В. Иванов 7840</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

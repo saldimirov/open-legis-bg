@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-90-12-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-90-12-29"/>
+          <FRBRalias value="Решение № 197 от 23 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 197 от 23 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-90-12-29"/>
+          <FRBRdate date="2012-11-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-90-12-29/bul@2012-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-90-12-29/bul@2012-11-16"/>
+          <FRBRdate date="2012-11-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-90-12-29/bul@2012-11-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-90-12-29/bul@2012-11-16.xml"/>
+          <FRBRdate date="2012-11-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-16" name="Държавен вестник" number="90" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 197 от 23 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 197 от 23 октомври 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 16, ал. 7 ЗУТ и общ устройствен план на община „Марица“ Общин- ският съвет „Марица“, Пловдив, реши: Одобрява проект за изменение на общ ус- тройствен план на община „Марица“, касаещо разширение на структурна единица 242 – Смф (смесена многофункционална зона) в местност Ралчовица по ОУП на община „Марица“, област Пловдив, и проект за подробен устройствен план (ПУП) – план за улична регулация (ПУР) за структурна единица 242 – 1 – Смф по ОУП на община „Марица“, местност Ралчовица, по ка- дастралната карта на с. Труд, община „Марица“, във връзка с постъпило заявление вх. № 94-02-54</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

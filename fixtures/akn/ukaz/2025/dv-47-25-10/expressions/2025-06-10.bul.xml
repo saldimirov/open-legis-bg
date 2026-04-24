@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-10/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-10"/>
+          <FRBRalias value="Указ № 87 за освобождаване на Пламен Кирилов Тончев от длъжността председател на Държавна агенция „Национална сигурност“" name="short"/>
+          <FRBRalias value="Указ № 87 за освобождаване на Пламен Кирилов Тончев от длъжността председател на Държавна агенция „Национална сигурност“" name="eli" other="/eli/bg/ukaz/2025/dv-47-25-10"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-10/bul@2025-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-10/bul@2025-06-10"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-47-25-10/bul@2025-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-47-25-10/bul@2025-06-10.xml"/>
+          <FRBRdate date="2025-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-06-10" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 87 за освобождаване на Пламен Кирилов Тончев от длъжността председател на Държавна агенция „Национална сигурност“</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Освобождавам Пламен Кирилов Тончев от длъжността председател на Държавна агенция „Национална сигурност“. Издаден в София на 4 юни 2025 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

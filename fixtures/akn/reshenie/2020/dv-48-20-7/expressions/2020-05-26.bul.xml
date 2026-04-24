@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-7/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-7"/>
+          <FRBRalias value="Решение № 4 от 14 май 2020 г." name="short"/>
+          <FRBRalias value="Решение № 4 от 14 май 2020 г." name="eli" other="/eli/bg/reshenie/2020/dv-48-20-7"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-7/bul@2020-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-7/bul@2020-05-26"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-48-20-7/bul@2020-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-48-20-7/bul@2020-05-26.xml"/>
+          <FRBRdate date="2020-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-05-26" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 4 от 14 май 2020 г.</p>
+      <p>(обн., ДВ, бр. 30 от 11.04.2006 г.; посл. изм. и доп., бр. 44 от 13.05.2020 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на образованието и науката да извърши съответните промени по бюджета на Министерството на образованието и науката за 2020 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на финансите да из- върши произтичащите от чл. 1 промени по централния бюджет за 2020 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 3 от Закона за публичните финанси във връзка с Решение № 262 от 2020 г. на Министерския съвет за одобряване на На- ционална научна програма „Създаване на база данни на кръводарителите в Република Бълга- рия за маркери на трансмисивни инфекции“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и науката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

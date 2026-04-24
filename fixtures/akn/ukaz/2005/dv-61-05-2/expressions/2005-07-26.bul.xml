@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-2/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-2"/>
+          <FRBRalias value="Указ № 244 за предлагане на XL Народно събрание да избере Сергей Дмитриевич Станишев за министър-председател на Република България" name="short"/>
+          <FRBRalias value="Указ № 244 за предлагане на XL Народно събрание да избере Сергей Дмитриевич Станишев за министър-председател на Република България" name="eli" other="/eli/bg/ukaz/2005/dv-61-05-2"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-2/bul@2005-07-26/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-2/bul@2005-07-26"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-61-05-2/bul@2005-07-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-61-05-2/bul@2005-07-26.xml"/>
+          <FRBRdate date="2005-07-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-07-26" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 244 за предлагане на XL Народно събрание да избере Сергей Дмитриевич Станишев за министър-председател на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 61, от дата 26.7.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.3</p>
+          <p>Указ № 244 за предлагане на XL Народно събрание да избере Сергей Дмитриевич Станишев за министър-председател на Република България</p>
+          <p>УКАЗ № 244</p>
+          <p>На основание чл. 99, ал. 4 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Предлагам на XL Народно събрание да избере Сергей Дмитриевич Станишев за министър-председател на Република България.</p>
+          <p>Издаден в София на 24 юли 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>51584</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

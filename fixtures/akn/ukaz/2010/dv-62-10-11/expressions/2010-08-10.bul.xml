@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-11"/>
+          <FRBRalias value="Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2010/dv-62-10-11"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-11/bul@2010-08-10/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-11/bul@2010-08-10"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-62-10-11/bul@2010-08-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-62-10-11/bul@2010-08-10.xml"/>
+          <FRBRdate date="2010-08-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-10" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 229 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 229 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Меморандума за разбирателство между държавите – членки на Европейския съюз, участнички в програмата, и Националната агенция за развитие на Републи­ ка Унгария в качеството на Управляващ орган, Министерството на финансите на Република Унгария – Кабинета на Националния ръково­ дител в качеството на Сертифициращ орган, и Сметната палата на Република Унгария в качеството на Одитен орган за изпълнение на Оперативна програма „Югоизточна Европа“ 2007 – 2013 г., подписан на 19 март 2010 г. в София, приет от ХLI Народно събрание на 27 юли 2010 г. Издаден в София на 30 юли 2010 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова СТР. 6 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 62</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

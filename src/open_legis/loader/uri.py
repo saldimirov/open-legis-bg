@@ -4,8 +4,11 @@ from typing import Literal, Optional, Union
 
 _VALID_TYPES = {
     "konstitutsiya", "kodeks", "zakon", "zid", "byudjet", "naredba", "pravilnik",
-    "postanovlenie", "ukaz", "reshenie-ks", "reshenie-ns", "reshenie_ns", "reshenie_ks",
-    "reshenie_ms", "reshenie_kevr", "reshenie_kfn", "reshenie_nhif", "ratifikatsiya",
+    "postanovlenie", "ukaz", "reshenie", "ratifikatsiya",
+    "instruktsiya", "tarifa", "zapoved", "deklaratsiya", "opredelenie", "dogovor", "saobshtenie",
+    # legacy compound reshenie_* still present in some fixture paths
+    "reshenie-ks", "reshenie-ns", "reshenie_ns", "reshenie_ks",
+    "reshenie_ms", "reshenie_kevr", "reshenie_kfn", "reshenie_nhif",
 }
 
 

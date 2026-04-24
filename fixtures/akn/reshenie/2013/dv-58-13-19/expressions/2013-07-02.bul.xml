@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-19"/>
+          <FRBRalias value="Решение № 332 от 20 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 332 от 20 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-58-13-19"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-19/bul@2013-07-02/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-19/bul@2013-07-02"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-58-13-19/bul@2013-07-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-58-13-19/bul@2013-07-02.xml"/>
+          <FRBRdate date="2013-07-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-02" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 332 от 20 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 332 от 20 май 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и решение по т. 17 на ОЕСУТ, взето с протокол № 6 от 26.07.2012 г., Общинският съвет – гр. Приморско, реши: Одобрява подробен устройствен план (план за застрояване) за поземлен имот № 063004 по плана на с. Писменово, местност Край село, с цел промяна на предназначението на земята за свободно вилно застрояване при спазване на следните показатели за застрояване: плътност на застрояване – 40 %, Кинт. – 0,8, Нк – 7м, и Кб – 9,50 м, минимална озеленена площ – 50 %, съгласно червените, сините и черните надписи и линии на приложения към решението проект. Председател: М. Барцулева 5235 ОБЩИНА ХАСКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

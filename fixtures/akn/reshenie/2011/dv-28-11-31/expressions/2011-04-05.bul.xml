@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-31"/>
+          <FRBRalias value="Решение № 394 от 17 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 394 от 17 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-28-11-31"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-31/bul@2011-04-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-31/bul@2011-04-05"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-31/bul@2011-04-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-31/bul@2011-04-05.xml"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-05" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 394 от 17 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 394 от 17 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ одобрява ПУП – ПП (подробен устройствен план – парцеларен план) за ел. за­ хранване на ПИ с идентификатор 22767.222.718 по кадастралната карта на с. Паничерево с трасе, преминаващо през поземлени имоти: ПИ 22767.222.720; ПИ 22767.222.724; ПИ 22767.222.727; ПИ 22767.222.733 и ПИ 22767.222.731 по кадастрал­ ната карта на с. Паничерево. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Гурково до Административния съд – Стара Загора. Председател: Ив. Димитрова 3916 ОБЩИНА КАВАРНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

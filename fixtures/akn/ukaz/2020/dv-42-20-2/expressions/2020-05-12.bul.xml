@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-42-20-2/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-42-20-2"/>
+          <FRBRalias value="Указ № 86 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 86 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2020/dv-42-20-2"/>
+          <FRBRdate date="2020-05-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-42-20-2/bul@2020-05-12/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-42-20-2/bul@2020-05-12"/>
+          <FRBRdate date="2020-05-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-42-20-2/bul@2020-05-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-42-20-2/bul@2020-05-12.xml"/>
+          <FRBRdate date="2020-05-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-05-12" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 86 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 86 На основание чл. 98, т. 6 от Конституцията на Република България П О С Т А Н О В Я В А М : Освобождавам Сергей Пенчев Мичев от длъжността извънреден и пълномощен по­ сланик на Република България в Репуб­лика Сингапур. Изпълнението на указа възлагам на ми­ нистъра на външните работи. Издаден в София на 29 април 2020 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

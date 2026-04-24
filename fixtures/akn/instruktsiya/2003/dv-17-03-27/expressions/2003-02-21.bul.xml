@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-27/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-27"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 17 от 1999 г. за контролната служба в горите и горската стража" name="short"/>
+          <FRBRalias value="Инструкция за изменение и допълнение на Инструкция № 17 от 1999 г. за контролната служба в горите и горската стража" name="eli" other="/eli/bg/instruktsiya/2003/dv-17-03-27"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-27/bul@2003-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-27/bul@2003-02-21"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-17-03-27/bul@2003-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-17-03-27/bul@2003-02-21.xml"/>
+          <FRBRdate date="2003-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-21" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция за изменение и допълнение на Инструкция № 17 от 1999 г. за контролната служба в горите и горската стража</p>
+      <p>(обн., ДВ, бр. 76 от 1999 г.; изм., бр. 62 от 2001 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 40 ал. 2 се отменя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В чл. 41 се правят следните изменения:</p>
+          </intro>
+          <point eId="sec_final__par_2__pt_1">
+            <num>1.</num>
+            <content>
+              <p>В ал. 1 думата „три&amp;quot; се заменя с „две&amp;quot;.</p>
+            </content>
+          </point>
+          <point eId="sec_final__par_2__pt_2">
+            <num>2.</num>
+            <content>
+              <p>В ал. 1 буква „а&amp;quot; се отменя.</p>
+            </content>
+          </point>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <intro>
+            <p>В чл. 42 ал. 1 и 2 се изменят така:</p>
+            <p>„(1) Горските стражари без лесовъдско образование с над 5 години стаж в системата на горите могат да продължат да изпълняват заеманата длъжност след успешно положен изпит пред комисия, назначена със заповед на началника на Национално управление по горите или упълномощено от него лице.</p>
+          </intro>
+          <paragraph eId="sec_final__par_3__al_1">
+            <num>(2)</num>
+            <content>
+              <p>Комисията изготвя и представя протокол за резултатите в съответното регионално управление на горите.&amp;quot;</p>
+              <p>За министър:    М. Плугчиева</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

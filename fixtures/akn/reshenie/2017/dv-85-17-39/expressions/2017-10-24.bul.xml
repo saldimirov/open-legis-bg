@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-85-17-39/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-85-17-39"/>
+          <FRBRalias value="Решение № 123 от 5 октомври 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 123 от 5 октомври 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2017/dv-85-17-39"/>
+          <FRBRdate date="2017-10-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-85-17-39/bul@2017-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-85-17-39/bul@2017-10-24"/>
+          <FRBRdate date="2017-10-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-85-17-39/bul@2017-10-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-85-17-39/bul@2017-10-24.xml"/>
+          <FRBRdate date="2017-10-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-10-24" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 123 от 5 октомври 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 123 от 5 октомври 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – Ивайловград, одобрява изменението на ПУП – ПРЗ (подробен устройствен план – план за регулация и застрояване) на улици и квар- тали 12, 17А, 20, 21 и 24 по ПУП на с. Ламбух, ЕКАТТЕ 43128, община Ивайловград, отпадат нереализирани улици: от о.т. 1 до о.т. 28; от о.т. 1 до о.т. 3; от о.т. 2 до о.т. 4; от о.т. 5 до о.т. 7; от о.т. 3 до о.т. 9, проектират се нови улици по сега изградените и територията се обособява като устройствена зона „Жм“ (устройствена жилищна зона с преобладаващо застрояване с малка височина, плътност и интензивност), със следните показатели: устройствена зона Жм – с височина до 10 м, плътност на застрояване – до 25 %, площ на озеленяване – 50 %, и Кинт. – 1,2. Председател: Д. Кисьова-Зафирова 7823 ОБЩИНА НОВИ ПАЗАР</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

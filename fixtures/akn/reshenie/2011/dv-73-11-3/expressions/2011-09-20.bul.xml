@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-73-11-3/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-73-11-3"/>
+          <FRBRalias value="Решение за отпускане на пенсия за особени заслуги" name="short"/>
+          <FRBRalias value="Решение за отпускане на пенсия за особени заслуги" name="eli" other="/eli/bg/reshenie/2011/dv-73-11-3"/>
+          <FRBRdate date="2011-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-73-11-3/bul@2011-09-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-73-11-3/bul@2011-09-20"/>
+          <FRBRdate date="2011-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-73-11-3/bul@2011-09-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-73-11-3/bul@2011-09-20.xml"/>
+          <FRBRdate date="2011-09-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-20" name="Държавен вестник" number="73" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за отпускане на пенсия за особени заслуги</p>
+      <p>(обн., ДВ, бр. 36 от 2006 г.; изм., бр. 53, 65 и 105 от 2006 г., бр. 41, 59 и 109 от 2007 г., бр. 50, 67 и 102 от 2008 г., бр. 47, 99 и 103 от 2009 г., бр. 52 и 54 от 2010 г. и бр. 50 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 6.</num>
+          <content>
+            <p>В Закона за концесиите (обн., ДВ, бр. 36 от 2006 г.; изм., бр. 53, 65 и 105 от 2006 г., бр. 41, 59 и 109 от 2007 г., бр. 50, 67 и 102 от 2008 г., бр. 47, 99 и 103 от 2009 г., бр. 52 и 54 от 2010 г. и бр. 50 от 2011 г.) в чл. 90 се правят следните изменения: 1. В ал. 1 думата „трима“ се заменя с „четирима“. 2. В ал. 2: а) в изречение първо цифрата „3“ се за­ меня с „4“; б) в изречение второ цифрите „5“ и „3“ се заменят съответно със „7“ и „4“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 7.</num>
+          <content>
+            <p>Законът влиза в сила от деня на об­ народването му в „Държавен вестник“ с из­ ключение на § 2, 5 и 6, които влизат в сила в едномесечен срок от обнародването на закона в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

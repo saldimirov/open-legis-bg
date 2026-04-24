@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-31/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-31"/>
+          <FRBRalias value="Решение № 736 от 13 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 736 от 13 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-77-11-31"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="31"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-31/bul@2011-10-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-31/bul@2011-10-04"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-77-11-31/bul@2011-10-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-77-11-31/bul@2011-10-04.xml"/>
+          <FRBRdate date="2011-10-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-04" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 736 от 13 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 736 от 13 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и решение № 1, протокол на ОЕСУТ № 10 от 18.08.2011 г. Общинският съ­ вет – гр. Монтана, реши: Одобрява специализиран подробен устройствен план – ПП за временен строеж – електропровод 20 kV от съществуващ ЖР стълб от електропро­ вод „Соточино“, преминаващ през поземлени имоти (ПИ) № 540014; 540015; 000526; 000622, и нов МКТП в ПИ № 000622, землище с. Горно Церовене, община Монтана, съгласно чертежа. Трасето и разположението на сервитутните зони се одобряват по графичната и текстовата част на проекта, който е неразделна част от решението. Решението подлежи на обжалване по реда на чл. 215 ЗУТ пред Административния съд – Мон­ тана, в 30-дневен срок от обнародването му в „Държавен вестник“. Председател: Св. Николов 10780</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

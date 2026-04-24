@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-6/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-6"/>
+          <FRBRalias value="Указ № 457 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 457 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2017/dv-3-17-6"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-6/bul@2017-01-10/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-6/bul@2017-01-10"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-3-17-6/bul@2017-01-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-3-17-6/bul@2017-01-10.xml"/>
+          <FRBRdate date="2017-01-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-10" name="Държавен вестник" number="3" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 457 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 112 от 2003 г.; изм. и доп., бр. 13 от 2004 г., бр. 78 от 2005 г., бр. 105 от 2006 г., бр. 3 от 2008 г., бр. 93 от 2009 г., за подпомагане на извеждането от експлоа- тация от предоставеното от други източници на финансиране; 5. очаквани резултати от планираните дейности по програмата. (3)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 457 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам посмъртно д-р Петър Анто- нов Дертлиев с орден „Стара планина“ първа степен за изключително големите му заслуги в борбата за демокрация, свобода и социална справедливост, както и за установяване на гражданско общество в Република България. Издаден в София на 23 декември 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

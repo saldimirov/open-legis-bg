@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-7/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-7"/>
+          <FRBRalias value="Решение за попълване състава на Комисията по отбрана" name="short"/>
+          <FRBRalias value="Решение за попълване състава на Комисията по отбрана" name="eli" other="/eli/bg/reshenie/2014/dv-30-14-7"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-7/bul@2014-04-01/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-7/bul@2014-04-01"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-30-14-7/bul@2014-04-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-30-14-7/bul@2014-04-01.xml"/>
+          <FRBRdate date="2014-04-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-01" name="Държавен вестник" number="30" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за попълване състава на Комисията по отбрана</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 15, ал. 5 и чл. 19, ал. 3 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Избира Желязко Иванов Желязков за член на Комисията по отбрана. СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 30 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

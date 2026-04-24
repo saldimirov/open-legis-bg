@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-75/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-75"/>
+          <FRBRalias value="Решение № 183 от 20 март 2014 г. На основание на чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 183 от 20 март 2014 г. На основание на чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2014/dv-40-14-75"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="75"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-75/bul@2014-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-75/bul@2014-05-13"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-75/bul@2014-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-75/bul@2014-05-13.xml"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-13" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 183 от 20 март 2014 г. На основание на чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 183 от 20 март 2014 г. На основание на чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общински- ят съвет – гр. Маджарово, одобрява проект за ПУП – парцеларен план на „Ню Грийн Хил“ – ООД, Пловдив, ЕИК 202140768, пред- ставлявано от Христиан Валентинов Боев, за кабелна линия 20 kV за външно електрозахран- ване на обект „Къщи за гости“ в ПИ 000194, местност Еникьой; землище на с. Бориславци, община Маджарово. Председател: Е. Юсуф 3098 ОБЩИНА САДОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-65-09-33/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-65-09-33"/>
+          <FRBRalias value="Решение № 330 от 23 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 330 от 23 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2009/dv-65-09-33"/>
+          <FRBRdate date="2009-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-65-09-33/bul@2009-08-14/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-65-09-33/bul@2009-08-14"/>
+          <FRBRdate date="2009-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-65-09-33/bul@2009-08-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-65-09-33/bul@2009-08-14.xml"/>
+          <FRBRdate date="2009-08-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-14" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 330 от 23 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 330 от 23 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Монтана, одобрява подробен устройствен план – парцеларен план за трасе за външно кабелно електрозахранване 20 kV в обхват: от поземлен имот (ПИ) с идентифи­ катор 48489.20.116 през ПИ 48489.20.98, 48489.17.51, 48489.17.50, 48489.17.13, 48489.16.423 до Базова станция № 5931 на „Глобул“ в ПИ 48489.16.526 по кадастрал­ ната карта на Монтана, землище Монтана. Председател: Св. Николов 10135 ОБЩИНА „РОДОПИ“, ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

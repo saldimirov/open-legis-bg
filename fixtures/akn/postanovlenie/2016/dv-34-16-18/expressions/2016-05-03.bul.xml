@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-34-16-18/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-34-16-18"/>
+          <FRBRalias value="Постановление № 95 ОТ 22 АПРИЛ 2016 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 95 ОТ 22 АПРИЛ 2016 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2016/dv-34-16-18"/>
+          <FRBRdate date="2016-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-34-16-18/bul@2016-05-03/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-34-16-18/bul@2016-05-03"/>
+          <FRBRdate date="2016-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-34-16-18/bul@2016-05-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-34-16-18/bul@2016-05-03.xml"/>
+          <FRBRdate date="2016-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-03" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 95 ОТ 22 АПРИЛ 2016 Г. за изменение и допълнение на Постановление</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 1 се правят следните изменения и допълнения: 1. Точка 1 се изменя така: „1. драматични театри – по 2,50 лв. за 1 лв. приходи;“. 2. Създава се нова т. 2: „2. драматично-куклени театри: а) по 2,50 лв. за 1 лв. приходи от драма- тичен продукт; б) по 3 лв. за 1 лв. приходи от куклен продукт.“ 3. Досегашните т. 2 – 5 стават съответно т. 3 – 6. 4. Създава се т. 7: „7. театрално-музикални продуцентски центрове: а) по 6 лв. за 1 лв. приходи от музикалния продукт; б) по 2,50 лв. за 1 лв. приходи от театрал- ния продукт.“ Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 април 2016 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

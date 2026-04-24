@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-16-20-4/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-16-20-4"/>
+          <FRBRalias value="Решение № 101 ОТ 20 ФЕВРУАРИ 2020 Г. за приемане на Списъка на републиканските" name="short"/>
+          <FRBRalias value="Решение № 101 ОТ 20 ФЕВРУАРИ 2020 Г. за приемане на Списъка на републиканските" name="eli" other="/eli/bg/reshenie/2020/dv-16-20-4"/>
+          <FRBRdate date="2020-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-16-20-4/bul@2020-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-16-20-4/bul@2020-02-24"/>
+          <FRBRdate date="2020-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-16-20-4/bul@2020-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-16-20-4/bul@2020-02-24.xml"/>
+          <FRBRdate date="2020-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-02-24" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 101 ОТ 20 ФЕВРУАРИ 2020 Г. за приемане на Списъка на републиканските</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 101 ОТ 20 ФЕВРУАРИ 2020 Г. за приемане на Списъка на републиканските пътища, за които се събира такса за изминато разстояние – тол такса На основание чл. 10, ал. 3 от Закона за пътищата МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Приема Списъка на републиканските пътища, за които се събира такса за из­ минато разстояние – тол такса, съгласно приложението. 2. Решението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

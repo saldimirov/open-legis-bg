@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-26-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-26-14-8"/>
+          <FRBRalias value="Указ № 53 На основание чл. 98, т. 7 от Конституци­" name="short"/>
+          <FRBRalias value="Указ № 53 На основание чл. 98, т. 7 от Конституци­" name="eli" other="/eli/bg/ukaz/2014/dv-26-14-8"/>
+          <FRBRdate date="2014-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-26-14-8/bul@2014-03-21/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-26-14-8/bul@2014-03-21"/>
+          <FRBRdate date="2014-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-26-14-8/bul@2014-03-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-26-14-8/bul@2014-03-21.xml"/>
+          <FRBRdate date="2014-03-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-21" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 53 На основание чл. 98, т. 7 от Конституци­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 53 На основание чл. 98, т. 7 от Конституци­ ята на Република България и чл. 46, ал. 4, изречeние второ във връзка с чл. 46, ал. 3 и 8 от Изборния кодекс П О С Т А Н О В Я В А М : Назначавам за членове на Централната избирателна комисия: Александър Андреев Андреев Владимир Георгиев Пенев Георги Славчев Баханов Емануил Христов Христов Ерхан Юксел Чаушев Ивайло Кирилов Ивков Иванка Атанасова Грозева Йорданка Цвяткова Ганчева Камелия Стоянова Нейкова Мария Христова Бойкинова Росица Борисова Матева Румен Лилянов Цачев Румяна Кирилова Стоева (Сидерова) Таня Анчева Цанева Цветозар Томов Томов. Издаден в София на 20 март 2014 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Зинаида Златанова 1991</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

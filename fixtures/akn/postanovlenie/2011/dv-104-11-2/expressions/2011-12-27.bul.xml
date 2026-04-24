@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-2"/>
+          <FRBRalias value="Постановление № 352 ОТ 22 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Постановление" name="short"/>
+          <FRBRalias value="Постановление № 352 ОТ 22 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Постановление" name="eli" other="/eli/bg/postanovlenie/2011/dv-104-11-2"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-2/bul@2011-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-2/bul@2011-12-27"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-104-11-2/bul@2011-12-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-104-11-2/bul@2011-12-27.xml"/>
+          <FRBRdate date="2011-12-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-27" name="Държавен вестник" number="104" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 352 ОТ 22 ДЕКЕМВРИ 2011 Г. за изменение и допълнение на Постановление</p>
+      <p>(обн., ДВ, бр. 33 от 1991 г.; изм. и доп., бр. 15 от 2000 г., бр. 13 от 2004 г. и бр. 16 от 2008 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Преамбюлът се изменя така: „За да се създадат по-благоприятни условия за пътуване по вътрешноградския автобусен,</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

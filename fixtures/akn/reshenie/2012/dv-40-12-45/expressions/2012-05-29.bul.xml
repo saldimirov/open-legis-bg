@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-45/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-45"/>
+          <FRBRalias value="Решение № 110 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 110 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-40-12-45"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="45"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-45/bul@2012-05-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-45/bul@2012-05-29"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-45/bul@2012-05-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-45/bul@2012-05-29.xml"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-29" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 110 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 110 от 26 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – с. Гърмен, област Благоевград, реши: Одобрява подробен устройствен план – пар­ целарен план на линейната инфраструктура, представляващ „Външни електро- и В и К мрежи за къща за гости в ПИ № 034075, землище с. Ог­ няново, община Гърмен, област Благоевград“. Решението може да се обжалва в 14-дневен срок пред Административния съд – Благоевград. Председател: М. Адем 5059</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

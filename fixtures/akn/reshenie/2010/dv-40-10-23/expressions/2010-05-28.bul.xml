@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-23"/>
+          <FRBRalias value="Решение № 683 от 29 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 683 от 29 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-40-10-23"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-23/bul@2010-05-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-23/bul@2010-05-28"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-40-10-23/bul@2010-05-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-40-10-23/bul@2010-05-28.xml"/>
+          <FRBRdate date="2010-05-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-28" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 683 от 29 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 683 от 29 април 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 59 и 60 ЗУТ във връзка с реше- ние на ОЕСУТ Общинският съвет – Свиленград, одобрява план за застрояване и ел. схема към него на ПИ № 066008, ПИ № 066012, ПИ № 066013, ПИ № 066014, ПИ № 066015, м. Арпалъка, землището на с. Лисово, община Свиленград, като имотите се отреждат „За производство на ел. енергия от фотоволтаични генератори“ и се определя в тях с ограничителни линии в червен цвят нискоетажно свободно застрояване. Председател: Т. Коларова 4311 ОБЩИНА ТРОЯН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

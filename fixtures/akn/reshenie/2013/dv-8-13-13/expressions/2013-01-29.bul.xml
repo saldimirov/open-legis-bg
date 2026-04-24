@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-8-13-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-8-13-13"/>
+          <FRBRalias value="Решение № 664 от 20 декември 2012 г." name="short"/>
+          <FRBRalias value="Решение № 664 от 20 декември 2012 г." name="eli" other="/eli/bg/reshenie/2013/dv-8-13-13"/>
+          <FRBRdate date="2013-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-8-13-13/bul@2013-01-29/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-8-13-13/bul@2013-01-29"/>
+          <FRBRdate date="2013-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-8-13-13/bul@2013-01-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-8-13-13/bul@2013-01-29.xml"/>
+          <FRBRdate date="2013-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-01-29" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 664 от 20 декември 2012 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 664 от 20 декември 2012 г. Във връзка с изпълнение предвижданията на общия устройствен план на Столична община и в съответствие с изготвеното и прието от ОЕСУТ транспортно-комуникационно решение е допусна- то със Заповед № РД-09-50-1026 от 9.10.2009 г. на главния архитект на Столична община изработва- нето на план за улична регулация за урбанизира- ните територии, през които преминава трасето на Северната скоростна тангента (ССТ), а именно: Изменение на плана за регулация (ИПР) на м. НПЗ „Илиянци-запад“ – изменение на улична регулация от о.т. 24 до о.т. 100 и прилежащи кв. 4а (част), кв. 5 (част) и кв. 5д (част) и на м. НПЗ „Илиянци-изток“ – изменение на улична регулация от о.т. 100 до о.т. 104 и прилежащи кв. 1 (част), кв. 2 (част) и кв. 3 (част). Проектите са възложени за изработване на „ГИС – София“ – ЕООД, с писмо № ТП-92-00-86 от 9.10.2009 г. и са представени за одобряване. С писмо изх. № ТП-932-00-86 от 18.05.2011 г. проектите са изпратени в район „Надежда“ и район „Сердика“ и до „Държавен вестник“ за обявяване по реда на чл. 128, ал. 2 ЗУТ. С пимо рег. № АС-66-02-122</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

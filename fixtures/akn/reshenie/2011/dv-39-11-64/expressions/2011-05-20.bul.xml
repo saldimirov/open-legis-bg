@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-64/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-64"/>
+          <FRBRalias value="Решение № 70 от 7 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 70 от 7 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-39-11-64"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="64"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-64/bul@2011-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-64/bul@2011-05-20"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-39-11-64/bul@2011-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-39-11-64/bul@2011-05-20.xml"/>
+          <FRBRdate date="2011-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-05-20" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 70 от 7 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 70 от 7 април 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 127, ал. 6 ЗУТ Общинският съ- вет – гр. Габрово, одобрява частично изменение на общия устройствен план (ОУП) на гр. Габрово за част от територията на града, кв. Тлъчници, като теренът, предвиден за начално училище и трафопост, попадащ в кв. 32 по действащия подробен устройствен план, се преотреди за жилищно строителство. Председател: В. Василев 5535</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

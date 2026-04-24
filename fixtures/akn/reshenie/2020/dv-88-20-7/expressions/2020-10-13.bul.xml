@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-7/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-7"/>
+          <FRBRalias value="Решение за избиране на председател на Централната" name="short"/>
+          <FRBRalias value="Решение за избиране на председател на Централната" name="eli" other="/eli/bg/reshenie/2020/dv-88-20-7"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-7/bul@2020-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-7/bul@2020-10-13"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-88-20-7/bul@2020-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-88-20-7/bul@2020-10-13.xml"/>
+          <FRBRdate date="2020-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-10-13" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на председател на Централната</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на образованието и науката да извърши съответните промени по бюджета на Министерството на образовани- ето и науката за 2020 г. за допълнителните плащания по чл. 1, ал. 3, а за допълнител- ните разходи по чл. 1, ал. 1 – на базата на фактически извършените разходи по неговия бюджет и предоставените трансфери на ба- зата на фактически извършените разходи от държавните висши училища, и да уведоми министъра на финансите.“</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В § 1 от заключителните разпоредби думите „чл. 109, ал. 3“ се заменят с „чл. 109, ал. 3 и ал. 4, т. 1“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

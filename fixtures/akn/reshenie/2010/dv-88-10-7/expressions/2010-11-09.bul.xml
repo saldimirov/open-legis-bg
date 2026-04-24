@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-7"/>
+          <FRBRalias value="Решение за промени в състава на Комисията по окол­" name="short"/>
+          <FRBRalias value="Решение за промени в състава на Комисията по окол­" name="eli" other="/eli/bg/reshenie/2010/dv-88-10-7"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-7/bul@2010-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-7/bul@2010-11-09"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-88-10-7/bul@2010-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-88-10-7/bul@2010-11-09.xml"/>
+          <FRBRdate date="2010-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-09" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промени в състава на Комисията по окол­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ната среда и водите Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 20, ал. 4 във връзка чл. 18, ал. 2, т. 11 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : Избира Иван Тодоров Иванов за член на Комисията по околната среда и водите. Решението е прието от 41-ото Народно съ­ брание на 28 октомври 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

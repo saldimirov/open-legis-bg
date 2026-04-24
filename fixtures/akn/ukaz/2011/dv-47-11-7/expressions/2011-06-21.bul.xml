@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-7/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-7"/>
+          <FRBRalias value="Указ № 146 На основание чл. 98, т. 1 от Конституцията на" name="short"/>
+          <FRBRalias value="Указ № 146 На основание чл. 98, т. 1 от Конституцията на" name="eli" other="/eli/bg/ukaz/2011/dv-47-11-7"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-7/bul@2011-06-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-7/bul@2011-06-21"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-47-11-7/bul@2011-06-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-47-11-7/bul@2011-06-21.xml"/>
+          <FRBRdate date="2011-06-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-21" name="Държавен вестник" number="47" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 146 На основание чл. 98, т. 1 от Конституцията на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 146 На основание чл. 98, т. 1 от Конституцията на Република България и чл. 10, ал. 3 във връзка с § 10, ал. 1 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам избори за общински съветници и за кметове на общини и кметства на 23 ок­ томври 2011 г. Издаден в София на 20 юни 2011 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова 7581 2. Избира Петър Иванов Хлебаров за член на постоянната Комисия по регионална поли­ тика и местно самоуправление. Решението е прието от 41-ото Народно събрание на 15 юни 2011 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

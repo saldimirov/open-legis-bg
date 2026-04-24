@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-46-15-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-46-15-18"/>
+          <FRBRalias value="Решение № 1241 от 27 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 1241 от 27 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-46-15-18"/>
+          <FRBRdate date="2015-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-46-15-18/bul@2015-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-46-15-18/bul@2015-06-23"/>
+          <FRBRdate date="2015-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-46-15-18/bul@2015-06-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-46-15-18/bul@2015-06-23.xml"/>
+          <FRBRdate date="2015-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-23" name="Държавен вестник" number="46" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1241 от 27 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1241 от 27 май 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, ЗУТ и решение на Общински експертен съвет по устройство на територията Общинският съвет – гр. Симитли, реши: 1. Одобрява подробен устройствен план – пар­ целарен план за трасе на тръбопровод за за­ хранване на имот № 046047, намиращ се в местността Градевска, землище на с. Градево, община Симитли. 2. Одобрява подробен устройствен план – пар­ целарен план за трасе на кабелна линия 20 kV за захранване на имот № 046047, намиращ се в местността „Градевска“, землище на с. Градево, община Симитли. 3. Упълномощава кмета на община Симитли да предприеме необходимите правни и фактически действия по изпълнение на решението. Председател: Вл. Христов 4127 ОБЩИНА СОПОТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

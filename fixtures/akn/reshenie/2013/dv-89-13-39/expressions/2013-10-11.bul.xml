@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-89-13-39/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-89-13-39"/>
+          <FRBRalias value="Решение № 409 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 409 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-89-13-39"/>
+          <FRBRdate date="2013-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-89-13-39/bul@2013-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-89-13-39/bul@2013-10-11"/>
+          <FRBRdate date="2013-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-89-13-39/bul@2013-10-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-89-13-39/bul@2013-10-11.xml"/>
+          <FRBRdate date="2013-10-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-11" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 409 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 409 от 25 юли 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ, Решение № 6 от протокол № 12 от 25.10.2012 г. на Експертния съвет по устройство на територията на Община Мъглиж Общинският съвет – гр. Мъглиж, реши: Одобрява подробен устройствен план – план за застрояване на поземлен имот 068067, местност Делииванов кладенец в землището на с. Дъбово, община Мъглиж, с възложител Димитър Гочев Петров. Решението подлежи на обжалване в 30-дневен срок от обнародването му в „Държавен вестник“ чрез Община Мъглиж до Административния съд – Стара Загора. Председател: Мл. Чернаков 7479 ОБЩИНА ПЛЕВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

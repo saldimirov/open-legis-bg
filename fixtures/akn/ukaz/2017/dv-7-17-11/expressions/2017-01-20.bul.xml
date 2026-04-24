@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-11/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-11"/>
+          <FRBRalias value="Указ № 8 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 8 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2017/dv-7-17-11"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-11/bul@2017-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-11/bul@2017-01-20"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-11/bul@2017-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-11/bul@2017-01-20.xml"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-20" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 8 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 8 На основание чл. 100, ал. 2 от Конститу- цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 във връзка с чл. 138, т. 6 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Удостоявам комодор Никола Стоянов Ка- ранов с висше офицерско звание „флотилен адмирал“. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 9 януари 2017 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-7/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-7"/>
+          <FRBRalias value="Постановление № 252 от 18 юли 2024 г. за възстановяване на средства по бюджета на Централната избирателна комисия за 2024 г." name="short"/>
+          <FRBRalias value="Постановление № 252 от 18 юли 2024 г. за възстановяване на средства по бюджета на Централната избирателна комисия за 2024 г." name="eli" other="/eli/bg/postanovlenie/2024/dv-62-24-7"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-7/bul@2024-07-23/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-7/bul@2024-07-23"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-62-24-7/bul@2024-07-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-62-24-7/bul@2024-07-23.xml"/>
+          <FRBRdate date="2024-07-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-07-23" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 252 от 18 юли 2024 г. за възстановяване на средства по бюджета на Централната избирателна комисия за 2024 г.</p>
+      <p>(обн., ДВ, бр. 110 от 2020 г.; изм. и доп., бр. 5 от 2021 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>По бюджета на Централната избирателна комисия за 2024 г. да се възстановят средства в размер 3 479 019 лв. от сметката за чужди средства, както следва: 1. по чл. 4, ал. 1 от Постановление № 400 на Министерския съвет от 2020 г. за одобряване на допълнителни разходи/трансфери за 2020 г. (обн., ДВ, бр. 110 от 2020 г.; изм. и доп., бр. 5 от 2021 г.) – 38 642 лв.; 2. по чл. 4, ал. 1 от Постановление № 302 на Министерския съвет от 2023 г. за одобряване на допълнителни разходи по бюджета на Централната избирателна комисия за 2023 г. (обн., ДВ, бр. 105 от 2023 г.; изм. и доп., бр. 107 от 2023 г.) – 3 440 377 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Централната избирателна комисия да извърши по бюджета на Централната избирателна комисия за 2024 г. произтичащите от чл. 1 промени в разходите и бюджетното взаимоотношение с централния бюджет и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>С размера на средствата по чл. 1 министърът на финансите да извърши съответната промяна по централния бюджет за 2024 г., включително на бюджетното взаимоотношение с бюджета на Централната избирателна комисия. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 7, ал. 1 във връзка с чл. 15 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на Централната избирателна комисия.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

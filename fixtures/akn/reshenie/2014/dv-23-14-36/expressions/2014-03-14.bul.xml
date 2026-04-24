@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-36/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-36"/>
+          <FRBRalias value="Решение № 742 от 7 февруари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 742 от 7 февруари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2014/dv-23-14-36"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-36/bul@2014-03-14/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-36/bul@2014-03-14"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-23-14-36/bul@2014-03-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-23-14-36/bul@2014-03-14.xml"/>
+          <FRBRdate date="2014-03-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-14" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 742 от 7 февруари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 742 от 7 февруари 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 110, ал. 1, т. 5, чл. 129, ал. 1 ЗУТ и прието решение № 5 от протокол № 9 от 4.11.2013 г. на OЕСУТ Общинският съвет – с. Аврен, одобрява подробен устройствен план – парцеларен план (ПУП – ПП) за елементи на техническата ин­ фраструктура за обект: „Кабелни линии СрН от БКТП № 8 – с. Близнаци, до нов трафопост тип БКТП 1х1000 kVA в УПИ № XV-75 за трафопост, кв. 005 в землището на с. Близнаци“. Председател: М. Черкезов 1519 ОБЩИНА С. КИРКОВО, ОБЛАСТ КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

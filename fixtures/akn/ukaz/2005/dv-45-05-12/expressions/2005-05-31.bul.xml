@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-12/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-12"/>
+          <FRBRalias value="Указ № 179 за назначаване за член на Комисията за защита от дискриминация Ирина Николова Мулешкова" name="short"/>
+          <FRBRalias value="Указ № 179 за назначаване за член на Комисията за защита от дискриминация Ирина Николова Мулешкова" name="eli" other="/eli/bg/ukaz/2005/dv-45-05-12"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-12/bul@2005-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-12/bul@2005-05-31"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-45-05-12/bul@2005-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-45-05-12/bul@2005-05-31.xml"/>
+          <FRBRdate date="2005-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-05-31" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 179 за назначаване за член на Комисията за защита от дискриминация Ирина Николова Мулешкова</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 45, от дата 31.5.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.24</p>
+          <p>Указ № 179 за назначаване за член на Комисията за защита от дискриминация Ирина Николова Мулешкова</p>
+          <p>УКАЗ № 179</p>
+          <p>На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 41 и 42 от Закона за защита срещу дискриминацията</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам за член на Комисията за защита от дискриминация Ирина Николова Мулешкова.</p>
+          <p>Издаден в София на 16 май 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>25325</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

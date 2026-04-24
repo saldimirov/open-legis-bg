@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-44-17-20/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-44-17-20"/>
+          <FRBRalias value="Решение № 533 от 12 май 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 533 от 12 май 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2017/dv-44-17-20"/>
+          <FRBRdate date="2017-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-44-17-20/bul@2017-06-02/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-44-17-20/bul@2017-06-02"/>
+          <FRBRdate date="2017-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-44-17-20/bul@2017-06-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-44-17-20/bul@2017-06-02.xml"/>
+          <FRBRdate date="2017-06-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-06-02" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 533 от 12 май 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 533 от 12 май 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, Решение № 299 от протокол № 9 от 27.07.2016 г., т. 39, на Общинския съвет – гр. Несебър, решение т. 7 от протокол № 5 от 5.04.2017 г. от заседание на ОбЕСУТ – Несе­ бър, писмо изх. № ПД-1177</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

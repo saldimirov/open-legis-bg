@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-30"/>
+          <FRBRalias value="Решение № 7-94 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 7-94 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-100-11-30"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-30/bul@2011-12-20/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-30/bul@2011-12-20"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-100-11-30/bul@2011-12-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-100-11-30/bul@2011-12-20.xml"/>
+          <FRBRdate date="2011-12-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-20" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 7-94 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 7-94 от 25 ноември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Тервел, одобрява подробен устрой- ствен план – парцеларен план на елементи на техническата инфраструктура – трасе на външно ел. захранване на „Фотоволтаична централа в УПИ ХІV-135, кв. 2, с. Мали извор“ и „Фото- волтаична централа в УПИ ХІІ-125, 126, кв. 23, с. Мали извор“. Трасето преминава през: ПИ № 035016, представляващ общински път, ПИ № 035004, представляващ селскостопански, горски, ведомствен път, общинска собственост, ПИ № 035007, представляващ селскостопански, горски, ведомствен път, общинска собственост, и ПИ № 004072, представляващ нива, частна собственост, по КВС на с. Мали извор. Проектът е изложен за разглеждане в Община Тервел, ул. Св. св. Кирил и Методий 8, стая 110. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването му в „Държавен вестник“ решението подлежи на обжалване чрез Община Тервел до Административния съд – Добрич. Председател: К. Енчев 13293 СТР. 96 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 100</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-25/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-25"/>
+          <FRBRalias value="Решение № 666 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 666 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2015/dv-42-15-25"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-25/bul@2015-06-09/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-25/bul@2015-06-09"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-42-15-25/bul@2015-06-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-42-15-25/bul@2015-06-09.xml"/>
+          <FRBRdate date="2015-06-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-06-09" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 666 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 666 от 30 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. При­ морско, реши: Одобрява подробен устройствен план (парце­ ларен план) ПИ № 10731.23.28, ПИ № 10731.23.32, ПИ № 10731.26.25 и част от ПИ № 10731.26.29 по КК на с. Веселие, м. Чифтелията, с цел изграждане на линеен обект на техническата инфраструктура – кабелна линия 20 kV от нов ж.р. стълб до нов ТП в ПИ № 10731.26.25 по КК на с. Веселие. Посочените изменения са съгласно червените, черните и жълтите надписи и линии на прило­ жения към това решение проект. Председател: М. Барцулева 3753</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

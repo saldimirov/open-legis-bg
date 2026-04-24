@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-13"/>
+          <FRBRalias value="Решение № 728 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 728 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2015/dv-39-15-13"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-13/bul@2015-05-29/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-13/bul@2015-05-29"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-39-15-13/bul@2015-05-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-39-15-13/bul@2015-05-29.xml"/>
+          <FRBRdate date="2015-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-05-29" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 728 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 728 от 23 април 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 20 от протокол № 2 от 11.03.2015 г. на ОЕСУТ Общинският съ­ вет – гр. Павликени, реши: Одобрява изработения проект за ПУП – пар­ целарен план – за трасе на ел. захранване на новопроектиран трафопост в ПИ № 166007 по КВС на гр. Павликени за нуждите на СД „Ка­ рина – Донев и Доневи с-ие“. Предвижда се свързване на новопроектиран трафопост в ПИ № 166007 с подземен кабел 20 kV от метален стълб № 67 на ЕП „Павликени“. Председател: Д. Дончев 3514</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

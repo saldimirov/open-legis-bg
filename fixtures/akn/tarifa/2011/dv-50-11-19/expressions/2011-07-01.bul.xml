@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-19/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-19"/>
+          <FRBRalias value="Тарифа за таксите за водовземане, за ползване на" name="short"/>
+          <FRBRalias value="Тарифа за таксите за водовземане, за ползване на" name="eli" other="/eli/bg/tarifa/2011/dv-50-11-19"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-19/bul@2011-07-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-19/bul@2011-07-01"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-19/bul@2011-07-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-19/bul@2011-07-01.xml"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-01" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Тарифа за таксите за водовземане, за ползване на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>За правото на ползване на водите се заплаща такса: 1. за водовземане от: а) повърхностни води; б) подземни води; в) минерални води; 2. за ползване на воден обект за изземване на наносни отложения от повърхностните води; 3. за замърсяване за: а) заустване на отпадъчни води в повърх­ ностни води; б) отвеждане на замърсители в подзем­ ните води.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Не се заплаща такса за водовземане от повърхностни и подземни води: 1. за задоволяване на собствени потребности на гражданите в случаите на чл. 43, ал. 2 от Закона за водите; 2. в случай на пожарогасене; 3. с цел отводняване, когато се извършва за защита от вредното въздействие на водите; 4. от обществени чешми за лични нужди на гражданите, водопой на животни и др. в случай на общо водовземане, определено при условията и по реда на чл. 41 от Закона за водите; 5. от повърхностни води под 10 l/s чрез поставяне на временни отбивни съоръже­ ния, необходими при изграждането на даден строителен обект, като полученият отток след използването влияе незначително на качест­ вото на водите; 6. при управление на рибните ресурси, въз­ ложено на сдружения на лица, упражняващи любителски риболов в реки, стари речни ко­ рита или изкуствени водни обекти – държавна собственост, определени само за любителски риболов.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Таксите за водовземане от повърх­ ностни води и от подземни води се определят на база отнетия обем вода и в зависимост от целта на използване на водата.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Таксите за водовземане от минерални води се определят на база разрешения обем вода и температурата на минералната вода.</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

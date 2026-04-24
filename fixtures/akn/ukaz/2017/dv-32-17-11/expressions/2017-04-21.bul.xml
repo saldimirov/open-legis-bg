@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-11/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-11"/>
+          <FRBRalias value="Указ № 109 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 109 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2017/dv-32-17-11"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-11/bul@2017-04-21/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-11/bul@2017-04-21"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-32-17-11/bul@2017-04-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-32-17-11/bul@2017-04-21.xml"/>
+          <FRBRdate date="2017-04-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-04-21" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 109 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 5 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на община Антоново, област Търговище, на 2 юли 2017 г. Издаден в София на 13 април 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Мария Павлова 2848 Емил Димитров Симеонов, Николай Веселинов Александров, Хамид Бари Хамид, Камен Костов Костадинов и Полина Цветославова Цанкова- Христова. 4. Комисията се избира за срок от 14 дни. Решението е прието от 44-то Народно съб­ рание на 20 април 2017 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

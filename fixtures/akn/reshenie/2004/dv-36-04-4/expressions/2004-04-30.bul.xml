@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-36-04-4/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-36-04-4"/>
+          <FRBRalias value="Решение № 324 от 26 април 2004 г. за разместване на почивни дни" name="short"/>
+          <FRBRalias value="Решение № 324 от 26 април 2004 г. за разместване на почивни дни" name="eli" other="/eli/bg/reshenie/2004/dv-36-04-4"/>
+          <FRBRdate date="2004-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-36-04-4/bul@2004-04-30/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-36-04-4/bul@2004-04-30"/>
+          <FRBRdate date="2004-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-36-04-4/bul@2004-04-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-36-04-4/bul@2004-04-30.xml"/>
+          <FRBRdate date="2004-04-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-04-30" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 324 от 26 април 2004 г. за разместване на почивни дни</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерски съвет          брой: 36, от дата 30.4.2004 г.   Официален раздел / МИНИСТЕРСКИ СЪВЕТ    стр.17</p>
+          <p>Решение № 324 от 26 април 2004 г. за разместване на почивни дни</p>
+          <p>РЕШЕНИЕ № 324</p>
+          <p>ОТ 26     АПРИЛ     2004 Г.</p>
+          <p>за разместване на почивни дни</p>
+          <p>На основание чл. 154, ал. 2 от Кодекса на труда и чл. 55, ал. 2 от Закона за държавния служител</p>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ</p>
+          <p>РЕШИ:</p>
+          <p>Обявява 7 май 2004 г. за почивен ден, а 15 май 2004 г. за работен ден.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

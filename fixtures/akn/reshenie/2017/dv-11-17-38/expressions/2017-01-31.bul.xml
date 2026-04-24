@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-38/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-38"/>
+          <FRBRalias value="Решение № 255 от 21 декември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 255 от 21 декември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2017/dv-11-17-38"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="38"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-38/bul@2017-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-38/bul@2017-01-31"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-11-17-38/bul@2017-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-11-17-38/bul@2017-01-31.xml"/>
+          <FRBRdate date="2017-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-31" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 255 от 21 декември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 255 от 21 декември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пав- ликени, реши: Одобрява изработения проект за ПУП – пар- целарен план на „Външни връзки – Водоснаб- дителна система в землището на с. Недан, община Павликени“, като трасето минава през ПИ № 000102, 000181, 000182, 000271, 000279 и 225001 – собственост на Община Павликени, и ПИ № 000208 – собственост на МЗХ – ХМС. Предвижда се изграждане на тласкател DN 200 PE от Помпена станция – с. Недан, посока резервоара и довеждащ водопровод – Главен клон 1, DN 355 – от резервоар до източната граница на с. Недан. Председател: В. Антонова 554 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

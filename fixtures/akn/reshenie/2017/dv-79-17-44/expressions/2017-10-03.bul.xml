@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-79-17-44/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-79-17-44"/>
+          <FRBRalias value="Решение № 257 от 29 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 257 от 29 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2017/dv-79-17-44"/>
+          <FRBRdate date="2017-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-79-17-44/bul@2017-10-03/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-79-17-44/bul@2017-10-03"/>
+          <FRBRdate date="2017-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-79-17-44/bul@2017-10-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-79-17-44/bul@2017-10-03.xml"/>
+          <FRBRdate date="2017-10-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-10-03" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 257 от 29 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 257 от 29 август 2017 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ във връзка с Правилника за прилагане на Закона за опазване на земеделските земи Общинският съвет „Марица“ реши: Одобрява ПУП – парцеларен план на трасе за проектиране на обект: „Уличен водопровод PE-HD ∅ 110 с L=332 м“, за нуждите на имот с идентификатор 78080.93.277 (УПИ 93.277). Улич- ният водопровод преминава през имоти 34.297, 34.298 (с. Бенковски), 94.266, 93.267, 93.268 и 93.279 (с. Царацово), община „Марица“, по следата на вариант единствен, нанесен върху приложения проект на ПУП – ПП и регистър на засегнатите от трасето имоти, във връзка с искане от „МВБ Трак енд Бъс България“ – АД, ЕИК 202377190, с вх. № 53-01-445</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

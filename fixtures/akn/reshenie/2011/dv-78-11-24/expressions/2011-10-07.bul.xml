@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-24"/>
+          <FRBRalias value="Решение № 125 от 9 август 2011 г. На основание чл. 21, ал. 1, т. 11 и 23 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 125 от 9 август 2011 г. На основание чл. 21, ал. 1, т. 11 и 23 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-78-11-24"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-24/bul@2011-10-07/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-24/bul@2011-10-07"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-78-11-24/bul@2011-10-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-78-11-24/bul@2011-10-07.xml"/>
+          <FRBRdate date="2011-10-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-07" name="Държавен вестник" number="78" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 125 от 9 август 2011 г. На основание чл. 21, ал. 1, т. 11 и 23 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 125 от 9 август 2011 г. На основание чл. 21, ал. 1, т. 11 и 23 ЗМСМА във връзка с чл. 134, ал. 1, т. 1 и ал. 3 и чл. 136, ал. 1 ЗУТ Общинският съвет – гр. Каварна, реши: 1. Отменя Решение № 195 по протокол № 24 от 28.04.2009 г. 2. Допуска изработването на проект за изме­ нение на общоустройствения план на община Каварна в частта му за имот с идентификатор 35064.26.160 в землището на гр. Каварна, община Каварна, с цел отреждането му за „Инсталация за анаеробно биокомпостиране на биомаса за растителни и животински субстанции и обслуж­ ващи селскостопански сгради“. Председател: Евг. Чобанов 10833</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

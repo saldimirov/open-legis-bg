@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-42/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-42"/>
+          <FRBRalias value="Решение № 297 от 16 септември 2011 г. На основание чл. 21, ал. 2 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 297 от 16 септември 2011 г. На основание чл. 21, ал. 2 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2011/dv-82-11-42"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="42"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-42/bul@2011-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-42/bul@2011-10-21"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-42/bul@2011-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-42/bul@2011-10-21.xml"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-21" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 297 от 16 септември 2011 г. На основание чл. 21, ал. 2 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 297 от 16 септември 2011 г. На основание чл. 21, ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Сандански, реши: Допълва Решение № 201 от 21.10.2010 г. на Общинския съвет – гр. Сандански (ДВ, бр. 89 от 2010 г.), относно одобряване на ПУП – парцеларен план за трасе на газопровод през имоти 125434 и 212329, м. Долни орман, землище на гр. Сан­ дански, до имот 65334.201.092, като се допълва решението и чрез одобрение на част от вариант 2 с допълнение на имот № 65334.114.448 – общинска собственост. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от об­ народването в „Държавен вестник“ чрез Община Сандански пред Административния съд – Бла­ гоевград. Председател: Ат. Стоянов 11233 ОБЩИНА СВИЛЕНГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-21"/>
+          <FRBRalias value="Решение № 487 от 27 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 487 от 27 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-56-11-21"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-21/bul@2011-07-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-21/bul@2011-07-22"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-56-11-21/bul@2011-07-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-56-11-21/bul@2011-07-22.xml"/>
+          <FRBRdate date="2011-07-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-22" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 487 от 27 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 487 от 27 юни 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Бо­ лярово, реши: 1. Одобрява проекта за ПУП – ПРЗ (план за регулация и застрояване) за ПИ 69208.501.77, ПИ 69208.501.78, ПИ 69208.501.79 и ПИ 69208.501.80 по кадастралната карта на с. Стефан Караджово с представените към него схеми. 2. На основание чл. 44, ал. 1, т. 7 ЗМСМА за­ дължава кмета на Община Болярово да организира изпълнението на решението на Общинския съвет. Председател: Ат. Дженков 8333 ОБЩИНА БОТЕВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

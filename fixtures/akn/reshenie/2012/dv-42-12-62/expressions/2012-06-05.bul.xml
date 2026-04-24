@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-62/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-62"/>
+          <FRBRalias value="Решение № 65 от 21 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 30," name="short"/>
+          <FRBRalias value="Решение № 65 от 21 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 30," name="eli" other="/eli/bg/reshenie/2012/dv-42-12-62"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="62"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-62/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-62/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-62/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-62/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 65 от 21 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 30,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 65 от 21 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 30, ал. 3 ППЗОЗЗ и чл. 129, ал. 1 ЗУТ Общинският съвет – Симеоновград, реши: БРОЙ 42 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 73 1. Одобрява ПУП (подробен устройствен план) – ПП (парцеларен план) за обект „Въздушна електропроводна линия 20 kV с мачтов трафопост 20/0,4 kVA, кабелни линии НН от ТНН до ЕТ“ със специализирана устройствена план-схема по част „Електротехническа“ – по КВС за землището на с. Калугерово, община Симеоновград. 2. Възлага на кмета на общината да проведе необходимите процедури по съобщаване на ре­ шението. Председател: А. Петров 5279 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

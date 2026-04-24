@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-54-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-54-11-14"/>
+          <FRBRalias value="Решение № 879 от 30 юни 2011 г. На основание чл. 17, ал. 1, т. 2, чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 879 от 30 юни 2011 г. На основание чл. 17, ал. 1, т. 2, чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-54-11-14"/>
+          <FRBRdate date="2011-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-54-11-14/bul@2011-07-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-54-11-14/bul@2011-07-15"/>
+          <FRBRdate date="2011-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-54-11-14/bul@2011-07-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-54-11-14/bul@2011-07-15.xml"/>
+          <FRBRdate date="2011-07-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-15" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 879 от 30 юни 2011 г. На основание чл. 17, ал. 1, т. 2, чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 8, т. 1, чл. 9, ал. 2, чл. 12, ал. 2, чл. 59, ал. 1 и чл. 109 ЗУТ и протокол № 09/2011 г. на ОЕСУТ, т. 7, Общинският съвет – гр. Костинброд, одобрява проект ПЗ (план за застрояване) за мобилна асфалтова база за имот 000502, местност Под костело, с. Опицвет, община Костинброд, зона предимно промишлена с (Пп) кота корниз 10 м, 3 етажа, плътност 50 %, Конт 1,0, озеленяване 50 % и свободно застрояване. Решението може да бъде обжалвано пред Ад­ министративния съд по реда на чл. 215, ал. 4 ЗУТ. Председател: В. Михайлов 8325 ОБЩИНА МОНТАНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

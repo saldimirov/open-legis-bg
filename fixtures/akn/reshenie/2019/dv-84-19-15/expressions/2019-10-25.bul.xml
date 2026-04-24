@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-15/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-15"/>
+          <FRBRalias value="Решение № 1129 от 29 август 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1129 от 29 август 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и" name="eli" other="/eli/bg/reshenie/2019/dv-84-19-15"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-15/bul@2019-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-15/bul@2019-10-25"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-84-19-15/bul@2019-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-84-19-15/bul@2019-10-25.xml"/>
+          <FRBRdate date="2019-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-10-25" name="Държавен вестник" number="84" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1129 от 29 август 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1129 от 29 август 2019 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА и чл. 129, т. 1 от ЗУТ Общинският съвет – гр. Кос- тинброд, одобрява проект за ПУП – ИПР, измене- ние на плана за регулация в частта на с. Петърч за образуване на нова улица с о.т. 75а, о.т. 240, о.т. 75б и о.т. 75в между кв. 28 и кв. 34а. Председател: Ат. Тенев 8153</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-3/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-3"/>
+          <FRBRalias value="Указ № 85 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 85 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2025/dv-45-25-3"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-3/bul@2025-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-3/bul@2025-06-03"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-3/bul@2025-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-3/bul@2025-06-03.xml"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-06-03" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 85 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Да се обнародва в „Държавен вестник“ Законът за ратифициране на Споразумение за участие на Република България в Регионалната програма на Организацията за икономическо сътрудничество и развитие за Югоизточна Европа с доброволен финансов принос в размер на 100 000 евро (195 583 лв.) между Република България, от една страна, и Организацията за икономическо сътрудничество и развитие, от друга, сключено чрез размяна на писма от 31 януари и 23 февруари 2024 г., приет от 51-вото Народно събрание на 21 май 2025 г. Издаден в София на 27 май 2025 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Георги Георгиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

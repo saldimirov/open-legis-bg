@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-26-18-8/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-26-18-8"/>
+          <FRBRalias value="Решение № 56 от 8 март 2018 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 56 от 8 март 2018 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2018/dv-26-18-8"/>
+          <FRBRdate date="2018-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-26-18-8/bul@2018-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-26-18-8/bul@2018-03-23"/>
+          <FRBRdate date="2018-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-26-18-8/bul@2018-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-26-18-8/bul@2018-03-23.xml"/>
+          <FRBRdate date="2018-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-03-23" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 56 от 8 март 2018 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 56 от 8 март 2018 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 23 април 2018 г. сребърна възпоменателна монета „Старият бряст в Сливен“ със следното описание: Технически параметри: емисия – 2018 г.; номинална стойност – 10 лв.; метал – сребро, проба 925/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 бр. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с го- дината „1879“ върху лентата, над нея – годината на емисията „2018“, и околовръст надписи: горе „БЪЛГАРСКА НАРОДНА БАНКА“, долу година на емисията „2018“ и номиналната стойност „10 ЛЕВА“. На обратната страна: изображение на Стария бряст в Сливен и околовръст надпис „СТАРИ- ЯТ БРЯСТ – ХИЛЯДОЛЕТЕН СИМВОЛ НА СЛИВЕН“. Автор на художествения проект е Пламен Чернев. Управител: Д. Радев 2957 АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ И СЛЕДПРИВАТИЗАЦИОНЕН КОНТРОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

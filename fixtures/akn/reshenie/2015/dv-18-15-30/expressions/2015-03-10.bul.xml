@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-18-15-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-18-15-30"/>
+          <FRBRalias value="Решение № 75 от 12 февруари 2015 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 75 от 12 февруари 2015 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА" name="eli" other="/eli/bg/reshenie/2015/dv-18-15-30"/>
+          <FRBRdate date="2015-03-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-18-15-30/bul@2015-03-10/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-18-15-30/bul@2015-03-10"/>
+          <FRBRdate date="2015-03-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-18-15-30/bul@2015-03-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-18-15-30/bul@2015-03-10.xml"/>
+          <FRBRdate date="2015-03-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-10" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 75 от 12 февруари 2015 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 75 от 12 февруари 2015 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА Столичният общински съвет реши: 1. Изменя Решение № 521 от 11.10.2012 г. (ДВ, бр. 89 от 2012 г.), като описанието на обекта в т. 1 придобива следната редакция: „Поземлен имот с идентификатор 55302.2.676 и сгради, представляващ бивш Пионерски лагер Коларовски район, м. Средни гьол, намиращ се в Панагюрище, общински нежилищен имот, с предоставени права за управление на „Софийски имоти“ – ЕАД, с АОС № 2787 от 27.02.2014 г.“ 2. На основание извършено преобразуване на „Галатея 2002“ – ЕАД, чрез вливане в „Софий- ски имоти“ – ЕАД, изменя и Решение № 521 от 11.10.2012 г. (ДВ, бр. 89 от 2012 г.), Решение № 774 от 4.12.2014 г. (ДВ, бр. 5 от 2015 г.) на Столичния общински съвет, като във всички точки от двете решения „Галатея 2002“ – ЕАД, се заменя със „Софийски имоти“ – ЕАД. 3. В останалата част решенията остават не- променени. Председател: Е. Герджиков 1423 СТОЛИЧНА ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

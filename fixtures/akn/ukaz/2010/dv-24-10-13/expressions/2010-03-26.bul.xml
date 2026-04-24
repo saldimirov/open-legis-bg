@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-13"/>
+          <FRBRalias value="Указ № 59 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4, чл. 146, т. 1," name="short"/>
+          <FRBRalias value="Указ № 59 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4, чл. 146, т. 1," name="eli" other="/eli/bg/ukaz/2010/dv-24-10-13"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-13/bul@2010-03-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-13/bul@2010-03-26"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-24-10-13/bul@2010-03-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-24-10-13/bul@2010-03-26.xml"/>
+          <FRBRdate date="2010-03-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-26" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 59 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4, чл. 146, т. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 59 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4, чл. 146, т. 1, чл. 160, ал. 1, т. 8, чл. 161, т. 1 и чл. 162, т. 2 и във връзка с § 155 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Прекратявам правоотношението за изпъл- нение на военна служба с генерал-лейтенант Атанас Димитров Запрянов и го освобождавам от длъжността представител на началника на отбраната във Военния комитет на НАТО и от военна служба считано от 1 март 2010 г. Изпълнението на указа възлагам на минис- търа на отбраната. Издаден в София на 12 март 2010 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

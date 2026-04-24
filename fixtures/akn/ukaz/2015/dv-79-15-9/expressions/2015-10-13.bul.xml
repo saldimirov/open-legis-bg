@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-79-15-9/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-79-15-9"/>
+          <FRBRalias value="Указ № 176 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 176 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2015/dv-79-15-9"/>
+          <FRBRdate date="2015-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-79-15-9/bul@2015-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-79-15-9/bul@2015-10-13"/>
+          <FRBRdate date="2015-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-79-15-9/bul@2015-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-79-15-9/bul@2015-10-13.xml"/>
+          <FRBRdate date="2015-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-13" name="Държавен вестник" number="79" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 176 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 54 от 2008 г.; изм., бр. 49 от 2009 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Параграф 4 от допълнителните разпо- редби се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>С тази наредба се въвеждат Дирек- тива на Съвета 2002/56/ЕО от 13 юни 2002 г. за търговията със семена от картофи (ОВ, L 193, 20.7.2002, стр. 60); Директива на Съвета 2003/61/EO от 18 юни 2003 г. за изменение на директиви 66/401/ЕИО за търговията със семена от фуражни култури, 66/402/ЕИО за търговията със семена от зърнени култури, 68/193/ЕИО за търговията на вегетативен размножителен материал от лоза, 92/33/ ЕИО за търговията със зеленчуков размно- жителен (посадъчен) материал, различен от семена, 92/34/ЕИО за търговията с овощен размножителен (посадъчен) материал и с овощни растения, предназначени за произ- водство на плодове, 98/56/ЕО за търговията с размножителен (посадъчен) материал от декоративни растения, 2002/54/ЕО за търго- вията със семена от цвекло, 2002/55/ЕО за търговията със семена от зеленчукови кул- тури, 2002/56/ЕО за търговията със семена от картофи и 2002/57/ЕО за търговията със семена от маслодайни и влакнодайни кул- тури (ОВ, L 165/23 от 3.7.2003); Директива на Комисията 2008/62/ЕО от 20 юни 2008 г., уреждаща някои дерогации за признаване на земеделски местни видове и сортове, които са естествено адаптирани към местните и регионалните условия и са застрашени от генетична ерозия, и търговията със семена и семена от картофи на тези местни видове и сортове (ОВ, L 162/13), чл. 10 до чл. 20; Директива за изпълнение 2013/63/ЕС на Ко- мисията от 17 декември 2013 г. за изменение на приложения I и II към Директива 2002/56/ ЕО на Съвета по отношение на минималните условия, на които трябва да отговарят поса- дъчният материал от картофи и партидите с посевен материал от картофи (ОВ, L 341 от 18.12.2013 г.).“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Приложение № 1 към чл. 4, ал. 1, т. 3 се изменя така: МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

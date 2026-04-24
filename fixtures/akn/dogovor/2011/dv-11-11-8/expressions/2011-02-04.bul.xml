@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-8"/>
+          <FRBRalias value="Договор за сътрудничество в областта на туризма" name="short"/>
+          <FRBRalias value="Договор за сътрудничество в областта на туризма" name="eli" other="/eli/bg/dogovor/2011/dv-11-11-8"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-8/bul@2011-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-8/bul@2011-02-04"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-8/bul@2011-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-8/bul@2011-02-04.xml"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-04" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор за сътрудничество в областта на туризма</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 4, ал. 1 т. 11, 12, 13, 14 и 15 се отменят.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 5 думите „Столична и областните дирекции „Полиция“ се заменят със „съот­ ветната областна дирекция на МВР“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Наредбата влиза в сила от деня на обнародването є в „Държавен вестник“. Министър: Цв. Цветанов 1316 МИНИСТЕРСТВО НА ЗЕМЕДЕЛИЕТО И ХРАНИТЕ</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-62/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-62"/>
+          <FRBRalias value="Решение № 652 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 652 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-70-10-62"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="62"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-62/bul@2010-09-07/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-62/bul@2010-09-07"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-62/bul@2010-09-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-62/bul@2010-09-07.xml"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-07" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 652 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 652 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с докладна записка с вх. № К-135 от 16.07.2010 г.Общинският съвет – гр. Шабла, реши: Одобрява специализирана схема за газифи- кация на гр. Шабла, изработена на основание чл. 98а ЗУТ. Решението за одобрение на плана е оконча- телно и не подлежи на обжалване. Председател: Д. Арнаудов 7174</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-100/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-100"/>
+          <FRBRalias value="Решение № 283 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 283 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-80-11-100"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="100"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-100/bul@2011-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-100/bul@2011-10-14"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-100/bul@2011-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-100/bul@2011-10-14.xml"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 283 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 283 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и протокол № 10 от 31.08.2011 г. на ОЕС на Община Сандански Общинският съ­ вет – гр. Сандански, реши: Одобрява ПУП – парцеларен план за про­ ектно трасе на канал за отпадни води за имот № 097020 в местността Нишан таши, землище на гр. Сандански. Трасето на канала започва от имот № 097020 – на инвеститора, преминава през имот № 097010 – частна собственост, пре­ сича път IV клас и достига до съществуващата канализация. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от об­ народването в „Държавен вестник“ чрез Община Сандански пред Административния съд – Бла­ гоевград. Председател: Ат. Стоянов 11032</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-77-15-9/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-77-15-9"/>
+          <FRBRalias value="Решение № 82 от 15 септември 2015 г. На основание на чл. 25 ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 82 от 15 септември 2015 г. На основание на чл. 25 ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2015/dv-77-15-9"/>
+          <FRBRdate date="2015-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-77-15-9/bul@2015-10-06/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-77-15-9/bul@2015-10-06"/>
+          <FRBRdate date="2015-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-77-15-9/bul@2015-10-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-77-15-9/bul@2015-10-06.xml"/>
+          <FRBRdate date="2015-10-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-10-06" name="Държавен вестник" number="77" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 82 от 15 септември 2015 г. На основание на чл. 25 ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 82 от 15 септември 2015 г. На основание на чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 2 ноември 2015 г., златна възпоменателна монета „Св. Мина“ от серията „Българска иконография“ със следното описание: БРОЙ 77 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 55 Технически параметри: емисия – 2015 г.; номинална стойност – 100 лв.; метал – злато, проба 999/1000; качество – мат-гланц, висше; тегло – 8,64 г; диаметър – 24 мм; гурт – гладък; тираж – 2000 броя. Графични елементи: На лицевата страна на монетата е изобра- зена емблемата на Българската народна банка с годината „1879“ върху лентата, околовръст с надпис „БЪЛГАРСКА НАРОДНА БАНКА“, но- миналната стойност „100 ЛЕВА“ и годината на емисията „2015“. На обратната страна на монетата е пресъз- даден каноничен образ на Св. Мина на кон в пустинята край гр. Котуан, околовръст с надпис „СВЕТИ МИНА“. Автор на художествения проект е Пламен Чернев. Управител: Д. Радев 6408 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

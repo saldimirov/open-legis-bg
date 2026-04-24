@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-61-11-48/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-61-11-48"/>
+          <FRBRalias value="Решение № 693 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 693 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-61-11-48"/>
+          <FRBRdate date="2011-08-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="48"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-61-11-48/bul@2011-08-09/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-61-11-48/bul@2011-08-09"/>
+          <FRBRdate date="2011-08-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-61-11-48/bul@2011-08-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-61-11-48/bul@2011-08-09.xml"/>
+          <FRBRdate date="2011-08-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-09" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 693 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 693 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и Решение № 6, протокол № 8 на ОЕСУТ от 14.07.2011 г. Общинският съвет – гр. Монтана, реши: Одобрява проект за подробен устройствен план – план за промяна предназначението и за застрояване на ПИ с идентификатор 48489.2.519 по кадастралната карта на гр. Монтана с трайно предназначение земеделска земя за изграждане на „Обществено обслужване и разкомплектоване на излезли от употреба МПС“. Линиите на застрояване, устройствените показатели и разположението на сервитутните зони се одобряват по графичната и текстовата част на проекта, които са неразделна част от решението. Решението подлежи на обжалване по реда на чл. 215 ЗУТ пред Административния съд – Мон­ тана, в 30-дневен срок от обнародването му в „Държавен вестник“. Председател: Св. Николов 9445</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

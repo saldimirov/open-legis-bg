@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-7-23-7/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-7-23-7"/>
+          <FRBRalias value="Решение № 397 от 10 ноември 2022 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 397 от 10 ноември 2022 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2023/dv-7-23-7"/>
+          <FRBRdate date="2023-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-7-23-7/bul@2023-01-24/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-7-23-7/bul@2023-01-24"/>
+          <FRBRdate date="2023-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-7-23-7/bul@2023-01-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-7-23-7/bul@2023-01-24.xml"/>
+          <FRBRdate date="2023-01-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-01-24" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 397 от 10 ноември 2022 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 397 от 10 ноември 2022 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение, считано от 6.02.2023 г., сребърна възпоменателна монета „200 години от рождението на Найден Геров“ от серията „Българско възраждане“ със следното описание: Технически параметри: емисия – 2023 г.; номинална стойност – 10 лева; метал – сребро, проба 999/1000; качество – мат-гланц, висше; тегло – 23.33 г; диаметър – 38.61 мм; гурт – гладък; тираж – 5000 броя. Графични елементи: На лицевата страна на монетата са изобразени следните елементи: горе – емблемата на БНБ с годината „1879“ върху лентата, а под нея: на два реда номиналната стойност „10 ЛЕВА“, стилизира­ но изображение на сградата на класното училище в Копривщица, а долу – годината на емисията „2023“. В полукръг горе надпис „БЪЛГАРСКА НАРОДНА БАНКА“. На обратната страна на монетата е изобразен Найден Геров, а над него в полукръг – надпис „200 ГОДИНИ ОТ РОЖДЕНИЕТО НА НАЙ­ ДЕН ГЕРОВ“. Автор на художествения проект е Тодор Ан­ гелиев. Управител: Д. Радев 315 ОБЩИНА АПРИЛЦИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-34-24-8/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-34-24-8"/>
+          <FRBRalias value="Решение № 83 от 28 март 2024 г. за изменение на Правилата за определяне на условията и реда за предоставяне на информация за местоположението на потребителите и данни за крайния ползвател от предприятията, предоставящи междуличностни съобщителни услуги с номера при спешни повиквания" name="short"/>
+          <FRBRalias value="Решение № 83 от 28 март 2024 г. за изменение на Правилата за определяне на условията и реда за предоставяне на информация за местоположението на потребителите и данни за крайния ползвател от предприятията, предоставящи междуличностни съобщителни услуги с номера при спешни повиквания" name="eli" other="/eli/bg/reshenie/2024/dv-34-24-8"/>
+          <FRBRdate date="2024-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-34-24-8/bul@2024-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-34-24-8/bul@2024-04-16"/>
+          <FRBRdate date="2024-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-34-24-8/bul@2024-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-34-24-8/bul@2024-04-16.xml"/>
+          <FRBRdate date="2024-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-04-16" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 83 от 28 март 2024 г. за изменение на Правилата за определяне на условията и реда за предоставяне на информация за местоположението на потребителите и данни за крайния ползвател от предприятията, предоставящи междуличностни съобщителни услуги с номера при спешни повиквания</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 14а.</num>
+        <content>
+          <p>При спешни повиквания от фиксирани мрежи точността на информацията за местоположението на викащия е определена от физическия адрес на крайната точка на мрежата, предоставяна по чл. 10, ал. 1, т. 2 и 3, с надеждност – 90% от повикванията.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 14б.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>При спешни повиквания от мобилни наземни мрежи информацията за местоположението на викащия по чл. 12, ал. 1, т. 2 следва да бъде предоставяна с точност 50 м (по хоризонтала) за 80% от повикванията.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Критериите по ал. 1 се изпълняват чрез комбинираното използване на технологии, базирани на мрежата, и получена от крайното устройство информация за местоположението на крайните ползватели.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_3">
+          <num>(3)</num>
+          <content>
+            <p>Когато не са налични географски координати за местоположението на крайния ползвател в момента на повикването, получени чрез технологиите от ал. 2, информацията за местоположението на викащия се определя спрямо зоната на покритие на сектора на базовата станция, през който е осъществено спешното повикване.“ Председател: Иван Димитров 2600 ЦЕНТРАЛНА ИЗБИРАТЕЛНА КОМИСИЯ</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

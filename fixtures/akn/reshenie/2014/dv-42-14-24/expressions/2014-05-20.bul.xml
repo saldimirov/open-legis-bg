@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-24"/>
+          <FRBRalias value="Решение № 446 от 29 април 2014 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 446 от 29 април 2014 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2014/dv-42-14-24"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-24/bul@2014-05-20/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-24/bul@2014-05-20"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-42-14-24/bul@2014-05-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-42-14-24/bul@2014-05-20.xml"/>
+          <FRBRdate date="2014-05-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-20" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 446 от 29 април 2014 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 446 от 29 април 2014 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Златица, реши: 1. Одобрява ПУП – ПП за „Общински път SFO 3302/ІІ-37/ – Златица – Карлиево SFO – /1300/“. 2. Упълномощава кмета на общината да извър- ши всички необходими действия по отразяването му в картата на възстановената собственост за землищата на гр. Златица и с. Карлиево, както и изготвянето на лицензирани оценки за засег- натите части от имотите. Председател: С. Генов 3315 ОБЩИНА ЗЛАТОГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

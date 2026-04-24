@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-64/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-64"/>
+          <FRBRalias value="Решение № 654 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 654 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-70-10-64"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="64"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-64/bul@2010-09-07/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-64/bul@2010-09-07"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-70-10-64/bul@2010-09-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-70-10-64/bul@2010-09-07.xml"/>
+          <FRBRdate date="2010-09-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-09-07" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 654 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 654 от 30 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с докладна запис- ка с вх. № К-137 от 16.07.2010 г. Общинският съвет – гр. Шабла, реши: СТР. 50 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 70 Одобрява ПУП – ПЗ (план за застрояване) за ПИ 24102.34.453, землище с. Дуранкулак, община Шабла, зона „Ок“ за строителство на жилищни сгради за постоянно обитаване съгласно чл. 28, ал. 1, т. 2 от Наредба № 7 на МРРБ. Решението за одобрение на плана е оконча- телно и не подлежи на обжалване. Председател: Д. Арнаудов 7176</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

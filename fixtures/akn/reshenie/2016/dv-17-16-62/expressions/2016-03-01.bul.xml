@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-62/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-62"/>
+          <FRBRalias value="Решение № 103 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 103 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-17-16-62"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="62"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-62/bul@2016-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-62/bul@2016-03-01"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-17-16-62/bul@2016-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-17-16-62/bul@2016-03-01.xml"/>
+          <FRBRdate date="2016-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-01" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 103 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 103 от 28 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ, протокол № 2 от заседание на ПК по „Устройство на територията и екология“ Общинският съвет – гр. Самоков, реши: Одобрява ПУП – парцеларен план за трасе на кабелна линия 20 kV за захранване на кравеферма в ПИ № 000527 в местност Пали лула, землището на с. Рельово, община Самоков. Председател: С. Стойчева 1410 ОБЩИНА СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

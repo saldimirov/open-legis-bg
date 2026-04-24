@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-100-23-27/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-100-23-27"/>
+          <FRBRalias value="Решение № 460 от 18 октомври 2023 г. На основание на чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 2 януари 2024 г., златна възпоменателна монета  „Св. Богородица – Златна ябълка“ със следното описание:" name="short"/>
+          <FRBRalias value="Решение № 460 от 18 октомври 2023 г. На основание на чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 2 януари 2024 г., златна възпоменателна монета  „Св. Богородица – Златна ябълка“ със следното описание:" name="eli" other="/eli/bg/reshenie/2023/dv-100-23-27"/>
+          <FRBRdate date="2023-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-100-23-27/bul@2023-12-01/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-100-23-27/bul@2023-12-01"/>
+          <FRBRdate date="2023-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-100-23-27/bul@2023-12-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-100-23-27/bul@2023-12-01.xml"/>
+          <FRBRdate date="2023-12-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-12-01" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/bnb" showAs="Българска народна банка"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 460 от 18 октомври 2023 г. На основание на чл. 25 от Закона за БНБ Българската народна банка пуска в обращение, считано от 2 януари 2024 г., златна възпоменателна монета  „Св. Богородица – Златна ябълка“ със следното описание:</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Технически параметри: емисия – 2024 г.; номинална стойност – 20 лв.; метал – злато, проба 999/1000; качество – мат-гланц, висше; тегло – 15,55 г; диаметър – 24,5 мм; гурт – гладък; тираж – не се определя. Графични елементи: Лицева страна на монетата: в центъра – емблемата на БНБ с годината „1879“ върху лентата, в полукръг горе – надпис „БЪЛГАРСКА НАРОДНА БАНКА“, а долу – годината на емисията „2024“ и номиналната стойност „20 ЛЕВА“. Обратна страна на монетата: изображение на иконата „Св. Богородица – Златна ябълка“, а от двете й страни са изписани „СВ. БОГОРОДИЦА“ и „ЗЛАТНА ЯБЪЛКА“. Автор на художествения проект е колектив от „Монетен двор“ – ЕАД. Управител: Д. Радев 8482</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

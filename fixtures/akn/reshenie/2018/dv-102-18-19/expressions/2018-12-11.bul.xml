@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-102-18-19/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-102-18-19"/>
+          <FRBRalias value="Решение № 306 от 28 ноември 2018 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 306 от 28 ноември 2018 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2018/dv-102-18-19"/>
+          <FRBRdate date="2018-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-102-18-19/bul@2018-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-102-18-19/bul@2018-12-11"/>
+          <FRBRdate date="2018-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-102-18-19/bul@2018-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-102-18-19/bul@2018-12-11.xml"/>
+          <FRBRdate date="2018-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-12-11" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 306 от 28 ноември 2018 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 306 от 28 ноември 2018 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 7.01.2019 г. сребърна възпоменателна монета „Пловдив – Европейска столица на културата“ със следното описание: Технически параметри: емисия – 2019 г.; номинална стойност – 10 лв.; метал – сребро, проба 925/1000; качество – мат-гланц, висше; тегло – 23.33 г; диаметър – 38.61 мм; гурт – гладък; тираж – 3 000 броя. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи- ната „1879“ върху лентата: околовръст – надпис „БЪЛГАРСКА НАРОДНА БАНКА“; номинална- та стойност „10 ЛЕВА“ и годината на емисията „2019“. На обратната страна на монетата е разполо- жено изображение на Античния театър в Плов- див, под и над него – надписи „ПЛОВДИВ“ и „ЕВРОПЕЙСКА СТОЛИЦА НА КУЛТУРАТА“. Автори на художествения проект са Пламен Чернев и Преслав Чернев. Управител: Д. Радев 10752 ОБЩИНА БАЛЧИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

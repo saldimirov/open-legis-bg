@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-60-10-19/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-60-10-19"/>
+          <FRBRalias value="Решение № 602-7 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 602-7 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2010/dv-60-10-19"/>
+          <FRBRdate date="2010-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-60-10-19/bul@2010-08-03/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-60-10-19/bul@2010-08-03"/>
+          <FRBRdate date="2010-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-60-10-19/bul@2010-08-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-60-10-19/bul@2010-08-03.xml"/>
+          <FRBRdate date="2010-08-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-03" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 602-7 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 602-7 от 25 юни 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Нови пазар, одобрява проект за под­ робен устройствен план – план за застрояване на ПИ № 069022 в землището на гр. Нови пазар за изграждане на компресорна станция за външно ел. захранване на имота. Проектът е изложен в стая 402 на общината. На основание чл. 215, ал. 4 ЗУТ решението може да се обжалва чрез кмета на Община Нови пазар до Административния съд – Шумен, в 14-дневен срок от обнародването му в „Държавен вестник“. Председател: А. Мойсеев 6288 ОБЩИНА РАДНЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

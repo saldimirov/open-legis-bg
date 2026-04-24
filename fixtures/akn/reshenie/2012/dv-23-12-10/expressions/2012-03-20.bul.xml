@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-10"/>
+          <FRBRalias value="Решение № 89 от 23 февруари 2012 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 89 от 23 февруари 2012 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-23-12-10"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-10/bul@2012-03-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-10/bul@2012-03-20"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-23-12-10/bul@2012-03-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-23-12-10/bul@2012-03-20.xml"/>
+          <FRBRdate date="2012-03-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-20" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 89 от 23 февруари 2012 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 89 от 23 февруари 2012 г. На основание чл. 21, ал. 1, т. 8 и 23 ЗМСМА, чл. 3, ал. 2 и ал. 3, т. 2, чл. 4, ал. 4, чл. 5, ал. 2, чл. 31, ал. 1 и чл. 32, ал. 3 ЗПСК Столичният общински съвет отменя свое Решение № 389 от 23.06.2011 г. (ДВ, бр. 59 от 2011 г.). Председател: Е. Герджиков 2955</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-25/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-25"/>
+          <FRBRalias value="Решение № 184 от 25 септември 2013 г. На основание чл. 21, ал. 1, т. 11 във връзка" name="short"/>
+          <FRBRalias value="Решение № 184 от 25 септември 2013 г. На основание чл. 21, ал. 1, т. 11 във връзка" name="eli" other="/eli/bg/reshenie/2013/dv-92-13-25"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-25/bul@2013-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-25/bul@2013-10-22"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-25/bul@2013-10-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-25/bul@2013-10-22.xml"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-22" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 184 от 25 септември 2013 г. На основание чл. 21, ал. 1, т. 11 във връзка</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 184 от 25 септември 2013 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазарджик, реши: Одобрява ПУП – парцеларен план за трасе на водопровод с дължина 900 м от съществуващ водопровод в края на регулацията на с. Гелемено- во до ПИ № 056008, м. Далъка, землище Сарая, преминава през ПИ № 000355 и 000373 – полски пътища, и 001272 – автомагистрала „Тракия“, по КВС на землище Гелеменово и през ПИ № 056052 и 119072 – полски пътища, 056051 – напоителен ка- нал, 000010 автомагистрала „Тракия“, 056050 – за друг поземлен имот за движение и транспорт, по КВС на землище Сарая съгласно изчертаното със зелено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 7753</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

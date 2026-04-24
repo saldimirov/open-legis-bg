@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-98-22-1/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-98-22-1"/>
+          <FRBRalias value="Решение за изменение на Решение на Народното съ­" name="short"/>
+          <FRBRalias value="Решение за изменение на Решение на Народното съ­" name="eli" other="/eli/bg/reshenie/2022/dv-98-22-1"/>
+          <FRBRdate date="2022-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-98-22-1/bul@2022-12-09/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-98-22-1/bul@2022-12-09"/>
+          <FRBRdate date="2022-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-98-22-1/bul@2022-12-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-98-22-1/bul@2022-12-09.xml"/>
+          <FRBRdate date="2022-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-12-09" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение на Решение на Народното съ­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>брание за възлагане на Министерския съвет да приеме програма за предоставяне на ком­ пенсации на небитовите крайни клиенти на електроенергия Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : Изменя Решение на Народното събрание за възлагане на Министерския съвет да приеме програма за предоставяне на компенсации на небитовите крайни клиенти на електроенергия (ДВ, бр. 90 от 2022 г.), както следва: В т. 2, подточка 2.1 текстът след първото изречение до края на подточката се заличава. Решението е прието от 48-ото Народно съ­ брание на 6 декември 2022 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

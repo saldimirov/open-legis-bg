@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-75-25-1/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-75-25-1"/>
+          <FRBRalias value="Решение за избор на заместник-омбудсман" name="short"/>
+          <FRBRalias value="Решение за избор на заместник-омбудсман" name="eli" other="/eli/bg/reshenie/2025/dv-75-25-1"/>
+          <FRBRdate date="2025-09-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-75-25-1/bul@2025-09-12/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-75-25-1/bul@2025-09-12"/>
+          <FRBRdate date="2025-09-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-75-25-1/bul@2025-09-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-75-25-1/bul@2025-09-12.xml"/>
+          <FRBRdate date="2025-09-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-09-12" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избор на заместник-омбудсман</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 11, ал. 1 от Закона за омбудсмана РЕШИ: Избира Мария Асенова Филипова за заместник-омбудсман. Решението е прието от 51-вото Народно събрание на 10 септември 2025 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

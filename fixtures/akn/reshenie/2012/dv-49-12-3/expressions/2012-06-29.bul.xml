@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-3/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-3"/>
+          <FRBRalias value="Решение № 7 от 19 юни 2012 г." name="short"/>
+          <FRBRalias value="Решение № 7 от 19 юни 2012 г." name="eli" other="/eli/bg/reshenie/2012/dv-49-12-3"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-3/bul@2012-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-3/bul@2012-06-29"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-49-12-3/bul@2012-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-49-12-3/bul@2012-06-29.xml"/>
+          <FRBRdate date="2012-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-29" name="Държавен вестник" number="49" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 7 от 19 юни 2012 г.</p>
+      <p>(обн., ДВ, бр. 26 от 1986 г.; последно изменение, бр. 7 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 13.</num>
+          <content>
+            <p>Параграфи 5 и 7 влизат в сила от 1 януари 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

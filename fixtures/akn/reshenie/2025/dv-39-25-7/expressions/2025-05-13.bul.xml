@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-39-25-7/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-39-25-7"/>
+          <FRBRalias value="Решение № 185 от 17 април 2025 г. На основание чл. 255 от Закона за БНБ Българската народна банка пуска в обращение, считано от 9 юни 2025 г., медна възпоменателна монета „100 години от рождението на Георги Парцалев“ от серията „Български творци“ със следното описание:" name="short"/>
+          <FRBRalias value="Решение № 185 от 17 април 2025 г. На основание чл. 255 от Закона за БНБ Българската народна банка пуска в обращение, считано от 9 юни 2025 г., медна възпоменателна монета „100 години от рождението на Георги Парцалев“ от серията „Български творци“ със следното описание:" name="eli" other="/eli/bg/reshenie/2025/dv-39-25-7"/>
+          <FRBRdate date="2025-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-39-25-7/bul@2025-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-39-25-7/bul@2025-05-13"/>
+          <FRBRdate date="2025-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-39-25-7/bul@2025-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-39-25-7/bul@2025-05-13.xml"/>
+          <FRBRdate date="2025-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-05-13" name="Държавен вестник" number="39" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/bnb" showAs="Българска народна банка"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 185 от 17 април 2025 г. На основание чл. 255 от Закона за БНБ Българската народна банка пуска в обращение, считано от 9 юни 2025 г., медна възпоменателна монета „100 години от рождението на Георги Парцалев“ от серията „Български творци“ със следното описание:</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Технически параметри: емисия – 2025 г.; номинална стойност – 2 лв.; метал – мед, проба 999/1000; качество – мат-гланц, висше; тегло – 16,4 г; диаметър – 34,2 мм; гурт – гладък; тираж – 6000 бр. Графични елементи: Лицева страна на монетата: в центъра – емблемата на БНБ с годината „1879“ върху лентата, околовръст горе – надпис „БЪЛГАРСКА НАРОДНА БАНКА“, а отдолу – годината на емисията „2025“ и номиналната стойност „2 ЛЕВА“. На обратната страна на монетата е изобразен Георги Парцалев, околовръст горе – надпис „100 ГОДИНИ ОТ РОЖДЕНИЕТО НА ГЕОРГИ ПАРЦАЛЕВ“. Автор на художествения проект е Михаела Каменова. Управител: Д. Радев 2365 НАЦИОНАЛНА ЗДРАВНООСИГУРИТЕЛНА КАСА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

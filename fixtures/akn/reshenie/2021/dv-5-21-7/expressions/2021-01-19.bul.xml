@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-7/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-7"/>
+          <FRBRalias value="Решение № 21 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Конфедерация на труда" name="short"/>
+          <FRBRalias value="Решение № 21 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Конфедерация на труда" name="eli" other="/eli/bg/reshenie/2021/dv-5-21-7"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-7/bul@2021-01-19/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-7/bul@2021-01-19"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-5-21-7/bul@2021-01-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-5-21-7/bul@2021-01-19.xml"/>
+          <FRBRdate date="2021-01-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-01-19" name="Държавен вестник" number="5" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 21 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Конфедерация на труда</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 21 ОТ 14 ЯНУАРИ 2021 Г. за признаване на Конфедерация на труда „Подкрепа“ за представителна организация на работниците и служителите на национално равнище На основание чл. 36, ал. 1 и 6 от Кодекса на труда СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 5 МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Признава Конфедерация на труда „Под- крепа“ за представителна организация на работниците и служителите на национално равнище за срок 4 години.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

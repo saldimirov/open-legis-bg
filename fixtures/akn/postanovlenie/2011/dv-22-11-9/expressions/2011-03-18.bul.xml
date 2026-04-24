@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-9/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-9"/>
+          <FRBRalias value="Постановление № 62 ОТ 11 МАРТ 2011 Г. за изменение на Наредбата за възлагане на специални обществени поръчки, приета" name="short"/>
+          <FRBRalias value="Постановление № 62 ОТ 11 МАРТ 2011 Г. за изменение на Наредбата за възлагане на специални обществени поръчки, приета" name="eli" other="/eli/bg/postanovlenie/2011/dv-22-11-9"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-9/bul@2011-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-9/bul@2011-03-18"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-9/bul@2011-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-9/bul@2011-03-18.xml"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-18" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 62 ОТ 11 МАРТ 2011 Г. за изменение на Наредбата за възлагане на специални обществени поръчки, приета</p>
+      <p>(обн., ДВ, бр. 80 от 2004 г.; изм. и доп., бр. 78 от 2005 г., бр. 7 от 2007 г., бр. 83 от 2008 г., бр. 93 от 2009 г., бр. 49 и 86 от 2010 г. и бр. 12 от 2011 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В § 6 от преходните и заключителните разпоредби думите „както и за осигуряване поддръжката и летателната годност на при­ добита авиационна техника“ се заменят с „както и за поддръжка, ремонт и доставка на резервни части на техника, придобита по реда на тази глава или преди влизането в сила на същата наредба“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

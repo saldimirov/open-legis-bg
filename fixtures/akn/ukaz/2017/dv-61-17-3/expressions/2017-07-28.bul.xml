@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-3"/>
+          <FRBRalias value="Указ № 157 На основание чл. 98, т. 7 от Конституци­" name="short"/>
+          <FRBRalias value="Указ № 157 На основание чл. 98, т. 7 от Конституци­" name="eli" other="/eli/bg/ukaz/2017/dv-61-17-3"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-3/bul@2017-07-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-3/bul@2017-07-28"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-61-17-3/bul@2017-07-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-61-17-3/bul@2017-07-28.xml"/>
+          <FRBRdate date="2017-07-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-07-28" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 157 На основание чл. 98, т. 7 от Конституци­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 157 На основание чл. 98, т. 7 от Конституци­ ята на Република България и чл. 46, ал. 4, изречение второ от Изборния кодекс във връзка с § 143 от преходните и заключител­ ните разпоредби на Закона за изменение и допълнение на Изборния кодекс (ДВ, бр. 39 от 26 май 2016 г.) П О С Т А Н О В Я В А М : Назначавам Кристина Цветославова Цан­ кова-Стефанова за член на Централната из­ бирателна комисия. Издаден в София на 20 юли 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева 5549</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

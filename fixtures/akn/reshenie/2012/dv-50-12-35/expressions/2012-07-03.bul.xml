@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-35/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-35"/>
+          <FRBRalias value="Решение № 149 от 30 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 149 от 30 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-50-12-35"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-35/bul@2012-07-03/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-35/bul@2012-07-03"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-50-12-35/bul@2012-07-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-50-12-35/bul@2012-07-03.xml"/>
+          <FRBRdate date="2012-07-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-03" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 149 от 30 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 149 от 30 май 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с докл. записка с вх. № К-139 от 11.05.2012 г. Общинският съвет – гр. Шабла, реши: Одобрява ПУП – ПЗ (план за застрояване) на ПИ 16095.14.167, землище с. Горичане, община Шабла – устройствена зона Тсп (територия със специално предназначение) – поземлен имот „За електроенергийно производство“, при показатели съгласно представената документация. Решението подлежи на обжалване пред Ад­ министративния съд – Добрич, на основание чл. 215, ал. 4, изр. 1 ЗУТ в 30-дневен срок от обнародването му в „Държавен вестник“. Председател: Ж. Спасов 6137</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

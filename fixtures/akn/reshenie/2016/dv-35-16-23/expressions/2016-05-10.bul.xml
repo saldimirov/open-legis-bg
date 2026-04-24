@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-23/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-23"/>
+          <FRBRalias value="Решение № 55 от 27 април 2016 г. На основание чл. 25 ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 55 от 27 април 2016 г. На основание чл. 25 ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2016/dv-35-16-23"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-23/bul@2016-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-23/bul@2016-05-10"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-35-16-23/bul@2016-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-35-16-23/bul@2016-05-10.xml"/>
+          <FRBRdate date="2016-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-10" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 55 от 27 април 2016 г. На основание чл. 25 ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 55 от 27 април 2016 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение, считано от 20 юни 2016 г., сребърна възпоменателна монета, посветена на 150 години от първата жп линия в България Русе – Варна, със следното описание: Технически параметри: емисия – 2016 г.; номинална стойност – 10 лева; метал – сребро, проба 925/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: На лицевата страна на монетата: емблемата на Българската народна банка с годината „1879“ върху лентата, околовръст надписи „БЪЛГАРСКА НАРОДНА БАНКА“ и годината на емисията „2016“, а между тях – „10 ЛЕВА“. На обратната страна на монетата: гара с влакова композиция и околовръст надписи „150 ГОДИНИ“ и на два реда „ПЪРВА ЖЕЛЕЗОПЪТ- НА ЛИНИЯ В БЪЛГАРИЯ“ и „РУСЕ – ВАРНА“. Автор на художествения проект е Тодор Тодоров. Цената, по която монетата ще се продава на касите на БНБ, е 66 лв. Управител: Д. Радев 3557 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

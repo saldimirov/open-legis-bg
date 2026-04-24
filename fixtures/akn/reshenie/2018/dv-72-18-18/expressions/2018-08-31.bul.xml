@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-18/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-18"/>
+          <FRBRalias value="Решение № 176 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 176 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-72-18-18"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-18/bul@2018-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-18/bul@2018-08-31"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-18/bul@2018-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-18/bul@2018-08-31.xml"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-31" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 176 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 176 от 26 юли 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 127, ал. 6 и чл. 134, ал. 3 от ЗУТ Общинският съвет – гр. Кърджали, одобрява изменение на ОУП на гр. Кърджали в частта за кв. 245, УПИ І-502 и УПИ ІІ-501, за кв. 246, УПИ І-499, и за кв. 91, УПИ ІІ-2, по плана на „ЦГЧ“, гр. Кърджали. Председател: Р. Мустафа 8042</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

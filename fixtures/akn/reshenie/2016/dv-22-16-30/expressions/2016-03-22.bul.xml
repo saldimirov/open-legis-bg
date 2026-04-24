@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-22-16-30/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-22-16-30"/>
+          <FRBRalias value="Решение № 5-15 от 23 февруари 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="short"/>
+          <FRBRalias value="Решение № 5-15 от 23 февруари 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="eli" other="/eli/bg/reshenie/2016/dv-22-16-30"/>
+          <FRBRdate date="2016-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-22-16-30/bul@2016-03-22/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-22-16-30/bul@2016-03-22"/>
+          <FRBRdate date="2016-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-22-16-30/bul@2016-03-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-22-16-30/bul@2016-03-22.xml"/>
+          <FRBRdate date="2016-03-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-22" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 5-15 от 23 февруари 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 5-15 от 23 февруари 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съ- вет – гр. Добрич, одобрява проект за подробен устройствен план – парцеларен план (ПУП – ПП) на поземлен имот (ПИ) 72624.447.60 – общинска собственост, във връзка с ел. захранване на ПИ 72624.447.28 – собственост на Стоян Иванов Сто- янов, Митко Георгиев Димитров и Станислав Енчев Желязков, в землището на гр. Добрич. Възлага на кмета на община гр. Добрич да извърши последващите съгласно закона действия. Председател: И. Пенчев 1936 ОБЩИНА ДРЯНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

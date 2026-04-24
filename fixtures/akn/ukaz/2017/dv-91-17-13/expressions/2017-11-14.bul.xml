@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-91-17-13/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-91-17-13"/>
+          <FRBRalias value="Указ № 230 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 230 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2017/dv-91-17-13"/>
+          <FRBRdate date="2017-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-91-17-13/bul@2017-11-14/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-91-17-13/bul@2017-11-14"/>
+          <FRBRdate date="2017-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-91-17-13/bul@2017-11-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-91-17-13/bul@2017-11-14.xml"/>
+          <FRBRdate date="2017-11-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-11-14" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 230 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 122б.</num>
+        <paragraph eId="art_1__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Външният експерт няма право да разпространява информация за обстоятел- ствата, фактите и документите, които са му станали известни във връзка с извършване на проверката.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_1__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Външният експерт не може да приема каквато и да е облага по смисъла на чл. 2, ал. 3 от Закона за предотвратяване и устано- вяване на конфликт на интереси във връзка с проверката по чл. 122а, ал. 1.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 122в.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>В 14-дневен срок от получа- ването на документите по чл. 122, ал. 1 АОП изготвя предварително становище, което съ- държа установените в тях несъответствия с изискванията на ЗОП и препоръки за тяхното отстраняване. В случаите по чл. 232, ал. 6 ЗОП становището е окончателно.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>Становището на външния експерт по чл. 122а, ал. 4 се прилага към становището на АОП по предварителния контрол по чл. 232 ЗОП като самостоятелна и неразделна част от него и се изпраща на възложителя, на Сметната палата и на Агенцията за държавна финансова инспекция по електронна поща.“</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Параграф 1 влиза в сила от 1 януари 2018 г. За министър-председател: Валери Симеонов Главен секретар на Министерския съвет: Веселин Даков</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

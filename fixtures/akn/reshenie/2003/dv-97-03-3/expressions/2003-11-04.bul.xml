@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-3/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-3"/>
+          <FRBRalias value="Решение за даване на разрешение за пребиваване на военен контингент от Турските въоръжени сили на територията на Република България" name="short"/>
+          <FRBRalias value="Решение за даване на разрешение за пребиваване на военен контингент от Турските въоръжени сили на територията на Република България" name="eli" other="/eli/bg/reshenie/2003/dv-97-03-3"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-3/bul@2003-11-04/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-3/bul@2003-11-04"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-97-03-3/bul@2003-11-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-97-03-3/bul@2003-11-04.xml"/>
+          <FRBRdate date="2003-11-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-11-04" name="Държавен вестник" number="97" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за даване на разрешение за пребиваване на военен контингент от Турските въоръжени сили на територията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 97, от дата 4.11.2003 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.2</p>
+          <p>Решение за даване на разрешение за пребиваване на военен контингент от Турските въоръжени сили на територията на Република България</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за даване на разрешение за пребиваване на военен контингент от Турските въоръжени сили на територията на Република България</p>
+          <p>Народното събрание на основание чл.84, т. 11 от Конституцията на Република България и чл. 26, т. 3 от Закона за отбраната и въоръжените сили на Република България</p>
+          <p>РЕШИ:</p>
+          <p>Разрешава пребиваването на територията на Република България на военен контингент от 45 военнослужещи с оръжие и екипировка от 33-а механизирана бригада-Лозенград, на Турските въоръжени сили в периода  4-7 ноември 2003 г.</p>
+          <p>Решението е прието от   XXXIX   Народно събрание на 29 октомври 2003 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          <p>За председател на Народното събрание:    Камелия Касабова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-29"/>
+          <FRBRalias value="Решение № 896 от 29 юли 2011 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 896 от 29 юли 2011 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-67-11-29"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-29/bul@2011-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-29/bul@2011-08-30"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-29/bul@2011-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-29/bul@2011-08-30.xml"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-30" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 896 от 29 юли 2011 г. На основание чл. 20 във връзка с чл. 17, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 896 от 29 юли 2011 г. На основание чл. 20 във връзка с чл. 17, ал. 1, т. 2, чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 8, т. 1, чл. 9, ал. 2, чл. 12, ал. 2, чл. 59, ал. 1 и чл. 109 ЗУТ и протокол № 17 от 2010 г. на ОЕСУТ, т. 3, Общинският съвет – гр. Костинброд, одобрява проекти за ПЗ (план за застрояване) за безвредно производство за имот 348011, местност Лъката, с. Голяновци, община Костинброд, зона предимно промишлена, с (Пп), кота корниз 10 м, 3 етажа, плътност – 60 %, Кинт. – 1,2, озеле­ няване – 40 %, и свободно застрояване. Председател: В. Михайлов 10085</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

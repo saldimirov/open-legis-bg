@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-53-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-53-12-4"/>
+          <FRBRalias value="Указ № 252 На основание чл. 100, ал. 2 от Конституция­" name="short"/>
+          <FRBRalias value="Указ № 252 На основание чл. 100, ал. 2 от Конституция­" name="eli" other="/eli/bg/ukaz/2012/dv-53-12-4"/>
+          <FRBRdate date="2012-07-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-53-12-4/bul@2012-07-13/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-53-12-4/bul@2012-07-13"/>
+          <FRBRdate date="2012-07-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-53-12-4/bul@2012-07-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-53-12-4/bul@2012-07-13.xml"/>
+          <FRBRdate date="2012-07-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-13" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 252 На основание чл. 100, ал. 2 от Конституция­</p>
+      <p>(обн., ДВ, бр. 16 от 2010 г.; изм. и доп., бр. 23 от 2011 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 252 На основание чл. 100, ал. 2 от Конституция­ та на Република България, чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България (ЗОВСРБ) и § 143 от преходните и заключителните разпоредби на Закона за изменение и допълнение на ЗОВСРБ (обн., ДВ, бр. 16 от 2010 г.; изм. и доп., бр. 23 от 2011 г.) П О С ТА Н О В Я В А М : Продължавам с две години срока за из­ пълнение на правомощията от началника на отбраната генерал Симеон Христов Симеонов, считано от 30 юни 2012 г. Изпълнението на указа възлагам на минис­ търа на отбраната. Издаден в София на 29 юни 2012 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

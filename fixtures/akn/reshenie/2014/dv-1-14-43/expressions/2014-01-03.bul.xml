@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-1-14-43/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-1-14-43"/>
+          <FRBRalias value="Решение № 687 от 28 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 687 от 28 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2014/dv-1-14-43"/>
+          <FRBRdate date="2014-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-1-14-43/bul@2014-01-03/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-1-14-43/bul@2014-01-03"/>
+          <FRBRdate date="2014-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-1-14-43/bul@2014-01-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-1-14-43/bul@2014-01-03.xml"/>
+          <FRBRdate date="2014-01-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-03" name="Държавен вестник" number="1" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 687 от 28 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 687 от 28 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и прието решение № 1 от протокол № 7 от БРОЙ 1 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 185 21.08.2013 г. на ОЕСУТ при Община Аврен Об- щинският съвет – с. Аврен, одобрява подробен устройствен план – парцеларен план (ПУП – ПП) за изграждане на въздушна линия НН с усукани проводници от МТП 4 до поземлен имот с иден- тификатор 58445.96.26 и монтаж на ТЕПО пред имота, м. Вехтите лозя, с. Приселци, с дължина на трасето 284 л. м. Председател: М. Черкезов 9494</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

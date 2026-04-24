@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-24/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-24"/>
+          <FRBRalias value="Решение № 666/55/1 от 19 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 666/55/1 от 19 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-82-11-24"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-24/bul@2011-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-24/bul@2011-10-21"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-24/bul@2011-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-24/bul@2011-10-21.xml"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-21" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 666/55/1 от 19 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 666/55/1 от 19 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ел­ хово, реши: Одобрява ПУП (план за регулация и застро­ яване) на поземлен имот 27382.500.4575 по кадас­ тралната карта на гр. Елхово. Решението подлежи на обжалване по реда на чл. 215, ал. 1 и 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ пред Ад­ министративния съд – Ямбол. Председател: Ст. Овчаров 11393 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

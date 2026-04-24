@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-91-03-20/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-91-03-20"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и работата на домовете за временно настаняване на малолетни и непълнолетни (обн., ДВ, бр. 83 от 1998 г.; изм. и доп., бр. 73 от 2003 г.)" name="short"/>
+          <FRBRalias value="Правилник за изменение и допълнение на Правилника за организацията и работата на домовете за временно настаняване на малолетни и непълнолетни (обн., ДВ, бр. 83 от 1998 г.; изм. и доп., бр. 73 от 2003 г.)" name="eli" other="/eli/bg/pravilnik/2003/dv-91-03-20"/>
+          <FRBRdate date="2003-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-91-03-20/bul@2003-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-91-03-20/bul@2003-10-14"/>
+          <FRBRdate date="2003-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-91-03-20/bul@2003-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-91-03-20/bul@2003-10-14.xml"/>
+          <FRBRdate date="2003-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-10-14" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Правилник за изменение и допълнение на Правилника за организацията и работата на домовете за временно настаняване на малолетни и непълнолетни (обн., ДВ, бр. 83 от 1998 г.; изм. и доп., бр. 73 от 2003 г.)</p>
+      <p>(обн., ДВ, бр. 83 от 1998 г.; изм. и доп., бр. 73 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 19 т. 1 се изменя така:</p>
+            <p>„1. Безплатна храна по нормите, посочени в Заповед №   I-123   от   30.VI.1999   г. на министъра на вътрешните работи, раздел XV, т. 4.1, като зачисляването им се извършва по реда, определен в раздел VI, т. 5.4 на същата заповед.&amp;quot;</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 23 ал. 2 се изменя така:</p>
+            <p>„(2) Когато при прекратяване на престоя в дома малолетните и непълнолетните не разполагат със собствени парични средства и нямат необходимото за сезона облекло (бельо, чорапи, комплект анцуг и яке) и обувки, те се осигуряват с бюджетни средства в размер до 50 лв. на едно лице от предоставени на ДВНМН помощи и дарения или от наличности на дирекция „МТОСО&amp;quot; — МВР.&amp;quot;</p>
+            <p>Министър:    Г. Петканов</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

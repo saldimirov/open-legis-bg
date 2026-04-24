@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-54/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-54"/>
+          <FRBRalias value="Решение № 229 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 229 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-54-12-54"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="54"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-54/bul@2012-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-54/bul@2012-07-17"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-54-12-54/bul@2012-07-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-54-12-54/bul@2012-07-17.xml"/>
+          <FRBRdate date="2012-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-17" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 229 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 229 от 21 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 110, ал. 1, т. 5 и чл. 129, ал. 1 ЗУТ във връз­ ка с протокол № 38 от 30.11.2011 г. на ОЕСУТ Общинският съвет – гр. Русе, реши: Одобрява подробен уст ройствен план (ПУП) – парцеларен план на техническата ин­ фраструктура – ел. кабел ниско напрежение от ВТП „Езерото“ до разпределителна касета, мон­ тирана до ПИ 000585 в местност Текето, землище на с. Николово. Решението може да се оспори в 14-дневен срок от съобщаването му чрез Общинския съ­ вет – гр. Русе, пред Административния съд – Русе. Председател: В. Пенчев 6381 СТР. 186 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 54</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

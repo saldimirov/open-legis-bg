@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-67-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-67-12-22"/>
+          <FRBRalias value="Решение № 154 от 26 юли 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 154 от 26 юли 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2012/dv-67-12-22"/>
+          <FRBRdate date="2012-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-67-12-22/bul@2012-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-67-12-22/bul@2012-08-31"/>
+          <FRBRdate date="2012-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-67-12-22/bul@2012-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-67-12-22/bul@2012-08-31.xml"/>
+          <FRBRdate date="2012-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-08-31" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 154 от 26 юли 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 154 от 26 юли 2012 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазарджик, одобрява ПУП – парце- ларен план за трасе на оптична кабелна линия, преминаващо през общински имот – път IV клас, означен като ПИ № 000157 в землище с. Алеко Константиново и като ПИ № 000230 в землище с. Главиница, с обща дължина 544 м съгласно из- чертаните със зелено и червено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 7999</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-26"/>
+          <FRBRalias value="Решение № 35-35 от 24 юни 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="short"/>
+          <FRBRalias value="Решение № 35-35 от 24 юни 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129," name="eli" other="/eli/bg/reshenie/2010/dv-65-10-26"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-26/bul@2010-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-26/bul@2010-08-20"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-26/bul@2010-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-26/bul@2010-08-20.xml"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-20" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 35-35 от 24 юни 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 35-35 от 24 юни 2010 г. На основание чл. 21, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 16 ЗУТ и като взе пред­ вид решение на ЕСУТ, взето с протокол № 1 от 13.01.2010 г., Общинският съвет – гр. Бургас, одо­ брява подробен устройствен план – план за улична регулация за обслужваща улица с габарит 9 м от о.т. № 1 до о.т. № 12 за транспортно обслужване на имот пл. № 7, масив 27, в местността До село, в землището на с. Драганово. Заинтересованите лица могат да обжалват решението в 14-дневен срок от обнародването му в „Държавен вестник“ чрез община Бургас пред Бургаския административен съд. Председател: Сн. Маджарова 6642</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

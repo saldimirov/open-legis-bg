@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-85-20-25/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-85-20-25"/>
+          <FRBRalias value="Решение № 720 от 20 септември 2019 г. На основание чл. 21, ал. 1, т. 8 и 23 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 720 от 20 септември 2019 г. На основание чл. 21, ал. 1, т. 8 и 23 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2020/dv-85-20-25"/>
+          <FRBRdate date="2020-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-85-20-25/bul@2020-10-02/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-85-20-25/bul@2020-10-02"/>
+          <FRBRdate date="2020-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-85-20-25/bul@2020-10-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-85-20-25/bul@2020-10-02.xml"/>
+          <FRBRdate date="2020-10-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-10-02" name="Държавен вестник" number="85" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 720 от 20 септември 2019 г. На основание чл. 21, ал. 1, т. 8 и 23 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 720 от 20 септември 2019 г. На основание чл. 21, ал. 1, т. 8 и 23 от ЗМСМА, чл. 127, ал. 6 от ЗУТ, чл. 5, ал. 1, т. 7 и чл. 6 от Правилника за организацията и дейността на ОбС Общинският съвет – Гулянци, одобрява общия устройствен план на община Гулянци във фаза окончателен проект. Председател: О. Янчев 7047 ОБЩИНА РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

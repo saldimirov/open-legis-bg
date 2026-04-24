@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-29"/>
+          <FRBRalias value="Решение № 34 от 29 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 34 от 29 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-36-10-29"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-29/bul@2010-05-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-29/bul@2010-05-14"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-36-10-29/bul@2010-05-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-36-10-29/bul@2010-05-14.xml"/>
+          <FRBRdate date="2010-05-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-05-14" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 34 от 29 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 34 от 29 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Етро­ поле, одобрява подробен устройствен план – пар­ целарен план за трасе на ел. захранване 20 kV на КТП в ПИ № 165014, землище с. Бойковец, м. Манастирска – орище, засягащ поземлени имоти № 000467 – полски път, и ПИ № 271004 по КВС на землище с. Бойковец, дължина на трасето 113,2 м. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез община Етрополе до Административния съд – София област. Председател: Ц. Глогов 3942 ОБЩИНА КАРЛОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

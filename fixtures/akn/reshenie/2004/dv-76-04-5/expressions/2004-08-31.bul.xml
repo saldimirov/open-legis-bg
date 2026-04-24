@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-5/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-5"/>
+          <FRBRalias value="Решение № 651 от 19 август 2004 г. за приемане на плана за управление на Националния парк “Рилски манастир”" name="short"/>
+          <FRBRalias value="Решение № 651 от 19 август 2004 г. за приемане на плана за управление на Националния парк “Рилски манастир”" name="eli" other="/eli/bg/reshenie/2004/dv-76-04-5"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-5/bul@2004-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-5/bul@2004-08-31"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-76-04-5/bul@2004-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-76-04-5/bul@2004-08-31.xml"/>
+          <FRBRdate date="2004-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-08-31" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 651 от 19 август 2004 г. за приемане на плана за управление на Националния парк “Рилски манастир”</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Министерски съвет          брой: 76, от дата 31.8.2004 г.   Официален раздел / МИНИСТЕРСКИ СЪВЕТ    стр.20</p>
+          <p>Решение № 651 от 19 август 2004 г. за приемане на плана за управление на Националния парк “Рилски манастир”</p>
+          <p>РЕШЕНИЕ</p>
+          <p>№ 651</p>
+          <p>ОТ 19 АВГУСТ 2004 Г.</p>
+          <p>за приемане на плана за управление на Националния парк “Рилски манастир”</p>
+          <p>На основание чл. 60, ал. 1 от Закона за защитените територии</p>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ</p>
+          <p>РЕШИ:</p>
+          <p>Приема плана за управление на Националния парк “Рилски манастир”.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

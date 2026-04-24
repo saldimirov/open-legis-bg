@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-24/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-24"/>
+          <FRBRalias value="Решение № 659 от 25 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 659 от 25 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2010/dv-31-10-24"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-24/bul@2010-04-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-24/bul@2010-04-23"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-24/bul@2010-04-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-24/bul@2010-04-23.xml"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-23" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 659 от 25 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 659 от 25 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с решение на ОЕСУТ Общинският съвет – Свиленград, реши: Одобрява ПУП – парцеларен план за изграж- дане на обект „Външно електрозахранване – елек- тропроводно отклонение (въздушнокабелен пре- ход) подземна кабелна електропроводна линия 20 kV и площадка за изграждане на комплектен трансформаторен пост 20/0,4 kV в ПИ № 960302, м. Гюнюза в землището на Свиленград. Неразделна част от решението са приложеният план и графичната и текстова част. Председател: Т. Коларова 3266 ОБЩИНА СЛИВЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-18-14-8/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-18-14-8"/>
+          <FRBRalias value="Решение № 102 ОТ 25 ФЕВРУАРИ 2014 Г. за приемане на Отчета за изпълнението на" name="short"/>
+          <FRBRalias value="Решение № 102 ОТ 25 ФЕВРУАРИ 2014 Г. за приемане на Отчета за изпълнението на" name="eli" other="/eli/bg/reshenie/2014/dv-18-14-8"/>
+          <FRBRdate date="2014-03-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-18-14-8/bul@2014-03-04/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-18-14-8/bul@2014-03-04"/>
+          <FRBRdate date="2014-03-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-18-14-8/bul@2014-03-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-18-14-8/bul@2014-03-04.xml"/>
+          <FRBRdate date="2014-03-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-03-04" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 102 ОТ 25 ФЕВРУАРИ 2014 Г. за приемане на Отчета за изпълнението на</p>
+      <p>(обн., ДВ, бр. 98 от 1999 г.; изм. и доп., бр. 69 от 2001 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Националната статистическа програма и за дейността на Националния статистически институт през 2013 г. и за приемане на Нацио­ налната статистическа програма за 2014 г. На основание чл. 15, ал. 1 във връзка с чл. 9, т. 6 от Закона за статистиката МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Приема Отчета за изпълнението на Националната статистическа програма и за дейността на Националния статистически институт през 2013 г. 2. Приема Националната статистическа програма за 2014 г. съгласно приложението.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

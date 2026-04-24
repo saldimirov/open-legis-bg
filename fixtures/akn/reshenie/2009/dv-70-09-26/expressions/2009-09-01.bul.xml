@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-26/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-26"/>
+          <FRBRalias value="Решение № 649 от 30 юли 2009 г. На основание чл. 21, ал. 1, т. 8 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 649 от 30 юли 2009 г. На основание чл. 21, ал. 1, т. 8 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2009/dv-70-09-26"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-26/bul@2009-09-01/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-26/bul@2009-09-01"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-70-09-26/bul@2009-09-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-70-09-26/bul@2009-09-01.xml"/>
+          <FRBRdate date="2009-09-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-01" name="Държавен вестник" number="70" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 649 от 30 юли 2009 г. На основание чл. 21, ал. 1, т. 8 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 649 от 30 юли 2009 г. На основание чл. 21, ал. 1, т. 8 и ал. 2 ЗМСМА, чл. 32, ал. 3, т. 1 ЗПСК и чл. 5 и чл. 6, ал. 1 от Наредбата за търговете и конкурсите Общинският съвет – гр. Плевен, реши: 1. Отменя Решение № 584 от 28.V.2009 г. (ДВ, бр. 45 от 2009 г.). 2. Отменя Решение № 609 от 25.VІ.2009 г. (ДВ, бр. 55 от 2009 г.). Председател: Г. Спартански 10611 ОБЩИНА ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

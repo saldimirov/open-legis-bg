@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-5/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-5"/>
+          <FRBRalias value="Решение за изменение на Решение на Народното събра-" name="short"/>
+          <FRBRalias value="Решение за изменение на Решение на Народното събра-" name="eli" other="/eli/bg/reshenie/2015/dv-15-15-5"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-5/bul@2015-02-24/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-5/bul@2015-02-24"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-15-15-5/bul@2015-02-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-15-15-5/bul@2015-02-24.xml"/>
+          <FRBRdate date="2015-02-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-24" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за изменение на Решение на Народното събра-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ние от 10 юли 2013 г. за избиране на управител на Националната здравноосигурителна каса Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бъл- гария и във връзка с Решение на Народното събрание за приемане на процедурни пра- вила за условията и реда за предлагане на кандидати за управител на Националната здравноосигурителна каса, представянето и публичното оповестяване на документите и изслушването на кандидатите в Комисията по здравеопазването, както и на процедурата за избор от Народното събрание, прието на 18 февруари 2015 г., Р Е Ш И : 1. Изменя Решение на Народното събрание от 10 юли 2013 г. за избиране на управител на Националната здравноосигурителна каса (ДВ, бр. 62 от 2013 г.), като в т. 1 думите „12 февруари 2015 г.“ се заменят с „избиране на нов управител на Националната здравно- осигурителна каса“. 2. Решението влиза в сила от деня на приемането му. Решението е прието от 43-то Народно съ- брание на 20 февруари 2015 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

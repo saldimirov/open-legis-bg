@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-11"/>
+          <FRBRalias value="Решение № 60 от 11 февруари 2010 г. На основание чл. 1, ал. 2, т. 1, чл. 3, чл. 4, ал. 2," name="short"/>
+          <FRBRalias value="Решение № 60 от 11 февруари 2010 г. На основание чл. 1, ал. 2, т. 1, чл. 3, чл. 4, ал. 2," name="eli" other="/eli/bg/reshenie/2010/dv-20-10-11"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-11/bul@2010-03-12/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-11/bul@2010-03-12"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-20-10-11/bul@2010-03-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-20-10-11/bul@2010-03-12.xml"/>
+          <FRBRdate date="2010-03-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-12" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 60 от 11 февруари 2010 г. На основание чл. 1, ал. 2, т. 1, чл. 3, чл. 4, ал. 2,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>чл. 31, ал. 1 и чл. 32, ал. 1, т. 2 ЗПСК и чл. 21, ал. 1, т. 8 и 23 ЗМСМА Столичният общински съвет реши: 1. Променя метода за приватизация на пакет от 53 364 поименни акции, общинска собственост, представляващи 100 % от капитала на „БКС Център“ – ЕАД, София, от публично оповестен конкурс на публичен търг. 2. Възлага на Столичната общинска агенция за приватизация като орган на Столичния общински съвет да извърши всички необходими действия във връзка с приватизацията на общинското участие в капитала на „БКС Център“ – ЕАД. 3. Възлага на главния изпълнителен директор на Столичната общинска агенция за приватиза­ ция сключването на приватизационна сделка за общинското участие в капитала на „БКС Цен­ тър“ – ЕАД. Председател: А. Иванов 1835 ОБЩИНА ГОЦЕ ДЕЛЧЕВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

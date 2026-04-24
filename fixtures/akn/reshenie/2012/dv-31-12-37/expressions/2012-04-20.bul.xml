@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-37/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-37"/>
+          <FRBRalias value="Решение № 63 от 28 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 63 от 28 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-31-12-37"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="37"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-37/bul@2012-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-37/bul@2012-04-20"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-37/bul@2012-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-37/bul@2012-04-20.xml"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-04-20" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 63 от 28 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 63 от 28 март 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазар- джик, одобрява ПУП – парцеларен план за трасе на довеждащ водопровод до УПИ 112009 и УПИ IV-105006, м. Сакарджа, по КВС на землище с. Сбор от края на регулацията на с. Априлци и преминаващ в обхвата на път IV клас с № 000075 в землището на с. Априлци и № 000238 в земли- щето на с. Сбор и през имоти на инвеститора с обща дължина 5033 м съгласно изчертаните със зелено и червено трасе и сервитути и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 3941 ОБЩИНА „МАРИЦА“ – ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

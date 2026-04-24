@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-7"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie/2010/dv-23-10-7"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-7/bul@2010-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-7/bul@2010-03-23"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-23-10-7/bul@2010-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-23-10-7/bul@2010-03-23.xml"/>
+          <FRBRdate date="2010-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-03-23" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 6 от Конституцията на Република България и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Репуб­ лика България от 27 юли 2009 г. (ДВ, бр. 60 от 2009 г.) Р Е Ш И : Избира Томислав Пейков Дончев за министър по управление на средствата от Европейския съюз. Решението е прието от 41-ото Народно събрание на 18 март 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

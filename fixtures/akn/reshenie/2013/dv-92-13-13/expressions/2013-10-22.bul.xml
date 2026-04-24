@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-13"/>
+          <FRBRalias value="Решение № 723 от 27 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 723 от 27 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-92-13-13"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-13/bul@2013-10-22/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-13/bul@2013-10-22"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-92-13-13/bul@2013-10-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-92-13-13/bul@2013-10-22.xml"/>
+          <FRBRdate date="2013-10-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-22" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 723 от 27 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 723 от 27 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 134, ал. 1, т. 1 и 2 ЗУТ и Решение № ІV от 29.08.2013 г. на ОЕСУТ – Берковица, Общинският съвет – гр. Берковица, одобрява ПУП – изменение на плана за застроя­ ване в ПИ 03928.513.303, УПИ І, кв. 1 в ж.к. Изгрев – Берковица, с който се указва начин на застрояване за 10 гаража с размери 3,25 м на 5,50 м съгласно графичната част. Председател: Ю. Иванов 7676 ОБЩИНА БОЖУРИЩЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

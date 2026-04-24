@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-13/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-13"/>
+          <FRBRalias value="Решение № 17 от 28 януари 2021 г. На основание чл. 25 от ЗБНБ Българската" name="short"/>
+          <FRBRalias value="Решение № 17 от 28 януари 2021 г. На основание чл. 25 от ЗБНБ Българската" name="eli" other="/eli/bg/reshenie/2021/dv-12-21-13"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-13/bul@2021-02-12/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-13/bul@2021-02-12"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-12-21-13/bul@2021-02-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-12-21-13/bul@2021-02-12.xml"/>
+          <FRBRdate date="2021-02-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-02-12" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 17 от 28 януари 2021 г. На основание чл. 25 от ЗБНБ Българската</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 17 от 28 януари 2021 г. На основание чл. 25 от ЗБНБ Българската народна банка пуска в обращение считано от 22.03.2021 г. сребърна възпоменателна монета „200 години от рождението на Г. С. Раковски“ от серията „Българско възраждане“ със следното описание: Технически параметри: емисия – 2021 г.; номинална стойност – 10 лева; метал – сребро, проба 999/1000; качество – мат-гланц, висше; тегло – 23,33 г; диаметър – 38,61 мм; гурт – гладък; тираж – 3000 броя. Графични елементи: На лицевата страна на монетата са изобразени следните елементи: емблемата на БНБ с годината „1879“ върху лентата; в полукръг горе – надпис „БЪЛГАРСКА НАРОДНА БАНКА“, а долу – но- миналната стойност „10 ЛЕВА“ и годината на емисията „2021“. На обратната страна на монетата: изображение на Г. С. Раковски; отстрани – надпис „200 ГОДИ- НИ“, а отгоре – в полукръг „ОТ РОЖДЕНИЕТО НА ГЕОРГИ С. РАКОВСКИ“. Автори на художествения проект са Пламен Чернев и Преслав Чернев. Управител: Д. Радев 658 СТР. 232 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 12</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

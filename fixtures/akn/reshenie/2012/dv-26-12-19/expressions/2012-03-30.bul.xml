@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-26-12-19/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-26-12-19"/>
+          <FRBRalias value="Решение № 18 от 15 март 2012 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 18 от 15 март 2012 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2012/dv-26-12-19"/>
+          <FRBRdate date="2012-03-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-26-12-19/bul@2012-03-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-26-12-19/bul@2012-03-30"/>
+          <FRBRdate date="2012-03-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-26-12-19/bul@2012-03-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-26-12-19/bul@2012-03-30.xml"/>
+          <FRBRdate date="2012-03-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-30" name="Държавен вестник" number="26" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 18 от 15 март 2012 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 18 от 15 март 2012 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение считано от 23 април 2012 г. сребърна възпоменателна монета „Чудните мостове“ със следното описание: Технически параметри номинална стойност – 10 лева; метал – сребро, с проба 925/1000; тегло – 23.33 г; диаметър – 38.61 мм; гурт – гладък; качество – мат-гланц, висше; година на емисията – 2012; тираж – 4000 броя. Графични елементи На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годи­ ната „1879“, изписана върху лентата. Околовръст са изписани „БЪЛГАРСКА НАРОДНА БАНКА“, номиналната стойност „10 ЛЕВА“ и годината на емисията „2012“. На обратната страна е изображението на Чуд­ ните мостове и надпис околовръст: „ПРИРОДЕН ФЕНОМЕН ЧУДНИТЕ МОСТОВЕ“. Автор на художествения проект е Пламен Чернев. Управител: Ив. Искров 3274 ОБЩИНА БРАЦИГОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

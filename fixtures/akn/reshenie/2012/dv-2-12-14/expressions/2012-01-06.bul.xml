@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-14"/>
+          <FRBRalias value="Решение № 16 от 13 декември 2011 г. На основание чл. 110, ал. 1 и 5, чл. 129, ал. 1" name="short"/>
+          <FRBRalias value="Решение № 16 от 13 декември 2011 г. На основание чл. 110, ал. 1 и 5, чл. 129, ал. 1" name="eli" other="/eli/bg/reshenie/2012/dv-2-12-14"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-14/bul@2012-01-06/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-14/bul@2012-01-06"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-2-12-14/bul@2012-01-06/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-2-12-14/bul@2012-01-06.xml"/>
+          <FRBRdate date="2012-01-06" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-06" name="Държавен вестник" number="2" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 16 от 13 декември 2011 г. На основание чл. 110, ал. 1 и 5, чл. 129, ал. 1</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 16 от 13 декември 2011 г. На основание чл. 110, ал. 1 и 5, чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Кнежа, реши: Одобрява подробен устройствен план – парце­ ларен план на съпътстващата инфраструктура за обект: „Доизграждане, реконструкция и рехабили­ тация на водопроводна и канализационна мрежа и изграждане на ПОСВ в гр. Кнежа“ – подобект „ПОСВ гр. Кнежа“, както следва: 1. ПУП – парцеларен план на проектен елек­ тропровод за ПОСВ; 2. ПУП – парцеларен план на проектен во­ допровод за ПОСВ; 3. ПУП – парцеларен план за довеждащ ко­ лектор за ПОСВ; 4. ПУП – парцеларен план за площадка до­ веждащ път за ПОСВ. Председател: М. Цолова 13516 ОБЩИНА КОСТИНБРОД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-6/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-6"/>
+          <FRBRalias value="Указ № 428 за назначаване на Драговест Горанов Горанов за извънреден и пълномощен посланик на Република България в Република Индия" name="short"/>
+          <FRBRalias value="Указ № 428 за назначаване на Драговест Горанов Горанов за извънреден и пълномощен посланик на Република България в Република Индия" name="eli" other="/eli/bg/ukaz/2003/dv-86-03-6"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-6/bul@2003-09-30/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-6/bul@2003-09-30"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-86-03-6/bul@2003-09-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-86-03-6/bul@2003-09-30.xml"/>
+          <FRBRdate date="2003-09-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-09-30" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 428 за назначаване на Драговест Горанов Горанов за извънреден и пълномощен посланик на Република България в Република Индия</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 86, от дата 30.9.2003 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.39</p>
+          <p>Указ № 428 за назначаване на Драговест Горанов Горанов за извънреден и пълномощен посланик на Република България в Република Индия</p>
+          <p>ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          <p>УКАЗ № 428</p>
+          <p>На основание чл. 98, т. 6 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам Драговест Горанов Горанов за извънреден и пълномощен посланик на Република България в Република Индия.</p>
+          <p>Изпълнението на указа възлагам на министъра на външните работи.</p>
+          <p>Издаден в София на 23 септември 2003 г.</p>
+          <p>Президент на републиката:    Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-60-16-8/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-60-16-8"/>
+          <FRBRalias value="Решение за избиране на управител на Националния" name="short"/>
+          <FRBRalias value="Решение за избиране на управител на Националния" name="eli" other="/eli/bg/reshenie/2016/dv-60-16-8"/>
+          <FRBRdate date="2016-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-60-16-8/bul@2016-08-02/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-60-16-8/bul@2016-08-02"/>
+          <FRBRdate date="2016-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-60-16-8/bul@2016-08-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-60-16-8/bul@2016-08-02.xml"/>
+          <FRBRdate date="2016-08-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-02" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за избиране на управител на Националния</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>осигурителен институт Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Ре- публика България във връзка с чл. 37, ал. 1 от Кодекса за социално осигуряване Р Е Ш И : 1. Избира Бисер Христов Петков за упра- вител на Националния осигурителен институт за срок четири години. 2. Решението влиза в сила от приемането му. Решението е прието от 43-то Народно събрание на 29 юли 2016 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

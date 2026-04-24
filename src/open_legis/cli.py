@@ -110,7 +110,7 @@ def scrape_dv(
     import datetime as _dt
     from pathlib import Path
 
-    from open_legis.scraper.dv_client import get_issue_materials, get_material_text, get_issue_metadata
+    from open_legis.scraper.dv_client import get_issue_materials, get_material_text, get_issue_metadata, merge_same_title_materials
     from open_legis.scraper.dv_to_akn import detect_act_type, convert_material, LEGISLATIVE_TYPES
 
     allowed_types = LEGISLATIVE_TYPES if types in ("all", "") else {t.strip() for t in types.split(",")}
@@ -126,9 +126,11 @@ def scrape_dv(
     materials = get_issue_materials(idobj)
     typer.echo(f"Found {len(materials)} materials")
 
+    fetched = [(mat, *get_material_text(mat.idMat)) for mat in materials]
+    fetched = merge_same_title_materials(fetched)
+
     saved: list[Path] = []
-    for mat in materials:
-        title, body = get_material_text(mat.idMat)
+    for mat, title, body in fetched:
         if not title:
             continue
         act_type, _ = detect_act_type(title)
@@ -183,7 +185,7 @@ def scrape_dv_batch(
     import datetime as _dt
     from pathlib import Path
 
-    from open_legis.scraper.dv_client import get_issue_materials, get_material_text
+    from open_legis.scraper.dv_client import get_issue_materials, get_material_text, merge_same_title_materials
     from open_legis.scraper.dv_to_akn import detect_act_type, convert_material, LEGISLATIVE_TYPES
     from open_legis.scraper.dv_index import crawl_year, crawl_years, save_index, load_index
     from open_legis.scraper.dv_mirror import issue_path as local_issue_path
@@ -279,13 +281,15 @@ def scrape_dv_batch(
             typer.echo(f"  ERROR fetching materials: {e}", err=True)
             continue
 
+        fetched_http: list[tuple] = []
         for mat in materials:
             try:
                 title, body = get_material_text(mat.idMat, sleep=sleep)
+                fetched_http.append((mat, title, body))
             except Exception as e:
                 typer.echo(f"  ERROR fetching idMat={mat.idMat}: {e}", err=True)
-                continue
 
+        for mat, title, body in merge_same_title_materials(fetched_http):
             if not title:
                 continue
             act_type, _ = detect_act_type(title)

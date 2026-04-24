@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-26/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-26"/>
+          <FRBRalias value="Решение № 698 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 698 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-22-13-26"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-26/bul@2013-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-26/bul@2013-03-05"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-26/bul@2013-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-26/bul@2013-03-05.xml"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-05" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 698 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 698 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и предвид фактическите ос­ нования в докладна записка вх. № ДЗ-685 от 4.12.2012 г. от кмета на общината Общинският съвет – Асеновград, реши: Одобрява проект за изменение на ПУП (ПРЗ) – план за регулация и застрояване за УПИ І – МВЕЦ и обединяването му с ПИ с КИ № 99201.16.48, чието предназначение се променя, като се образува нов УПИ І-16.261 за МВЕЦ – На­ речен, съгласно нанесените зачерквания и надписи със зелен цвят и червена и сини регулационни линии и надписи със син цвят. Установява се режим на застрояване съгласно нанесените ограничителни и линии на застро­ яване с червен цвят, котировки с черен цвят и показатели на режима на застрояване със син цвят на приложения проект. Решението може да се обжалва в едномесечен срок от обнародването му в „Държавен вестник“ пред Административния съд – Пловдив, чрез Общинския съвет – Асеновград. Председател: Св. Шуманов 1897</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

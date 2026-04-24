@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-12-19-5/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-12-19-5"/>
+          <FRBRalias value="Указ № 17 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 17 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2019/dv-12-19-5"/>
+          <FRBRdate date="2019-02-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-12-19-5/bul@2019-02-08/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-12-19-5/bul@2019-02-08"/>
+          <FRBRdate date="2019-02-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-12-19-5/bul@2019-02-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-12-19-5/bul@2019-02-08.xml"/>
+          <FRBRdate date="2019-02-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-02-08" name="Държавен вестник" number="12" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 17 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 17 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Протокола за изменение на Споразумението за много- странните разплащания в преводни рубли и организацията на Международната банка за икономическо сътрудничество, както и на Устава на тази Банка и на Протокола за изменение на Споразумението за организаци- ята и дейността на Международната банка за БРОЙ 12 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 икономическо сътрудничество от 22 октомври 1963 г. (с измененията, внесени с протоколите от 18 декември 1970 г., 23 ноември 1977 г. и 18 декември 1990 г.) и на Устава на Между- народната банка за икономическо сътрудни- чество (с измененията, внесени с протоколите от 18 декември 1970 г., 23 ноември 1977 г. и 18 декември 1990 г.), приет от 44-то Народно събрание на 25 януари 2019 г. Издаден в София на 29 януари 2019 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

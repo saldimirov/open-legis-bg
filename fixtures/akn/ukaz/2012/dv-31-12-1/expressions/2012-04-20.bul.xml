@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-1/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-1"/>
+          <FRBRalias value="Указ № 153 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 153 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2012/dv-31-12-1"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-1/bul@2012-04-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-1/bul@2012-04-20"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-31-12-1/bul@2012-04-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-31-12-1/bul@2012-04-20.xml"/>
+          <FRBRdate date="2012-04-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-04-20" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 153 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 153 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Споразумение- то между Министерството на отбраната на Република България и Министерството на отбраната на Държавата Израел за военно сътрудничество във връзка с провеждане на военни тренировки и учения, приет от ХLI Народно събрание на 6 април 2012 г. Издаден в София на 11 април 2012 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Диана Ковачева</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-45-19-20/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-45-19-20"/>
+          <FRBRalias value="Решение № 1745 от 23 май 2019 г. На основание чл. 22г, ал. 3 от ЗПСК и чл. 20," name="short"/>
+          <FRBRalias value="Решение № 1745 от 23 май 2019 г. На основание чл. 22г, ал. 3 от ЗПСК и чл. 20," name="eli" other="/eli/bg/reshenie/2019/dv-45-19-20"/>
+          <FRBRdate date="2019-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-45-19-20/bul@2019-06-07/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-45-19-20/bul@2019-06-07"/>
+          <FRBRdate date="2019-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-45-19-20/bul@2019-06-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-45-19-20/bul@2019-06-07.xml"/>
+          <FRBRdate date="2019-06-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-06-07" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1745 от 23 май 2019 г. На основание чл. 22г, ал. 3 от ЗПСК и чл. 20,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1745 от 23 май 2019 г. На основание чл. 22г, ал. 3 от ЗПСК и чл. 20, ал. 6 от Устройствения правилник на Агенцията за приватизация и следприватизационен контрол и протоколно решение № 5588 от 23.05.2019 г. на изпълнителния съвет Агенцията за приватизация и следприватизационен контрол (АПСК) отменя Решение № 1499 от 12.10.2010 г. на АПСК (ДВ, бр. 85 от 2010 г.), с което е обявена приватизацията на хижа „Чевира“, обособена част от имуществото на „ВМЗ“ – ЕАД, Сопот. Изпълнителен директор: П. Александрова 4115</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

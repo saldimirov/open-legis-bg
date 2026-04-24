@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-19-17-7/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-19-17-7"/>
+          <FRBRalias value="Договор" name="short"/>
+          <FRBRalias value="Договор" name="eli" other="/eli/bg/dogovor/2017/dv-19-17-7"/>
+          <FRBRdate date="2017-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-19-17-7/bul@2017-02-28/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-19-17-7/bul@2017-02-28"/>
+          <FRBRdate date="2017-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-19-17-7/bul@2017-02-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-19-17-7/bul@2017-02-28.xml"/>
+          <FRBRdate date="2017-02-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-02-28" name="Държавен вестник" number="19" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 47е.</num>
+        <content>
+          <p>При представяне на информацията по чл. 43к, ал. 1, т. 1 и ал. 2 ЗТТСТИ про- изводителите, вносителите и лицата, които въвеждат на територията на страната от дру- га държава – членка на Европейския съюз, изделия за пушене, различни от тютюневи изделия, посочват коя част от нея считат за търговска тайна.“ Заключителна разпоредба</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

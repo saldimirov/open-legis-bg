@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-41/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-41"/>
+          <FRBRalias value="Решение № 635 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 635 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-65-10-41"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="41"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-41/bul@2010-08-20/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-41/bul@2010-08-20"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-65-10-41/bul@2010-08-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-65-10-41/bul@2010-08-20.xml"/>
+          <FRBRdate date="2010-08-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-20" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 635 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 635 от 29 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 4 ЗУТ и протокол № 11 от 2010 г. на ОЕСУТ, т. 8, Общинският съвет – гр. Костинброд, реши: Одобрява проект за ПП (парцеларен план) за елементи на техническата инфраструктура за електрозахранване до поземлен имот 401043, преминаващ през поземлени имоти 000177 – ка­ нал, 000188 – местен път, 600079 – местен път, 621013 – полски път, 621102 – водностопанско и хидромелиоративно съоръжение, община Кос­ тинброд. На основание чл. 215 ЗУТ решението може да бъде обжалвано пред Административния съд – София област. Председател: З. Йорданова 6777</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

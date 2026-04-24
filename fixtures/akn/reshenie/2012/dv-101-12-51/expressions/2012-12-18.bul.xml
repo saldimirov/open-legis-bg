@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-51/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-51"/>
+          <FRBRalias value="Решение № 374 от 28 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 374 от 28 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-101-12-51"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="51"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-51/bul@2012-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-51/bul@2012-12-18"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-101-12-51/bul@2012-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-101-12-51/bul@2012-12-18.xml"/>
+          <FRBRdate date="2012-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-18" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 374 от 28 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 374 от 28 ноември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 59 и 60 ЗУТ във връзка с решение на ОЕСУТ, прието с протокол № 19 от 7.11.2012 г., Общинският съвет – Свиленград, реши: Одобрява план за застрояване с ВиК и ел. схеми към него на ПИ № 087010, намиращ се в м. Мал тепе, землището на с. Мезек, община Свиленград, като имотът се отрежда „За жилищни нужди“ и се определя свободно нискоетажно застрояване с ограничителни линии на застрояване в червен цвят и устройствени показатели: П застр. – 60 %, Кинт. – 1,2, минимално озеленена площ – 40 %. Неразделна част от решението са приложените план за застрояване, ВиК схема и ел. схема. Председател: Г. Еленков 11383 ОБЩИНА ШУМЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

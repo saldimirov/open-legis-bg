@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-19/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-19"/>
+          <FRBRalias value="Решение за персонални промени в Министерския" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския" name="eli" other="/eli/bg/reshenie/2015/dv-101-15-19"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-19/bul@2015-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-19/bul@2015-12-22"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-101-15-19/bul@2015-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-101-15-19/bul@2015-12-22.xml"/>
+          <FRBRdate date="2015-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-22" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>съвет на Република България Народното събрание на основание чл. 84, т. 6 от Конституцията на Република Бълга- рия и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Република България от 7 ноември 2014 г. (ДВ, бр. 93 от 2014 г.) и Решение на Народното събрание за персонални промени в Министер- ския съвет на Република България от 11 март 2015 г. (ДВ, бр. 19 от 2015 г.) Р Е Ш И : 1. Освобождава Христо Любомиров Иванов като министър на правосъдието. 2. Избира за министър на правосъдието Екатерина Спасова Гечева-Захариева. Решението е прието от 43-то Народно съ- брание на 18 декември 2015 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-7-13-30/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-7-13-30"/>
+          <FRBRalias value="Решение № 236 от 17 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 236 от 17 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-7-13-30"/>
+          <FRBRdate date="2013-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-7-13-30/bul@2013-01-25/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-7-13-30/bul@2013-01-25"/>
+          <FRBRdate date="2013-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-7-13-30/bul@2013-01-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-7-13-30/bul@2013-01-25.xml"/>
+          <FRBRdate date="2013-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-01-25" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 236 от 17 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 236 от 17 декември 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 62, ал. 9 ЗУТ Общинският съвет – с. Братя Даскалови, реши: Одобрява ПУП – план за регулация за УПИ І в кв. 68а по плана на с. Мирово, община Братя Даскалови, с който се променя отреждането на УПИ I в кв. 68а, като премахва досегашното отреждане на УПИ I „за магазин, ресторант и здравна служба“ и се отрежда „за парк“, което отреждане не противоречи на начина на трайно ползване на съответния УПИ. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Братя Даскалови до Административния съд – Ста­ ра Загора. Председател: М. Милев 399</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-23-19-3/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-23-19-3"/>
+          <FRBRalias value="Решение за предсрочно прекратяване на мандата на" name="short"/>
+          <FRBRalias value="Решение за предсрочно прекратяване на мандата на" name="eli" other="/eli/bg/reshenie/2019/dv-23-19-3"/>
+          <FRBRdate date="2019-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-23-19-3/bul@2019-03-19/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-23-19-3/bul@2019-03-19"/>
+          <FRBRdate date="2019-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-23-19-3/bul@2019-03-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-23-19-3/bul@2019-03-19.xml"/>
+          <FRBRdate date="2019-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-03-19" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за предсрочно прекратяване на мандата на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>заместник-председателя на Комисията за фи- нансов надзор, ръководещ управление „Надзор на инвестиционната дейност“ Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Репуб­ лика България и чл. 6, ал. 2, т. 1 от Закона за Комисията за финансов надзор Р Е Ш И : Прекратява предсрочно мандата на Бойко Атанасов Атанасов като заместник-пред­ седател на Комисията за финансов надзор, ръководещ управление „Надзор на инвести­ ционната дейност“. Решението е прието от 44-то Народно събрание на 15 март 2019 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

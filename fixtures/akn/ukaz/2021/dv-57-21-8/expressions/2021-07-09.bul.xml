@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-57-21-8/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-57-21-8"/>
+          <FRBRalias value="Указ № 165 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 165 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2021/dv-57-21-8"/>
+          <FRBRdate date="2021-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-57-21-8/bul@2021-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-57-21-8/bul@2021-07-09"/>
+          <FRBRdate date="2021-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-57-21-8/bul@2021-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-57-21-8/bul@2021-07-09.xml"/>
+          <FRBRdate date="2021-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-07-09" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 165 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Награждавам г-жа Берендина Мария тен Тъшър – извънреден и пълномощен посла- ник на Кралство Нидерландия в Република България, с орден „Мадарски конник“ първа степен за особено големи заслуги за укреп- ването и задълбочаването на приятелските връзки и сътрудничеството между Република България и Кралство Нидерландия. Издаден в София на 1 юли 2021 г. Президент на Републиката: Румен Радев Министър на външните работи: Светлан Стоев Подпечатан с държавния печат. Министър на правосъдието: Янаки Стоилов 4137</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-46/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-46"/>
+          <FRBRalias value="Решение № 1033 ОТ 18 ДЕКЕМВРИ 2012 Г. за предоставяне на концесия за добив на" name="short"/>
+          <FRBRalias value="Решение № 1033 ОТ 18 ДЕКЕМВРИ 2012 Г. за предоставяне на концесия за добив на" name="eli" other="/eli/bg/reshenie/2012/dv-103-12-46"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="46"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-46/bul@2012-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-46/bul@2012-12-28"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-103-12-46/bul@2012-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-103-12-46/bul@2012-12-28.xml"/>
+          <FRBRdate date="2012-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-12-28" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1033 ОТ 18 ДЕКЕМВРИ 2012 Г. за предоставяне на концесия за добив на</p>
+      <p>(обн., ДВ, бр. 50 от 1999 г.; изм. и доп., бр. 10 от 2000 г., бр. 94 и 115 от 2002 г. и бр. 17 и 49 от 2003 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 12.</num>
+          <content>
+            <p>В § 2 от заключителните разпоредби на Постановление № 97 на Министерския съвет от 1999 г. за утвърждаване на Тарифа № 11 за таксите, които се събират в система­ та на Държавната агенция за метрологичен и технически надзор (обн., ДВ, бр. 50 от 1999 г.; изм. и доп., бр. 10 от 2000 г., бр. 94 и 115 от 2002 г. и бр. 17 и 49 от 2003 г.) след думите „Закона за измерванията“ се поставя запетая и се добавя „чл. 20е от Закона за енергията от възобновяеми източници“. Заключителна разпоредба</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 13.</num>
+          <content>
+            <p>Постановлението влиза в сила от 1 януари 2013 г. с изключение на § 1, т. 10, която влиза в сила от 1 април 2013 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

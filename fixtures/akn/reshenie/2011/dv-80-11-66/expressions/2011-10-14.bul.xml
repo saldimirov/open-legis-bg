@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-66/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-66"/>
+          <FRBRalias value="Решение № 122 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 122 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-80-11-66"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="66"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-66/bul@2011-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-66/bul@2011-10-14"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-66/bul@2011-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-66/bul@2011-10-14.xml"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 122 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 122 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ­ вет – Ивайловград, реши: Одобрява подробен уст ройствен план (ПУП – ПЗ) – план за застрояване на поземлени имоти с проектни номера 000331, 000483, 000482, 000500 и 000501, м. Колибар чешма, по КВС на Ивайловград, ЕКАТТЕ 32024, община Ивайлов­ град, като в имотите се предвижда площадка за производствена база на „Пътстройинжене­ ринг“ – АД, Кърджали. Председател: Г. Марков 10835 СТР. 58 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 80</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

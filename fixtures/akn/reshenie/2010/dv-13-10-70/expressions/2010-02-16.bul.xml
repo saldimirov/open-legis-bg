@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-70/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-70"/>
+          <FRBRalias value="Решение № 334 от 25 ноември 2009 г. На основание чл. 3, ал. 2 и ал. 3, т. 2 ЗПСК" name="short"/>
+          <FRBRalias value="Решение № 334 от 25 ноември 2009 г. На основание чл. 3, ал. 2 и ал. 3, т. 2 ЗПСК" name="eli" other="/eli/bg/reshenie/2010/dv-13-10-70"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="70"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-70/bul@2010-02-16/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-70/bul@2010-02-16"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-13-10-70/bul@2010-02-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-13-10-70/bul@2010-02-16.xml"/>
+          <FRBRdate date="2010-02-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-02-16" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 334 от 25 ноември 2009 г. На основание чл. 3, ал. 2 и ал. 3, т. 2 ЗПСК</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 334 от 25 ноември 2009 г. На основание чл. 3, ал. 2 и ал. 3, т. 2 ЗПСК Общинският съвет – гр. Панагюрище, реши: 1. Допълва списъка на общинското участие в капитала на търговски дружества, приет с Решение № 607 от 4.VІІ.2002 г., както следва: „МБАЛ „Събо Николов“ – ЕООД – 51 %; „ДКЦ І“ – ЕООД – 51 %. 2. Възлага на кмета на община Панагюрище да обнародва допълнението на списъка в „Държавен вестник“. 3. Кметът на община Панагюрище да възложи изготвянето на правен анализ и пазарна оценка на дяловете на община Панагюрище в „МБАЛ „Събо Николов“ – ЕООД, и „ДКЦ І“ – ЕООД. 4. Забранява извършването на разпределителни сделки с дълготрайни активи на дружествата, сключ­ ването на договори за придобиване на дялово участие, за наем, за съвместна дейност, за кредит, за обезпеча­ ване на вземания, както и поемане на менителнични задължения освен с разрешение на общинския съвет. Председател: Ф. Калбуров 1037 ОБЩИНА ПОПОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

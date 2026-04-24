@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-59-18-28/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-59-18-28"/>
+          <FRBRalias value="Решение № 65 от 8 юни 2018 г. На основание чл. 127, ал. 6 от ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 65 от 8 юни 2018 г. На основание чл. 127, ал. 6 от ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2018/dv-59-18-28"/>
+          <FRBRdate date="2018-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-59-18-28/bul@2018-07-17/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-59-18-28/bul@2018-07-17"/>
+          <FRBRdate date="2018-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-59-18-28/bul@2018-07-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-59-18-28/bul@2018-07-17.xml"/>
+          <FRBRdate date="2018-07-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-07-17" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 65 от 8 юни 2018 г. На основание чл. 127, ал. 6 от ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 65 от 8 юни 2018 г. На основание чл. 127, ал. 6 от ЗУТ Общинският съвет – гр. Якоруда реши: 1. Одобрява окончателния проект на общия устройствен план на гр. Якоруда заедно с правилата и нормативите за неговото прилагане. 2. Възлага на кмета на община Якоруда да предоставя ежегодно за приемане от общинския съвет доклад за изпълнението на общия устрой- ствен план на гр. Якоруда в неговия обхват и предложение за измененията му, ако такива се налагат съгласно чл. 127, ал. 9 от ЗУТ. Председател: М. Осман 6798 ОБЩИНА С. БРАТЯ ДАСКАЛОВИ, ОБЛАСТ СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

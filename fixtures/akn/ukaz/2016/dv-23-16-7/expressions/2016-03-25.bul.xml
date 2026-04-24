@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-23-16-7/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-23-16-7"/>
+          <FRBRalias value="Указ № 56 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 465," name="short"/>
+          <FRBRalias value="Указ № 56 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 465," name="eli" other="/eli/bg/ukaz/2016/dv-23-16-7"/>
+          <FRBRdate date="2016-03-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-23-16-7/bul@2016-03-25/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-23-16-7/bul@2016-03-25"/>
+          <FRBRdate date="2016-03-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-23-16-7/bul@2016-03-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-23-16-7/bul@2016-03-25.xml"/>
+          <FRBRdate date="2016-03-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-25" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 56 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 465,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 56 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 465, т. 1 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам нов избор за кмет на кметство Идилево, община Севлиево, област Габрово, на 5 юни 2016 г. Издаден в София на 18 март 2016 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Екатерина Захариева 2162 МИНИСТЕРСКИ СЪВЕТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

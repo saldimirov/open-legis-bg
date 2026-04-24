@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-33-12-16/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-33-12-16"/>
+          <FRBRalias value="Решение № 78 от 5 април 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3," name="short"/>
+          <FRBRalias value="Решение № 78 от 5 април 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3," name="eli" other="/eli/bg/reshenie/2012/dv-33-12-16"/>
+          <FRBRdate date="2012-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-33-12-16/bul@2012-04-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-33-12-16/bul@2012-04-27"/>
+          <FRBRdate date="2012-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-33-12-16/bul@2012-04-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-33-12-16/bul@2012-04-27.xml"/>
+          <FRBRdate date="2012-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-04-27" name="Държавен вестник" number="33" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 78 от 5 април 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 78 от 5 април 2012 г. На основание чл. 21, ал. 1, т. 8 ЗМСМА, чл. 3, ал. 2 и ал. 3, т. 2 ЗПСК Общинският съвет – гр. Габрово, изважда „Спомагателни дейности в со- циалната сфера“ – ЕООД, от списъка на обектите за приватизация. Председател: Н. Сираков 4104 ОБЩИНА ГЕНЕРАЛ ТОШЕВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

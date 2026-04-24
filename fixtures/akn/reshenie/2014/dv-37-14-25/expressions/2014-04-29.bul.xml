@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-25"/>
+          <FRBRalias value="Решение № 574 от 21 март 2014 г. На основание чл. 21, ал. 1, т. 8 и 23 и ал. 2" name="short"/>
+          <FRBRalias value="Решение № 574 от 21 март 2014 г. На основание чл. 21, ал. 1, т. 8 и 23 и ал. 2" name="eli" other="/eli/bg/reshenie/2014/dv-37-14-25"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-25/bul@2014-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-25/bul@2014-04-29"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-37-14-25/bul@2014-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-37-14-25/bul@2014-04-29.xml"/>
+          <FRBRdate date="2014-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-29" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 574 от 21 март 2014 г. На основание чл. 21, ал. 1, т. 8 и 23 и ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 574 от 21 март 2014 г. На основание чл. 21, ал. 1, т. 8 и 23 и ал. 2 ЗМСМА, чл. 24 и чл. 25, т. 1 и 3 ЗАТУРБ във връзка с предложение от кмета на община Кресна с вх. № 42 от 17.02.2014 г. Общинският съвет – гр. Кресна, дава съгласие за създаване на селищно образувание Върбите със статут на селищно образувание с местно значение, осигуряващо условие за пълноценна почивка на населението на община Кресна и района. Председател: Г. Георгиев 2804 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

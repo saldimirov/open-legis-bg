@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-35-05-11/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-35-05-11"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="eli" other="/eli/bg/reshenie/2005/dv-35-05-11"/>
+          <FRBRdate date="2005-04-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-35-05-11/bul@2005-04-22/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-35-05-11/bul@2005-04-22"/>
+          <FRBRdate date="2005-04-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-35-05-11/bul@2005-04-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-35-05-11/bul@2005-04-22.xml"/>
+          <FRBRdate date="2005-04-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-04-22" name="Държавен вестник" number="35" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен представител</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 35, от дата 22.4.2005 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.4</p>
+          <p>Решение за прекратяване пълномощията на народен представител</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за прекратяване пълномощията на народен представител</p>
+          <p>Народното събрание на основание чл. 72, ал. 1, т. 1 и ал. 2 от Конституцията на Република България</p>
+          <p>РЕШИ:</p>
+          <p>Прекратява пълномощията на Коста Георгиев Костов, народен представител от 21. многомандатен избирателен район - Сливенски.</p>
+          <p>Решението е прието от ХХХIХ Народно събрание на 14 април 2005 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

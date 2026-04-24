@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-74-11-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-74-11-22"/>
+          <FRBRalias value="Решение № 1052 от 25 август 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1052 от 25 август 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-74-11-22"/>
+          <FRBRdate date="2011-09-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-74-11-22/bul@2011-09-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-74-11-22/bul@2011-09-21"/>
+          <FRBRdate date="2011-09-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-74-11-22/bul@2011-09-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-74-11-22/bul@2011-09-21.xml"/>
+          <FRBRdate date="2011-09-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-21" name="Държавен вестник" number="74" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1052 от 25 август 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1052 от 25 август 2011 г. На основание чл. 21, ал. 1, т. 16 ЗМСМА и чл. 30 във връзка с чл. 16, т. 1 и чл. 17, ал. 1, т. 4 и 5 ЗАТУРБ Общинският съвет – гр. Рад­ нево, реши: Закрива следните кметства: 1. кметство с. Даскал Атанасово; 2. кметство с. Тополяне; 3. кметство с. Диня. Председател: Т. Сотирова 10675 ОБЩИНА РУДОЗЕМ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

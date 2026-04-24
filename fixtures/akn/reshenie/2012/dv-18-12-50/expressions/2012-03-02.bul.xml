@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-50/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-50"/>
+          <FRBRalias value="Решение № 24 от 28 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 24 от 28 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-18-12-50"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="50"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-50/bul@2012-03-02/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-50/bul@2012-03-02"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-18-12-50/bul@2012-03-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-18-12-50/bul@2012-03-02.xml"/>
+          <FRBRdate date="2012-03-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-03-02" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 24 от 28 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 24 от 28 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и решение № 9 от 26.02.2010 г. на ОЕСУТ във връзка с докладна записка с вх. № К-177 от 12.12.2011 г. Общинският съвет – гр. Шабла, реши: Одобрява ПУП – парцеларен план за елементи на техническата инфраструктура – подземен елек­ тропровод, свързващ ветрогенератор, изграден в ПИ 83017.101.304 до жере стълб в ПИ 83017.34.3, засягащ следните имоти: ПИ 83017.101.45 – нива на Община Шабла, ПИ 83017.101.24 – нива на Об­ щина Шабла, ПИ 83017.101.168 – полски път, ПИ 83017.101.165 – път ІV клас, ПИ 83017.34.21 – път ІV клас, ПИ 83017.34.3 – нива на Николай Иванов Стойчев, всички в землище гр. Шабла. Решението е окончателно и не подлежи на обжалване. Председател: Ж. Спасов 1818 ОБЩИНА С. ИВАНОВО, ОБЛАСТ РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-9/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-9"/>
+          <FRBRalias value="Указ № 80 На основание чл. 102, ал. 1 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 80 На основание чл. 102, ал. 1 от Конститу-" name="eli" other="/eli/bg/ukaz/2014/dv-40-14-9"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-9/bul@2014-05-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-9/bul@2014-05-13"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-40-14-9/bul@2014-05-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-40-14-9/bul@2014-05-13.xml"/>
+          <FRBRdate date="2014-05-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-05-13" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 80 На основание чл. 102, ал. 1 от Конститу-</p>
+      <p>(обн., ДВ, бр. 20 от 2012 г.; изм. и доп., бр. 17 и 37 от 2013 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 80 На основание чл. 102, ал. 1 от Конститу- цията на Република България във връзка с чл. 136, ал. 2 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : В приложението към т. 1 от Указ № 85 от 28 февруари 2012 г. за утвърждаване на длъжностите във Въоръжените сили на Репуб­ лика България, Националната разузнавателна служба и Националната служба за охрана, изискващи висши офицерски звания (обн., ДВ, бр. 20 от 2012 г.; изм. и доп., бр. 17 и 37 от 2013 г.), в т. 1.5 „Военни формирования, подчинени на Сухопътните войски, Военно- въздушните сили и Военноморските сили“ в пореден номер 17, в колона 2 „Длъжности“ думите „до 30 юни 2014 г.“ се заличават. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 28 април 2014 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

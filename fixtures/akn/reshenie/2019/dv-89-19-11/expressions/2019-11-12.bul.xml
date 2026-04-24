@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-89-19-11/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-89-19-11"/>
+          <FRBRalias value="Решение № 1755 от 30 октомври 2019 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3," name="short"/>
+          <FRBRalias value="Решение № 1755 от 30 октомври 2019 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3," name="eli" other="/eli/bg/reshenie/2019/dv-89-19-11"/>
+          <FRBRdate date="2019-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-89-19-11/bul@2019-11-12/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-89-19-11/bul@2019-11-12"/>
+          <FRBRdate date="2019-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-89-19-11/bul@2019-11-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-89-19-11/bul@2019-11-12.xml"/>
+          <FRBRdate date="2019-11-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-11-12" name="Държавен вестник" number="89" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1755 от 30 октомври 2019 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1755 от 30 октомври 2019 г. На основание чл. 1, ал. 2, т. 5, чл. 3, ал. 3, т. 3, буква „д“ и ал. 8, чл. 22г, ал. 3 от ЗПСК и във връзка с протоколно решение № 5810 от 30.10.2019 г. на изпълнителния съвет Агенцията за публичните предприятия и контрол изменя Решение № 1573 от 19.05.2014 г. на Агенцията за приватизация и следприватизационен контрол (ДВ, бр. 45 от 2014 г.), като думите „ул. Люлебургаз“ се заменят с „ул. Южна индустриална зона № 4“. Изпълнителен директор: П. Александрова 8532</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

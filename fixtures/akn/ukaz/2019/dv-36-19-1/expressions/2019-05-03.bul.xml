@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-36-19-1/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-36-19-1"/>
+          <FRBRalias value="Указ № 96 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 96 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2019/dv-36-19-1"/>
+          <FRBRdate date="2019-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-36-19-1/bul@2019-05-03/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-36-19-1/bul@2019-05-03"/>
+          <FRBRdate date="2019-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-36-19-1/bul@2019-05-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-36-19-1/bul@2019-05-03.xml"/>
+          <FRBRdate date="2019-05-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-05-03" name="Държавен вестник" number="36" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 96 На основание чл. 100, ал. 2 от Конститу-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 96 На основание чл. 100, ал. 2 от Конститу- цията на Република България във връзка с чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Удостоявам бригаден генерал Венцислав Методиев Мутафчийски с висше офицерско звание „генерал-майор“, считано от 6 май 2019 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 30 април 2019 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-42/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-42"/>
+          <FRBRalias value="Решение № 94 от 10 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 94 от 10 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-67-11-42"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="42"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-42/bul@2011-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-42/bul@2011-08-30"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-42/bul@2011-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-42/bul@2011-08-30.xml"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-30" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 94 от 10 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 94 от 10 август 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Трън, одобрява подробен устройствен план – парцеларен план за обект: „Външно електрозахранване на базова станция на мобилен оператор M-tel № PER 0037 – „Ребро“, с трасе на подземен кабел през ПИ № 000298, ПИ № 000533 – полски пътища, и ПИ № 000588 – път втори клас от републикан­ ската пътна мрежа, землище на с. Неделково, община Трън. Председател: В. Шишкова 10067</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

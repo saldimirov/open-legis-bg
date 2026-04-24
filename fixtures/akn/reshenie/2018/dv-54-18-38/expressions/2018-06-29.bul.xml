@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-38/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-38"/>
+          <FRBRalias value="Решение № 89 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 89 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2018/dv-54-18-38"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="38"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-38/bul@2018-06-29/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-38/bul@2018-06-29"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-54-18-38/bul@2018-06-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-54-18-38/bul@2018-06-29.xml"/>
+          <FRBRdate date="2018-06-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-06-29" name="Държавен вестник" number="54" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 89 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 89 от 31 май 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – Момчилград, реши: 1. Одобрява ПУП – ПП (подробен устройствен план – парцеларен план) в землище Момчилград с ЕКАТТЕ 48996, за обект: „Подземно електроза­ хранващо кабелно трасе от трафопост БКТП 37-37 до поземлени имоти 039180, 039181, 039182, 039184, 039185, 039186 в местността Коджа тарла, община Момчилград“, с възложител Нурхан Лютви Али. 2. Възлага на кмета на общината да извърши действията по изпълнение на решението. Председател: Ю. Юсеин 6294 ОБЩИНА РАКОВСКИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

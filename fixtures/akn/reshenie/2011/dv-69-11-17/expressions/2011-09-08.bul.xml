@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-17/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-17"/>
+          <FRBRalias value="Решение № 81-627 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 81-627 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-69-11-17"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-17/bul@2011-09-08/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-17/bul@2011-09-08"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-69-11-17/bul@2011-09-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-69-11-17/bul@2011-09-08.xml"/>
+          <FRBRdate date="2011-09-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-09-08" name="Държавен вестник" number="69" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 81-627 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 81-627 от 21 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ­ вет – гр. Бяла, одобрява подробен устройствен план – парцеларен план за обект: „Изграждане на подземна кабелна линия за пренос на елек­ трическа енергия от УПИ ХІ-2, 3, 4, 7, 8 в кв. 43, УПИ ХІ-2, 7, 8 в кв. 44 и УПИ ХІІ-3, 8 в кв. 44 по ПУП – ПР на местности Парцелите и Стара махала в с. Господиново, община Бяла, област Варна, до присъединяването є в п/ст „Бяла“ 110/20 kV в гр. Бяла, област Варна“. Председател: С. Кирова 10217 ОБЩИНА ГУЛЯНЦИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

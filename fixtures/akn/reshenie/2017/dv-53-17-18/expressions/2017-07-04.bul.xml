@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-53-17-18/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-53-17-18"/>
+          <FRBRalias value="Решение № 162 от 6 април 2017 г." name="short"/>
+          <FRBRalias value="Решение № 162 от 6 април 2017 г." name="eli" other="/eli/bg/reshenie/2017/dv-53-17-18"/>
+          <FRBRdate date="2017-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-53-17-18/bul@2017-07-04/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-53-17-18/bul@2017-07-04"/>
+          <FRBRdate date="2017-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-53-17-18/bul@2017-07-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-53-17-18/bul@2017-07-04.xml"/>
+          <FRBRdate date="2017-07-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-07-04" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 162 от 6 април 2017 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 162 от 6 април 2017 г. В Направление „Архитектура и градоустрой­ ство“ на Столичната община е постъпило заяв­ ление вх. № ГР-94-С-34 от 2015 г. от Стамена Кирилова Петкова и Йордан Радойов Петков като собственици на УПИ V-318, кв. 29а, м. С. Сеславци, район „Кремиковци“, с искане за допускане на изменение на действащ подробен устройствен план (ИПРЗ) в обхвата на УПИ V-318. Към заявлението са приложени: документ за собственост № 13, том V, peг. № 12596, дело № 712/2006 г., задание за изработване на ПУП, мотивирано предложение, скица на имот с иден­ тификатор 68134.8270.318, издадена от СГКК – Со­ фия, комбинирана скица за пълна или частична идентичност по чл. 16, ал. 3 ЗКИР. Със Заповед № РД-09-50-824 от 21.10.2015 г. на главния архитект на СО е допуснато изработване на ПУП, която е изпратена с придружително писмо изх. № ГР-94-С-34</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

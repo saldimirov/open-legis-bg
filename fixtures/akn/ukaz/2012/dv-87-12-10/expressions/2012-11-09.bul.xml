@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-10"/>
+          <FRBRalias value="Указ № 385 На основание чл. 98, т. 1 от Конституци­" name="short"/>
+          <FRBRalias value="Указ № 385 На основание чл. 98, т. 1 от Конституци­" name="eli" other="/eli/bg/ukaz/2012/dv-87-12-10"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-10/bul@2012-11-09/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-10/bul@2012-11-09"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-87-12-10/bul@2012-11-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-87-12-10/bul@2012-11-09.xml"/>
+          <FRBRdate date="2012-11-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-09" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 385 На основание чл. 98, т. 1 от Конституци­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ята на Република България, Решение на ХLІ Народно събрание за произвеждане на наци­ онален референдум, прието на 24.10.2012 г., обнародвано в ДВ, бр. 83 от 30.10.2012 г., и чл. 14 от Закона за пряко участие на гражданите в държавната власт и местното самоуправление П О С Т А Н О В Я В А М : Определям 27 януари 2013 г. за дата на произвеждане на национален референдум с въпрос: „Да се развива ли ядрената енерге­ тика в Република България чрез изграждане на нова ядрена електроцентрала?“. Издаден в София на 31 октомври 2012 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Диана Ковачева 10241</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

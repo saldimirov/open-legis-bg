@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-17/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-17"/>
+          <FRBRalias value="Указ № 248 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 248 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2016/dv-61-16-17"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-17/bul@2016-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-17/bul@2016-08-05"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-17/bul@2016-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-17/bul@2016-08-05.xml"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-05" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 248 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 248 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам г-н Борут Пахор, президент на Република Словения, с орден „Стара пла- нина“ с лента за изключителните му заслуги за развитието и задълбочаването на двустран- ните отношения между Република България и Република Словения. Издаден в София на 18 юли 2016 г. Президент на републиката: Росен Плевнелиев Министър на външните работи: Даниел Митов Подпечатан с държавния печат. Министър на правосъдието: Екатерина Захариева 6144</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

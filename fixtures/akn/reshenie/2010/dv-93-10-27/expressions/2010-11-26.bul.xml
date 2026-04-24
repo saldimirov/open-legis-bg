@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-27/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-27"/>
+          <FRBRalias value="Решение № 13-4 от 29 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 13-4 от 29 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-93-10-27"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-27/bul@2010-11-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-27/bul@2010-11-26"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-93-10-27/bul@2010-11-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-93-10-27/bul@2010-11-26.xml"/>
+          <FRBRdate date="2010-11-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-11-26" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13-4 от 29 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13-4 от 29 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Гене­ рал Тошево, реши: Одобрява ПУП – ПП за Ветроенергиен парк „Свобода 1“ с 35 бр. електрогенератори, ситуирани в землищата на селата: Сноп в поземлени имоти № 032059, 010110, 010111, 056056, 044077, 058185, 044075, 058187, 069120, 058183, 058181, 058179, 072067; Житен в поземлени имоти № 002131, 002127, 030213, 030210, 002129, 018078, 030215, 045125, 030217, 048109, 068060, 016118, и Градини в поземлени имоти № 039053, 053164, 047126, 053157, 053159, 070122, 070125, 071054, 070127, 071056. Възлага на кмета на общината да извърши последващите съгласно закона действия. Председател: Н. Марчев 9243 ОБЩИНА ГЪЛЪБОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

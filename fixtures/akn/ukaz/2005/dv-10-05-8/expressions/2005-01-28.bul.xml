@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-10-05-8/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-10-05-8"/>
+          <FRBRalias value="Указ № 372 за утвърждаване на нови граници на община Разград, област Разград, и община Лозница, област Разград" name="short"/>
+          <FRBRalias value="Указ № 372 за утвърждаване на нови граници на община Разград, област Разград, и община Лозница, област Разград" name="eli" other="/eli/bg/ukaz/2005/dv-10-05-8"/>
+          <FRBRdate date="2005-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-10-05-8/bul@2005-01-28/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-10-05-8/bul@2005-01-28"/>
+          <FRBRdate date="2005-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-10-05-8/bul@2005-01-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-10-05-8/bul@2005-01-28.xml"/>
+          <FRBRdate date="2005-01-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-01-28" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 372 за утвърждаване на нови граници на община Разград, област Разград, и община Лозница, област Разград</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 10, от дата 28.1.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.8</p>
+          <p>Указ № 372 за утвърждаване на нови граници на община Разград, област Разград, и община Лозница, област Разград</p>
+          <p>УКАЗ № 372</p>
+          <p>На основание чл. 98, т. 5 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Утвърждавам нови граници на:</p>
+          <p>Изпълнението на указа възлагам на областния управител на област Разград, на кмета на община Лозница и на кмета на община Разград.</p>
+          <p>Издаден в София на 21 декември 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-9/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-9"/>
+          <FRBRalias value="Решение за предсрочно прекратяване на мандата на" name="short"/>
+          <FRBRalias value="Решение за предсрочно прекратяване на мандата на" name="eli" other="/eli/bg/reshenie/2010/dv-32-10-9"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-9/bul@2010-04-27/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-9/bul@2010-04-27"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-32-10-9/bul@2010-04-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-32-10-9/bul@2010-04-27.xml"/>
+          <FRBRdate date="2010-04-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-27" name="Държавен вестник" number="32" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за предсрочно прекратяване на мандата на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>директора на Националната здравноосигу­ рителна каса Народното събрание на основание чл. 84, т. 8 и чл. 86, ал. 1 от Конституцията на Репуб­ лика България и чл. 19, ал. 4, т. 5 от Закона за здравното осигуряване Р Е Ш И : Предсрочно прекратява мандата на Жени Николаева Бумбарова-Начева като директор на Националната здравноосигурителна каса. Решението е прието от 41-ото Народно събрание на 22 април 2010 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

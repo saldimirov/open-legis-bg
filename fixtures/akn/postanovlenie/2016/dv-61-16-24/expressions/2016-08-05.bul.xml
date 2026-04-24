@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-24/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-24"/>
+          <FRBRalias value="Постановление № 193 ОТ 1 АВГУСТ 2016 Г. за одобряване на промени по бюджета на" name="short"/>
+          <FRBRalias value="Постановление № 193 ОТ 1 АВГУСТ 2016 Г. за одобряване на промени по бюджета на" name="eli" other="/eli/bg/postanovlenie/2016/dv-61-16-24"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="24"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-24/bul@2016-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-24/bul@2016-08-05"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-61-16-24/bul@2016-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-61-16-24/bul@2016-08-05.xml"/>
+          <FRBRdate date="2016-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-05" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 193 ОТ 1 АВГУСТ 2016 Г. за одобряване на промени по бюджета на</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Одобрява промени по бюджета на Министерския съвет за 2016 г. за допълнител- ни плащания в частта на финансирането на бюджетното салдо за сметка на централния бюджет в размер 17 000 000 лв. за увелича- ване капитала на „Национален дворец на културата – Конгресен център София“ – ЕАД, София, във връзка с финансовото осигуря- ване на преустройството, модернизацията и адаптирането на неговата основна сграда за нуждите на българското председателство на Съвета на Европейския съюз през 2018 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Главният секретар на Министерския съвет да извърши съответните промени по бюджета на Министерския съвет за 2016 г. и да уведоми министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да из- върши произтичащите от чл. 1 промени по централния бюджет за 2016 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно- вание чл. 109, ал. 4, т. 1 от Закона за публич- ните финанси във връзка с чл. 76 от Закона за държавния бюджет на Република България за 2016 г.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на главния секретар на Министер- ския съвет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

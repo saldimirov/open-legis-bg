@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-3/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-3"/>
+          <FRBRalias value="Указ № 61 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 61 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2011/dv-28-11-3"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-3/bul@2011-04-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-3/bul@2011-04-05"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-28-11-3/bul@2011-04-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-28-11-3/bul@2011-04-05.xml"/>
+          <FRBRdate date="2011-04-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-05" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 61 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 61 На основание чл. 98, т. 4 от Конституцията на Република България П О С ТА Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Меморандума за разбирателство между Министерството на регионалното развитие и туризма на Румъния в качеството му на Съвместен управляващ орган, Министерството на регионалното развитие и благоустройството на България в качеството му на Национален орган, Министерството на икономиката, конкурентоспособността и тър­ говския флот на Гърция в качеството му на Национален орган и Одиторската служба към Сметната палата на Румъния в качеството є на Одитен орган по изпълнението на Съвместна оперативна програма „Черноморски басейн 2007 – 2013 г.“, приет от ХLI Народно събрание на 24 март 2011 г. Издаден в София на 30 март 2011 г. Президент на републиката: Георги Първанов Подпечатан с държавния печат. Министър на правосъдието: Маргарита Попова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

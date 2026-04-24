@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-37/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-37"/>
+          <FRBRalias value="Решение № 110 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 110 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2016/dv-64-16-37"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="37"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-37/bul@2016-08-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-37/bul@2016-08-16"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-64-16-37/bul@2016-08-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-64-16-37/bul@2016-08-16.xml"/>
+          <FRBRdate date="2016-08-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-16" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 110 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 110 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 109, ал. 3, т. 7 ЗУТ Общинският съвет – гр. Борово, реши: 1. Одобрява подробен устройствен план (ПУП) – парцеларен план на елементите на техническата инфраструктура за изграждане на външно електрозахранване на ПИ № 05611.28.6 по КК на гр. Борово. 2. Одобрява подробен устройствен план (ПУП) – план за застрояване на „Базова станция 0196.А000 – Borovo Nova“ в ПИ № 05611.28.6 по КК на гр. Борово. Председател: Б. Тодорова 6338 ОБЩИНА БОТЕВГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

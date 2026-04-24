@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-8-23-20/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-8-23-20"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="short"/>
+          <FRBRalias value="Закон за ратифициране на Споразумението за" name="eli" other="/eli/bg/ratifikatsiya/2023/dv-8-23-20"/>
+          <FRBRdate date="2023-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-8-23-20/bul@2023-01-25/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-8-23-20/bul@2023-01-25"/>
+          <FRBRdate date="2023-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-8-23-20/bul@2023-01-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-8-23-20/bul@2023-01-25.xml"/>
+          <FRBRdate date="2023-01-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-01-25" name="Държавен вестник" number="8" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за ратифициране на Споразумението за</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>придобиване и взаимно обслужване (BGR- USA-02) между Министерството на отбраната на Република България и Департамента по отбраната на Съединените американски щати Член единствен. Ратифицира Споразуме­ нието за придобиване и взаимно обслужване (BGR-USA-02) между Министерството на от­ браната на Република България и Департамен­ та по отбраната на Съединените американски щати, подписано на 27 юли 2022 г. в София и на 13 септември 2022 г. в Щутгарт.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

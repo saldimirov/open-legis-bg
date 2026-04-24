@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-16/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-16"/>
+          <FRBRalias value="Решение № 363 от 29 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 363 от 29 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2014/dv-9-14-16"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-16/bul@2014-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-16/bul@2014-01-31"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-9-14-16/bul@2014-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-9-14-16/bul@2014-01-31.xml"/>
+          <FRBRdate date="2014-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 363 от 29 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 363 от 29 ноември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Роман, одобрява ПУП – ПРЗ за ПИ 054029 за реализация на инвестиционно предло- жение – изграждане на екопътека по собствен ПИ 054029 в землище с. Кунино, община Роман, област Враца, с поставяне на туристически за- слон и предпазни ограждения в имот № 054029 съобразно приложените чертежи и таблици със съответните цветове, сигнатури, надписи и размери, неразделна част от това решение. Председател: Т. Вълчев 385 ОБЩИНА РУСЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

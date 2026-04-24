@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-37-18-11/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-37-18-11"/>
+          <FRBRalias value="Указ № 112 На основание чл. 102, ал. 1 от Консти­" name="short"/>
+          <FRBRalias value="Указ № 112 На основание чл. 102, ал. 1 от Консти­" name="eli" other="/eli/bg/ukaz/2018/dv-37-18-11"/>
+          <FRBRdate date="2018-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-37-18-11/bul@2018-05-04/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-37-18-11/bul@2018-05-04"/>
+          <FRBRdate date="2018-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-37-18-11/bul@2018-05-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-37-18-11/bul@2018-05-04.xml"/>
+          <FRBRdate date="2018-05-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-05-04" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 112 На основание чл. 102, ал. 1 от Консти­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 112 На основание чл. 102, ал. 1 от Консти­ туцията на Република България във връзка с чл. 136, ал. 2 и чл. 262, ал. 5 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Утвърждавам длъжности във военните прокуратури, изискващи висши офицерски звания, съгласно приложението: СТР. 42 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 37 КОНСТИТУЦИОНЕН СЪД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

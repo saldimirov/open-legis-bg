@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-64-10-7/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-64-10-7"/>
+          <FRBRalias value="Указ № 239 На основание чл. 100, ал. 2 от Конституцията на Република България и чл. 19, т. 4 и чл. 146," name="short"/>
+          <FRBRalias value="Указ № 239 На основание чл. 100, ал. 2 от Конституцията на Република България и чл. 19, т. 4 и чл. 146," name="eli" other="/eli/bg/ukaz/2010/dv-64-10-7"/>
+          <FRBRdate date="2010-08-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-64-10-7/bul@2010-08-17/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-64-10-7/bul@2010-08-17"/>
+          <FRBRdate date="2010-08-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-64-10-7/bul@2010-08-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-64-10-7/bul@2010-08-17.xml"/>
+          <FRBRdate date="2010-08-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-17" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 239 На основание чл. 100, ал. 2 от Конституцията на Република България и чл. 19, т. 4 и чл. 146,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 239 На основание чл. 100, ал. 2 от Конституцията на Република България и чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С ТА Н О В Я В А М : Освобождавам бригаден генерал Стефан Христов Петров от длъжността командир на 24-та вертолетна авиационна база. Изпълнението на указа възлагам на минис­ търа на отбраната. Издаден в София на 30 юли 2010 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

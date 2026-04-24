@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-9-16-8/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-9-16-8"/>
+          <FRBRalias value="Решение № 35 ОТ 22 ЯНУАРИ 2016 Г. за приемане на Отчета за изпълнението на" name="short"/>
+          <FRBRalias value="Решение № 35 ОТ 22 ЯНУАРИ 2016 Г. за приемане на Отчета за изпълнението на" name="eli" other="/eli/bg/reshenie/2016/dv-9-16-8"/>
+          <FRBRdate date="2016-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-9-16-8/bul@2016-02-02/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-9-16-8/bul@2016-02-02"/>
+          <FRBRdate date="2016-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-9-16-8/bul@2016-02-02/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-9-16-8/bul@2016-02-02.xml"/>
+          <FRBRdate date="2016-02-02" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-02" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 35 ОТ 22 ЯНУАРИ 2016 Г. за приемане на Отчета за изпълнението на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Националната статистическа програма и за дейността на Националния статистически институт през 2015 г. и за приемане на Наци- оналната статистическа програма за 2016 г. На основание чл. 15, ал. 1 във връзка с чл. 9, т. 6 от Закона за статистиката СТР. 8 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 9 МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : 1. Приема Отчета за изпълнението на Националната статистическа програма и за дейността на Националния статистически ин- ститут през 2015 г. съгласно приложение № 1. 2. Приема Националната статистическа програма за 2016 г. съгласно приложение № 2.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

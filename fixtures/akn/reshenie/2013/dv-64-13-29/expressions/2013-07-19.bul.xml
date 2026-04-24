@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-29/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-29"/>
+          <FRBRalias value="Решение № 421 от 27 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21," name="short"/>
+          <FRBRalias value="Решение № 421 от 27 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21," name="eli" other="/eli/bg/reshenie/2013/dv-64-13-29"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="29"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-29/bul@2013-07-19/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-29/bul@2013-07-19"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-64-13-29/bul@2013-07-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-64-13-29/bul@2013-07-19.xml"/>
+          <FRBRdate date="2013-07-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-19" name="Държавен вестник" number="64" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 421 от 27 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 421 от 27 юни 2013 г. На основание чл. 129, ал. 1 ЗУТ, чл. 21, ал. 1, т. 11 ЗМСМА и Решение № 2013-03-01 от 13.06.2013 г. на Общинския експертен съвет по устройство на територията Общинският съ­ вет – гр. Оряхово, реши: Одобрява ПУП – парцеларен план за „Въздуш­ на линия 110 kV за изграждане на втора връзка за подстанция Оряхово“ с трасе на въздушна линия през имоти с № 0.78, 0.79, 0.80, 0.143, 0.170, 0.173, 0.286, 0.377, 0.395, 0.441, 23.4, 23.5, 24.6, 24.8, 24.17, 24.53, 28.56, 28.76, 29.17, 37.1, 37.2, 37.3, 37.8, 52.11, 52.13, 52.28, 52.29, 52.32, 52.33, 52.36, 52.37, 52.38, 413.1, 414.1, 414.2 в местностите Папов чифлик, Каиша, Торбовото и Триъгълника по КВС за землището на гр. Оряхово, с дължина на трасето 2885 м. На основание чл. 215, ал. 4 ЗУТ решението може да бъде обжалвано в едномесечен срок от обнародването в „Държавен вестник“ пред Адми­ нистративния съд – Враца, чрез Община Оряхово. Председател: Р. Николов 5503 ОБЩИНА ПАЗАРДЖИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

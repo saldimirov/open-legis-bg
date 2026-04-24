@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-71-13-14/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-71-13-14"/>
+          <FRBRalias value="Постановление № 162 ОТ 9 АВГУСТ 2013 Г. за предоставяне на допълнителни средства от Държавен фонд „Земеделие“ по бюджета на Министерството на земеделието и храните за 2013 г." name="short"/>
+          <FRBRalias value="Постановление № 162 ОТ 9 АВГУСТ 2013 Г. за предоставяне на допълнителни средства от Държавен фонд „Земеделие“ по бюджета на Министерството на земеделието и храните за 2013 г." name="eli" other="/eli/bg/postanovlenie/2013/dv-71-13-14"/>
+          <FRBRdate date="2013-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-71-13-14/bul@2013-08-13/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-71-13-14/bul@2013-08-13"/>
+          <FRBRdate date="2013-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-71-13-14/bul@2013-08-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-71-13-14/bul@2013-08-13.xml"/>
+          <FRBRdate date="2013-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-08-13" name="Държавен вестник" number="71" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 162 ОТ 9 АВГУСТ 2013 Г. за предоставяне на допълнителни средства от Държавен фонд „Земеделие“ по бюджета на Министерството на земеделието и храните за 2013 г.</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да пре­ достави допълнителни бюджетни кредити в размер 12 000 000 лв. по бюджета на Минис­ терството на земеделието и храните за 2013 г. за осигуряване изпълнението на мерките по Програмите за надзор и ликвидиране на боле­ стите по животните, осигуряване на техническа подкрепа за провеждане на Кампания 2013 г. за подаване на заявления за подпомагане на земеделските стопани от областните дирекции „Земеделие“, за разплащане на задължения в системата на Селскостопанската академия и за разплащане на дейности, свързани с цифро­ вата ортофотокарта на Република България.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят за сметка на намаляване на трансфера от републиканския бюджет за Държавен фонд „Земеделие“.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите по пред­ ложение на министъра на земеделието и хра­ ните да извърши налагащите се промени по бюджета на Министерството на земеделието и храните за 2013 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на земеделието и хра­ ните и на министъра на финансите.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

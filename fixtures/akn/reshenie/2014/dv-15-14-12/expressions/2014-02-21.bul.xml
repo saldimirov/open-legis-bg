@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-12/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-12"/>
+          <FRBRalias value="Решение № 577 от 30 януари 2014 г. На основание чл. 129, ал. 1, чл. 132, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 577 от 30 януари 2014 г. На основание чл. 129, ал. 1, чл. 132, ал. 1," name="eli" other="/eli/bg/reshenie/2014/dv-15-14-12"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-12/bul@2014-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-12/bul@2014-02-21"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-15-14-12/bul@2014-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-15-14-12/bul@2014-02-21.xml"/>
+          <FRBRdate date="2014-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-21" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 577 от 30 януари 2014 г. На основание чл. 129, ал. 1, чл. 132, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 577 от 30 януари 2014 г. На основание чл. 129, ал. 1, чл. 132, ал. 1, т. 2 ЗУТ, чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Ловеч, реши: Одобрява представения проект на подробен устройствен план: план-схема с парцеларен план за електрозахранване на поземлен имот с идентификатор 43952.513.15 в местност Ак баир, землище на гр. Ловеч. Решението подлежи на обжалване по реда на чл. 215, ал. 1 и 4 ЗУТ в 14-дневен срок от обна- родването в „Държавен вестник“ чрез Община Ловеч до Административния съд – Ловеч. Председател: Т. Тихолов 1019</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

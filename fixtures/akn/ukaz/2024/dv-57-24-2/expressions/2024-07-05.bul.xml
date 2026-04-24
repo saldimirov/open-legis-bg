@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2024/dv-57-24-2/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-57-24-2"/>
+          <FRBRalias value="Указ № 167 за награждаване на проф. Кирил Любомиров Топалов с орден „Стара планина“ първа степен" name="short"/>
+          <FRBRalias value="Указ № 167 за награждаване на проф. Кирил Любомиров Топалов с орден „Стара планина“ първа степен" name="eli" other="/eli/bg/ukaz/2024/dv-57-24-2"/>
+          <FRBRdate date="2024-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2024/dv-57-24-2/bul@2024-07-05/main"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-57-24-2/bul@2024-07-05"/>
+          <FRBRdate date="2024-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2024/dv-57-24-2/bul@2024-07-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2024/dv-57-24-2/bul@2024-07-05.xml"/>
+          <FRBRdate date="2024-07-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2024-07-05" name="Държавен вестник" number="57" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 167 за награждаване на проф. Кирил Любомиров Топалов с орден „Стара планина“ първа степен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ПОСТАНОВЯВАМ: Награждавам проф. Кирил Любомиров Топалов с орден „Стара планина“ първа степен за неговите изключително големи заслуги към Република България в областта на науката и обществената дейност. Издаден в София на 1 юли 2024 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

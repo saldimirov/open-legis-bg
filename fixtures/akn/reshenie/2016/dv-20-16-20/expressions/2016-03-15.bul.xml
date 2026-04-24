@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-20-16-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-20-16-20"/>
+          <FRBRalias value="Решение № 14 от 29 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 14 от 29 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-20-16-20"/>
+          <FRBRdate date="2016-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-20-16-20/bul@2016-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-20-16-20/bul@2016-03-15"/>
+          <FRBRdate date="2016-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-20-16-20/bul@2016-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-20-16-20/bul@2016-03-15.xml"/>
+          <FRBRdate date="2016-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-03-15" name="Държавен вестник" number="20" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 14 от 29 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 14 от 29 януари 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 134, ал. 1, т. 1 и чл. 127, ал. 6 ЗУТ Общинският съвет – гр. Видин, реши: Одобрява проект за изменение на общ ус- тройствен план на гр. Видин – за промяна пред- назначението на ПИ с идентификатор 10971.86.7 по кадастралната карта на гр. Видин, местност Алимана 2, собственост на „Ава Транс“ – ООД, с който предназначението на имота се променя от „обработваема земеделска земя“ в „общест- вени функции“. Председател: Г. Велков 1602 ОБЩИНА ГОДЕЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-5/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-5"/>
+          <FRBRalias value="Указ № 40 за утвърждаване на нови граници на Община Монтана, област Монтана, и община Община Георги Дамяново, област Монтана" name="short"/>
+          <FRBRalias value="Указ № 40 за утвърждаване на нови граници на Община Монтана, област Монтана, и община Община Георги Дамяново, област Монтана" name="eli" other="/eli/bg/ukaz/2003/dv-16-03-5"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-5/bul@2003-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-5/bul@2003-02-18"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2003/dv-16-03-5/bul@2003-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2003/dv-16-03-5/bul@2003-02-18.xml"/>
+          <FRBRdate date="2003-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2003-02-18" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 40 за утвърждаване на нови граници на Община Монтана, област Монтана, и община Община Георги Дамяново, област Монтана</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 16, от дата 18.2.2003 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.28</p>
+          <p>Указ № 40 за утвърждаване на нови граници на Община Монтана, област Монтана, и община Община Георги Дамяново, област Монтана</p>
+          <p>ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          <p>УКАЗ № 40</p>
+          <p>На основание чл. 98, т. 5 от Конституцията на Република България във връзка с чл. 28, ал. 1, т. 7 от Закона за административно-териториалното устройство на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Утвърждавам нови граници на:</p>
+          <p>Изпълнението на указа възлагам на областния управител на област Монтана, на кмета на община Монтана и на кмета на община Георги Дамяново.</p>
+          <p>Издаден в София на 7 февруари 2003 г.</p>
+          <p>Президент на републиката:    Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

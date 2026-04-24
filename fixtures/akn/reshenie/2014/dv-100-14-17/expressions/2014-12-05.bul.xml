@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-17/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-17"/>
+          <FRBRalias value="Решение № 687 от 23 октомври 2014 г." name="short"/>
+          <FRBRalias value="Решение № 687 от 23 октомври 2014 г." name="eli" other="/eli/bg/reshenie/2014/dv-100-14-17"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-17/bul@2014-12-05/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-17/bul@2014-12-05"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-100-14-17/bul@2014-12-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-100-14-17/bul@2014-12-05.xml"/>
+          <FRBRdate date="2014-12-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-05" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 687 от 23 октомври 2014 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 687 от 23 октомври 2014 г. В Направление „Архитектура и градоустрой- ство“ на Столична община е постъпило заявление вх. № ГР-94-Е-7 от 16.02.2012 г. от Елза Дими- трова Атанасова и Диана Цветкова Атанасова с искане за изработване ПУП – ПРЗ за ПИ с идентификатор 49206.2628.501, м. С. Мрамор, район „Връбница“. Към заявлението са приложени: документ за собственост, скица от АГКК, съдебно удостове- рение, удостоверение за наследници, задание, мотивирано предложение. Заданието и мотивираното предложение са разгледани и приети от ОЕСУТ с решение по протокол № ЕС-Г-24 от 3.04.2012 г., т. 25. Със Заповед № РД-09-50-361 от 17.04.2012 г. на главния архитект на СО е одобрено задание за изработване на ПУП. Същата е изпратена до кмета на район „Връбница“ за съобщаване. С писмо изх. № АГ-6602-76</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

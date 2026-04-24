@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-13"/>
+          <FRBRalias value="Решение № 28 от 8 декември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 28 от 8 декември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2015/dv-103-15-13"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-13/bul@2015-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-13/bul@2015-12-30"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-103-15-13/bul@2015-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-103-15-13/bul@2015-12-30.xml"/>
+          <FRBRdate date="2015-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-30" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 28 от 8 декември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 28 от 8 декември 2015 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Враца, реши: Одобрява подробен устройствен план (парцела- рен план за елементи на техническата инфраструкту- ра) за нов експлоатационен сондаж Е-72 в поземлен имот № 028063, местност Росиньо, и шлейф към него през поземлени имоти в местностите Росиньо и Джурковец/Краев трън, землище на с. Чирен, до ПГХ „Чирен“ – изместване местоположението на сондаж Е-72 в границите на имота. Решението може да бъде обжалвано чрез Об- щина Враца пред Административния съд – Враца, в 14-дневен срок от обнародването в „Държавен вестник“. Председател: Р. Антов 8259 ОБЩИНА КАМЕНО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

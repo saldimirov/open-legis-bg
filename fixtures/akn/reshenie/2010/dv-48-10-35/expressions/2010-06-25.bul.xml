@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-35/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-35"/>
+          <FRBRalias value="Решение № 578 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 578 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-48-10-35"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="35"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-35/bul@2010-06-25/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-35/bul@2010-06-25"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-48-10-35/bul@2010-06-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-48-10-35/bul@2010-06-25.xml"/>
+          <FRBRdate date="2010-06-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-06-25" name="Държавен вестник" number="48" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 578 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 578 от 27 май 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 3 ЗУТ и протокол № 02 от 2010 г. на ОЕСУТ, т. 4, Об­ щинският съвет – гр. Костинброд, реши: Одобрява проект ПЗ (план за застрояване) за безвредно производство, складове и офиси на имоти 068017, 068032, местност Опицветски връх, ЕКАТТЕ 56215, община Костинброд. Решението може да бъде обжалвано пред Административния съд – София област, по реда на чл. 214 ЗУТ. Председател: З. Йорданова 5050</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

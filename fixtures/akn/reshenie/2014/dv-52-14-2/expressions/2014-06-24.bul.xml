@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-2/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-2"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="short"/>
+          <FRBRalias value="Решение за персонални промени в Министерския съвет на Република България" name="eli" other="/eli/bg/reshenie/2014/dv-52-14-2"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-2/bul@2014-06-24/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-2/bul@2014-06-24"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-52-14-2/bul@2014-06-24/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-52-14-2/bul@2014-06-24.xml"/>
+          <FRBRdate date="2014-06-24" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-06-24" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за персонални промени в Министерския съвет на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 84, т. 6 от Конституцията на Република България и във връзка с Решение на Народното събрание за избиране на Министерски съвет на Репуб­ лика България от 29 май 2013 г. (ДВ, бр. 48 от 2013 г.) и Решение на Народното събрание за персонални промени в Министерския съвет на Република България (ДВ, бр. 58 от 2013 г.) Р Е Ш И : 1. Освобождава Искра Димитрова Михай- лова-Копарова като министър на околната среда и водите. 2. Избира Станислав Димитров Анастасов за министър на околната среда и водите. Решението е прието от 42-то Народно съ- брание на 19 юни 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

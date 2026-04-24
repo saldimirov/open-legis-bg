@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-6/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-6"/>
+          <FRBRalias value="Закон за изменение на Търговския закон (обн., ДВ," name="short"/>
+          <FRBRalias value="Закон за изменение на Търговския закон (обн., ДВ," name="eli" other="/eli/bg/zid/2009/dv-82-09-6"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-6/bul@2009-10-16/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-6/bul@2009-10-16"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-82-09-6/bul@2009-10-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-82-09-6/bul@2009-10-16.xml"/>
+          <FRBRdate date="2009-10-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-10-16" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Търговския закон (обн., ДВ,</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 115, т. 4 изречения второ и трето се заличават.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 117 се правят следните изменения: 1. В ал. 1 числото „5000“ се заменя с „2“, а думите „10 лева“ се заменят с „1 лев“. 2. В ал. 2 числото „10“ се заменя с „1“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 119, ал. 1 се правят следните изменения: 1. Точка 3 се отменя. 2. В т. 4 думите „най-малко 35 на сто“ се заменят с „установения в закона минимум“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

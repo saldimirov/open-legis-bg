@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-40-25-6/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-40-25-6"/>
+          <FRBRalias value="Постановление № 54 от 12 май 2025 г. за приемане на Списък на продуктите, свързани с отбраната, и на Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос" name="short"/>
+          <FRBRalias value="Постановление № 54 от 12 май 2025 г. за приемане на Списък на продуктите, свързани с отбраната, и на Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос" name="eli" other="/eli/bg/postanovlenie/2025/dv-40-25-6"/>
+          <FRBRdate date="2025-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-40-25-6/bul@2025-05-16/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-40-25-6/bul@2025-05-16"/>
+          <FRBRdate date="2025-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-40-25-6/bul@2025-05-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-40-25-6/bul@2025-05-16.xml"/>
+          <FRBRdate date="2025-05-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-05-16" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 54 от 12 май 2025 г. за приемане на Списък на продуктите, свързани с отбраната, и на Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Постановление № 208 на Министерския съвет от 2024 г. за приемане на Списък на продуктите, свързани с отбраната, и Списък на изделията и технологиите с двойна употреба, които подлежат на контрол при внос (ДВ, бр. 50 от 2024 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 2, ал. 1 от Закона за експортния контрол на продукти, свързани с отбраната, и на изделия и технологии с двойна употреба.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението въвежда изискванията на Делегирана директива (ЕС) 2025/290 на Комисията от 4 октомври 2024 година за изменение на Директива 2009/43/ЕО на Европейския парламент и на Съвета по отношение на актуализирането на списъка на свързаните с отбраната продукти в съответствие с актуализирания Общ списък на оръжията на Европейския съюз от 19 февруари 2024 г. (ОВ, L 2025/290 от 21 февруари 2025).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката и индустрията.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Постановлението влиза в сила от 5 юни 2025 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

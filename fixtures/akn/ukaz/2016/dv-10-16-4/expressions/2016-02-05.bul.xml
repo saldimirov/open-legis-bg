@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-4/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-4"/>
+          <FRBRalias value="Указ № 15 На основание чл. 100, ал. 2 от Конститу-" name="short"/>
+          <FRBRalias value="Указ № 15 На основание чл. 100, ал. 2 от Конститу-" name="eli" other="/eli/bg/ukaz/2016/dv-10-16-4"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-4/bul@2016-02-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-4/bul@2016-02-05"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-4/bul@2016-02-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-4/bul@2016-02-05.xml"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-05" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 15 На основание чл. 100, ал. 2 от Конститу-</p>
+      <p>(обн., ДВ, бр. 11 от 2009 г.; доп., бр. 21 от 2011 г.; изм. и доп., бр. 12 от 2012 г.; изм., бр. 20 от 2012 г.; изм. и доп., бр. 46 от 2014 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 15 На основание чл. 100, ал. 2 от Конститу- цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 във връзка с чл. 160, ал. 1, т. 8, чл. 162, т. 2 от Закона за отбраната и въоръ- жените сили на Република България П О С Т А Н О В Я В А М : Освобождавам вицеадмирал Румен Геор- гиев Николов от длъжността началник на отбраната и от военна служба, считано от 9 февруари 2016 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 29 януари 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

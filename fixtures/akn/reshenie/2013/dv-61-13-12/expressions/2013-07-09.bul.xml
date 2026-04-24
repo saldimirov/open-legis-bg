@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-12"/>
+          <FRBRalias value="Решение № 286 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 286 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-61-13-12"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-12/bul@2013-07-09/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-12/bul@2013-07-09"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-61-13-12/bul@2013-07-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-61-13-12/bul@2013-07-09.xml"/>
+          <FRBRdate date="2013-07-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-09" name="Държавен вестник" number="61" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 286 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 286 от 20 юни 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 във връзка с чл. 134, ал. 1 и чл. 9, ал. 2 ЗУТ Общинският съвет – гр. Първомай, реши: Одобрява подробен устройствен план – план регулация – план застрояване (ПУП – ПР – ПЗ) за поземлен имот (ПИ) № 009151, местност Карамана, землището на с. Градина, община Първомай, област Пловдив, във връзка с про­ мяна предназначението на земеделска земя за изграждане на обект: „Складова база за храни­ телни продукти (млечни)“. Председател: Д. Петков 5335</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

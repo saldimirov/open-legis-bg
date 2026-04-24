@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-66-09-65/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-66-09-65"/>
+          <FRBRalias value="Решение № 14-158 от 24 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11" name="short"/>
+          <FRBRalias value="Решение № 14-158 от 24 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11" name="eli" other="/eli/bg/reshenie/2009/dv-66-09-65"/>
+          <FRBRdate date="2009-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="65"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-66-09-65/bul@2009-08-18/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-66-09-65/bul@2009-08-18"/>
+          <FRBRdate date="2009-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-66-09-65/bul@2009-08-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-66-09-65/bul@2009-08-18.xml"/>
+          <FRBRdate date="2009-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-08-18" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 14-158 от 24 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 14-158 от 24 юли 2009 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Суворово одобрява подробен устройствен план – план за регулация и застрояване, с цел жилищно строителство в поземлен имот 071051 по КВС в землище с. Николаевка, об­ щина Суворово, област Варна, така както е указано на ситуацията в изработения ПУП – ПРЗ, с червени, сини и черни линии и надписи. Решението подлежи на обжалване в 14-дневен срок от обнародването чрез община Суворово пред Варненския административен съд. Председател: А. Османов 10183</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

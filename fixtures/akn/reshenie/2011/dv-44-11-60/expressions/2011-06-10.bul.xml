@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-60/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-60"/>
+          <FRBRalias value="Решение № 303 от 27 януари 2011 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 3" name="short"/>
+          <FRBRalias value="Решение № 303 от 27 януари 2011 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 3" name="eli" other="/eli/bg/reshenie/2011/dv-44-11-60"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="60"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-60/bul@2011-06-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-60/bul@2011-06-10"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-44-11-60/bul@2011-06-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-44-11-60/bul@2011-06-10.xml"/>
+          <FRBRdate date="2011-06-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-06-10" name="Държавен вестник" number="44" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 303 от 27 януари 2011 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 3</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 303 от 27 януари 2011 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 3 по протокол № 47 от 01.12.2010 г. от Общинския експертен съвет Общинският съвет – гр. Рудо­ СТР. 150 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 44 зем, одобрява план за изменение на уличната и дворищната регулация за обект път ІІ – 86 „Соколовци – Смолян – Средногорци – Рудозем“, участък от км 94+240 до км 135+574, подучас­ тък: път ІІ – 86, участък от км 132962.797 до км. 135688.441 – подробен устройствен план за гр. Ру­ дозем съгласно приетата графична част – нераз­ делна част от решението. За председател: М. Брахимбашев 6683 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

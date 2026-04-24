@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-23"/>
+          <FRBRalias value="Решение № 872 от 3 август 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 872 от 3 август 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във" name="eli" other="/eli/bg/reshenie/2018/dv-72-18-23"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-23/bul@2018-08-31/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-23/bul@2018-08-31"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-72-18-23/bul@2018-08-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-72-18-23/bul@2018-08-31.xml"/>
+          <FRBRdate date="2018-08-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-08-31" name="Държавен вестник" number="72" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 872 от 3 август 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 872 от 3 август 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ и Решение № 112 на Общинския експертен съвет по устройство на територията при Община Силистра, взето на заседание с протокол № 16 от 13.07.2018 г., одоб­ рява подробен устройствен план на територията на община Силистра: „ПУП – ПП за изграждане на трасе за разпределителен газопровод за нуж- дите на „Ситигаз България“ – ЕАД, в землището на с. Калипетрово, с. Айдемир и гр. Силистра, община Силистра. Председател: М. Димитрова 8057 ОБЩИНА СОЗОПОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

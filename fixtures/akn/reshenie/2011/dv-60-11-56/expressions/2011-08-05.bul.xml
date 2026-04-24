@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-56/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-56"/>
+          <FRBRalias value="Решение № 547 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 547 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2011/dv-60-11-56"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="56"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-56/bul@2011-08-05/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-56/bul@2011-08-05"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-60-11-56/bul@2011-08-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-60-11-56/bul@2011-08-05.xml"/>
+          <FRBRdate date="2011-08-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-05" name="Държавен вестник" number="60" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 547 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 547 от 30 юни 2011 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА, чл. 129, ал. 1 ЗУТ във връзка с постъпило искане с вх. № СП-2320 от 20.05.2011 г. от „Сънфлауър Бабово“ – ЕООД, Общинският съвет – гр . Сливо поле, реши: 1. Одобрява ПУП – план за застрояване за обект: „ПУП – план за застрояване на позем­ лен имот № 029033 в м. Илията в землището на с. Бабово“. 2. Упълномощава кмета на Община Сливо поле да предприеме всички необходими правни и фактически действия, свързани с изпълнение на решението. Председател: В. Атанасов 9014 ОБЩИНА СРЕДЕЦ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

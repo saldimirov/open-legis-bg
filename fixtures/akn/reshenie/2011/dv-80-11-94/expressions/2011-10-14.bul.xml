@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-94/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-94"/>
+          <FRBRalias value="Решение № 1104 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 1104 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-80-11-94"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="94"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-94/bul@2011-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-94/bul@2011-10-14"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-94/bul@2011-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-94/bul@2011-10-14.xml"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1104 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1104 от 16 септември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Раднево, одобрява ПУП – план за застрояване на поземлен имот с идентификатор 61460.75.234 по одобрена кадастрална карта на гр. Раднево, община Раднево, област Стара Загора. Председател: Т. Сотирова 11138</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

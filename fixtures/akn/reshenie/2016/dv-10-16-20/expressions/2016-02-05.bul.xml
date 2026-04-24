@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-20"/>
+          <FRBRalias value="Решение № 51 от 21 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 51 от 21 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2016/dv-10-16-20"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-20/bul@2016-02-05/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-20/bul@2016-02-05"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-10-16-20/bul@2016-02-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-10-16-20/bul@2016-02-05.xml"/>
+          <FRBRdate date="2016-02-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-02-05" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 51 от 21 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 51 от 21 декември 2015 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и докладна записка с вх. № ОС-01-1854 от 25.11.2015 г. от Сашка Въчкова – за кмет на община Банско съгласно Заповед № 09-15-516 от 18.11.2015 г., Общинският съвет – гр. Банско, одобрява проект за ПУП – ПР за кв. 213 по плана на гр. Банско за изменение на дворищна регулация на вътрешнорегулационни линии по имотни граници и изменение на улич- но-регулационните линии между о.т. 809, о.т. 814, о.т. 796, о.т. 797 и о.т. 798. Председател: Вл. Колчагов 613</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

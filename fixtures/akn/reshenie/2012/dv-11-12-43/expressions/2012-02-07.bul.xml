@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-11-12-43/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-11-12-43"/>
+          <FRBRalias value="Решение № 83 от 26 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 83 от 26 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-11-12-43"/>
+          <FRBRdate date="2012-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-11-12-43/bul@2012-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-11-12-43/bul@2012-02-07"/>
+          <FRBRdate date="2012-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-11-12-43/bul@2012-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-11-12-43/bul@2012-02-07.xml"/>
+          <FRBRdate date="2012-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-07" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 83 от 26 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 83 от 26 януари 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 128, ал. 13 и чл. 134, ал. 1, т. 2 ЗУТ във връзка с решение на ОЕСУТ, прието с протокол № 1 от 11.01.2012 г., Общинският съвет – Свиленград, реши: Одобрява изменение на плана за застрояване на ПИ № 089019 в м. Ново село, землището на Свиленград, с ВиК и електросхеми към него, като имотът се отрежда за „помпена станция“ и се определя нискоетажно свободно застро­ яване с ограничителни линии на застрояване в червен цвят. Неразделна част от това решение са прило­ женият план за застрояване, ел. и ВиК схемите към него. Председател: Г. Еленков 1041 СТР. 92 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 11 ОБЩИНА ХАСКОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2023/dv-86-23-7/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-86-23-7"/>
+          <FRBRalias value="Решение за приемане на Пътна карта за климатична неутралност на Република България" name="short"/>
+          <FRBRalias value="Решение за приемане на Пътна карта за климатична неутралност на Република България" name="eli" other="/eli/bg/reshenie/2023/dv-86-23-7"/>
+          <FRBRdate date="2023-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2023/dv-86-23-7/bul@2023-10-13/main"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-86-23-7/bul@2023-10-13"/>
+          <FRBRdate date="2023-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2023/dv-86-23-7/bul@2023-10-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2023/dv-86-23-7/bul@2023-10-13.xml"/>
+          <FRBRdate date="2023-10-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2023-10-13" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Пътна карта за климатична неутралност на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България и чл. 85, ал. 1 от Правилника за организацията и дейността на Народното събрание РЕШИ: 1. Подкрепя Пътната карта за климатична неутралност на Република България, актуализирана от Министерския съвет в съответствие с Решение на Народното събрание от 4 октомври 2023 г. във връзка със Споразумение между министър-председателя, членове на Министерския съвет, народни представители и представители на синдикалните организации в сектор „Енергетика“, сключено на 3 октомври 2023 г., Решение на Народното събрание от 31 януари 2020 г. и Решение на Народното събрание от 12 януари 2023 г. 2. Приема Пътната карта за климатична неутралност на Република България, съгласно която електрическа енергия от въглища се произвежда без ограничения поне до 31 декември 2038 г. като крайна дата. Решението е прието от 49-ото Народно събрание на 6 октомври 2023 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

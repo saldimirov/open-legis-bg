@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-65-17-6/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-65-17-6"/>
+          <FRBRalias value="Указ № 169 На основание чл. 98, т. 8 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 169 На основание чл. 98, т. 8 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2017/dv-65-17-6"/>
+          <FRBRdate date="2017-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-65-17-6/bul@2017-08-11/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-65-17-6/bul@2017-08-11"/>
+          <FRBRdate date="2017-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-65-17-6/bul@2017-08-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-65-17-6/bul@2017-08-11.xml"/>
+          <FRBRdate date="2017-08-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-08-11" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 169 На основание чл. 98, т. 8 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 169 На основание чл. 98, т. 8 от Конституцията на Република България П О С Т А Н О В Я В А М : Награждавам г-н Кристиан Кьонигс- фелдт – извънреден и пълномощен посланик на Кралство Дания в Република България, с орден „Мадарски конник“ първа степен за неговите особено големи заслуги за ук- репването и развитието на двустранните отношения между Република България и Кралство Дания. Издаден в София на 4 август 2017 г. Президент на Републиката: Румен Радев Министър на външните работи: Екатерина Захариева Подпечатан с държавния печат. Министър на правосъдието: Цецка Цачева 5924 СТР. 4 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 65</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-38/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-38"/>
+          <FRBRalias value="Решение № 101 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 101 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-41-16-38"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="38"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-38/bul@2016-05-31/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-38/bul@2016-05-31"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-41-16-38/bul@2016-05-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-41-16-38/bul@2016-05-31.xml"/>
+          <FRBRdate date="2016-05-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-31" name="Държавен вестник" number="41" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 101 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 101 от 27 април 2016 г. На основание чл. 21, ал. 1, т. 8 и 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Лом, одобрява проект за ПУП – парцеларен план за изграждане на „Главен тръбопровод на напоител- на система за капково напояване на царевица“, засягащ полски пътища (общинска собственост) с номера 0.292, 0.57, 0.85, 0.304, 0.282, 0.271, 0.104, 0.121 и 0.122 в землището на гр. Лом. Председател: Хр. Христова 4102 ОБЩИНА ЛЪКИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

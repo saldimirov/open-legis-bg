@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-28"/>
+          <FRBRalias value="Решение № ХХХІ-27 от 18 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № ХХХІ-27 от 18 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2010/dv-31-10-28"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-28/bul@2010-04-23/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-28/bul@2010-04-23"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-31-10-28/bul@2010-04-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-31-10-28/bul@2010-04-23.xml"/>
+          <FRBRdate date="2010-04-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-04-23" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № ХХХІ-27 от 18 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № ХХХІ-27 от 18 март 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Ямбол, одобрява подробен устройствен план (ПУП) – пар- целарен план на трасе на кабелна линия Ср.Н 20 kV от СРС № 42, намиращ се в ПИ 87374.26.183 до БКТП в ПИ 87374.32.100. Заинтересуваните могат да обжалват решение- то в 14-дневен срок от обнародването в „Държавен вестник“ чрез община Ямбол до Административ- ния съд – Ямбол. Председател: Г. Миланов 3333 ОБЩИНА „ТУНДЖА“ – ЯМБОЛ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

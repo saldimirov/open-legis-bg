@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-94-20-8/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-94-20-8"/>
+          <FRBRalias value="Указ № 223 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 223 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2020/dv-94-20-8"/>
+          <FRBRdate date="2020-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-94-20-8/bul@2020-11-03/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-94-20-8/bul@2020-11-03"/>
+          <FRBRdate date="2020-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-94-20-8/bul@2020-11-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-94-20-8/bul@2020-11-03.xml"/>
+          <FRBRdate date="2020-11-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-11-03" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 223 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на финансите да извър- ши налагащите се промени по централния бюджет, включително по бюджетните вза- имоотношения на общините с централния бюджет за 2020 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на ос- нование чл. 109, ал. 3 във връзка с чл. 55a от Закона за публичните финанси и чл. 2, ал. 6, т. 1 и ал. 7 от Постановление № 328 на Министерския съвет от 2017 г. за условията и реда за получаване на стипендии от уче- ниците след завършено основно образование (ДВ, бр. 103 от 2017 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и на- уката и на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

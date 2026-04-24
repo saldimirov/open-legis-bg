@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-12"/>
+          <FRBRalias value="Решение № 125 от 28 март 2013 г. На основание чл. 129, ал. 1 ЗУТ и Решение" name="short"/>
+          <FRBRalias value="Решение № 125 от 28 март 2013 г. На основание чл. 129, ал. 1 ЗУТ и Решение" name="eli" other="/eli/bg/reshenie/2013/dv-42-13-12"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-12/bul@2013-05-10/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-12/bul@2013-05-10"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-42-13-12/bul@2013-05-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-42-13-12/bul@2013-05-10.xml"/>
+          <FRBRdate date="2013-05-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-05-10" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 125 от 28 март 2013 г. На основание чл. 129, ал. 1 ЗУТ и Решение</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 125 от 28 март 2013 г. На основание чл. 129, ал. 1 ЗУТ и Решение № 42, протокол № 11 от 18.12.2012 г. на ОЕСУТ при Община Сандански Общинският съвет – гр. Сандански, реши: Одобрява ПУП – парцеларен план за проектно трасе на електропровод за пречиствателна станция за отпадни води за с. Лешница, община Сандански, с обща дължина 62 м. Трасето на електропровода преминава през имоти № 105.001 – земеделска земя, № 105.002 – зе­ меделска земя, и № 105.014 – земеделска земя, в землището на с. Лешница, община Сандански. На основание чл. 215, ал. 4 ЗУТ решението подлежи на обжалване в 14-дневен срок от обна­ родването в „Държавен вестник“ чрез Община Сан­ дански пред Административния съд – Благоевград. Председател: Ат. Стоянов 3752</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

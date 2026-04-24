@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-1/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-1"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на закона и дейността на прокуратурата и разследващите" name="short"/>
+          <FRBRalias value="Решение за приемане на Доклад за прилагането на закона и дейността на прокуратурата и разследващите" name="eli" other="/eli/bg/reshenie/2009/dv-76-09-1"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-1/bul@2009-09-25/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-1/bul@2009-09-25"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-1/bul@2009-09-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-1/bul@2009-09-25.xml"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-25" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за приемане на Доклад за прилагането на закона и дейността на прокуратурата и разследващите</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>органи през 2008 г. Народното събрание на основание чл. 84, т. 16 от Конституцията на Република България и чл. 80, ал. 5 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Приема Доклада за прилагането на закона и дейността на прокуратурата и разследващите органи през 2008 г. 2. Предлага на вниманието на Висшия съде- бен съвет и на главния прокурор на Република България констатациите и препоръките, които се съдържат в становището на Комисията по правни въпроси. Решението е прието от 41-ото Народно съб­ рание на 16 септември 2009 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

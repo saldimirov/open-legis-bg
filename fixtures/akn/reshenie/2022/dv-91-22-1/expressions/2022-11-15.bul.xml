@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-91-22-1/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-91-22-1"/>
+          <FRBRalias value="Решение за възлагане на Министерския съвет да" name="short"/>
+          <FRBRalias value="Решение за възлагане на Министерския съвет да" name="eli" other="/eli/bg/reshenie/2022/dv-91-22-1"/>
+          <FRBRdate date="2022-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-91-22-1/bul@2022-11-15/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-91-22-1/bul@2022-11-15"/>
+          <FRBRdate date="2022-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-91-22-1/bul@2022-11-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-91-22-1/bul@2022-11-15.xml"/>
+          <FRBRdate date="2022-11-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-11-15" name="Държавен вестник" number="91" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за възлагане на Министерския съвет да</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>осигури условия за лицензиране на неруско ядрено гориво Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република България Р Е Ш И : 1. Министерският съвет, в изпълнение на директивите на Европейския съюз за дивер- сификация на енергийните доставки пред- приема всички необходими мерки, които да обезпечат дейността на Агенцията за ядрено регулиране в процеса по преглед на докумен- тацията за лицензиране на алтернативен тип ядрено гориво с цел издаване на разрешение за доставка и зареждане през 2024 г. 2. Ускоряване на процеса по сключване на договор за доставка на неруско ядрено гори- во за Пети енергоблок на АЕЦ „Козлодуй“, със срок за първа доставка до април 2024 г. Потенциалните доставчици да гарантират пълна независимост на използваните техно- логии, лицензи и компоненти от доставчици и юридически лица, регистрирани в Руската Федерация или чиято структура на собстве- ността включва юридически лица от Руската Федерация. Решението е прието от 48-ото Народно събрание на 9 ноември 2022 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

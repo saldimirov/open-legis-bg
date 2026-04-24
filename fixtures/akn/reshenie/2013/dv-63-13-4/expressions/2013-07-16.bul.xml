@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-4/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-4"/>
+          <FRBRalias value="Решение за вземане на акт от Препоръка № 202 на" name="short"/>
+          <FRBRalias value="Решение за вземане на акт от Препоръка № 202 на" name="eli" other="/eli/bg/reshenie/2013/dv-63-13-4"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-4/bul@2013-07-16/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-4/bul@2013-07-16"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-63-13-4/bul@2013-07-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-63-13-4/bul@2013-07-16.xml"/>
+          <FRBRdate date="2013-07-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-16" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за вземане на акт от Препоръка № 202 на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Международната организация на труда от­ носно минимума на социалната защита Народното събрание на основание чл. 86, ал. 1 от Конституцията на Република Бълга­ рия и в съответствие с чл. 19, ал. 6, буква „б“ от Устава на Международната организация на труда БРОЙ 63 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 3 Р Е Ш И : Взема акт от Препоръка № 202 на Меж­ дународната организация на труда относно минимума на социалната защита, приета на 101-вата сесия на Международната конфе­ ренция на труда на 14 юни 2012 г. в Женева. Решението е прието от 42-то Народно събрание на 10 юли 2013 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-16-15-1/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-16-15-1"/>
+          <FRBRalias value="Указ № 30 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 30 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2015/dv-16-15-1"/>
+          <FRBRdate date="2015-02-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-16-15-1/bul@2015-02-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-16-15-1/bul@2015-02-27"/>
+          <FRBRdate date="2015-02-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-16-15-1/bul@2015-02-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-16-15-1/bul@2015-02-27.xml"/>
+          <FRBRdate date="2015-02-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-02-27" name="Държавен вестник" number="16" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 30 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 30 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за ратифициране на Договора за дилърство между Република България в качеството на Емитент и Ситигруп Глобъл Маркетс Лимитид, Ейч Ес Би Си Банк Пи Ел Си, Сосиете Женерал и Уникредит Банк АГ в качеството на Организатори и Дилъри относно Глобална средносрочна програма на Република България за издаване на облигации на стойност 8 000 000 000 евро, подписан на 6 февруари 2015 г., на Договора за агентство между Република България в качеството на Емитент и Ситибанк Н.А., клон Лондон, в качеството на Фискален агент, Платежен агент, Агент по замяната, Агент по прехвър­ лянето и Агент за изчисляване и Ситигруп Глобъл Маркетс Дойчланд АГ в качеството на Регистратор, Платежен агент и Агент по пре­ хвърлянето относно Глобална средносрочна програма на Република България за издаване на облигации на стойност 8 000 000 000 евро, подписан на 6 февруари 2015 г., и на Акта за поемане на задължения от Република България в качеството на Емитент относно Глобална средносрочна програма на Република Бъл­ гария за издаване на облигации на стойност 8 000 000 000 евро, подписан на 6 февруари 2015 г., приет от ХLIIІ Народно събрание на 25 февруари 2015 г. Издаден в София на 25 февруари 2015 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Христо Иванов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

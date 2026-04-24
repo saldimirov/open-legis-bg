@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-92-12-1/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-92-12-1"/>
+          <FRBRalias value="Решение за промени в състава и ръководството на" name="short"/>
+          <FRBRalias value="Решение за промени в състава и ръководството на" name="eli" other="/eli/bg/reshenie/2012/dv-92-12-1"/>
+          <FRBRdate date="2012-11-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-92-12-1/bul@2012-11-23/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-92-12-1/bul@2012-11-23"/>
+          <FRBRdate date="2012-11-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-92-12-1/bul@2012-11-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-92-12-1/bul@2012-11-23.xml"/>
+          <FRBRdate date="2012-11-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-23" name="Държавен вестник" number="92" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промени в състава и ръководството на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Комисията по вътрешна сигурност и обще­ ствен ред Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република Бъл­ гария и чл. 18, ал. 7 и чл. 20, ал. 1 и 4 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Избира Красимир Георгиев Ципов за председател на Комисията по вътрешна си­ гурност и обществен ред. 2. Избира Пламен Дулчев Нунев за замест­ ник-председател на Комисията по вътрешна сигурност и обществен ред. 3. Избира Румен Иванов Иванов за член на Комисията по вътрешна сигурност и об­ ществен ред. Решението е прието от 41-ото Народно съб­ рание на 14 ноември 2012 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

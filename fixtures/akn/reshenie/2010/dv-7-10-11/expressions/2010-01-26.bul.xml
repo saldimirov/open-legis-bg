@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-7-10-11/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-7-10-11"/>
+          <FRBRalias value="Решение № 1 от 7 януари 2010 г. На основание чл. 25 ЗБНБ Българската народна" name="short"/>
+          <FRBRalias value="Решение № 1 от 7 януари 2010 г. На основание чл. 25 ЗБНБ Българската народна" name="eli" other="/eli/bg/reshenie/2010/dv-7-10-11"/>
+          <FRBRdate date="2010-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="11"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-7-10-11/bul@2010-01-26/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-7-10-11/bul@2010-01-26"/>
+          <FRBRdate date="2010-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-7-10-11/bul@2010-01-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-7-10-11/bul@2010-01-26.xml"/>
+          <FRBRdate date="2010-01-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-01-26" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1 от 7 януари 2010 г. На основание чл. 25 ЗБНБ Българската народна</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1 от 7 януари 2010 г. На основание чл. 25 ЗБНБ Българската народна банка пуска в обращение считано от 22 февруари 2010 г. сребърна възпоменателна монета с нанесе­ но частично позлатяване „140 години Българска екзархия“ със следното описание: Технически параметри: номинална стойност – 10 лв.; метал – сребро с проба 925/1000 с позлатяване; тегло – 20 г; диаметър – 40 мм; гурт – гладък; качество – мат-гланц, висше; година на емисия – 2010; тираж – 6000 броя. Графични елементи: На лицевата страна на монетата е изобразена емблемата на Българската народна банка с годината „1879“, изписана върху лентата. Под емблемата е изобразен флорален мотив, а под него – номинал­ ната стойност на монетата „10“, долната половина на цифрите на която навлизат в позлатения пръстен. Околовръст в позлатения пръстен са изписани „БЪЛ­ ГАРСКА НАРОДНА БАНКА“, „ЛЕВА“ и годината на емисия „2010“. На обратната страна на монетата е изобразено авторско пластично композиционно решение по литографията на Николай Павлович „Паметник на църковния въпрос“. Околовръст в позлатен пръстен са надписите „140 ГОДИНИ“ и „БЪЛГАРСКА ЕК­ ЗАРХИЯ“, разделени с две кръстчета. Автор на художествения проект е Ваня Димитрова. Управител: Ив. Искров 347 СТОЛИЧНА ОБЩИНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

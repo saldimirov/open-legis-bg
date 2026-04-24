@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-39/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-39"/>
+          <FRBRalias value="Решение № 769 от 28 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 769 от 28 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2010/dv-98-10-39"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="39"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-39/bul@2010-12-14/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-39/bul@2010-12-14"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-98-10-39/bul@2010-12-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-98-10-39/bul@2010-12-14.xml"/>
+          <FRBRdate date="2010-12-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-14" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 769 от 28 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 769 от 28 октомври 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и предложение с вх. № ОС-011-605 от 12.08.2010 г. от кмета на общината Общинският съвет – гр. Банско, реши: Одобрява подробен устройствен план – парце­ ларен план за – кабели 20 kV и тръбна мрежа и МКТП 20/0,4 kV до 2 × 800 kVa за „Туристически комплекс“ и „Многофункционална жилищна сграда“ в ПИ с идентификатор № 02676.176.110, 02676.176.102, 02676.176.117 по кадастралната карта на гр. Банско, одобрена със Заповед № РД-18-81 от 10.12.2009 г. (стар идентификатор ПИ 176100, 176102 3 176117, местността Св. Иван, землището на гр. Банско), община Банско, област Благоевград. На основание чл. 215, ал. 4 ЗУТ в 14-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Банско до Административния съд – Благоевград. Председател: Вл. Колчагов 10160</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

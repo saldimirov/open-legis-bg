@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-15"/>
+          <FRBRalias value="Постановление № 306 ОТ 20 ДЕКЕМВРИ 2010 Г. за предоставяне на допълнителни средства за" name="short"/>
+          <FRBRalias value="Постановление № 306 ОТ 20 ДЕКЕМВРИ 2010 Г. за предоставяне на допълнителни средства за" name="eli" other="/eli/bg/postanovlenie/2010/dv-101-10-15"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-15/bul@2010-12-28/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-15/bul@2010-12-28"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-101-10-15/bul@2010-12-28/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-101-10-15/bul@2010-12-28.xml"/>
+          <FRBRdate date="2010-12-28" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-28" name="Държавен вестник" number="101" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 306 ОТ 20 ДЕКЕМВРИ 2010 Г. за предоставяне на допълнителни средства за</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Министърът на финансите да пре­ достави допълнителни средства в размер до 3 800 000 лв. за окончателни плащания по проекти, изпълнявани от Министерството на образованието, младежта и науката по Опе­ ративна програма „Развитие на човешките ресурси“ 2007 – 2013 г., съобразно текущото изпълнение на републиканския бюджет за 2010 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>За възстановените през 2011 г. сред­ ства за извършените плащания по реда на чл. 1 не се предоставя лимит по бюджета на Министерството на образованието, младежта и науката.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Средствата по чл. 1 да се осигурят по реда на чл. 34, ал. 1 от Закона за устройството на държавния бюджет чрез преструктуриране на разходите по централния бюджет за 2010 г.</p>
+        </content>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <content>
+          <p>Министърът на финансите по пред­ ложение на министъра на образованието, младежта и науката да извърши налагащите се промени по бюджета на Министерството на образованието, младежта и науката за 2010 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на осно­ вание чл. 28, ал. 1 от Закона за устройството на държавния бюджет.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на финансите и на министъра на образованието, младежта и науката.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 15 декември 2010 г. За министър-председател: Цветан Цветанов Главен секретар на Министерския съвет: Росен Желязков 10814 БРОЙ 101 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 73</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

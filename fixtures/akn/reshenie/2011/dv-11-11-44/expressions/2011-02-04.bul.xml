@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-44/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-44"/>
+          <FRBRalias value="Решение № 1156 от 30 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 1156 от 30 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА" name="eli" other="/eli/bg/reshenie/2011/dv-11-11-44"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="44"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-44/bul@2011-02-04/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-44/bul@2011-02-04"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-11-11-44/bul@2011-02-04/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-11-11-44/bul@2011-02-04.xml"/>
+          <FRBRdate date="2011-02-04" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-02-04" name="Държавен вестник" number="11" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1156 от 30 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1156 от 30 ноември 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Несебър, одобрява ПУП – ПП за елементи на техническата инфраструктура извън границите на урбанизираните територии – обект „Външно ел. захранване – кабели 20 kV за захран­ ване на трафопост тип БКТП в ПИ 51500.83.14 по кадастралната карта на гр. Несебър, м. Кокалу“. Трасето на кабела е с дължина 1073,5 м, започва от съществуващ ТП „Виана“, преминава през ПИ 51500.82.50 – полски път, ПИ 51500.79.16 – пол­ ски път, ПИ 51500.78.23 – полски път, и ПИ 51500.77.38 – полски път, и достига до БКТП – нов в ПИ 51500.83.14 съобразно приложените чертежи и таблици със съответните цветове, сигнатури, надписи и размери, неразделна част от решението. Решението може да бъде оспорено в 30-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Бургас. Председател: Бл. Филипов 981 ОБЩИНА ПЕРНИК</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

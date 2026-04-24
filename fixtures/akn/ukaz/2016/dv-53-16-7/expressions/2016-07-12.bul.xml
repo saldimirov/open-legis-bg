@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-53-16-7/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-53-16-7"/>
+          <FRBRalias value="Указ № 229 На основание чл. 100, ал. 2 от Конститу­" name="short"/>
+          <FRBRalias value="Указ № 229 На основание чл. 100, ал. 2 от Конститу­" name="eli" other="/eli/bg/ukaz/2016/dv-53-16-7"/>
+          <FRBRdate date="2016-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-53-16-7/bul@2016-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-53-16-7/bul@2016-07-12"/>
+          <FRBRdate date="2016-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-53-16-7/bul@2016-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-53-16-7/bul@2016-07-12.xml"/>
+          <FRBRdate date="2016-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-12" name="Държавен вестник" number="53" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 229 На основание чл. 100, ал. 2 от Конститу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 229 На основание чл. 100, ал. 2 от Конститу­ цията на Република България и чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръ­ жените сили на Република България П О С Т А Н О В Я В А М : 1. Освобождавам комодор Мален Стефанов Чубенков от длъжността командир на Воен­ номорската база, считано от 1 юли 2016 г. 2. Назначавам комодор Мален Стефанов Чубенков на длъжността командир на фло­ тилия бойни и спомагателни кораби, считано от 1 юли 2016 г. Изпълнението на указа възлагам на ми­ нистъра на отбраната. Издаден в София на 1 юли 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

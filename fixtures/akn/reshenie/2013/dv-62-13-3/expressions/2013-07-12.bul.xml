@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-3/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-3"/>
+          <FRBRalias value="Решение № 4 от 4 юли 2013 г." name="short"/>
+          <FRBRalias value="Решение № 4 от 4 юли 2013 г." name="eli" other="/eli/bg/reshenie/2013/dv-62-13-3"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-3/bul@2013-07-12/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-3/bul@2013-07-12"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-62-13-3/bul@2013-07-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-62-13-3/bul@2013-07-12.xml"/>
+          <FRBRdate date="2013-07-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-07-12" name="Държавен вестник" number="62" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 4 от 4 юли 2013 г.</p>
+      <p>(обн., ДВ, бр. 78 от 2000 г., последно изм., бр. 15 от 2013 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 14.</num>
+        <content>
+          <p>В работата си Комисията се подпо- мага от дирекция „Информация и анализ“ в рамките на специализираната администрация на Народното събрание. Взаимодействието на Комисията с дирекцията се осъществява на основата на вътрешна инструкция.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 15.</num>
+        <content>
+          <p>Председателят на Комисията може да привлича експерти по граждански договори. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Настоящите Вътрешни правила са при- ети от Комисията на основание чл. 16, ал. 2, т. 3 от Правилника за организацията и дейността на Народното събрание и влизат в сила след утвърждаването им от Народното събрание.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>За неуредените в настоящите Вътреш- ни правила случаи в работата на Комисията се прилага Правилникът за организацията и дейността на Народното събрание. 5445</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

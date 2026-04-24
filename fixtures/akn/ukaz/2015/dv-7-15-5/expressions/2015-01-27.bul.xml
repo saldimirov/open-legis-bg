@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-5/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-5"/>
+          <FRBRalias value="Указ № 4 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 4 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2015/dv-7-15-5"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-5/bul@2015-01-27/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-5/bul@2015-01-27"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-7-15-5/bul@2015-01-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-7-15-5/bul@2015-01-27.xml"/>
+          <FRBRdate date="2015-01-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-27" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 4 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 25 от 2009 г.; изм., бр. 26 от 2010 г.)</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>С методиката се урежда начинът за определяне на минималния размер на кон- цесионното плащане за морските плажове.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>С методиката се цели справедливото разпределение на икономическата изгода от концесията за морски плаж между концедента и концесионера, като се отчита основното задължение на концесионера да осигурява и извършва задължителните дейности на мор- ския плаж съгласно § 1, т. 1 от допълнител- ните разпоредби на Закона за устройството на Черноморското крайбрежие.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <paragraph eId="art_3__al_1">
+          <num>(1)</num>
+          <content>
+            <p>Концесионното плащане е па- ричният еквивалент, който концесионерът дължи на концедента за предоставеното му право на експлоатация на морския плаж за срока на концесията.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_3__al_2">
+          <num>(2)</num>
+          <content>
+            <p>За всяка година от срока на концесията концесионерът дължи годишни концесионни плащания.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_4">
+        <num>Чл. 4.</num>
+        <intro>
+          <p>Размерът на годишното концесионно плащане се определя по формулата ГКП = БИКП х Р,</p>
+        </intro>
+        <paragraph eId="art_4__al_1">
+          <num>(1)</num>
+          <content>
+            <p>където: ГКП е размерът на концесионното плащане за съответната година в левове; БИКП – базата за изчисляване размера на концесионното плащане в левове; Р – размерът на отчисленията от базата за изчисляване размера на концесионното плаща- не, наричан по-нататък „роялти“, в проценти.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_5">
+        <num>Чл. 5.</num>
+        <intro>
+          <p>Базата за изчисляване размера на концесионното плащане (БИКП) се определя по формулата: БИКП = ПППМ х БПМ х Клб,</p>
+        </intro>
+        <paragraph eId="art_5__al_1">
+          <num>(2)</num>
+          <content>
+            <p>където: ПППМ е прогнозираният приход от едно плажно място в левове;</p>
+          </content>
+        </paragraph>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-87-25-14/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-87-25-14"/>
+          <FRBRalias value="Постановление № 209 от 13 октомври 2025 г. за одобряване на Тарифа за таксите, събирани от Агенцията за ядрено регулиране по Закона за безопасно използване на ядрената енергия" name="short"/>
+          <FRBRalias value="Постановление № 209 от 13 октомври 2025 г. за одобряване на Тарифа за таксите, събирани от Агенцията за ядрено регулиране по Закона за безопасно използване на ядрената енергия" name="eli" other="/eli/bg/postanovlenie/2025/dv-87-25-14"/>
+          <FRBRdate date="2025-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="14"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-87-25-14/bul@2025-10-17/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-87-25-14/bul@2025-10-17"/>
+          <FRBRdate date="2025-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-87-25-14/bul@2025-10-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-87-25-14/bul@2025-10-17.xml"/>
+          <FRBRdate date="2025-10-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-10-17" name="Държавен вестник" number="87" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 209 от 13 октомври 2025 г. за одобряване на Тарифа за таксите, събирани от Агенцията за ядрено регулиране по Закона за безопасно използване на ядрената енергия</p>
+      <p>(обн., ДВ, бр. 85 от 2003 г.; изм. и доп., бр. 37 от 2018 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Отменя се Тарифата за таксите, събирани от Агенцията за ядрено регулиране по Закона за безопасно използване на ядрената енергия, приета с Постановление № 206 на Министерския съвет от 2003 г. (обн., ДВ, бр. 85 от 2003 г.; изм. и доп., бр. 37 от 2018 г.).</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

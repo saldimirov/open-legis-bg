@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-8/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-8"/>
+          <FRBRalias value="Указ № 31 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279," name="short"/>
+          <FRBRalias value="Указ № 31 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279," name="eli" other="/eli/bg/ukaz/2013/dv-21-13-8"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-8/bul@2013-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-8/bul@2013-03-01"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-21-13-8/bul@2013-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-21-13-8/bul@2013-03-01.xml"/>
+          <FRBRdate date="2013-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-01" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 31 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 279,</p>
+      <p>(обн., ДВ, бр. 65 от 2008 г.; изм. и доп., бр. 24 от 2009 г., бр. 50 от 2010 г., бр. 5, 89, 99 и 105 от 2011 г. и бр. 71 от 2012 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 3, ал. 5 думите „7 декември“ се заменят с „30 ноември“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

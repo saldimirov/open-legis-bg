@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-50-17-6/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-50-17-6"/>
+          <FRBRalias value="Решение № 86 от 25 май 2017 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="short"/>
+          <FRBRalias value="Решение № 86 от 25 май 2017 г. На основание чл. 21, ал. 1, т. 11 и ал. 2" name="eli" other="/eli/bg/reshenie/2017/dv-50-17-6"/>
+          <FRBRdate date="2017-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-50-17-6/bul@2017-06-23/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-50-17-6/bul@2017-06-23"/>
+          <FRBRdate date="2017-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-50-17-6/bul@2017-06-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-50-17-6/bul@2017-06-23.xml"/>
+          <FRBRdate date="2017-06-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-06-23" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 86 от 25 май 2017 г. На основание чл. 21, ал. 1, т. 11 и ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 86 от 25 май 2017 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съ­ вет – гр. Пазарджик, реши: Одобрява подробен устройствен план – пар­ целарен план за трасе на подземен водопровод с дължина на трасето 152 м: започва от съществу­ ващ водопровод PEHD ∅ 63, разположен в имот, общинска собственост, ПИ 000432 – полски път, преминава през него и достига ПИ 048040, който следва да бъде захранен, съгласно изчертаното със зелено трасе и сервитут и приложения регистър на засегнатите имоти. Председател: Х. Харалампиев 4439 ОБЩИНА ПЕТРИЧ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

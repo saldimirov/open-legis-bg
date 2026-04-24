@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-17/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-17"/>
+          <FRBRalias value="Решение № 341 от 28 май 2025 г. за признаване на Сдружение „Съюз на слепите в България“ за национално представителна организация" name="short"/>
+          <FRBRalias value="Решение № 341 от 28 май 2025 г. за признаване на Сдружение „Съюз на слепите в България“ за национално представителна организация" name="eli" other="/eli/bg/reshenie/2025/dv-45-25-17"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="17"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-17/bul@2025-06-03/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-17/bul@2025-06-03"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-45-25-17/bul@2025-06-03/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-45-25-17/bul@2025-06-03.xml"/>
+          <FRBRdate date="2025-06-03" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-06-03" name="Държавен вестник" number="45" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 341 от 28 май 2025 г. за признаване на Сдружение „Съюз на слепите в България“ за национално представителна организация</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>МИНИСТЕРСКИЯТ СЪВЕТ РЕШИ: Признава Сдружение „Съюз на слепите в България“ със седалище и адрес – гр. София, ул. „Найчо Цанов“ № 172, регистрирано по описа на Софийския градски съд под № 1518, том/страница 23/190, по ф.д. № 15940/1993 г., с ЕИК 000703155, за национално представителна организация на хора с увреждания за срок 4 години считано от 9 май 2025 г.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

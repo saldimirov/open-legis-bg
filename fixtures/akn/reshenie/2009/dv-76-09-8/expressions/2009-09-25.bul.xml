@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-8/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-8"/>
+          <FRBRalias value="Решение № 744 ОТ 16 СЕПТЕМВРИ 2009 Г. за еднократно обявяване на 25 септември 2009 г." name="short"/>
+          <FRBRalias value="Решение № 744 ОТ 16 СЕПТЕМВРИ 2009 Г. за еднократно обявяване на 25 септември 2009 г." name="eli" other="/eli/bg/reshenie/2009/dv-76-09-8"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-8/bul@2009-09-25/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-8/bul@2009-09-25"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-76-09-8/bul@2009-09-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-76-09-8/bul@2009-09-25.xml"/>
+          <FRBRdate date="2009-09-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-09-25" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 744 ОТ 16 СЕПТЕМВРИ 2009 Г. за еднократно обявяване на 25 септември 2009 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>(петък) за официален празник за работещите на територията на община Добрич На основание чл. 154, ал. 2 от Кодекса на труда и чл. 55, ал. 2 от Закона за държавния служител МИНИСТЕРСКИЯТ СЪВЕТ Р Е Ш И : Обявява еднократно 25 септември 2009 г. (петък) за официален празник за работещите на територията на община Добрич.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

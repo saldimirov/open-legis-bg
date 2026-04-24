@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-28/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-28"/>
+          <FRBRalias value="Решение № 700 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 700 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2013/dv-22-13-28"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-28/bul@2013-03-05/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-28/bul@2013-03-05"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-22-13-28/bul@2013-03-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-22-13-28/bul@2013-03-05.xml"/>
+          <FRBRdate date="2013-03-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-03-05" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 700 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 700 от 30 януари 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 ЗУТ и предвид фактическите ос­ нования в докладна записка вх. № ДЗ-687 от 4.12.2012 г. от кмета на общината Общинският съвет – Асеновград, реши: Одобрява ПУП – ПРЗ – план за регулация и застрояване на ПИ с КИ № 00702.7.28 по кадас­ тралната карта на Асеновград, като се образува нов УПИ 00702.7.28, дърводелска работилница, съгласно нанесените червена и сини регулационни линии и надписи със син цвят. Установява се режим на застрояване съгласно нанесените ограничителни линии на застрояване с червен цвят, котировки с черен цвят и показа­ тели на режима на застрояване със син цвят на приложения проект. Решението да се съобщи чрез обнародване в „Държавен вестник“ на заинтересуваните лица, които могат да го обжалват в едномесечен срок от обнародването му в „Държавен вестник“ пред Административния съд – Пловдив, чрез Общин­ ския съвет – Асеновград. Председател: Св. Шуманов 1899 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

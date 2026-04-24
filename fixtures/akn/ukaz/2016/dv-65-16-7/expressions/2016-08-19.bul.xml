@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-7/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-7"/>
+          <FRBRalias value="Указ № 282 На основание чл. 100, ал. 2 от Конститу­" name="short"/>
+          <FRBRalias value="Указ № 282 На основание чл. 100, ал. 2 от Конститу­" name="eli" other="/eli/bg/ukaz/2016/dv-65-16-7"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="7"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-7/bul@2016-08-19/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-7/bul@2016-08-19"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-65-16-7/bul@2016-08-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-65-16-7/bul@2016-08-19.xml"/>
+          <FRBRdate date="2016-08-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-08-19" name="Държавен вестник" number="65" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 282 На основание чл. 100, ал. 2 от Конститу­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>цията на Република България, чл. 19, т. 4, чл. 146, т. 1, чл. 169 от Закона за отбраната и въоръжените сили на Република България и във връзка с подаден рапорт П О С Т А Н О В Я В А М : Освобождавам генерал-майор Румен Ге­ оргиев Радев от длъжността „командир на Военновъздушните сили“ и от военна служба. Изпълнението на указа възлагам на ми­ нистъра на отбраната. Издаден в София на 10 август 2016 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

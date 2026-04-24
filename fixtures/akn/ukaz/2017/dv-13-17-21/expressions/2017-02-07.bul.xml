@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-21/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-21"/>
+          <FRBRalias value="Указ № 76 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 76 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2017/dv-13-17-21"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-21/bul@2017-02-07/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-21/bul@2017-02-07"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-13-17-21/bul@2017-02-07/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-13-17-21/bul@2017-02-07.xml"/>
+          <FRBRdate date="2017-02-07" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-02-07" name="Държавен вестник" number="13" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 76 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 76 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463, ал. 5 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на кмет- ство Гара Орешец, община Димово, област Видин, на 30 април 2017 г. Издаден в София на 2 февруари 2017 г. Президент на Републиката: Румен Радев Подпечатан с държавния печат. Министър на правосъдието: Мария Павлова 982</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

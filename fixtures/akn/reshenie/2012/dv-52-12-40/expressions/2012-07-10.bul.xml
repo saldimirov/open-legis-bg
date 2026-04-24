@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-40/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-40"/>
+          <FRBRalias value="Решение № 143 от 12 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 143 от 12 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-52-12-40"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="40"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-40/bul@2012-07-10/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-40/bul@2012-07-10"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-52-12-40/bul@2012-07-10/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-52-12-40/bul@2012-07-10.xml"/>
+          <FRBRdate date="2012-07-10" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-10" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 143 от 12 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 143 от 12 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1 и чл. 59, ал. 1 ЗУТ и при наличи­ ето на условията на чл. 24, ал. 1 ЗОЗЗ Общин­ ският съвет – Крумовград, одобрява подробен устройствен план (ПУП) – план за регулация и застрояване за об. „Гробищен парк“ в землището на с. Звънарка, мах. Козино, в обхват поземлен имот № 000126 по КВС на землище с. Звънарка, актуван с акт за частна общинска собственост № 4649 от 3.09.2011 г. Председател: М. Байрамали 6135 БРОЙ 52 Д Ъ Р Ж А В Е Н В Е С Т Н И К СТР. 67 ОБЩИНА КУБРАТ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

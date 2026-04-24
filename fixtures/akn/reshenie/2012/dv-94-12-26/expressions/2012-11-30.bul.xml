@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-26/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-26"/>
+          <FRBRalias value="Решение № 281 от 30 октомври 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="short"/>
+          <FRBRalias value="Решение № 281 от 30 октомври 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският" name="eli" other="/eli/bg/reshenie/2012/dv-94-12-26"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-26/bul@2012-11-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-26/bul@2012-11-30"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-94-12-26/bul@2012-11-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-94-12-26/bul@2012-11-30.xml"/>
+          <FRBRdate date="2012-11-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-30" name="Държавен вестник" number="94" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 281 от 30 октомври 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 281 от 30 октомври 2012 г. На основание чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Враца, реши: Одобрява проект за подробен устройствен план (парцеларен план) за „Високоволтова линия (ВЛ) 20 kV и мачтов трафопост (МТП) 160 kVА, 20/0,4 kV“ за присъединяване на „База за производство на амонити“ в поземлен имот № 091020, местност Говедарника в землището на с. Лиляче, към съществуващ въздушен електро­ провод „Лиляче“. Решението може да бъде обжалвано чрез Об­ щина Враца пред Административния съд – Враца, в 14-дневен срок от обнародването в „Държавен вестник“. Председател: П. Аврамова 10703 ОБЩИНА ГАБРОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-10/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-10"/>
+          <FRBRalias value="Указ № 156 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4 и чл. 146," name="short"/>
+          <FRBRalias value="Указ № 156 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4 и чл. 146," name="eli" other="/eli/bg/ukaz/2011/dv-50-11-10"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="10"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-10/bul@2011-07-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-10/bul@2011-07-01"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-50-11-10/bul@2011-07-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-50-11-10/bul@2011-07-01.xml"/>
+          <FRBRdate date="2011-07-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-07-01" name="Държавен вестник" number="50" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 156 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4 и чл. 146,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 156 На основание чл. 100, ал. 2 от Конституцията на Република България, чл. 19, т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С ТА Н О В Я В А М : 1. Освобождавам контраадмирал Пламен Иванов Манушев от длъжността началник на Военноморските сили, считано от 1 юли 2011 г. 2. Назначавам контраадмирал Пламен Иванов Манушев на длъжността командир на Военноморските сили, считано от 1 юли 2011 г. Изпълнението на указа възлагам на минис­ търа на отбраната. Издаден в София на 22 юни 2011 г. Президент на републиката: Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

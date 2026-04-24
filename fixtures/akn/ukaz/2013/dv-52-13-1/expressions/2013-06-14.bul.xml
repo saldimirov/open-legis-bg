@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-52-13-1/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-52-13-1"/>
+          <FRBRalias value="Указ № 116 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 116 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2013/dv-52-13-1"/>
+          <FRBRdate date="2013-06-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-52-13-1/bul@2013-06-14/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-52-13-1/bul@2013-06-14"/>
+          <FRBRdate date="2013-06-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-52-13-1/bul@2013-06-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-52-13-1/bul@2013-06-14.xml"/>
+          <FRBRdate date="2013-06-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-06-14" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 116 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 116 На основание чл. 98, т. 4 от Конституцията на Република България П О С Т А Н О В Я В А М : Да се обнародва в „Държавен вестник“ Законът за денонсиране на Техническото споразумение между министъра на отбраната на Кралство Белгия, Министерството на от­ браната на Република България, Федералното министерство на отбраната на Федерална република Германия, Министерството на националната отбрана на Република Гърция, министъра на отбраната на Република Италия, министъра на отбраната на Кралство Нидер­ ландия, министъра на националната отбрана на Република Полша, министъра на нацио­ налната отбрана на Румъния, министъра на отбраната на Кралство Испания, началника на Турския Генерален щаб, държавния секретар по отбраната на Обединеното кралство Велико­ британия и Северна Ирландия, Департамента по отбраната на Съединените американски щати, Щаба на Върховното главно командване (ВГК) на Обединените въоръжени сили (ОВС) на НАТО в Европа (SHAPE) и министъра на отбраната на Френската република относно окомплектоването с личен състав, финан­ сирането, административното ръководство и поддръжката на щаб на Корпуса за бързо реагиране – Франция (HQ RRC – FR), същият и щаб на Корпуса за бързо развръщане на НАТО (HQ NRDC), приет от 42-то Народно събрание на 5 юни 2013 г. Издаден в София на 10 юни 2013 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Зинаида Златанова</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-88-18-12/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-88-18-12"/>
+          <FRBRalias value="Решение за промяна в състава на Комисията по отбрана" name="short"/>
+          <FRBRalias value="Решение за промяна в състава на Комисията по отбрана" name="eli" other="/eli/bg/reshenie/2018/dv-88-18-12"/>
+          <FRBRdate date="2018-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-88-18-12/bul@2018-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-88-18-12/bul@2018-10-23"/>
+          <FRBRdate date="2018-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-88-18-12/bul@2018-10-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-88-18-12/bul@2018-10-23.xml"/>
+          <FRBRdate date="2018-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-10-23" name="Държавен вестник" number="88" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за промяна в състава на Комисията по отбрана</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Народното събрание на основание чл. 79, ал. 1 от Конституцията на Република България и чл. 21, ал. 3 и чл. 23, ал. 4 от Правилника за организацията и дейността на Народното събрание Р Е Ш И : 1. Освобождава Запрян Василев Янков като член на Комисията по отбрана. 2. Избира Валентин Иванов Радев и Калин Димитров Василев за членове на Комисията по отбрана. Решението е прието от 44-то Народно съб- рание на 18 октомври 2018 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

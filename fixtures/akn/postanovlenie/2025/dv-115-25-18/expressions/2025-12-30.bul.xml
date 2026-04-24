@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-18/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-18"/>
+          <FRBRalias value="Постановление № 342 от 23 декември 2025 г. за одобряване на промени по бюджета на Министерството на икономиката и индустрията за 2025 г. във връзка с увеличаване капитала на търговски дружества" name="short"/>
+          <FRBRalias value="Постановление № 342 от 23 декември 2025 г. за одобряване на промени по бюджета на Министерството на икономиката и индустрията за 2025 г. във връзка с увеличаване капитала на търговски дружества" name="eli" other="/eli/bg/postanovlenie/2025/dv-115-25-18"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-18/bul@2025-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-18/bul@2025-12-30"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2025/dv-115-25-18/bul@2025-12-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2025/dv-115-25-18/bul@2025-12-30.xml"/>
+          <FRBRdate date="2025-12-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2025-12-30" name="Държавен вестник" number="115" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 342 от 23 декември 2025 г. за одобряване на промени по бюджета на Министерството на икономиката и индустрията за 2025 г. във връзка с увеличаване капитала на търговски дружества</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <intro>
+          <p>(1) Одобрява промени по бюджета на Министерството на икономиката и индустрията за 2025 г. за допълнителни плащания в частта на финансирането на бюджетното салдо за сметка на централния бюджет в размер на 83 103 300 лв. за увеличаване капитала на търговски дружества, в които правата на държавата като едноличен собственик на капитала се упражняват от министъра на икономиката и индустрията.</p>
+        </intro>
+        <paragraph eId="art_1__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Средствата по ал. 1 да бъдат използвани за увеличение капитала на: „Иганово“ ЕАД в размер на 82 144 900 лв. и на „Държавната консолидационна компания“ ЕАД в размер на 958 400 лв. за увеличаване капитала на „Вазовски машиностроителни заводи“ ЕАД с цел финансиране на инвестиционни проекти в сектор „Отбрана и сигурност“.</p>
+          </content>
+        </paragraph>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <intro>
+          <p>(1) Министърът на икономиката и индустрията да извърши съответните промени по бюджета на Министерството на икономиката и индустрията за 2025 г. и да уведоми министъра на финансите.</p>
+        </intro>
+        <paragraph eId="art_2__al_1">
+          <num>(2)</num>
+          <content>
+            <p>Министърът на финансите да извърши произтичащите от чл. 1 промени по централния бюджет за 2025 г.</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>Заключителни разпоредби</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основание чл. 109, ал. 4, т. 1 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на икономиката и индустрията.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Постановлението влиза в сила от 23 декември 2025 г.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

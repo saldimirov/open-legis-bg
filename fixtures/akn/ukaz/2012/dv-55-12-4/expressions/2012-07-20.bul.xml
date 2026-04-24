@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-4/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-4"/>
+          <FRBRalias value="Указ № 274 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 41 и 42 от Закона за защита от дискриминация" name="short"/>
+          <FRBRalias value="Указ № 274 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 41 и 42 от Закона за защита от дискриминация" name="eli" other="/eli/bg/ukaz/2012/dv-55-12-4"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-4/bul@2012-07-20/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-4/bul@2012-07-20"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-55-12-4/bul@2012-07-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-55-12-4/bul@2012-07-20.xml"/>
+          <FRBRdate date="2012-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-20" name="Държавен вестник" number="55" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 274 На основание чл. 98, т. 7 от Конституцията на Република България във връзка с чл. 41 и 42 от Закона за защита от дискриминация</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>П О С Т А Н О В Я В А М : Назначавам София Кирилова Йовчева за член на Комисията за защита от дискрими­ нация. Издаден в София на 13 юли 2012 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Диана Ковачева 6868</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-9/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-9"/>
+          <FRBRalias value="Указ № 71 за награждаване на генерал-майор Георги Иванов Иванов - първия летец-космонавт на Република България, с орден “Стара планина” първа степен с мечове" name="short"/>
+          <FRBRalias value="Указ № 71 за награждаване на генерал-майор Георги Иванов Иванов - първия летец-космонавт на Република България, с орден “Стара планина” първа степен с мечове" name="eli" other="/eli/bg/ukaz/2004/dv-24-04-9"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-9/bul@2004-03-23/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-9/bul@2004-03-23"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-24-04-9/bul@2004-03-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-24-04-9/bul@2004-03-23.xml"/>
+          <FRBRdate date="2004-03-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-03-23" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 71 за награждаване на генерал-майор Георги Иванов Иванов - първия летец-космонавт на Република България, с орден “Стара планина” първа степен с мечове</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 24, от дата 23.3.2004 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.17</p>
+          <p>Указ № 71 за награждаване на генерал-майор Георги Иванов Иванов - първия летец-космонавт на Република България, с орден “Стара планина” първа степен с мечове</p>
+          <p>УКАЗ № 71</p>
+          <p>На основание чл. 98, т. 8 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Награждавам генерал-майор Георги Иванов Иванов - първия летец-космонавт на Република България, с орден “Стара планина” първа степен с мечове за изключителния му принос за развитието на космическите иследвания и по повод 25-годишнината от първия полет на българин в Космоса.</p>
+          <p>Издаден в София на 10 март 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

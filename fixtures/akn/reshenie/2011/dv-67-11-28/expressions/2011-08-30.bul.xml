@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-28/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-28"/>
+          <FRBRalias value="Решение № 895 от 29 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 895 от 29 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-67-11-28"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-28/bul@2011-08-30/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-28/bul@2011-08-30"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-67-11-28/bul@2011-08-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-67-11-28/bul@2011-08-30.xml"/>
+          <FRBRdate date="2011-08-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-08-30" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 895 от 29 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 895 от 29 юли 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 във връзка с чл. 110, ал. 1, т. 5 ЗУТ и протокол № 9 от 2011 г. на ОЕСУТ, т. 12, Общинският съвет – гр. Костинброд, одобрява проект за ПУП – ПП (подробен устройствен план – парцеларен план) за елементи на техниче­ ската инфраструктура – газопроводно отклонение, ∅ 63, от с. Петърч по поземлени имоти 550 и 553 по полски пътища – община Костинброд. Председател: В. Михайлов 10084</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

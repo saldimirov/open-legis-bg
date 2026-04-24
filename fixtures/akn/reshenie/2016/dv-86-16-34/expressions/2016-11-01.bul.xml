@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-34/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-34"/>
+          <FRBRalias value="Решение № 327 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 327 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-86-16-34"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-34/bul@2016-11-01/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-34/bul@2016-11-01"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-86-16-34/bul@2016-11-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-86-16-34/bul@2016-11-01.xml"/>
+          <FRBRdate date="2016-11-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-11-01" name="Държавен вестник" number="86" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 327 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 327 от 27 септември 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 62, ал. 2 и 3 АПК Общинският съвет – гр. По- морие, прави поправка на явна фактическа грешка в свое Решение № 1347 от 26 март 2015 г. (ДВ, бр. 32 от 2015 г.), като текстът „с отреждане „За предимно производствена зона“ се заличава. Настоящото решение да се счита за нераздел- на част от Решение № 1347 от 26 март 2015 г. на Общинския съвет – гр. Поморие. Председател: А. Адамов 8569 СТР. 74 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 86</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-43/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-43"/>
+          <FRBRalias value="Решение № 466 от 4 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 466 от 4 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2014/dv-34-14-43"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="43"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-43/bul@2014-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-43/bul@2014-04-15"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-43/bul@2014-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-43/bul@2014-04-15.xml"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-15" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 466 от 4 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 466 от 4 март 2014 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. При­ морско, реши: Одобрява представения проект за изменение на ПУП (ПРЗ) за част от УПИ I в кв. 51 и кв. 52 по плана на гр. Приморско с цел уширение на уличната регулация на ул. Тропик в участъ­ ка от о.т. 44а до о.т. 217 и ул. Стара планина в участъка от о.т. 9 до о.т. 219 и обособяване на новообразувани УПИ I „за друг вид озеленяване (защитен пояс)“ в кв. 51а и УПИ I „за друг вид озеленяване (защитен пояс)“, УПИ II „за друг вид озеленяване (защитен пояс)“ и УПИ III „за ТП“ в кв. 52 по плана на гр. Приморско. Председател: М. Барцулева 2487 ОБЩИНА СТРАЖИЦА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

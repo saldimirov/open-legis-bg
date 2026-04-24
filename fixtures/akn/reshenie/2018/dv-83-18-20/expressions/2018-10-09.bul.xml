@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-20/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-20"/>
+          <FRBRalias value="Решение № 505 от 26 септември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 505 от 26 септември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА," name="eli" other="/eli/bg/reshenie/2018/dv-83-18-20"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="20"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-20/bul@2018-10-09/main"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-20/bul@2018-10-09"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2018/dv-83-18-20/bul@2018-10-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2018/dv-83-18-20/bul@2018-10-09.xml"/>
+          <FRBRdate date="2018-10-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2018-10-09" name="Държавен вестник" number="83" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 505 от 26 септември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 505 от 26 септември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА, чл. 134, ал. 1, т. 3 във връзка с чл. 129, ал. 1 от ЗУТ Общинският съвет – гр. Лом, одобрява ПУП – парцеларен план за обект „Укрепване на свлачище – кв. Боруна, гр. Лом“. Председател: Хр. Христова 8743</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

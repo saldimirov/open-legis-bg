@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-32/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-32"/>
+          <FRBRalias value="Решение № 562 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 562 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2011/dv-18-11-32"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="32"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-32/bul@2011-03-01/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-32/bul@2011-03-01"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-18-11-32/bul@2011-03-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-18-11-32/bul@2011-03-01.xml"/>
+          <FRBRdate date="2011-03-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-01" name="Държавен вестник" number="18" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 562 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 562 от 28 януари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ и Решение № 2 на Общинския експертен съвет по устройство на територията, взето на редовното му заседание с протокол № 7 от 29.11.2010 г., Общинският съ­ вет – гр. Мизия, одобрява подробен устройствен план (ПУП) за промяна на предназначението на УПИ ХVІІІ, кад. № 192 в кв. 13 по плана на гр. Мизия и преотреждане на ПИ № 000344 от КВС в землището на гр. Мизия за гробищен парк. Председател: Д. Вичева 2523</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

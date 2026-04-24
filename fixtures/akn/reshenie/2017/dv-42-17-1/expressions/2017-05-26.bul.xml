@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-42-17-1/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-42-17-1"/>
+          <FRBRalias value="Решение № 249 от 11 май 2017 г. за изменение и допълнение на Технически" name="short"/>
+          <FRBRalias value="Решение № 249 от 11 май 2017 г. за изменение и допълнение на Технически" name="eli" other="/eli/bg/reshenie/2017/dv-42-17-1"/>
+          <FRBRdate date="2017-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-42-17-1/bul@2017-05-26/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-42-17-1/bul@2017-05-26"/>
+          <FRBRdate date="2017-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-42-17-1/bul@2017-05-26/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-42-17-1/bul@2017-05-26.xml"/>
+          <FRBRdate date="2017-05-26" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-05-26" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 249 от 11 май 2017 г. за изменение и допълнение на Технически</p>
+      <p>(обн., ДВ, бр. 98 от 2007 г.; изм., бр. 1 от 2011 г.; изм. и доп., бр. 29 от 2015 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 9 се изменя и допълва така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 9.</num>
+          <content>
+            <p>При проектирането на цифрови елек­ тронни съобщителни мрежи от радиослужба „Радиоразпръскване“ броят на предавателите в една едночестотна мрежа се определя от пред­ приятието. Изборът на системна конфигурация се прави в зависимост от конкретното прило­ жение, като техническите параметри могат да варират спрямо тези, заложени в еталонните конфигурации RPC 2 (посочени в RRC 06/ GE06), RPC 4 (посочени в RRC 06/GE06), и тези, посочени в Rep. ITU-R BT.2254.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>В чл. 14 т. 4 се изменя така: „4. медианна стойност на интензитета на електромагнитното поле (ЕМП) – да е не по- малка от стойностите, посочени в приложение № 9.“ МИНИСТЕРСТВА И ДРУГИ ВЕДОМСТВА ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

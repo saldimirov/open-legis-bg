@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-23/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-23"/>
+          <FRBRalias value="Решение № 223 от 15 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 223 от 15 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2014/dv-14-14-23"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-23/bul@2014-02-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-23/bul@2014-02-18"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-14-14-23/bul@2014-02-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-14-14-23/bul@2014-02-18.xml"/>
+          <FRBRdate date="2014-02-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-02-18" name="Държавен вестник" number="14" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 223 от 15 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 223 от 15 октомври 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ, докладна записка с вх. № ДЗО-173 от 10.09.2013 г. от Цветалин Василев Пенков – кмет на община Девин, и становище от ПК по СПОСПУРОИУТиЕТ Об­ щинският съвет – гр. Девин, одобрява проект за ПУП – ПП за обект „Оптична кабелна линия на територията на община Девин“, преминаващ през имоти: 20465.505.5101; 20465.505.5108; 20465.501.1; 20465.505.23; 20465.506.638; 20465.506.637; 20465.506.518; 20465.607.23 и 20465.702.306. Председател: Мл. Исаев 944 ОБЩИНА КАМЕНО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

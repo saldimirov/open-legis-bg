@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-16"/>
+          <FRBRalias value="Тарифа за таксите, които се събират за производ­" name="short"/>
+          <FRBRalias value="Тарифа за таксите, които се събират за производ­" name="eli" other="/eli/bg/tarifa/2016/dv-28-16-16"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-16/bul@2016-04-08/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-16/bul@2016-04-08"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-28-16-16/bul@2016-04-08/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-28-16-16/bul@2016-04-08.xml"/>
+          <FRBRdate date="2016-04-08" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-04-08" name="Държавен вестник" number="28" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Тарифа за таксите, които се събират за производ­</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>За производството по жалби пред Комисията за защита на конкуренцията се събира такса, определена върху посочената от възложителя прогнозна стойност на общест- вената поръчка, съответно върху посочената прогнозна стойност на обособената позиция, както следва: 1. за поръчки на стойност до 1 000 000 лв. – 850 лв.; 2. за поръчки на стойност от 1 000 000 до 5 000 000 лв. – 1700 лв.; 3. за поръчки на стойност над 5 000 000 лв. – 4500 лв.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <paragraph eId="art_2__al_1">
+          <num>(1)</num>
+          <content>
+            <p>За касационното производство пред Върховния административен съд се съ- бира пропорционална такса в половин размер на таксите по чл. 1.</p>
+          </content>
+        </paragraph>
+        <paragraph eId="art_2__al_2">
+          <num>(2)</num>
+          <content>
+            <p>За производствата по частни жалби пред Върховния административен съд, образувани по реда на Закона за обществените поръчки, се събира пропорционална такса в размер 10 на сто от внесените или дължимите такси по чл. 1 и по ал. 1, но не по-малко от 100 лв. ПРЕХОДНИ И ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</p>
+          </content>
+        </paragraph>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>За жалби, подадени след 15 април 2016 г., по процедури, които са открити преди тази дата, размерът на таксата се определя въз основа на информация за прогнозната стой- ност на поръчката, посочена в обявлението или представена от възложителя.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>По висящите производства пред Ко- мисията за защита на конкуренцията и пред Върховния административен съд, по които са събрани държавни такси, допълнителни такси не се събират.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Тарифата се одобрява на основание чл. 220, ал. 1 от Закона за обществените поръчки. 2610</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

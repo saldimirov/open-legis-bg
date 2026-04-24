@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-98-16-16/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-98-16-16"/>
+          <FRBRalias value="Решение № 584 от 22 ноември 2016 г. за изменение на Технически изисквания за" name="short"/>
+          <FRBRalias value="Решение № 584 от 22 ноември 2016 г. за изменение на Технически изисквания за" name="eli" other="/eli/bg/reshenie/2016/dv-98-16-16"/>
+          <FRBRdate date="2016-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-98-16-16/bul@2016-12-09/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-98-16-16/bul@2016-12-09"/>
+          <FRBRdate date="2016-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-98-16-16/bul@2016-12-09/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-98-16-16/bul@2016-12-09.xml"/>
+          <FRBRdate date="2016-12-09" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-12-09" name="Държавен вестник" number="98" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 584 от 22 ноември 2016 г. за изменение на Технически изисквания за</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>В чл. 2 се създава нова т. 7 със след- ното съдържание: „7. 800 MHz – приложение № 7.“</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Член 4 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 4.</num>
+          <content>
+            <p>Техническите характеристики и па- раметрите на радиосъоръженията от мрежите по чл. 1 са посочени в приложения № 1, 2, 3, 4, 5, 6 и 7.“</p>
+          </content>
+        </article>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>В чл. 5 думите „в приложение № 7“ се заменят с „в приложение № 8“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_4" name="modification">
+          <num>§ 4.</num>
+          <intro>
+            <p>В чл. 6: 1. Алинея 1 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_4__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Електронните съобщения чрез мрежи- те по чл. 1 се осъществяват само когато при правилно монтиране, поддържане и използ- ване по предназначение радиосъоръженията съответстват на изискванията на Наредбата за съществените изисквания и оценяване съответствието на радиосъоръжения (ДВ, бр. 32 от 2016 г.), Наредбата за съществените в т.ч.: сътрудници по управление на европейски проекти и програми 13 служители в териториалните звена 70 дирекция „Външноикономическа политика“ 98 дирекция „Регистриране, лицензиране и контрол“ 13“. Заключителна разпоредба</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_5" name="modification">
+          <num>§ 13.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-15/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-15"/>
+          <FRBRalias value="Указ № 407 На основание чл. 98, т. 4 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 407 На основание чл. 98, т. 4 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2009/dv-102-09-15"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-15/bul@2009-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-15/bul@2009-12-22"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2009/dv-102-09-15/bul@2009-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2009/dv-102-09-15/bul@2009-12-22.xml"/>
+          <FRBRdate date="2009-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2009-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 407 На основание чл. 98, т. 4 от Конституцията на Република България</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 4.</num>
+          <content>
+            <p>В чл. 3, ал. 5 думите „по т. 4 – 10“ се заменят с „по т. 5 – 13“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 5.</num>
+          <content>
+            <p>Член 5 се изменя така: „</p>
+          </content>
+        </hcontainer>
+        <article eId="sec_final__art_1">
+          <num>Чл. 5.</num>
+          <content>
+            <p>Комисията изпълнява следните аналитични, консултативни и координационни функции: 1. може да получава, съхранява и анали­ зира информация от компетентните органи в съответствие с определените им от закона правомощия относно причините и условията, пораждащи престъпност; 2. организира изготвянето на проучвания и периодични виктимизационни доклади във връзка с равнището и тенденциите на престъп­ ността в страната; 3. организира анализа на съществуващите практики с оглед препоръчване на съответните компетентни органи на адекватни действия за премахване на условията, пораждащи прес­ тъпност; 4. организира анализа на съществуващите ресурси на национално и местно ниво с оглед изготвянето на препоръки за тяхното адек­ ватно разходване според определените цели и приоритети; МИНИСТЕРСКИ СЪВЕТ</p>
+          </content>
+        </article>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

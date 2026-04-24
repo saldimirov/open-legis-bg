@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-15/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-15"/>
+          <FRBRalias value="Постановление № 301 ОТ 14 ДЕКЕМВРИ 2010 Г. за предоставяне на средства на Детския фонд на Организацията на обединените нации" name="short"/>
+          <FRBRalias value="Постановление № 301 ОТ 14 ДЕКЕМВРИ 2010 Г. за предоставяне на средства на Детския фонд на Организацията на обединените нации" name="eli" other="/eli/bg/postanovlenie/2010/dv-100-10-15"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="15"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-15/bul@2010-12-21/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-15/bul@2010-12-21"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-100-10-15/bul@2010-12-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-100-10-15/bul@2010-12-21.xml"/>
+          <FRBRdate date="2010-12-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-12-21" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ms" showAs="Министерски съвет"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Постановление № 301 ОТ 14 ДЕКЕМВРИ 2010 Г. за предоставяне на средства на Детския фонд на Организацията на обединените нации</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 1.</num>
+        <content>
+          <p>Предоставя средства в размер 159 553 лв. на УНИЦЕФ – България, за съз­ даване на мрежа от услуги за подкрепа на семейства и родители на малки деца по проект „Семейство за всяко дете“.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 2.</num>
+        <content>
+          <p>Средствата по чл. 1 да се предоставят на УНИЦЕФ – България, чрез бюджета на Министерството на финансите за 2010 г. за сметка на преструктуриране и/или на икономии на разходите по централния бюджет за 2010 г.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 3.</num>
+        <content>
+          <p>Министърът на финансите да извър­ ши налагащите се промени по бюджета на</p>
+        </content>
+      </article>
+    </body>
+  </act>
+</akomaNtoso>

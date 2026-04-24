@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-57/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-57"/>
+          <FRBRalias value="Решение № 482 от 17 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 482 от 17 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-80-11-57"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="57"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-57/bul@2011-10-14/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-57/bul@2011-10-14"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-80-11-57/bul@2011-10-14/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-80-11-57/bul@2011-10-14.xml"/>
+          <FRBRdate date="2011-10-14" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-14" name="Държавен вестник" number="80" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 482 от 17 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 482 от 17 септември 2011 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Белослав, одобрява ПУП – ПЗ на ПИ 000554, м. Кованлъка, землището на гр. Белослав, във връзка с преот­ реждането на същия от „Производствен терен“ за „Цех за производство на дървени въглища в затворено помещение“. Решението подлежи на обжалване в 30-дневен срок от обнародването в „Държавен вестник“ чрез Общинския съвет – гр. Белослав, пред Варнен­ ския административен съд. Председател: Ив. Сърмов 11144</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

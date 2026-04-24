@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-50/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-50"/>
+          <FRBRalias value="Решение № 461 от 26 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 461 от 26 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2013/dv-93-13-50"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="50"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-50/bul@2013-10-25/main"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-50/bul@2013-10-25"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2013/dv-93-13-50/bul@2013-10-25/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2013/dv-93-13-50/bul@2013-10-25.xml"/>
+          <FRBRdate date="2013-10-25" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2013-10-25" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 461 от 26 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 461 от 26 септември 2013 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съ­ вет – гр. Смолян, одобрява подробен устройствен план – парцеларен план за обект: „Съоръжение за пречистване на инфилтратните води от Реги­ онално депо за твърди отпадъци – гр. Смолян“, с трасе, преминаващо през ПИ с идентификатори: 564.3, 564.11, 564.7, 576.546, 578.4, 577.553, 577.552, 577.1, 577.550, 578.2, 509.334, 509.7, 580.518, 580.519, 509.11, 580.517, 580.1, 510.4 и 582.1, в местностите Герзовица, Барчината и Дълбок прослоп, землище Смолян, община Смолян. Председател: Ф. Топов 7799</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

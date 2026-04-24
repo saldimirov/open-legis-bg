@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-56-16-12/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-56-16-12"/>
+          <FRBRalias value="Решение № 13 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 13 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2016/dv-56-16-12"/>
+          <FRBRdate date="2016-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="12"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-56-16-12/bul@2016-07-20/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-56-16-12/bul@2016-07-20"/>
+          <FRBRdate date="2016-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-56-16-12/bul@2016-07-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-56-16-12/bul@2016-07-20.xml"/>
+          <FRBRdate date="2016-07-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-07-20" name="Държавен вестник" number="56" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 13 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 13 от 30 юни 2016 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Трън, реши: Одобрява изменение на УПИ VI-227, кв. 8, по подробния устройствен план на с. Лялинци, община Трън. Регулационните линии на УПИ VI-227 се изместват по имотните граници на ПИ 227, при което се променя уличната регу­ лационна линия между осови точки 12 – 18 в частта, попадаща в ПИ 227, съгласно изготве­ ния проект. Решението подлежи на обжалване по реда на чл. 215 ЗУТ в 30-дневен срок от обнародването му в „Държавен вестник“. Председател: В. Шишкова 5772</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

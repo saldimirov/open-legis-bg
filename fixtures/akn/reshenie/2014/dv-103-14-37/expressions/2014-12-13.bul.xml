@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-103-14-37/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-103-14-37"/>
+          <FRBRalias value="Решение № 415 от 27 ноември 2014 г. На основание чл. 21, ал. 1, т. 8 и 11, чл. 44, ал. 2" name="short"/>
+          <FRBRalias value="Решение № 415 от 27 ноември 2014 г. На основание чл. 21, ал. 1, т. 8 и 11, чл. 44, ал. 2" name="eli" other="/eli/bg/reshenie/2014/dv-103-14-37"/>
+          <FRBRdate date="2014-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="37"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-103-14-37/bul@2014-12-13/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-103-14-37/bul@2014-12-13"/>
+          <FRBRdate date="2014-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-103-14-37/bul@2014-12-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-103-14-37/bul@2014-12-13.xml"/>
+          <FRBRdate date="2014-12-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-12-13" name="Държавен вестник" number="103" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 415 от 27 ноември 2014 г. На основание чл. 21, ал. 1, т. 8 и 11, чл. 44, ал. 2</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 415 от 27 ноември 2014 г. На основание чл. 21, ал. 1, т. 8 и 11, чл. 44, ал. 2 ЗМСМА във връзка с чл. 129, ал. 1, чл. 134, ал. 2, т. 2, § 8, ал. 2, т. 3 ЗУТ във връзка с Решение № 1 на ЕСУТ, взето с протокол № 8 от 26.11.2014 г. Общинският съвет – Велинград, реши: Одобрява ПУП – нов план за регулация на Велинград, включващ кадастрални райони 505, 506 по плана на гр. Велинград. С плана за регулация дворищнорегулационните линии на имотите, попадащи в тези кадастрални райони, се поставят в съответствие с имотните граници на имотите. Уличнорегулационният план не се изменя. Председател: Д. Кехайова 8714 ОБЩИНА ДОЛНА БАНЯ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

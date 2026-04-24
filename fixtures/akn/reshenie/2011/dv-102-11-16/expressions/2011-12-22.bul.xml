@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-16/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-16"/>
+          <FRBRalias value="Решение № 10 от 22 ноември 2011 г. На основание чл. 30, чл. 16, т. 1 и чл. 17, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 10 от 22 ноември 2011 г. На основание чл. 30, чл. 16, т. 1 и чл. 17, ал. 1," name="eli" other="/eli/bg/reshenie/2011/dv-102-11-16"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="16"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-16/bul@2011-12-22/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-16/bul@2011-12-22"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-102-11-16/bul@2011-12-22/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-102-11-16/bul@2011-12-22.xml"/>
+          <FRBRdate date="2011-12-22" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-12-22" name="Държавен вестник" number="102" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 10 от 22 ноември 2011 г. На основание чл. 30, чл. 16, т. 1 и чл. 17, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 10 от 22 ноември 2011 г. На основание чл. 30, чл. 16, т. 1 и чл. 17, ал. 1, т. 4 и 5 ЗАТУРБ Общинският съвет – гр. Мон­ тана, закрива кметства: Безденица, Винище, Долна Рикса, Долна Вереница, Горна Вереница, Крапчене, Липен и Сумер. Председател: И. Иванов 13334 ОБЩИНА МЪГЛИЖ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

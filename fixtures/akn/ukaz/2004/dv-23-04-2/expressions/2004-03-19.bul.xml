@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-23-04-2/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-23-04-2"/>
+          <FRBRalias value="Указ № 76 за назначаване на Константин Любенов Пенчев за председател на Върховния административен съд на Република България" name="short"/>
+          <FRBRalias value="Указ № 76 за назначаване на Константин Любенов Пенчев за председател на Върховния административен съд на Република България" name="eli" other="/eli/bg/ukaz/2004/dv-23-04-2"/>
+          <FRBRdate date="2004-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-23-04-2/bul@2004-03-19/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-23-04-2/bul@2004-03-19"/>
+          <FRBRdate date="2004-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-23-04-2/bul@2004-03-19/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-23-04-2/bul@2004-03-19.xml"/>
+          <FRBRdate date="2004-03-19" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-03-19" name="Държавен вестник" number="23" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 76 за назначаване на Константин Любенов Пенчев за председател на Върховния административен съд на Република България</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 23, от дата 19.3.2004 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.1</p>
+          <p>Указ № 76 за назначаване на Константин Любенов Пенчев за председател на Върховния административен съд на Република България</p>
+          <p>ПРЕЗИДЕНТ НА РЕПУБЛИКАТА</p>
+          <p>УКАЗ № 76</p>
+          <p>На основание чл. 129, aл. 2 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Назначавам Константин Любенов Пенчев за председател на Върховния административен съд на Република България.</p>
+          <p>Издаден в София на 16 март 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:  Антон Станков</p>
+          <p>5371</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

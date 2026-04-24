@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-66-05-9/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-66-05-9"/>
+          <FRBRalias value="Указ № 252 за насрочване на частичен избор за кмет на община София, област София-град, на 29 октомври 2005 г." name="short"/>
+          <FRBRalias value="Указ № 252 за насрочване на частичен избор за кмет на община София, област София-град, на 29 октомври 2005 г." name="eli" other="/eli/bg/ukaz/2005/dv-66-05-9"/>
+          <FRBRdate date="2005-08-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-66-05-9/bul@2005-08-12/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-66-05-9/bul@2005-08-12"/>
+          <FRBRdate date="2005-08-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-66-05-9/bul@2005-08-12/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-66-05-9/bul@2005-08-12.xml"/>
+          <FRBRdate date="2005-08-12" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-08-12" name="Държавен вестник" number="66" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 252 за насрочване на частичен избор за кмет на община София, област София-град, на 29 октомври 2005 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 66, от дата 12.8.2005 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.6</p>
+          <p>Указ № 252 за насрочване на частичен избор за кмет на община София, област София-град, на 29 октомври 2005 г.</p>
+          <p>УКАЗ № 252</p>
+          <p>На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 106, ал. 1 от Закона за местните избори</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Насрочвам частичен избор за кмет на община София, област София-град, на 29 октомври 2005 г.</p>
+          <p>Издаден в София на 4 август 2005 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:  Антон Станков</p>
+          <p>53935</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

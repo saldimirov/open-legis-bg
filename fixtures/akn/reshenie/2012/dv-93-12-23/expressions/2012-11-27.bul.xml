@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-93-12-23/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-93-12-23"/>
+          <FRBRalias value="Решение № 244 от 12 октомври 2012 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 244 от 12 октомври 2012 г. На основание чл. 20 във връзка с чл. 17, ал. 1," name="eli" other="/eli/bg/reshenie/2012/dv-93-12-23"/>
+          <FRBRdate date="2012-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="23"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-93-12-23/bul@2012-11-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-93-12-23/bul@2012-11-27"/>
+          <FRBRdate date="2012-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-93-12-23/bul@2012-11-27/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-93-12-23/bul@2012-11-27.xml"/>
+          <FRBRdate date="2012-11-27" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-11-27" name="Държавен вестник" number="93" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 244 от 12 октомври 2012 г. На основание чл. 20 във връзка с чл. 17, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>т. 2 ЗМСМА, чл. 129, ал. 1, чл. 134, ал. 2, т. 6 и чл. 135, ал. 3 ЗУТ Общинският съвет – гр. Кос­ тинброд, одобрява изменение на ПУП – ПУР на ул. Гео Милев от о.т. 326 до о.т. 342а и ул. Искър от о.т. 348а до о.т. 327 по плана на гр. Костинброд. Председател: В. Михайлов 10612</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

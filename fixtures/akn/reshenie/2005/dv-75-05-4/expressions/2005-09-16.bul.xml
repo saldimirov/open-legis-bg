@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2005/dv-75-05-4/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-75-05-4"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="short"/>
+          <FRBRalias value="Решение за прекратяване пълномощията на народен представител" name="eli" other="/eli/bg/reshenie/2005/dv-75-05-4"/>
+          <FRBRdate date="2005-09-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2005/dv-75-05-4/bul@2005-09-16/main"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-75-05-4/bul@2005-09-16"/>
+          <FRBRdate date="2005-09-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2005/dv-75-05-4/bul@2005-09-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2005/dv-75-05-4/bul@2005-09-16.xml"/>
+          <FRBRdate date="2005-09-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2005-09-16" name="Държавен вестник" number="75" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за прекратяване пълномощията на народен представител</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Народно събрание          брой: 75, от дата 16.9.2005 г.   Официален раздел / НАРОДНО СЪБРАНИЕ    стр.2</p>
+          <p>Решение за прекратяване пълномощията на народен представител</p>
+          <p>РЕШЕНИЕ</p>
+          <p>за прекратяване пълномощията на народен   представител</p>
+          <p>Народното събрание на основание чл. 72, ал.ђ1, т. 1 и ал. 2 от Конституцията на Република България</p>
+          <p>РЕШИ:</p>
+          <p>Прекратява пълномощията на Гергана Христова Грънчарова, народен представител от 17. многомандатен избирателен район - Пловдивски.</p>
+          <p>Решението е прието от XL Народно събрание на 8 септември 2005 г. и е подпечатано с официалния печат на Народното събрание.</p>
+          <p>За председател на Народното събрание:  Любен Корнезов</p>
+          <p>82461</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

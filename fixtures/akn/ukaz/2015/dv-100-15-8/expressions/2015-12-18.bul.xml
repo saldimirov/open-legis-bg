@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-8/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-8"/>
+          <FRBRalias value="Указ № 264 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 264 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2015/dv-100-15-8"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-8/bul@2015-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-8/bul@2015-12-18"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-100-15-8/bul@2015-12-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-100-15-8/bul@2015-12-18.xml"/>
+          <FRBRdate date="2015-12-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-12-18" name="Държавен вестник" number="100" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 264 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ал. 5 от Изборния кодекс П О С Т А Н О В Я В А М : Насрочвам частичен избор за кмет на кметство Крушево, община Гърмен, област Благоевград, на 13 март 2016 г. Издаден в София на 11 декември 2015 г. Президент на републиката: Росен Плевнелиев Подпечатан с държавния печат. Министър на правосъдието: Христо Иванов 8193</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

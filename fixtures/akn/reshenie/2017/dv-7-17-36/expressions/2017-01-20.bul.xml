@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-36/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-36"/>
+          <FRBRalias value="Решение № 314 от 30 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 314 от 30 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА," name="eli" other="/eli/bg/reshenie/2017/dv-7-17-36"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="36"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-36/bul@2017-01-20/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-36/bul@2017-01-20"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-7-17-36/bul@2017-01-20/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-7-17-36/bul@2017-01-20.xml"/>
+          <FRBRdate date="2017-01-20" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-01-20" name="Държавен вестник" number="7" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 314 от 30 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 314 от 30 ноември 2016 г. На основание чл. 21, ал. 1, т. 11 и ал. 2 ЗМСМА, чл. 129, ал. 1 и чл. 134 ЗУТ Общинският съвет – гр. Белово, одобрява ЧИ ПУП – ПРЗ за квартали: 56, 74, 76, 78, 78а, 79, 109, 115, 116, 117, 118, 120, 121 и 122 по плана на гр. Белово, община Белово, област Пазарджик, като се променя отреждането за производствени и складови дейности. Председател: В. Савов 275 ОБЩИНА БЕЛОСЛАВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-6-15-13/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-6-15-13"/>
+          <FRBRalias value="Решение № 477 от 15 декември 2014 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="short"/>
+          <FRBRalias value="Решение № 477 от 15 декември 2014 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1," name="eli" other="/eli/bg/reshenie/2015/dv-6-15-13"/>
+          <FRBRdate date="2015-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="13"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-6-15-13/bul@2015-01-23/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-6-15-13/bul@2015-01-23"/>
+          <FRBRdate date="2015-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-6-15-13/bul@2015-01-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-6-15-13/bul@2015-01-23.xml"/>
+          <FRBRdate date="2015-01-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-01-23" name="Държавен вестник" number="6" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 477 от 15 декември 2014 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 477 от 15 декември 2014 г. На основание чл. 129, ал. 1 ЗУТ и чл. 21, ал. 1, т. 11 ЗМСМА Общинският съвет – гр. Карнобат, одобрява проект за ПУП – парцеларен план, засягащ ПИ № 000065, местност Пандорики, в землището на с. Венец, община Карнобат, за обект: „Стабилизиране на съществуващ горски път, преминаващ през отдел 115, подотдел 11, и отдел 116, подотдел 2, в землището на с. Венец, община Карнобат – ІІ етап от км 5+330 до км 5+437,67“. Председател: Т. Ченешев 216 ОБЩИНА МОМЧИЛГРАД</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

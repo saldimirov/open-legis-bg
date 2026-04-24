@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-34/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-34"/>
+          <FRBRalias value="Решение № 8 от 27 март 2014 г. На основание чл. 129, ал. 1 ЗУТ Общин­" name="short"/>
+          <FRBRalias value="Решение № 8 от 27 март 2014 г. На основание чл. 129, ал. 1 ЗУТ Общин­" name="eli" other="/eli/bg/reshenie/2014/dv-34-14-34"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="34"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-34/bul@2014-04-15/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-34/bul@2014-04-15"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-34-14-34/bul@2014-04-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-34-14-34/bul@2014-04-15.xml"/>
+          <FRBRdate date="2014-04-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-04-15" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 8 от 27 март 2014 г. На основание чл. 129, ал. 1 ЗУТ Общин­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 8 от 27 март 2014 г. На основание чл. 129, ал. 1 ЗУТ Общин­ ският съвет – гр. Камено, одобрява проект за ПУП – парцеларен план за определяне на трасе и площадка, с което се засягат 554 кв. м земеделска земя – Х категория, неполивна, преминаваща през имоти – частна собственост, за изграждане на газопровод за природен газ за захранване на „Комплекс за преработка на тежки остатъци „(КПТО)“. Засегнатите части са от имоти с № 051002, 051003, 051004, 051013, 051014, 051219 и 051220 в местността Сазлъка, землище гр. Камено, община Камено, област Бургас. Председател: Ст. Драганова 2482 ОБЩИНА КУКЛЕН</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-21/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-21"/>
+          <FRBRalias value="Договор № РД-НС-01-3-3 от 1 декември 2020 г. за изменение и допълнение на Национал-" name="short"/>
+          <FRBRalias value="Договор № РД-НС-01-3-3 от 1 декември 2020 г. за изменение и допълнение на Национал-" name="eli" other="/eli/bg/dogovor/2020/dv-105-20-21"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="21"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-21/bul@2020-12-11/main"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-21/bul@2020-12-11"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2020/dv-105-20-21/bul@2020-12-11/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2020/dv-105-20-21/bul@2020-12-11.xml"/>
+          <FRBRdate date="2020-12-11" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2020-12-11" name="Държавен вестник" number="105" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор № РД-НС-01-3-3 от 1 декември 2020 г. за изменение и допълнение на Национал-</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <intro>
+            <p>В Специалната част, глава седемнаде- сета „Извънболнична дентална помощ“, раздел ІV, чл. 105а, ал. 5 се изменя така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_1__al_1">
+            <num>(5)</num>
+            <content>
+              <p>За дейност м. декември 2020 г., подле- жаща на заплащане от бюджета на НЗОК за 2021 г., се прилагат цените по ал. 1.“ Преходни и заключителни разпоредби</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <intro>
+            <p>В параграф 5 ал. 3 от Договора за изменение и допълнение на Националния рамков договор за денталните дейности за 2020 – 2022 г. (ДВ, бр. 77 от 2020 г.) се из- меня така: „</p>
+          </intro>
+          <paragraph eId="sec_final__par_2__al_2">
+            <num>(3)</num>
+            <content>
+              <p>За периода от 1.12.2020 г. до 31.12.2020 г. НЗОК закупува дейностите от извънболнич- ната дентална помощ по приложение № 3 към чл. 1 от Наредба № 9 от 2019 г. по ред и в обеми, посочени в чл. 105, и по цени, посочени в чл. 105а.“ 22. Решението подлежи на обжалване относно неговата законосъобразност пред Комисията за защита на конкуренцията в 10-дневен срок от обнародването му в „Дър- жавен вестник“ по реда на глава шеста от Закона за концесиите.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-1/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-1"/>
+          <FRBRalias value="Указ № 82 за награждаване на д-р Валтер Ротенщайнер с орден “Мадарски конник” първа степен" name="short"/>
+          <FRBRalias value="Указ № 82 за награждаване на д-р Валтер Ротенщайнер с орден “Мадарски конник” първа степен" name="eli" other="/eli/bg/ukaz/2004/dv-31-04-1"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="1"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-1/bul@2004-04-16/main"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-1/bul@2004-04-16"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2004/dv-31-04-1/bul@2004-04-16/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2004/dv-31-04-1/bul@2004-04-16.xml"/>
+          <FRBRdate date="2004-04-16" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2004-04-16" name="Държавен вестник" number="31" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 82 за награждаване на д-р Валтер Ротенщайнер с орден “Мадарски конник” първа степен</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>Държавен вестник</p>
+          <p>Президент на републиката          брой: 31, от дата 16.4.2004 г.   Официален раздел / ПРЕЗИДЕНТ НА РЕПУБЛИКАТА    стр.2</p>
+          <p>Указ № 82 за награждаване на д-р Валтер Ротенщайнер с орден “Мадарски конник” първа степен</p>
+          <p>УКАЗ № 82</p>
+          <p>На основание чл. 98, т. 8 от Конституцията на Република България</p>
+          <p>ПОСТАНОВЯВАМ:</p>
+          <p>Награждавам д-р Валтер Ротенщайнер - генерален директор на “Райфайзенбанк” - първата чуждестранна банка, активна в България от 1992 г. и обявена в световните класации за банка на 2003 г. в Източна и Югоизточна Европа, с орден “Мадарски конник” първа степен за всеотдайната му работа за популяризиране на България в Австрия.</p>
+          <p>Издаден в София на 18 март 2004 г.</p>
+          <p>Президент на републиката:  Георги Първанов</p>
+          <p>Министър на външните работи:</p>
+          <p>Соломон Паси</p>
+          <p>Подпечатан с държавния печат.</p>
+          <p>Министър на правосъдието:  Антон Станков</p>
+          <p>18097</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

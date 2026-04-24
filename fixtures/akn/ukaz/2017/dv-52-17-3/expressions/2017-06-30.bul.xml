@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-52-17-3/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-52-17-3"/>
+          <FRBRalias value="Указ № 135 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 135 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2017/dv-52-17-3"/>
+          <FRBRdate date="2017-06-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="3"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-52-17-3/bul@2017-06-30/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-52-17-3/bul@2017-06-30"/>
+          <FRBRdate date="2017-06-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-52-17-3/bul@2017-06-30/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-52-17-3/bul@2017-06-30.xml"/>
+          <FRBRdate date="2017-06-30" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-06-30" name="Държавен вестник" number="52" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 135 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 135 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463, ал. 5 от Изборния кодекс НАРОДНО СЪБРАНИЕ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

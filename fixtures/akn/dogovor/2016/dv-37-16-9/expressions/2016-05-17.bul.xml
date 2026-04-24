@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2016/dv-37-16-9/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-37-16-9"/>
+          <FRBRalias value="Договор ЗА ЗАЛОГ" name="short"/>
+          <FRBRalias value="Договор ЗА ЗАЛОГ" name="eli" other="/eli/bg/dogovor/2016/dv-37-16-9"/>
+          <FRBRdate date="2016-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="9"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2016/dv-37-16-9/bul@2016-05-17/main"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-37-16-9/bul@2016-05-17"/>
+          <FRBRdate date="2016-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2016/dv-37-16-9/bul@2016-05-17/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2016/dv-37-16-9/bul@2016-05-17.xml"/>
+          <FRBRdate date="2016-05-17" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2016-05-17" name="Държавен вестник" number="37" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор ЗА ЗАЛОГ</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>между Република България като залогодател и Европейския инвестиционен фонд като заложен кредитор (Ратифициран със закон, приет от 43-то Народ- но събрание на 14 април 2016 г. – ДВ, бр. 33 от 2016 г. В сила от 26 април 2016 г.) НАСТОЯЩИЯТ ДОГОВОР ЗА ЗАЛОГ е сключен на 2 март 2016 г. и страните по него се съгласяват, че влиза автоматично в сила при настъпване на Датата на влизане в сила (определена по-долу) МЕЖДУ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

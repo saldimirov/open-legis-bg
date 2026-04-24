@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-26/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-26"/>
+          <FRBRalias value="Решение № 12 от 12 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 12 от 12 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-40-12-26"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="26"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-26/bul@2012-05-29/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-26/bul@2012-05-29"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-40-12-26/bul@2012-05-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-40-12-26/bul@2012-05-29.xml"/>
+          <FRBRdate date="2012-05-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-05-29" name="Държавен вестник" number="40" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 12 от 12 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 12 от 12 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1, чл. 59, ал. 1, чл. 110, ал. 1, т. 5 ЗУТ Общинският съвет – гр. Камено, реши: Одобрява ПУП – парцеларен план на обект: „Външно ел. захранване на ПТС № 5126 на „Гло­ бул“ в ПИ № 052001, м. Бааларе, в землището на с. Трояново, община Камено“. Председател: Ст. Драганова 4948</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

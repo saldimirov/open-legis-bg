@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2022/dv-76-22-4/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-76-22-4"/>
+          <FRBRalias value="Указ № 240 На основание чл. 100, ал. 2 от Конституцията на Република България във връзка с чл. 19," name="short"/>
+          <FRBRalias value="Указ № 240 На основание чл. 100, ал. 2 от Конституцията на Република България във връзка с чл. 19," name="eli" other="/eli/bg/ukaz/2022/dv-76-22-4"/>
+          <FRBRdate date="2022-09-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2022/dv-76-22-4/bul@2022-09-23/main"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-76-22-4/bul@2022-09-23"/>
+          <FRBRdate date="2022-09-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2022/dv-76-22-4/bul@2022-09-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2022/dv-76-22-4/bul@2022-09-23.xml"/>
+          <FRBRdate date="2022-09-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2022-09-23" name="Държавен вестник" number="76" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 240 На основание чл. 100, ал. 2 от Конституцията на Република България във връзка с чл. 19,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>т. 4 и чл. 146, т. 1 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : 1. Назначавам полковник Димитър Хри- стов Хлебаров на длъжността командир на Командване за комуникационно-информаци- онна поддръжка и киберотбрана, считано от 3 октомври 2022 г. 2. Удостоявам полковник Димитър Христов Хлебаров с висше офицерско звание „бригаден генерал“, считано от 3 октомври 2022 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 20 септември 2022 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

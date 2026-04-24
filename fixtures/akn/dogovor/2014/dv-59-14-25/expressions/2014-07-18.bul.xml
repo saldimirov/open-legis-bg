@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-25/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-25"/>
+          <FRBRalias value="Договор ЗА ФИСКАЛНО АГЕНТСТВО относно емитирането на Облигации на" name="short"/>
+          <FRBRalias value="Договор ЗА ФИСКАЛНО АГЕНТСТВО относно емитирането на Облигации на" name="eli" other="/eli/bg/dogovor/2014/dv-59-14-25"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-25/bul@2014-07-18/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-25/bul@2014-07-18"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-59-14-25/bul@2014-07-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-59-14-25/bul@2014-07-18.xml"/>
+          <FRBRdate date="2014-07-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-07-18" name="Държавен вестник" number="59" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Договор ЗА ФИСКАЛНО АГЕНТСТВО относно емитирането на Облигации на</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>стойност до 1 493 000 000 евро (или до равностойността в щатски долари), емитирани на един или повече траншове НАСТОЯЩИЯТ ДОГОВОР ЗА ФИСКАЛ­ НО АГЕНТСТВО се сключи на 21 май 2014 г. („Датата на сключване“) МЕЖДУ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

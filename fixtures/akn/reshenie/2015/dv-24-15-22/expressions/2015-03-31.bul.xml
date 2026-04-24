@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-22/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-22"/>
+          <FRBRalias value="Решение № 32 от 26 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="short"/>
+          <FRBRalias value="Решение № 32 от 26 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с" name="eli" other="/eli/bg/reshenie/2015/dv-24-15-22"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="22"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-22/bul@2015-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-22/bul@2015-03-31"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-22/bul@2015-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-22/bul@2015-03-31.xml"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-31" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 32 от 26 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 32 от 26 февруари 2015 г. На основание чл. 21, ал. 1, т. 11 във връзка с ал. 2 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Пазарджик, одобрява ПУП – парце- ларен план за трасе на захранващ електропровод НН с дължина на трасето 840 м от края на регу- лацията на с. Говедаре до ПИ 197001 в м. Горна лъка по КВС на землище Говедаре, разположен в сервитута на общински път Говедаре – Хаджиево, означен като ПИ 000231, съгласно изчертаните в червено трасе и сервитути и регистъра на за- сегнатите имоти. Председател: Х. Харалампиев 2083</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

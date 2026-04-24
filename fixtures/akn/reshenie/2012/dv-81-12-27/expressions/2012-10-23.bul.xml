@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-27/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-27"/>
+          <FRBRalias value="Решение № 256 от 28 септември 2012 г. На основание чл. 21, ал. 1, т. 8 във връзка" name="short"/>
+          <FRBRalias value="Решение № 256 от 28 септември 2012 г. На основание чл. 21, ал. 1, т. 8 във връзка" name="eli" other="/eli/bg/reshenie/2012/dv-81-12-27"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="27"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-27/bul@2012-10-23/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-27/bul@2012-10-23"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-81-12-27/bul@2012-10-23/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-81-12-27/bul@2012-10-23.xml"/>
+          <FRBRdate date="2012-10-23" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-10-23" name="Държавен вестник" number="81" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 256 от 28 септември 2012 г. На основание чл. 21, ал. 1, т. 8 във връзка</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 256 от 28 септември 2012 г. На основание чл. 21, ал. 1, т. 8 във връзка с ал. 2 ЗМСМА и чл. 129 ЗУТ Общинският съ- вет – гр. Белово, одобрява проект ПУП – ПП за обект: „Трасе на кабелна линия НН“ в землище- то на с. Сестримо, община Белово, и учредява съгласно чл. 67, ал. 2 от Закона за енергетиката безвъзмездно сервитутно право за изгрждане на „Кабелна линия НН“. Трасето на електропро- вода започва от съществуващ КРШ в южната страна на ПИ 000145 (път IV клас, местен път), пресича пътя и се насочва на запад до нов КРШ. Дължината на трасето е 106,13 м, а сервитутът е по 0,6 м от двете страни от оста на „Кабелна линия НН“, съобразен с разпоредбите на чл. 7, ал. 2 от Наредба № 16 от 2004 г. за сервитутите на енергийните обекти и чл. 2 от Наредба № 8 от 1999 г. за правила и норми за разполагане на технически проводи и съоръжения в населени места. За председател: Г. Генов 9648 ОБЩИНА ВЕЛИКО ТЪРНОВО</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

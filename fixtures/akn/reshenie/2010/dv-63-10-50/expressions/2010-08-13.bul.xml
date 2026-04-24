@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-50/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-50"/>
+          <FRBRalias value="Решение № 469 от 21 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="short"/>
+          <FRBRalias value="Решение № 469 от 21 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр." name="eli" other="/eli/bg/reshenie/2010/dv-63-10-50"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="50"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-50/bul@2010-08-13/main"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-50/bul@2010-08-13"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2010/dv-63-10-50/bul@2010-08-13/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2010/dv-63-10-50/bul@2010-08-13.xml"/>
+          <FRBRdate date="2010-08-13" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2010-08-13" name="Държавен вестник" number="63" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 469 от 21 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 469 от 21 юли 2010 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Смолян, одобрява обект: Подробен устройствен план – парцеларен план на част от пътя на гр. Смолян – с. Левочево, местност Белия камък, землището на Смолян. Председател: Ив. Апостолов 6473 ОБЩИНСКА АГЕНЦИЯ ЗА ПРИВАТИЗАЦИЯ – СТАРА ЗАГОРА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

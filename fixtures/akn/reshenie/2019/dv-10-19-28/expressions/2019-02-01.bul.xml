@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-28/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-28"/>
+          <FRBRalias value="Решение № 1006 от 17 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="short"/>
+          <FRBRalias value="Решение № 1006 от 17 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА" name="eli" other="/eli/bg/reshenie/2019/dv-10-19-28"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="28"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-28/bul@2019-02-01/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-28/bul@2019-02-01"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-10-19-28/bul@2019-02-01/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-10-19-28/bul@2019-02-01.xml"/>
+          <FRBRdate date="2019-02-01" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-02-01" name="Държавен вестник" number="10" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1006 от 17 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1006 от 17 декември 2018 г. На основание чл. 21, ал. 1, т. 11 от ЗМСМА във връзка с чл. 129, ал. 1 от ЗУТ Общин- ският съвет – гр. Смолян, одобрява подробен устройствен план – устройствена план-схема за обект: „Газификация на гр. Смолян“, подо- бект: „Газоразпределителни мрежи и откло- нения към абонати в централна градска част, етап 2, гр. Смолян, община Смолян“, с трасе, преминаващо през поземлени имоти с иденти- фикатори 67653.918.41, 67653.918.48, 67653.918.77, 67653.918.105, 67653.918.110, 67653.918.112, 67653.918.113 и 67653.918.160 по кадастралната карта на гр. Смолян. Председател: Д. Киряков 538 ОБЩИНА С. ВЕТРИНО, ОБЛАСТ ВАРНА</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

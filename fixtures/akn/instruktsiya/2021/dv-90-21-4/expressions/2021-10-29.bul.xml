@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2021/dv-90-21-4/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-90-21-4"/>
+          <FRBRalias value="Инструкция ЗА" name="short"/>
+          <FRBRalias value="Инструкция ЗА" name="eli" other="/eli/bg/instruktsiya/2021/dv-90-21-4"/>
+          <FRBRdate date="2021-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2021/dv-90-21-4/bul@2021-10-29/main"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-90-21-4/bul@2021-10-29"/>
+          <FRBRdate date="2021-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2021/dv-90-21-4/bul@2021-10-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2021/dv-90-21-4/bul@2021-10-29.xml"/>
+          <FRBRdate date="2021-10-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2021-10-29" name="Държавен вестник" number="90" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ministry" showAs="Министерство"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Инструкция ЗА</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>ОПАКОВАНЕ Специални разпоредби за опаковане Специални разпоредби за инструкции Специални разпоредби Код на цистерна Специални разпоредби Опаковки Насипни товари Натоварване, разтоварване и обработка</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-33/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-33"/>
+          <FRBRalias value="Решение № 880 от 22 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 880 от 22 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-21-11-33"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="33"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-33/bul@2011-03-15/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-33/bul@2011-03-15"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-21-11-33/bul@2011-03-15/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-21-11-33/bul@2011-03-15.xml"/>
+          <FRBRdate date="2011-03-15" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-15" name="Държавен вестник" number="21" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 880 от 22 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 880 от 22 февруари 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 и чл. 110, ал. 1, т. 3 ЗУТ Общинският съвет – Разград, реши: Одобрява проект за подробен устройствен план – план за застрояване, на обект „Жилищна сграда“ в поземлен имот с № 61710.609.4668 – зе­ меделска земя, в м. Арменски лозя по одобрената със Заповед № РД-18-37 от 10.03.2008 г. на изпъл­ нителния директор на АГКК кадастрална карта на землището на Разград, собственост на Цветомир Весков Тодоров, съгласно приложения проект. Решението подлежи на оспорване по реда на чл. 215 ЗУТ в 14-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Разград. Председател: Д. Добрев 2883 ОБЩИНА САМОКОВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-30/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-30"/>
+          <FRBRalias value="Решение № 03-7 от 23 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 03-7 от 23 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2012/dv-9-12-30"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="30"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-30/bul@2012-01-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-30/bul@2012-01-31"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-9-12-30/bul@2012-01-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-9-12-30/bul@2012-01-31.xml"/>
+          <FRBRdate date="2012-01-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-01-31" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 03-7 от 23 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 03-7 от 23 декември 2011 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Гене­ рал Тошево, реши: Одобрява ПУП – ПП за „Трасе на кабелно присъединяване към мрежа СрН“ на малка вятърна централа, разположена в ПИ 009055 и ПИ 009058 по КВС на с. Сърнино, ЕКАТТЕ 70634, община Генерал Тошево, с обща дължина 1545 линейни метра и преминаващо през ПИ 009055 – урбанизирана територия на възложителя, ПИ 009058 – урбанизирана територия на възло­ жителя, и ПИ 000007 – полски път на общината. Възлага на кмета на общината да извърши последващите съгласно закона действия. Председател: Н. Марчев 561</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

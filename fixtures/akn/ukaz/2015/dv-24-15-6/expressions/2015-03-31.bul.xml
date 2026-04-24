@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-6/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-6"/>
+          <FRBRalias value="Указ № 46 На основание чл. 100, ал. 2 от Конституция-" name="short"/>
+          <FRBRalias value="Указ № 46 На основание чл. 100, ал. 2 от Конституция-" name="eli" other="/eli/bg/ukaz/2015/dv-24-15-6"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="6"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-6/bul@2015-03-31/main"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-6/bul@2015-03-31"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2015/dv-24-15-6/bul@2015-03-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2015/dv-24-15-6/bul@2015-03-31.xml"/>
+          <FRBRdate date="2015-03-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2015-03-31" name="Държавен вестник" number="24" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 46 На основание чл. 100, ал. 2 от Конституция-</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 46 На основание чл. 100, ал. 2 от Конституция- та на Република България във връзка с чл. 146, т. 1 и чл. 162, т. 2 от Закона за отбраната и въоръжените сили на Република България П О С Т А Н О В Я В А М : Освобождавам контраадмирал Димитър Минев Денев от длъжността командир на Военноморските сили и от военна служба, считано от 13 април 2015 г. Изпълнението на указа възлагам на ми- нистъра на отбраната. Издаден в София на 24 март 2015 г. Президент на републиката: Росен Плевнелиев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

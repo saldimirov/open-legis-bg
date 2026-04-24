@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-18/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-18"/>
+          <FRBRalias value="Решение № 71 от 9 февруари 2012 г." name="short"/>
+          <FRBRalias value="Решение № 71 от 9 февруари 2012 г." name="eli" other="/eli/bg/reshenie/2012/dv-15-12-18"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="18"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-18/bul@2012-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-18/bul@2012-02-21"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-15-12-18/bul@2012-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-15-12-18/bul@2012-02-21.xml"/>
+          <FRBRdate date="2012-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-02-21" name="Държавен вестник" number="15" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 71 от 9 февруари 2012 г.</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 71 от 9 февруари 2012 г. Изработването на проекта е предизвикано от предстоящото изграждане на линията на метрото до метростанция № 20 и устройването на територията между границата на райони „Младост“ и „Дружба“ и ул. Капитан Димитър Списаревски. То е допуснато със заповед № РД- 09-50-1325 от 26.11.2009 г. на главния архитект на Столичната община на основание чл. 16 и чл. 124, ал. 2 ЗУТ в съответствие с неодобрения към момента на издаването є проект за изме- нение на Общ устройствен план на Столична община. Заповедта засяга територията, заклю- чена между „проектна улица, северозападно от СТР. 132 Д Ъ Р Ж А В Е Н В Е С Т Н И К БРОЙ 15 кв. 513 – административна граница между райо- ни „Искър“ и „Младост“ – ул. Христофор Ко- лумб – ул. Капитан Димитър Списаревски – ул. Илия Бешков – бул. Проф. Цветан Лазаров – ул. Обиколна. Изработеният проект е обявен чрез „Държавен вестник“ (ДВ, бр. 31 от 2010 г.). При обявяването на плана в законоустановения срок са постъпили 9 възражения (писмо изх. № 6602 – 102</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-17-17-2/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-17-17-2"/>
+          <FRBRalias value="Указ № 87 На основание чл. 98, т. 6 от Конституцията на Република България" name="short"/>
+          <FRBRalias value="Указ № 87 На основание чл. 98, т. 6 от Конституцията на Република България" name="eli" other="/eli/bg/ukaz/2017/dv-17-17-2"/>
+          <FRBRdate date="2017-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-17-17-2/bul@2017-02-21/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-17-17-2/bul@2017-02-21"/>
+          <FRBRdate date="2017-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-17-17-2/bul@2017-02-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-17-17-2/bul@2017-02-21.xml"/>
+          <FRBRdate date="2017-02-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-02-21" name="Държавен вестник" number="17" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 87 На основание чл. 98, т. 6 от Конституцията на Република България</p>
+      <p>(обн., ДВ, бр. 133 от 1998 г.; изм. и доп., бр. 38, 42 и 112 от 1999 г., бр. 30, 48 и 98 от 2000 г.; попр., бр. 100 от 2000 г.; изм. и доп., бр. 19 и 97 от 2001 г., бр. 26, 46, 81 и 118 от 2002 г., бр. 40 от 2003 г., бр. 115 от 2004 г., бр. 31 и 103 от 2005 г., бр. 54 и 93 от 2006 г., бр. 101 от 2007 г., бр. 26 от 2009 г., бр. 27, 41, 43, 45 и 50 от 2010 г., бр. 63 от 2011 г., бр. 17 и 73 от 2013 г., бр. 55 от 2014 г., бр. 63 от 2015 г. и бр. 89 от 2016 г.)</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>УКАЗ № 87 На основание чл. 98, т. 6 от Конституцията на Република България П О С Т А Н О В Я В А М : Назначавам Валентин Петров Модев за извънреден и пълномощен посланик на Ре- публика България в Република Гватемала със седалище в гр. Мексико, Мексикански съединени щати. Изпълнението на указа възлагам на ми- нистъра на външните работи. Издаден в София на 10 февруари 2017 г. Президент на Републиката: Румен Радев</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

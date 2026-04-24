@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2014/dv-96-14-5/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-96-14-5"/>
+          <FRBRalias value="Решение за даване на съгласие за подготовка за пое­" name="short"/>
+          <FRBRalias value="Решение за даване на съгласие за подготовка за пое­" name="eli" other="/eli/bg/reshenie/2014/dv-96-14-5"/>
+          <FRBRdate date="2014-11-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="5"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2014/dv-96-14-5/bul@2014-11-21/main"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-96-14-5/bul@2014-11-21"/>
+          <FRBRdate date="2014-11-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2014/dv-96-14-5/bul@2014-11-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2014/dv-96-14-5/bul@2014-11-21.xml"/>
+          <FRBRdate date="2014-11-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2014-11-21" name="Държавен вестник" number="96" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение за даване на съгласие за подготовка за пое­</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>мането на външен държавен дълг Народното събрание на основание чл. 84, т. 9 и чл. 86, ал. 1 от Конституцията на Ре­ публика България Р Е Ш И : Дава съгласие Министерският съвет да води преговори и да предприема всички други необходими действия за подготовка за поемането на външен държавен дълг, вклю­ чително чрез емисии на държавни ценни книжа на международните пазари, както и на средносрочна програма за емитиране на дълг на международните капиталови пазари, чийто размер в рамките на 2014 г. не може да надвишава 3,0 млрд. лв. или тяхната рав­ ностойност в друга валута, при условие за последваща ратификация. Решението е прието от 43-то Народно съб­ рание на 19 ноември 2014 г. и е подпечатано с официалния печат на Народното събрание.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

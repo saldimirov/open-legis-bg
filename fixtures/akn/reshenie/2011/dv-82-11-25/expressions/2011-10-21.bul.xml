@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-25/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-25"/>
+          <FRBRalias value="Решение № 1316 от 30 септември 2011 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и" name="short"/>
+          <FRBRalias value="Решение № 1316 от 30 септември 2011 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и" name="eli" other="/eli/bg/reshenie/2011/dv-82-11-25"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="25"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-25/bul@2011-10-21/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-25/bul@2011-10-21"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-82-11-25/bul@2011-10-21/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-82-11-25/bul@2011-10-21.xml"/>
+          <FRBRdate date="2011-10-21" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-10-21" name="Държавен вестник" number="82" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 1316 от 30 септември 2011 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 1316 от 30 септември 2011 г. На основание чл. 21, ал. 1, т. 23 ЗМСМА и чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Кар­ лово, реши: Допълва Решение № 1218, взето с протокол № 53 от 30.06.2011 г. (ДВ, бр. 53 от 2011 г.), като след думите „землище с. Марино поле“ се добавя текстът: „и през поземлени имоти 000066 – път ІV клас, публична общинска собственост, и 064080 – машиностроителна и машинообработ­ ваща промишленост, собственост на „КТЗ Бол­ гар“ – АД, в местността Тарла топрак, землище с. Ведраре. Председател: Т. Стоев 11283 ОБЩИНА КЪРДЖАЛИ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

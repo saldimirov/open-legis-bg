@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-56/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-56"/>
+          <FRBRalias value="Решение № 314 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="short"/>
+          <FRBRalias value="Решение № 314 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във" name="eli" other="/eli/bg/reshenie/2012/dv-58-12-56"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="56"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-56/bul@2012-07-31/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-56/bul@2012-07-31"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-58-12-56/bul@2012-07-31/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-58-12-56/bul@2012-07-31.xml"/>
+          <FRBRdate date="2012-07-31" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-07-31" name="Държавен вестник" number="58" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 314 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 314 от 28 юни 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА във връзка с чл. 129, ал. 1 ЗУТ Общинският съвет – гр. Стара Загора, реши: Одобрява подробен устройствен план – пар­ целарен план на елементите на техническата инфраструктура – кабелно трасе на обект: Външно ел. захранване за поземлен имот № 259.440, по плана на новообразуваните имоти на местност Съборената кюприя, землище гр. Стара Загора, с обща дължина на кабела – 7,90 м, собственост на Ивайло Иванов Пехливанов. Проектът е на разположение в сградата на общината, бул. Цар Симеон Велики 107, ет. 8, стая № 806. На основание чл. 215, ал. 4 ЗУТ в 30-дневен срок от обнародването в „Държавен вестник“ решението подлежи на обжалване чрез Община Стара Загора до Административния съд – Стара Загора. Председател: Е. Христов 6958</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

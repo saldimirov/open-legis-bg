@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2019/dv-9-19-19/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-9-19-19"/>
+          <FRBRalias value="Решение № 207 от 28 декември 2018 г. На основание чл. 62, ал. 2 от АПК и чл. 21," name="short"/>
+          <FRBRalias value="Решение № 207 от 28 декември 2018 г. На основание чл. 62, ал. 2 от АПК и чл. 21," name="eli" other="/eli/bg/reshenie/2019/dv-9-19-19"/>
+          <FRBRdate date="2019-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="19"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2019/dv-9-19-19/bul@2019-01-29/main"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-9-19-19/bul@2019-01-29"/>
+          <FRBRdate date="2019-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2019/dv-9-19-19/bul@2019-01-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2019/dv-9-19-19/bul@2019-01-29.xml"/>
+          <FRBRdate date="2019-01-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2019-01-29" name="Държавен вестник" number="9" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 207 от 28 декември 2018 г. На основание чл. 62, ал. 2 от АПК и чл. 21,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 207 от 28 декември 2018 г. На основание чл. 62, ал. 2 от АПК и чл. 21, ал. 1, т. 11 във връзка с ал. 2 от ЗМСМА Общин- ският съвет – гр. Пазарджик, реши: Поправя допусната очевидна фактическа грешка в Решение № 142 от 27.09.2018 г. (ДВ, бр. 89 от 2018 г.), взето с протокол № 9 на Общинския съвет – гр. Пазарджик: думите „ПИ 48444.11.47 (проектен)“ да се четат „ПИ 48444.11.11 (проектен)“. В остана лата част Решение № 142 от 27.09.2018 г., взето с протокол № 9 на Общин- ския съвет – гр. Пазарджик, не се изменя. Председател: Х. Харалампиев 413 ОБЩИНА „МАРИЦА“ – ОБЛАСТ ПЛОВДИВ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-8/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-8"/>
+          <FRBRalias value="Решение № 137 ОТ 11 МАРТ 2011 Г. за обявяване на населеното място село Игна­" name="short"/>
+          <FRBRalias value="Решение № 137 ОТ 11 МАРТ 2011 Г. за обявяване на населеното място село Игна­" name="eli" other="/eli/bg/reshenie/2011/dv-22-11-8"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="8"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-8/bul@2011-03-18/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-8/bul@2011-03-18"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-22-11-8/bul@2011-03-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-22-11-8/bul@2011-03-18.xml"/>
+          <FRBRdate date="2011-03-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-03-18" name="Държавен вестник" number="22" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 137 ОТ 11 МАРТ 2011 Г. за обявяване на населеното място село Игна­</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 20.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

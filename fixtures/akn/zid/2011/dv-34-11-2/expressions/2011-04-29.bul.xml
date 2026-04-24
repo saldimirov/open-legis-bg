@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-2/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-2"/>
+          <FRBRalias value="Закон за изменение на Закона за преобразуване на Строителните войски, Войските на Ми­" name="short"/>
+          <FRBRalias value="Закон за изменение на Закона за преобразуване на Строителните войски, Войските на Ми­" name="eli" other="/eli/bg/zid/2011/dv-34-11-2"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="2"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-2/bul@2011-04-29/main"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-2/bul@2011-04-29"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2011/dv-34-11-2/bul@2011-04-29/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2011/dv-34-11-2/bul@2011-04-29.xml"/>
+          <FRBRdate date="2011-04-29" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2011-04-29" name="Държавен вестник" number="34" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/ns" showAs="Народно събрание"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Закон за изменение на Закона за преобразуване на Строителните войски, Войските на Ми­</p>
+      <p>(обн., ДВ, бр. 57 от 2000 г.; изм. и доп., бр. 45 от 2002 г., бр. 35 и 81 от 2009 г. и бр. 87 от 2010 г.)</p>
+    </preface>
+    <body>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Член 3 се отменя. Заключителни разпоредби</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <paragraph eId="sec_final__par_2__al_1">
+            <num>(1)</num>
+            <content>
+              <p>Министерският съвет в 6-месечен срок от влизането в сила на този закон пре­ образува Държавно предприятие „Строител­ ство и възстановяване“ в еднолично търговско дружество чрез разпределяне на имуществото му в дялове или акции съгласно разпоредбите на Търговския закон.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_2__al_2">
+            <num>(2)</num>
+            <content>
+              <p>При преобразуването на държавното предприятие по ал. 1 в еднолично търговско дружество чл. 72 и 73 от Търговския закон не се прилагат за непаричните вноски на държавата. Оценката на непаричните вноски на държавата се извършва по реда на глава седма от Правилника за прилагане на Закона за държавната собственост (обн., ДВ, бр. 78 от 2006 г.; изм., бр. 26 и 51 от 2007 г., бр. 64, 80 и 91 от 2008 г., бр. 7, 25, 62 и 93 от 2009 г., бр. 31, 52, 58 и 69 от 2010 г.), а дълготрайните финансови активи се оценяват по счетоводната им стойност.</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_final__par_2__al_3">
+            <num>(3)</num>
+            <content>
+              <p>При преобразуването на държавното предприятие по ал. 1 в еднолично търговско дружество предоставеното му и придобитото от него имущество се предоставя в собстве­ ност на дружеството с акта за преобразуване, освен ако в него е предвидено друго.</p>
+            </content>
+          </paragraph>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Параграф 1 влиза в сила от деня на вписване в търговския регистър на еднолич­ ното търговско дружество по § 2, ал. 1.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

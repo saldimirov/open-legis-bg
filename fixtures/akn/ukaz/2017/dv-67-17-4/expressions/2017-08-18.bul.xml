@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2017/dv-67-17-4/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-67-17-4"/>
+          <FRBRalias value="Указ № 179 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="short"/>
+          <FRBRalias value="Указ № 179 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463," name="eli" other="/eli/bg/ukaz/2017/dv-67-17-4"/>
+          <FRBRdate date="2017-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="4"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2017/dv-67-17-4/bul@2017-08-18/main"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-67-17-4/bul@2017-08-18"/>
+          <FRBRdate date="2017-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2017/dv-67-17-4/bul@2017-08-18/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2017/dv-67-17-4/bul@2017-08-18.xml"/>
+          <FRBRdate date="2017-08-18" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2017-08-18" name="Държавен вестник" number="67" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/president" showAs="Президент на Републиката"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Указ № 179 На основание чл. 98, т. 1 от Конституцията на Република България във връзка с чл. 463,</p>
+    </preface>
+    <body>
+      <article eId="art_1">
+        <num>Чл. 6.</num>
+        <content>
+          <p>Със сумата по чл. 1, ал. 2, т. 5 да се увеличат разходите по „Политика в областта на отбранителните способности“, бюджетна програма „Военно-патриотично възпитание и военно-почивно дело“, по бюджета на Минис- терството на отбраната за 2017 г.</p>
+        </content>
+      </article>
+      <article eId="art_2">
+        <num>Чл. 7.</num>
+        <content>
+          <p>Първостепенните разпоредители с бюджет по чл. 1, ал. 2, т. 2 – 5 да извършат съответните промени по бюджетите си и да уведомят министъра на финансите.</p>
+        </content>
+      </article>
+      <article eId="art_3">
+        <num>Чл. 8.</num>
+        <content>
+          <p>Министърът на финансите да извърши налагащите се промени по централния бюджет, включително по бюджетните взаимоотношения на общините с централния бюджет за 2017 г. Заключителни разпоредби</p>
+        </content>
+      </article>
+      <hcontainer eId="sec_final" name="final-provisions">
+        <num>ЗАКЛЮЧИТЕЛНИ РАЗПОРЕДБИ</num>
+        <hcontainer eId="sec_final__par_1" name="modification">
+          <num>§ 1.</num>
+          <content>
+            <p>Постановлението се приема на основа- ние чл. 51, ал. 2 и чл. 109, ал. 3 от Закона за публичните финанси.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_2" name="modification">
+          <num>§ 2.</num>
+          <content>
+            <p>Постановлението влиза в сила от деня на обнародването му в „Държавен вестник“.</p>
+          </content>
+        </hcontainer>
+        <hcontainer eId="sec_final__par_3" name="modification">
+          <num>§ 3.</num>
+          <content>
+            <p>Изпълнението на постановлението се възлага на министъра на образованието и на- уката, на министъра на културата, на министъра на младежта и спорта, на министъра на отбра- ната и на кметовете на съответните общини.</p>
+          </content>
+        </hcontainer>
+      </hcontainer>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion">
+    <meta>
+      <identification source="#openlegis">
+        <FRBRWork>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-57/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-57"/>
+          <FRBRalias value="Решение № 123 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="short"/>
+          <FRBRalias value="Решение № 123 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА," name="eli" other="/eli/bg/reshenie/2012/dv-42-12-57"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRcountry value="bg"/>
+          <FRBRnumber value="57"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-57/bul@2012-06-05/main"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-57/bul@2012-06-05"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRlanguage language="bul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/bg/act/2012/dv-42-12-57/bul@2012-06-05/main.xml"/>
+          <FRBRuri value="/akn/bg/act/2012/dv-42-12-57/bul@2012-06-05.xml"/>
+          <FRBRdate date="2012-06-05" name="Generation"/>
+          <FRBRauthor href="#issuer"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="2012-06-05" name="Държавен вестник" number="42" showAs="ДВ"/>
+      <references source="#openlegis">
+        <TLCOrganization eId="issuer" href="/ontology/organization/bg/other" showAs="Друг орган"/>
+        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>
+      </references>
+    </meta>
+    <preface>
+      <p>Решение № 123 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА,</p>
+    </preface>
+    <body>
+      <section eId="sec_1">
+        <content>
+          <p>РЕШЕНИЕ № 123 от 24 април 2012 г. На основание чл. 21, ал. 1, т. 11 ЗМСМА, чл. 129, ал. 1, чл. 130, ал. 1, чл. 134, ал. 1, т. 1, ал. 2, т. 4 и 6 и чл. 136 ЗУТ Общинският съ­ вет – Разград, реши: 1. Одобрява проекта за изменението на план за регулация, с който се отстранява явна факти­ ческа грешка, като се дава номер 675 на квартала в граници ул. Цар Симеон, бул. България, бул. Априлско въстание и бул. Странджа и се обра­ зува един УПИ № І – „Жилищен комплекс“, от заличените парцели І – „Жилищен комплекс“ и ІІ – „Обществен гараж“. Изменят се външните уличнорегулационни линии по кафявите линии и поправки и се заличават вътрешнорегулаци­ онните линии на заличените парцели съгласно приложения проект, представляващ неразделна част от решението. 2. Одобрява проекта за план за застрояване на православен храм с възложител Русенската митрополия към Българската православна църква в УПИ І – „Жилищен комплекс“, в кв. 675 по плана на Разград съгласно приложения проект, представляващ неразделна част от решението. Решението подлежи на оспорване по реда на чл. 215 ЗУТ в 14-дневен срок от обнародването му в „Държавен вестник“ пред Административния съд – Разград. Председател: М. Цанева 5240 ОБЩИНА РАЗЛОГ</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
