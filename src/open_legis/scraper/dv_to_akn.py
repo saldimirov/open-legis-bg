@@ -7,138 +7,185 @@ from typing import Optional
 
 # --- Act type detection -------------------------------------------------------
 
-_TYPE_KEYWORDS: list[tuple[str, str]] = [
-    # Exclude maritime IMO codes and professional/conduct codes before generic kodeks match
-    ("КОДЕКС ЗА БЕЗОПАСНОСТ", "_other"),
-    ("КОДЕКС ЗА РАЗШИРЕНИ", "_other"),
-    ("КОДЕКС ЗА УПРАВЛЕНИЕ", "_other"),
-    ("КОДЕКС ЗА ПРЕВОЗ", "_other"),
-    ("КОДЕКС ЗА КОНСТРУКЦИЯТА", "_other"),
-    ("КОДЕКС ЗА ОДОБРЕНИЕ", "_other"),
-    ("КОДЕКС ЗА НИВАТА", "_other"),
-    ("КОДЕКС ЗА СИГУРНОСТ", "_other"),
-    ("КОДЕКС ЗА ПРИЛАГАНЕ", "_other"),
-    ("КОДЕКС НА ПОВЕДЕНИЕ", "_other"),
-    ("КОДЕКС ОТ 20", "_other"),  # "Кодекс от 2008 г."
-    ("КОДЕКС ЗА NOх", "_other"),
-    ("Кодекс за безопасност", "_other"),
-    ("Кодекс за разширени", "_other"),
-    ("Кодекс за управление на безопасността", "_other"),
-    ("Кодекс за превоз", "_other"),
-    ("Кодекс за конструкцията", "_other"),
-    ("Кодекс за одобрение", "_other"),
-    ("Кодекс за нивата", "_other"),
-    ("Кодекс за сигурност на корабите", "_other"),
-    ("Кодекс за прилагане на задължителните", "_other"),
-    ("Кодекс за разследване на морски", "_other"),
-    ("Кодекс за устойчивост", "_other"),
-    ("Кодекс за добра", "_other"),
-    ("Кодекс за поведение", "_other"),
-    ("Кодекс за признатите", "_other"),
-    ("Кодекс за признати", "_other"),
-    ("Кодекс за професионална", "_other"),
-    ("Кодекс ЗА ПОВЕДЕНИЕ", "_other"),
-    ("Кодекс ЗА БЕЗОПАСНОСТ", "_other"),
-    ("Кодекс ЗА РАЗШИРЕНИ", "_other"),
-    ("Кодекс НА ПОВЕДЕНИЕ", "_other"),
-    ("КОДЕКС", "kodeks"),
-    ("Кодекс", "kodeks"),
-    ("Закон за ратифициране", "ratifikatsiya"),
-    ("Закон за изменение и допълнение", "zid"),
-    ("Закон за допълнение", "zid"),
-    ("Закон за изменение", "zid"),
-    ("Закон за отмяна", "zid"),
-    ("Поправка", "zid"),
-    ("Закон за държавния бюджет", "byudjet"),
-    ("Закон за бюджета на", "byudjet"),
-    ("Закон за събирането на приходи и извършването на разходи", "byudjet"),
-    ("Закон за прилагане на разпоредби на Закона за държавния бюджет", "byudjet"),
-    ("ЗАКОН", "zakon"),
-    ("Закон", "zakon"),
-    ("НАРЕДБА", "naredba"),
-    ("Наредба", "naredba"),
-    ("ПОСТАНОВЛЕНИЕ", "postanovlenie"),
-    ("Постановление", "postanovlenie"),
-    ("ПРАВИЛНИК", "pravilnik"),
-    ("Правилник", "pravilnik"),
-    ("Решение за", "reshenie_ns"),
-    ("Решение на Народното събрание", "reshenie_ns"),
-    ("УКАЗ", "ukaz"),
-    ("Указ", "ukaz"),
-    # Regulatory decisions — matched before the generic _court catch below
-    ("Решение № РД-НС-04", "reshenie_nhif"),   # НЗОК (health insurance fund)
-    ("Решение № РД-НС-", "reshenie_nhif"),
-    ("Решение № ТПрГ", "reshenie_kevr"),        # КЕВР energy price regulation
-    ("Решение № ", "_court"),
-    ("Определение № ", "_court"),
-    ("Инструкция", "_other"),
-    ("Споразумение", "_other"),
+# Each entry: (keyword, act_type, issuer)
+# issuer="_detect" means: run _detect_reshenie_issuer on the full title
+_TYPE_KEYWORDS: list[tuple[str, str, str]] = [
+    # Kodeks exclusions — non-Bulgarian legislative codes (IMO, EU, professional)
+    ("КОДЕКС ЗА БЕЗОПАСНОСТ", "_other", "other"),
+    ("КОДЕКС ЗА РАЗШИРЕНИ", "_other", "other"),
+    ("КОДЕКС ЗА УПРАВЛЕНИЕ", "_other", "other"),
+    ("КОДЕКС ЗА ПРЕВОЗ", "_other", "other"),
+    ("КОДЕКС ЗА КОНСТРУКЦИЯТА", "_other", "other"),
+    ("КОДЕКС ЗА ОДОБРЕНИЕ", "_other", "other"),
+    ("КОДЕКС ЗА НИВАТА", "_other", "other"),
+    ("КОДЕКС ЗА СИГУРНОСТ", "_other", "other"),
+    ("КОДЕКС ЗА ПРИЛАГАНЕ", "_other", "other"),
+    ("КОДЕКС НА ПОВЕДЕНИЕ", "_other", "other"),
+    ("КОДЕКС ОТ 20", "_other", "other"),
+    ("КОДЕКС ЗА NOх", "_other", "other"),
+    ("Кодекс за безопасност", "_other", "other"),
+    ("Кодекс за разширени", "_other", "other"),
+    ("Кодекс за управление на безопасността", "_other", "other"),
+    ("Кодекс за превоз", "_other", "other"),
+    ("Кодекс за конструкцията", "_other", "other"),
+    ("Кодекс за одобрение", "_other", "other"),
+    ("Кодекс за нивата", "_other", "other"),
+    ("Кодекс за сигурност на корабите", "_other", "other"),
+    ("Кодекс за прилагане на задължителните", "_other", "other"),
+    ("Кодекс за разследване на морски", "_other", "other"),
+    ("Кодекс за устойчивост", "_other", "other"),
+    ("Кодекс за добра", "_other", "other"),
+    ("Кодекс за поведение", "_other", "other"),
+    ("Кодекс за признатите", "_other", "other"),
+    ("Кодекс за признати", "_other", "other"),
+    ("Кодекс за професионална", "_other", "other"),
+    ("Кодекс ЗА ПОВЕДЕНИЕ", "_other", "other"),
+    ("Кодекс ЗА БЕЗОПАСНОСТ", "_other", "other"),
+    ("Кодекс ЗА РАЗШИРЕНИ", "_other", "other"),
+    ("Кодекс НА ПОВЕДЕНИЕ", "_other", "other"),
+    ("КОДЕКС", "kodeks", "ns"),
+    ("Кодекс", "kodeks", "ns"),
+    ("кодекс", "kodeks", "ns"),   # lowercase — "Наказателен кодекс", "Морски кодекс"
+    # Laws
+    ("Закон за ратифициране", "ratifikatsiya", "ns"),
+    ("Закон за изменение и допълнение", "zid", "ns"),
+    ("Закон за допълнение", "zid", "ns"),
+    ("Закон за изменение", "zid", "ns"),
+    ("Закон за отмяна", "zid", "ns"),
+    ("Поправка", "zid", "ns"),
+    ("Закон за държавния бюджет", "byudjet", "ns"),
+    ("Закон за бюджета на", "byudjet", "ns"),
+    ("Закон за събирането на приходи и извършването на разходи", "byudjet", "ns"),
+    ("Закон за прилагане на разпоредби на Закона за държавния бюджет", "byudjet", "ns"),
+    ("ЗАКОН", "zakon", "ns"),
+    ("Закон", "zakon", "ns"),
+    # Constitution
+    ("КОНСТИТУЦИЯ", "konstitutsiya", "ns"),
+    ("Конституция", "konstitutsiya", "ns"),
+    # Executive instruments
+    ("НАРЕДБА", "naredba", "ms"),
+    ("Наредба", "naredba", "ms"),
+    ("ПОСТАНОВЛЕНИЕ", "postanovlenie", "ms"),
+    ("Постановление", "postanovlenie", "ms"),
+    ("ПРАВИЛНИК", "pravilnik", "ms"),
+    ("Правилник", "pravilnik", "ms"),
+    ("ИНСТРУКЦИЯ", "instruktsiya", "ministry"),
+    ("Инструкция", "instruktsiya", "ministry"),
+    ("ТАРИФА", "tarifa", "ms"),
+    ("Тарифа", "tarifa", "ms"),
+    ("ЗАПОВЕД", "zapoved", "ministry"),
+    ("Заповед", "zapoved", "ministry"),
+    # Presidential decrees
+    ("УКАЗ", "ukaz", "president"),
+    ("Указ", "ukaz", "president"),
+    # Declarations
+    ("ДЕКЛАРАЦИЯ", "deklaratsiya", "ns"),
+    ("Декларация", "deklaratsiya", "ns"),
+    # Treaties / international agreements
+    ("ДОГОВОР", "dogovor", "ns"),
+    ("Договор", "dogovor", "ns"),
+    ("СПОГОДБА", "dogovor", "ns"),
+    ("Спогодба", "dogovor", "ns"),
+    ("КОНВЕНЦИЯ", "dogovor", "ns"),
+    ("Конвенция", "dogovor", "ns"),
+    ("ПРОТОКОЛ", "dogovor", "ns"),
+    ("Протокол", "dogovor", "ns"),
+    ("МЕМОРАНДУМ", "dogovor", "ns"),
+    ("Меморандум", "dogovor", "ns"),
+    # Notices
+    ("СЪОБЩЕНИЕ", "saobshtenie", "ns"),
+    ("Съобщение", "saobshtenie", "ns"),
+    # Decisions — specific patterns first, then general catch-alls
+    ("Решение на Народното събрание", "reshenie", "ns"),
+    ("Решение на", "reshenie", "_detect"),   # КС, МС, ВАС, ВСС, БНБ, etc.
+    ("Решение за", "reshenie", "ns"),
+    ("Решение № РД-НС-04", "reshenie", "commission"),
+    ("Решение № РД-НС-", "reshenie", "commission"),
+    ("Решение № ТПрГ", "reshenie", "commission"),
+    ("Решение № ТПГ", "reshenie", "commission"),
+    ("Решение № ", "reshenie", "_detect"),
+    # Court rulings
+    ("ОПРЕДЕЛЕНИЕ", "opredelenie", "court"),
+    ("Определение № ", "opredelenie", "_detect"),
+    ("Определение", "opredelenie", "court"),
 ]
 
 LEGISLATIVE_TYPES = {
     "zakon", "zid", "byudjet", "kodeks", "naredba", "postanovlenie", "pravilnik",
-    "reshenie_ns", "reshenie_ks", "reshenie_ms", "reshenie_kevr", "reshenie_kfn", "reshenie_nhif",
-    "ratifikatsiya",
+    "reshenie", "ukaz", "instruktsiya", "tarifa", "zapoved", "deklaratsiya",
+    "opredelenie", "dogovor", "saobshtenie", "ratifikatsiya", "konstitutsiya",
 }
 
-_ISSUING_BODY: dict[str, str] = {
-    "zakon": "Народно събрание",
-    "zid": "Народно събрание",
-    "byudjet": "Народно събрание",
-    "kodeks": "Народно събрание",
-    "naredba": "Министерски съвет",
-    "postanovlenie": "Министерски съвет",
-    "pravilnik": "Министерски съвет",
-    "reshenie_ns": "Народно събрание",
-    "ratifikatsiya": "Народно събрание",
-    "ukaz": "Президент на Републиката",
-    "reshenie_ms": "Министерски съвет",
-    "reshenie_kevr": "Комисия за енергийно и водно регулиране",
-    "reshenie_kfn": "Комисия за финансов надзор",
-    "reshenie_nhif": "Национална здравноосигурителна каса",
+_ISSUER_DISPLAY: dict[str, str] = {
+    "ns":           "Народно събрание",
+    "ms":           "Министерски съвет",
+    "president":    "Президент на Републиката",
+    "ministry":     "Министерство",
+    "commission":   "Регулаторна комисия",
+    "agency":       "Агенция",
+    "court":        "Съд",
+    "ks":           "Конституционен съд",
+    "vas":          "Върховен административен съд",
+    "vss":          "Висш съдебен съвет",
+    "bnb":          "Българска народна банка",
+    "municipality": "Община",
+    "other":        "Друг орган",
 }
 
-# Regex for decision number suffixes/prefixes that indicate the issuing body
-_RESHENIE_SUFFIX_RE = re.compile(
-    r"^Решение\s+№\s+(?:ТПрГ|ТПГ)\b"
-    r"|^Решение\s+№\s+\S*-(?P<suffix>ОЗ|ЖЗ|ОЕ|ЕС|ЕО)\b"  # КЕВР electricity/gas
-    r"|^Решение\s+№\s+\S*-(?P<kfn>НИФ|ИП|УД|ДСИЦ|ПД|ОЗО|ЛУАИФ)\b"  # КФН financial
-    r"|^Решение\s+№\s+(?P<nhif>РД-НС-\d+)"                            # НЗОК health
-)
+# Ordered keyword → issuer table for reshenie / opredelenie with "_detect" issuer
+_RESHENIE_ISSUERS: list[tuple[str, str]] = [
+    ("Конституционния съд", "ks"),
+    ("Конституционен съд", "ks"),
+    ("Конституционния Съд", "ks"),
+    ("Върховния административен съд", "vas"),
+    ("Върховен административен съд", "vas"),
+    (" ВАС", "vas"),
+    ("Висш съдебен съвет", "vss"),
+    (" ВСС", "vss"),
+    ("Българска народна банка", "bnb"),
+    (" БНБ", "bnb"),
+    ("КЕВР", "commission"),
+    ("ДКЕВР", "commission"),
+    ("КФН", "commission"),
+    ("НЗОК", "commission"),
+    ("РД-НС-", "commission"),
+    ("ТПрГ", "commission"),
+    ("ТПГ", "commission"),
+    ("-ОЗ-", "commission"),
+    ("-ЖЗ-", "commission"),
+    ("-ОЕ-", "commission"),
+    ("Министерски съвет", "ms"),
+    (" МС №", "ms"),
+    ("Народното събрание", "ns"),
+    ("Народно събрание", "ns"),
+]
 
-# Keywords in concession/MS decision titles
-_MS_DECISION_RE = re.compile(
-    r"за предоставяне на концесия|"
-    r"за продължаване срока на разрешение|"
-    r"за даване на разрешение за прехвърляне|"
-    r"за удължаване срока на|"
-    r"за прекратяване на концесия",
-    re.IGNORECASE,
-)
+
+def _detect_reshenie_issuer(norm: str) -> str:
+    for keyword, issuer_slug in _RESHENIE_ISSUERS:
+        if keyword in norm:
+            return issuer_slug
+    return "other"
 
 
-def detect_act_type(title: str) -> str:
-    # Normalise non-breaking spaces for consistent keyword matching
-    norm = title.replace(" ", " ").replace(" ", " ")
-    # For "Решение №" run suffix regex BEFORE the generic _court catch in keywords
-    if "№" in title:
-        m = _RESHENIE_SUFFIX_RE.match(norm)
-        if m:
-            if m.group("nhif"):
-                return "reshenie_nhif"
-            return "reshenie_kevr" if m.group("suffix") else "reshenie_kfn"
-        if _MS_DECISION_RE.search(norm):
-            return "reshenie_ms"
-    for keyword, act_type in _TYPE_KEYWORDS:
+def detect_act_type(title: str) -> tuple[str, str]:
+    """Return (act_type, issuer) for the given title."""
+    # Normalise non-breaking spaces
+    norm = title.replace(" ", " ").replace(" ", " ")
+    for keyword, act_type, issuer in _TYPE_KEYWORDS:
         if norm.startswith(keyword):
-            return act_type
-    # Second pass: substring match, but skip kodeks and _other (too broad)
-    for keyword, act_type in _TYPE_KEYWORDS:
-        if act_type in ("kodeks", "_other"):
+            if issuer == "_detect":
+                issuer = _detect_reshenie_issuer(norm)
+            return act_type, issuer
+    # Second pass: substring match — skip only exclusion tokens
+    for keyword, act_type, issuer in _TYPE_KEYWORDS:
+        if act_type == "_other":
             continue
         if keyword in norm:
-            return act_type
-    return "_other"
+            if issuer == "_detect":
+                issuer = _detect_reshenie_issuer(norm)
+            return act_type, issuer
+    return "_other", "other"
 
 
 # --- Slug generation ----------------------------------------------------------
@@ -158,7 +205,6 @@ class ParsedSection:
     heading: Optional[str]
     paragraphs: list[str]
     children: list["ParsedSection"] = field(default_factory=list)
-
 
 
 
@@ -378,7 +424,7 @@ def _build_tree(tokens: list) -> list[ParsedSection]:
 
     _flush_heading()
 
-    # Fallback: pure prose (reshenie_ns, court decisions, etc.)
+    # Fallback: pure prose (reshenie, court decisions, etc.)
     if not root:
         prose = [t.rest for t in tokens if t.kind == TK.TEXT and t.rest]
         if prose:
@@ -441,6 +487,7 @@ def build_akn_xml(
     *,
     title: str,
     act_type: str,
+    issuer: str = "ns",
     slug: str,
     dv_year: int,
     dv_broy: int,
@@ -454,7 +501,7 @@ def build_akn_xml(
     eli = f"/eli/bg/{act_type}/{dv_year}/{slug}"
     akn_work = f"/akn/bg/act/{dv_year}/{slug}"
     akn_expr = f"{akn_work}/{language}@{expression_date}"
-    issuing_body = _ISSUING_BODY.get(act_type, "Народно събрание")
+    issuing_body = _ISSUER_DISPLAY.get(issuer, issuer)
 
     body_lines: list[str] = []
     for sec in sections:
@@ -476,7 +523,7 @@ def build_akn_xml(
         f'          <FRBRalias value="{_x(title)}" name="short"/>',
         f'          <FRBRalias value="{_x(title)}" name="eli" other="{eli}"/>',
         f'          <FRBRdate date="{adoption_date}" name="Generation"/>',
-        '          <FRBRauthor href="#parliament"/>',
+        '          <FRBRauthor href="#issuer"/>',
         '          <FRBRcountry value="bg"/>',
         f'          <FRBRnumber value="{dv_position}"/>',
         "        </FRBRWork>",
@@ -484,20 +531,20 @@ def build_akn_xml(
         f'          <FRBRthis value="{akn_expr}/main"/>',
         f'          <FRBRuri value="{akn_expr}"/>',
         f'          <FRBRdate date="{expression_date}" name="Generation"/>',
-        '          <FRBRauthor href="#parliament"/>',
+        '          <FRBRauthor href="#issuer"/>',
         f'          <FRBRlanguage language="{language}"/>',
         "        </FRBRExpression>",
         "        <FRBRManifestation>",
         f'          <FRBRthis value="{akn_expr}/main.xml"/>',
         f'          <FRBRuri value="{akn_expr}.xml"/>',
         f'          <FRBRdate date="{expression_date}" name="Generation"/>',
-        '          <FRBRauthor href="#parliament"/>',
+        '          <FRBRauthor href="#issuer"/>',
         '          <FRBRformat value="application/akn+xml"/>',
         "        </FRBRManifestation>",
         "      </identification>",
         f'      <publication date="{expression_date}" name="Държавен вестник" number="{dv_broy}" showAs="ДВ"/>',
         '      <references source="#openlegis">',
-        f'        <TLCOrganization eId="parliament" href="/ontology/organization/bg/NarodnoSabranie" showAs="{_x(issuing_body)}"/>',
+        f'        <TLCOrganization eId="issuer" href="/ontology/organization/bg/{issuer}" showAs="{_x(issuing_body)}"/>',
         '        <TLCPerson eId="openlegis" href="/ontology/person/openlegis" showAs="open-legis"/>',
         "      </references>",
         "    </meta>",
@@ -523,7 +570,7 @@ def convert_material(
 ) -> tuple[str, str]:
     from open_legis.scraper.dv_client import DvIssue as _DvIssue  # noqa: F401
 
-    act_type = detect_act_type(title)
+    act_type, issuer = detect_act_type(title)
     slug = make_slug(issue.broy, issue.year, position)
 
     pub_history = ""
@@ -536,6 +583,7 @@ def convert_material(
     xml = build_akn_xml(
         title=title,
         act_type=act_type,
+        issuer=issuer,
         slug=slug,
         dv_year=issue.year,
         dv_broy=issue.broy,

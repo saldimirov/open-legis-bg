@@ -10,22 +10,15 @@ from open_legis.validate import Issue, LayerResult
 _AKN_NS = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
 _NS = {"akn": _AKN_NS}
 
-_RESHENIE_BODY: list[tuple[str, str]] = [
-    ("Народното събрание", "reshenie_ns"),
-    ("Решение за", "reshenie_ns"),
-    ("ДКЕВР", "reshenie_kevr"),
-    ("КЕВР", "reshenie_kevr"),
-    ("КФН", "reshenie_kfn"),
-    ("РД-НС", "reshenie_nhif"),
-    ("Министерски съвет", "reshenie_ms"),
-]
-
-
-def _detect_reshenie_subtype(title: str) -> str | None:
-    for keyword, subtype in _RESHENIE_BODY:
-        if keyword in title:
-            return subtype
-    return None
+# Old compound reshenie_* fixture directories map to the new flat "reshenie" type
+_DIR_REMAP: dict[str, str] = {
+    "reshenie_ks":   "reshenie",
+    "reshenie_ns":   "reshenie",
+    "reshenie_ms":   "reshenie",
+    "reshenie_kevr": "reshenie",
+    "reshenie_kfn":  "reshenie",
+    "reshenie_nhif": "reshenie",
+}
 
 
 def check_classification(fixtures_root: Path) -> LayerResult:
@@ -37,7 +30,7 @@ def check_classification(fixtures_root: Path) -> LayerResult:
         parts = rel.split("/")
         if len(parts) < 4:
             continue
-        dir_act_type = parts[0]
+        dir_act_type = _DIR_REMAP.get(parts[0], parts[0])
 
         try:
             tree = etree.parse(str(f))
@@ -51,29 +44,7 @@ def check_classification(fixtures_root: Path) -> LayerResult:
         title = short_nodes[0].get("value", "")
         checked += 1
 
-        if dir_act_type.startswith("reshenie_"):
-            expected = _detect_reshenie_subtype(title)
-            if expected is None:
-                issues.append(Issue(
-                    severity="warn",
-                    code="RESHENIE_UNDETECTED",
-                    message=f"Cannot determine reshenie subtype from title: {title[:80]!r}",
-                    path=rel,
-                ))
-            elif expected != dir_act_type:
-                issues.append(Issue(
-                    severity="error",
-                    code="RESHENIE_WRONG_BODY",
-                    message=(
-                        f"Directory={dir_act_type!r} but body keywords suggest {expected!r}: "
-                        f"{title[:80]!r}"
-                    ),
-                    path=rel,
-                    detail=f"dir={dir_act_type}, body_suggests={expected}",
-                ))
-            continue  # reshenie handled; don't fall through to generic TYPE_MISMATCH
-
-        detected = detect_act_type(title)
+        detected, _ = detect_act_type(title)
 
         if detected == "_other":
             issues.append(Issue(
@@ -89,7 +60,7 @@ def check_classification(fixtures_root: Path) -> LayerResult:
                 severity="error",
                 code="TYPE_MISMATCH",
                 message=(
-                    f"Directory={dir_act_type!r} but title detects as {detected!r}: "
+                    f"Directory={parts[0]!r} but title detects as {detected!r}: "
                     f"{title[:80]!r}"
                 ),
                 path=rel,
@@ -103,7 +74,5 @@ def check_classification(fixtures_root: Path) -> LayerResult:
             "checked": checked,
             "mismatches": sum(1 for i in issues if i.code == "TYPE_MISMATCH"),
             "undetected": sum(1 for i in issues if i.code == "UNDETECTED"),
-            "reshenie_wrong_body": sum(1 for i in issues if i.code == "RESHENIE_WRONG_BODY"),
-            "reshenie_undetected": sum(1 for i in issues if i.code == "RESHENIE_UNDETECTED"),
         },
     )

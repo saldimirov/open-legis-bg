@@ -41,7 +41,7 @@ def process_issue_local(
     for position, (title, body) in enumerate(raw_materials, start=1):
         if not title:
             continue
-        act_type = detect_act_type(title)
+        act_type, _ = detect_act_type(title)
         if act_type not in allowed_types:
             continue
         key = (act_type, title.strip().lower()[:120])

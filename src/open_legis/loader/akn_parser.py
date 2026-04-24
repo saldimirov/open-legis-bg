@@ -31,6 +31,7 @@ class ParsedWork:
     dv_position: int
     adoption_date: Optional[dt.date]
     issuing_body: Optional[str]
+    issuer: Optional[str] = None
 
 
 @dataclass
@@ -111,6 +112,12 @@ def parse_akn_file(path: Path) -> ParsedAkn:
 
     issuer_el = _find_first(root, "//akn:references/akn:TLCOrganization")
     issuing_body = issuer_el.get("showAs") if issuer_el is not None else None
+    issuer: Optional[str] = None
+    if issuer_el is not None:
+        href = issuer_el.get("href", "")
+        slug = href.rsplit("/", 1)[-1] if "/" in href else ""
+        if slug and slug not in ("NarodnoSabranie",):  # skip old-style hrefs
+            issuer = slug
 
     act_type = _eli_act_type(eli_uri)
 
@@ -123,6 +130,7 @@ def parse_akn_file(path: Path) -> ParsedAkn:
         dv_position=dv_position,
         adoption_date=adoption_date,
         issuing_body=issuing_body,
+        issuer=issuer,
     )
 
     # Expression metadata
@@ -198,8 +206,20 @@ def _eli_to_title(eli: str) -> str:
     return eli.rstrip("/").rsplit("/", 1)[-1].replace("-", " ").title()
 
 
+# Remap old compound reshenie_* slugs to the flat "reshenie" type
+_ACT_TYPE_REMAP: dict[str, str] = {
+    "reshenie_ks":   "reshenie",
+    "reshenie_ns":   "reshenie",
+    "reshenie_ms":   "reshenie",
+    "reshenie_kevr": "reshenie",
+    "reshenie_kfn":  "reshenie",
+    "reshenie_nhif": "reshenie",
+}
+
+
 def _eli_act_type(eli: str) -> str:
     parts = eli.strip("/").split("/")
     if len(parts) < 3:
         raise ValueError(f"Cannot derive act_type from {eli!r}")
-    return parts[2].replace("-", "_")
+    raw = parts[2].replace("-", "_")
+    return _ACT_TYPE_REMAP.get(raw, raw)

@@ -131,7 +131,7 @@ def scrape_dv(
         title, body = get_material_text(mat.idMat)
         if not title:
             continue
-        act_type = detect_act_type(title)
+        act_type, _ = detect_act_type(title)
         if act_type not in allowed_types:
             typer.echo(f"  skip {act_type}: {title[:60]}")
             continue
@@ -173,7 +173,7 @@ def scrape_dv_batch(
     out: str = typer.Option("fixtures/akn", "--out"),
     index_file: str = typer.Option(".dv-index.json", "--index-file", help="Issue index cache"),
     load_after: bool = typer.Option(True, "--load/--no-load"),
-    types: str = typer.Option("zakon,kodeks", "--types"),
+    types: str = typer.Option("zakon,zid,byudjet,kodeks,ratifikatsiya", "--types"),
     resume: bool = typer.Option(True, "--resume/--no-resume", help="Skip already-scraped fixtures"),
     sleep: float = typer.Option(0.8, "--sleep", help="Seconds between requests"),
     local_dir: Optional[str] = typer.Option(None, "--local-dir", help="Local DV mirror directory; use local files instead of HTTP when available"),
@@ -288,7 +288,7 @@ def scrape_dv_batch(
 
             if not title:
                 continue
-            act_type = detect_act_type(title)
+            act_type, _ = detect_act_type(title)
             if act_type not in allowed_types:
                 continue
 

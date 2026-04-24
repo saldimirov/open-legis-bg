@@ -84,6 +84,13 @@ def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
             )
             return None
 
+    issuer = None
+    if p.work.issuer:
+        try:
+            issuer = m.Issuer(p.work.issuer)
+        except ValueError:
+            pass
+
     if work is None:
         work = m.Work(
             eli_uri=p.work.eli_uri,
@@ -94,6 +101,7 @@ def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
             dv_position=p.work.dv_position,
             adoption_date=p.work.adoption_date,
             issuing_body=p.work.issuing_body,
+            issuer=issuer,
             status=m.ActStatus.IN_FORCE,
         )
         session.add(work)
@@ -102,6 +110,8 @@ def _upsert(session: Session, p: ParsedAkn) -> Optional[int]:
         work.title = p.work.title
         work.adoption_date = p.work.adoption_date
         work.issuing_body = p.work.issuing_body
+        if issuer is not None:
+            work.issuer = issuer
 
     expr = session.scalars(
         select(m.Expression).where(

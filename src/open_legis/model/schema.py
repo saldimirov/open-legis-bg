@@ -30,13 +30,38 @@ class ActType(str, enum.Enum):
     PRAVILNIK = "pravilnik"
     POSTANOVLENIE = "postanovlenie"
     UKAZ = "ukaz"
+    RESHENIE = "reshenie"
+    INSTRUKTSIYA = "instruktsiya"
+    TARIFA = "tarifa"
+    ZAPOVED = "zapoved"
+    DEKLARATSIYA = "deklaratsiya"
+    OPREDELENIE = "opredelenie"
+    DOGOVOR = "dogovor"
+    SAOBSHTENIE = "saobshtenie"
+    RATIFIKATSIYA = "ratifikatsiya"
+    # Legacy compound reshenie_* values kept for DB backward compatibility
     RESHENIE_KS = "reshenie_ks"
     RESHENIE_NS = "reshenie_ns"
     RESHENIE_MS = "reshenie_ms"
-    RESHENIE_KEVR = "reshenie_kevr"   # Energy and Water Regulatory Commission
-    RESHENIE_KFN = "reshenie_kfn"     # Financial Supervision Commission
-    RESHENIE_NHIF = "reshenie_nhif"   # National Health Insurance Fund
-    RATIFIKATSIYA = "ratifikatsiya"
+    RESHENIE_KEVR = "reshenie_kevr"
+    RESHENIE_KFN = "reshenie_kfn"
+    RESHENIE_NHIF = "reshenie_nhif"
+
+
+class Issuer(str, enum.Enum):
+    NS = "ns"                   # Народно събрание
+    MS = "ms"                   # Министерски съвет
+    PRESIDENT = "president"     # Президент на Републиката
+    MINISTRY = "ministry"       # Министерство
+    COMMISSION = "commission"   # Регулаторна комисия (КЕВР, КФН, НЗОК …)
+    AGENCY = "agency"           # Агенция
+    COURT = "court"             # Съд (общо)
+    KS = "ks"                   # Конституционен съд
+    VAS = "vas"                 # Върховен административен съд
+    VSS = "vss"                 # Висш съдебен съвет
+    BNB = "bnb"                 # Българска народна банка
+    MUNICIPALITY = "municipality"
+    OTHER = "other"
 
 
 class ActStatus(str, enum.Enum):
@@ -112,6 +137,7 @@ class Work(Base):
     dv_year: Mapped[int] = mapped_column(Integer, nullable=False)
     dv_position: Mapped[int] = mapped_column(Integer, nullable=False)
     issuing_body: Mapped[Optional[str]] = mapped_column(Text)
+    issuer: Mapped[Optional[Issuer]] = mapped_column(Enum(Issuer, name="issuer"), nullable=True)
     status: Mapped[ActStatus] = mapped_column(Enum(ActStatus, name="act_status"), nullable=False)
 
     expressions: Mapped[list["Expression"]] = relationship(
