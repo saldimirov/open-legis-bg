@@ -38,7 +38,7 @@ def process_issue_local(
 
     # Dedup within issue: same (act_type, title prefix) → keep longest body
     seen: dict[tuple[str, str], tuple[int, str]] = {}
-    for position, (title, body) in enumerate(raw_materials, start=1):
+    for position, (title, body, _section, _category) in enumerate(raw_materials, start=1):
         if not title:
             continue
         act_type, _ = detect_act_type(title)

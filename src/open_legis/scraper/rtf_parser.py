@@ -102,8 +102,8 @@ def _clean(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
-def parse_rtf(path: Path) -> list[tuple[str, str]]:
-    """Return list of (title, body) for each legislative act in the RTF file."""
+def parse_rtf(path: Path) -> list[tuple[str, str, str, str | None]]:
+    """Return list of (title, body, section, category) for each legislative act in the RTF file."""
     text = _read_text(path)
     if not text:
         return []
@@ -129,13 +129,105 @@ def parse_rtf(path: Path) -> list[tuple[str, str]]:
     return _split_acts(lines[body_start:], toc_titles)
 
 
-def _split_acts(body_lines: list[str], toc_titles: list[str]) -> list[tuple[str, str]]:
-    """Split body lines on ALL-CAPS act headings and return (title, body) pairs."""
-    splits: list[tuple[int, str]] = []
+def _split_acts(
+    body_lines: list[str], toc_titles: list[str]
+) -> list[tuple[str, str, str, str | None]]:
+    """Split body lines on ALL-CAPS act headings.
+
+    Returns list of (title, body, section, category) where:
+      - section is "official" or "unofficial"
+      - category is None for official items; a title-cased sub-heading string
+        (e.g. "Съобщения") for unofficial items when detected
+    """
+    # --- Pass 1: collect unofficial items (blank-line splitting) ---
+    #
+    # We also track section state so we know which lines belong where.
+    # Official items are processed in a separate pass below using the original
+    # heading-accumulation + TOC-matching logic.
+
+    current_section: str = "official"
+    current_category: str | None = None
+    unofficial_items: list[tuple[str, str, str, str | None]] = []
+    unofficial_block: list[str] = []
+
+    def _flush_unofficial_block() -> None:
+        """Emit an unofficial item from the current buffer if long enough."""
+        block = [ln for ln in unofficial_block if ln]  # drop any embedded empties
+        if not block:
+            return
+        total = " ".join(block)
+        if len(total) >= 80:
+            title = block[0]
+            body = " ".join(block[1:]) if len(block) > 1 else block[0]
+            unofficial_items.append((title, body, "unofficial", current_category))
+        unofficial_block.clear()
+
     i = 0
     while i < len(body_lines):
         line = body_lines[i].strip()
-        if _CAPS_ACT.match(line) and not _SKIP_HEADERS.match(line):
+
+        if line == "ОФИЦИАЛЕН РАЗДЕЛ":
+            current_section = "official"
+            current_category = None
+            i += 1
+            continue
+
+        if line == "НЕОФИЦИАЛЕН РАЗДЕЛ":
+            _flush_unofficial_block()
+            current_section = "unofficial"
+            current_category = None
+            i += 1
+            continue
+
+        if current_section == "unofficial":
+            if not line:
+                _flush_unofficial_block()
+            elif _SKIP_HEADERS.match(line):
+                # Category sub-heading (e.g. СЪОБЩЕНИЯ, ПОКАНИ, ОБЯВЛЕНИЯ)
+                _flush_unofficial_block()
+                current_category = line.title()
+            else:
+                unofficial_block.append(line)
+            i += 1
+            continue
+
+        # Official section — nothing to do here; handled in pass 2
+        i += 1
+
+    _flush_unofficial_block()  # trailing block
+
+    # --- Pass 2: collect official items using original heading-accumulation logic ---
+    #
+    # We build a flat buffer of official-section lines and track split positions
+    # within that buffer, so TOC matching and body extraction work identically to
+    # the original implementation.
+
+    official_line_buf: list[str] = []
+    official_splits: list[tuple[int, str]] = []
+
+    current_section2: str = "official"
+    i = 0
+    while i < len(body_lines):
+        line = body_lines[i].strip()
+
+        if line == "ОФИЦИАЛЕН РАЗДЕЛ":
+            current_section2 = "official"
+            i += 1
+            continue
+        if line == "НЕОФИЦИАЛЕН РАЗДЕЛ":
+            current_section2 = "unofficial"
+            i += 1
+            continue
+
+        if current_section2 != "official":
+            i += 1
+            continue
+
+        if _SKIP_HEADERS.match(line):
+            i += 1
+            continue
+
+        if _CAPS_ACT.match(line):
             heading_parts = [line]
             j = i + 1
             while j < len(body_lines):
@@ -147,41 +239,48 @@ def _split_acts(body_lines: list[str], toc_titles: list[str]) -> list[tuple[str,
                     j += 1
                 else:
                     break
-            splits.append((i, " ".join(heading_parts)))
+            official_splits.append((len(official_line_buf), " ".join(heading_parts)))
+            for k in range(i, j):
+                official_line_buf.append(body_lines[k])
             i = j
         else:
+            official_line_buf.append(body_lines[i])
             i += 1
 
-    if not splits:
-        return []
+    if not official_splits:
+        return unofficial_items
 
-    raw: list[tuple[str, str]] = []
-    for idx, (line_idx, caps_heading) in enumerate(splits):
-        end_line = splits[idx + 1][0] if idx + 1 < len(splits) else len(body_lines)
-        body_chunk = _clean("\n".join(body_lines[line_idx:end_line]))
+    raw_official: list[tuple[str, str]] = []
+    for idx, (line_idx, caps_heading) in enumerate(official_splits):
+        end_line = official_splits[idx + 1][0] if idx + 1 < len(official_splits) else len(official_line_buf)
+        body_chunk = _clean("\n".join(official_line_buf[line_idx:end_line]))
 
         title = _match_toc_title(caps_heading, toc_titles) or _normalise_heading(caps_heading)
 
         body = body_chunk
         if body.startswith(caps_heading):
-            body = body[len(caps_heading):].lstrip(" \n")
+            stripped = body[len(caps_heading):].lstrip(" \n")
+            body = stripped if stripped else body_chunk
         elif body.lower().startswith(title[:30].lower()):
-            body = body[len(title):].lstrip(" \n")
+            stripped = body[len(title):].lstrip(" \n")
+            body = stripped if stripped else body_chunk
 
-        raw.append((title, body))
+        raw_official.append((title, body))
 
     # Merge consecutive chunks with the same title — repeated headings inside a doc body
-    materials: list[tuple[str, str]] = []
-    for title, body in raw:
-        if materials and materials[-1][0] == title:
-            materials[-1] = (title, (materials[-1][1] + " " + body).strip())
+    merged_official: list[tuple[str, str]] = []
+    for title, body in raw_official:
+        if merged_official and merged_official[-1][0] == title:
+            merged_official[-1] = (title, (merged_official[-1][1] + " " + body).strip())
         else:
-            materials.append((title, body))
+            merged_official.append((title, body))
 
     # Drop fragments with very little body text (< 80 chars) — likely split artifacts
-    materials = [(t, b) for t, b in materials if len(b) >= 80]
+    official_materials: list[tuple[str, str, str, str | None]] = [
+        (t, b, "official", None) for t, b in merged_official if len(b) >= 80
+    ]
 
-    return materials
+    return official_materials + unofficial_items
 
 
 def _normalise_heading(caps: str) -> str:
@@ -195,8 +294,11 @@ def _normalise_heading(caps: str) -> str:
     return f"{type_word} {rest}".strip()
 
 
-def parse_pdf(path: Path) -> list[tuple[str, str]]:
-    """Return list of (title, body) for each legislative act in the PDF file.
+def parse_pdf(path: Path) -> list[tuple[str, str, str, str | None]]:
+    """Return list of (title, body, section, category) for each legislative act in the PDF file.
+
+    PDF materials default to section="official" and category=None since pre-2003 RTFs
+    won't have section markers.
 
     Returns an empty list when the PDF uses an undecodable custom font encoding
     (typically pre-2000 issues) — caller should fall back to HTTP in that case.
@@ -224,7 +326,7 @@ def parse_pdf(path: Path) -> list[tuple[str, str]]:
     return _split_acts(text.splitlines(), toc_titles=[])
 
 
-def parse_local_issue(path: Path) -> list[tuple[str, str]]:
+def parse_local_issue(path: Path) -> list[tuple[str, str, str, str | None]]:
     """Dispatch to RTF or PDF parser based on file extension."""
     if path.suffix.lower() == ".rtf":
         return parse_rtf(path)

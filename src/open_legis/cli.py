@@ -373,7 +373,7 @@ def repair_bodies(
     typer.echo(f"Found {len(empty_fixtures)} empty-body fixtures")
 
     # Cache parsed local files — one parse per DV issue
-    _parsed_cache: dict[Path, list[tuple[str, str]]] = {}
+    _parsed_cache: dict[Path, list[tuple[str, str, str, str | None]]] = {}
 
     fixed = skipped = failed = 0
 
@@ -437,7 +437,7 @@ def repair_bodies(
         best_body = ""
         best_score = 0
         orig_prefix = orig_title.lower()[:60]
-        for mat_title, mat_body in materials:
+        for mat_title, mat_body, _section, _category in materials:
             mat_prefix = mat_title.lower()[:60]
             # Score: length of common prefix
             common = sum(1 for a, b in zip(orig_prefix, mat_prefix) if a == b)
