@@ -39,6 +39,54 @@ _SKIP_HEADERS = re.compile(
 
 _TOC_LINE = re.compile(r"^(.{10,}?)\s*\t\s*(\d+)\s*$")
 
+_DV_HEADER_LINE2 = re.compile(r"брой:\s*\d+.*стр\.\s*\d+", re.IGNORECASE)
+_WORD_BLOCK_START = re.compile(r"^\d+x\d+$")
+
+
+def _strip_dv_page_headers(lines: list[str]) -> list[str]:
+    """Remove DV page-break header lines (Държавен вестник + issue/page line)."""
+    result: list[str] = []
+    i = 0
+    while i < len(lines):
+        stripped = lines[i].strip()
+        if stripped == "Държавен вестник" and i + 1 < len(lines):
+            if _DV_HEADER_LINE2.search(lines[i + 1]):
+                i += 2
+                if i < len(lines) and _SKIP_HEADERS.match(lines[i].strip()):
+                    i += 1
+                continue
+        result.append(lines[i])
+        i += 1
+    return result
+
+
+def _strip_word_metadata(lines: list[str]) -> list[str]:
+    """Remove legacy Microsoft Word document-property blocks embedded in HTML."""
+    result: list[str] = []
+    i = 0
+    while i < len(lines):
+        if _WORD_BLOCK_START.match(lines[i].strip()):
+            j = i + 1
+            while j < min(i + 20, len(lines)):
+                if "MicrosoftInternetExplorer4" in lines[j]:
+                    i = j + 1
+                    break
+                j += 1
+            else:
+                result.append(lines[i])
+                i += 1
+            continue
+        result.append(lines[i])
+        i += 1
+    return result
+
+
+def _clean_body(lines: list[str]) -> list[str]:
+    """Apply all body-text cleaning passes in order."""
+    lines = _strip_dv_page_headers(lines)
+    lines = _strip_word_metadata(lines)
+    return lines
+
 
 def _read_text(path: Path) -> str:
     raw = path.read_bytes()
@@ -60,7 +108,7 @@ def parse_rtf(path: Path) -> list[tuple[str, str]]:
     if not text:
         return []
 
-    lines = text.splitlines()
+    lines = _clean_body(text.splitlines())
 
     # Phase 1: extract TOC titles
     toc_titles: list[str] = []
