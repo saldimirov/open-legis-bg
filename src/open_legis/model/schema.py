@@ -146,6 +146,9 @@ class Work(Base):
     external_ids: Mapped[list["ExternalId"]] = relationship(
         back_populates="work", cascade="all, delete-orphan"
     )
+    dv_items: Mapped[list["DvItem"]] = relationship(
+        back_populates="work", cascade="all, delete-orphan"
+    )
 
 
 class Expression(Base):
@@ -276,3 +279,24 @@ class ExternalId(Base):
     url: Mapped[Optional[str]] = mapped_column(Text)
 
     work: Mapped[Work] = relationship(back_populates="external_ids")
+
+
+class DvItem(Base):
+    __tablename__ = "dv_item"
+    __table_args__ = (UniqueConstraint("dv_year", "dv_broy", "dv_position"),)
+
+    id: Mapped[uuid.UUID] = _uuid_pk()
+    dv_year: Mapped[int] = mapped_column(Integer, nullable=False)
+    dv_broy: Mapped[int] = mapped_column(Integer, nullable=False)
+    dv_position: Mapped[int] = mapped_column(Integer, nullable=False)
+    section: Mapped[str] = mapped_column(Text, nullable=False)
+    category: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
+    title: Mapped[str] = mapped_column(Text, nullable=False)
+    body: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
+    work_id: Mapped[Optional[uuid.UUID]] = mapped_column(
+        UUID(as_uuid=True),
+        ForeignKey("work.id", ondelete="SET NULL"),
+        nullable=True,
+    )
+
+    work: Mapped[Optional["Work"]] = relationship("Work", back_populates="dv_items")
