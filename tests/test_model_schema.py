@@ -97,7 +97,6 @@ def test_element_unique_constraint(session: Session, engine):
 
 def test_dv_item_model(session, engine):
     from open_legis.model.schema import Base, DvItem
-    import uuid
     Base.metadata.create_all(engine)
     item = DvItem(
         dv_year=2026, dv_broy=36, dv_position=1,
@@ -109,3 +108,4 @@ def test_dv_item_model(session, engine):
     fetched = session.get(DvItem, item.id)
     assert fetched.section == "official"
     assert fetched.category == "НАРОДНО СЪБРАНИЕ"
+    assert fetched.work_id is None

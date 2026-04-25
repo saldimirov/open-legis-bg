@@ -147,7 +147,7 @@ class Work(Base):
         back_populates="work", cascade="all, delete-orphan"
     )
     dv_items: Mapped[list["DvItem"]] = relationship(
-        back_populates="work", cascade="all, delete-orphan"
+        back_populates="work", cascade="save-update, merge"
     )
 
 
