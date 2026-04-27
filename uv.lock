@@ -976,6 +976,8 @@ dev = [
 dev = [
     { name = "pdfminer-six" },
     { name = "pypdf" },
+    { name = "pytest" },
+    { name = "testcontainers" },
 ]
 
 [package.metadata]
@@ -1015,6 +1017,8 @@ provides-extras = ["dev"]
 dev = [
     { name = "pdfminer-six", specifier = ">=20260107" },
     { name = "pypdf", specifier = ">=6.10.2" },
+    { name = "pytest", specifier = ">=9.0.3" },
+    { name = "testcontainers", specifier = ">=4.14.2" },
 ]
 
 [[package]]
